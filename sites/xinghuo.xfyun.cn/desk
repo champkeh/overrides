@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en" translate="no">
+  <head>
+    <script>
+      window.addEventListener('beforeunload', () => {
+        debugger
+      })
+      
+    </script>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+    <meta name="keywords" content="讯飞星火,星火大模型,讯飞大模型,科大讯飞大语言模型,大语言模型,自然语言处理,人工智能大模型,认知智能大模型,AI聊天机器人,AI创作,知识增强大模型,大语言模型API,国内大模型公司"/>
+    <meta name="description" content="讯飞星火认知大模型，是由科大讯飞推出的新一代认知智能大模型，拥有跨领域的知识和语言理解能力，能够基于自然对话方式理解与执行任务，提供语言理解、知识问答、逻辑推理、数学题解答、代码理解与编写等多种能力。"/>
+    <meta name="author" content="科大讯飞股份有限公司"/>
+    <meta name="robots" content="index, follow"/>
+    <meta name="x5-orientation" content="portrait"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-touch-fullscreen" content="yes"/>
+    <meta name="fullscreen" content="yes"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="format-detection" content="telephone=no,address=no"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="white"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="baidu-site-verification" content="codeva-TOPwYeHq90"/>
+    <link rel="shortcut icon" type="image/x-icon" href="/spark-icon.ico">
+    <title>讯飞星火认知大模型-AI大语言模型-星火大模型-科大讯飞</title>
+    <script defer="defer" src="https://sso.xfyun.cn/SSOService/login/getcookies"></script>
+    <script defer="defer" src="/static/js/main.e6a8d02c.js"></script>
+    <link href="/static/css/main.f676cd2c.css" rel="stylesheet">
+  </head>
+  <script src="https://static.geetest.com/g5/gd.js"></script>
+  <script src="//static.mudu.tv/es6-promise/es6-promise.auto.min.js"></script>
+  <script>
+    window.FETCHER_SERVER_URL = "https:" === window.location.protocol ? "wss://fetcher.mudu.tv" : "ws://fetcher.mudu.tv"
+  </script>
+  <script src="//static.mudu.tv/fetcher/bundle.6d7aca164d2389e8bea6.js"></script>
+  <script src="//static.mudu.tv/static/websdk/sdk.js"></script>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script>
+      !function(e, t, a, n, s) {
+        e[n] = e[n] || [],
+        e[n].push({
+          "itm.start": (new Date).getTime(),
+          event: "itm.js"
+        });
+        var i = t.getElementsByTagName(a)[0]
+          , r = t.createElement(a);
+        r.async = !0,
+        r.src = "https://dt.xfyun.cn/itm.js/?id=ITM-5ad5f3a8",
+        i.parentNode.insertBefore(r, i)
+      }(window, document, "script", "ITM_dataLayer")
+    </script>
+    <script>
+      !function(n, e, r) {
+        var t = "IFlyCollector"
+          , o = e.getElementsByTagName(r)[0]
+          , i = e.createElement(r);
+        (n = window)[t] = {};
+        var a = n[t];
+        a._o = function(n) {
+          return function() {
+            (a._e = a._e || []).push([n, arguments])
+          }
+        }
+        ;
+        for (var c = ["init", "onEvent", "onError", "bindUser", "unbindUser", "updateCustomConfig"], l = 0; l < c.length; l++)
+          a[c[l]] = a._o.call(null, c[l]);
+        i.async = !0,
+        i.src = "/entry.js",
+        o.parentNode.insertBefore(i, o)
+      }(window, document, "script")
+    </script>
+    <script>
+      window.onload = function() {
+        IFlyCollector.init({
+          appId: "150b4dfebe",
+          host: window.location.host,
+          debug: "https:" !== window.location.protocol
+        }),
+        IFlyCollector.setAppVersion("1.4.0")
+      }
+    </script>
+    <script>
+      const params = new URLSearchParams(location.search)
+        , nrfcount = params.get("nrf");
+      params.get("nrf") && "undefined" != typeof sessionStorage && sessionStorage.setItem("nrf", nrfcount)
+    </script>
+  </body>
+</html>
