@@ -7647,49 +7647,51 @@ window.webpackJsonp.push(
                 }(_0x557e8b);
                 _0x3e6794['default'] = _0x56469b['a'];
             },
-            1126: function (_0x419889, _0x437f42, _0x3088eb) {
-                'use strict';
-                Object['defineProperty'](_0x437f42, '__esModule', {'value': !0x0});
-                var _0xc1cb = _0x344976(_0x3088eb(0x4f)), _0x2016a5 = _0x344976(_0x3088eb(0x117)),
-                    _0x240e8c = _0x344976(_0x3088eb(0x182)), _0x10d271 = _0x344976(_0x3088eb(0x29)),
-                    _0x5962d4 = _0x344976(_0x3088eb(0x3fe)), _0x8eb370 = _0x344976(_0x3088eb(0x177)),
-                    _0x2726bd = _0x344976(_0x3088eb(0x4c)), _0x452d12 = _0x344976(_0x3088eb(0x178)),
-                    _0xd54fca = _0x344976(_0x3088eb(0x36)), _0x4f8f9a = _0x344976(_0x3088eb(0x176)),
-                    _0x23b2b3 = _0x344976(_0x3088eb(0x60)), _0x1090e6 = _0x344976(_0x3088eb(0x3ff)),
-                    _0x52d4d6 = _0x344976(_0x3088eb(0x2e1)), _0x14aeb5 = _0x344976(_0x3088eb(0x30b)),
-                    _0x5f10b5 = _0x344976(_0x3088eb(0x480)), _0x5656d1 = _0x344976(_0x3088eb(0x4e)),
-                    _0x40127e = _0x1e2713(_0x3088eb(0x37)), _0x2c9cb7 = _0x1e2713(_0x3088eb(0x4b)),
-                    _0x575d51 = _0x3088eb(0x39),
-                    _0x251dd7 = _0x344976(_0x3088eb(0x116)), _0x3488c1 = _0x344976(_0x3088eb(0x2e3)),
-                    _0x37431f = _0x344976(_0x3088eb(0x4d)), _0x45326c = _0x344976(_0x3088eb(0x305)),
-                    _0xfd9975 = _0x344976(_0x3088eb(0x407)), _0x4f3d5f = _0x344976(_0x3088eb(0x481)),
-                    _0x3bea4d = _0x344976(_0x3088eb(0x63a)), _0x3429c5 = _0x344976(_0x3088eb(0x48f)),
-                    _0x55cf70 = _0x344976(_0x3088eb(0x63d)), _0x185de9 = _0x344976(_0x3088eb(0x499)),
-                    _0x16d0d4 = _0x344976(_0x3088eb(0x648)), _0x1bc0d8 = _0x344976(_0x3088eb(0x64a)),
-                    _0x3479e3 = _0x344976(_0x3088eb(0x409)), _0x1057f6 = _0x3088eb(0x63),
+
+            // reader
+            1126: function (module, exports, require) {
+                Object['defineProperty'](exports, '__esModule', {'value': !0x0});
+
+                var _0xc1cb = _0x344976(require(0x4f)), _0x2016a5 = _0x344976(require(0x117)),
+                    _0x240e8c = _0x344976(require(0x182)), _0x10d271 = _0x344976(require(0x29)),
+                    _0x5962d4 = _0x344976(require(0x3fe)), _0x8eb370 = _0x344976(require(0x177)),
+                    _0x2726bd = _0x344976(require(0x4c)), _0x452d12 = _0x344976(require(0x178)),
+                    _0xd54fca = _0x344976(require(0x36)), _0x4f8f9a = _0x344976(require(0x176)),
+                    _0x23b2b3 = _0x344976(require(0x60)), _0x1090e6 = _0x344976(require(0x3ff)),
+                    _0x52d4d6 = _0x344976(require(0x2e1)), _0x14aeb5 = _0x344976(require(0x30b)),
+                    _0x5f10b5 = _0x344976(require(0x480)), _0x5656d1 = _0x344976(require(0x4e)),
+                    _0x40127e = _0x1e2713(require(0x37)), _0x2c9cb7 = _0x1e2713(require(0x4b)),
+                    _0x575d51 = require(0x39),
+                    _0x251dd7 = _0x344976(require(0x116)), _0x3488c1 = _0x344976(require(0x2e3)),
+                    _0x37431f = _0x344976(require(0x4d)), _0x45326c = _0x344976(require(0x305)),
+                    _0xfd9975 = _0x344976(require(0x407)), _0x4f3d5f = _0x344976(require(0x481)),
+                    _0x3bea4d = _0x344976(require(0x63a)), _0x3429c5 = _0x344976(require(0x48f)),
+                    _0x55cf70 = _0x344976(require(0x63d)), _0x185de9 = _0x344976(require(0x499)),
+                    _0x16d0d4 = _0x344976(require(0x648)), _0x1bc0d8 = _0x344976(require(0x64a)),
+                    _0x3479e3 = _0x344976(require(0x409)), _0x1057f6 = require(0x63),
                     _0x1325ea = _0x344976(_0x1057f6),
-                    _0x5ba05e = _0x344976(_0x3088eb(0x62)), _0x1763f4 = _0x344976(_0x3088eb(0x4ab)),
-                    _0x1b2be4 = _0x344976(_0x3088eb(0x4ae)), _0x238814 = _0x344976(_0x3088eb(0x4b0)),
-                    _0x438aa0 = _0x344976(_0x3088eb(0x179)), _0x176929 = _0x344976(_0x3088eb(0x4b2)),
-                    _0x205d70 = _0x344976(_0x3088eb(0x4b5)), _0x4e1632 = _0x344976(_0x3088eb(0x40b)),
-                    _0x12f20c = _0x344976(_0x3088eb(0x4b8)), _0x2b34ae = _0x344976(_0x3088eb(0x4bb)),
-                    _0x469138 = _0x344976(_0x3088eb(0x4be)), _0x4d2b80 = _0x344976(_0x3088eb(0x4c1)),
-                    _0x427c36 = _0x344976(_0x3088eb(0x3b)), _0x3bc9f3 = _0x344976(_0x3088eb(0x3c)),
-                    _0x9861df = _0x344976(_0x3088eb(0x3d)), _0x4ec966 = _0x344976(_0x3088eb(0x3e)),
-                    _0x164e53 = _0x344976(_0x3088eb(0x3fb)), _0x27252b = _0x344976(_0x3088eb(0x38)),
-                    _0x10c70a = _0x344976(_0x3088eb(0x61)), _0x4c4faf = _0x344976(_0x3088eb(0x11d)),
-                    _0x379107 = _0x3088eb(0x483), _0x4c55ba = _0x1e2713(_0x3088eb(0x4c3)),
-                    _0x48b6ac = _0x344976(_0x3088eb(0x4c4)), _0x506fb8 = _0x344976(_0x3088eb(0x652)),
-                    _0x3f6897 = _0x3088eb(0x315), _0x4591a5 = _0x344976(_0x3088eb(0x47f)),
-                    _0x3240b4 = _0x344976(_0x3088eb(0x31c)), _0x11f9c2 = _0x1e2713(_0x3088eb(0x314)),
-                    _0x81033f = _0x1e2713(_0x3088eb(0x30c)), _0x5957c5 = _0x344976(_0x3088eb(0xc8)),
-                    _0x32d9a0 = _0x344976(_0x3088eb(0x416)), _0x5b7ff7 = _0x344976(_0x3088eb(0x4ac)),
-                    _0x5716ce = _0x344976(_0x3088eb(0x4cb)), _0x6db688 = _0x3088eb(0x18b),
-                    _0xe0476c = _0x344976(_0x3088eb(0x18)), _0x6c0c1a = _0x344976(_0x3088eb(0x4cf)),
-                    _0xb1ee0a = _0x344976(_0x3088eb(0x31)), _0x206522 = _0x344976(_0x3088eb(0x665)),
-                    _0x781d73 = (_0x344976(_0x3088eb(0x198)), _0x344976(_0x3088eb(0x667))),
-                    _0x2dd39a = _0x3088eb(0x312),
-                    _0xb5121b = _0x3088eb(0x403), _0xbf0fa4 = _0x344976(_0x3088eb(0x669));
+                    _0x5ba05e = _0x344976(require(0x62)), _0x1763f4 = _0x344976(require(0x4ab)),
+                    _0x1b2be4 = _0x344976(require(0x4ae)), _0x238814 = _0x344976(require(0x4b0)),
+                    _0x438aa0 = _0x344976(require(0x179)), _0x176929 = _0x344976(require(0x4b2)),
+                    _0x205d70 = _0x344976(require(0x4b5)), _0x4e1632 = _0x344976(require(0x40b)),
+                    _0x12f20c = _0x344976(require(0x4b8)), _0x2b34ae = _0x344976(require(0x4bb)),
+                    _0x469138 = _0x344976(require(0x4be)), _0x4d2b80 = _0x344976(require(0x4c1)),
+                    _0x427c36 = _0x344976(require(0x3b)), _0x3bc9f3 = _0x344976(require(0x3c)),
+                    _0x9861df = _0x344976(require(0x3d)), _0x4ec966 = _0x344976(require(0x3e)),
+                    _0x164e53 = _0x344976(require(0x3fb)), _0x27252b = _0x344976(require(0x38)),
+                    _0x10c70a = _0x344976(require(0x61)), _0x4c4faf = _0x344976(require(0x11d)),
+                    _0x379107 = require(0x483), _0x4c55ba = _0x1e2713(require(0x4c3)),
+                    _0x48b6ac = _0x344976(require(0x4c4)), _0x506fb8 = _0x344976(require(0x652)),
+                    _0x3f6897 = require(0x315), _0x4591a5 = _0x344976(require(0x47f)),
+                    _0x3240b4 = _0x344976(require(0x31c)), _0x11f9c2 = _0x1e2713(require(0x314)),
+                    _0x81033f = _0x1e2713(require(0x30c)), _0x5957c5 = _0x344976(require(0xc8)),
+                    _0x32d9a0 = _0x344976(require(0x416)), _0x5b7ff7 = _0x344976(require(0x4ac)),
+                    _0x5716ce = _0x344976(require(0x4cb)), _0x6db688 = require(0x18b),
+                    _0xe0476c = _0x344976(require(0x18)), _0x6c0c1a = _0x344976(require(0x4cf)),
+                    _0xb1ee0a = _0x344976(require(0x31)), _0x206522 = _0x344976(require(0x665)),
+                    _0x781d73 = (_0x344976(require(0x198)), _0x344976(require(0x667))),
+                    _0x2dd39a = require(0x312),
+                    _0xb5121b = require(0x403), _0xbf0fa4 = _0x344976(require(0x669));
 
                 function _0x1e2713(_0x169159) {
                     if (_0x169159 && _0x169159[_0x25c8('0x1c9')]) return _0x169159;
@@ -7702,27 +7704,28 @@ window.webpackJsonp.push(
                     return _0x25687e && _0x25687e['__esModule'] ? _0x25687e : {'default': _0x25687e};
                 }
 
-                var _0x60e348, _0x38d2a7, _0x75623f, _0x5a5d2d, _0x357fc6, _0x5163a0, _0x18d408 = _0x3088eb(0xcb),
-                    _0x328101 = _0x3088eb(0x66b), _0x3f7cfe = _0x3088eb(0x9), _0x5b60e9 = _0x3088eb(0x21),
-                    _0x4a07bc = _0x3088eb(0x3a), _0x27b5b0 = _0x3088eb(0x30d), _0x1c0991 = _0x3088eb(0x405),
-                    _0x456c68 = _0x3088eb(0x403)['decryption'], _0x1a85b4 = _0x3088eb(0x404),
+                var _0x60e348, _0x38d2a7, _0x75623f, _0x5a5d2d, _0x357fc6, _0x5163a0, _0x18d408 = require(0xcb),
+                    _0x328101 = require(0x66b), _0x3f7cfe = require(0x9), _0x5b60e9 = require(0x21),
+                    _0x4a07bc = require(0x3a), _0x27b5b0 = require(0x30d), _0x1c0991 = require(0x405),
+                    _0x456c68 = require(0x403)['decryption'], _0x1a85b4 = require(0x404),
                     _0x94132 = new _0xe0476c['default'](), _0x4ef40f = 'reader', _0x3d6407 = 'book',
                     _0x2fbefd = 'bookReview',
                     _0x25a008 = 0x0, _0x45e2d8 = 0x0, _0xe27990 = [], _0x4cbe2d = [], _0x1d4520 = [], _0x1fd388 = !0x1,
-                    _0x269590 = null, _0x5728b5 = [], _0x41abb5 = 0x1f4, _0x39b4c6 = 0x0, _0x5167c6 = null,
+                    timer = null, _0x5728b5 = [], _0x41abb5 = 0x1f4, _0x39b4c6 = 0x0, _0x5167c6 = null,
                     _0x35de2b = !0x1,
                     _0x2029bc = [], _0x10e1ba = [], _0x5163db = !0x1, _0x367975 = !0x1, _0x94f3db = 0x0,
                     _0x477859 = {'performance': !0x1, 'timing': !0x1, 'mark': !0x1, 'mutationObserver': !0x1};
-                _0x437f42['default'] = {
-                    'name': _0x4ef40f,
+
+                exports.default = {
+                    'name': 'reader',
                     'components': {
                         'ReaderGiftCardTips': _0xbf0fa4['default'],
                         'ReaderCommonDialog': _0x206522['default'],
                         'ReaderUnderLine': _0x781d73['default'],
-                        'ReaderTopStoriesBookInfo': _0x5716ce[_0x25c8('0x3a0')],
+                        'ReaderTopStoriesBookInfo': _0x5716ce.default,
                         'ReaderPdfViewer': _0x4f3d5f['default'],
                         'ReaderNotePanel': _0x506fb8['default'],
-                        'ReaderLoginGuide': _0x238814[_0x25c8('0x3a0')],
+                        'ReaderLoginGuide': _0x238814.default,
                         'ReaderBottomSettingPanel': _0x1bc0d8['default'],
                         'ReaderBottomBar': _0x16d0d4['default'],
                         'ReaderRenderContent': _0x185de9['default'],
@@ -7766,2674 +7769,2935 @@ window.webpackJsonp.push(
                         }
                     },
                     'created': function () {
-                        var _0x2cdd15 = this;
-                        if (_0x3f7cfe[_0x25c8('0x1bb')]) {
-                            var _0x26bc4f = this;
-                            this['$store']['registerModule'](_0x4ef40f, (0x0, _0x1090e6['default'])(), {'preserveState': !0x0}), this['$store']['registerModule'](_0x3d6407, (0x0, _0x52d4d6[_0x25c8('0x3a0')])(), {'preserveState': !0x0}), this[_0x25c8('0x471')][_0x25c8('0x2ed')](_0x2fbefd, (0x0, _0x14aeb5['default'])(), {'preserveState': !0x0}), this['$store']['registerModule']('performance', (0x0, _0x5f10b5['default'])()), this['$store']['commit'](_0x2c9cb7['UPDATE_READER_PAGE_CLIENT_TIMESTAMP'], parseInt(new Date()['getTime']() / 0x3e8)), this['restoreFontSizeLevel'](), (0x0, _0x438aa0['default'])(), (0x0, _0x176929['default'])(), (0x0, _0x205d70[_0x25c8('0x3a0')])(), (0x0, _0x4e1632['default'])(), (0x0, _0x12f20c[_0x25c8('0x3a0')])(), (0x0, _0x2b34ae[_0x25c8('0x3a0')])(), (0x0, _0x469138[_0x25c8('0x3a0')])(), ['contextmenu', 'dragstart', 'selectstart', 'select', 'copy', 'beforecopy'][_0x25c8('0x28d')](function (_0x63cdaf) {
-                                document[_0x25c8('0x300')](_0x63cdaf, function (_0x52f55b) {
-                                    var _0x463fbe = (_0x52f55b = _0x52f55b || window['event'])['target']['nodeName']['toLowerCase'](),
-                                        _0x3b058f = _0x52f55b['path'] || [];
-                                    _0x3f7cfe['inDevelopment']() && console[_0x25c8('0x2ee')]('event:\x20' + _0x63cdaf + _0x25c8('0x1c3') + _0x463fbe);
-                                    var _0x3b15dc = !0x0, _0x2fb375 = !0x1, _0x4d872b = void 0x0;
+                        var _this = this;
+                        if (_0x3f7cfe.isEnvClient) {
+                            let _this = this;
+                            this.$store.registerModule('reader', _0x1090e6.default(), {'preserveState': true})
+                            this.$store.registerModule('book', _0x52d4d6.default(), {'preserveState': true})
+                            this.$store.registerModule('bookReview', _0x14aeb5.default(), {'preserveState': true})
+                            this.$store.registerModule('performance', _0x5f10b5.default())
+                            this.$store.commit(_0x2c9cb7['UPDATE_READER_PAGE_CLIENT_TIMESTAMP'], Math.floor(new Date().getTime() / 1000))
+                            this.restoreFontSizeLevel()
+                            _0x438aa0.default()
+                            _0x176929.default()
+                            _0x205d70.default()
+                            _0x4e1632.default()
+                            _0x12f20c.default()
+                            _0x2b34ae.default()
+                            _0x469138.default()
+                            ;['contextmenu', 'dragstart', 'selectstart', 'select', 'copy', 'beforecopy'].forEach((event) => {
+                                document.addEventListener(event, function (evt) {
+                                    let _0x463fbe = (evt = evt || window.event).target.nodeName.toLowerCase(),
+                                        _0x3b058f = evt.path || [];
+                                    _0x3f7cfe.inDevelopment() && console[_0x25c8('0x2ee')]('event:\x20' + event + _0x25c8('0x1c3') + _0x463fbe);
+
+                                    var _0x3b15dc = true,
+                                        hasError = false,
+                                        errObj = undefined;
                                     try {
-                                        for (var _0x25eaf5, _0x2f5254 = (0x0, _0x4f8f9a['default'])(_0x3b058f); !(_0x3b15dc = (_0x25eaf5 = _0x2f5254['next']())[_0x25c8('0x1dd')]); _0x3b15dc = !0x0) {
+                                        for (var _0x25eaf5, _0x2f5254 = _0x4f8f9a.default(_0x3b058f); !(_0x3b15dc = (_0x25eaf5 = _0x2f5254.next()).done); _0x3b15dc = true) {
                                             var _0x5d1f11 = _0x25eaf5['value'];
-                                            if (_0x5d1f11['classList'] && _0x5d1f11['classList'][_0x25c8('0x61')]('readerReviewDetailPanel')) return;
+                                            if (_0x5d1f11.classList && _0x5d1f11.classList.contains('readerReviewDetailPanel')) {
+                                                return
+                                            }
                                         }
-                                    } catch (_0x3f7795) {
-                                        _0x2fb375 = !0x0, _0x4d872b = _0x3f7795;
+                                    } catch (err) {
+                                        hasError = true
+                                        errObj = err
                                     } finally {
                                         try {
                                             !_0x3b15dc && _0x2f5254['return'] && _0x2f5254['return']();
                                         } finally {
-                                            if (_0x2fb375) throw _0x4d872b;
+                                            if (hasError) throw errObj;
                                         }
                                     }
-                                    return !(!_0x5163db && 'textarea' !== _0x463fbe && 'input' !== _0x463fbe) || (_0x52f55b['preventDefault'] ? _0x52f55b['preventDefault']() : _0x52f55b['returnValue'] = !0x1, !0x1);
-                                }, !0x1);
-                            });
-                            var _0x272237 = _0x5b60e9[_0x25c8('0x15a')](this['handleClickPrevChapterIndex'], 0x1f4),
-                                _0x2355df = _0x5b60e9['throttle'](this['handleClickNextChapterIndex'], 0x1f4),
-                                _0x3ef0fd = {
-                                    'C': 0x43,
-                                    'U': 0x55,
-                                    'left': 0x25,
-                                    'up': 0x26,
-                                    'right': 0x27,
-                                    'down': 0x28,
-                                    'minusTop': 0xbd,
-                                    'minusNum': 0x6d,
-                                    'equals': 0xbb,
-                                    'plusNum': 0x6b,
-                                    'pageUp': 0x21,
-                                    'pageDown': 0x22
+
+                                    return !(!_0x5163db && 'textarea' !== _0x463fbe && 'input' !== _0x463fbe) || (evt.preventDefault ? evt.preventDefault() : evt['returnValue'] = false, false);
+                                }, false)
+                            })
+
+                            var _0x272237 = _0x5b60e9.throttle(this.handleClickPrevChapterIndex, 500),
+                                _0x2355df = _0x5b60e9.throttle(this.handleClickNextChapterIndex, 500),
+                                keyCodes = {
+                                    'C': 67,
+                                    'U': 85,
+                                    'left': 37,
+                                    'up': 38,
+                                    'right': 39,
+                                    'down': 40,
+                                    'minusTop': 189,
+                                    'minusNum': 109,
+                                    'equals': 187,
+                                    'plusNum': 107,
+                                    'pageUp': 33,
+                                    'pageDown': 34
                                 };
-                            _0x26bc4f[_0x25c8('0x441')](), _0x26bc4f['updatePerformanceMethodsCompatibility'](_0x477859), document['addEventListener'](_0x25c8('0x4b5'), function (_0x35080a) {
-                                var _0x142e84 = (_0x35080a = _0x35080a || window['event'])['target']['nodeName'][_0x25c8('0x23a')]();
+                            _this.performanceMethodsCheck()
+                            _this.updatePerformanceMethodsCompatibility(_0x477859)
+                            document.addEventListener('keydown', function (evt) {
+                                var _0x142e84 = (evt = evt || window['event'])['target']['nodeName'][_0x25c8('0x23a')]();
                                 if ('textarea' !== _0x142e84 && 'input' !== _0x142e84) {
-                                    var _0x1ec831 = _0x35080a['ctrlKey'] || _0x35080a['metaKey'];
-                                    switch (_0x35080a[_0x25c8('0x1a1')]) {
-                                        case _0x3ef0fd['C']:
-                                            _0x1ec831 && (_0x3f7cfe[_0x25c8('0x191')]() && _0x367975 && console['log']('插件自动复制已拦截'), !_0x26bc4f[_0x25c8('0x2df')](_0x2029bc) || _0x367975 || _0x35de2b || (_0x26bc4f['copyObjsText'](_0x2029bc), _0x26bc4f['clearSelection']()));
+                                    var _0x1ec831 = evt['ctrlKey'] || evt['metaKey'];
+                                    switch (evt[_0x25c8('0x1a1')]) {
+                                        case keyCodes['C']:
+                                            _0x1ec831 && (_0x3f7cfe[_0x25c8('0x191')]() && _0x367975 && console['log']('插件自动复制已拦截'), !_this[_0x25c8('0x2df')](_0x2029bc) || _0x367975 || _0x35de2b || (_this['copyObjsText'](_0x2029bc), _this['clearSelection']()));
                                             break;
-                                        case _0x3ef0fd['U']:
-                                            _0x1ec831 && _0x26bc4f['hasLogin'] && _0x26bc4f[_0x25c8('0x107')]() && (_0x26bc4f['underlineObjs'](_0x2029bc), _0x26bc4f['clearSelection']());
+                                        case keyCodes['U']:
+                                            _0x1ec831 && _this['hasLogin'] && _this[_0x25c8('0x107')]() && (_this['underlineObjs'](_0x2029bc), _this['clearSelection']());
                                             break;
-                                        case _0x3ef0fd['left']:
-                                            _0x272237(_0x35080a);
+                                        case keyCodes['left']:
+                                            _0x272237(evt);
                                             break;
-                                        case _0x3ef0fd['right']:
-                                            _0x2355df(_0x35080a);
+                                        case keyCodes['right']:
+                                            _0x2355df(evt);
                                             break;
-                                        case _0x3ef0fd[_0x25c8('0x23e')]:
-                                        case _0x3ef0fd[_0x25c8('0x24e')]:
-                                        case _0x3ef0fd['equals']:
-                                        case _0x3ef0fd['plusNum']:
-                                            if (_0x26bc4f['isWeiXin'] && _0x1ec831) return _0x35080a[_0x25c8('0x32c')](), void (document['body']['style']['zoom'] = '0');
+                                        case keyCodes[_0x25c8('0x23e')]:
+                                        case keyCodes[_0x25c8('0x24e')]:
+                                        case keyCodes['equals']:
+                                        case keyCodes['plusNum']:
+                                            if (_this['isWeiXin'] && _0x1ec831) return evt[_0x25c8('0x32c')](), void (document['body']['style']['zoom'] = '0');
                                             break;
-                                        case _0x3ef0fd[_0x25c8('0x1a0')]:
-                                            _0x35080a['preventDefault'](), _0x2cdd15['pageUp']();
+                                        case keyCodes[_0x25c8('0x1a0')]:
+                                            evt['preventDefault'](), _this['pageUp']();
                                             break;
-                                        case _0x3ef0fd['pageDown']:
-                                            _0x35080a['preventDefault'](), _0x2cdd15['pageDown']();
+                                        case keyCodes['pageDown']:
+                                            evt['preventDefault'](), _this['pageDown']();
                                     }
                                 }
-                            }), _0x26bc4f['$store'] && _0x26bc4f['$store']['state'] && _0x26bc4f['$store']['state'][_0x25c8('0x15f')] && _0x26bc4f['$store']['state']['reader']['currentChapter'] && _0x26bc4f['$route'] && _0x26bc4f['$route']['fullPath'] && history[_0x25c8('0x430')]({'curr': _0x26bc4f[_0x25c8('0x471')]['state']['reader']['currentChapter']}, '', _0x26bc4f['$route']['fullPath']), window['addEventListener']('popstate', function () {
-                                if (history && history[_0x25c8('0x1bd')] && history['state']['curr']) {
-                                    var _0x570526 = history['state'][_0x25c8('0x263')];
-                                    _0x570526 && _0x26bc4f['changeChapter']((0x0, _0xd54fca['default'])({}, _0x570526, {'pushStack': !0x0}));
+                            })
+                            if (_this.$store && _this.$store.state && _this.$store.state.reader && _this.$store.state.reader.currentChapter && _this.$route && _this.$route.fullPath) {
+                                history.replaceState({
+                                    'curr': _this.$store.state.reader.currentChapter
+                                }, '', _this.$route.fullPath)
+                            }
+                            window.addEventListener('popstate', function () {
+                                if (history && history.state && history.state.curr) {
+                                    var _0x570526 = history.state.curr;
+                                    _0x570526 && _this.changeChapter(_0xd54fca.default({}, _0x570526, {'pushStack': true}))
                                 }
-                            }, !0x1);
+                            }, false)
                         }
                     },
                     'mounted': function () {
-                        var _0x148fa0 = this;
-                        if (_0x3f7cfe['isEnvClient']) {
-                            this['botDetect'](), (0x0, _0x6c0c1a['default'])(), this[_0x25c8('0xd3')], this['user'] ? this['user']['vid'] : '';
-                            var _0x2d9e14 = this['$router'][_0x25c8('0x1ec')]['query'];
-                            _0x2d9e14 && _0x2d9e14['packetId'] && this['$store']['dispatch'](_0x40127e[_0x25c8('0x24a')], {'packetId': _0x2d9e14['packetId']}), _0x2d9e14 && _0x2d9e14[_0x25c8('0x262')] && this['hasLogin'] && this['$store'][_0x25c8('0x3cc')](_0x40127e['FETCH_INVITE_CODE'], {'inviteCode': _0x2d9e14[_0x25c8('0x262')]}), this['logOnClientMounted']();
-                            var _0x29f631 = _0x5b60e9[_0x25c8('0x4e')](_0x2d9e14, 'jumpType', ''),
-                                _0x2d7bce = _0x5b60e9['get'](_0x2d9e14, 'offset', 0x0);
-                            if (delete _0x2d9e14['jumpType'], delete _0x2d9e14['offset'], window['history'][_0x25c8('0x430')](null, null, window['location']['pathname'] + '?' + _0x5b60e9[_0x25c8('0x44d')](_0x2d9e14, function (_0x5aef00, _0x1656fb) {
-                                return _0x1656fb + '=' + _0x5aef00;
-                            })[_0x25c8('0x142')]('&')), this['$store']['dispatch'](_0x40127e['REPORT_TRANSFORM_PDF']), _0x251dd7[_0x25c8('0x3a0')]['actualTreatBookAsPdf'](this['bookInfo'])) return void this['$store']['dispatch'](_0x40127e['FETCH_READER_PDF_URL']);
-                            if (!_0x251dd7['default']['isLegacyReaderSupportBook'](this[_0x25c8('0xc6')])) return void (this['unsupported'] = !0x0);
-                            var _0x573fd0 = this;
-                            _0x37431f['default'][_0x25c8('0x3ce')](window, null, function (_0x336936) {
-                                var _0x488c5c = _0x336936[_0x25c8('0x2fe')], _0x5b7db2 = _0x336936[_0x25c8('0x438')],
-                                    _0x4687d2 = _0x336936['scrollHeight'];
-                                if (_0x573fd0 && !_0x573fd0['clientHeight'] && (_0x573fd0[_0x25c8('0x2fe')] = _0x488c5c), _0x573fd0['scrollTop'] = _0x5b7db2, _0x573fd0['$footerNote'] && _0x573fd0['$footerNote']['hide'](), _0x573fd0['tryToHideMenu'](), _0x573fd0['$refs'][_0x25c8('0x21e')] && _0x573fd0['$refs']['readerCatalog']['isShowing']() || _0x573fd0['tryUpdateBottomBarClassList']({
-                                    'clientHeight': _0x488c5c,
-                                    'scrollTop': _0x5b7db2,
-                                    'scrollHeight': _0x4687d2
-                                }), _0x573fd0['isShowBottomSettingPanel'] && (_0x573fd0['isShowBottomSettingPanel'] = !0x1), _0x1d4520['length'] > 0x0) {
-                                    for (var _0x5001d4 = null, _0x5d5ce5 = 0x0, _0x4db96f = _0x1d4520['length']; _0x5d5ce5 < _0x4db96f; _0x5d5ce5++) {
-                                        var _0x1d5438 = _0x1d4520[_0x5d5ce5];
-                                        if (!(_0x1d5438['offsetTop'] < _0x5b7db2)) break;
+                        let _this = this;
+                        if (_0x3f7cfe.isEnvClient) {
+                            this.botDetect()
+                            _0x6c0c1a.default()
+
+                            const query = this.$router.currentRoute.query;
+                            query && query.packetId && this.$store.dispatch(_0x40127e['FETCH_ENCOURAGE_MONEY'], {'packetId': query.packetId})
+                            query && query.inviteCode && this.hasLogin && this.$store.dispatch(_0x40127e['FETCH_INVITE_CODE'], {'inviteCode': query.inviteCode})
+                            this.logOnClientMounted();
+
+                            let jumpType = _0x5b60e9.get(query, 'jumpType', ''),
+                                offset = _0x5b60e9.get(query, 'offset', 0);
+                            delete query.jumpType
+                            delete query.offset
+                            window.history.replaceState(null, null, window.location.pathname + '?' + _0x5b60e9.map(query, (val, key) => key + '=' + val).join('&'))
+                            this.$store.dispatch(_0x40127e['REPORT_TRANSFORM_PDF'])
+                            if (_0x251dd7.default.actualTreatBookAsPdf(this.bookInfo)) {
+                                this.$store.dispatch(_0x40127e['FETCH_READER_PDF_URL'])
+                                return
+                            }
+                            if (!_0x251dd7.default.isLegacyReaderSupportBook(this[_0x25c8('0xc6')])) {
+                                this.unsupported = true
+                                return
+                            }
+
+                            _0x37431f.default.handleElementScrollEvent(window, null, function (evt) {
+                                let clientHeight = evt['clientHeight'],
+                                    scrollTop = evt['scrollTop'],
+                                    scrollHeight = evt['scrollHeight'];
+                                if (_this && !_this.clientHeight) {
+                                    _this.clientHeight = clientHeight
+                                }
+                                _this.scrollTop = scrollTop
+                                _this.$footerNote && _this.$footerNote.hide()
+                                _this.tryToHideMenu()
+                                if (!(_this.$refs.readerCatalog && _this.$refs.readerCatalog.isShowing())) {
+                                    _this.tryUpdateBottomBarClassList({
+                                        'clientHeight': clientHeight,
+                                        'scrollTop': scrollTop,
+                                        'scrollHeight': scrollHeight
+                                    })
+                                }
+                                if (_this.isShowBottomSettingPanel) {
+                                    _this.isShowBottomSettingPanel = false
+                                }
+                                if (_0x1d4520.length > 0) {
+                                    let _0x5001d4 = null
+                                    for (let i = 0; i < _0x1d4520.length; i++) {
+                                        var _0x1d5438 = _0x1d4520[i];
+                                        if (!(_0x1d5438.offsetTop < scrollTop)) {
+                                            break
+                                        }
                                         _0x5001d4 = _0x1d5438;
                                     }
-                                    _0x573fd0['currentChapterAnchor'] = _0x5001d4 ? _0x5001d4['anchor'] : '';
+                                    _this.currentChapterAnchor = _0x5001d4 ? _0x5001d4.anchor : '';
                                 }
-                            });
-                            var _0x3d1ba5 = document['documentElement'];
-                            _0x3d1ba5 && (_0x3d1ba5[_0x25c8('0x300')](_0x25c8('0x30a'), this['onContentMouseDown']), _0x3d1ba5['addEventListener']('mousemove', this[_0x25c8('0x44')]), _0x3d1ba5['addEventListener']('mouseup', this['onContentMouseUp']), _0x3d1ba5[_0x25c8('0x300')]('click', function (_0x5bcf67) {
-                                var _0x587710 = (_0x5bcf67 = _0x5bcf67 || window['event'])['target'],
-                                    _0x4a6294 = _0x587710[_0x25c8('0x24d')]['toLowerCase'](),
-                                    _0x48b1d0 = _0x5bcf67['target']['classList'], _0x2862ba = !0x0;
-                                ('a' === _0x4a6294 || '1' === _0x587710['getAttribute']('data-ignore-toolbar-update-hidden') || _0x48b1d0['contains']('reader_footer_note')) && (_0x2862ba = !0x1), _0x2862ba && (_0x148fa0['tryToHideMenu'](), _0x148fa0[_0x25c8('0x158')](), _0x573fd0[_0x25c8('0x234')] && (_0x573fd0['isShowBottomSettingPanel'] = !0x1));
-                                var _0x4f034b = _0x573fd0['$refs']['readerControls'];
-                                if (_0x4f034b && _0x4f034b[_0x25c8('0x386')]()) {
-                                    for (var _0x2a9102 = document[_0x25c8('0x2cd')](_0x25c8('0x3bb')), _0x3fef4f = !0x0, _0x572e94 = _0x587710; _0x2a9102 && _0x572e94 && _0x572e94 !== document[_0x25c8('0x5')];) {
-                                        if (_0x2a9102 && _0x2a9102 === _0x572e94) {
-                                            _0x3fef4f = !0x1;
-                                            break;
+                            })
+
+                            var htmlElement = document.documentElement;
+                            if (htmlElement) {
+                                htmlElement.addEventListener('mousedown', this.onContentMouseDown)
+                                htmlElement.addEventListener('mousemove', this.onContentMouseMove)
+                                htmlElement.addEventListener('mouseup', this.onContentMouseUp)
+                                htmlElement.addEventListener('click', function (_0x5bcf67) {
+                                    var _0x587710 = (_0x5bcf67 = _0x5bcf67 || window['event'])['target'],
+                                        _0x4a6294 = _0x587710[_0x25c8('0x24d')]['toLowerCase'](),
+                                        _0x48b1d0 = _0x5bcf67['target']['classList'], _0x2862ba = !0x0;
+                                    ('a' === _0x4a6294 || '1' === _0x587710['getAttribute']('data-ignore-toolbar-update-hidden') || _0x48b1d0['contains']('reader_footer_note')) && (_0x2862ba = !0x1), _0x2862ba && (_this['tryToHideMenu'](), _this[_0x25c8('0x158')](), _this[_0x25c8('0x234')] && (_this['isShowBottomSettingPanel'] = !0x1));
+                                    var _0x4f034b = _this['$refs']['readerControls'];
+                                    if (_0x4f034b && _0x4f034b[_0x25c8('0x386')]()) {
+                                        for (var _0x2a9102 = document[_0x25c8('0x2cd')](_0x25c8('0x3bb')), _0x3fef4f = !0x0, _0x572e94 = _0x587710; _0x2a9102 && _0x572e94 && _0x572e94 !== document[_0x25c8('0x5')];) {
+                                            if (_0x2a9102 && _0x2a9102 === _0x572e94) {
+                                                _0x3fef4f = !0x1;
+                                                break;
+                                            }
+                                            _0x572e94 = _0x572e94[_0x25c8('0x415')];
                                         }
-                                        _0x572e94 = _0x572e94[_0x25c8('0x415')];
+                                        _0x3fef4f && _0x4f034b['hideFontSizePanel']();
                                     }
-                                    _0x3fef4f && _0x4f034b['hideFontSizePanel']();
-                                }
-                                if (_0x573fd0['$isReviewDetailPanelShowing'] && _0x573fd0['$isReviewDetailPanelShowing']()) {
-                                    for (var _0x3b5d37 = document[_0x25c8('0xb9')]('readerReviewDetailPanel'), _0x1c68a9 = !0x0, _0x3024b8 = _0x587710; _0x3b5d37 && _0x3024b8 && _0x3024b8 !== document['body'];) {
-                                        if (_0x3b5d37 && _0x3b5d37 === _0x3024b8) {
-                                            _0x1c68a9 = !0x1;
-                                            break;
+                                    if (_this['$isReviewDetailPanelShowing'] && _this['$isReviewDetailPanelShowing']()) {
+                                        for (var _0x3b5d37 = document[_0x25c8('0xb9')]('readerReviewDetailPanel'), _0x1c68a9 = !0x0, _0x3024b8 = _0x587710; _0x3b5d37 && _0x3024b8 && _0x3024b8 !== document['body'];) {
+                                            if (_0x3b5d37 && _0x3b5d37 === _0x3024b8) {
+                                                _0x1c68a9 = !0x1;
+                                                break;
+                                            }
+                                            _0x3024b8 = _0x3024b8[_0x25c8('0x415')];
                                         }
-                                        _0x3024b8 = _0x3024b8[_0x25c8('0x415')];
+                                        _0x1c68a9 && _this[_0x25c8('0x4a3')]();
                                     }
-                                    _0x1c68a9 && _0x573fd0[_0x25c8('0x4a3')]();
-                                }
-                                if (_0x573fd0[_0x25c8('0xf0')] && _0x573fd0[_0x25c8('0xf0')]()) {
-                                    for (var _0x39033d = document['getElementById']('readerDictQueryPanel'), _0x21a218 = !0x0, _0x444f57 = _0x587710; _0x39033d && _0x444f57 && _0x444f57 !== document['body'];) {
-                                        if (_0x39033d && _0x39033d === _0x444f57) {
-                                            _0x21a218 = !0x1;
-                                            break;
+                                    if (_this[_0x25c8('0xf0')] && _this[_0x25c8('0xf0')]()) {
+                                        for (var _0x39033d = document['getElementById']('readerDictQueryPanel'), _0x21a218 = !0x0, _0x444f57 = _0x587710; _0x39033d && _0x444f57 && _0x444f57 !== document['body'];) {
+                                            if (_0x39033d && _0x39033d === _0x444f57) {
+                                                _0x21a218 = !0x1;
+                                                break;
+                                            }
+                                            _0x444f57 = _0x444f57['parentNode'];
                                         }
-                                        _0x444f57 = _0x444f57['parentNode'];
+                                        _0x21a218 && _this['$hideDictQueryPanel']();
                                     }
-                                    _0x21a218 && _0x573fd0['$hideDictQueryPanel']();
-                                }
-                                var _0x504ab5 = new Date()['getTime']() - _0x39b4c6 < 0x1f4;
-                                if (_0x504ab5) {
-                                    var _0x532593 = _0x148fa0['clientXY2RenderAreaXY']({
-                                        'x': _0x5bcf67['clientX'],
-                                        'y': _0x5bcf67['clientY']
-                                    });
-                                    if (_0x532593 && _0x5167c6) _0x504ab5 = Math['pow'](Math[_0x25c8('0x36')](Math[_0x25c8('0x461')](_0x532593['x'] - _0x5167c6['x']), 0x2) + Math[_0x25c8('0x36')](Math['abs'](_0x532593['y'] - _0x5167c6['y']), 0x2), 0.5) < 0xa;
-                                }
-                                _0x504ab5 && _0x148fa0['clearSelection']();
-                            }));
-                            var _0x26f4a6 = _0x5b60e9['throttle'](_0x573fd0['resizeToReCollect'], 0x3e8);
-                            window['onresize'] = _0x5b60e9['debounce'](function () {
-                                var _0x1b8d08 = _0x573fd0['$refs']['renderTargetContainerSibling'];
+                                    var _0x504ab5 = new Date()['getTime']() - _0x39b4c6 < 0x1f4;
+                                    if (_0x504ab5) {
+                                        var _0x532593 = _this['clientXY2RenderAreaXY']({
+                                            'x': _0x5bcf67['clientX'],
+                                            'y': _0x5bcf67['clientY']
+                                        });
+                                        if (_0x532593 && _0x5167c6) _0x504ab5 = Math['pow'](Math[_0x25c8('0x36')](Math[_0x25c8('0x461')](_0x532593['x'] - _0x5167c6['x']), 0x2) + Math[_0x25c8('0x36')](Math['abs'](_0x532593['y'] - _0x5167c6['y']), 0x2), 0.5) < 0xa;
+                                    }
+                                    _0x504ab5 && _this['clearSelection']();
+                                })
+                            }
+                            var _0x26f4a6 = _0x5b60e9.throttle(_this.resizeToReCollect, 1000);
+                            window.onresize = _0x5b60e9.debounce(function () {
+                                var _0x1b8d08 = _this['$refs']['renderTargetContainerSibling'];
                                 if (_0x1b8d08) {
                                     var _0x850775 = _0x1b8d08[_0x25c8('0x339')];
                                     _0x25a008 !== _0x850775 && _0x26f4a6(_0x850775);
                                 }
-                            }, 0xc8), this['loadTopReviews'](), this[_0x25c8('0x434')] && this['syncMyNote']({
+                            }, 200)
+                            this.loadTopReviews()
+                            this.isNeedShowMyNote && this.syncMyNote({
                                 'mark': 'sync',
                                 'bookmark': 'sync',
                                 'review': 'sync'
                             });
-                            var _0x503de4 = _0x2d9e14 && '1' === _0x2d9e14[_0x25c8('0x9e')] && 'topStories' !== _0x2d9e14[_0x25c8('0x2ad')],
-                                _0x1e21b3 = this[_0x25c8('0x315')]();
-                            _0x3f7cfe['inDevelopment']() && console['log']('this.checkHasValidRange():\x20' + this[_0x25c8('0x315')]()), this[_0x25c8('0x471')][_0x25c8('0x3cc')](_0x40127e['FETCH_READER_CHAPTER_CONTENT'], {'sc': this[_0x25c8('0x315')]() ? 0x1 : 0x0})[_0x25c8('0x2d0')](this[_0x25c8('0x5c')])['then'](function (_0x30c1c3) {
-                                if (_0x30c1c3 && _0x30c1c3['success']) {
-                                    if (_0x148fa0[_0x25c8('0x304')][_0x25c8('0x48')]) try {
-                                        _0x148fa0[_0x25c8('0x304')]['readerGiftCardTips']['init']();
-                                    } catch (_0x4c7e50) {
-                                        console['log'](_0x4c7e50);
+
+                            var _0x503de4 = query && '1' === query.autoscroll && 'topStories' !== query.wtype,
+                                _0x1e21b3 = this.checkHasValidRange();
+                            _0x3f7cfe.inDevelopment() && console['log']('this.checkHasValidRange():\x20' + this[_0x25c8('0x315')]())
+                            this.$store.dispatch(_0x40127e['FETCH_READER_CHAPTER_CONTENT'], {
+                                'sc': this.checkHasValidRange() ? 1 : 0
+                            }).then(this.layout).then((resp) => {
+                                if (resp && resp.success) {
+                                    if (_this.$refs.readerGiftCardTips) {
+                                        try {
+                                            _this.$refs.readerGiftCardTips.init()
+                                        } catch (err) {
+                                            console['log'](err);
+                                        }
                                     }
-                                    if (_0x25c8('0x432') === _0x29f631) _0x148fa0['scrollTo']({'chapterOffset': Number(_0x2d7bce)}); else if ('topStories' !== _0x148fa0[_0x25c8('0x28f')]['query']['wtype'] && !_0x1e21b3) {
-                                        var _0x43354c = _0x148fa0['currentChapter'],
-                                            _0x5e6666 = _0x148fa0[_0x25c8('0x27e')],
-                                            _0x540b1f = _0x5b60e9['get'](_0x5e6666, 'book.chapterUid', 0x0);
-                                        if (_0x43354c && _0x43354c[_0x25c8('0x17a')] === _0x540b1f && !_0x148fa0[_0x25c8('0x156')]) {
-                                            var _0x3fdce = _0x5b60e9['get'](_0x5e6666, 'book.chapterOffset', 0x0);
-                                            _0x148fa0['scrollTo']({
-                                                'chapterOffset': _0x3fdce,
+                                    if ('switchFormat' === jumpType) {
+                                        _this.scrollTo({'chapterOffset': Number(offset)})
+                                    } else if ('topStories' !== _this.$route.query.wtype && !_0x1e21b3) {
+                                        let currentChapter = _this.currentChapter,
+                                            progress = _this.progress,
+                                            chapterUid = _0x5b60e9.get(progress, 'book.chapterUid', 0);
+                                        if (currentChapter && currentChapter.chapterUid === chapterUid && !_this.isFromWeReadApp) {
+                                            let chapterOffset = _0x5b60e9.get(progress, 'book.chapterOffset', 0)
+                                            _this.scrollTo({
+                                                'chapterOffset': chapterOffset,
                                                 'ignoreWhenScrollToTop': !_0x503de4
-                                            });
-                                        } else _0x503de4 && _0x148fa0[_0x25c8('0x377')]();
+                                            })
+                                        } else {
+                                            _0x503de4 && _this.handleClickStartReading()
+                                        }
                                     }
-                                    _0x148fa0['hasLogin'] && _0x148fa0[_0x25c8('0x471')]['dispatch'](_0x40127e['UPDATE_READER_LOCAL_LAST_CHAPTER']), _0x148fa0[_0x25c8('0x42a')](), _0x148fa0['requestMemberCardPriceIfNeeded'](), _0x148fa0['checkIfShowMemberCardFreeReadingTips'](), _0x148fa0['handleLoginPendingActions'](), _0x148fa0['checkIfNeedRequestLoginQRCode']();
+                                    _this['hasLogin'] && _this.$store.dispatch(_0x40127e['UPDATE_READER_LOCAL_LAST_CHAPTER'])
+                                    _this.setupProgressReportOnDomReady()
+                                    _this.requestMemberCardPriceIfNeeded()
+                                    _this.checkIfShowMemberCardFreeReadingTips()
+                                    _this.handleLoginPendingActions()
+                                    _this.checkIfNeedRequestLoginQRCode()
                                 }
-                            })['catch'](function (_0xd28e22) {
-                                _0xd28e22 && _0xd28e22['isCustomError'] ? _0xd28e22['reason'] : _0x148fa0['logError']('Error\x20in\x20FETCH_READER_CHAPTER_CONTENT', _0xd28e22);
-                            }), this['autoSearchOnClientMounted'](), this[_0x25c8('0x3df')](), _0x2d9e14 && 'note' === _0x2d9e14['toolTip'] && this[_0x25c8('0x27d')]('note');
+                            }).catch((err) => {
+                                err && err['isCustomError'] ? err['reason'] : _this['logError']('Error\x20in\x20FETCH_READER_CHAPTER_CONTENT', err);
+                            })
+
+                            this.autoSearchOnClientMounted()
+                            this.initWaterMask()
+                            query && 'note' === query.toolTip && this.handleClickControls('note')
                         }
                     },
                     'beforeDestroy': function () {
-                        _0x269590 && clearTimeout(_0x269590);
+                        timer && clearTimeout(timer);
                     },
                     'destroyed': function () {
-                        this['$store']['unregisterModule'](_0x4ef40f), this['$store']['unregisterModule'](_0x3d6407), this['$store']['unregisterModule'](_0x2fbefd);
+                        this.$store.unregisterModule('reader')
+                        this.$store.unregisterModule('book')
+                        this.$store.unregisterModule('bookReview')
                     },
                     'data': function () {
                         return {
-                            'unsupported': !0x1,
+                            'unsupported': false,
                             'tempContent': '',
-                            'clientHeight': 0x0,
-                            'scrollTop': 0x0,
-                            'extLock': !0x1,
-                            'fontSizeLevel': 0x2,
-                            'fontSizeLevelCount': 0x7,
-                            'isShowPayWholeDialog': !0x1,
-                            'isShowPayChapterDialog': !0x1,
-                            'isShowBottomSettingPanel': !0x1,
-                            'isPhoneBottomBarActive': !0x0,
+                            'clientHeight': 0,
+                            'scrollTop': 0,
+                            'extLock': false,
+                            'fontSizeLevel': 2,
+                            'fontSizeLevelCount': 7,
+                            'isShowPayWholeDialog': false,
+                            'isShowPayChapterDialog': false,
+                            'isShowBottomSettingPanel': false,
+                            'isPhoneBottomBarActive': true,
                             'chapterContentHighLightBgHtml': '',
                             'chapterContentSelectionHtml': '',
                             'currentChapterAnchor': '',
-                            'renderTargetOffsetTop': 0x0,
-                            'renderContentsVersion': -0x1,
-                            'hasFetchMemberCardPrice': !0x1,
-                            'buyMemberCardButtonLine1': _0x25c8('0x39f'),
+                            'renderTargetOffsetTop': 0,
+                            'renderContentsVersion': -1,
+                            'hasFetchMemberCardPrice': false,
+                            'buyMemberCardButtonLine1': '会员卡 19元/月 · 百万好书免费读',
                             'buyMemberCardButtonLine2': '',
                             'loginGuideQRCodeImg': '',
-                            'isLoginGetUidError': !0x1,
-                            'isLoginGetInfoError': !0x1,
-                            'isLoginQRCodeLoading': !0x1,
-                            'autoLoadLoginQRCodeCount': 0x1,
-                            'isBalanceNeedAuth': !0x1,
+                            'isLoginGetUidError': false,
+                            'isLoginGetInfoError': false,
+                            'isLoginQRCodeLoading': false,
+                            'autoLoadLoginQRCodeCount': 1,
+                            'isBalanceNeedAuth': false,
                             'directPayStatusDefault': {
                                 'pollingTimer': null,
-                                'succeed': !0x1,
-                                'errored': !0x1,
+                                'succeed': false,
+                                'errored': false,
                                 'error': null,
                                 'orderId': null
                             },
                             'directPayStatus': {
                                 'pollingTimer': null,
-                                'succeed': !0x1,
-                                'errored': !0x1,
+                                'succeed': false,
+                                'errored': false,
                                 'error': null,
                                 'orderId': null
                             },
-                            'directPaySucceed': !0x1,
-                            'dangerMode': !0x1,
-                            'debug': {'offset': 0x0}
+                            'directPaySucceed': false,
+                            'dangerMode': false,
+                            'debug': {'offset': 0}
                         };
                     },
-                    'methods': (0x0, _0xd54fca[_0x25c8('0x3a0')])({
-                        'getRandomNumber': _0xb5121b['getRandomNumber'],
-                        'shiftString': _0xb5121b['shiftString']
-                    }, (0x0, _0x575d51[_0x25c8('0x48e')])({'updatePerformanceMethodsCompatibility': _0x2c9cb7['UPDATE_PERFORMANCE_METHODS_COMPATIBILITY']}), (0x0, _0x575d51['mapActions'])({
-                        'markCanvasPaintStart': _0x40127e['MARK_CANVAS_PAINT_START'],
-                        'markCanvasPaintEnd': _0x40127e['MARK_CANVAS_PAINT_END'],
-                        'markFirstPagePrerenderStart': _0x40127e['MARK_FIRST_PAGE_PRERENDER_START'],
-                        'markFirstPagePrerenderEnd': _0x40127e[_0x25c8('0x29c')],
-                        'markFirstPageRenderStart': _0x40127e['MARK_FIRST_PAGE_RENDER_START'],
-                        'markFirstPageRenderEnd': _0x40127e['MARK_FIRST_PAGE_RENDER_END']
-                    }), {
-                        'tryToHideMenu': function () {
-                            var _0x2375da = this['$refs'] && this['$refs']['reader_top_bar'];
-                            _0x2375da && _0x2375da['isMenuShowing'] && _0x2375da['handleHideMenu']();
+                    'methods': _0xd54fca.default(
+                        {
+                            'getRandomNumber': _0xb5121b.getRandomNumber,
+                            'shiftString': _0xb5121b.shiftString
                         },
-                        'tryUpdateBottomBarClassList': function (_0x5bc01e) {
-                            if (_0x3f7cfe['isEnvClient']) {
-                                if (this['isFromWeReadApp']) return;
-                                if (document['querySelector']('.readerBottomBar')) {
-                                    if (_0x5bc01e) {
-                                        var _0x11eb38 = _0x5bc01e['clientHeight'] || 0x0,
-                                            _0x2fe3a3 = _0x5bc01e['scrollTop'] || 0x0,
-                                            _0x379495 = _0x5bc01e['scrollHeight'] || 0x0;
-                                        return void (this['isPhoneBottomBarActive'] = _0x11eb38 + _0x2fe3a3 >= _0x379495 - 0x32);
-                                    }
-                                    this['isPhoneBottomBarActive'] = !this['isPhoneBottomBarActive'];
-                                }
-                            }
-                        },
-                        'handleTopWriteReviewClickEvent': function (_0x5bad78) {
-                            var _0x3e7858 = this, _0x101d88 = _0x5bad78['grade'];
-                            this[_0x25c8('0x2d4')] ? (this['reportClientBusiness']({'itemName': 'Web_Reader_WriteBookReview'}), this[_0x25c8('0xa1')]({
-                                'vid': this['user'][_0x25c8('0x188')] || 0x0,
-                                'bookId': this[_0x25c8('0xd3')],
-                                'grade': _0x101d88,
-                                'isPrivateUploadBook': this[_0x25c8('0x9a')]
-                            }, function () {
-                                _0x3e7858[_0x25c8('0x49')]('发表中...', -0x1);
-                            }, function (_0x3cfa1d) {
-                                var _0x23fd4d = _0x3cfa1d[_0x25c8('0xd3')], _0x5b8592 = _0x3cfa1d[_0x25c8('0x16e')],
-                                    _0x253b84 = _0x3cfa1d['newRatingLevel'], _0x127279 = _0x3cfa1d[_0x25c8('0x4a1')],
-                                    _0x56cebf = _0x3cfa1d['friendship'];
-                                _0x3e7858['$writeReviewDialog']['getIsSending']() || (_0x3e7858['$writeReviewDialog']['setIsSending'](!0x0), _0x3e7858['$writeReviewDialog']['setIsSendedSucc'](!0x0), _0x3e7858['$store']['dispatch'](_0x40127e['FETCH_BOOK_REVIEW_ADD'], {
-                                    'bookId': _0x23fd4d,
-                                    'content': _0x5b8592,
-                                    'newRatingLevel': _0x253b84,
-                                    'isPrivate': _0x127279,
-                                    'friendship': _0x56cebf
-                                })['then'](function (_0xb47529) {
-                                    var _0xe2ce1a = _0x5b60e9['get'](_0xb47529, 'data.reviewId', '');
-                                    _0xe2ce1a && _0xe2ce1a[_0x25c8('0x178')] > 0x0 ? (_0x3e7858[_0x25c8('0xa5')](), _0x3e7858['$toast']('发表成功'), _0x3e7858['$writeReviewDialog']['closeDialog'](), _0x3e7858['syncMyNote']({
-                                        'bookmark': '',
-                                        'review': 'append'
-                                    })) : (_0x3e7858['$hideToast'](), _0x3e7858[_0x25c8('0x49')]('发表失败，请重试')), _0x3e7858['$writeReviewDialog']['setIsSending'](!0x1), _0x3e7858['reportClientBusiness']({'itemName': 'Web_WriteBookReview_Succ'});
-                                })['catch'](function (_0x269b82) {
-                                    _0x3e7858['$hideToast'](), _0x3e7858['$toast'](_0x25c8('0x451')), _0x3e7858['$writeReviewDialog']['setIsSending'](!0x1), _0x3e7858['logInfo'](_0x25c8('0x26d') + _0x269b82);
-                                }));
-                            }, function () {
-                                var _0x6cc81f = _0x3e7858['$refs']['bookRatings'];
-                                _0x6cc81f && _0x6cc81f['refreshRatingsButtonStatus']();
-                            })) : this['$showLoginDialog']({
-                                'bottomTitle': '扫码登录微信读书',
-                                'bottomSubTitle': '登录后可以点评此书'
-                            });
-                        },
-                        'handleBookRatingsOpenBookReviews': function (_0x6f48e1) {
-                            var _0x5553c8 = _0x6f48e1['bookId'];
-                            this['displayTopTotalReviewList'] && this['displayTopTotalReviewList']['length'] > 0x0 ? (0x0, _0x5656d1['default'])(this['bookReviewURL'](_0x5553c8)) : this['$toast']('暂无精彩点评');
-                        },
-                        'onClickLogout': function () {
-                            return this['$store']['dispatch'](_0x40127e['FETCH_LOGOUT'])[_0x25c8('0x2d0')](function (_0x3eb221) {
-                                !_0x3eb221 || 0x1 !== _0x3eb221['success'] && -0x7da !== _0x3eb221['errCode'] && -0x7dc !== _0x3eb221['errCode'] && -0x7dd !== _0x3eb221['errCode'] || window['location']['reload']();
-                            });
-                        },
-                        'handleClickTopBarItem': function (_0x41b0e7) {
-                            switch (_0x41b0e7) {
-                                case'login':
-                                    return this['$showLoginDialog']();
-                                case'logout':
-                                    return this[_0x25c8('0x445')]();
-                                case'gotoShelf':
-                                    return this['onClickShelf']();
-                                case'addShelf':
-                                    return this['reportClientBusiness']({'itemName': _0x25c8('0x308')}), this['handleClickShelfButton']();
-                                case'firstChapter':
-                                    return this['handleClickFirstChapter']();
-                                case'switchFormat':
-                                    return this['handleClickSwitchFormat']();
-                            }
-                        },
-                        'handleClickSwitchFormat': function () {
-                            var _0x10793b = this;
-                            this['reportClientBusiness']({'itemName': 'Web_Reader_SwitchFormat'});
-                            var _0x452353 = this['computeProgressData']();
-                            this['$store']['dispatch'](_0x40127e['SWITCH_DYNAMIC_BOOK_FORMAT'], {'progressData': _0x452353})['then'](function (_0x17576b) {
-                                var _0x32c1ba = _0x17576b[_0x25c8('0x1b9')];
-                                console['log'](_0x32c1ba);
-                                var _0x4aee81 = _0x5b60e9['get'](_0x32c1ba, _0x25c8('0x17a'), -0x1),
-                                    _0x14e345 = _0x5b60e9['get'](_0x32c1ba, _0x25c8('0x169'), 0x0);
-                                if (!(_0x4aee81 < 0x0)) {
-                                    var _0x7c31f8 = _0x4a07bc['readerURL'](_0x10793b['bookId'], {
-                                        'chapterUid': _0x4aee81,
-                                        'jumpType': 'switchFormat',
-                                        'offset': _0x14e345
-                                    });
-                                    (0x0, _0x5656d1[_0x25c8('0x3a0')])(_0x7c31f8);
-                                }
-                            })['catch'](function (_0x40941e) {
-                                console[_0x25c8('0x2ee')](_0x40941e), _0x10793b[_0x25c8('0x49')](_0x25c8('0x5b'));
-                            });
-                        },
-                        'onClickShelf': function () {
-                            this['saveReportInfo'](_0x25c8('0x49a')), (0x0, _0x5656d1['default'])(_0x25c8('0x9b'));
-                        },
-                        'checkHasValidRange': function () {
-                            var _0x163095 = this['$route']['query'],
-                                _0x3ac20a = _0x5b60e9['get'](_0x163095, 'range', '');
-                            return /(\d+)-(\d+)/['test'](String(_0x3ac20a));
-                        },
-                        'parseAndClearQueryRange': function () {
-                            try {
-                                var _0xe246f9 = /(\d+)-(\d+)/, _0x282376 = this[_0x25c8('0x28f')]['query'],
-                                    _0x3feda1 = _0x5b60e9[_0x25c8('0x4e')](_0x282376, _0x25c8('0x374'), '');
-                                if (_0xe246f9['test'](String(_0x3feda1))) {
-                                    var _0x1472c5 = _0x3feda1['match'](_0xe246f9), _0x1c72f3 = parseInt(_0x1472c5[0x1]),
-                                        _0x29f0af = parseInt(_0x1472c5[0x2]);
-                                    if (_0x1c72f3 >= 0x0 && _0x29f0af >= 0x0) return this['$router'][_0x25c8('0x257')]({'query': (0x0, _0xd54fca['default'])({}, _0x282376, {'range': ''})}), {
-                                        'start': _0x1c72f3,
-                                        'end': _0x29f0af
-                                    };
-                                }
-                                return null;
-                            } catch (_0x2be30d) {
-                                return console['error'](_0x2be30d), null;
-                            }
-                        },
-                        'layout': (_0x5163a0 = (0x0, _0x452d12['default'])(_0x8eb370['default']['mark'](function _0x4d8a7f() {
-                            var _0x493de7 = this;
-                            return _0x8eb370['default']['wrap'](function (_0x378b89) {
-                                for (; ;) switch (_0x378b89['prev'] = _0x378b89[_0x25c8('0x4a5')]) {
-                                    case 0x0:
-                                        return _0x378b89[_0x25c8('0x4a5')] = 0x2, this['$store'][_0x25c8('0x3cc')](_0x40127e['FETCH_DANGER_MODE'], {'vid': this['user']['vid']});
-                                    case 0x2:
-                                        if (this['dangerMode'] = _0x378b89['sent'], _0x3f7cfe[_0x25c8('0x191')]() && console['log']('dangerMode', this['dangerMode']), _0x25c8('0x80') === this[_0x25c8('0x210')]) {
-                                            _0x378b89['next'] = 0x6;
-                                            break;
-                                        }
-                                        return _0x378b89['abrupt']('return', _0x2726bd['default']['reject']({
-                                            'isCustomError': !0x0,
-                                            'reason': 'ignoreLayoutWithWrongState'
-                                        }));
-                                    case 0x6:
-                                        return _0x378b89['abrupt']('return', this['waitForPreRender']()['then'](this[_0x25c8('0x450')])['then'](function () {
-                                            _0x493de7['needSerialProcess'] && _0x493de7[_0x25c8('0x202')]();
-                                            var _0x288d31 = _0x493de7['parseAndClearQueryRange']();
-                                            return _0x288d31 && _0x493de7['scrollTo']({
-                                                'chapterOffset': _0x288d31['start'],
-                                                'chapterOffsetEnd': _0x288d31['end'],
-                                                'highlight': !0x0
-                                            }), {'success': !0x0};
-                                        }));
-                                    case 0x7:
-                                    case'end':
-                                        return _0x378b89[_0x25c8('0xe2')]();
-                                }
-                            }, _0x4d8a7f, this);
-                        })), function () {
-                            return _0x5163a0['apply'](this, arguments);
+                        _0x575d51.mapMutations({
+                            'updatePerformanceMethodsCompatibility': _0x2c9cb7['UPDATE_PERFORMANCE_METHODS_COMPATIBILITY']
                         }),
-                        'eventProtect': function (_0xa88c31, _0x29c3d0) {
-                            try {
-                                _0x1a85b4['e'](_0xa88c31, function () {
-                                    _0x29c3d0 && _0x29c3d0();
-                                });
-                            } catch (_0x5361a8) {
-                                console['log'](_0x5361a8);
-                            }
-                        },
-                        'waitForPreRender': function () {
-                            var _0x29f8ad = this, _0x26e207 = this;
-                            return new _0x2726bd['default'](function (_0x567238) {
-                                try {
-                                    _0x29f8ad['markFirstPagePrerenderStart']();
-                                } catch (_0x15015d) {
-                                    _0x3f7cfe['inDevelopment']() && console['log'](_0x15015d);
-                                }
-                                var _0x320d55 = function () {
-                                    var _0x3c6f39 = _0x26e207[_0x25c8('0x304')]['renderTargetContainerSibling'],
-                                        _0x1e4d6 = _0x26e207['$refs']['preRenderContainer'];
-                                    if (!_0x3c6f39 || !_0x1e4d6) return _0x26e207['logError']('waitForPreRender-wait:\x20dom\x20is\x20not\x20exist:\x20target=' + !!_0x3c6f39 + ',prerender=' + !!_0x1e4d6 + ',state=' + _0x26e207['chapterContentState']), void _0x567238();
-                                    var _0x1b28ba = _0x1e4d6['getElementsByTagName']('img'),
-                                        _0x4a17d9 = _0x1b28ba['length'];
-                                    if (_0x4a17d9 > 0x0) {
-                                        for (var _0x340fb3 = 0x0; _0x340fb3 < _0x4a17d9; _0x340fb3++) {
-                                            var _0xce71e9 = _0x1b28ba[_0x340fb3], _0x54d2f7 = _0xce71e9['outerHTML'],
-                                                _0x487e74 = Math['min'](_0x3c6f39['offsetWidth'], _0xce71e9['parentNode']['offsetWidth']);
-                                            if (-0x1 !== _0x54d2f7[_0x25c8('0x7')]('data-w') && -0x1 !== _0x54d2f7['indexOf']('data-ratio')) {
-                                                var _0x4fdb40 = new RegExp('data-w=\x22(.*?)px\x22', 'ig');
-                                                _0x54d2f7['match'](_0x4fdb40);
-                                                var _0x483988 = RegExp['$1'],
-                                                    _0x43c87f = _0x483988 && _0x483988[_0x25c8('0x178')] > 0x0 ? parseInt(_0x483988) : 0x0;
-                                                if (new RegExp('data-w-new=\x22(.*?)px\x22', 'ig')['test'](_0x54d2f7)) {
-                                                    _0x4fdb40 = new RegExp('data-w-new=\x22(.*?)px\x22', 'ig'), _0x54d2f7['match'](_0x4fdb40);
-                                                    var _0x1ea946 = RegExp['$1'];
-                                                    _0x43c87f = _0x1ea946 && _0x1ea946[_0x25c8('0x178')] > 0x0 ? parseInt(_0x1ea946) : 0x0;
-                                                }
-                                                _0x4fdb40 = new RegExp('data-ratio=\x22(.*?)\x22', 'ig'), _0x54d2f7[_0x25c8('0xf')](_0x4fdb40);
-                                                var _0x13278e = RegExp['$1'],
-                                                    _0x33075e = _0x13278e && _0x13278e['length'] > 0x0 ? parseFloat(_0x13278e) : 0x0;
-                                                if (0x0 !== _0x43c87f && 0x0 !== _0x33075e) {
-                                                    var _0x2cb333 = _0xce71e9['getBoundingClientRect'](),
-                                                        _0x2c3223 = _0x43c87f / _0x33075e, _0x6181dd = _0x2c3223;
-                                                    if ((_0x4fdb40 = new RegExp('width[0-9]{2,3}', 'ig'))['test'](_0x54d2f7)) {
-                                                        _0x4fdb40 = new RegExp('width([0-9]{2,3})', 'ig'), _0x54d2f7['match'](_0x4fdb40);
-                                                        var _0x2291fa = RegExp['$1'],
-                                                            _0x4030bf = _0x2291fa && _0x2291fa['length'] > 0x0 ? parseInt(_0x2291fa) : 0x0;
-                                                        _0x4030bf > 0x0 && _0x4030bf <= 0x64 && (_0x43c87f *= (_0x6181dd = _0x487e74 * _0x4030bf / 0x64) / _0x2c3223);
-                                                    } else -0x1 !== _0x54d2f7['indexOf'](_0x25c8('0x280')) || -0x1 !== _0x54d2f7['indexOf']('bleed-pic') || _0xce71e9['parentNode']['classList'][_0x25c8('0x61')]('bleed-pic') ? _0x43c87f *= (_0x6181dd = _0x487e74) / _0x2c3223 : _0x2cb333['height'] > 0x1 ? _0x6181dd = (_0x43c87f = _0x2cb333['height']) / _0x33075e : _0x2cb333['width'] > 0x1 && (_0x43c87f *= (_0x6181dd = _0x2cb333['width']) / _0x2c3223);
-                                                    _0x6181dd > _0x487e74 && _0x487e74 > 0x1 && (_0x43c87f *= _0x487e74 / _0x6181dd, _0x6181dd = _0x487e74), _0xce71e9['style']['width'] = _0x6181dd + 'px', _0xce71e9[_0x25c8('0x3af')]['height'] = _0x43c87f + 'px';
-                                                } else _0x26e207['logInfo'](_0x25c8('0x13b') + _0x43c87f + '\x20ratio\x20=\x20' + _0x33075e), _0x3f7cfe['inDevelopment']() && alert('找\x20zhoon\x20看看\x20-\x20img\x20no\x20height\x20or\x20ratio');
-                                            } else _0x26e207[_0x25c8('0x101')](_0x25c8('0x388')), _0x3f7cfe['inDevelopment']() && alert('找\x20zhoon\x20看看\x20-\x20img\x20no\x20height\x20or\x20ratio');
+                        _0x575d51.mapActions({
+                            'markCanvasPaintStart': _0x40127e['MARK_CANVAS_PAINT_START'],
+                            'markCanvasPaintEnd': _0x40127e['MARK_CANVAS_PAINT_END'],
+                            'markFirstPagePrerenderStart': _0x40127e['MARK_FIRST_PAGE_PRERENDER_START'],
+                            'markFirstPagePrerenderEnd': _0x40127e['MARK_FIRST_PAGE_PRERENDER_END'],
+                            'markFirstPageRenderStart': _0x40127e['MARK_FIRST_PAGE_RENDER_START'],
+                            'markFirstPageRenderEnd': _0x40127e['MARK_FIRST_PAGE_RENDER_END']
+                        }),
+                        {
+                            'tryToHideMenu': function () {
+                                var _0x2375da = this['$refs'] && this['$refs']['reader_top_bar'];
+                                _0x2375da && _0x2375da['isMenuShowing'] && _0x2375da['handleHideMenu']();
+                            },
+                            'tryUpdateBottomBarClassList': function (_0x5bc01e) {
+                                if (_0x3f7cfe['isEnvClient']) {
+                                    if (this['isFromWeReadApp']) return;
+                                    if (document['querySelector']('.readerBottomBar')) {
+                                        if (_0x5bc01e) {
+                                            var _0x11eb38 = _0x5bc01e['clientHeight'] || 0x0,
+                                                _0x2fe3a3 = _0x5bc01e['scrollTop'] || 0x0,
+                                                _0x379495 = _0x5bc01e['scrollHeight'] || 0x0;
+                                            return void (this['isPhoneBottomBarActive'] = _0x11eb38 + _0x2fe3a3 >= _0x379495 - 0x32);
                                         }
-                                        _0x567238();
-                                    } else _0x567238();
-                                };
-
-                                function _0xcb2ac6() {
-                                    var _0x4e3c6a = _0x26e207['$refs']['renderTargetContainerSibling'],
-                                        _0x35b343 = _0x26e207['$refs']['preRenderContainer'];
-                                    if (_0x4e3c6a && _0x35b343) {
-                                        var _0x426bf3 = _0x4e3c6a['offsetWidth'];
-                                        _0x25a008 = _0x426bf3, _0x35b343['style'][_0x25c8('0x465')] = _0x426bf3 + 'px';
+                                        this['isPhoneBottomBarActive'] = !this['isPhoneBottomBarActive'];
                                     }
                                 }
-
-                                _0x26e207['$nextTick'](function () {
-                                    var _0x184e61 = _0x26e207[_0x25c8('0x304')]['renderTargetContainerSibling'],
-                                        _0x501025 = _0x26e207['$refs']['preRenderContainer'];
-                                    _0x45e2d8 = document && document[_0x25c8('0x3f6')] && document['body'] ? Math['min'](document['documentElement']['clientHeight'], document['body'][_0x25c8('0x2fe')]) : 0x0, _0x184e61 && _0x501025 ? (_0xcb2ac6(), _0x26e207[_0x25c8('0x34c')](function () {
-                                        _0x320d55();
-                                    })) : (_0x29f8ad['logError']('waitForPreRender-nextTick:\x20dom\x20is\x20not\x20exist:\x20target=' + !!_0x184e61 + ',prerender=' + !!_0x501025 + ',state=' + _0x26e207['chapterContentState']), _0x26e207['$nextTick'](function () {
-                                        _0xcb2ac6(), _0x26e207['$nextTick'](function () {
-                                            _0x320d55();
-                                        });
+                            },
+                            'handleTopWriteReviewClickEvent': function (_0x5bad78) {
+                                var _0x3e7858 = this, _0x101d88 = _0x5bad78['grade'];
+                                this[_0x25c8('0x2d4')] ? (this['reportClientBusiness']({'itemName': 'Web_Reader_WriteBookReview'}), this[_0x25c8('0xa1')]({
+                                    'vid': this['user'][_0x25c8('0x188')] || 0x0,
+                                    'bookId': this[_0x25c8('0xd3')],
+                                    'grade': _0x101d88,
+                                    'isPrivateUploadBook': this[_0x25c8('0x9a')]
+                                }, function () {
+                                    _0x3e7858[_0x25c8('0x49')]('发表中...', -0x1);
+                                }, function (_0x3cfa1d) {
+                                    var _0x23fd4d = _0x3cfa1d[_0x25c8('0xd3')], _0x5b8592 = _0x3cfa1d[_0x25c8('0x16e')],
+                                        _0x253b84 = _0x3cfa1d['newRatingLevel'],
+                                        _0x127279 = _0x3cfa1d[_0x25c8('0x4a1')],
+                                        _0x56cebf = _0x3cfa1d['friendship'];
+                                    _0x3e7858['$writeReviewDialog']['getIsSending']() || (_0x3e7858['$writeReviewDialog']['setIsSending'](!0x0), _0x3e7858['$writeReviewDialog']['setIsSendedSucc'](!0x0), _0x3e7858['$store']['dispatch'](_0x40127e['FETCH_BOOK_REVIEW_ADD'], {
+                                        'bookId': _0x23fd4d,
+                                        'content': _0x5b8592,
+                                        'newRatingLevel': _0x253b84,
+                                        'isPrivate': _0x127279,
+                                        'friendship': _0x56cebf
+                                    })['then'](function (_0xb47529) {
+                                        var _0xe2ce1a = _0x5b60e9['get'](_0xb47529, 'data.reviewId', '');
+                                        _0xe2ce1a && _0xe2ce1a[_0x25c8('0x178')] > 0x0 ? (_0x3e7858[_0x25c8('0xa5')](), _0x3e7858['$toast']('发表成功'), _0x3e7858['$writeReviewDialog']['closeDialog'](), _0x3e7858['syncMyNote']({
+                                            'bookmark': '',
+                                            'review': 'append'
+                                        })) : (_0x3e7858['$hideToast'](), _0x3e7858[_0x25c8('0x49')]('发表失败，请重试')), _0x3e7858['$writeReviewDialog']['setIsSending'](!0x1), _0x3e7858['reportClientBusiness']({'itemName': 'Web_WriteBookReview_Succ'});
+                                    })['catch'](function (_0x269b82) {
+                                        _0x3e7858['$hideToast'](), _0x3e7858['$toast'](_0x25c8('0x451')), _0x3e7858['$writeReviewDialog']['setIsSending'](!0x1), _0x3e7858['logInfo'](_0x25c8('0x26d') + _0x269b82);
                                     }));
+                                }, function () {
+                                    var _0x6cc81f = _0x3e7858['$refs']['bookRatings'];
+                                    _0x6cc81f && _0x6cc81f['refreshRatingsButtonStatus']();
+                                })) : this['$showLoginDialog']({
+                                    'bottomTitle': '扫码登录微信读书',
+                                    'bottomSubTitle': '登录后可以点评此书'
                                 });
-                            });
-                        },
-                        'collectPreRenderInfos': function () {
-                            var _0x56d374 = this, _0x255f93 = this;
-                            return new _0x2726bd['default'](function (_0x3270a8) {
-                                var _0x413bce = window['devicePixelRatio'],
-                                    _0x1c6939 = _0x255f93['$refs']['preRenderContainer'];
-                                if (!_0x1c6939) return _0x2726bd['default'][_0x25c8('0x190')](new Error(_0x25c8('0x38d')));
-                                var _0x2975ef = [];
-                                _0x255f93[_0x25c8('0x3e1')] && _0x255f93[_0x25c8('0x3e1')]['anchors'] && (_0x2975ef = _0x255f93[_0x25c8('0x3e1')]['anchors'][_0x25c8('0x44d')](function (_0x1e09f4) {
-                                    return _0x1e09f4['anchor'];
+                            },
+                            'handleBookRatingsOpenBookReviews': function (_0x6f48e1) {
+                                var _0x5553c8 = _0x6f48e1['bookId'];
+                                this['displayTopTotalReviewList'] && this['displayTopTotalReviewList']['length'] > 0x0 ? (0x0, _0x5656d1['default'])(this['bookReviewURL'](_0x5553c8)) : this['$toast']('暂无精彩点评');
+                            },
+                            'onClickLogout': function () {
+                                return this['$store']['dispatch'](_0x40127e['FETCH_LOGOUT'])[_0x25c8('0x2d0')](function (_0x3eb221) {
+                                    !_0x3eb221 || 0x1 !== _0x3eb221['success'] && -0x7da !== _0x3eb221['errCode'] && -0x7dc !== _0x3eb221['errCode'] && -0x7dd !== _0x3eb221['errCode'] || window['location']['reload']();
+                                });
+                            },
+                            'handleClickTopBarItem': function (_0x41b0e7) {
+                                switch (_0x41b0e7) {
+                                    case'login':
+                                        return this['$showLoginDialog']();
+                                    case'logout':
+                                        return this[_0x25c8('0x445')]();
+                                    case'gotoShelf':
+                                        return this['onClickShelf']();
+                                    case'addShelf':
+                                        return this['reportClientBusiness']({'itemName': _0x25c8('0x308')}), this['handleClickShelfButton']();
+                                    case'firstChapter':
+                                        return this['handleClickFirstChapter']();
+                                    case'switchFormat':
+                                        return this['handleClickSwitchFormat']();
+                                }
+                            },
+                            'handleClickSwitchFormat': function () {
+                                var _0x10793b = this;
+                                this['reportClientBusiness']({'itemName': 'Web_Reader_SwitchFormat'});
+                                var _0x452353 = this['computeProgressData']();
+                                this['$store']['dispatch'](_0x40127e['SWITCH_DYNAMIC_BOOK_FORMAT'], {'progressData': _0x452353})['then'](function (_0x17576b) {
+                                    var _0x32c1ba = _0x17576b[_0x25c8('0x1b9')];
+                                    console['log'](_0x32c1ba);
+                                    var _0x4aee81 = _0x5b60e9['get'](_0x32c1ba, _0x25c8('0x17a'), -0x1),
+                                        _0x14e345 = _0x5b60e9['get'](_0x32c1ba, _0x25c8('0x169'), 0x0);
+                                    if (!(_0x4aee81 < 0x0)) {
+                                        var _0x7c31f8 = _0x4a07bc['readerURL'](_0x10793b['bookId'], {
+                                            'chapterUid': _0x4aee81,
+                                            'jumpType': 'switchFormat',
+                                            'offset': _0x14e345
+                                        });
+                                        (0x0, _0x5656d1[_0x25c8('0x3a0')])(_0x7c31f8);
+                                    }
+                                })['catch'](function (_0x40941e) {
+                                    console[_0x25c8('0x2ee')](_0x40941e), _0x10793b[_0x25c8('0x49')](_0x25c8('0x5b'));
+                                });
+                            },
+                            'onClickShelf': function () {
+                                this['saveReportInfo'](_0x25c8('0x49a')), (0x0, _0x5656d1['default'])(_0x25c8('0x9b'));
+                            },
+                            'checkHasValidRange': function () {
+                                var _0x163095 = this['$route']['query'],
+                                    _0x3ac20a = _0x5b60e9['get'](_0x163095, 'range', '');
+                                return /(\d+)-(\d+)/['test'](String(_0x3ac20a));
+                            },
+                            'parseAndClearQueryRange': function () {
+                                try {
+                                    var _0xe246f9 = /(\d+)-(\d+)/, _0x282376 = this[_0x25c8('0x28f')]['query'],
+                                        _0x3feda1 = _0x5b60e9[_0x25c8('0x4e')](_0x282376, _0x25c8('0x374'), '');
+                                    if (_0xe246f9['test'](String(_0x3feda1))) {
+                                        var _0x1472c5 = _0x3feda1['match'](_0xe246f9),
+                                            _0x1c72f3 = parseInt(_0x1472c5[0x1]),
+                                            _0x29f0af = parseInt(_0x1472c5[0x2]);
+                                        if (_0x1c72f3 >= 0x0 && _0x29f0af >= 0x0) return this['$router'][_0x25c8('0x257')]({'query': (0x0, _0xd54fca['default'])({}, _0x282376, {'range': ''})}), {
+                                            'start': _0x1c72f3,
+                                            'end': _0x29f0af
+                                        };
+                                    }
+                                    return null;
+                                } catch (_0x2be30d) {
+                                    return console['error'](_0x2be30d), null;
+                                }
+                            },
+                            'layout': (_0x5163a0 = (0x0, _0x452d12['default'])(_0x8eb370['default']['mark'](function _0x4d8a7f() {
+                                var _0x493de7 = this;
+                                return _0x8eb370['default']['wrap'](function (_0x378b89) {
+                                    for (; ;) switch (_0x378b89['prev'] = _0x378b89[_0x25c8('0x4a5')]) {
+                                        case 0x0:
+                                            return _0x378b89[_0x25c8('0x4a5')] = 0x2, this['$store'][_0x25c8('0x3cc')](_0x40127e['FETCH_DANGER_MODE'], {'vid': this['user']['vid']});
+                                        case 0x2:
+                                            if (this['dangerMode'] = _0x378b89['sent'], _0x3f7cfe[_0x25c8('0x191')]() && console['log']('dangerMode', this['dangerMode']), _0x25c8('0x80') === this[_0x25c8('0x210')]) {
+                                                _0x378b89['next'] = 0x6;
+                                                break;
+                                            }
+                                            return _0x378b89['abrupt']('return', _0x2726bd['default']['reject']({
+                                                'isCustomError': !0x0,
+                                                'reason': 'ignoreLayoutWithWrongState'
+                                            }));
+                                        case 0x6:
+                                            return _0x378b89['abrupt']('return', this['waitForPreRender']()['then'](this[_0x25c8('0x450')])['then'](function () {
+                                                _0x493de7['needSerialProcess'] && _0x493de7[_0x25c8('0x202')]();
+                                                var _0x288d31 = _0x493de7['parseAndClearQueryRange']();
+                                                return _0x288d31 && _0x493de7['scrollTo']({
+                                                    'chapterOffset': _0x288d31['start'],
+                                                    'chapterOffsetEnd': _0x288d31['end'],
+                                                    'highlight': !0x0
+                                                }), {'success': !0x0};
+                                            }));
+                                        case 0x7:
+                                        case'end':
+                                            return _0x378b89[_0x25c8('0xe2')]();
+                                    }
+                                }, _0x4d8a7f, this);
+                            })), function () {
+                                return _0x5163a0['apply'](this, arguments);
+                            }),
+                            'eventProtect': function (_0xa88c31, _0x29c3d0) {
+                                try {
+                                    _0x1a85b4['e'](_0xa88c31, function () {
+                                        _0x29c3d0 && _0x29c3d0();
+                                    });
+                                } catch (_0x5361a8) {
+                                    console['log'](_0x5361a8);
+                                }
+                            },
+                            'waitForPreRender': function () {
+                                var _0x29f8ad = this, _0x26e207 = this;
+                                return new _0x2726bd['default'](function (_0x567238) {
+                                    try {
+                                        _0x29f8ad['markFirstPagePrerenderStart']();
+                                    } catch (_0x15015d) {
+                                        _0x3f7cfe['inDevelopment']() && console['log'](_0x15015d);
+                                    }
+                                    var _0x320d55 = function () {
+                                        var _0x3c6f39 = _0x26e207[_0x25c8('0x304')]['renderTargetContainerSibling'],
+                                            _0x1e4d6 = _0x26e207['$refs']['preRenderContainer'];
+                                        if (!_0x3c6f39 || !_0x1e4d6) return _0x26e207['logError']('waitForPreRender-wait:\x20dom\x20is\x20not\x20exist:\x20target=' + !!_0x3c6f39 + ',prerender=' + !!_0x1e4d6 + ',state=' + _0x26e207['chapterContentState']), void _0x567238();
+                                        var _0x1b28ba = _0x1e4d6['getElementsByTagName']('img'),
+                                            _0x4a17d9 = _0x1b28ba['length'];
+                                        if (_0x4a17d9 > 0x0) {
+                                            for (var _0x340fb3 = 0x0; _0x340fb3 < _0x4a17d9; _0x340fb3++) {
+                                                var _0xce71e9 = _0x1b28ba[_0x340fb3],
+                                                    _0x54d2f7 = _0xce71e9['outerHTML'],
+                                                    _0x487e74 = Math['min'](_0x3c6f39['offsetWidth'], _0xce71e9['parentNode']['offsetWidth']);
+                                                if (-0x1 !== _0x54d2f7[_0x25c8('0x7')]('data-w') && -0x1 !== _0x54d2f7['indexOf']('data-ratio')) {
+                                                    var _0x4fdb40 = new RegExp('data-w=\x22(.*?)px\x22', 'ig');
+                                                    _0x54d2f7['match'](_0x4fdb40);
+                                                    var _0x483988 = RegExp['$1'],
+                                                        _0x43c87f = _0x483988 && _0x483988[_0x25c8('0x178')] > 0x0 ? parseInt(_0x483988) : 0x0;
+                                                    if (new RegExp('data-w-new=\x22(.*?)px\x22', 'ig')['test'](_0x54d2f7)) {
+                                                        _0x4fdb40 = new RegExp('data-w-new=\x22(.*?)px\x22', 'ig'), _0x54d2f7['match'](_0x4fdb40);
+                                                        var _0x1ea946 = RegExp['$1'];
+                                                        _0x43c87f = _0x1ea946 && _0x1ea946[_0x25c8('0x178')] > 0x0 ? parseInt(_0x1ea946) : 0x0;
+                                                    }
+                                                    _0x4fdb40 = new RegExp('data-ratio=\x22(.*?)\x22', 'ig'), _0x54d2f7[_0x25c8('0xf')](_0x4fdb40);
+                                                    var _0x13278e = RegExp['$1'],
+                                                        _0x33075e = _0x13278e && _0x13278e['length'] > 0x0 ? parseFloat(_0x13278e) : 0x0;
+                                                    if (0x0 !== _0x43c87f && 0x0 !== _0x33075e) {
+                                                        var _0x2cb333 = _0xce71e9['getBoundingClientRect'](),
+                                                            _0x2c3223 = _0x43c87f / _0x33075e, _0x6181dd = _0x2c3223;
+                                                        if ((_0x4fdb40 = new RegExp('width[0-9]{2,3}', 'ig'))['test'](_0x54d2f7)) {
+                                                            _0x4fdb40 = new RegExp('width([0-9]{2,3})', 'ig'), _0x54d2f7['match'](_0x4fdb40);
+                                                            var _0x2291fa = RegExp['$1'],
+                                                                _0x4030bf = _0x2291fa && _0x2291fa['length'] > 0x0 ? parseInt(_0x2291fa) : 0x0;
+                                                            _0x4030bf > 0x0 && _0x4030bf <= 0x64 && (_0x43c87f *= (_0x6181dd = _0x487e74 * _0x4030bf / 0x64) / _0x2c3223);
+                                                        } else -0x1 !== _0x54d2f7['indexOf'](_0x25c8('0x280')) || -0x1 !== _0x54d2f7['indexOf']('bleed-pic') || _0xce71e9['parentNode']['classList'][_0x25c8('0x61')]('bleed-pic') ? _0x43c87f *= (_0x6181dd = _0x487e74) / _0x2c3223 : _0x2cb333['height'] > 0x1 ? _0x6181dd = (_0x43c87f = _0x2cb333['height']) / _0x33075e : _0x2cb333['width'] > 0x1 && (_0x43c87f *= (_0x6181dd = _0x2cb333['width']) / _0x2c3223);
+                                                        _0x6181dd > _0x487e74 && _0x487e74 > 0x1 && (_0x43c87f *= _0x487e74 / _0x6181dd, _0x6181dd = _0x487e74), _0xce71e9['style']['width'] = _0x6181dd + 'px', _0xce71e9[_0x25c8('0x3af')]['height'] = _0x43c87f + 'px';
+                                                    } else _0x26e207['logInfo'](_0x25c8('0x13b') + _0x43c87f + '\x20ratio\x20=\x20' + _0x33075e), _0x3f7cfe['inDevelopment']() && alert('找\x20zhoon\x20看看\x20-\x20img\x20no\x20height\x20or\x20ratio');
+                                                } else _0x26e207[_0x25c8('0x101')](_0x25c8('0x388')), _0x3f7cfe['inDevelopment']() && alert('找\x20zhoon\x20看看\x20-\x20img\x20no\x20height\x20or\x20ratio');
+                                            }
+                                            _0x567238();
+                                        } else _0x567238();
+                                    };
+
+                                    function _0xcb2ac6() {
+                                        var _0x4e3c6a = _0x26e207['$refs']['renderTargetContainerSibling'],
+                                            _0x35b343 = _0x26e207['$refs']['preRenderContainer'];
+                                        if (_0x4e3c6a && _0x35b343) {
+                                            var _0x426bf3 = _0x4e3c6a['offsetWidth'];
+                                            _0x25a008 = _0x426bf3, _0x35b343['style'][_0x25c8('0x465')] = _0x426bf3 + 'px';
+                                        }
+                                    }
+
+                                    _0x26e207['$nextTick'](function () {
+                                        var _0x184e61 = _0x26e207[_0x25c8('0x304')]['renderTargetContainerSibling'],
+                                            _0x501025 = _0x26e207['$refs']['preRenderContainer'];
+                                        _0x45e2d8 = document && document[_0x25c8('0x3f6')] && document['body'] ? Math['min'](document['documentElement']['clientHeight'], document['body'][_0x25c8('0x2fe')]) : 0x0, _0x184e61 && _0x501025 ? (_0xcb2ac6(), _0x26e207[_0x25c8('0x34c')](function () {
+                                            _0x320d55();
+                                        })) : (_0x29f8ad['logError']('waitForPreRender-nextTick:\x20dom\x20is\x20not\x20exist:\x20target=' + !!_0x184e61 + ',prerender=' + !!_0x501025 + ',state=' + _0x26e207['chapterContentState']), _0x26e207['$nextTick'](function () {
+                                            _0xcb2ac6(), _0x26e207['$nextTick'](function () {
+                                                _0x320d55();
+                                            });
+                                        }));
+                                    });
+                                });
+                            },
+
+                            'collectPreRenderInfos': function () {
+                                let _this = this
+                                return new _0x2726bd.default((resolve) => {
+                                    debugger
+                                    let devicePixelRatio = window.devicePixelRatio,
+                                        preRenderContainer = _this.$refs.preRenderContainer;
+                                    if (!preRenderContainer) {
+                                        return _0x2726bd.default.reject(new Error('can not found preRenderContainer reference'))
+                                    }
+                                    let _0x2975ef = [];
+                                    if (_this.currentChapter && _this.currentChapter.anchors) {
+                                        _0x2975ef = _this.currentChapter.anchors.map(_ => _.anchor)
+                                    }
+                                    let _0x1066db = _0x164e53.default.collect(preRenderContainer, {
+                                        'canvasMaxHeight': 4000 / devicePixelRatio,
+                                        'canvasMaxCount': 2
+                                    }, _0x2975ef, _0x45e2d8)
+                                    _0x1d4520 = _0x1066db.anchorsTop
+                                    let _0x487286 = _0x1066db.customStyle.join(' '),
+                                        _0x30be03 = _0x1066db.decoration,
+                                        _0x4b5454 = _0x1066db.splitHtml || {},
+                                        _0x1204b8 = _0x5b60e9.compact(_0x1066db.canvasPositions) || [],
+                                        _0x40f5bc = {
+                                            'canvasPositions': _0x1204b8,
+                                            'customStyleText': _0x487286,
+                                            'content': _0x4b5454,
+                                            'decorations': _0x30be03
+                                        },
+                                        _0x31c1be = '',
+                                        _0x30c305 = preRenderContainer.offsetWidth,
+                                        _0xbdd76d = []
+                                    for (let i = 0; i < _0x1204b8.length; i++) {
+                                        let _0x35cdd6 = _0x1204b8[i];
+                                        if (_0x35cdd6) {
+                                            _0xbdd76d.push(_0x35cdd6);
+                                            var _0x108c68 = _0x35cdd6.bottom - _0x35cdd6.top,
+                                                _0x19d01b = 'Windows' === _this.$store.state['OS'] ? 2 : 1;
+                                            console.log('Use canvas render ratio:', _0x19d01b)
+                                            _0x31c1be += '<canvas style="position:absolute;left:0;top:' + _0x35cdd6.top + 'px;width:' + _0x30c305 + 'px;height:' + _0x108c68 + 'px;" width=' + _0x30c305 * devicePixelRatio * _0x19d01b + ' height=' + _0x108c68 * devicePixelRatio * _0x19d01b + ' data-random="' + Math.random().toString(36).slice(2) + '"></canvas>';
+                                        }
+                                    }
+                                    _this.$store.commit(_0x2c9cb7['UPDATE_READER_CHAPTER_CANVAS_TARGET_HTML'], _0x31c1be)
+                                    _0x4cbe2d = _0x1066db.content || []
+                                    _0xe27990 = _0xbdd76d
+                                    _this['renderContentsVersion']++
+                                    _this.$store.commit(_0x2c9cb7['UPDATE_READER_CHAPTER_CONTENT_TARGET_HTML'], _0x40f5bc)
+                                    try {
+                                        _this.markFirstPagePrerenderEnd()
+                                        _this.markFirstPageRenderStart()
+                                    } catch (err) {
+                                        _0x3f7cfe.inDevelopment() && console.log(err);
+                                    }
+                                    _this.$store.commit(_0x2c9cb7['UPDATE_READER_CONTENT_STATE'], 'DONE')
+                                    _this.$nextTick(function () {
+                                        let rootHeight = _0x1066db['rootHeight'];
+                                        rootHeight <= 0 && _this.logInfo('render rootHeight error !!!');
+
+                                        let renderTargetContent = _this.$refs.renderTargetContent;
+                                        if (renderTargetContent) {
+                                            renderTargetContent.style.height = rootHeight + 'px';
+                                            let offsetWidth = renderTargetContent.offsetWidth,
+                                                renderTargetCanvasContainer = _this.$refs.renderTargetCanvasContainer;
+                                            if (renderTargetCanvasContainer) {
+                                                renderTargetCanvasContainer.style.width = offsetWidth + 'px'
+                                                renderTargetCanvasContainer.style.height = rootHeight + 'px'
+                                            }
+                                        }
+                                        _this.drawSomeTexts()
+                                        _this.bindVideoEvent();
+                                        let renderTargetContainer = _this.$refs.renderTargetContainer;
+                                        if (renderTargetContainer) {
+                                            _this.renderTargetOffsetTop = renderTargetContainer.offsetTop
+                                        }
+                                        resolve()
+                                    })
+                                });
+                            },
+                            'clearDrawTexts': function () {
+                                var _0x2c878f = this['$refs']['renderTargetCanvasContainer'];
+                                if (_0x2c878f) for (var _0x253cc3 = _0x2c878f[_0x25c8('0xaf')]('canvas'), _0x5f045a = 0x0, _0x406e1f = _0x253cc3['length']; _0x5f045a < _0x406e1f; _0x5f045a++) {
+                                    var _0x27d11b = _0x253cc3[_0x5f045a], _0x5add2e = _0x27d11b['ctx'];
+                                    _0x5add2e || (_0x5add2e = _0x27d11b['getContext']('2d')), _0x5add2e && _0x5add2e['clearRect'](0x0, 0x0, _0x27d11b['width'], _0x27d11b['height']);
+                                }
+                            },
+                            'drawSomeTexts': function () {
+                                try {
+                                    this['markCanvasPaintStart']();
+                                } catch (_0x260ba5) {
+                                    _0x3f7cfe['inDevelopment']() && console['log'](_0x260ba5);
+                                }
+                                var _0x39366b = this['$refs']['renderTargetCanvasContainer'];
+                                if (_0x39366b) {
+                                    for (var _0x215144 = 'Windows' === this[_0x25c8('0x471')]['state']['OS'] ? 0x2 * window[_0x25c8('0x4a7')] : window['devicePixelRatio'], _0x4f09b0 = _0xe27990, _0x4113da = _0x39366b[_0x25c8('0xaf')]('canvas'), _0x41d6d1 = _0x4113da ? _0x4113da['length'] : 0x0, _0x5e8a9c = new Array(_0x41d6d1), _0x50ba25 = 0x0, _0x2fd233 = 0x0; _0x2fd233 < _0x41d6d1; _0x2fd233++) {
+                                        var _0x14ed32 = _0x4113da[_0x2fd233], _0x39843a = _0x4f09b0[_0x2fd233],
+                                            _0x7cafd4 = _0x14ed32['getContext']('2d');
+                                        _0x7cafd4 && _0x39843a && (_0x7cafd4['save'](), _0x7cafd4['scale'](_0x215144, _0x215144), _0x7cafd4['translate'](0x0, -_0x39843a['top']), _0x7cafd4[_0x25c8('0x22b')] = 'left', _0x7cafd4['textBaseline'] = 'middle', _0x5e8a9c[_0x2fd233] = _0x7cafd4, _0x50ba25 += Math['max'](_0x50ba25, _0x39843a['bottom']));
+                                    }
+                                    for (var _0x5b3215 = _0x4cbe2d, _0x2e34da = this['isWhiteTheme'], _0x1f62ef = null, _0x5b5deb = -0x1, _0x365354 = 0x0, _0xaae5f5 = _0x5b3215['length'], _0x9f94d = 0x0; _0x365354 < _0xaae5f5; _0x365354++) {
+                                        var _0x1094d5 = _0x5b3215[_0x365354], _0x7fa505 = _0x1094d5['rect'];
+                                        if (_0x7fa505 && _0x7fa505['y'] > _0x50ba25) break;
+                                        if (_0x1094d5['type'] === _0x379107[_0x25c8('0x15d')][_0x25c8('0x19f')]) {
+                                            _0x7fa505 && _0x4f09b0[_0x9f94d] && _0x7fa505['y'] > _0x4f09b0[_0x9f94d][_0x25c8('0x2f4')] && _0x9f94d + 0x1 < _0x4f09b0['length'] ? _0x9f94d++ : _0x7fa505 && _0x4f09b0[_0x9f94d] && _0x7fa505[_0x25c8('0x2f4')] < _0x4f09b0[_0x9f94d]['top'] && _0x9f94d - 0x1 >= 0x0 && _0x9f94d--;
+                                            var _0x4edabf = _0x5e8a9c[_0x9f94d];
+                                            _0x4edabf ? (_0x5b5deb === _0x9f94d && _0x1f62ef && _0x1f62ef['font'] === _0x1094d5['font'] || (_0x4edabf['font'] = _0x1094d5['font']), _0x5b5deb === _0x9f94d && _0x1f62ef && _0x1f62ef['isHighLight']() === _0x1094d5[_0x25c8('0xd7')]() && _0x1f62ef['colors']['colorOnWhite'] === _0x1094d5[_0x25c8('0x3f5')]['colorOnWhite'] && _0x1f62ef[_0x25c8('0x3f5')]['colorOnBlack'] === _0x1094d5['colors']['colorOnBlack'] || (_0x4edabf[_0x25c8('0x3d2')] = _0x1094d5['isHighLight']() ? _0x2e34da ? '#1B88EE' : _0x25c8('0xea') : _0x1094d5[_0x25c8('0x3f5')][_0x2e34da ? 'colorOnWhite' : _0x25c8('0x66')]), _0x4edabf[_0x25c8('0x3b3')](_0x1094d5['text'], _0x7fa505['x'], _0x7fa505['centerY']), _0x1f62ef = _0x1094d5, _0x5b5deb = _0x9f94d) : this['logError']('Cannot\x20get\x20canvas.context,\x20objIdx=' + _0x365354 + '\x20,canvasIdx=' + _0x9f94d);
+                                        }
+                                    }
+                                    for (var _0x4342d7 = 0x0, _0x40b312 = _0x5e8a9c['length']; _0x4342d7 < _0x40b312; _0x4342d7++) {
+                                        var _0x3f0125 = _0x5e8a9c[_0x4342d7];
+                                        _0x3f0125 && _0x3f0125['restore']();
+                                    }
+                                    try {
+                                        this[_0x25c8('0x1a5')]();
+                                    } catch (_0x4b3c63) {
+                                        console['log'](_0x4b3c63);
+                                    }
+                                }
+                            },
+                            'resizeToReCollect': function (_0xe4b950) {
+                                var _0x465a04 = this, _0x3a7af7 = this;
+                                'DONE' === this[_0x25c8('0x210')] && (this['clearSelection'](), this['clearHighLightDom'](), this['$store'][_0x25c8('0xde')](_0x2c9cb7[_0x25c8('0x33d')], 'PRERENDER'), this['$nextTick'](function () {
+                                    setTimeout(function () {
+                                        return _0x25a008 = _0xe4b950, _0x465a04[_0x25c8('0x304')]['preRenderContainer'] && (_0x465a04[_0x25c8('0x304')]['preRenderContainer']['style']['width'] = _0xe4b950 + 'px'), _0x3a7af7[_0x25c8('0x5c')]();
+                                    }, 0x0);
                                 }));
-                                var _0x1066db = _0x164e53['default']['collect'](_0x1c6939, {
-                                    'canvasMaxHeight': 0xfa0 / _0x413bce,
-                                    'canvasMaxCount': 0x2
-                                }, _0x2975ef, _0x45e2d8);
-                                _0x1d4520 = _0x1066db['anchorsTop'];
-                                for (var _0x487286 = _0x1066db['customStyle']['join']('\x20'), _0x30be03 = _0x1066db['decoration'], _0x4b5454 = _0x1066db['splitHtml'] || {}, _0x1204b8 = _0x5b60e9['compact'](_0x1066db['canvasPositions']) || [], _0x40f5bc = {
-                                    'canvasPositions': _0x1204b8,
-                                    'customStyleText': _0x487286,
-                                    'content': _0x4b5454,
-                                    'decorations': _0x30be03
-                                }, _0x31c1be = '', _0x30c305 = _0x1c6939['offsetWidth'], _0xbdd76d = [], _0xc3ecc5 = 0x0, _0x5c7fe1 = _0x1204b8['length']; _0xc3ecc5 < _0x5c7fe1; _0xc3ecc5++) {
-                                    var _0x35cdd6 = _0x1204b8[_0xc3ecc5];
-                                    if (_0x35cdd6) {
-                                        _0xbdd76d['push'](_0x35cdd6);
-                                        var _0x108c68 = _0x35cdd6['bottom'] - _0x35cdd6['top'],
-                                            _0x19d01b = 'Windows' === _0x56d374['$store'][_0x25c8('0x1bd')]['OS'] ? 0x2 : 0x1;
-                                        console['log']('Use\x20canvas\x20render\x20ratio:', _0x19d01b), _0x31c1be += '<canvas\x20style=\x22position:absolute;left:0;top:' + _0x35cdd6['top'] + 'px;width:' + _0x30c305 + _0x25c8('0x268') + _0x108c68 + 'px;\x22\x20width=' + _0x30c305 * _0x413bce * _0x19d01b + '\x20height=' + _0x108c68 * _0x413bce * _0x19d01b + '\x20data-random=\x22' + Math['random']()['toString'](0x24)['slice'](0x2) + '\x22></canvas>';
-                                    }
-                                }
-                                _0x255f93['$store']['commit'](_0x2c9cb7[_0x25c8('0x4a2')], _0x31c1be), _0x4cbe2d = _0x1066db['content'] || [], _0xe27990 = _0xbdd76d, _0x255f93['renderContentsVersion']++, _0x255f93['$store']['commit'](_0x2c9cb7['UPDATE_READER_CHAPTER_CONTENT_TARGET_HTML'], _0x40f5bc);
-                                try {
-                                    _0x255f93['markFirstPagePrerenderEnd'](), _0x255f93['markFirstPageRenderStart']();
-                                } catch (_0x4ae030) {
-                                    _0x3f7cfe['inDevelopment']() && console['log'](_0x4ae030);
-                                }
-                                _0x255f93['$store']['commit'](_0x2c9cb7[_0x25c8('0x33d')], 'DONE'), _0x255f93['$nextTick'](function () {
-                                    var _0x425a48 = _0x1066db['rootHeight'];
-                                    _0x425a48 <= 0x0 && _0x255f93['logInfo'](_0x25c8('0x4b2'));
-                                    var _0x5b878d = _0x255f93['$refs']['renderTargetContent'];
-                                    if (_0x5b878d) {
-                                        _0x5b878d['style']['height'] = _0x425a48 + 'px';
-                                        var _0x5ce838 = _0x5b878d[_0x25c8('0x339')],
-                                            _0x4fc152 = _0x255f93[_0x25c8('0x304')]['renderTargetCanvasContainer'];
-                                        _0x4fc152 && (_0x4fc152[_0x25c8('0x3af')]['width'] = _0x5ce838 + 'px', _0x4fc152['style']['height'] = _0x425a48 + 'px');
-                                    }
-                                    _0x255f93['drawSomeTexts'](), _0x255f93[_0x25c8('0xfb')]();
-                                    var _0x99b5c3 = _0x255f93['$refs']['renderTargetContainer'];
-                                    _0x99b5c3 && (_0x255f93['renderTargetOffsetTop'] = _0x99b5c3['offsetTop']), _0x3270a8();
+                            },
+                            'bindVideoEvent': function () {
+                                var _0x5d9975 = document['querySelectorAll']('video');
+                                if (_0x5d9975[_0x25c8('0x178')] > 0x0) for (var _0x391f0c = function (_0xc0cdac) {
+                                    var _0x4086b9 = _0x5d9975[_0xc0cdac];
+                                    _0x4086b9[_0x25c8('0x300')]('click', function () {
+                                        _0x4086b9[_0x25c8('0x269')] > 0x0 && !_0x4086b9['paused'] && !_0x4086b9['ended'] && _0x4086b9['readyState'] > 0x2 ? _0x4086b9['pause']() : (_0x4086b9['parentNode'] && _0x4086b9['parentNode']['classList']['add'](_0x25c8('0x1f1')), _0x4086b9['play']());
+                                    }), _0x4086b9['onended'] = function () {
+                                        _0x4086b9['parentNode'] && _0x4086b9['parentNode']['classList']['remove']('wr_video_playing');
+                                    }, _0x4086b9['onpause'] = function () {
+                                        _0x4086b9['parentNode'] && _0x4086b9['parentNode']['classList']['remove'](_0x25c8('0x1f1'));
+                                    };
+                                }, _0x80a6f8 = 0x0; _0x80a6f8 < _0x5d9975['length']; _0x80a6f8++) _0x391f0c(_0x80a6f8);
+                            },
+                            'handleClickStartReading': function () {
+                                'DONE' === this['chapterContentState'] && _0x27b5b0['scrollTo'] && _0x27b5b0['scrollTo']('.readerChapterContent', 0x12c, {
+                                    'container': document['body'],
+                                    'x': !0x1,
+                                    'y': !0x0,
+                                    'offset': -0x48
                                 });
-                            });
-                        },
-                        'clearDrawTexts': function () {
-                            var _0x2c878f = this['$refs']['renderTargetCanvasContainer'];
-                            if (_0x2c878f) for (var _0x253cc3 = _0x2c878f[_0x25c8('0xaf')]('canvas'), _0x5f045a = 0x0, _0x406e1f = _0x253cc3['length']; _0x5f045a < _0x406e1f; _0x5f045a++) {
-                                var _0x27d11b = _0x253cc3[_0x5f045a], _0x5add2e = _0x27d11b['ctx'];
-                                _0x5add2e || (_0x5add2e = _0x27d11b['getContext']('2d')), _0x5add2e && _0x5add2e['clearRect'](0x0, 0x0, _0x27d11b['width'], _0x27d11b['height']);
-                            }
-                        },
-                        'drawSomeTexts': function () {
-                            try {
-                                this['markCanvasPaintStart']();
-                            } catch (_0x260ba5) {
-                                _0x3f7cfe['inDevelopment']() && console['log'](_0x260ba5);
-                            }
-                            var _0x39366b = this['$refs']['renderTargetCanvasContainer'];
-                            if (_0x39366b) {
-                                for (var _0x215144 = 'Windows' === this[_0x25c8('0x471')]['state']['OS'] ? 0x2 * window[_0x25c8('0x4a7')] : window['devicePixelRatio'], _0x4f09b0 = _0xe27990, _0x4113da = _0x39366b[_0x25c8('0xaf')]('canvas'), _0x41d6d1 = _0x4113da ? _0x4113da['length'] : 0x0, _0x5e8a9c = new Array(_0x41d6d1), _0x50ba25 = 0x0, _0x2fd233 = 0x0; _0x2fd233 < _0x41d6d1; _0x2fd233++) {
-                                    var _0x14ed32 = _0x4113da[_0x2fd233], _0x39843a = _0x4f09b0[_0x2fd233],
-                                        _0x7cafd4 = _0x14ed32['getContext']('2d');
-                                    _0x7cafd4 && _0x39843a && (_0x7cafd4['save'](), _0x7cafd4['scale'](_0x215144, _0x215144), _0x7cafd4['translate'](0x0, -_0x39843a['top']), _0x7cafd4[_0x25c8('0x22b')] = 'left', _0x7cafd4['textBaseline'] = 'middle', _0x5e8a9c[_0x2fd233] = _0x7cafd4, _0x50ba25 += Math['max'](_0x50ba25, _0x39843a['bottom']));
+                            },
+                            'handleClickAuthor': function () {
+                                if (this[_0x25c8('0x1fa')] || this['isFromWechatStatus']) {
+                                    var _0x218bbd = 'wrweb_reader_' + (this['isFromWechatStatus'] ? 'status' : _0x25c8('0x14')) + '_author_clk';
+                                    _0x6db688['wrReport'][_0x25c8('0x1ed')]({
+                                        'itemName': _0x218bbd,
+                                        'vid': this['user'][_0x25c8('0x188')],
+                                        'extra': {'bookId': this[_0x25c8('0xd3')], 'vid': this['user']['vid']}
+                                    });
                                 }
-                                for (var _0x5b3215 = _0x4cbe2d, _0x2e34da = this['isWhiteTheme'], _0x1f62ef = null, _0x5b5deb = -0x1, _0x365354 = 0x0, _0xaae5f5 = _0x5b3215['length'], _0x9f94d = 0x0; _0x365354 < _0xaae5f5; _0x365354++) {
-                                    var _0x1094d5 = _0x5b3215[_0x365354], _0x7fa505 = _0x1094d5['rect'];
-                                    if (_0x7fa505 && _0x7fa505['y'] > _0x50ba25) break;
-                                    if (_0x1094d5['type'] === _0x379107[_0x25c8('0x15d')][_0x25c8('0x19f')]) {
-                                        _0x7fa505 && _0x4f09b0[_0x9f94d] && _0x7fa505['y'] > _0x4f09b0[_0x9f94d][_0x25c8('0x2f4')] && _0x9f94d + 0x1 < _0x4f09b0['length'] ? _0x9f94d++ : _0x7fa505 && _0x4f09b0[_0x9f94d] && _0x7fa505[_0x25c8('0x2f4')] < _0x4f09b0[_0x9f94d]['top'] && _0x9f94d - 0x1 >= 0x0 && _0x9f94d--;
-                                        var _0x4edabf = _0x5e8a9c[_0x9f94d];
-                                        _0x4edabf ? (_0x5b5deb === _0x9f94d && _0x1f62ef && _0x1f62ef['font'] === _0x1094d5['font'] || (_0x4edabf['font'] = _0x1094d5['font']), _0x5b5deb === _0x9f94d && _0x1f62ef && _0x1f62ef['isHighLight']() === _0x1094d5[_0x25c8('0xd7')]() && _0x1f62ef['colors']['colorOnWhite'] === _0x1094d5[_0x25c8('0x3f5')]['colorOnWhite'] && _0x1f62ef[_0x25c8('0x3f5')]['colorOnBlack'] === _0x1094d5['colors']['colorOnBlack'] || (_0x4edabf[_0x25c8('0x3d2')] = _0x1094d5['isHighLight']() ? _0x2e34da ? '#1B88EE' : _0x25c8('0xea') : _0x1094d5[_0x25c8('0x3f5')][_0x2e34da ? 'colorOnWhite' : _0x25c8('0x66')]), _0x4edabf[_0x25c8('0x3b3')](_0x1094d5['text'], _0x7fa505['x'], _0x7fa505['centerY']), _0x1f62ef = _0x1094d5, _0x5b5deb = _0x9f94d) : this['logError']('Cannot\x20get\x20canvas.context,\x20objIdx=' + _0x365354 + '\x20,canvasIdx=' + _0x9f94d);
+                            },
+                            'handleClickShelfButtonInBookInfo': function () {
+                                return this['reportClientBusiness']({'itemName': 'Web_Reader_FirstPage_AddClk'}), this['handleClickShelfButton']();
+                            },
+                            'handleClickRatingButton': function () {
+                                this['saveReportInfo']('Reader_Click_Rating_Button'), (0x0, _0x5656d1['default'])(this[_0x25c8('0x1d7')](this[_0x25c8('0xd3')]));
+                            },
+                            'handleClickShelfButton': function () {
+                                if (this['hasLogin']) {
+                                    if (!this['isInShelf']) return this['$store']['dispatch'](_0x40127e['FETCH_READER_ADD_SHELF']);
+                                } else this['$showLoginDialog']({
+                                    'scheme': 'weread://bDetail?bId=' + this['bookId'],
+                                    'bottomTitle': '扫码登录微信读书',
+                                    'bottomSubTitle': '在书架随时阅读本书'
+                                });
+                            },
+                            'handleClickReceiveMemberCardButton': function () {
+                                this['isPhone'] ? this['downloadApp']() : this[_0x25c8('0xfc')]();
+                            },
+                            'handleClickNextChapterIndex': function (_0x4fe45d) {
+                                var _0x12556c = this;
+                                return this['hasNextSection'] ? this['handleNextSection']() : new _0x2726bd['default'](function (_0x5514f1) {
+                                    var _0x568052 = !0x1;
+                                    if (_0x12556c[_0x25c8('0x3e1')] && _0x12556c['currentChapter']['anchors'] && _0x12556c['currentChapter'][_0x25c8('0x466')]['length'] > 0x0) {
+                                        var _0x23fc04 = _0x12556c['currentChapter']['anchors'], _0x58588b = null,
+                                            _0x37ab24 = _0x12556c[_0x25c8('0x17c')];
+                                        if (_0x37ab24) for (var _0x39db6a = 0x0, _0xe3d814 = _0x23fc04[_0x25c8('0x178')]; _0x39db6a < _0xe3d814; _0x39db6a++) {
+                                            if (_0x23fc04[_0x39db6a]['anchor'] === _0x37ab24 && _0x39db6a < _0xe3d814 - 0x1) {
+                                                _0x58588b = _0x23fc04[_0x39db6a + 0x1];
+                                                break;
+                                            }
+                                        } else _0x58588b = _0x23fc04[0x0];
+                                        if (_0x58588b) {
+                                            var _0xb4c1c2 = _0x12556c['getScrollTop']();
+                                            _0x12556c['scrollTo']({'anchor': _0x58588b['anchor']}), _0x568052 = !0x0, _0x12556c[_0x25c8('0x237')]() === _0xb4c1c2 && (_0x568052 = !0x1);
+                                        }
                                     }
+                                    _0x5514f1(_0x568052);
+                                })['then'](function (_0x3f6a3f) {
+                                    if (!_0x3f6a3f) return _0x12556c[_0x25c8('0x493')](_0x4fe45d);
+                                });
+                            },
+                            'handleClickPrevChapterIndex': function (_0x8e5535) {
+                                var _0x1bc540 = this;
+                                return this['eventProtect'](_0x8e5535, function () {
+                                    _0x1bc540[_0x25c8('0x471')]['dispatch'](_0x40127e['ENTER_DANGER_MODE'], {'vid': _0x1bc540['user']['vid']});
+                                }), this['hasPrevSection'] ? this['handlePrevSection']() : new _0x2726bd['default'](function (_0x40a3ca) {
+                                    var _0x3ede51 = !0x1;
+                                    if (_0x1bc540['currentChapter'] && _0x1bc540['currentChapter']['anchors'] && _0x1bc540['currentChapter']['anchors']['length'] > 0x0) {
+                                        var _0x2db3ce = _0x1bc540['currentChapter']['anchors'], _0xf33d7c = null,
+                                            _0x52174b = _0x1bc540['currentChapterAnchor'];
+                                        if (_0x52174b) {
+                                            for (var _0x2fae38 = 0x0, _0xc524c1 = _0x2db3ce['length']; _0x2fae38 < _0xc524c1; _0x2fae38++) {
+                                                if (_0x2db3ce[_0x2fae38][_0x25c8('0x132')] === _0x52174b && _0x2fae38 > 0x0) {
+                                                    _0xf33d7c = _0x2db3ce[_0x2fae38 - 0x1];
+                                                    break;
+                                                }
+                                            }
+                                            _0xf33d7c || _0x4cbe2d['length'] > 0x0 && (_0x1bc540['scrollTo']({'chapterOffset': _0x4cbe2d[0x0]['getOffset']()}), _0x3ede51 = !0x0);
+                                        }
+                                        _0xf33d7c && (_0x1bc540['scrollTo']({'anchor': _0xf33d7c['anchor']}), _0x3ede51 = !0x0);
+                                    }
+                                    _0x40a3ca(_0x3ede51);
+                                })[_0x25c8('0x2d0')](function (_0x28dcc0) {
+                                    if (!_0x28dcc0) return _0x1bc540[_0x25c8('0x2b2')]();
+                                })['then'](function (_0x15c369) {
+                                    if (_0x15c369 && _0x15c369['success']) {
+                                        var _0x4e626d = _0x1bc540['currentChapter'][_0x25c8('0x466')];
+                                        _0x4e626d['length'] > 0x0 && _0x1bc540['scrollTo']({'anchor': _0x4e626d[_0x4e626d['length'] - 0x1][_0x25c8('0x132')]});
+                                    }
+                                });
+                            },
+                            'handleNextChapter': function (_0x14acb3) {
+                                var _0x532141 = this;
+                                this[_0x25c8('0x18e')](_0x14acb3, function () {
+                                    _0x3f7cfe['inDevelopment']() && alert('danger\x20mode'), _0x532141['$store']['dispatch'](_0x40127e['ENTER_DANGER_MODE'], {'vid': _0x532141['user']['vid']});
+                                });
+                                var _0x113c6b = this['getChapterWithIdxOffset'](0x1);
+                                if (_0x113c6b) return this['changeChapter']({'chapterUid': _0x113c6b['chapterUid']});
+                            },
+                            'handlePrevSection': function () {
+                                var _0x14e7e3 = this['getCurrentSectionIdx'] - 0x1;
+                                if (_0x14e7e3 >= 0x0) return this['changeSection']({
+                                    'sectionIdx': _0x14e7e3,
+                                    'offsetTop': _0x5962d4['default']
+                                });
+                            },
+                            'handleNextSection': function () {
+                                var _0x2608a9 = this['getCurrentSectionIdx'] + 0x1;
+                                if (_0x2608a9) return this['changeSection']({'sectionIdx': _0x2608a9});
+                            },
+                            'handleClickNextChapterButton': function (_0x1a87cd) {
+                                (_0x1a87cd = _0x1a87cd || window['event'])['clientX'] && _0x1a87cd[_0x25c8('0x253')] && this['handleNextChapter'](_0x1a87cd);
+                            },
+                            'handleClickPrevChapterButton': function (_0x187136) {
+                                (_0x187136 = _0x187136 || window[_0x25c8('0x1f6')])['clientX'] && _0x187136[_0x25c8('0x253')] && this[_0x25c8('0x2b2')](_0x187136);
+                            },
+                            'handleClickPrevSectionButton': function (_0x12d28b) {
+                                (_0x12d28b = _0x12d28b || window['event'])['clientX'] && _0x12d28b['clientY'] && this['handlePrevSection'](_0x12d28b);
+                            },
+                            'handleClickNextSectionButton': function (_0x720700) {
+                                (_0x720700 = _0x720700 || window['event'])[_0x25c8('0xd8')] && _0x720700['clientY'] && this['handleNextSection']();
+                            },
+                            'handlePrevChapter': function (_0x295f88) {
+                                var _0x16b17c = this;
+                                this['eventProtect'](_0x295f88, function () {
+                                    _0x16b17c['$store']['dispatch'](_0x40127e['ENTER_DANGER_MODE'], {'vid': _0x16b17c['user']['vid']});
+                                });
+                                var _0x32186d = this['getChapterWithIdxOffset'](-0x1);
+                                if (_0x32186d) return this[_0x25c8('0x313')]({
+                                    'chapterUid': _0x32186d['chapterUid'],
+                                    'sectionId': -0x1
+                                });
+                            },
+                            'handleClickFirstChapter': function () {
+                                if (this['isPrivateUploadBook']) {
+                                    var _0x698f9e = this['chapterInfos'];
+                                    if (_0x698f9e && _0x698f9e[_0x25c8('0x178')] > 0x0) {
+                                        var _0x566a74 = _0x698f9e[0x0];
+                                        return this['hideCatalog'](), this['changeChapter']({'chapterUid': _0x566a74['chapterUid']});
+                                    }
+                                    return window[_0x25c8('0x474')]['reload']();
                                 }
-                                for (var _0x4342d7 = 0x0, _0x40b312 = _0x5e8a9c['length']; _0x4342d7 < _0x40b312; _0x4342d7++) {
-                                    var _0x3f0125 = _0x5e8a9c[_0x4342d7];
-                                    _0x3f0125 && _0x3f0125['restore']();
+                                (0x0, _0x5656d1[_0x25c8('0x3a0')])(this['bookDetailURL'](this['bookId']));
+                            },
+                            'handleClickChapter': function (_0x41d223) {
+                                if (_0x41d223 && _0x41d223[_0x25c8('0x17a')]) {
+                                    var _0x523a19 = {'chapterUid': _0x41d223['chapterUid']};
+                                    return _0x41d223['anchor'] && (_0x523a19['scrollTo'] = {'anchor': _0x41d223['anchor']}), this['hideCatalog'](), this['changeChapter'](_0x523a19);
                                 }
-                                try {
-                                    this[_0x25c8('0x1a5')]();
-                                } catch (_0x4b3c63) {
-                                    console['log'](_0x4b3c63);
-                                }
-                            }
-                        },
-                        'resizeToReCollect': function (_0xe4b950) {
-                            var _0x465a04 = this, _0x3a7af7 = this;
-                            'DONE' === this[_0x25c8('0x210')] && (this['clearSelection'](), this['clearHighLightDom'](), this['$store'][_0x25c8('0xde')](_0x2c9cb7[_0x25c8('0x33d')], 'PRERENDER'), this['$nextTick'](function () {
-                                setTimeout(function () {
-                                    return _0x25a008 = _0xe4b950, _0x465a04[_0x25c8('0x304')]['preRenderContainer'] && (_0x465a04[_0x25c8('0x304')]['preRenderContainer']['style']['width'] = _0xe4b950 + 'px'), _0x3a7af7[_0x25c8('0x5c')]();
-                                }, 0x0);
-                            }));
-                        },
-                        'bindVideoEvent': function () {
-                            var _0x5d9975 = document['querySelectorAll']('video');
-                            if (_0x5d9975[_0x25c8('0x178')] > 0x0) for (var _0x391f0c = function (_0xc0cdac) {
-                                var _0x4086b9 = _0x5d9975[_0xc0cdac];
-                                _0x4086b9[_0x25c8('0x300')]('click', function () {
-                                    _0x4086b9[_0x25c8('0x269')] > 0x0 && !_0x4086b9['paused'] && !_0x4086b9['ended'] && _0x4086b9['readyState'] > 0x2 ? _0x4086b9['pause']() : (_0x4086b9['parentNode'] && _0x4086b9['parentNode']['classList']['add'](_0x25c8('0x1f1')), _0x4086b9['play']());
-                                }), _0x4086b9['onended'] = function () {
-                                    _0x4086b9['parentNode'] && _0x4086b9['parentNode']['classList']['remove']('wr_video_playing');
-                                }, _0x4086b9['onpause'] = function () {
-                                    _0x4086b9['parentNode'] && _0x4086b9['parentNode']['classList']['remove'](_0x25c8('0x1f1'));
-                                };
-                            }, _0x80a6f8 = 0x0; _0x80a6f8 < _0x5d9975['length']; _0x80a6f8++) _0x391f0c(_0x80a6f8);
-                        },
-                        'handleClickStartReading': function () {
-                            'DONE' === this['chapterContentState'] && _0x27b5b0['scrollTo'] && _0x27b5b0['scrollTo']('.readerChapterContent', 0x12c, {
-                                'container': document['body'],
-                                'x': !0x1,
-                                'y': !0x0,
-                                'offset': -0x48
-                            });
-                        },
-                        'handleClickAuthor': function () {
-                            if (this[_0x25c8('0x1fa')] || this['isFromWechatStatus']) {
-                                var _0x218bbd = 'wrweb_reader_' + (this['isFromWechatStatus'] ? 'status' : _0x25c8('0x14')) + '_author_clk';
-                                _0x6db688['wrReport'][_0x25c8('0x1ed')]({
-                                    'itemName': _0x218bbd,
-                                    'vid': this['user'][_0x25c8('0x188')],
+                            },
+                            'handleClickNoteItem': function (_0x209c5a) {
+                                var _0x3b45db = this;
+                                if (_0x209c5a['chapterUid']) return this['hideNotePanel'](), this['changeChapter']({
+                                    'chapterUid': _0x209c5a['chapterUid'],
+                                    'scrollTo': {'chapterOffset': _0x209c5a[_0x25c8('0x374')][_0x25c8('0x20e')]}
+                                })['then'](function () {
+                                    _0x3b45db['reportClientBusiness']({'itemName': 'Web_Reader_Note_ItemClk'}), _0x209c5a['noteType'] === _0x3f6897['NoteTypeReview'] && setTimeout(function () {
+                                        _0x3b45db['showReviewDetailPanel']([_0x209c5a]);
+                                    });
+                                });
+                            },
+                            'handleClickUnderline': function (_0x3bad98) {
+                                var _0x776c98 = this, _0x2eacc8 = _0x3bad98['notes'], _0x21f2ea = _0x3bad98['range'],
+                                    _0x2c8a95 = this['findObjsInOffsetRange'](_0x4cbe2d, _0x21f2ea['start'], _0x21f2ea['end']),
+                                    _0x13974e = this['getRectsByContentObjs'](_0x2c8a95), _0x862e40 = [],
+                                    _0x4f2d63 = null;
+                                _0x2eacc8['forEach'](function (_0x4b7e82) {
+                                    _0x4b7e82['noteType'] === _0x3f6897['NoteTypeBookmark'] ? _0x4f2d63 = _0x4b7e82 : _0x862e40['push'](_0x4b7e82);
+                                }), this[_0x25c8('0x276')]({
+                                    'objs': _0x2c8a95,
+                                    'rects': _0x13974e,
+                                    'existBookmark': _0x4f2d63
+                                }), _0x862e40['length'] && this['showReviewDetailPanel'](_0x862e40), _0x862e40['length'] && this[_0x25c8('0x34c')](function () {
+                                    _0x776c98['$nextTick'](function () {
+                                        var _0x57db05 = document['querySelector']('.reader_toolbar_container'),
+                                            _0x5169e1 = document['querySelector']('.readerReviewDetailPanel');
+                                        if (_0x57db05 && _0x5169e1) {
+                                            var _0x34a632 = _0x57db05['offsetTop'] + _0x57db05['offsetHeight'],
+                                                _0x17928e = _0x776c98['clientXY2RenderAreaXY']({
+                                                    'x': 0x0,
+                                                    'y': _0x5169e1['offsetTop']
+                                                }), _0x442482 = _0x17928e && _0x17928e['y'] || 0x0;
+                                            if (_0x34a632 > _0x442482) {
+                                                var _0x1e9eaf = _0x34a632 - _0x442482 + 0x30,
+                                                    _0x14a55f = _0x776c98['getScrollTop']();
+                                                _0x27b5b0[_0x25c8('0x481')](document['body'], 0x12c, {
+                                                    'container': document[_0x25c8('0x5')],
+                                                    'x': !0x1,
+                                                    'y': !0x0,
+                                                    'offset': _0x14a55f + _0x1e9eaf
+                                                });
+                                            }
+                                        }
+                                    });
+                                });
+                            },
+                            'handleClickIsLooking': function () {
+                                _0x6db688['wrReport']['newCHReport']({
+                                    'itemName': 'wrweb_reader_topStories_isLooking_clk',
+                                    'vid': this['user']['vid'],
                                     'extra': {'bookId': this[_0x25c8('0xd3')], 'vid': this['user']['vid']}
                                 });
-                            }
-                        },
-                        'handleClickShelfButtonInBookInfo': function () {
-                            return this['reportClientBusiness']({'itemName': 'Web_Reader_FirstPage_AddClk'}), this['handleClickShelfButton']();
-                        },
-                        'handleClickRatingButton': function () {
-                            this['saveReportInfo']('Reader_Click_Rating_Button'), (0x0, _0x5656d1['default'])(this[_0x25c8('0x1d7')](this[_0x25c8('0xd3')]));
-                        },
-                        'handleClickShelfButton': function () {
-                            if (this['hasLogin']) {
-                                if (!this['isInShelf']) return this['$store']['dispatch'](_0x40127e['FETCH_READER_ADD_SHELF']);
-                            } else this['$showLoginDialog']({
-                                'scheme': 'weread://bDetail?bId=' + this['bookId'],
-                                'bottomTitle': '扫码登录微信读书',
-                                'bottomSubTitle': '在书架随时阅读本书'
-                            });
-                        },
-                        'handleClickReceiveMemberCardButton': function () {
-                            this['isPhone'] ? this['downloadApp']() : this[_0x25c8('0xfc')]();
-                        },
-                        'handleClickNextChapterIndex': function (_0x4fe45d) {
-                            var _0x12556c = this;
-                            return this['hasNextSection'] ? this['handleNextSection']() : new _0x2726bd['default'](function (_0x5514f1) {
-                                var _0x568052 = !0x1;
-                                if (_0x12556c[_0x25c8('0x3e1')] && _0x12556c['currentChapter']['anchors'] && _0x12556c['currentChapter'][_0x25c8('0x466')]['length'] > 0x0) {
-                                    var _0x23fc04 = _0x12556c['currentChapter']['anchors'], _0x58588b = null,
-                                        _0x37ab24 = _0x12556c[_0x25c8('0x17c')];
-                                    if (_0x37ab24) for (var _0x39db6a = 0x0, _0xe3d814 = _0x23fc04[_0x25c8('0x178')]; _0x39db6a < _0xe3d814; _0x39db6a++) {
-                                        if (_0x23fc04[_0x39db6a]['anchor'] === _0x37ab24 && _0x39db6a < _0xe3d814 - 0x1) {
-                                            _0x58588b = _0x23fc04[_0x39db6a + 0x1];
+                            },
+                            'changeChapter': (_0x357fc6 = (0x0, _0x452d12['default'])(_0x8eb370['default']['mark'](function _0x34737c(_0x235a03) {
+                                var _0x225b33, _0x432f2a, _0x5ccd9f, _0x427799, _0x252ea5, _0x16f8e4, _0x1186fb,
+                                    _0x3e1893 = this;
+                                return _0x8eb370[_0x25c8('0x3a0')]['wrap'](function (_0x374cbb) {
+                                    for (; ;) switch (_0x374cbb['prev'] = _0x374cbb['next']) {
+                                        case 0x0:
+                                            return _0x374cbb['next'] = 0x2, _0x1c0991[_0x25c8('0x4e')]()['then'](function (_0x75655b) {
+                                                return _0x75655b['map'](function (_0x125c61) {
+                                                    return _0x125c61['fileName'];
+                                                });
+                                            })['catch'](function (_0x215ac5) {
+                                                console[_0x25c8('0x2ee')](_0x215ac5);
+                                            });
+                                        case 0x2:
+                                            _0x225b33 = _0x374cbb[_0x25c8('0x38f')], _0x432f2a = !0x0, _0x5ccd9f = !0x1, _0x427799 = void 0x0, _0x374cbb['prev'] = 0x6, _0x252ea5 = (0x0, _0x4f8f9a['default'])(_0x225b33);
+                                        case 0x8:
+                                            if (_0x432f2a = (_0x16f8e4 = _0x252ea5['next']())['done']) {
+                                                _0x374cbb['next'] = 0x12;
+                                                break;
+                                            }
+                                            if (_0x1186fb = _0x16f8e4['value'], _0x3f7cfe[_0x25c8('0x191')]() && console['log'](_0x1186fb), !(_0x1186fb['indexOf']('puppeteer') > -0x1 || _0x1186fb['indexOf'](_0x25c8('0x2de')) > -0x1 || _0x1186fb['indexOf']('pptr') > -0x1)) {
+                                                _0x374cbb[_0x25c8('0x4a5')] = 0xf;
+                                                break;
+                                            }
+                                            return _0x374cbb[_0x25c8('0x4a5')] = 0xe, this['botDetect'](!0x0, 'puppeteer\x20execute\x20changeChapter');
+                                        case 0xe:
+                                            return _0x374cbb[_0x25c8('0x2cf')]('break', 0x12);
+                                        case 0xf:
+                                            _0x432f2a = !0x0, _0x374cbb['next'] = 0x8;
                                             break;
+                                        case 0x12:
+                                            _0x374cbb['next'] = 0x18;
+                                            break;
+                                        case 0x14:
+                                            _0x374cbb['prev'] = 0x14, _0x374cbb['t0'] = _0x374cbb['catch'](0x6), _0x5ccd9f = !0x0, _0x427799 = _0x374cbb['t0'];
+                                        case 0x18:
+                                            _0x374cbb[_0x25c8('0x258')] = 0x18, _0x374cbb['prev'] = 0x19, !_0x432f2a && _0x252ea5['return'] && _0x252ea5['return']();
+                                        case 0x1b:
+                                            if (_0x374cbb['prev'] = 0x1b, !_0x5ccd9f) {
+                                                _0x374cbb['next'] = 0x1e;
+                                                break;
+                                            }
+                                            throw _0x427799;
+                                        case 0x1e:
+                                            return _0x374cbb['finish'](0x1b);
+                                        case 0x1f:
+                                            return _0x374cbb['finish'](0x18);
+                                        case 0x20:
+                                            if (_0x251dd7['default']['isLegacyReaderSupportBook'](this['bookInfo'])) {
+                                                _0x374cbb['next'] = 0x23;
+                                                break;
+                                            }
+                                            return this[_0x25c8('0x4a9')] = !0x0, _0x374cbb['abrupt'](_0x25c8('0xfd'), _0x2726bd[_0x25c8('0x3a0')][_0x25c8('0x199')]());
+                                        case 0x23:
+                                            return this['loadTopReviews'](), _0x374cbb['abrupt']('return', this[_0x25c8('0x471')]['dispatch'](_0x40127e['CHANGE_READER_CHAPTER'], {
+                                                'pushStack': _0x235a03['pushStack'],
+                                                'chapterUid': _0x235a03[_0x25c8('0x17a')],
+                                                'sectionId': _0x235a03[_0x25c8('0x2a9')],
+                                                'isLogin': this['hasLogin']
+                                            })[_0x25c8('0x2d0')](function () {
+                                                return _0x3e1893['clearSelection'](), _0x3e1893['clearHighLightDom'](), _0x3e1893['layout']();
+                                            })[_0x25c8('0x380')](function (_0x54090e) {
+                                                if (_0x54090e && _0x54090e['isCustomError']) {
+                                                    switch (_0x54090e['reason']) {
+                                                        case'currentChapter':
+                                                            _0x3e1893[_0x25c8('0x1ef')](), _0x3e1893[_0x25c8('0x42e')](), _0x235a03[_0x25c8('0x43b')] ? _0x3e1893['highLightDomsAndScrollTo'](_0x235a03['searchItem']) : _0x235a03['scrollTo'] ? _0x3e1893['scrollTo'](_0x235a03['scrollTo']) : _0x235a03['sectionId'] || _0x3e1893['changeSection']({
+                                                                'sectionIdx': 0x0,
+                                                                'offsetTop': 0x0
+                                                            });
+                                                            break;
+                                                        case _0x25c8('0x1a2'):
+                                                            window['location']['reload']();
+                                                            break;
+                                                        case'sessionTimeout':
+                                                            _0x3e1893['handleSessionTimeout']();
+                                                    }
+                                                    return _0x54090e;
+                                                }
+                                                _0x3e1893['logError']('changeChapter-UnexpectedError0:', _0x54090e);
+                                            })['then'](function (_0x504a73) {
+                                                return _0x504a73 && _0x504a73['success'] && (_0x235a03['searchItem'] ? _0x3e1893['highLightDomsAndScrollTo'](_0x235a03['searchItem']) : _0x235a03['scrollTo'] ? _0x3e1893[_0x25c8('0x481')](_0x235a03['scrollTo']) : (_0x235a03['sectionId'] || _0x3e1893['changeSection']({
+                                                    'sectionIdx': 0x0,
+                                                    'scrollTo': {'chapterOffset': 0x0}
+                                                }), _0x3e1893['scrollToOffsetTop'](0x0)), _0x3e1893['checkIfShowMemberCardFreeReadingTips'](), _0x3e1893['checkIfNeedRequestLoginQRCode'](), _0x3e1893['$store']['dispatch'](_0x40127e[_0x25c8('0x195')], {'isLogin': _0x3e1893['hasLogin']}), _0x3e1893['$store']['dispatch'](_0x40127e['RELOAD_READER_CHAPTER_INFOS'], {'isLogin': _0x3e1893['hasLogin']}), _0x3e1893['reportReadingProgress']({
+                                                    'computeSummary': !0x0,
+                                                    'computeProgress': !0x1
+                                                })), _0x504a73;
+                                            }));
+                                        case 0x25:
+                                        case _0x25c8('0x9c'):
+                                            return _0x374cbb['stop']();
+                                    }
+                                }, _0x34737c, this, [[0x6, 0x14, 0x18, 0x20], [0x19, , 0x1b, 0x1f]]);
+                            })), function (_0x80f1d) {
+                                return _0x357fc6['apply'](this, arguments);
+                            }),
+                            'changeSection': function (_0x2fdddc) {
+                                var _0x375da8 = this;
+                                if (_0x251dd7['default'][_0x25c8('0x207')](this['bookInfo'])) return this['loadTopReviews'](), this['$store'][_0x25c8('0x3cc')](_0x40127e['CHANGE_READER_SECTION'], {'sectionIdx': _0x2fdddc['sectionIdx']})[_0x25c8('0x2d0')](function () {
+                                    return _0x375da8['clearSelection'](), _0x375da8[_0x25c8('0x42e')](), _0x375da8['layout']();
+                                })['catch'](function (_0x1e31f1) {
+                                    if (_0x1e31f1 && _0x1e31f1[_0x25c8('0x2fa')]) {
+                                        switch (_0x1e31f1['reason']) {
+                                            case'currentSection':
+                                                _0x375da8['clearSelection'](), _0x375da8['clearHighLightDom'](), _0x2fdddc['searchItem'] ? _0x375da8['highLightDomsAndScrollTo'](_0x2fdddc['searchItem']) : _0x2fdddc[_0x25c8('0x481')] && _0x375da8['scrollTo'](_0x2fdddc[_0x25c8('0x481')]);
+                                                break;
+                                            case'forceReload':
+                                                window['location'][_0x25c8('0x146')]();
+                                                break;
+                                            case'sessionTimeout':
+                                                _0x375da8[_0x25c8('0x50')]();
                                         }
-                                    } else _0x58588b = _0x23fc04[0x0];
-                                    if (_0x58588b) {
-                                        var _0xb4c1c2 = _0x12556c['getScrollTop']();
-                                        _0x12556c['scrollTo']({'anchor': _0x58588b['anchor']}), _0x568052 = !0x0, _0x12556c[_0x25c8('0x237')]() === _0xb4c1c2 && (_0x568052 = !0x1);
+                                        return _0x1e31f1;
+                                    }
+                                    _0x375da8['logError'](_0x25c8('0x3f2'), _0x1e31f1);
+                                })[_0x25c8('0x2d0')](function (_0x36c125) {
+                                    return _0x36c125 && _0x36c125['success'] && (_0x2fdddc['searchItem'] ? _0x375da8['highLightDomsAndScrollTo'](_0x2fdddc['searchItem']) : _0x2fdddc['offsetTop'] ? _0x375da8['scrollToOffsetTop'](_0x2fdddc['offsetTop']) : _0x2fdddc[_0x25c8('0x481')] ? _0x375da8[_0x25c8('0x481')](_0x2fdddc[_0x25c8('0x481')]) : _0x375da8['scrollToOffsetTop'](0x0), _0x375da8['checkIfShowMemberCardFreeReadingTips'](), _0x375da8['checkIfNeedRequestLoginQRCode'](), _0x375da8['reportReadingProgress']({
+                                        'computeSummary': !0x0,
+                                        'computeProgress': !0x1
+                                    })), _0x36c125;
+                                });
+                                this['unsupported'] = !0x0;
+                            },
+                            'reloadCurrentChapter': function () {
+                                var _0x525aa4 = this;
+                                return this['$store']['dispatch'](_0x40127e['RELOAD_READER_CURRENT_CHAPTER'])['then'](this['layout'])['catch'](function (_0x2ebec1) {
+                                    if (_0x2ebec1 && _0x2ebec1['isCustomError']) switch (_0x2ebec1['reason']) {
+                                        case'forceReload':
+                                            window['location']['reload']();
+                                            break;
+                                        case'sessionTimeout':
+                                            _0x525aa4['handleSessionTimeout']();
+                                    } else _0x525aa4['logError']('reloadCurrentChapter-UnexpectedError:', _0x2ebec1);
+                                    return _0x2ebec1;
+                                });
+                            },
+                            'reloadEntirePage': function () {
+                                window['location']['reload']();
+                            },
+                            'onAfterLoginToGetMemberCard': function () {
+                                this['saveReportInfo'](_0x25c8('0x39')), _0x1325ea['default']['setSessionStorage'](_0x1057f6['KEY_READER_LOGIN_PENDING_ACTION'], (0x0, _0x10d271['default'])({'toFreeRead': 0x1})), window['location']['reload']();
+                            },
+                            'showCatalog': function () {
+                                this['$refs']['readerCatalog'] && this['$refs']['readerCatalog']['show'](), this['isShowAutoSearchHint'] && this[_0x25c8('0x471')][_0x25c8('0xde')](_0x2c9cb7[_0x25c8('0xe9')], !0x1);
+                            },
+                            'hideCatalog': function () {
+                                this['$refs']['readerCatalog'] && this['$refs']['readerCatalog']['close']();
+                            },
+                            'toggleCatalog': function () {
+                                this['$refs']['readerCatalog'] && this['$refs']['readerCatalog']['toggle']();
+                            },
+                            'handleClickControls': function (_0x4a2a50) {
+                                switch (_0x4a2a50) {
+                                    case'catalog':
+                                        return this['isPDFBookType'] ? this['$refs']['readerPdfViewer'][_0x25c8('0x1b8')]() : (this['reportClientBusiness']({'itemName': 'Web_Reader_ContentClk'}), this['showCatalog']());
+                                    case'note':
+                                        return this['reportClientBusiness']({'itemName': 'Web_Reader_NoteClk'}), this['hasLogin'] ? this['toggleNotePanel']() : this[_0x25c8('0x47f')]({
+                                            'bottomTitle': '扫码登录微信读书',
+                                            'bottomSubTitle': '查看我的笔记'
+                                        });
+                                    case'theme':
+                                        return this['isWhiteTheme'] ? this['$store']['dispatch'](_0x40127e['TOGGLE_THEME'], {'isWhite': !0x1}) : (this['reportClientBusiness']({'itemName': _0x25c8('0xb6')}), this[_0x25c8('0x471')]['dispatch'](_0x40127e['TOGGLE_THEME'], {'isWhite': !0x0}));
+                                    case'download':
+                                        return this['downloadAppToRead']();
+                                    case'lecture':
+                                        return this[_0x25c8('0x16a')]();
+                                }
+                            },
+                            'handleToAlbum': function () {
+                                location && (_0x6db688['wrReport'][_0x25c8('0x1ed')]({
+                                    'itemName': 'Web_Lecture_ButtonClk',
+                                    'vid': this['user']['vid'],
+                                    'extra': {'bookId': this[_0x25c8('0xd3')], 'albumId': this['relatedAlbum']}
+                                }), window[_0x25c8('0x26e')]('https://at.qq.com/album-share/index?albumId=' + this['relatedAlbum'] + '&from=desktopReader', 'electron' === this[_0x25c8('0x1c0')] ? '_blank' : '_self'));
+                            },
+                            'showNotePanel': function () {
+                                this['$refs'][_0x25c8('0x37')]['show']();
+                            },
+                            'hideNotePanel': function () {
+                                this['$refs']['readerNotePanel']['close']();
+                            },
+                            'toggleNotePanel': function () {
+                                this[_0x25c8('0x304')]['readerNotePanel'][_0x25c8('0x51')]() ? this['hideNotePanel']() : this['showNotePanel']();
+                            },
+                            'toggleBottomSettingPanel': function () {
+                                this['isShowBottomSettingPanel'] = !this['isShowBottomSettingPanel'];
+                            },
+                            'handleClickBottomBarItem': function (_0x287306) {
+                                switch (_0x287306) {
+                                    case'shelf':
+                                        return this[_0x25c8('0x303')]();
+                                    case'catalog':
+                                        return this['isShowBottomSettingPanel'] && (this[_0x25c8('0x234')] = !0x1), this['toggleCatalog']();
+                                    case'setting':
+                                        return this[_0x25c8('0x304')]['readerCatalog'] && this['$refs']['readerCatalog'][_0x25c8('0x51')]() && this[_0x25c8('0x104')](), this['toggleBottomSettingPanel']();
+                                }
+                            },
+                            'handleClickBottomSettingPanelItem': function (_0x3f982f) {
+                                switch (_0x3f982f) {
+                                    case'white':
+                                        return this['reportClientBusiness']({'itemName': 'Web_Reader_LightClk'}), this['$store'][_0x25c8('0x3cc')](_0x40127e[_0x25c8('0x2fd')], {'isWhite': !0x0});
+                                    case'dark':
+                                        return this['$store']['dispatch'](_0x40127e['TOGGLE_THEME'], {'isWhite': !0x1});
+                                    case'download':
+                                        (0x0, _0x427c36[_0x25c8('0x3a0')])(function (_0x113ec6) {
+                                            _0x113ec6 ? (0x0, _0x9861df['default'])({'openUrl': (0x0, _0x4ec966['default'])('', {})}) : (0x0, _0x3bc9f3['default'])();
+                                        });
+                                }
+                            },
+                            'doSearch': function (_0x395d6f) {
+                                return _0x395d6f[_0x25c8('0x41d')] || this[_0x25c8('0x18d')]({'itemName': 'Web_Reader_Search'}), this['$store']['dispatch'](_0x40127e['FETCH_READER_SEARCH'], _0x395d6f);
+                            },
+                            'enterSearch': function () {
+                                return this['$store']['commit'](_0x2c9cb7['UPDATE_READER_IS_IN_SEARCH'], !0x0);
+                            },
+                            'exitSearch': function () {
+                                this['$store']['commit'](_0x2c9cb7['CLEAR_READER_SEARCH_RESULT']), this['$store']['commit'](_0x2c9cb7['UPDATE_READER_IS_IN_SEARCH'], !0x1);
+                            },
+                            'handleClickSearchItem': function (_0x590cea) {
+                                return this['hideCatalog'](), this['reportClientBusiness']({'itemName': _0x25c8('0x250')}), this['changeChapter']({
+                                    'chapterUid': _0x590cea['chapterUid'],
+                                    'searchItem': _0x590cea
+                                });
+                            },
+                            'highLightObjs': function (_0x3fa236) {
+                                var _0x5800c7 = this['getRectsByContentObjs'](_0x3fa236);
+                                if (_0x5800c7['length'] > 0x0) {
+                                    var _0x2007e7 = '';
+                                    _0x5800c7[_0x25c8('0x28d')](function (_0x3b50a5) {
+                                        _0x2007e7 += '<div\x20class=\x22wr_highlight_bg\x22\x20style=\x22' + _0x3b50a5['toCSSPositionString']() + '\x22></div>';
+                                    }), this['chapterContentHighLightBgHtml'] = _0x2007e7;
+                                } else this[_0x25c8('0x384')] = '';
+                            },
+                            'clearHighLight': function () {
+                                this['chapterContentHighLightBgHtml'] = '';
+                            },
+                            'clearHighLightDom': function () {
+                                this[_0x25c8('0x1f')](), (0x0, _0x240e8c[_0x25c8('0x3a0')])(document['querySelectorAll']('.wr_highlight_char'))['forEach'](function (_0x584738) {
+                                    _0x584738['classList']['remove']('wr_highlight_char');
+                                });
+                            },
+                            'highLightDomsAndScrollTo': function (_0x1cb34f) {
+                                var _0x1e92f7 = this;
+                                if (_0x1cb34f) {
+                                    var _0x26cf65 = _0x1cb34f[_0x25c8('0x40f')], _0x1f8b32 = _0x1cb34f['absEnd'],
+                                        _0x524f25 = _0x1cb34f[_0x25c8('0x3ec')], _0x1bff51 = _0x1cb34f['keyword'] || [];
+                                    if (_0x1cb34f['abstract'] && !(_0x26cf65 >= _0x1f8b32 || _0x524f25 < _0x26cf65 || _0x524f25 > _0x1f8b32)) {
+                                        var _0x22b03f = this['getSectionIdxWithOffset'](_0x26cf65);
+                                        if (_0x22b03f !== this['getCurrentSectionIdx']) return this[_0x25c8('0x390')]({
+                                            'sectionIdx': _0x22b03f,
+                                            'searchItem': _0x1cb34f
+                                        });
+                                        var _0x329d25 = this['findObjsInOffsetRange'](_0x4cbe2d, _0x26cf65, _0x1f8b32),
+                                            _0x49f37f = _0x329d25['length'], _0x11d8a7 = [];
+                                        if (_0x49f37f > 0x0) for (var _0x45a917 = 0x0, _0x49a111 = null, _0x273f8b = 0x0, _0x55e8c1 = []; _0x45a917 < _0x49f37f;) {
+                                            var _0x4404a9 = _0x329d25[_0x45a917];
+                                            if (_0x4404a9['getOffset']() < _0x524f25) _0x45a917++; else {
+                                                var _0x364331 = _0x4404a9['isTextOrCanvasType']() && _0x4404a9['text'];
+                                                if (_0x364331 && 0x0 !== _0x364331['length']) {
+                                                    if (_0x49a111) _0x49a111[_0x25c8('0x7')](_0x364331) === _0x273f8b ? (_0x273f8b += _0x364331['length'], _0x55e8c1[_0x25c8('0x4b3')](_0x4404a9)) : (_0x49a111 = null, _0x273f8b = 0x0, _0x55e8c1 = []); else for (var _0x4ba8c5 = 0x0; _0x4ba8c5 < _0x1bff51['length']; _0x4ba8c5++) {
+                                                        var _0x38bbcf = _0x1bff51[_0x4ba8c5];
+                                                        if (0x0 === _0x38bbcf['indexOf'](_0x364331)) {
+                                                            _0x49a111 = _0x38bbcf, _0x273f8b = _0x364331['length'], _0x55e8c1['push'](_0x4404a9);
+                                                            break;
+                                                        }
+                                                    }
+                                                    _0x49a111 && _0x49a111['length'] > 0x0 && _0x49a111[_0x25c8('0x178')] === _0x273f8b && (_0x11d8a7['push'][_0x25c8('0x2cc')](_0x11d8a7, (0x0, _0x2016a5['default'])(_0x55e8c1)), _0x55e8c1 = []), _0x45a917++;
+                                                } else _0x45a917++;
+                                            }
+                                        }
+                                        this['highLightObjs'](_0x329d25), (0x0, _0x240e8c[_0x25c8('0x3a0')])(document['querySelectorAll']('.wr_highlight_char'))['forEach'](function (_0x22bc30) {
+                                            _0x22bc30['classList']['remove'](_0x25c8('0x2c8'));
+                                        });
+                                        for (var _0xc1493b = _0x5728b5, _0x469f04 = 0x0, _0x10b167 = _0xc1493b['length']; _0x469f04 < _0x10b167; _0x469f04++) _0xc1493b[_0x469f04]['setHighLight'](!0x1);
+                                        _0x5728b5 = _0x11d8a7;
+                                        for (var _0x3bdd8c = 0x0, _0x121876 = _0x11d8a7['length']; _0x3bdd8c < _0x121876; _0x3bdd8c++) {
+                                            var _0x4ff41e = _0x11d8a7[_0x3bdd8c];
+                                            if (_0x4ff41e[_0x25c8('0x26')](!0x0), _0x4ff41e['type'] === _0x379107['ObjType']['txt']) {
+                                                var _0x47d247 = document['querySelector']('[data-wr-id=' + _0x4ff41e['id'] + ']');
+                                                _0x47d247 && _0x47d247['classList']['add'](_0x25c8('0x2c8'));
+                                            }
+                                        }
+                                        this['clearDrawTexts'](), this['drawSomeTexts'](), this[_0x25c8('0x34c')](function () {
+                                            _0x329d25['length'] > 0x0 && _0x1e92f7['scrollTo']({'chapterOffset': _0x26cf65});
+                                        });
                                     }
                                 }
-                                _0x5514f1(_0x568052);
-                            })['then'](function (_0x3f6a3f) {
-                                if (!_0x3f6a3f) return _0x12556c[_0x25c8('0x493')](_0x4fe45d);
-                            });
-                        },
-                        'handleClickPrevChapterIndex': function (_0x8e5535) {
-                            var _0x1bc540 = this;
-                            return this['eventProtect'](_0x8e5535, function () {
-                                _0x1bc540[_0x25c8('0x471')]['dispatch'](_0x40127e['ENTER_DANGER_MODE'], {'vid': _0x1bc540['user']['vid']});
-                            }), this['hasPrevSection'] ? this['handlePrevSection']() : new _0x2726bd['default'](function (_0x40a3ca) {
-                                var _0x3ede51 = !0x1;
-                                if (_0x1bc540['currentChapter'] && _0x1bc540['currentChapter']['anchors'] && _0x1bc540['currentChapter']['anchors']['length'] > 0x0) {
-                                    var _0x2db3ce = _0x1bc540['currentChapter']['anchors'], _0xf33d7c = null,
-                                        _0x52174b = _0x1bc540['currentChapterAnchor'];
-                                    if (_0x52174b) {
-                                        for (var _0x2fae38 = 0x0, _0xc524c1 = _0x2db3ce['length']; _0x2fae38 < _0xc524c1; _0x2fae38++) {
-                                            if (_0x2db3ce[_0x2fae38][_0x25c8('0x132')] === _0x52174b && _0x2fae38 > 0x0) {
-                                                _0xf33d7c = _0x2db3ce[_0x2fae38 - 0x1];
+                            },
+                            'getSectionIdxWithOffset': function (_0x4157f4) {
+                                if (!_0x4157f4 || 'number' != typeof _0x4157f4) return -0x1;
+                                for (var _0xf21731 = -0x1, _0x49e1a7 = _0x25c8('0x13c') + _0x4157f4 + '\x22', _0x224dcf = 0x0; _0x224dcf < this['chapterContentHtml']['length']; _0x224dcf++) {
+                                    if (this['chapterContentHtml'][_0x224dcf]['valueHasStr'](_0x49e1a7)) {
+                                        _0xf21731 = _0x224dcf;
+                                        break;
+                                    }
+                                }
+                                return _0xf21731;
+                            },
+                            'getSectionIdxWithAnchor': function (_0x2d5cae) {
+                                if (!_0x2d5cae || 'string' != typeof _0x2d5cae || _0x2d5cae['length'] <= 0x0) return -0x1;
+                                for (var _0xff8085 = -0x1, _0x5dfa6d = 'id=\x22' + _0x2d5cae + '\x22', _0x14947e = 0x0; _0x14947e < this['chapterContentHtml']['length']; _0x14947e++) {
+                                    if (this['chapterContentHtml'][_0x14947e][_0x25c8('0xe8')](_0x5dfa6d)) {
+                                        _0xff8085 = _0x14947e;
+                                        break;
+                                    }
+                                }
+                                return _0xff8085;
+                            },
+                            'pageUp': function () {
+                                var _0x2dd182 = window['innerHeight'] - 0x48;
+                                window['scrollTo'](0x0, Math['max'](0x0, this['getScrollTop']() - _0x2dd182));
+                            },
+                            'pageDown': function () {
+                                var _0x4fa735 = window['innerHeight'] - 0x48;
+                                window['scrollTo'](0x0, this[_0x25c8('0x237')]() + _0x4fa735);
+                            },
+                            'scrollTo': function (_0x330d70) {
+                                if (_0x330d70 && 0x0 !== _0x4cbe2d[_0x25c8('0x178')]) {
+                                    var _0x252226 = _0x330d70['chapterOffset'];
+                                    if (_0x25c8('0x14') === this[_0x25c8('0x28f')]['query'][_0x25c8('0x2ad')] && (_0x252226 = 0x0), 'number' == typeof _0x252226 && _0x252226 >= 0x0) {
+                                        var _0x326d2d = _0x4cbe2d[0x0]['getOffset']();
+                                        if (!0x0 === _0x330d70[_0x25c8('0x433')] && (0x0 === _0x252226 || _0x252226 <= _0x326d2d)) return;
+                                        var _0x559ff7 = _0x252226 <= _0x326d2d ? this[_0x25c8('0x2d6')](_0x326d2d) : this['getSectionIdxWithOffset'](_0x252226);
+                                        if (-0x1 === _0x559ff7) return;
+                                        if (_0x559ff7 !== this[_0x25c8('0xa3')]) return void this['changeSection']({
+                                            'sectionIdx': _0x559ff7,
+                                            'scrollTo': _0x330d70
+                                        });
+                                        var _0x5df7aa = this['findObjsInOffsetRange'](_0x4cbe2d, _0x252226, _0x330d70['chapterOffsetEnd'] || _0x252226 + 0x1);
+                                        if (_0x5df7aa && _0x5df7aa['length'] > 0x0) this['scrollToObj'](_0x5df7aa[0x0]), _0x330d70[_0x25c8('0x10a')] && this['highLightObjs'](_0x5df7aa); else {
+                                            var _0x28cd86 = this['findNearestObjByOffset'](_0x252226);
+                                            _0x28cd86 ? this['scrollToObj'](_0x28cd86) : _0x3f7cfe['inDevelopment']() && console['warn']('[chinoLog]\x20Reader-scrollTo:\x20找不到\x20chapterOffset=' + _0x252226 + _0x25c8('0x8a'));
+                                        }
+                                    } else if ('string' == typeof _0x330d70[_0x25c8('0x132')] && _0x330d70['anchor']['length'] > 0x0) {
+                                        var _0x5f0518 = this['getSectionIdxWithAnchor'](_0x330d70['anchor']);
+                                        if (-0x1 === _0x5f0518) return;
+                                        if (_0x5f0518 !== this['getCurrentSectionIdx']) return void this['changeSection']({
+                                            'sectionIdx': _0x5f0518,
+                                            'scrollTo': {'anchor': _0x330d70['anchor']}
+                                        });
+                                        for (var _0x5f136a = 0x0, _0x507479 = _0x1d4520['length']; _0x5f136a < _0x507479; _0x5f136a++) {
+                                            var _0x1bcdc9 = _0x1d4520[_0x5f136a];
+                                            if (_0x1bcdc9['anchor'] === _0x330d70['anchor']) {
+                                                var _0x4270b7 = _0x1bcdc9[_0x25c8('0x301')];
+                                                _0x4270b7 >= 0x0 && this['scrollToOffsetTop'](_0x4270b7);
                                                 break;
                                             }
                                         }
-                                        _0xf33d7c || _0x4cbe2d['length'] > 0x0 && (_0x1bc540['scrollTo']({'chapterOffset': _0x4cbe2d[0x0]['getOffset']()}), _0x3ede51 = !0x0);
-                                    }
-                                    _0xf33d7c && (_0x1bc540['scrollTo']({'anchor': _0xf33d7c['anchor']}), _0x3ede51 = !0x0);
-                                }
-                                _0x40a3ca(_0x3ede51);
-                            })[_0x25c8('0x2d0')](function (_0x28dcc0) {
-                                if (!_0x28dcc0) return _0x1bc540[_0x25c8('0x2b2')]();
-                            })['then'](function (_0x15c369) {
-                                if (_0x15c369 && _0x15c369['success']) {
-                                    var _0x4e626d = _0x1bc540['currentChapter'][_0x25c8('0x466')];
-                                    _0x4e626d['length'] > 0x0 && _0x1bc540['scrollTo']({'anchor': _0x4e626d[_0x4e626d['length'] - 0x1][_0x25c8('0x132')]});
-                                }
-                            });
-                        },
-                        'handleNextChapter': function (_0x14acb3) {
-                            var _0x532141 = this;
-                            this[_0x25c8('0x18e')](_0x14acb3, function () {
-                                _0x3f7cfe['inDevelopment']() && alert('danger\x20mode'), _0x532141['$store']['dispatch'](_0x40127e['ENTER_DANGER_MODE'], {'vid': _0x532141['user']['vid']});
-                            });
-                            var _0x113c6b = this['getChapterWithIdxOffset'](0x1);
-                            if (_0x113c6b) return this['changeChapter']({'chapterUid': _0x113c6b['chapterUid']});
-                        },
-                        'handlePrevSection': function () {
-                            var _0x14e7e3 = this['getCurrentSectionIdx'] - 0x1;
-                            if (_0x14e7e3 >= 0x0) return this['changeSection']({
-                                'sectionIdx': _0x14e7e3,
-                                'offsetTop': _0x5962d4['default']
-                            });
-                        },
-                        'handleNextSection': function () {
-                            var _0x2608a9 = this['getCurrentSectionIdx'] + 0x1;
-                            if (_0x2608a9) return this['changeSection']({'sectionIdx': _0x2608a9});
-                        },
-                        'handleClickNextChapterButton': function (_0x1a87cd) {
-                            (_0x1a87cd = _0x1a87cd || window['event'])['clientX'] && _0x1a87cd[_0x25c8('0x253')] && this['handleNextChapter'](_0x1a87cd);
-                        },
-                        'handleClickPrevChapterButton': function (_0x187136) {
-                            (_0x187136 = _0x187136 || window[_0x25c8('0x1f6')])['clientX'] && _0x187136[_0x25c8('0x253')] && this[_0x25c8('0x2b2')](_0x187136);
-                        },
-                        'handleClickPrevSectionButton': function (_0x12d28b) {
-                            (_0x12d28b = _0x12d28b || window['event'])['clientX'] && _0x12d28b['clientY'] && this['handlePrevSection'](_0x12d28b);
-                        },
-                        'handleClickNextSectionButton': function (_0x720700) {
-                            (_0x720700 = _0x720700 || window['event'])[_0x25c8('0xd8')] && _0x720700['clientY'] && this['handleNextSection']();
-                        },
-                        'handlePrevChapter': function (_0x295f88) {
-                            var _0x16b17c = this;
-                            this['eventProtect'](_0x295f88, function () {
-                                _0x16b17c['$store']['dispatch'](_0x40127e['ENTER_DANGER_MODE'], {'vid': _0x16b17c['user']['vid']});
-                            });
-                            var _0x32186d = this['getChapterWithIdxOffset'](-0x1);
-                            if (_0x32186d) return this[_0x25c8('0x313')]({
-                                'chapterUid': _0x32186d['chapterUid'],
-                                'sectionId': -0x1
-                            });
-                        },
-                        'handleClickFirstChapter': function () {
-                            if (this['isPrivateUploadBook']) {
-                                var _0x698f9e = this['chapterInfos'];
-                                if (_0x698f9e && _0x698f9e[_0x25c8('0x178')] > 0x0) {
-                                    var _0x566a74 = _0x698f9e[0x0];
-                                    return this['hideCatalog'](), this['changeChapter']({'chapterUid': _0x566a74['chapterUid']});
-                                }
-                                return window[_0x25c8('0x474')]['reload']();
-                            }
-                            (0x0, _0x5656d1[_0x25c8('0x3a0')])(this['bookDetailURL'](this['bookId']));
-                        },
-                        'handleClickChapter': function (_0x41d223) {
-                            if (_0x41d223 && _0x41d223[_0x25c8('0x17a')]) {
-                                var _0x523a19 = {'chapterUid': _0x41d223['chapterUid']};
-                                return _0x41d223['anchor'] && (_0x523a19['scrollTo'] = {'anchor': _0x41d223['anchor']}), this['hideCatalog'](), this['changeChapter'](_0x523a19);
-                            }
-                        },
-                        'handleClickNoteItem': function (_0x209c5a) {
-                            var _0x3b45db = this;
-                            if (_0x209c5a['chapterUid']) return this['hideNotePanel'](), this['changeChapter']({
-                                'chapterUid': _0x209c5a['chapterUid'],
-                                'scrollTo': {'chapterOffset': _0x209c5a[_0x25c8('0x374')][_0x25c8('0x20e')]}
-                            })['then'](function () {
-                                _0x3b45db['reportClientBusiness']({'itemName': 'Web_Reader_Note_ItemClk'}), _0x209c5a['noteType'] === _0x3f6897['NoteTypeReview'] && setTimeout(function () {
-                                    _0x3b45db['showReviewDetailPanel']([_0x209c5a]);
-                                });
-                            });
-                        },
-                        'handleClickUnderline': function (_0x3bad98) {
-                            var _0x776c98 = this, _0x2eacc8 = _0x3bad98['notes'], _0x21f2ea = _0x3bad98['range'],
-                                _0x2c8a95 = this['findObjsInOffsetRange'](_0x4cbe2d, _0x21f2ea['start'], _0x21f2ea['end']),
-                                _0x13974e = this['getRectsByContentObjs'](_0x2c8a95), _0x862e40 = [], _0x4f2d63 = null;
-                            _0x2eacc8['forEach'](function (_0x4b7e82) {
-                                _0x4b7e82['noteType'] === _0x3f6897['NoteTypeBookmark'] ? _0x4f2d63 = _0x4b7e82 : _0x862e40['push'](_0x4b7e82);
-                            }), this[_0x25c8('0x276')]({
-                                'objs': _0x2c8a95,
-                                'rects': _0x13974e,
-                                'existBookmark': _0x4f2d63
-                            }), _0x862e40['length'] && this['showReviewDetailPanel'](_0x862e40), _0x862e40['length'] && this[_0x25c8('0x34c')](function () {
-                                _0x776c98['$nextTick'](function () {
-                                    var _0x57db05 = document['querySelector']('.reader_toolbar_container'),
-                                        _0x5169e1 = document['querySelector']('.readerReviewDetailPanel');
-                                    if (_0x57db05 && _0x5169e1) {
-                                        var _0x34a632 = _0x57db05['offsetTop'] + _0x57db05['offsetHeight'],
-                                            _0x17928e = _0x776c98['clientXY2RenderAreaXY']({
-                                                'x': 0x0,
-                                                'y': _0x5169e1['offsetTop']
-                                            }), _0x442482 = _0x17928e && _0x17928e['y'] || 0x0;
-                                        if (_0x34a632 > _0x442482) {
-                                            var _0x1e9eaf = _0x34a632 - _0x442482 + 0x30,
-                                                _0x14a55f = _0x776c98['getScrollTop']();
-                                            _0x27b5b0[_0x25c8('0x481')](document['body'], 0x12c, {
-                                                'container': document[_0x25c8('0x5')],
-                                                'x': !0x1,
-                                                'y': !0x0,
-                                                'offset': _0x14a55f + _0x1e9eaf
-                                            });
-                                        }
-                                    }
-                                });
-                            });
-                        },
-                        'handleClickIsLooking': function () {
-                            _0x6db688['wrReport']['newCHReport']({
-                                'itemName': 'wrweb_reader_topStories_isLooking_clk',
-                                'vid': this['user']['vid'],
-                                'extra': {'bookId': this[_0x25c8('0xd3')], 'vid': this['user']['vid']}
-                            });
-                        },
-                        'changeChapter': (_0x357fc6 = (0x0, _0x452d12['default'])(_0x8eb370['default']['mark'](function _0x34737c(_0x235a03) {
-                            var _0x225b33, _0x432f2a, _0x5ccd9f, _0x427799, _0x252ea5, _0x16f8e4, _0x1186fb,
-                                _0x3e1893 = this;
-                            return _0x8eb370[_0x25c8('0x3a0')]['wrap'](function (_0x374cbb) {
-                                for (; ;) switch (_0x374cbb['prev'] = _0x374cbb['next']) {
-                                    case 0x0:
-                                        return _0x374cbb['next'] = 0x2, _0x1c0991[_0x25c8('0x4e')]()['then'](function (_0x75655b) {
-                                            return _0x75655b['map'](function (_0x125c61) {
-                                                return _0x125c61['fileName'];
-                                            });
-                                        })['catch'](function (_0x215ac5) {
-                                            console[_0x25c8('0x2ee')](_0x215ac5);
-                                        });
-                                    case 0x2:
-                                        _0x225b33 = _0x374cbb[_0x25c8('0x38f')], _0x432f2a = !0x0, _0x5ccd9f = !0x1, _0x427799 = void 0x0, _0x374cbb['prev'] = 0x6, _0x252ea5 = (0x0, _0x4f8f9a['default'])(_0x225b33);
-                                    case 0x8:
-                                        if (_0x432f2a = (_0x16f8e4 = _0x252ea5['next']())['done']) {
-                                            _0x374cbb['next'] = 0x12;
-                                            break;
-                                        }
-                                        if (_0x1186fb = _0x16f8e4['value'], _0x3f7cfe[_0x25c8('0x191')]() && console['log'](_0x1186fb), !(_0x1186fb['indexOf']('puppeteer') > -0x1 || _0x1186fb['indexOf'](_0x25c8('0x2de')) > -0x1 || _0x1186fb['indexOf']('pptr') > -0x1)) {
-                                            _0x374cbb[_0x25c8('0x4a5')] = 0xf;
-                                            break;
-                                        }
-                                        return _0x374cbb[_0x25c8('0x4a5')] = 0xe, this['botDetect'](!0x0, 'puppeteer\x20execute\x20changeChapter');
-                                    case 0xe:
-                                        return _0x374cbb[_0x25c8('0x2cf')]('break', 0x12);
-                                    case 0xf:
-                                        _0x432f2a = !0x0, _0x374cbb['next'] = 0x8;
-                                        break;
-                                    case 0x12:
-                                        _0x374cbb['next'] = 0x18;
-                                        break;
-                                    case 0x14:
-                                        _0x374cbb['prev'] = 0x14, _0x374cbb['t0'] = _0x374cbb['catch'](0x6), _0x5ccd9f = !0x0, _0x427799 = _0x374cbb['t0'];
-                                    case 0x18:
-                                        _0x374cbb[_0x25c8('0x258')] = 0x18, _0x374cbb['prev'] = 0x19, !_0x432f2a && _0x252ea5['return'] && _0x252ea5['return']();
-                                    case 0x1b:
-                                        if (_0x374cbb['prev'] = 0x1b, !_0x5ccd9f) {
-                                            _0x374cbb['next'] = 0x1e;
-                                            break;
-                                        }
-                                        throw _0x427799;
-                                    case 0x1e:
-                                        return _0x374cbb['finish'](0x1b);
-                                    case 0x1f:
-                                        return _0x374cbb['finish'](0x18);
-                                    case 0x20:
-                                        if (_0x251dd7['default']['isLegacyReaderSupportBook'](this['bookInfo'])) {
-                                            _0x374cbb['next'] = 0x23;
-                                            break;
-                                        }
-                                        return this[_0x25c8('0x4a9')] = !0x0, _0x374cbb['abrupt'](_0x25c8('0xfd'), _0x2726bd[_0x25c8('0x3a0')][_0x25c8('0x199')]());
-                                    case 0x23:
-                                        return this['loadTopReviews'](), _0x374cbb['abrupt']('return', this[_0x25c8('0x471')]['dispatch'](_0x40127e['CHANGE_READER_CHAPTER'], {
-                                            'pushStack': _0x235a03['pushStack'],
-                                            'chapterUid': _0x235a03[_0x25c8('0x17a')],
-                                            'sectionId': _0x235a03[_0x25c8('0x2a9')],
-                                            'isLogin': this['hasLogin']
-                                        })[_0x25c8('0x2d0')](function () {
-                                            return _0x3e1893['clearSelection'](), _0x3e1893['clearHighLightDom'](), _0x3e1893['layout']();
-                                        })[_0x25c8('0x380')](function (_0x54090e) {
-                                            if (_0x54090e && _0x54090e['isCustomError']) {
-                                                switch (_0x54090e['reason']) {
-                                                    case'currentChapter':
-                                                        _0x3e1893[_0x25c8('0x1ef')](), _0x3e1893[_0x25c8('0x42e')](), _0x235a03[_0x25c8('0x43b')] ? _0x3e1893['highLightDomsAndScrollTo'](_0x235a03['searchItem']) : _0x235a03['scrollTo'] ? _0x3e1893['scrollTo'](_0x235a03['scrollTo']) : _0x235a03['sectionId'] || _0x3e1893['changeSection']({
-                                                            'sectionIdx': 0x0,
-                                                            'offsetTop': 0x0
-                                                        });
-                                                        break;
-                                                    case _0x25c8('0x1a2'):
-                                                        window['location']['reload']();
-                                                        break;
-                                                    case'sessionTimeout':
-                                                        _0x3e1893['handleSessionTimeout']();
-                                                }
-                                                return _0x54090e;
-                                            }
-                                            _0x3e1893['logError']('changeChapter-UnexpectedError0:', _0x54090e);
-                                        })['then'](function (_0x504a73) {
-                                            return _0x504a73 && _0x504a73['success'] && (_0x235a03['searchItem'] ? _0x3e1893['highLightDomsAndScrollTo'](_0x235a03['searchItem']) : _0x235a03['scrollTo'] ? _0x3e1893[_0x25c8('0x481')](_0x235a03['scrollTo']) : (_0x235a03['sectionId'] || _0x3e1893['changeSection']({
-                                                'sectionIdx': 0x0,
-                                                'scrollTo': {'chapterOffset': 0x0}
-                                            }), _0x3e1893['scrollToOffsetTop'](0x0)), _0x3e1893['checkIfShowMemberCardFreeReadingTips'](), _0x3e1893['checkIfNeedRequestLoginQRCode'](), _0x3e1893['$store']['dispatch'](_0x40127e[_0x25c8('0x195')], {'isLogin': _0x3e1893['hasLogin']}), _0x3e1893['$store']['dispatch'](_0x40127e['RELOAD_READER_CHAPTER_INFOS'], {'isLogin': _0x3e1893['hasLogin']}), _0x3e1893['reportReadingProgress']({
-                                                'computeSummary': !0x0,
-                                                'computeProgress': !0x1
-                                            })), _0x504a73;
-                                        }));
-                                    case 0x25:
-                                    case _0x25c8('0x9c'):
-                                        return _0x374cbb['stop']();
-                                }
-                            }, _0x34737c, this, [[0x6, 0x14, 0x18, 0x20], [0x19, , 0x1b, 0x1f]]);
-                        })), function (_0x80f1d) {
-                            return _0x357fc6['apply'](this, arguments);
-                        }),
-                        'changeSection': function (_0x2fdddc) {
-                            var _0x375da8 = this;
-                            if (_0x251dd7['default'][_0x25c8('0x207')](this['bookInfo'])) return this['loadTopReviews'](), this['$store'][_0x25c8('0x3cc')](_0x40127e['CHANGE_READER_SECTION'], {'sectionIdx': _0x2fdddc['sectionIdx']})[_0x25c8('0x2d0')](function () {
-                                return _0x375da8['clearSelection'](), _0x375da8[_0x25c8('0x42e')](), _0x375da8['layout']();
-                            })['catch'](function (_0x1e31f1) {
-                                if (_0x1e31f1 && _0x1e31f1[_0x25c8('0x2fa')]) {
-                                    switch (_0x1e31f1['reason']) {
-                                        case'currentSection':
-                                            _0x375da8['clearSelection'](), _0x375da8['clearHighLightDom'](), _0x2fdddc['searchItem'] ? _0x375da8['highLightDomsAndScrollTo'](_0x2fdddc['searchItem']) : _0x2fdddc[_0x25c8('0x481')] && _0x375da8['scrollTo'](_0x2fdddc[_0x25c8('0x481')]);
-                                            break;
-                                        case'forceReload':
-                                            window['location'][_0x25c8('0x146')]();
-                                            break;
-                                        case'sessionTimeout':
-                                            _0x375da8[_0x25c8('0x50')]();
-                                    }
-                                    return _0x1e31f1;
-                                }
-                                _0x375da8['logError'](_0x25c8('0x3f2'), _0x1e31f1);
-                            })[_0x25c8('0x2d0')](function (_0x36c125) {
-                                return _0x36c125 && _0x36c125['success'] && (_0x2fdddc['searchItem'] ? _0x375da8['highLightDomsAndScrollTo'](_0x2fdddc['searchItem']) : _0x2fdddc['offsetTop'] ? _0x375da8['scrollToOffsetTop'](_0x2fdddc['offsetTop']) : _0x2fdddc[_0x25c8('0x481')] ? _0x375da8[_0x25c8('0x481')](_0x2fdddc[_0x25c8('0x481')]) : _0x375da8['scrollToOffsetTop'](0x0), _0x375da8['checkIfShowMemberCardFreeReadingTips'](), _0x375da8['checkIfNeedRequestLoginQRCode'](), _0x375da8['reportReadingProgress']({
-                                    'computeSummary': !0x0,
-                                    'computeProgress': !0x1
-                                })), _0x36c125;
-                            });
-                            this['unsupported'] = !0x0;
-                        },
-                        'reloadCurrentChapter': function () {
-                            var _0x525aa4 = this;
-                            return this['$store']['dispatch'](_0x40127e['RELOAD_READER_CURRENT_CHAPTER'])['then'](this['layout'])['catch'](function (_0x2ebec1) {
-                                if (_0x2ebec1 && _0x2ebec1['isCustomError']) switch (_0x2ebec1['reason']) {
-                                    case'forceReload':
-                                        window['location']['reload']();
-                                        break;
-                                    case'sessionTimeout':
-                                        _0x525aa4['handleSessionTimeout']();
-                                } else _0x525aa4['logError']('reloadCurrentChapter-UnexpectedError:', _0x2ebec1);
-                                return _0x2ebec1;
-                            });
-                        },
-                        'reloadEntirePage': function () {
-                            window['location']['reload']();
-                        },
-                        'onAfterLoginToGetMemberCard': function () {
-                            this['saveReportInfo'](_0x25c8('0x39')), _0x1325ea['default']['setSessionStorage'](_0x1057f6['KEY_READER_LOGIN_PENDING_ACTION'], (0x0, _0x10d271['default'])({'toFreeRead': 0x1})), window['location']['reload']();
-                        },
-                        'showCatalog': function () {
-                            this['$refs']['readerCatalog'] && this['$refs']['readerCatalog']['show'](), this['isShowAutoSearchHint'] && this[_0x25c8('0x471')][_0x25c8('0xde')](_0x2c9cb7[_0x25c8('0xe9')], !0x1);
-                        },
-                        'hideCatalog': function () {
-                            this['$refs']['readerCatalog'] && this['$refs']['readerCatalog']['close']();
-                        },
-                        'toggleCatalog': function () {
-                            this['$refs']['readerCatalog'] && this['$refs']['readerCatalog']['toggle']();
-                        },
-                        'handleClickControls': function (_0x4a2a50) {
-                            switch (_0x4a2a50) {
-                                case'catalog':
-                                    return this['isPDFBookType'] ? this['$refs']['readerPdfViewer'][_0x25c8('0x1b8')]() : (this['reportClientBusiness']({'itemName': 'Web_Reader_ContentClk'}), this['showCatalog']());
-                                case'note':
-                                    return this['reportClientBusiness']({'itemName': 'Web_Reader_NoteClk'}), this['hasLogin'] ? this['toggleNotePanel']() : this[_0x25c8('0x47f')]({
-                                        'bottomTitle': '扫码登录微信读书',
-                                        'bottomSubTitle': '查看我的笔记'
-                                    });
-                                case'theme':
-                                    return this['isWhiteTheme'] ? this['$store']['dispatch'](_0x40127e['TOGGLE_THEME'], {'isWhite': !0x1}) : (this['reportClientBusiness']({'itemName': _0x25c8('0xb6')}), this[_0x25c8('0x471')]['dispatch'](_0x40127e['TOGGLE_THEME'], {'isWhite': !0x0}));
-                                case'download':
-                                    return this['downloadAppToRead']();
-                                case'lecture':
-                                    return this[_0x25c8('0x16a')]();
-                            }
-                        },
-                        'handleToAlbum': function () {
-                            location && (_0x6db688['wrReport'][_0x25c8('0x1ed')]({
-                                'itemName': 'Web_Lecture_ButtonClk',
-                                'vid': this['user']['vid'],
-                                'extra': {'bookId': this[_0x25c8('0xd3')], 'albumId': this['relatedAlbum']}
-                            }), window[_0x25c8('0x26e')]('https://at.qq.com/album-share/index?albumId=' + this['relatedAlbum'] + '&from=desktopReader', 'electron' === this[_0x25c8('0x1c0')] ? '_blank' : '_self'));
-                        },
-                        'showNotePanel': function () {
-                            this['$refs'][_0x25c8('0x37')]['show']();
-                        },
-                        'hideNotePanel': function () {
-                            this['$refs']['readerNotePanel']['close']();
-                        },
-                        'toggleNotePanel': function () {
-                            this[_0x25c8('0x304')]['readerNotePanel'][_0x25c8('0x51')]() ? this['hideNotePanel']() : this['showNotePanel']();
-                        },
-                        'toggleBottomSettingPanel': function () {
-                            this['isShowBottomSettingPanel'] = !this['isShowBottomSettingPanel'];
-                        },
-                        'handleClickBottomBarItem': function (_0x287306) {
-                            switch (_0x287306) {
-                                case'shelf':
-                                    return this[_0x25c8('0x303')]();
-                                case'catalog':
-                                    return this['isShowBottomSettingPanel'] && (this[_0x25c8('0x234')] = !0x1), this['toggleCatalog']();
-                                case'setting':
-                                    return this[_0x25c8('0x304')]['readerCatalog'] && this['$refs']['readerCatalog'][_0x25c8('0x51')]() && this[_0x25c8('0x104')](), this['toggleBottomSettingPanel']();
-                            }
-                        },
-                        'handleClickBottomSettingPanelItem': function (_0x3f982f) {
-                            switch (_0x3f982f) {
-                                case'white':
-                                    return this['reportClientBusiness']({'itemName': 'Web_Reader_LightClk'}), this['$store'][_0x25c8('0x3cc')](_0x40127e[_0x25c8('0x2fd')], {'isWhite': !0x0});
-                                case'dark':
-                                    return this['$store']['dispatch'](_0x40127e['TOGGLE_THEME'], {'isWhite': !0x1});
-                                case'download':
-                                    (0x0, _0x427c36[_0x25c8('0x3a0')])(function (_0x113ec6) {
-                                        _0x113ec6 ? (0x0, _0x9861df['default'])({'openUrl': (0x0, _0x4ec966['default'])('', {})}) : (0x0, _0x3bc9f3['default'])();
-                                    });
-                            }
-                        },
-                        'doSearch': function (_0x395d6f) {
-                            return _0x395d6f[_0x25c8('0x41d')] || this[_0x25c8('0x18d')]({'itemName': 'Web_Reader_Search'}), this['$store']['dispatch'](_0x40127e['FETCH_READER_SEARCH'], _0x395d6f);
-                        },
-                        'enterSearch': function () {
-                            return this['$store']['commit'](_0x2c9cb7['UPDATE_READER_IS_IN_SEARCH'], !0x0);
-                        },
-                        'exitSearch': function () {
-                            this['$store']['commit'](_0x2c9cb7['CLEAR_READER_SEARCH_RESULT']), this['$store']['commit'](_0x2c9cb7['UPDATE_READER_IS_IN_SEARCH'], !0x1);
-                        },
-                        'handleClickSearchItem': function (_0x590cea) {
-                            return this['hideCatalog'](), this['reportClientBusiness']({'itemName': _0x25c8('0x250')}), this['changeChapter']({
-                                'chapterUid': _0x590cea['chapterUid'],
-                                'searchItem': _0x590cea
-                            });
-                        },
-                        'highLightObjs': function (_0x3fa236) {
-                            var _0x5800c7 = this['getRectsByContentObjs'](_0x3fa236);
-                            if (_0x5800c7['length'] > 0x0) {
-                                var _0x2007e7 = '';
-                                _0x5800c7[_0x25c8('0x28d')](function (_0x3b50a5) {
-                                    _0x2007e7 += '<div\x20class=\x22wr_highlight_bg\x22\x20style=\x22' + _0x3b50a5['toCSSPositionString']() + '\x22></div>';
-                                }), this['chapterContentHighLightBgHtml'] = _0x2007e7;
-                            } else this[_0x25c8('0x384')] = '';
-                        },
-                        'clearHighLight': function () {
-                            this['chapterContentHighLightBgHtml'] = '';
-                        },
-                        'clearHighLightDom': function () {
-                            this[_0x25c8('0x1f')](), (0x0, _0x240e8c[_0x25c8('0x3a0')])(document['querySelectorAll']('.wr_highlight_char'))['forEach'](function (_0x584738) {
-                                _0x584738['classList']['remove']('wr_highlight_char');
-                            });
-                        },
-                        'highLightDomsAndScrollTo': function (_0x1cb34f) {
-                            var _0x1e92f7 = this;
-                            if (_0x1cb34f) {
-                                var _0x26cf65 = _0x1cb34f[_0x25c8('0x40f')], _0x1f8b32 = _0x1cb34f['absEnd'],
-                                    _0x524f25 = _0x1cb34f[_0x25c8('0x3ec')], _0x1bff51 = _0x1cb34f['keyword'] || [];
-                                if (_0x1cb34f['abstract'] && !(_0x26cf65 >= _0x1f8b32 || _0x524f25 < _0x26cf65 || _0x524f25 > _0x1f8b32)) {
-                                    var _0x22b03f = this['getSectionIdxWithOffset'](_0x26cf65);
-                                    if (_0x22b03f !== this['getCurrentSectionIdx']) return this[_0x25c8('0x390')]({
-                                        'sectionIdx': _0x22b03f,
-                                        'searchItem': _0x1cb34f
-                                    });
-                                    var _0x329d25 = this['findObjsInOffsetRange'](_0x4cbe2d, _0x26cf65, _0x1f8b32),
-                                        _0x49f37f = _0x329d25['length'], _0x11d8a7 = [];
-                                    if (_0x49f37f > 0x0) for (var _0x45a917 = 0x0, _0x49a111 = null, _0x273f8b = 0x0, _0x55e8c1 = []; _0x45a917 < _0x49f37f;) {
-                                        var _0x4404a9 = _0x329d25[_0x45a917];
-                                        if (_0x4404a9['getOffset']() < _0x524f25) _0x45a917++; else {
-                                            var _0x364331 = _0x4404a9['isTextOrCanvasType']() && _0x4404a9['text'];
-                                            if (_0x364331 && 0x0 !== _0x364331['length']) {
-                                                if (_0x49a111) _0x49a111[_0x25c8('0x7')](_0x364331) === _0x273f8b ? (_0x273f8b += _0x364331['length'], _0x55e8c1[_0x25c8('0x4b3')](_0x4404a9)) : (_0x49a111 = null, _0x273f8b = 0x0, _0x55e8c1 = []); else for (var _0x4ba8c5 = 0x0; _0x4ba8c5 < _0x1bff51['length']; _0x4ba8c5++) {
-                                                    var _0x38bbcf = _0x1bff51[_0x4ba8c5];
-                                                    if (0x0 === _0x38bbcf['indexOf'](_0x364331)) {
-                                                        _0x49a111 = _0x38bbcf, _0x273f8b = _0x364331['length'], _0x55e8c1['push'](_0x4404a9);
-                                                        break;
-                                                    }
-                                                }
-                                                _0x49a111 && _0x49a111['length'] > 0x0 && _0x49a111[_0x25c8('0x178')] === _0x273f8b && (_0x11d8a7['push'][_0x25c8('0x2cc')](_0x11d8a7, (0x0, _0x2016a5['default'])(_0x55e8c1)), _0x55e8c1 = []), _0x45a917++;
-                                            } else _0x45a917++;
-                                        }
-                                    }
-                                    this['highLightObjs'](_0x329d25), (0x0, _0x240e8c[_0x25c8('0x3a0')])(document['querySelectorAll']('.wr_highlight_char'))['forEach'](function (_0x22bc30) {
-                                        _0x22bc30['classList']['remove'](_0x25c8('0x2c8'));
-                                    });
-                                    for (var _0xc1493b = _0x5728b5, _0x469f04 = 0x0, _0x10b167 = _0xc1493b['length']; _0x469f04 < _0x10b167; _0x469f04++) _0xc1493b[_0x469f04]['setHighLight'](!0x1);
-                                    _0x5728b5 = _0x11d8a7;
-                                    for (var _0x3bdd8c = 0x0, _0x121876 = _0x11d8a7['length']; _0x3bdd8c < _0x121876; _0x3bdd8c++) {
-                                        var _0x4ff41e = _0x11d8a7[_0x3bdd8c];
-                                        if (_0x4ff41e[_0x25c8('0x26')](!0x0), _0x4ff41e['type'] === _0x379107['ObjType']['txt']) {
-                                            var _0x47d247 = document['querySelector']('[data-wr-id=' + _0x4ff41e['id'] + ']');
-                                            _0x47d247 && _0x47d247['classList']['add'](_0x25c8('0x2c8'));
-                                        }
-                                    }
-                                    this['clearDrawTexts'](), this['drawSomeTexts'](), this[_0x25c8('0x34c')](function () {
-                                        _0x329d25['length'] > 0x0 && _0x1e92f7['scrollTo']({'chapterOffset': _0x26cf65});
-                                    });
-                                }
-                            }
-                        },
-                        'getSectionIdxWithOffset': function (_0x4157f4) {
-                            if (!_0x4157f4 || 'number' != typeof _0x4157f4) return -0x1;
-                            for (var _0xf21731 = -0x1, _0x49e1a7 = _0x25c8('0x13c') + _0x4157f4 + '\x22', _0x224dcf = 0x0; _0x224dcf < this['chapterContentHtml']['length']; _0x224dcf++) {
-                                if (this['chapterContentHtml'][_0x224dcf]['valueHasStr'](_0x49e1a7)) {
-                                    _0xf21731 = _0x224dcf;
-                                    break;
-                                }
-                            }
-                            return _0xf21731;
-                        },
-                        'getSectionIdxWithAnchor': function (_0x2d5cae) {
-                            if (!_0x2d5cae || 'string' != typeof _0x2d5cae || _0x2d5cae['length'] <= 0x0) return -0x1;
-                            for (var _0xff8085 = -0x1, _0x5dfa6d = 'id=\x22' + _0x2d5cae + '\x22', _0x14947e = 0x0; _0x14947e < this['chapterContentHtml']['length']; _0x14947e++) {
-                                if (this['chapterContentHtml'][_0x14947e][_0x25c8('0xe8')](_0x5dfa6d)) {
-                                    _0xff8085 = _0x14947e;
-                                    break;
-                                }
-                            }
-                            return _0xff8085;
-                        },
-                        'pageUp': function () {
-                            var _0x2dd182 = window['innerHeight'] - 0x48;
-                            window['scrollTo'](0x0, Math['max'](0x0, this['getScrollTop']() - _0x2dd182));
-                        },
-                        'pageDown': function () {
-                            var _0x4fa735 = window['innerHeight'] - 0x48;
-                            window['scrollTo'](0x0, this[_0x25c8('0x237')]() + _0x4fa735);
-                        },
-                        'scrollTo': function (_0x330d70) {
-                            if (_0x330d70 && 0x0 !== _0x4cbe2d[_0x25c8('0x178')]) {
-                                var _0x252226 = _0x330d70['chapterOffset'];
-                                if (_0x25c8('0x14') === this[_0x25c8('0x28f')]['query'][_0x25c8('0x2ad')] && (_0x252226 = 0x0), 'number' == typeof _0x252226 && _0x252226 >= 0x0) {
-                                    var _0x326d2d = _0x4cbe2d[0x0]['getOffset']();
-                                    if (!0x0 === _0x330d70[_0x25c8('0x433')] && (0x0 === _0x252226 || _0x252226 <= _0x326d2d)) return;
-                                    var _0x559ff7 = _0x252226 <= _0x326d2d ? this[_0x25c8('0x2d6')](_0x326d2d) : this['getSectionIdxWithOffset'](_0x252226);
-                                    if (-0x1 === _0x559ff7) return;
-                                    if (_0x559ff7 !== this[_0x25c8('0xa3')]) return void this['changeSection']({
-                                        'sectionIdx': _0x559ff7,
-                                        'scrollTo': _0x330d70
-                                    });
-                                    var _0x5df7aa = this['findObjsInOffsetRange'](_0x4cbe2d, _0x252226, _0x330d70['chapterOffsetEnd'] || _0x252226 + 0x1);
-                                    if (_0x5df7aa && _0x5df7aa['length'] > 0x0) this['scrollToObj'](_0x5df7aa[0x0]), _0x330d70[_0x25c8('0x10a')] && this['highLightObjs'](_0x5df7aa); else {
-                                        var _0x28cd86 = this['findNearestObjByOffset'](_0x252226);
-                                        _0x28cd86 ? this['scrollToObj'](_0x28cd86) : _0x3f7cfe['inDevelopment']() && console['warn']('[chinoLog]\x20Reader-scrollTo:\x20找不到\x20chapterOffset=' + _0x252226 + _0x25c8('0x8a'));
-                                    }
-                                } else if ('string' == typeof _0x330d70[_0x25c8('0x132')] && _0x330d70['anchor']['length'] > 0x0) {
-                                    var _0x5f0518 = this['getSectionIdxWithAnchor'](_0x330d70['anchor']);
-                                    if (-0x1 === _0x5f0518) return;
-                                    if (_0x5f0518 !== this['getCurrentSectionIdx']) return void this['changeSection']({
-                                        'sectionIdx': _0x5f0518,
-                                        'scrollTo': {'anchor': _0x330d70['anchor']}
-                                    });
-                                    for (var _0x5f136a = 0x0, _0x507479 = _0x1d4520['length']; _0x5f136a < _0x507479; _0x5f136a++) {
-                                        var _0x1bcdc9 = _0x1d4520[_0x5f136a];
-                                        if (_0x1bcdc9['anchor'] === _0x330d70['anchor']) {
-                                            var _0x4270b7 = _0x1bcdc9[_0x25c8('0x301')];
-                                            _0x4270b7 >= 0x0 && this['scrollToOffsetTop'](_0x4270b7);
-                                            break;
-                                        }
                                     }
                                 }
-                            }
-                        },
-                        'scrollToOffsetTop': function (_0x1dde28) {
-                            var _0x300965 = 0x0, _0x20a99d = this[_0x25c8('0x304')]['renderTargetContainer'];
-                            _0x20a99d && (_0x300965 = _0x1dde28 - 0x14 - 0x48 + _0x20a99d['offsetTop']), _0x300965 >= 0x0 && window[_0x25c8('0x481')](0x0, _0x300965), 0x0 === _0x1dde28 && this[_0x25c8('0x304')]['topAnchor'] && this['$refs']['topAnchor']['scrollIntoView'] && this['$refs']['topAnchor'][_0x25c8('0x416')]();
-                        },
-                        'scrollToObj': function (_0x8eac51) {
-                            _0x8eac51 && _0x8eac51['rect'] && this['scrollToOffsetTop'](_0x8eac51['rect']['y']);
-                        },
-                        'findFirstObjIndexContainingText': function (_0x46fae1) {
-                            for (var _0x86e9 = 0x0; _0x86e9 < _0x46fae1['length'];) {
-                                var _0x165e66 = _0x46fae1[_0x86e9];
-                                if (_0x165e66['isTextOrCanvasType']() && _0x165e66['text'] && _0x165e66['text'][_0x25c8('0x178')] > 0x0) return _0x86e9;
-                                _0x86e9++;
-                            }
-                            return -0x1;
-                        },
-                        'binaryFindObjIndex': function (_0x534811, _0x531b7e) {
-                            var _0x27dba6 = !(arguments['length'] > 0x2 && void 0x0 !== arguments[0x2]) || arguments[0x2],
-                                _0x21b726 = _0x534811[_0x25c8('0x178')];
-                            if (0x0 === _0x21b726) return -0x1;
-                            if (0x1 === _0x21b726) return _0x531b7e(_0x534811[0x0]) ? 0x0 : -0x1;
-                            for (var _0x97ce09 = 0x0, _0x121467 = _0x21b726 - 0x1; _0x97ce09 < _0x121467;) {
-                                if (_0x97ce09 === _0x121467 - 0x1) return _0x27dba6 ? _0x531b7e(_0x534811[_0x97ce09]) ? _0x97ce09 : _0x531b7e(_0x534811[_0x121467]) ? _0x121467 : -0x1 : _0x531b7e(_0x534811[_0x121467]) ? _0x121467 : _0x531b7e(_0x534811[_0x97ce09]) ? _0x97ce09 : -0x1;
-                                var _0x132746 = Math['floor']((_0x97ce09 + _0x121467) / 0x2),
-                                    _0x531aac = _0x531b7e(_0x534811[_0x132746]);
-                                if (_0x27dba6) if (_0x531aac) {
-                                    var _0x28cbd9 = 0x0 !== _0x132746;
-                                    if (!_0x28cbd9) return _0x132746;
-                                    if (!_0x531b7e(_0x534811[_0x132746 - 0x1])) return _0x132746;
-                                    _0x121467 = _0x132746;
-                                } else _0x97ce09 = _0x132746; else if (_0x531aac) {
-                                    var _0x4bb6e7 = _0x132746 !== _0x21b726 - 0x1;
-                                    if (!_0x4bb6e7) return _0x132746;
-                                    if (!_0x531b7e(_0x534811[_0x132746 + 0x1])) return _0x132746;
-                                    _0x97ce09 = _0x132746;
-                                } else _0x121467 = _0x132746;
-                            }
-                            return -0x1;
-                        },
-                        'getContentStringFromObjIdx': function (_0x12a455, _0x52ceb0, _0x4dc3ca) {
-                            for (var _0x39864f = ''; _0x52ceb0 < _0x12a455['length'] && _0x39864f['length'] < _0x4dc3ca;) {
-                                _0x39864f += _0x12a455[_0x52ceb0]['text'] || '', _0x52ceb0++;
-                            }
-                            return _0x39864f;
-                        },
-                        'findObjsInOffsetRange': function (_0x1dfe29, _0x200160, _0x38fb9e) {
-                            if (_0x200160 >= _0x38fb9e || _0x200160 < 0x0 || _0x38fb9e < 0x0) return [];
-                            var _0x2e9e7f = this['binaryFindObjIndex'](_0x1dfe29, function (_0x49b4ed) {
-                                return _0x49b4ed['getOffset']() >= _0x200160;
-                            }), _0x3c0f52 = this['binaryFindObjIndex'](_0x1dfe29, function (_0x250f1b) {
-                                return _0x250f1b['getOffset']() < _0x38fb9e;
-                            }, !0x1);
-                            return _0x2e9e7f > -0x1 && _0x3c0f52 > -0x1 && _0x2e9e7f <= _0x3c0f52 ? _0x1dfe29['slice'](_0x2e9e7f, _0x3c0f52 + 0x1) : [];
-                        },
-                        'findNearestObjByOffset': function (_0x4547c4) {
-                            var _0x2301e4 = _0x4cbe2d,
-                                _0x80ccd0 = this['binaryFindObjIndex'](_0x2301e4, function (_0x4ca6c3) {
-                                    return _0x4ca6c3['getOffset']() >= _0x4547c4;
-                                }), _0x284e4c = this['binaryFindObjIndex'](_0x2301e4, function (_0x15db8) {
-                                    return _0x15db8['getOffset']() < _0x4547c4;
+                            },
+                            'scrollToOffsetTop': function (_0x1dde28) {
+                                var _0x300965 = 0x0, _0x20a99d = this[_0x25c8('0x304')]['renderTargetContainer'];
+                                _0x20a99d && (_0x300965 = _0x1dde28 - 0x14 - 0x48 + _0x20a99d['offsetTop']), _0x300965 >= 0x0 && window[_0x25c8('0x481')](0x0, _0x300965), 0x0 === _0x1dde28 && this[_0x25c8('0x304')]['topAnchor'] && this['$refs']['topAnchor']['scrollIntoView'] && this['$refs']['topAnchor'][_0x25c8('0x416')]();
+                            },
+                            'scrollToObj': function (_0x8eac51) {
+                                _0x8eac51 && _0x8eac51['rect'] && this['scrollToOffsetTop'](_0x8eac51['rect']['y']);
+                            },
+                            'findFirstObjIndexContainingText': function (_0x46fae1) {
+                                for (var _0x86e9 = 0x0; _0x86e9 < _0x46fae1['length'];) {
+                                    var _0x165e66 = _0x46fae1[_0x86e9];
+                                    if (_0x165e66['isTextOrCanvasType']() && _0x165e66['text'] && _0x165e66['text'][_0x25c8('0x178')] > 0x0) return _0x86e9;
+                                    _0x86e9++;
+                                }
+                                return -0x1;
+                            },
+                            'binaryFindObjIndex': function (_0x534811, _0x531b7e) {
+                                var _0x27dba6 = !(arguments['length'] > 0x2 && void 0x0 !== arguments[0x2]) || arguments[0x2],
+                                    _0x21b726 = _0x534811[_0x25c8('0x178')];
+                                if (0x0 === _0x21b726) return -0x1;
+                                if (0x1 === _0x21b726) return _0x531b7e(_0x534811[0x0]) ? 0x0 : -0x1;
+                                for (var _0x97ce09 = 0x0, _0x121467 = _0x21b726 - 0x1; _0x97ce09 < _0x121467;) {
+                                    if (_0x97ce09 === _0x121467 - 0x1) return _0x27dba6 ? _0x531b7e(_0x534811[_0x97ce09]) ? _0x97ce09 : _0x531b7e(_0x534811[_0x121467]) ? _0x121467 : -0x1 : _0x531b7e(_0x534811[_0x121467]) ? _0x121467 : _0x531b7e(_0x534811[_0x97ce09]) ? _0x97ce09 : -0x1;
+                                    var _0x132746 = Math['floor']((_0x97ce09 + _0x121467) / 0x2),
+                                        _0x531aac = _0x531b7e(_0x534811[_0x132746]);
+                                    if (_0x27dba6) if (_0x531aac) {
+                                        var _0x28cbd9 = 0x0 !== _0x132746;
+                                        if (!_0x28cbd9) return _0x132746;
+                                        if (!_0x531b7e(_0x534811[_0x132746 - 0x1])) return _0x132746;
+                                        _0x121467 = _0x132746;
+                                    } else _0x97ce09 = _0x132746; else if (_0x531aac) {
+                                        var _0x4bb6e7 = _0x132746 !== _0x21b726 - 0x1;
+                                        if (!_0x4bb6e7) return _0x132746;
+                                        if (!_0x531b7e(_0x534811[_0x132746 + 0x1])) return _0x132746;
+                                        _0x97ce09 = _0x132746;
+                                    } else _0x121467 = _0x132746;
+                                }
+                                return -0x1;
+                            },
+                            'getContentStringFromObjIdx': function (_0x12a455, _0x52ceb0, _0x4dc3ca) {
+                                for (var _0x39864f = ''; _0x52ceb0 < _0x12a455['length'] && _0x39864f['length'] < _0x4dc3ca;) {
+                                    _0x39864f += _0x12a455[_0x52ceb0]['text'] || '', _0x52ceb0++;
+                                }
+                                return _0x39864f;
+                            },
+                            'findObjsInOffsetRange': function (_0x1dfe29, _0x200160, _0x38fb9e) {
+                                if (_0x200160 >= _0x38fb9e || _0x200160 < 0x0 || _0x38fb9e < 0x0) return [];
+                                var _0x2e9e7f = this['binaryFindObjIndex'](_0x1dfe29, function (_0x49b4ed) {
+                                    return _0x49b4ed['getOffset']() >= _0x200160;
+                                }), _0x3c0f52 = this['binaryFindObjIndex'](_0x1dfe29, function (_0x250f1b) {
+                                    return _0x250f1b['getOffset']() < _0x38fb9e;
                                 }, !0x1);
-                            return _0x80ccd0 > -0x1 ? (_0x3f7cfe['inDevelopment']() && console['log'](_0x25c8('0x29b'), _0x80ccd0, _0x2301e4[_0x80ccd0]), _0x2301e4[_0x80ccd0]) : _0x284e4c > -0x1 ? (_0x3f7cfe['inDevelopment']() && console['log']('lastIndex', _0x284e4c, _0x2301e4[_0x284e4c]), _0x2301e4[_0x284e4c]) : (_0x3f7cfe['inDevelopment']() && console['log']('not\x20found'), null);
-                        },
-                        'debugSearchOffset': function (_0x1ab5a8) {
-                            var _0x315a6c = this['getSectionIdxWithOffset'](Number(_0x1ab5a8));
-                            console['log']('sectionIdx', _0x315a6c);
-                        },
-                        'getRectsByContentObjs': function (_0x2d8a30) {
-                            var _0x4ef6c7 = [], _0x8698f6 = void 0x0;
-                            return _0x2d8a30['forEach'](function (_0x361387) {
-                                var _0x259a33 = _0x361387['rect'];
-                                if (_0x259a33 && !_0x8698f6) _0x8698f6 = _0x259a33['clone'](), _0x4ef6c7['push'](_0x8698f6); else if (_0x259a33) if ((_0x3240b4['default']['isVerticalContain'](_0x8698f6, _0x259a33) || _0x3240b4['default']['isVerticalOverLap'](_0x8698f6, _0x259a33)) && _0x8698f6['isLeftOn'](_0x259a33)) {
-                                    var _0x1ca086 = _0x3240b4['default']['union'](_0x8698f6, _0x259a33);
-                                    _0x8698f6['set'](_0x1ca086);
-                                } else _0x8698f6 = _0x259a33['clone'](), _0x4ef6c7['push'](_0x8698f6);
-                            }), _0x4ef6c7;
-                        },
-                        'reportEnterReading': function () {
-                            var _0x4bb962 = this;
-                            if (this[_0x25c8('0x79')]) {
-                                var _0x51df86 = '', _0xa09195 = 0x0, _0x84d73b = _0x4cbe2d,
-                                    _0x4342bf = this['findFirstObjIndexContainingText'](_0x84d73b);
-                                return -0x1 !== _0x4342bf && (_0xa09195 = _0x84d73b[_0x4342bf]['getOffset'](), _0x51df86 = this[_0x25c8('0x2e5')](_0x84d73b, _0x4342bf, 0x14)), this['$store']['dispatch'](_0x40127e['FETCH_READER_ENTER_BOOK_READ'], {
-                                    'firstDomOffset': _0xa09195,
-                                    'firstDomSummaryText': _0x51df86
-                                })['then'](function (_0x3bf28d) {
-                                    _0x3bf28d && 0x1 === _0x3bf28d['sessionTimeout'] && _0x4bb962['handleSessionTimeout']();
-                                });
-                            }
-                        },
-                        'reportReadingProgress': function (_0x1884ee) {
-                            var _0x514eeb = this;
-                            if (this['needReportReadingProgress']) return this['$store']['dispatch'](_0x40127e['FETCH_READER_BOOK_READ'], {
-                                'vid': _0x5b60e9['get'](this, 'user.vid', 0x0),
-                                'retryCount': 0x1,
-                                'progressData': this['computeProgressData'](_0x1884ee)
-                            })['then'](function (_0x1cd256) {
-                                _0x1cd256 && 0x1 === _0x1cd256['sessionTimeout'] ? _0x514eeb['handleSessionTimeout']() : _0x514eeb['startReportTimer']();
-                            })['catch'](function (_0x2876e6) {
-                                _0x514eeb['logError']('Reader-reportReadingProgress', _0x25c8('0x216'), _0x2876e6), _0x514eeb[_0x25c8('0x18')]();
-                            });
-                        },
-                        'clearReportTimer': function () {
-                            _0x269590 && clearTimeout(_0x269590);
-                        },
-                        'startReportTimer': function () {
-                            this['clearReportTimer'](), _0x269590 = setTimeout(this['reportReadingProgress'], 0x7530);
-                        },
-                        'computeProgressData': function () {
-                            var _0x3ac199 = arguments['length'] > 0x0 && void 0x0 !== arguments[0x0] ? arguments[0x0] : {
-                                'computeSummary': !0x0,
-                                'computeProgress': !0x0
-                            };
-                            if (this['isPDFBookType']) return null;
-                            var _0x1dfa5e = window && window['pageYOffset'] || document && document['documentElement'] && document['documentElement']['scrollTop'] || document && document['body'] && document[_0x25c8('0x5')]['scrollTop'];
-                            if (void 0x0 === _0x1dfa5e || _0x1dfa5e < 0x0) return null;
-                            var _0x3360e7 = this['$refs']['renderTargetContainer'];
-                            if (!_0x3360e7) return console['log']('Reader-computeProgressData', _0x25c8('0x275')), null;
-                            var _0x22ad94 = _0x1dfa5e + 0x48 - _0x3360e7['offsetTop'], _0x4e7bd0 = _0x4cbe2d,
-                                _0x3981d7 = this[_0x25c8('0x9f')](_0x4e7bd0, function (_0x554dae) {
-                                    return _0x554dae && _0x554dae['rect'] && _0x554dae[_0x25c8('0x331')]['y'] >= _0x22ad94;
-                                });
-                            if (-0x1 === _0x3981d7) return console['log'](_0x25c8('0x73'), _0x25c8('0x20c')), null;
-                            var _0x3b5a77 = _0x4e7bd0[_0x3981d7], _0x5a4144 = _0x3b5a77['getOffset'](),
-                                _0x594d67 = _0x3ac199['computeSummary'] ? this['getContentStringFromObjIdx'](_0x4e7bd0, _0x3981d7, 0x14) : '',
-                                _0x58e51e = (this['isDynamicTypeBook'], _0x5b60e9['get'](this['progress'], 'book.progress', 0x0));
-                            if (_0x3ac199['computeProgress'] && !this['isNeedPay']) {
-                                var _0x3b1072 = this['bookInfo'][_0x25c8('0x17b')] || 0x0;
-                                if (_0x3b1072 > 0x0) {
-                                    var _0x260d4a = this['computePrevChaptersWordCount'](),
-                                        _0x32594e = _0x4e7bd0['length'] > 0x0 ? _0x3981d7 / _0x4e7bd0[_0x25c8('0x178')] : 0x0,
-                                        _0x2dbab5 = parseInt(_0x32594e * this['currentChapter']['wordCount']),
-                                        _0x3170bd = (_0x260d4a + _0x2dbab5) / _0x3b1072;
-                                    _0x3170bd <= 0x64 ? _0x58e51e = Math['max'](0x0, parseInt(0x64 * _0x3170bd)) : this['logError'](_0x25c8('0x47'), 'bookId=', this['bookId'], 'chapter=', this['currentChapter'][_0x25c8('0x17a')], 'prev1=', _0x260d4a, 'per=', _0x32594e, 'prev2=', _0x2dbab5, _0x25c8('0x322'), _0x3b1072);
-                                }
-                            }
-                            return {'offset': _0x5a4144, 'content': _0x594d67, 'progress': _0x58e51e};
-                        },
-                        'computePrevChaptersWordCount': function () {
-                            for (var _0x3d03f3 = this['chapterInfos'], _0x10f3a6 = this[_0x25c8('0x3e1')], _0xc0ad64 = 0x0, _0x439aba = 0x0, _0x31f4d0 = _0x3d03f3[_0x25c8('0x178')]; _0x439aba < _0x31f4d0; _0x439aba++) {
-                                var _0x402710 = _0x3d03f3[_0x439aba];
-                                if (_0x402710['chapterIdx'] >= _0x10f3a6[_0x25c8('0x363')]) break;
-                                _0xc0ad64 += _0x402710['wordCount'];
-                            }
-                            return _0xc0ad64;
-                        },
-                        'showConfirmAuthDialog': function () {
-                            var _0x4c5148 = this;
-                            this[_0x25c8('0x1a8')]({'requireVid': this['user']['vid']}, function () {
-                                _0x4c5148['isBalanceNeedAuth'] = !0x1, _0x4c5148['$store']['dispatch'](_0x40127e['FETCH_READER_BALANCE']);
-                            });
-                        },
-                        'showPayDialog': function () {
-                            var _0x494129 = this;
-                            this['hasLogin'] ? (this['$store']['dispatch'](_0x40127e['FETCH_READER_BALANCE'])[_0x25c8('0x2d0')](function (_0x412d34) {
-                                var _0x1599d6 = (0x0, _0x4c4faf['default'])(_0x412d34);
-                                return _0x1599d6 && -0x2eed === _0x1599d6['errCode'] && (_0x494129['isBalanceNeedAuth'] = !0x0, _0x494129['showConfirmAuthDialog']()), _0x412d34;
-                            }), _0x251dd7['default']['isBuyUnitWholeBook'](this['bookInfo']) ? (this['isShowPayWholeDialog'] = !0x0, this[_0x25c8('0x34c')](function () {
-                                _0x494129['$refs']['payWholeBookDialog']['showDialog']();
-                                var _0x1e326d = _0x494129['$refs'][_0x25c8('0xf8')]['payInfos'];
-                                _0x1e326d && _0x1e326d['isNeedDeposit'] && _0x494129['setDirectPayProtoLog']('book_purchase', _0x25c8('0x375'), 'exposure_scan_purchase');
-                            })) : (this['isShowPayChapterDialog'] = !0x0, this['$nextTick'](function () {
-                                _0x494129['$refs']['payChapterDialog'][_0x25c8('0xfa')](_0x494129['currentChapter']['chapterUid']);
-                            }))) : this[_0x25c8('0x65')] && this['downloadAppToRead']();
-                        },
-                        'hidePayDialog': function () {
-                            _0x251dd7['default']['isBuyUnitWholeBook'](this['bookInfo']) ? this['$refs']['payWholeBookDialog'][_0x25c8('0xa6')]() : this['$refs'][_0x25c8('0x2c1')][_0x25c8('0xa6')]();
-                        },
-                        'payWholeBook': function () {
-                            var _0x3e27e3 = this;
-                            if (_0x251dd7['default']['isBuyUnitWholeBook'](this['bookInfo'])) {
-                                if (this['isBalanceNeedAuth']) return void this[_0x25c8('0x3e2')]();
-                                var _0x87ae72 = this['balance'][_0x25c8('0x3a2')] > this['balance']['Android'] ? 'ios' : _0x25c8('0x109'),
-                                    _0x48b4cc = _0x5b60e9['get'](this['bookInfo'], 'price', 0x0);
-                                if (this['hasMemberCardDiscount']) _0x48b4cc = _0x48b4cc * (0x64 - _0x5b60e9['get'](this[_0x25c8('0xc6')], 'mcardDiscount', 0x0)) / 0x64;
-                                var _0x5f4548 = this['balance']['iOS'] > this[_0x25c8('0x119')][_0x25c8('0x1db')] ? this[_0x25c8('0x119')]['iOS'] : this[_0x25c8('0x119')]['Android'],
-                                    _0x4562b6 = _0x25c8('0x93') === _0x87ae72 ? {
-                                        'giftMoney': this['balance']['iOSGift'],
-                                        'paidMoney': this['balance'][_0x25c8('0x2d2')]
-                                    } : {
-                                        'giftMoney': this[_0x25c8('0x119')]['AndroidGift'],
-                                        'paidMoney': this['balance'][_0x25c8('0x25e')]
-                                    },
-                                    _0x364386 = _0x5b7ff7['default']['priceCalculation'](_0x4562b6['giftMoney'], _0x4562b6['paidMoney'], _0x48b4cc);
-                                if (_0x3f7cfe[_0x25c8('0x191')]() && console['log']('[chinoLog]\x20Reader-payWholeBook', 'price=', _0x48b4cc, 'balance=', _0x5f4548, 'balanceDetail=', _0x4562b6, _0x25c8('0x49f'), _0x364386), !_0x364386[_0x25c8('0x111')]) return this['$store'][_0x25c8('0x3cc')](_0x40127e['FETCH_READER_BUY_BOOK'], {
-                                    'pf': _0x87ae72,
-                                    'price': _0x48b4cc,
-                                    'isMCard': this[_0x25c8('0x369')]
-                                })['then'](function (_0x952021) {
-                                    var _0x466b65 = _0x5b60e9['get'](_0x952021, 'errCode', 0x0);
-                                    -0x2eed === _0x466b65 ? _0x3e27e3['showConfirmAuthDialog']() : -0x7da === _0x466b65 || -0x7dc === _0x466b65 || -0x7dd === _0x466b65 ? _0x3e27e3['handleSessionTimeout']() : -0x8e9 === _0x466b65 ? (void 0x0 !== _0x5b60e9['get'](_0x952021, 'info.price') && _0x3e27e3['$store']['commit'](_0x2c9cb7['UPDATE_READER_BOOK_INFO_PRICE'], _0x5b60e9['get'](_0x952021, _0x25c8('0xc0'))), void 0x0 !== _0x5b60e9['get'](_0x952021, 'info.payType') && _0x3e27e3['$store'][_0x25c8('0xde')](_0x2c9cb7[_0x25c8('0x458')], _0x5b60e9['get'](_0x952021, 'info.payType')), _0x3e27e3['$toast']('书籍价格已更新，请重新购买')) : 0x1 === _0x5b60e9['get'](_0x952021, 'succ', 0x0) ? (_0x3e27e3['$toast']('购买成功'), _0x3e27e3[_0x25c8('0x312')](), _0x3e27e3['$store']['dispatch'](_0x40127e['FETCH_ADD_SHELF_FORCE']), _0x3e27e3['$store']['dispatch'](_0x40127e['FETCH_READER_BOOK_INFO'], {
-                                        'envConfig': {},
-                                        'isLogin': !0x0
-                                    }), _0x3e27e3['$store']['dispatch'](_0x40127e['RELOAD_READER_CHAPTER_INFOS'], {'isLogin': !0x0}), _0x3e27e3[_0x25c8('0x2e3')]()) : _0x3e27e3['$toast']('购买失败，请重试');
-                                });
-                                if (this['isWeiXin']) return this['hidePayDialog'](), void this['downloadAppToAccount']();
-                                this[_0x25c8('0x1f5')](_0x364386, _0x87ae72), this[_0x25c8('0x468')]('book_purchase', 'purchase_popup', 'click_scan_purchase');
-                            }
-                        },
-                        'setDirectPayProtoLog': (_0x5a5d2d = (0x0, _0x452d12['default'])(_0x8eb370['default']['mark'](function _0x5420e6(_0x754b98, _0x235b40, _0x2c803a) {
-                            var _0xe79989, _0x3865d8;
-                            return _0x8eb370['default']['wrap'](function (_0x4203d9) {
-                                for (; ;) switch (_0x4203d9['prev'] = _0x4203d9['next']) {
-                                    case 0x0:
-                                        _0x3f7cfe['inDevelopment']() && console['log']('[chinoLog]\x20Reader-setDirectPayProtoLog', _0x754b98, _0x235b40, _0x2c803a), _0xe79989 = _0x5b60e9['get'](this['user'], 'vid'), _0x3865d8 = (0x0, _0x2dd39a['createWrCommonReport'])(_0xe79989, {
-                                            'scene': _0x754b98,
-                                            'module': _0x235b40,
-                                            'action': _0x2c803a,
-                                            'itemid': this['bookId']
-                                        }), (0x0, _0x2dd39a['setProtoLog'])('wr_common_report', _0x3865d8)[_0x25c8('0x2d0')](function (_0x2f0b34) {
-                                            _0x3f7cfe[_0x25c8('0x191')]() && console['log'](_0x25c8('0x12b'), 'wr_common_report', _0x2f0b34['data']);
-                                        })['catch'](function (_0x1edc81) {
-                                            _0x3f7cfe['inDevelopment']() && console['log']('[chinoLog]\x20Reader-setDirectPayProtoLog', 'wr_common_report', _0x1edc81);
-                                        });
-                                    case 0x4:
-                                    case'end':
-                                        return _0x4203d9[_0x25c8('0xe2')]();
-                                }
-                            }, _0x5420e6, this);
-                        })), function (_0x560390, _0x17206e, _0x5cfa85) {
-                            return _0x5a5d2d['apply'](this, arguments);
-                        }),
-                        'directPayWholeBook': (_0x75623f = (0x0, _0x452d12['default'])(_0x8eb370[_0x25c8('0x3a0')]['mark'](function _0x161323(_0x4234a4, _0x40039c) {
-                            var _0x5bac8a, _0xd8fbed, _0x14e9b7, _0x2e4a68, _0x1e39c2, _0x553e68, _0x2e4574,
-                                _0x127dde = this;
-                            return _0x8eb370['default'][_0x25c8('0x248')](function (_0x50185c) {
-                                for (; ;) switch (_0x50185c[_0x25c8('0x258')] = _0x50185c['next']) {
-                                    case 0x0:
-                                        if (_0x4234a4 && _0x4234a4['needMoney']) {
-                                            _0x50185c['next'] = 0x2;
-                                            break;
+                                return _0x2e9e7f > -0x1 && _0x3c0f52 > -0x1 && _0x2e9e7f <= _0x3c0f52 ? _0x1dfe29['slice'](_0x2e9e7f, _0x3c0f52 + 0x1) : [];
+                            },
+                            'findNearestObjByOffset': function (_0x4547c4) {
+                                var _0x2301e4 = _0x4cbe2d,
+                                    _0x80ccd0 = this['binaryFindObjIndex'](_0x2301e4, function (_0x4ca6c3) {
+                                        return _0x4ca6c3['getOffset']() >= _0x4547c4;
+                                    }), _0x284e4c = this['binaryFindObjIndex'](_0x2301e4, function (_0x15db8) {
+                                        return _0x15db8['getOffset']() < _0x4547c4;
+                                    }, !0x1);
+                                return _0x80ccd0 > -0x1 ? (_0x3f7cfe['inDevelopment']() && console['log'](_0x25c8('0x29b'), _0x80ccd0, _0x2301e4[_0x80ccd0]), _0x2301e4[_0x80ccd0]) : _0x284e4c > -0x1 ? (_0x3f7cfe['inDevelopment']() && console['log']('lastIndex', _0x284e4c, _0x2301e4[_0x284e4c]), _0x2301e4[_0x284e4c]) : (_0x3f7cfe['inDevelopment']() && console['log']('not\x20found'), null);
+                            },
+                            'debugSearchOffset': function (_0x1ab5a8) {
+                                var _0x315a6c = this['getSectionIdxWithOffset'](Number(_0x1ab5a8));
+                                console['log']('sectionIdx', _0x315a6c);
+                            },
+                            'getRectsByContentObjs': function (_0x2d8a30) {
+                                var _0x4ef6c7 = [], _0x8698f6 = void 0x0;
+                                return _0x2d8a30['forEach'](function (_0x361387) {
+                                    var _0x259a33 = _0x361387['rect'];
+                                    if (_0x259a33 && !_0x8698f6) _0x8698f6 = _0x259a33['clone'](), _0x4ef6c7['push'](_0x8698f6); else if (_0x259a33) if ((_0x3240b4['default']['isVerticalContain'](_0x8698f6, _0x259a33) || _0x3240b4['default']['isVerticalOverLap'](_0x8698f6, _0x259a33)) && _0x8698f6['isLeftOn'](_0x259a33)) {
+                                        var _0x1ca086 = _0x3240b4['default']['union'](_0x8698f6, _0x259a33);
+                                        _0x8698f6['set'](_0x1ca086);
+                                    } else _0x8698f6 = _0x259a33['clone'](), _0x4ef6c7['push'](_0x8698f6);
+                                }), _0x4ef6c7;
+                            },
+
+                            'reportEnterReading': function () {
+                                debugger
+                                let _this = this;
+                                if (this.needReportReadingProgress) {
+                                    let firstDomSummaryText = '',
+                                        firstDomOffset = 0,
+                                        _0x84d73b = _0x4cbe2d,
+                                        _0x4342bf = this.findFirstObjIndexContainingText(_0x84d73b);
+
+                                    if (-1 !== _0x4342bf) {
+                                        firstDomOffset = _0x84d73b[_0x4342bf].getOffset()
+                                        firstDomSummaryText = this.getContentStringFromObjIdx(_0x84d73b, _0x4342bf, 20)
+                                    }
+                                    return  this.$store.dispatch(_0x40127e['FETCH_READER_ENTER_BOOK_READ'], {
+                                        'firstDomOffset': firstDomOffset,
+                                        'firstDomSummaryText': firstDomSummaryText
+                                    }).then((resp) => {
+                                        if (resp && 1 === resp.sessionTimeout) {
+                                            _this.handleSessionTimeout()
                                         }
-                                        return _0x50185c['abrupt'](_0x25c8('0xfd'));
-                                    case 0x2:
-                                        return this['payWholeBookResetStatus'](), _0x50185c['next'] = 0x5, this['$store']['dispatch'](_0x40127e['CREATE_DIRECT_PAY_ORDER'], (0x0, _0xd54fca[_0x25c8('0x3a0')])({}, _0x4234a4, {'pf': _0x40039c}))['catch'](function (_0x415fdf) {
-                                            return _0x3f7cfe['inDevelopment']() && console['log']('[chinoLog]\x20Reader-directPayWholeBook', 'err=', _0x415fdf), null;
-                                        });
-                                    case 0x5:
-                                        if (_0x5bac8a = _0x50185c['sent']) {
-                                            _0x50185c['next'] = 0x9;
-                                            break;
-                                        }
-                                        return this['$toast']('购买失败，请重试'), _0x50185c['abrupt']('return');
-                                    case 0x9:
-                                        if (_0xd8fbed = _0x5b60e9['get'](_0x5bac8a, 'errCode', 0x0), _0x14e9b7 = _0x5b60e9['get'](_0x5bac8a, _0x25c8('0x359'), ''), _0x2e4a68 = _0x5b60e9['get'](_0x5bac8a, _0x25c8('0x473'), ''), _0x1e39c2 = _0x5b60e9['get'](_0x5bac8a, 'url_params', ''), _0x553e68 = _0x5b60e9[_0x25c8('0x4e')](_0x5bac8a, 'orderId', ''), -0x7dc !== _0xd8fbed) {
-                                            _0x50185c[_0x25c8('0x4a5')] = 0x10;
-                                            break;
-                                        }
-                                        return _0x50185c['abrupt']('return', this['showConfirmAuthDialog']());
-                                    case 0x10:
-                                        if (_0x553e68 && _0x1e39c2 && _0x14e9b7 && _0x2e4a68) {
-                                            _0x50185c[_0x25c8('0x4a5')] = 0x13;
-                                            break;
-                                        }
-                                        return this['$toast']('购买失败，请重试'), _0x50185c[_0x25c8('0x2cf')]('return');
-                                    case 0x13:
-                                        return this['directPayStatus']['orderId'] = _0x553e68, _0x2e4574 = this, _0x50185c[_0x25c8('0x2cf')]('return', _0x5b7ff7['default']['pullMidasPay']({
-                                            'openId': _0x14e9b7,
-                                            'openKey': _0x2e4a68,
-                                            'urlParams': _0x1e39c2,
-                                            'onSuccess': function () {
-                                            },
-                                            'onError': function (_0x5f16de) {
-                                                throw _0x5b7ff7['default']['killMidasPay'](), clearInterval(_0x2e4574[_0x25c8('0x3c3')]['pollingTimer']), _0x2e4574['$toast']('购买失败，请重试'), _0x5f16de;
-                                            },
-                                            'onClose': function () {
-                                                clearInterval(_0x2e4574[_0x25c8('0x3c3')][_0x25c8('0x1e6')]), setTimeout(function () {
-                                                    _0x127dde['payWholeBookMidasCloseCheck']();
-                                                }, 0x1f4);
-                                            }
-                                        })['then'](function () {
-                                            _0x127dde['directPayStatus']['pollingTimer'] = setInterval(function () {
-                                                _0x127dde['$store']['dispatch'](_0x40127e['FETCH_DIRECT_PAY_ORDER_STATUS'], {'orderId': _0x553e68})['then'](function (_0x3d31de) {
-                                                    _0x3f7cfe['inDevelopment']() && console[_0x25c8('0x2ee')]('[chinoLog]\x20Reader-payWholeBook', 'fetchDirectPayOrderStatus', _0x3d31de);
-                                                    var _0x27a8ea = _0x3d31de['isPaid'],
-                                                        _0x4f54f7 = _0x3d31de['errCode'];
-                                                    if (_0x27a8ea) {
-                                                        if (0x2 === _0x27a8ea) return _0x127dde['directPayStatus']['errored'] = !0x0, _0x127dde['directPayStatus']['error'] = '购买失败，请重试', clearInterval(_0x127dde[_0x25c8('0x3c3')]['pollingTimer']), void _0x5b7ff7['default'][_0x25c8('0x141')]();
-                                                        _0x127dde['directPayStatus']['succeed'] = !0x0, _0x5b7ff7['default']['killMidasPay'](), clearInterval(_0x127dde['directPayStatus']['pollingTimer']), _0x127dde['$toast']('购买成功'), _0x127dde['$store']['dispatch'](_0x40127e['FETCH_ADD_SHELF_FORCE']), _0x127dde['hidePayDialog'](), setTimeout(function () {
-                                                            window['location'][_0x25c8('0x146')]();
-                                                        }, 0x3e8);
-                                                    }
-                                                    _0x4f54f7 && (_0x127dde['directPayStatus']['errored'] = !0x0, _0x127dde['directPayStatus']['error'] = _0x25c8('0x6c'), _0x5b7ff7[_0x25c8('0x3a0')][_0x25c8('0x141')](), clearInterval(_0x127dde[_0x25c8('0x3c3')]['pollingTimer']));
-                                                })['catch'](function (_0x2683fc) {
-                                                    console['log']('[chinoLog]\x20Reader-payWholeBook', 'fetchDirectPayOrderStatus', _0x2683fc), _0x5b7ff7['default'][_0x25c8('0x141')](), _0x127dde['$toast']('购买失败，请重试'), clearInterval(_0x127dde['directPayStatus']['pollingTimer']);
-                                                });
-                                            }, 0x3e8);
-                                        })['catch'](function (_0x3956ee) {
-                                            _0x3f7cfe['inDevelopment']() && console[_0x25c8('0x2ee')]('[chinoLog]\x20Reader-directPayWholeBook', 'err=', _0x3956ee), _0x127dde['$toast']('购买失败，请重试');
-                                        }));
-                                    case 0x16:
-                                    case _0x25c8('0x9c'):
-                                        return _0x50185c['stop']();
+                                    })
                                 }
-                            }, _0x161323, this);
-                        })), function (_0x3b22df, _0x2821da) {
-                            return _0x75623f['apply'](this, arguments);
-                        }),
-                        'payWholeBookResetStatus': function () {
-                            for (var _0x280c31 in (clearInterval(this['directPayStatus'][_0x25c8('0x1e6')]), this['directPayStatusDefault'])) this[_0x25c8('0x3c3')][_0x280c31] = this['directPayStatusDefault'][_0x280c31];
-                        },
-                        'payWholeBookMidasCloseCheck': function () {
-                            if (_0x3f7cfe['inDevelopment']() && console['log']('[chinoLog]\x20Reader-payWholeBookMidasCloseCheck', 'this.directPayStatus=', (0x0, _0x10d271['default'])(this['directPayStatus'])), this['directPayStatus']['succeed']) this['payWholeBookResetStatus'](); else {
-                                if (this['directPayStatus']['errored']) return this['setDirectPayProtoLog']('book_purchase', 'timeout_popup', 'exposure'), this['$refs']['readerCommonDialog']['showDialog']({
-                                    'title': this['directPayStatus']['error'],
-                                    'buttonText': _0x25c8('0x1a9')
-                                }), void this[_0x25c8('0x18a')]();
-                                this['setDirectPayProtoLog']('book_purchase', 'cancel_popup', 'exposure');
-                                _0x5b60e9[_0x25c8('0x4e')](this['user'], 'vid');
-                                this['$refs']['readerCommonDialog']['showDialog']({
-                                    'title': '已取消本次支付',
-                                    'buttonText': '我知道了'
-                                }), this['payWholeBookResetStatus']();
-                            }
-                        },
-                        'payChapter': function (_0x26466e) {
-                            var _0x3e25d2 = this, _0x4eef42 = _0x26466e['chapterIds'],
-                                _0x5f5d4b = _0x26466e[_0x25c8('0x2b0')],
-                                _0x1fae06 = _0x26466e['isAutoPay'];
-                            if (!_0x251dd7['default']['isBuyUnitWholeBook'](this['bookInfo'])) {
-                                var _0x597ccc = _0x45326c['default'][_0x25c8('0x59')](_0x4eef42);
-                                if (0x0 === _0x597ccc['length']) return;
-                                if (this['isBalanceNeedAuth']) return void this['showConfirmAuthDialog']();
-                                var _0x34b00d = void 0x0, _0x33f227 = void 0x0;
-                                if (this['isPaidCoinPurchaseOnly'] ? (_0x33f227 = this[_0x25c8('0x119')]['iOSPaid'] > this['balance']['AndroidPaid'] ? this['balance'][_0x25c8('0x2d2')] : this['balance']['AndroidPaid'], _0x34b00d = this[_0x25c8('0x119')][_0x25c8('0x2d2')] > this['balance']['AndroidPaid'] ? 'ios' : _0x25c8('0x109')) : (_0x33f227 = this['balance']['iOS'] > this['balance']['Android'] ? this['balance']['iOS'] : this['balance']['Android'], _0x34b00d = this['balance']['iOS'] > this['balance']['Android'] ? 'ios' : 'android'), _0x5f5d4b <= _0x33f227) return this[_0x25c8('0x471')]['dispatch'](_0x40127e[_0x25c8('0x4ab')], {
-                                    'pf': _0x34b00d,
-                                    'chapterIds': _0x597ccc,
-                                    'totalPrice': _0x5f5d4b,
-                                    'isAutoPay': _0x1fae06,
-                                    'isMCard': this[_0x25c8('0x369')]
-                                })['then'](function (_0x13fd4f) {
-                                    var _0x4e2aa6 = _0x5b60e9[_0x25c8('0x4e')](_0x13fd4f, 'errCode', 0x0);
-                                    -0x2eed === _0x4e2aa6 ? _0x3e25d2['showConfirmAuthDialog']() : -0x7da === _0x4e2aa6 || -0x7dc === _0x4e2aa6 || -0x7dd === _0x4e2aa6 ? _0x3e25d2['handleSessionTimeout']() : -0x8e9 === _0x4e2aa6 ? _0x3e25d2['$toast']('书籍价格已更新，请刷新后重试') : 0x1 === _0x5b60e9[_0x25c8('0x4e')](_0x13fd4f, 'succ', 0x0) ? (_0x3e25d2[_0x25c8('0x49')]('购买成功'), _0x3e25d2['hidePayDialog'](), _0x3e25d2['$store']['dispatch'](_0x40127e['FETCH_READER_BOOK_INFO'], {'isLogin': !0x0}), _0x3e25d2['$store']['dispatch'](_0x40127e['FETCH_READER_ADD_SHELF']), _0x3e25d2[_0x25c8('0x471')]['dispatch'](_0x40127e['RELOAD_READER_CHAPTER_INFOS'], {'isLogin': !0x0})['then'](function () {
-                                        if (-0x1 !== _0x4eef42['indexOf'](_0x5b60e9['get'](_0x3e25d2['currentChapter'], 'chapterUid'))) return _0x3e25d2['reloadCurrentChapter']();
-                                    })) : _0x3e25d2['$toast'](_0x25c8('0x288'));
-                                });
-                                this['hidePayDialog'](), this['downloadAppToAccount']();
-                            }
-                        },
-                        'showMemberCardTips': function (_0x5428b1) {
-                            this['$refs']['readerMemberCardTips'] && this['$refs']['readerMemberCardTips']['show'](_0x5428b1);
-                        },
-                        'checkIfShowMemberCardFreeReadingTips': function () {
-                            var _0x238b31 = arguments[_0x25c8('0x178')] > 0x0 && void 0x0 !== arguments[0x0] && arguments[0x0];
-                            if (_0x3f7cfe['isEnvClient']) {
-                                var _0x28d74a = this['hasLogin'],
-                                    _0x5d73a1 = _0x28d74a && !this['isNeedPay'] && this[_0x25c8('0x488')];
-                                if (_0x5d73a1) {
-                                    var _0x175f9e = _0x5b60e9['get'](this['user'], _0x25c8('0x188')),
-                                        _0x34f25e = _0x1325ea['default']['getReaderMemberCardTipsBookIdsOperator'](_0x175f9e),
-                                        _0x2f7520 = _0x34f25e['isBookExist'](this['bookId']);
-                                    _0x2f7520 && !_0x238b31 || (this['showMemberCardTips']('你正在使用' + (this['hasPaidMemberCard'] ? '会员' : '体验') + '卡阅读付费部分'), _0x34f25e['addBook'](this['bookId']), _0x34f25e['save']());
+                            },
+                            'reportReadingProgress': function (_0x1884ee) {
+                                let _this = this;
+                                if (this.needReportReadingProgress) {
+                                    return this.$store.dispatch(_0x40127e['FETCH_READER_BOOK_READ'], {
+                                        'vid': _0x5b60e9.get(this, 'user.vid', 0),
+                                        'retryCount': 1,
+                                        'progressData': this.computeProgressData(_0x1884ee)
+                                    }).then((resp) => {
+                                        resp && 1 === resp.sessionTimeout ? _this.handleSessionTimeout() : _this.startReportTimer();
+                                    }).catch((err) => {
+                                        _this.logError('Reader-reportReadingProgress', 'err', err)
+                                        _this.startReportTimer()
+                                    })
                                 }
-                            }
-                        },
-                        'checkIfSyncReadingProgress': function () {
-                            var _0x118afb = this;
-                            return this[_0x25c8('0x471')]['dispatch'](_0x40127e['FETCH_READER_PROGRESS'], {'compareWithLocal': !0x0})['then'](function (_0x3536de) {
-                                if (_0x3536de && _0x3536de['book']) {
-                                    var _0x18a30f = _0x3536de[_0x25c8('0xa2')];
-                                    return _0x118afb['$toast']('正在跳转到最新进度'), _0x118afb['isPDFBookType'] ? (_0x118afb['$refs'][_0x25c8('0x19b')][_0x25c8('0x5d')](_0x18a30f['chapterUid'], _0x18a30f['chapterOffset']), !0x0) : _0x118afb['changeChapter']({
-                                        'chapterUid': _0x18a30f['chapterUid'],
-                                        'scrollTo': {'chapterOffset': _0x18a30f['chapterOffset']}
-                                    })['then'](function () {
-                                        return !0x0;
+                            },
+
+                            'clearReportTimer': function () {
+                                timer && clearTimeout(timer);
+                            },
+                            'startReportTimer': function () {
+                                this.clearReportTimer()
+                                timer = setTimeout(this.reportReadingProgress, 30_000);
+                            },
+                            'computeProgressData': function () {
+                                let _0x3ac199 = arguments.length > 0 && undefined !== arguments[0] ? arguments[0] : {
+                                    'computeSummary': true,
+                                    'computeProgress': true
+                                };
+                                if (this.isPDFBookType) {
+                                    return null
+                                }
+                                let scrollTop = window && window.pageYOffset || document && document.documentElement && document.documentElement.scrollTop || document && document.body && document.body.scrollTop;
+                                if (undefined === scrollTop || scrollTop < 0) {
+                                    return null
+                                }
+                                let renderTargetContainer = this.$refs.renderTargetContainer;
+                                if (!renderTargetContainer) {
+                                    console.log('Reader-computeProgressData', 'renderTargetContainer is undefined')
+                                    return null
+                                }
+                                var _0x22ad94 = scrollTop + 72 - renderTargetContainer.offsetTop,
+                                    _0x4e7bd0 = _0x4cbe2d,
+                                    objIdx = this.binaryFindObjIndex(_0x4e7bd0, function (_0x554dae) {
+                                        return _0x554dae && _0x554dae.rect && _0x554dae.rect.y >= _0x22ad94;
                                     });
+                                if (-1 === objIdx) {
+                                    console.log('Reader-computeProgressData', 'obj idx === -1')
+                                    return null
+                                }
+                                var _0x3b5a77 = _0x4e7bd0[objIdx],
+                                    offset = _0x3b5a77.getOffset(),
+                                    content = _0x3ac199.computeSummary ? this.getContentStringFromObjIdx(_0x4e7bd0, objIdx, 0x14) : '',
+                                    progress = (this.isDynamicTypeBook, _0x5b60e9.get(this.progress, 'book.progress', 0));
+                                if (_0x3ac199.computeProgress && !this.isNeedPay) {
+                                    var _0x3b1072 = this['bookInfo'][_0x25c8('0x17b')] || 0x0;
+                                    if (_0x3b1072 > 0x0) {
+                                        var _0x260d4a = this['computePrevChaptersWordCount'](),
+                                            _0x32594e = _0x4e7bd0['length'] > 0x0 ? objIdx / _0x4e7bd0[_0x25c8('0x178')] : 0x0,
+                                            _0x2dbab5 = parseInt(_0x32594e * this['currentChapter']['wordCount']),
+                                            _0x3170bd = (_0x260d4a + _0x2dbab5) / _0x3b1072;
+                                        _0x3170bd <= 0x64 ? progress = Math['max'](0x0, parseInt(0x64 * _0x3170bd)) : this['logError'](_0x25c8('0x47'), 'bookId=', this['bookId'], 'chapter=', this['currentChapter'][_0x25c8('0x17a')], 'prev1=', _0x260d4a, 'per=', _0x32594e, 'prev2=', _0x2dbab5, _0x25c8('0x322'), _0x3b1072);
+                                    }
+                                }
+                                return {
+                                    'offset': offset,
+                                    'content': content,
+                                    'progress': progress
+                                };
+                            },
+                            'computePrevChaptersWordCount': function () {
+                                for (var _0x3d03f3 = this['chapterInfos'], _0x10f3a6 = this[_0x25c8('0x3e1')], _0xc0ad64 = 0x0, _0x439aba = 0x0, _0x31f4d0 = _0x3d03f3[_0x25c8('0x178')]; _0x439aba < _0x31f4d0; _0x439aba++) {
+                                    var _0x402710 = _0x3d03f3[_0x439aba];
+                                    if (_0x402710['chapterIdx'] >= _0x10f3a6[_0x25c8('0x363')]) break;
+                                    _0xc0ad64 += _0x402710['wordCount'];
+                                }
+                                return _0xc0ad64;
+                            },
+                            'showConfirmAuthDialog': function () {
+                                var _0x4c5148 = this;
+                                this[_0x25c8('0x1a8')]({'requireVid': this['user']['vid']}, function () {
+                                    _0x4c5148['isBalanceNeedAuth'] = !0x1, _0x4c5148['$store']['dispatch'](_0x40127e['FETCH_READER_BALANCE']);
+                                });
+                            },
+                            'showPayDialog': function () {
+                                var _0x494129 = this;
+                                this['hasLogin'] ? (this['$store']['dispatch'](_0x40127e['FETCH_READER_BALANCE'])[_0x25c8('0x2d0')](function (_0x412d34) {
+                                    var _0x1599d6 = (0x0, _0x4c4faf['default'])(_0x412d34);
+                                    return _0x1599d6 && -0x2eed === _0x1599d6['errCode'] && (_0x494129['isBalanceNeedAuth'] = !0x0, _0x494129['showConfirmAuthDialog']()), _0x412d34;
+                                }), _0x251dd7['default']['isBuyUnitWholeBook'](this['bookInfo']) ? (this['isShowPayWholeDialog'] = !0x0, this[_0x25c8('0x34c')](function () {
+                                    _0x494129['$refs']['payWholeBookDialog']['showDialog']();
+                                    var _0x1e326d = _0x494129['$refs'][_0x25c8('0xf8')]['payInfos'];
+                                    _0x1e326d && _0x1e326d['isNeedDeposit'] && _0x494129['setDirectPayProtoLog']('book_purchase', _0x25c8('0x375'), 'exposure_scan_purchase');
+                                })) : (this['isShowPayChapterDialog'] = !0x0, this['$nextTick'](function () {
+                                    _0x494129['$refs']['payChapterDialog'][_0x25c8('0xfa')](_0x494129['currentChapter']['chapterUid']);
+                                }))) : this[_0x25c8('0x65')] && this['downloadAppToRead']();
+                            },
+                            'hidePayDialog': function () {
+                                _0x251dd7['default']['isBuyUnitWholeBook'](this['bookInfo']) ? this['$refs']['payWholeBookDialog'][_0x25c8('0xa6')]() : this['$refs'][_0x25c8('0x2c1')][_0x25c8('0xa6')]();
+                            },
+                            'payWholeBook': function () {
+                                var _0x3e27e3 = this;
+                                if (_0x251dd7['default']['isBuyUnitWholeBook'](this['bookInfo'])) {
+                                    if (this['isBalanceNeedAuth']) return void this[_0x25c8('0x3e2')]();
+                                    var _0x87ae72 = this['balance'][_0x25c8('0x3a2')] > this['balance']['Android'] ? 'ios' : _0x25c8('0x109'),
+                                        _0x48b4cc = _0x5b60e9['get'](this['bookInfo'], 'price', 0x0);
+                                    if (this['hasMemberCardDiscount']) _0x48b4cc = _0x48b4cc * (0x64 - _0x5b60e9['get'](this[_0x25c8('0xc6')], 'mcardDiscount', 0x0)) / 0x64;
+                                    var _0x5f4548 = this['balance']['iOS'] > this[_0x25c8('0x119')][_0x25c8('0x1db')] ? this[_0x25c8('0x119')]['iOS'] : this[_0x25c8('0x119')]['Android'],
+                                        _0x4562b6 = _0x25c8('0x93') === _0x87ae72 ? {
+                                            'giftMoney': this['balance']['iOSGift'],
+                                            'paidMoney': this['balance'][_0x25c8('0x2d2')]
+                                        } : {
+                                            'giftMoney': this[_0x25c8('0x119')]['AndroidGift'],
+                                            'paidMoney': this['balance'][_0x25c8('0x25e')]
+                                        },
+                                        _0x364386 = _0x5b7ff7['default']['priceCalculation'](_0x4562b6['giftMoney'], _0x4562b6['paidMoney'], _0x48b4cc);
+                                    if (_0x3f7cfe[_0x25c8('0x191')]() && console['log']('[chinoLog]\x20Reader-payWholeBook', 'price=', _0x48b4cc, 'balance=', _0x5f4548, 'balanceDetail=', _0x4562b6, _0x25c8('0x49f'), _0x364386), !_0x364386[_0x25c8('0x111')]) return this['$store'][_0x25c8('0x3cc')](_0x40127e['FETCH_READER_BUY_BOOK'], {
+                                        'pf': _0x87ae72,
+                                        'price': _0x48b4cc,
+                                        'isMCard': this[_0x25c8('0x369')]
+                                    })['then'](function (_0x952021) {
+                                        var _0x466b65 = _0x5b60e9['get'](_0x952021, 'errCode', 0x0);
+                                        -0x2eed === _0x466b65 ? _0x3e27e3['showConfirmAuthDialog']() : -0x7da === _0x466b65 || -0x7dc === _0x466b65 || -0x7dd === _0x466b65 ? _0x3e27e3['handleSessionTimeout']() : -0x8e9 === _0x466b65 ? (void 0x0 !== _0x5b60e9['get'](_0x952021, 'info.price') && _0x3e27e3['$store']['commit'](_0x2c9cb7['UPDATE_READER_BOOK_INFO_PRICE'], _0x5b60e9['get'](_0x952021, _0x25c8('0xc0'))), void 0x0 !== _0x5b60e9['get'](_0x952021, 'info.payType') && _0x3e27e3['$store'][_0x25c8('0xde')](_0x2c9cb7[_0x25c8('0x458')], _0x5b60e9['get'](_0x952021, 'info.payType')), _0x3e27e3['$toast']('书籍价格已更新，请重新购买')) : 0x1 === _0x5b60e9['get'](_0x952021, 'succ', 0x0) ? (_0x3e27e3['$toast']('购买成功'), _0x3e27e3[_0x25c8('0x312')](), _0x3e27e3['$store']['dispatch'](_0x40127e['FETCH_ADD_SHELF_FORCE']), _0x3e27e3['$store']['dispatch'](_0x40127e['FETCH_READER_BOOK_INFO'], {
+                                            'envConfig': {},
+                                            'isLogin': !0x0
+                                        }), _0x3e27e3['$store']['dispatch'](_0x40127e['RELOAD_READER_CHAPTER_INFOS'], {'isLogin': !0x0}), _0x3e27e3[_0x25c8('0x2e3')]()) : _0x3e27e3['$toast']('购买失败，请重试');
+                                    });
+                                    if (this['isWeiXin']) return this['hidePayDialog'](), void this['downloadAppToAccount']();
+                                    this[_0x25c8('0x1f5')](_0x364386, _0x87ae72), this[_0x25c8('0x468')]('book_purchase', 'purchase_popup', 'click_scan_purchase');
+                                }
+                            },
+                            'setDirectPayProtoLog': (_0x5a5d2d = (0x0, _0x452d12['default'])(_0x8eb370['default']['mark'](function _0x5420e6(_0x754b98, _0x235b40, _0x2c803a) {
+                                var _0xe79989, _0x3865d8;
+                                return _0x8eb370['default']['wrap'](function (_0x4203d9) {
+                                    for (; ;) switch (_0x4203d9['prev'] = _0x4203d9['next']) {
+                                        case 0x0:
+                                            _0x3f7cfe['inDevelopment']() && console['log']('[chinoLog]\x20Reader-setDirectPayProtoLog', _0x754b98, _0x235b40, _0x2c803a), _0xe79989 = _0x5b60e9['get'](this['user'], 'vid'), _0x3865d8 = (0x0, _0x2dd39a['createWrCommonReport'])(_0xe79989, {
+                                                'scene': _0x754b98,
+                                                'module': _0x235b40,
+                                                'action': _0x2c803a,
+                                                'itemid': this['bookId']
+                                            }), (0x0, _0x2dd39a['setProtoLog'])('wr_common_report', _0x3865d8)[_0x25c8('0x2d0')](function (_0x2f0b34) {
+                                                _0x3f7cfe[_0x25c8('0x191')]() && console['log'](_0x25c8('0x12b'), 'wr_common_report', _0x2f0b34['data']);
+                                            })['catch'](function (_0x1edc81) {
+                                                _0x3f7cfe['inDevelopment']() && console['log']('[chinoLog]\x20Reader-setDirectPayProtoLog', 'wr_common_report', _0x1edc81);
+                                            });
+                                        case 0x4:
+                                        case'end':
+                                            return _0x4203d9[_0x25c8('0xe2')]();
+                                    }
+                                }, _0x5420e6, this);
+                            })), function (_0x560390, _0x17206e, _0x5cfa85) {
+                                return _0x5a5d2d['apply'](this, arguments);
+                            }),
+                            'directPayWholeBook': (_0x75623f = (0x0, _0x452d12['default'])(_0x8eb370[_0x25c8('0x3a0')]['mark'](function _0x161323(_0x4234a4, _0x40039c) {
+                                var _0x5bac8a, _0xd8fbed, _0x14e9b7, _0x2e4a68, _0x1e39c2, _0x553e68, _0x2e4574,
+                                    _0x127dde = this;
+                                return _0x8eb370['default'][_0x25c8('0x248')](function (_0x50185c) {
+                                    for (; ;) switch (_0x50185c[_0x25c8('0x258')] = _0x50185c['next']) {
+                                        case 0x0:
+                                            if (_0x4234a4 && _0x4234a4['needMoney']) {
+                                                _0x50185c['next'] = 0x2;
+                                                break;
+                                            }
+                                            return _0x50185c['abrupt'](_0x25c8('0xfd'));
+                                        case 0x2:
+                                            return this['payWholeBookResetStatus'](), _0x50185c['next'] = 0x5, this['$store']['dispatch'](_0x40127e['CREATE_DIRECT_PAY_ORDER'], (0x0, _0xd54fca[_0x25c8('0x3a0')])({}, _0x4234a4, {'pf': _0x40039c}))['catch'](function (_0x415fdf) {
+                                                return _0x3f7cfe['inDevelopment']() && console['log']('[chinoLog]\x20Reader-directPayWholeBook', 'err=', _0x415fdf), null;
+                                            });
+                                        case 0x5:
+                                            if (_0x5bac8a = _0x50185c['sent']) {
+                                                _0x50185c['next'] = 0x9;
+                                                break;
+                                            }
+                                            return this['$toast']('购买失败，请重试'), _0x50185c['abrupt']('return');
+                                        case 0x9:
+                                            if (_0xd8fbed = _0x5b60e9['get'](_0x5bac8a, 'errCode', 0x0), _0x14e9b7 = _0x5b60e9['get'](_0x5bac8a, _0x25c8('0x359'), ''), _0x2e4a68 = _0x5b60e9['get'](_0x5bac8a, _0x25c8('0x473'), ''), _0x1e39c2 = _0x5b60e9['get'](_0x5bac8a, 'url_params', ''), _0x553e68 = _0x5b60e9[_0x25c8('0x4e')](_0x5bac8a, 'orderId', ''), -0x7dc !== _0xd8fbed) {
+                                                _0x50185c[_0x25c8('0x4a5')] = 0x10;
+                                                break;
+                                            }
+                                            return _0x50185c['abrupt']('return', this['showConfirmAuthDialog']());
+                                        case 0x10:
+                                            if (_0x553e68 && _0x1e39c2 && _0x14e9b7 && _0x2e4a68) {
+                                                _0x50185c[_0x25c8('0x4a5')] = 0x13;
+                                                break;
+                                            }
+                                            return this['$toast']('购买失败，请重试'), _0x50185c[_0x25c8('0x2cf')]('return');
+                                        case 0x13:
+                                            return this['directPayStatus']['orderId'] = _0x553e68, _0x2e4574 = this, _0x50185c[_0x25c8('0x2cf')]('return', _0x5b7ff7['default']['pullMidasPay']({
+                                                'openId': _0x14e9b7,
+                                                'openKey': _0x2e4a68,
+                                                'urlParams': _0x1e39c2,
+                                                'onSuccess': function () {
+                                                },
+                                                'onError': function (_0x5f16de) {
+                                                    throw _0x5b7ff7['default']['killMidasPay'](), clearInterval(_0x2e4574[_0x25c8('0x3c3')]['pollingTimer']), _0x2e4574['$toast']('购买失败，请重试'), _0x5f16de;
+                                                },
+                                                'onClose': function () {
+                                                    clearInterval(_0x2e4574[_0x25c8('0x3c3')][_0x25c8('0x1e6')]), setTimeout(function () {
+                                                        _0x127dde['payWholeBookMidasCloseCheck']();
+                                                    }, 0x1f4);
+                                                }
+                                            })['then'](function () {
+                                                _0x127dde['directPayStatus']['pollingTimer'] = setInterval(function () {
+                                                    _0x127dde['$store']['dispatch'](_0x40127e['FETCH_DIRECT_PAY_ORDER_STATUS'], {'orderId': _0x553e68})['then'](function (_0x3d31de) {
+                                                        _0x3f7cfe['inDevelopment']() && console[_0x25c8('0x2ee')]('[chinoLog]\x20Reader-payWholeBook', 'fetchDirectPayOrderStatus', _0x3d31de);
+                                                        var _0x27a8ea = _0x3d31de['isPaid'],
+                                                            _0x4f54f7 = _0x3d31de['errCode'];
+                                                        if (_0x27a8ea) {
+                                                            if (0x2 === _0x27a8ea) return _0x127dde['directPayStatus']['errored'] = !0x0, _0x127dde['directPayStatus']['error'] = '购买失败，请重试', clearInterval(_0x127dde[_0x25c8('0x3c3')]['pollingTimer']), void _0x5b7ff7['default'][_0x25c8('0x141')]();
+                                                            _0x127dde['directPayStatus']['succeed'] = !0x0, _0x5b7ff7['default']['killMidasPay'](), clearInterval(_0x127dde['directPayStatus']['pollingTimer']), _0x127dde['$toast']('购买成功'), _0x127dde['$store']['dispatch'](_0x40127e['FETCH_ADD_SHELF_FORCE']), _0x127dde['hidePayDialog'](), setTimeout(function () {
+                                                                window['location'][_0x25c8('0x146')]();
+                                                            }, 0x3e8);
+                                                        }
+                                                        _0x4f54f7 && (_0x127dde['directPayStatus']['errored'] = !0x0, _0x127dde['directPayStatus']['error'] = _0x25c8('0x6c'), _0x5b7ff7[_0x25c8('0x3a0')][_0x25c8('0x141')](), clearInterval(_0x127dde[_0x25c8('0x3c3')]['pollingTimer']));
+                                                    })['catch'](function (_0x2683fc) {
+                                                        console['log']('[chinoLog]\x20Reader-payWholeBook', 'fetchDirectPayOrderStatus', _0x2683fc), _0x5b7ff7['default'][_0x25c8('0x141')](), _0x127dde['$toast']('购买失败，请重试'), clearInterval(_0x127dde['directPayStatus']['pollingTimer']);
+                                                    });
+                                                }, 0x3e8);
+                                            })['catch'](function (_0x3956ee) {
+                                                _0x3f7cfe['inDevelopment']() && console[_0x25c8('0x2ee')]('[chinoLog]\x20Reader-directPayWholeBook', 'err=', _0x3956ee), _0x127dde['$toast']('购买失败，请重试');
+                                            }));
+                                        case 0x16:
+                                        case _0x25c8('0x9c'):
+                                            return _0x50185c['stop']();
+                                    }
+                                }, _0x161323, this);
+                            })), function (_0x3b22df, _0x2821da) {
+                                return _0x75623f['apply'](this, arguments);
+                            }),
+                            'payWholeBookResetStatus': function () {
+                                for (var _0x280c31 in (clearInterval(this['directPayStatus'][_0x25c8('0x1e6')]), this['directPayStatusDefault'])) this[_0x25c8('0x3c3')][_0x280c31] = this['directPayStatusDefault'][_0x280c31];
+                            },
+                            'payWholeBookMidasCloseCheck': function () {
+                                if (_0x3f7cfe['inDevelopment']() && console['log']('[chinoLog]\x20Reader-payWholeBookMidasCloseCheck', 'this.directPayStatus=', (0x0, _0x10d271['default'])(this['directPayStatus'])), this['directPayStatus']['succeed']) this['payWholeBookResetStatus'](); else {
+                                    if (this['directPayStatus']['errored']) return this['setDirectPayProtoLog']('book_purchase', 'timeout_popup', 'exposure'), this['$refs']['readerCommonDialog']['showDialog']({
+                                        'title': this['directPayStatus']['error'],
+                                        'buttonText': _0x25c8('0x1a9')
+                                    }), void this[_0x25c8('0x18a')]();
+                                    this['setDirectPayProtoLog']('book_purchase', 'cancel_popup', 'exposure');
+                                    _0x5b60e9[_0x25c8('0x4e')](this['user'], 'vid');
+                                    this['$refs']['readerCommonDialog']['showDialog']({
+                                        'title': '已取消本次支付',
+                                        'buttonText': '我知道了'
+                                    }), this['payWholeBookResetStatus']();
+                                }
+                            },
+                            'payChapter': function (_0x26466e) {
+                                var _0x3e25d2 = this, _0x4eef42 = _0x26466e['chapterIds'],
+                                    _0x5f5d4b = _0x26466e[_0x25c8('0x2b0')],
+                                    _0x1fae06 = _0x26466e['isAutoPay'];
+                                if (!_0x251dd7['default']['isBuyUnitWholeBook'](this['bookInfo'])) {
+                                    var _0x597ccc = _0x45326c['default'][_0x25c8('0x59')](_0x4eef42);
+                                    if (0x0 === _0x597ccc['length']) return;
+                                    if (this['isBalanceNeedAuth']) return void this['showConfirmAuthDialog']();
+                                    var _0x34b00d = void 0x0, _0x33f227 = void 0x0;
+                                    if (this['isPaidCoinPurchaseOnly'] ? (_0x33f227 = this[_0x25c8('0x119')]['iOSPaid'] > this['balance']['AndroidPaid'] ? this['balance'][_0x25c8('0x2d2')] : this['balance']['AndroidPaid'], _0x34b00d = this[_0x25c8('0x119')][_0x25c8('0x2d2')] > this['balance']['AndroidPaid'] ? 'ios' : _0x25c8('0x109')) : (_0x33f227 = this['balance']['iOS'] > this['balance']['Android'] ? this['balance']['iOS'] : this['balance']['Android'], _0x34b00d = this['balance']['iOS'] > this['balance']['Android'] ? 'ios' : 'android'), _0x5f5d4b <= _0x33f227) return this[_0x25c8('0x471')]['dispatch'](_0x40127e[_0x25c8('0x4ab')], {
+                                        'pf': _0x34b00d,
+                                        'chapterIds': _0x597ccc,
+                                        'totalPrice': _0x5f5d4b,
+                                        'isAutoPay': _0x1fae06,
+                                        'isMCard': this[_0x25c8('0x369')]
+                                    })['then'](function (_0x13fd4f) {
+                                        var _0x4e2aa6 = _0x5b60e9[_0x25c8('0x4e')](_0x13fd4f, 'errCode', 0x0);
+                                        -0x2eed === _0x4e2aa6 ? _0x3e25d2['showConfirmAuthDialog']() : -0x7da === _0x4e2aa6 || -0x7dc === _0x4e2aa6 || -0x7dd === _0x4e2aa6 ? _0x3e25d2['handleSessionTimeout']() : -0x8e9 === _0x4e2aa6 ? _0x3e25d2['$toast']('书籍价格已更新，请刷新后重试') : 0x1 === _0x5b60e9[_0x25c8('0x4e')](_0x13fd4f, 'succ', 0x0) ? (_0x3e25d2[_0x25c8('0x49')]('购买成功'), _0x3e25d2['hidePayDialog'](), _0x3e25d2['$store']['dispatch'](_0x40127e['FETCH_READER_BOOK_INFO'], {'isLogin': !0x0}), _0x3e25d2['$store']['dispatch'](_0x40127e['FETCH_READER_ADD_SHELF']), _0x3e25d2[_0x25c8('0x471')]['dispatch'](_0x40127e['RELOAD_READER_CHAPTER_INFOS'], {'isLogin': !0x0})['then'](function () {
+                                            if (-0x1 !== _0x4eef42['indexOf'](_0x5b60e9['get'](_0x3e25d2['currentChapter'], 'chapterUid'))) return _0x3e25d2['reloadCurrentChapter']();
+                                        })) : _0x3e25d2['$toast'](_0x25c8('0x288'));
+                                    });
+                                    this['hidePayDialog'](), this['downloadAppToAccount']();
+                                }
+                            },
+                            'showMemberCardTips': function (_0x5428b1) {
+                                this['$refs']['readerMemberCardTips'] && this['$refs']['readerMemberCardTips']['show'](_0x5428b1);
+                            },
+                            'checkIfShowMemberCardFreeReadingTips': function () {
+                                var _0x238b31 = arguments[_0x25c8('0x178')] > 0x0 && void 0x0 !== arguments[0x0] && arguments[0x0];
+                                if (_0x3f7cfe['isEnvClient']) {
+                                    var _0x28d74a = this['hasLogin'],
+                                        _0x5d73a1 = _0x28d74a && !this['isNeedPay'] && this[_0x25c8('0x488')];
+                                    if (_0x5d73a1) {
+                                        var _0x175f9e = _0x5b60e9['get'](this['user'], _0x25c8('0x188')),
+                                            _0x34f25e = _0x1325ea['default']['getReaderMemberCardTipsBookIdsOperator'](_0x175f9e),
+                                            _0x2f7520 = _0x34f25e['isBookExist'](this['bookId']);
+                                        _0x2f7520 && !_0x238b31 || (this['showMemberCardTips']('你正在使用' + (this['hasPaidMemberCard'] ? '会员' : '体验') + '卡阅读付费部分'), _0x34f25e['addBook'](this['bookId']), _0x34f25e['save']());
+                                    }
+                                }
+                            },
+                            'checkIfSyncReadingProgress': function () {
+                                var _0x118afb = this;
+                                return this[_0x25c8('0x471')]['dispatch'](_0x40127e['FETCH_READER_PROGRESS'], {'compareWithLocal': !0x0})['then'](function (_0x3536de) {
+                                    if (_0x3536de && _0x3536de['book']) {
+                                        var _0x18a30f = _0x3536de[_0x25c8('0xa2')];
+                                        return _0x118afb['$toast']('正在跳转到最新进度'), _0x118afb['isPDFBookType'] ? (_0x118afb['$refs'][_0x25c8('0x19b')][_0x25c8('0x5d')](_0x18a30f['chapterUid'], _0x18a30f['chapterOffset']), !0x0) : _0x118afb['changeChapter']({
+                                            'chapterUid': _0x18a30f['chapterUid'],
+                                            'scrollTo': {'chapterOffset': _0x18a30f['chapterOffset']}
+                                        })['then'](function () {
+                                            return !0x0;
+                                        });
+                                    }
+                                    return !0x1;
+                                });
+                            },
+                            'checkIfNeedRequestLoginQRCode': function () {
+                                this['isNeedShowLoginGuide'] && (!this[_0x25c8('0x1d')] || this['isLoginGetInfoError'] || this['isLoginGetUidError']) && this['requestLoginUid']();
+                            },
+                            'requestLoginUid': function () {
+                                var _0x5e4381 = this;
+                                this[_0x25c8('0x3c2')] = !0x0, (0x0, _0x27252b['default'])('/web/login/getuid', {}, function (_0x16a8dc) {
+                                    _0x16a8dc && _0x16a8dc['data'] && _0x16a8dc[_0x25c8('0x1b9')]['uid'] ? (_0x5e4381[_0x25c8('0x3c2')] = !0x1, _0x5e4381['isLoginGetUidError'] = !0x1, _0x5e4381['isLoginGetInfoError'] = !0x1, _0x5e4381['generateLoginGuideQRCode'](_0x16a8dc[_0x25c8('0x1b9')]['uid']), _0x5e4381['requestLoginInfo'](_0x16a8dc['data']['uid'])) : (_0x5e4381['isLoginQRCodeLoading'] = !0x1, _0x5e4381['isLoginGetUidError'] = !0x0, _0x5e4381['isLoginGetInfoError'] = !0x1);
+                                }, function (_0x220b7e) {
+                                    _0x5e4381['logError']('Reader-requestLoginUid\x20error', _0x220b7e), _0x5e4381['isLoginQRCodeLoading'] = !0x1, _0x5e4381['isLoginGetUidError'] = !0x0, _0x5e4381['isLoginGetInfoError'] = !0x1;
+                                });
+                            },
+                            'generateLoginGuideQRCode': function (_0x4ce1e9) {
+                                this['loginGuideQRCodeImg'] = require(0x50)['getQrBase64']('https://weread.qq.com/web/confirm?uid=' + _0x4ce1e9, {
+                                    'padding': 0x6,
+                                    'width': 0x90,
+                                    'height': 0x90,
+                                    'correctLevel': QRErrorCorrectLevel['H'],
+                                    'background': '#FFF',
+                                    'foreground': '#000'
+                                });
+                            },
+                            'requestLoginInfo': function (_0x610862) {
+                                var _0x40a42b = this;
+                                (0x0, _0x27252b['default'])('/web/login/getinfo', {'uid': _0x610862}, function (_0xa8f938) {
+                                    _0xa8f938 && _0xa8f938['data'] && _0xa8f938[_0x25c8('0x1b9')]['vid'] && _0xa8f938['data']['skey'] && _0xa8f938['data'][_0x25c8('0x2c4')] ? _0x40a42b['requestLogin'](_0xa8f938['data']) : (_0x40a42b['isLoginGetInfoError'] = !0x0, _0x40a42b['autoLoadLoginQRCodeCount'] > 0x0 && (_0x40a42b['autoLoadLoginQRCodeCount']--, _0x40a42b[_0x25c8('0x183')]()));
+                                }, function (_0x340d66) {
+                                    _0x40a42b['logError']('Reader-requestLoginInfo\x20error', _0x340d66), _0x40a42b['isLoginGetInfoError'] = !0x0, _0x40a42b[_0x25c8('0x164')] > 0x0 && (_0x40a42b['autoLoadLoginQRCodeCount']--, _0x40a42b['checkIfNeedRequestLoginQRCode']());
+                                });
+                            },
+                            'requestLogin': function (_0x5bc5aa) {
+                                var _0x2b9446 = this, _0xdcb927 = _0x5bc5aa['pf'],
+                                    _0x5f0f94 = _0x18d408[_0x25c8('0x293')]();
+                                (0x0, _0x27252b['default'])('/web/login/weblogin', {
+                                    'vid': _0x5bc5aa['vid'],
+                                    'skey': _0x5bc5aa[_0x25c8('0x2dd')],
+                                    'code': _0x5bc5aa['code'],
+                                    'fp': _0x5f0f94,
+                                    'isAutoLogout': _0x5bc5aa['isAutoLogout']
+                                }, function (_0x331448) {
+                                    _0x331448 && _0x331448[_0x25c8('0x1b9')] && _0x331448['data']['vid'] && _0x331448['data'][_0x25c8('0x85')] && _0x331448['data']['refreshToken'] && (_0x331448['data']['pf'] = _0xdcb927, _0x2b9446[_0x25c8('0x40c')](_0x331448['data']));
+                                }, function (_0x49732f) {
+                                    _0x2b9446[_0x25c8('0x2bd')](_0x25c8('0x1c'), _0x49732f);
+                                });
+                            },
+                            'handleLoginResult': function (_0x47d250) {
+                                var _0x3bdd38 = this;
+                                console['log'](_0x25c8('0x89'), _0x47d250), (0x0, _0x27252b['default'])('/web/login/session/init', {
+                                    'vid': _0x47d250['vid'],
+                                    'skey': _0x47d250['accessToken'],
+                                    'rt': _0x47d250['refreshToken'],
+                                    'pf': _0x47d250['pf']
+                                }, function () {
+                                    _0x3bdd38['onAfterLoginToGetMemberCard']();
+                                }, function (_0x35bbbc) {
+                                    _0x3bdd38['logError'](_0x25c8('0x4ba'), _0x35bbbc), _0x3bdd38['onAfterLoginToGetMemberCard']();
+                                });
+                            },
+                            'receiveMemberCard': function () {
+                            },
+                            'downloadApp': function () {
+                                this['isPhone'] && this['reportClientBusiness']({'itemName': 'Web_Phone_Reader_DownloadClk'}), this['$showDownloadAppDialog'](), this['$downloadAppComponent']['beginToLoadQrCode']({'subTitle': '百万好书免费读'});
+                            },
+                            'handleGoToActivity': function () {
+                                if (this[_0x25c8('0x90')]) {
+                                    this[_0x25c8('0x18d')]({'itemName': _0x25c8('0x2c9')});
+                                    var _0x47f012 = this['$route']['query'],
+                                        _0x1b092d = 'https://weread.qq.com/wrpage/promo/giveonegetone/newyear?isAnimateNavBarBackground=1&senderVid=' + _0x47f012['senderVid'] + '&vol=' + _0x47f012['vol'] + '&designId=' + _0x47f012['designId'];
+                                    return _0x3f7cfe['inDevelopment']() && console['log'](_0x1b092d), (0x0, _0x427c36['default'])(function (_0x4bb1a6) {
+                                        _0x4bb1a6 ? (0x0, _0x9861df['default'])({'openUrl': _0x25c8('0x44c') + encodeURIComponent(_0x1b092d) + '&style=1&userinfo=1'}) : (0x0, _0x3bc9f3['default'])();
+                                    });
+                                }
+                            },
+                            'downloadAppToRead': function () {
+                                this[_0x25c8('0xcd')]('click\x20footer\x20button\x20Logic\x20start'), this['reportClientBusiness']({'itemName': _0x25c8('0x3c0')}), this[_0x25c8('0x353')]();
+                                var _0x334b65 = void 0x0;
+                                _0x334b65 = _0x251dd7['default']['isSoldOut'](this['bookInfo']) || _0x251dd7['default']['isMPBookType'](this['bookInfo']['type']) ? {
+                                    'schemeName': 'book',
+                                    'bId': this['bookId'],
+                                    'type': this[_0x25c8('0xc6')]['type']
+                                } : _0x251dd7['default']['isComicType'](this['bookInfo']['type']) ? {
+                                    'schemeName': 'comicReader',
+                                    'bId': this['bookId']
+                                } : {
+                                    'schemeName': 'reading',
+                                    'bId': this['bookId'],
+                                    'type': this[_0x25c8('0xc6')]['type'],
+                                    'chapterUid': _0x5b60e9['get'](this['currentChapter'], 'chapterUid', 0x0)
+                                }, _0x334b65 = _0x5b60e9['merge'](_0x334b65, {
+                                    'subTitle': '在手机上继续阅读本书',
+                                    'from': 'ReaderControl'
+                                }), this[_0x25c8('0xcd')]('SchemeConfig:\x20' + (0x0, _0x10d271['default'])(_0x334b65)), this['$downloadAppComponent']['beginToLoadQrCode'](_0x334b65);
+                            },
+                            'downloadAppToMemberCard': function () {
+                                this['$showDownloadAppDialog'](), this['$downloadAppComponent']['beginToLoadQrCode']({
+                                    'schemeName': 'memCard',
+                                    'from': _0x25c8('0x2c'),
+                                    'memCardExpand': 0x1,
+                                    'title': '扫码去微信读书\x20App\x20续期会员卡',
+                                    'subTitle': _0x25c8('0x3c9')
+                                }), this[_0x25c8('0x18d')]({'itemName': 'Web_Download_ReaderCardExp'});
+                            },
+                            'downloadAppToAccount': function () {
+                                this['$showDownloadAppDialog'](), this['$downloadAppComponent']['beginToLoadQrCode']({
+                                    'schemeName': 'account',
+                                    'from': _0x25c8('0x1c5'),
+                                    'title': '扫码去微信读书\x20App\x20充值',
+                                    'subTitle': ''
+                                }), this['reportClientBusiness']({'itemName': 'Web_Download_ReaderRechargeExp'});
+                            },
+                            'logOnClientMounted': function () {
+                                var _0x241add = this;
+                                if (_0x3f7cfe[_0x25c8('0x1bb')]) {
+                                    this[_0x25c8('0x2d4')] || 'weixin' === _0x94132['getPlatform']() || this[_0x25c8('0x487')](), this['relatedAlbum'] && _0x6db688['wrReport']['newCHReport']({
+                                        'itemName': 'Web_Lecture_ButtonExposure',
+                                        'vid': this['user']['vid'],
+                                        'extra': {'bookId': this['bookId'], 'albumId': this[_0x25c8('0x38b')]}
+                                    }), this['haveReportInfo'](_0x25c8('0x496')) && this['reportClientBusiness']({'itemName': 'Web_Home_GuessClk'}, 'Index_Recommend'), this[_0x25c8('0x3eb')]('Index_Shelf_Book') && this[_0x25c8('0x18d')]({'itemName': 'Web_Home_ShelfBookClk'}, 'Index_Shelf_Book'), this['haveReportInfo']('Shelf_Enter_Reader') && this['reportClientBusiness']({'itemName': _0x25c8('0x16d')}, 'Shelf_Enter_Reader'), this['haveReportInfo']('Search_HotBook_Reader') && this['reportClientBusiness']({'itemName': _0x25c8('0x197')}, 'Search_HotBook_Reader'), this['haveReportInfo']('SearchResult_Click_BookId') && this['reportClientBusiness']({
+                                        'itemName': 'Web_Search_BookId_Clk',
+                                        'value': this['bookId']
+                                    }, 'SearchResult_Click_BookId'), this[_0x25c8('0x3eb')]('SearchResult_Click_BookName') && (this['reportClientBusiness']({'itemName': _0x25c8('0x30b')}, 'SearchResult_Click_BookName'), this['reportClientBusiness']({'itemName': 'Web_Search_ResultClk_Name'})), this['haveReportInfo']('SearchResult_Click_Content') && (this['reportClientBusiness']({'itemName': 'Web_Search_ResultClk'}, 'SearchResult_Click_Content'), this[_0x25c8('0x18d')]({'itemName': 'Web_Search_ResultClk_Content'}));
+                                    var _0x92b9c9 = this['haveReportInfo']('CategoryBook_Enter_Reader');
+                                    if ((_0x92b9c9 || _0x92b9c9 && _0x92b9c9[_0x25c8('0xd6')]) && (this[_0x25c8('0x18d')]({'itemName': _0x25c8('0x437')}, 'CategoryBook_Enter_Reader'), _0x92b9c9[_0x25c8('0xd6')] && this['reportClientBusiness']({
+                                        'itemName': _0x25c8('0x8'),
+                                        'value': (0x0, _0x10d271['default'])({'type': _0x92b9c9['categoryId']})
+                                    })), this['haveReportInfo']('Index_Book_All') ? this['reportClientBusiness']({'itemName': 'Web_Home_Top200_Clk'}, 'Index_Book_All') : this['haveReportInfo']('Index_Book_Novel') ? this[_0x25c8('0x18d')]({'itemName': _0x25c8('0x102')}, 'Index_Book_Novel') : this['haveReportInfo']('Index_Book_New') ? this['reportClientBusiness']({'itemName': 'Web_Home_TopNew_Clk'}, _0x25c8('0x224')) : this['haveReportInfo']('Index_Book_Rise') && this[_0x25c8('0x18d')]({'itemName': 'Web_Home_TopRise_Clk'}, _0x25c8('0x4b8')), (this['hasLogin'] || this['isSoldOut']) && this['isInShelf'] || this['reportClientBusiness']({'itemName': 'Web_Reader_TopAddExp'}), this['isPhone'] && this['reportClientBusiness']({'itemName': 'Web_Phone_Reader_DownloadExp'}), this['isWeiXin'] && this[_0x25c8('0x2d4')]) {
+                                        var _0x3ed676 = this['$router'][_0x25c8('0x1ec')]['query'],
+                                            _0x5e6236 = _0x3ed676['wtype'] && 'shareOneGetOne' === _0x3ed676['wtype'],
+                                            _0x532906 = _0x3ed676['wtype'] && 'shareOneGetOne2' === _0x3ed676['wtype'],
+                                            _0x142400 = _0x3ed676['wtype'] && 'giveOneGetOneNewYear' === _0x3ed676['wtype'],
+                                            _0x339f47 = _0x3ed676['wtype'] && 'flipCardGame' === _0x3ed676['wtype'],
+                                            _0x5db947 = _0x3ed676['wvid'] && 'app' === _0x3ed676['wfrom'],
+                                            _0x504d2d = _0x3ed676['wfrom'] && 'status' === _0x3ed676['wfrom'],
+                                            _0x21be14 = _0x3ed676['inviteCode'],
+                                            _0x19996b = _0x3ed676['wtype'] && 'mpArticle' === _0x3ed676[_0x25c8('0x2ad')],
+                                            _0x387ea9 = _0x3ed676['wtype'] && 'thirdpart' === _0x3ed676['wtype'],
+                                            _0x10e8a0 = _0x3ed676['wtype'] && 'topStories' === _0x3ed676['wtype'],
+                                            _0x20e475 = _0x3ed676[_0x25c8('0x1e3')] && _0x25c8('0x92') === _0x3ed676['wfrom'];
+                                        if ((_0x5e6236 || _0x532906 || _0x339f47 || _0x5db947 || _0x142400 || _0x21be14 || _0x19996b || _0x387ea9) && this['reportClientGlobal']({'itemName': 'Web_Enter_Activity'}), _0x5e6236) {
+                                            this[_0x25c8('0x18d')]({'itemName': 'Web_ShareOneGetOne_Enter_Reader'}), this['reportClientAppSharePage']({'itemName': _0x25c8('0x482')}), this['reportClientAppSharePage']({'itemName': 'page|Web_ShareOneGetOne_Enter_Reader|h5'});
+                                            var _0x1cdb00 = _0x3ed676['senderVid'],
+                                                _0x88fce4 = _0x3ed676[_0x25c8('0xe7')];
+                                            if (!_0x1cdb00 || !_0x88fce4) return;
+                                            var _0x4e8fde = _0x88fce4['split']('_')[0x0];
+                                            _0x4e8fde && (this['reportClientAppSharePage']({'itemName': 'page|Web_ShareOneGetOne_Enter_Reader_' + _0x4e8fde}), this[_0x25c8('0x348')]({'itemName': 'page|Web_ShareOneGetOne_Enter_Reader_' + _0x4e8fde + _0x25c8('0x175')})), _0x5957c5['default']['post']('https://weread.qq.com/share-one-get-one/redeem', {
+                                                'bookId': this['bookId'],
+                                                'campaignId': _0x88fce4,
+                                                'senderVid': _0x1cdb00
+                                            })['then'](function (_0x32ff67) {
+                                                var _0x428593 = _0x5b60e9['get'](_0x32ff67, 'data.succ', 0x0);
+                                                console['log']('[shareOneGetOne]\x20succ\x20=\x20' + _0x428593);
+                                            })[_0x25c8('0x380')](function (_0x3d8ce9) {
+                                                console['log'](_0x25c8('0x18f') + _0x3d8ce9);
+                                            });
+                                        } else if (_0x532906) {
+                                            this['reportClientBusiness']({'itemName': 'Web_ShareOneGetOne2_Enter_Reader'}), this[_0x25c8('0x348')]({'itemName': _0x25c8('0x2f0')}), this['reportClientAppSharePage']({'itemName': 'page|Web_ShareOneGetOne2_Enter_Reader|h5'});
+                                            var _0x2edd46 = this[_0x25c8('0x55')](), _0x507713 = _0x25c8('0x135'),
+                                                _0x418d97 = _0x3ed676[_0x25c8('0x2a7')],
+                                                _0x29269c = _0x3ed676['senderVid'],
+                                                _0x435b45 = _0x3ed676['type'], _0x31aee6 = _0x3ed676[_0x25c8('0x1e2')],
+                                                _0x2e33fb = _0x3ed676['timestamp'], _0x2e089a = _0x3ed676['sn'],
+                                                _0x139019 = _0x3ed676['vol'], _0x5d2ac0 = {
+                                                    'bookId': this['bookId'],
+                                                    'campaignType': _0x3ed676['wtype'],
+                                                    'senderVid': parseInt(_0x29269c),
+                                                    'type': parseInt(_0x435b45),
+                                                    'vol': _0x139019,
+                                                    'authorVid': parseInt(_0x418d97),
+                                                    'timestamp': parseInt(_0x2e33fb),
+                                                    'scene': _0x31aee6,
+                                                    'sn': _0x2e089a
+                                                };
+                                            if (_0x2edd46['reportExp']((0x0, _0xd54fca['default'])({'source': _0x507713}, _0x5d2ac0)), this[_0x25c8('0x101')]('FETCH_SHARE_ONE_GET_ONE_2\x20query\x20=', _0x3ed676), parseInt(_0x29269c) === parseInt(this['user']['vid'])) return this['logInfo']('FETCH_SHARE_ONE_GET_ONE_2\x20same\x20vid\x20=', _0x3ed676), void _0x2edd46['reportInfo']({
+                                                'source': _0x507713,
+                                                'message': '本人打开，不触发赠书'
+                                            });
+                                            if (!_0x139019) return void _0x2edd46[_0x25c8('0x1b6')]({
+                                                'source': _0x507713,
+                                                'message': '缺少期数'
+                                            });
+                                            if (void 0x0 === _0x435b45) return void _0x2edd46['reportError']({
+                                                'source': _0x507713,
+                                                'message': '缺少类型参数'
+                                            });
+                                            if (!_0x2e33fb || !_0x31aee6 || !_0x2e089a) return void _0x2edd46['reportError']({
+                                                'source': _0x507713,
+                                                'message': _0x25c8('0x14d')
+                                            });
+                                            var _0x4f3cbf = {
+                                                'type': _0x435b45,
+                                                'scene': _0x31aee6,
+                                                'senderVid': _0x29269c,
+                                                'timestamp': _0x2e33fb,
+                                                'sn': _0x2e089a,
+                                                'vol': _0x139019,
+                                                'bookId': this['bookId']
+                                            };
+                                            _0x418d97 && (_0x4f3cbf['authorVid'] = _0x418d97), this['$store']['dispatch'](_0x40127e['FETCH_SHARE_ONE_GET_ONE_2'], _0x4f3cbf)['then'](function (_0xb27047) {
+                                                _0x241add['logInfo']('FETCH_SHARE_ONE_GET_ONE_2\x20res\x20=', _0xb27047), _0xb27047['errCode'] ? -0xa5d === parseInt(_0xb27047['errCode']) ? (_0x241add['$toast']('本周你已帮其他用户解锁过该福利'), _0x2edd46['reportInfo']({
+                                                    'source': _0x507713,
+                                                    'message': '本周你已帮其他用户解锁过该福利',
+                                                    'errorCode': _0xb27047['errCode']
+                                                })) : -0xa60 === parseInt(_0xb27047[_0x25c8('0x23')]) ? _0x2edd46['reportInfo']({
+                                                    'source': _0x507713,
+                                                    'message': '活动已过期',
+                                                    'errorCode': _0xb27047['errCode']
+                                                }) : _0x2edd46['reportError']({
+                                                    'source': _0x507713,
+                                                    'message': _0x25c8('0x39e'),
+                                                    'errorCode': _0xb27047['errCode']
+                                                }) : _0x2edd46['reportSuccess']({'source': _0x507713});
+                                            });
+                                        } else if (_0x142400) this['reportClientBusiness']({'itemName': _0x25c8('0x396')}), this['reportClientAppSharePage']({'itemName': 'page|Web_giveOneGetOneNewYear_Enter_Reader'}), this['reportClientAppSharePage']({'itemName': 'page|Web_giveOneGetOneNewYear_Enter_Reader|h5'}); else if (_0x5db947) this[_0x25c8('0x348')]({'itemName': 'page|Web_AppShare_Enter_Reader'}), this['reportClientAppSharePage']({'itemName': 'page|Web_AppShare_Enter_Reader|h5'}), this['reportClientBusiness']({'itemName': 'Web_AppShare_Enter_Reader'}), this['reportClientBusiness']({
+                                            'itemName': 'Web_AppShare_Enter_ReaderSelf',
+                                            'vid': _0x3ed676[_0x25c8('0x120')]
+                                        }); else if (_0x21be14) this['reportClientBusiness']({'itemName': 'Web_InviteCode_Enter_Reader'}), this['reportClientAppSharePage']({'itemName': _0x25c8('0x48b')}), this['reportClientAppSharePage']({'itemName': 'page|Web_InviteCode_Enter_Reader|h5'}); else if (_0x19996b) this[_0x25c8('0x18d')]({'itemName': 'Web_MpArticle_Enter_Reader'}), this['reportClientAppSharePage']({'itemName': 'page|Web_MpArticle_Enter_Reader'}), this['reportClientAppSharePage']({'itemName': 'page|Web_MpArticle_Enter_Reader|h5'}); else if (_0x387ea9) this[_0x25c8('0x18d')]({'itemName': _0x25c8('0x8e')}), this['reportClientBusiness']({'itemName': _0x25c8('0x486') + this[_0x25c8('0xd3')]}), this['reportClientAppSharePage']({'itemName': 'page|Web_ThirdPart_Enter_Reader'}), this['reportClientAppSharePage']({'itemName': _0x25c8('0x1ba') + this['bookId']}), this['reportClientAppSharePage']({'itemName': 'page|Web_ThirdPart_Enter_Reader|h5'}), this['reportClientAppSharePage']({'itemName': 'page|Web_ThirdPart_Enter_Reader_' + this['bookId'] + _0x25c8('0x175')}); else if (_0x339f47) {
+                                            this['reportClientBusiness']({'itemName': 'Web_FlipCardGame_Enter_Reader'}), this[_0x25c8('0x348')]({'itemName': 'page|Web_FlipCardGame_Enter_Reader'}), this['reportClientAppSharePage']({'itemName': 'page|Web_FlipCardGame_Enter_Reader|h5'});
+                                            var _0x1e43d6 = _0x3ed676[_0x25c8('0x478')];
+                                            if (parseInt(_0x1e43d6) === parseInt(this['user']['vid'])) return void this['logInfo']('FETCH_FLIP_CARD_GAME\x20same\x20vid\x20=', _0x1e43d6);
+                                            this['$store']['dispatch'](_0x40127e['FETCH_FLIP_CARD_GAME'], {'senderVid': _0x1e43d6});
+                                        } else _0x504d2d ? _0x6db688['wrReport'][_0x25c8('0xa0')]({
+                                            'itemName': _0x25c8('0x196'),
+                                            'vid': this['user']['vid'],
+                                            'extra': {
+                                                'vid': this['user']['vid'] || 0x0,
+                                                'bookId': this[_0x25c8('0xd3')]
+                                            }
+                                        }) : _0x10e8a0 ? _0x6db688[_0x25c8('0x400')]['baseCHReport']({
+                                            'itemName': 'wrweb_reader_topStories_show',
+                                            'vid': this['user'][_0x25c8('0x188')],
+                                            'extra': {
+                                                'vid': this[_0x25c8('0x35e')]['vid'] || 0x0,
+                                                'bookId': this['bookId']
+                                            }
+                                        }) : _0x20e475 && (console['log'](_0x25c8('0x2e0')), _0x6db688['wrReport']['baseCHReport']({
+                                            'itemName': _0x25c8('0x124'),
+                                            'vid': this['user'][_0x25c8('0x188')],
+                                            'extra': {
+                                                'vid': this['user']['vid'] || 0x0,
+                                                'bookId': this[_0x25c8('0xd3')]
+                                            }
+                                        }), _0x6db688['wrReport']['baseCHReport']({
+                                            'itemName': 'wrweb_reader_WeChatSearch',
+                                            'vid': this[_0x25c8('0x35e')]['vid'],
+                                            'extra': {
+                                                'vid': this[_0x25c8('0x35e')]['vid'] || 0x0,
+                                                'bookId': this[_0x25c8('0xd3')]
+                                            }
+                                        }), _0x6db688['wrReport']['baseCHReport']({
+                                            'itemName': 'wrweb_reader_WeChatSearch_gray_' + ((this[_0x25c8('0x35e')][_0x25c8('0x188')] || 0x0) % 0x2 == 0x1),
+                                            'vid': this['user']['vid'],
+                                            'extra': {'vid': this['user']['vid'] || 0x0, 'bookId': this['bookId']}
+                                        }));
+                                    }
+                                    this['logOnReadPublishBook']();
+                                }
+                            },
+                            'reportShareOneGetOneLog': function () {
+                                var _0x4413e3 = this;
+                                return {
+                                    'reportExp': function (_0x62e6a9) {
+                                        _0x4413e3['reportShareOneGetOne']({
+                                            'itemName': 'shareGift_exp',
+                                            'vid': _0x4413e3['user']['vid'],
+                                            'extra': _0x62e6a9
+                                        });
+                                    }, 'reportInfo': function (_0x1c14a9) {
+                                        _0x4413e3['reportShareOneGetOne']({
+                                            'itemName': 'shareGift_info',
+                                            'vid': _0x4413e3[_0x25c8('0x35e')]['vid'],
+                                            'extra': _0x1c14a9
+                                        });
+                                    }, 'reportError': function (_0x76eb9) {
+                                        _0x4413e3['reportShareOneGetOne']({
+                                            'itemName': 'shareGift_error',
+                                            'vid': _0x4413e3['user']['vid'],
+                                            'extra': _0x76eb9
+                                        });
+                                    }, 'reportSuccess': function (_0x3ab73b) {
+                                        _0x4413e3['reportShareOneGetOne']({
+                                            'itemName': 'shareGift_success',
+                                            'vid': _0x4413e3['user']['vid'],
+                                            'extra': _0x3ab73b
+                                        });
+                                    }
+                                };
+                            },
+                            'autoSearchOnClientMounted': function () {
+                                var _0x3e1cf7 = _0x1325ea[_0x25c8('0x3a0')]['getSessionStorage'](_0x1057f6[_0x25c8('0x3cb')]);
+                                if (_0x3e1cf7) {
+                                    var _0x5f233a = JSON['parse'](_0x3e1cf7);
+                                    _0x5f233a['keyword'] && (this['$store']['dispatch'](_0x40127e['FETCH_READER_SEARCH_AUTO'], {'keyword': _0x5f233a['keyword']}), this['$refs']['readerCatalog'] && this['$refs']['readerCatalog']['setSearchKeyword'](_0x5f233a['keyword'])), _0x1325ea[_0x25c8('0x3a0')][_0x25c8('0x40b')](_0x1057f6['KEY_READER_AUTO_SEARCH']);
+                                }
+                            },
+                            'setupProgressReportOnDomReady': function () {
+                                if (this['needReportReadingProgress'] && !_0x1fd388) {
+                                    _0x1fd388 = !0x0;
+                                    var _0xc69627 = this;
+                                    this['reportEnterReading'](), this['$store']['commit'](_0x2c9cb7['UPDATE_READER_START_READING_TIME']), this['startReportTimer']();
+                                    var _0x56c5e3 = require(0x5a8)['ifvisible'],
+                                        _0x423fd7 = this[_0x25c8('0x28f')]['query']['debugIdleTime'] || 0x78,
+                                        _0x411264 = _0x3f7cfe['inDevelopment']() ? _0x423fd7 : 0x78;
+                                    _0x56c5e3['setIdleDuration'](_0x411264), _0x56c5e3['on'](_0x25c8('0x6f'), function (_0xce102a) {
+                                        switch (_0xce102a['status']) {
+                                            case'hidden':
+                                                _0xc69627['$store'][_0x25c8('0x3cc')](_0x40127e['READER_MARK_PAUSE']), _0xc69627['clearReportTimer']();
+                                                break;
+                                            case'idle':
+                                                _0x3f7cfe['inDevelopment']() && (_0xc69627['$toast']('DEBUG:\x20page\x20idle'), _0xc69627['$route'][_0x25c8('0x1b5')]['debugIdleClearCookie'] && (_0xc69627['$toast'](_0x25c8('0xaa')), _0xb1ee0a['default']['set']('wr_skey', null, {'expires': -0x1}))), _0xc69627['$store']['dispatch'](_0x40127e['READER_MARK_PAUSE']), _0xc69627['clearReportTimer']();
+                                                break;
+                                            case'active':
+                                                _0x3f7cfe['inDevelopment']() && _0xc69627['$toast']('DEBUG:\x20page\x20active'), _0x2726bd['default']['all']([_0xc69627['$store']['dispatch'](_0x40127e['READER_MARK_ACTIVE']), _0xc69627['checkIfSyncReadingProgress']()])['then'](function (_0x35ace4) {
+                                                    var _0x3f9a70 = _0x35ace4[0x0], _0x5271af = _0x35ace4[0x1];
+                                                    if (_0x5271af || (_0xc69627[_0x25c8('0x471')]['dispatch'](_0x40127e['RELOAD_READER_CHAPTER_INFOS'], {'isLogin': _0xc69627[_0x25c8('0x2d4')]}), _0xc69627['$store']['dispatch'](_0x40127e[_0x25c8('0x195')], {'isLogin': _0xc69627['hasLogin']})), _0x3f9a70 && !_0x5271af) return _0xc69627[_0x25c8('0x471')]['dispatch'](_0x40127e['FETCH_READER_BOOK_READ'], {
+                                                        'vid': _0x5b60e9['get'](_0xc69627, 'user.vid', 0x0),
+                                                        'retryCount': 0x1,
+                                                        'progressData': _0xc69627[_0x25c8('0x3d5')]()
+                                                    });
+                                                }), _0xc69627[_0x25c8('0x18')]();
+                                        }
+                                    });
+                                }
+                            },
+                            'handleLoginPendingActions': function () {
+                                if (_0x3f7cfe['isEnvClient']) {
+                                    var _0x2c153d = _0x1325ea['default']['getSessionStorage'](_0x1057f6['KEY_READER_LOGIN_PENDING_ACTION']);
+                                    if (_0x2c153d) if (_0x1325ea['default']['setSessionStorage'](_0x1057f6['KEY_READER_LOGIN_PENDING_ACTION']), this['hasLogin']) if (0x1 === _0x5b60e9['get'](JSON['parse'](_0x2c153d), _0x25c8('0x27f'), 0x0)) if (this['isNeedPayWithoutMemberCard']) if (!this['isNeedPay'] && this['isNeedPayWithoutMemberCard']) ; else if (this['hasMemberCard']) ; else {
+                                        if (this['isBlackUser'] && 0x2 === _0x5b60e9['get'](this[_0x25c8('0xc6')], 'ispub')) ; else {
+                                            if (this['canReceiveMemberCard']) return this['receiveMemberCard']();
+                                            this['$toast'](_0x25c8('0x2e6'));
+                                        }
+                                    } else ;
+                                }
+                            },
+                            'requestMemberCardPriceIfNeeded': function () {
+                                var _0x3cc218 = this;
+                                this['isShowBuyMemberCardButton'] && !this['hasFetchMemberCardPrice'] && (0x0, _0x10c70a['default'])('/web/pay/memberprice', {
+                                    'vid': _0x5b60e9['get'](this['user'], 'vid'),
+                                    'pf': _0x5b60e9['get'](this['user'], 'pf', 0x0)
+                                }, function (_0x17a604) {
+                                    _0x3cc218['hasFetchMemberCardPrice'] = !0x0;
+                                    var _0x40aaa6 = _0x17a604[_0x25c8('0x1b9')],
+                                        _0x4bdff6 = _0x5b60e9['get'](_0x40aaa6, 'promoPrice', 0x0),
+                                        _0x5eefc2 = _0x5b60e9[_0x25c8('0x4e')](_0x40aaa6, 'promoLabel', '');
+                                    if (_0x4bdff6 > 0x0 && _0x5eefc2['length'] > 0x0) _0x3cc218['buyMemberCardButtonLine1'] = '会员卡\x20' + _0x5eefc2 + Math['round'](_0x4bdff6) / 0x64 + '元\x20·\x20百万好书免费读'; else if (_0x5b60e9['get'](_0x40aaa6, _0x25c8('0xee'), 0x0) > 0x0) {
+                                        var _0x56565a = _0x5b60e9['get'](_0x40aaa6, 'price', 0x0);
+                                        _0x3cc218[_0x25c8('0x123')] = '会员卡\x20' + Math['round'](_0x56565a) / 0x64 + '元/月\x20·\x20百万好书免费读';
+                                    } else _0x3cc218['buyMemberCardButtonLine1'] = '会员卡\x2019元/月\x20·\x20百万好书免费读';
+                                }, function () {
+                                });
+                            },
+                            'handleSessionTimeout': function () {
+                                this['isWeiXin'] || this['$toast']('登录过期，请重新登录'), setTimeout(function () {
+                                    window['location']['reload']();
+                                }, 0xbb8);
+                            },
+                            'getScrollLeft': function () {
+                                return window && window['pageXOffset'] ? window['pageXOffset'] : document && document['documentElement'] && document[_0x25c8('0x3f6')][_0x25c8('0x1ab')] ? document['documentElement'][_0x25c8('0x1ab')] : document && document['body'] && document['body'][_0x25c8('0x1ab')] ? document['body'][_0x25c8('0x1ab')] : 0x0;
+                            },
+                            'getScrollTop': function () {
+                                return window && window['pageYOffset'] ? window['pageYOffset'] : document && document[_0x25c8('0x3f6')] && document['documentElement']['scrollTop'] ? document['documentElement']['scrollTop'] : document && document['body'] && document['body']['scrollTop'] ? document['body']['scrollTop'] : 0x0;
+                            },
+                            'clientXY2RenderAreaXY': function (_0xa1a128) {
+                                var _0x1e2172 = this['$refs']['renderTargetContainer'];
+                                if (_0x1e2172) {
+                                    var _0x47c6fa = _0x1e2172['offsetLeft'], _0xa059b1 = _0x1e2172['offsetTop'],
+                                        _0x3f1409 = this['getScrollLeft'](), _0x13f5ce = this['getScrollTop']();
+                                    return _0xa1a128['x'] = _0xa1a128['x'] - _0x47c6fa + _0x3f1409, _0xa1a128['y'] = _0xa1a128['y'] - _0xa059b1 + _0x13f5ce, _0xa1a128;
+                                }
+                                return _0xa1a128;
+                            },
+                            'findObjsWithPoints': function (_0x2e9049, _0x5011f9) {
+                                var _0x30e013, _0x47671f, _0x51c243 = _0x4cbe2d, _0x555666 = _0x51c243['length'],
+                                    _0x31ec8d = [_0x2e9049, _0x5011f9]['sort'](function (_0x14367d, _0x10c1e6) {
+                                        return _0x14367d['y'] !== _0x10c1e6['y'] ? _0x14367d['y'] - _0x10c1e6['y'] : _0x14367d['x'] - _0x10c1e6['x'];
+                                    }), _0x2709fa = this['binaryFindObjIndex'](_0x51c243, function (_0x3d03e2) {
+                                        return _0x3d03e2 && _0x3d03e2['rect'] && _0x31ec8d[0x0] && _0x3d03e2['rect']['bottom'] >= _0x31ec8d[0x0]['y'];
+                                    });
+                                if (-0x1 !== _0x2709fa) {
+                                    for (; _0x2709fa < _0x555666 && (_0x30e013 = _0x51c243[_0x2709fa], _0x47671f = void 0x0, !((_0x47671f = _0x30e013[_0x25c8('0x331')]) && _0x31ec8d[0x0] && (_0x47671f[_0x25c8('0x17')] >= _0x31ec8d[0x0]['x'] || _0x47671f['y'] >= _0x31ec8d[0x0]['y'])));) _0x2709fa++;
+                                    _0x2709fa === _0x555666 && (_0x2709fa = -0x1);
+                                }
+                                var _0x50ae8c = this['binaryFindObjIndex'](_0x51c243, function (_0x523959) {
+                                    return _0x523959 && _0x523959['rect'] && _0x31ec8d[0x1] && _0x523959['rect']['y'] < _0x31ec8d[0x1]['y'];
+                                }, !0x1);
+                                if (-0x1 !== _0x50ae8c) for (var _0x552308 = function (_0x3e1dc7) {
+                                    var _0xb9c951 = _0x3e1dc7['rect'];
+                                    return !(!_0xb9c951 || !_0x31ec8d[0x1]) && (_0xb9c951['centerX'] <= _0x31ec8d[0x1]['x'] || _0xb9c951[_0x25c8('0x2f4')] <= _0x31ec8d[0x1]['y']);
+                                }; _0x50ae8c >= 0x0 && !_0x552308(_0x51c243[_0x50ae8c]);) _0x50ae8c--;
+                                var _0x3b087d = [], _0x16275c = [];
+                                return -0x1 !== _0x2709fa && -0x1 !== _0x50ae8c && (_0x16275c = _0x2709fa <= _0x50ae8c ? [_0x2709fa, _0x50ae8c + 0x1] : [_0x50ae8c += 0x1, (_0x2709fa -= 0x1) + 0x1], _0x3b087d = _0x51c243['slice'](_0x16275c[0x0], _0x16275c[0x1])), _0x3b087d;
+                            },
+                            'getRangeFromObjs': function (_0x1fafa4) {
+                                for (var _0x1317bf = new _0x4591a5['default'](_0x1fafa4[0x0]['getOffset'](), _0x1fafa4[0x0]['getOffset']() + _0x1fafa4[0x0]['getTextLength']()), _0x48ca67 = 0x1, _0x1d6d82 = _0x1fafa4['length']; _0x48ca67 < _0x1d6d82; _0x48ca67++) {
+                                    var _0x40909a = _0x1fafa4[_0x48ca67], _0x12cbec = _0x40909a['getOffset'](),
+                                        _0x544a0f = _0x40909a[_0x25c8('0x67')]();
+                                    _0x1317bf['start'] > _0x12cbec && (_0x1317bf[_0x25c8('0x20e')] = _0x12cbec), _0x1317bf['end'] < _0x12cbec + _0x544a0f && (_0x1317bf['end'] = _0x12cbec + _0x544a0f);
+                                }
+                                return _0x1317bf;
+                            },
+                            'hasSelection': function () {
+                                return _0x2029bc['length'] > 0x0;
+                            },
+                            'clearSelection': function () {
+                                this['chapterContentSelectionHtml'] = '', _0x10e1ba = [], _0x2029bc = [], this['$hideSelectionToolBar']();
+                            },
+                            'onContentMouseDown': function (_0x14bc52) {
+                                if (_0x25c8('0xce') === this[_0x25c8('0x210')]) {
+                                    var _0xff7615 = (_0x14bc52 = _0x14bc52 || window['event'])[_0x25c8('0x354')],
+                                        _0x1cb6b8 = _0xff7615['parentNode'];
+                                    _0x3f7cfe[_0x25c8('0x191')]() && console['log'](_0x25c8('0xdc'), 'target=', _0xff7615, 'parent=', _0x1cb6b8);
+                                    var _0x31789d = !0x1;
+                                    if (_0xff7615 === this[_0x25c8('0x304')]['appContent'] || _0xff7615 === document['documentElement'] || _0xff7615 === document['getElementById']('routerView')) _0x31789d = !0x0; else for (var _0xf90793 = _0xff7615, _0x23232c = this[_0x25c8('0x304')][_0x25c8('0x2ac')]; _0x23232c && _0xf90793 && _0xf90793 !== document['body'];) {
+                                        if (_0x23232c && _0x23232c === _0xf90793) {
+                                            _0x31789d = !0x0;
+                                            break;
+                                        }
+                                        _0xf90793 = _0xf90793['parentNode'];
+                                    }
+                                    _0x31789d && (_0x35de2b = !0x0, _0x2029bc = [], _0x10e1ba = [], _0x5167c6 = this['clientXY2RenderAreaXY']({
+                                        'x': _0x14bc52['clientX'],
+                                        'y': _0x14bc52['clientY']
+                                    }), _0x39b4c6 = new Date()['getTime']());
+                                }
+                            },
+                            'onContentMouseMove': function (_0x2f7233) {
+                                if ('DONE' === this['chapterContentState'] && _0x35de2b && null !== _0x5167c6) if (0x1 === (_0x2f7233 = _0x2f7233 || window['event'])['which']) {
+                                    var _0x2d1d85 = this['clientXY2RenderAreaXY']({
+                                        'x': _0x2f7233[_0x25c8('0xd8')],
+                                        'y': _0x2f7233['clientY']
+                                    }), _0x11b7e1 = this['findObjsWithPoints'](_0x5167c6, _0x2d1d85);
+                                    if (_0x11b7e1['length'] > _0x41abb5) {
+                                        var _0x1c54f1 = !0x1;
+                                        if (_0x2029bc['length'] > 0x0 ? _0x11b7e1[0x0] === _0x2029bc[0x0] ? (_0x11b7e1 = _0x11b7e1['slice'](0x0, _0x41abb5), _0x1c54f1 = !0x0) : _0x11b7e1[_0x11b7e1['length'] - 0x1] === _0x2029bc[_0x2029bc['length'] - 0x1] && (_0x11b7e1 = _0x11b7e1['slice'](_0x11b7e1['length'] - _0x41abb5), _0x1c54f1 = !0x0) : (_0x11b7e1 = _0x11b7e1['slice'](0x0, _0x41abb5), _0x1c54f1 = !0x0), !_0x1c54f1) return;
+                                    }
+                                    var _0x3148a9 = this['getRectsByContentObjs'](_0x11b7e1);
+                                    if (_0x3148a9['length'] > 0x0) {
+                                        var _0x197807 = '';
+                                        _0x3148a9['forEach'](function (_0x5d9fb6) {
+                                            _0x197807 += '<div\x20class=\x22wr_selection\x22\x20style=\x22' + _0x5d9fb6['toCSSPositionString']() + '\x22></div>';
+                                        }), this['chapterContentSelectionHtml'] = _0x197807;
+                                    } else this[_0x25c8('0x10')] = '';
+                                    _0x2029bc = _0x11b7e1, _0x10e1ba = _0x3148a9;
+                                } else _0x35de2b = !0x1;
+                            },
+                            'onContentMouseUp': function () {
+                                if (_0x25c8('0xce') === this['chapterContentState'] && (_0x35de2b = !0x1, _0x94f3db && clearTimeout(_0x94f3db), _0x367975 = !0x0, setTimeout(function () {
+                                    _0x367975 = !0x1, _0x94f3db = 0x0;
+                                }, 0x1f4), _0x10e1ba['length'] > 0x0)) {
+                                    for (var _0x395542 = this['getRangeFromObjs'](_0x2029bc), _0x1deaf7 = null, _0x14fa26 = this['notesListInCurrentChapter'], _0x4d2ca9 = 0x0, _0x593b80 = _0x14fa26['length']; _0x4d2ca9 < _0x593b80; _0x4d2ca9++) {
+                                        var _0x3779d4 = _0x14fa26[_0x4d2ca9];
+                                        if (_0x3779d4['noteType'] === _0x3f6897['NoteTypeBookmark'] && _0x4591a5['default'][_0x25c8('0x34')](_0x3779d4['range'], _0x395542)) {
+                                            _0x1deaf7 = _0x3779d4;
+                                            break;
+                                        }
+                                    }
+                                    this['showSelectionToolBar']({
+                                        'objs': _0x2029bc,
+                                        'rects': _0x10e1ba,
+                                        'existBookmark': _0x1deaf7
+                                    });
+                                }
+                            },
+                            'showSelectionToolBar': function (_0x5d9318) {
+                                var _0x4be858 = this, _0xc42a7e = _0x5d9318['objs'], _0x490d81 = _0x5d9318['rects'],
+                                    _0x11cea7 = _0x5d9318['existBookmark'],
+                                    _0x58e569 = this['$refs']['renderTargetContainer'],
+                                    _0x590deb = this['$refs']['appContent'],
+                                    _0x4d7569 = window[_0x25c8('0x117')] || (document && document['documentElement'] && document[_0x25c8('0x5')] ? Math[_0x25c8('0x4ac')](document['documentElement']['clientHeight'], document['body']['clientHeight']) : 0x0),
+                                    _0x58995d = this['getScrollTop'](), _0x48a1bd = _0x58e569['offsetTop'],
+                                    _0x5e2083 = _0x37431f['default'][_0x25c8('0xc3')](_0x58e569, _0x590deb),
+                                    _0x5e9818 = this['hasTextObjs'](_0xc42a7e);
+                                this['$showSelectionToolBar']({
+                                    'vid': _0x5b60e9[_0x25c8('0x4e')](this, 'user.vid', 0x0),
+                                    'parentNode': _0x58e569,
+                                    'toolbarBoundsLimit': {
+                                        'left': -_0x5e2083[_0x25c8('0x292')],
+                                        'right': _0x590deb['offsetWidth'] - _0x5e2083[_0x25c8('0x292')],
+                                        'top': _0x58995d - _0x48a1bd + 0x48,
+                                        'bottom': _0x58995d - _0x48a1bd + _0x4d7569
+                                    },
+                                    'canCopy': _0x5e9818,
+                                    'canQuery': _0x5e9818,
+                                    'rects': _0x490d81,
+                                    'existBookmark': _0x11cea7,
+                                    'onClickToolBarItem': function (_0xf6494f) {
+                                        if (!_0x4be858['hasLogin'] && _0xf6494f && !0x0 === _0xf6494f['requireLogin']) return _0x4be858['$showLoginDialog']({
+                                            'bottomTitle': '扫码登录微信读书',
+                                            'bottomSubTitle': _0xf6494f['requireLoginText'] || ''
+                                        });
+                                        switch (_0xf6494f['type']) {
+                                            case'copy':
+                                                _0x4be858['copyObjsText'](_0xc42a7e), _0x4be858['reportClientBusiness']({'itemName': 'Web_SelectionTool_Copy'});
+                                                break;
+                                            case'underline':
+                                                _0x11cea7 ? _0x4be858[_0x25c8('0x46b')](_0x11cea7, _0xf6494f[_0x25c8('0x2fc')], _0xf6494f['color']) : _0x4be858['underlineObjs'](_0xc42a7e, _0xf6494f['styleId'], _0xf6494f['color']), _0x4be858['reportClientBusiness']({'itemName': 'Web_SelectionTool_Underline'});
+                                                break;
+                                            case'removeUnderline':
+                                                (_0x11cea7 || _0xf6494f['bookmarkId']) && _0x4be858['removeBookmark']([_0x11cea7 ? _0x11cea7['bookmarkId'] : _0xf6494f['bookmarkId']]), _0x4be858['reportClientBusiness']({'itemName': 'Web_SelectionTool_RemoveUnderline'});
+                                                break;
+                                            case'review':
+                                                _0x4be858['hideReviewDetailPanel'](), _0x4be858[_0x25c8('0x418')](_0xc42a7e), _0x4be858['reportClientBusiness']({'itemName': 'Web_SelectionTool_Review'});
+                                                break;
+                                            case'query':
+                                                _0x4be858['hideReviewDetailPanel'](), _0x4be858['dictQuery'](_0xc42a7e), _0x4be858['reportClientBusiness']({'itemName': 'Web_SelectionTool_Query'});
+                                                break;
+                                            case'changeColor':
+                                                (_0x11cea7 || _0xf6494f[_0x25c8('0x49e')]) && _0x4be858['updateBookmark'](_0x11cea7 || _0xf6494f, _0xf6494f['style'], _0xf6494f['color']), _0x4be858['reportClientBusiness']({'itemName': _0x25c8('0x3ab')});
+                                                break;
+                                            default:
+                                                _0x4be858[_0x25c8('0x49')]('功能开发中', 0x5dc);
+                                        }
+                                        'underline' !== _0xf6494f['type'] && 'changeColor' !== _0xf6494f['type'] && _0x4be858['clearSelection']();
+                                    }
+                                }), this[_0x25c8('0x18d')]({'itemName': 'Web_SelectionTool_Exp'});
+                            },
+                            'underlineObjs': function (_0x1b025c, _0x43293c) {
+                                for (var _0x175953 = arguments['length'] > 0x2 && void 0x0 !== arguments[0x2] ? arguments[0x2] : 0x0, _0x46582b = this['getRangeFromObjs'](_0x1b025c), _0x544823 = this['notesListInCurrentChapter'], _0x2078f0 = [], _0x35a2f8 = 0x0, _0x306482 = _0x544823['length']; _0x35a2f8 < _0x306482; _0x35a2f8++) {
+                                    var _0x56ff8f = _0x544823[_0x35a2f8];
+                                    _0x56ff8f['noteType'] === _0x3f6897['NoteTypeBookmark'] && _0x4591a5['default']['isIntersection'](_0x46582b, _0x56ff8f['range']) && (_0x2078f0['push'](_0x56ff8f[_0x25c8('0x49e')]), _0x46582b = _0x4591a5['default'][_0x25c8('0x39d')](_0x46582b, _0x56ff8f[_0x25c8('0x374')]));
+                                }
+                                if (this['removeBookmark'](_0x2078f0), void 0x0 === _0x43293c) {
+                                    var _0x16655d = _0x1325ea['default']['getLocalSettingOperator'](),
+                                        _0x560a25 = _0x16655d['getValueWithType'](_0x1057f6['LOCAL_SETTING_OBJ_KEYS']['UNDERLINE_STYLE'], _0x25c8('0x2f7'));
+                                    _0x43293c = null === _0x560a25 ? 0x1 : _0x560a25;
+                                }
+                                this['addBookmark'](_0x46582b, _0x43293c, _0x175953);
+                            },
+                            'removeBookmark': function (_0x3145ac) {
+                                var _0x517732 = this;
+                                _0x3145ac[_0x25c8('0x28d')](function (_0x573c0b) {
+                                    _0x517732['$store']['dispatch'](_0x40127e[_0x25c8('0x43e')], {'bookmarkId': _0x573c0b});
+                                });
+                            },
+                            'updateBookmark': function (_0x52c952, _0x3eb7e3) {
+                                var _0x4dabe7 = this,
+                                    _0x36f344 = arguments[_0x25c8('0x178')] > 0x2 && void 0x0 !== arguments[0x2] ? arguments[0x2] : 0x0;
+                                return this['$store']['dispatch'](_0x40127e['UPDATE_BOOKMARK'], {
+                                    'bookmarkId': _0x52c952[_0x25c8('0x49e')],
+                                    'style': _0x3eb7e3,
+                                    'colorStyle': _0x36f344
+                                })['then'](function (_0x148199) {
+                                    if (0x1 === _0x148199['succ']) {
+                                        _0x4dabe7['saveLastBookmarkStyle'](_0x3eb7e3);
+                                        var _0x41a578 = _0x4dabe7['$store']['getters']['notes'][_0x25c8('0x2ec')];
+                                        if (_0x41a578 && _0x41a578['length']) {
+                                            var _0x27de79 = _0x41a578['find'](function (_0x5ab1e5) {
+                                                return _0x52c952[_0x25c8('0x49e')] === _0x5ab1e5['bookmarkId'];
+                                            });
+                                            _0x27de79 && _0x4dabe7['$updateSelectionToolBar']({'existBookmark': _0x27de79});
+                                        }
+                                    }
+                                });
+                            },
+                            'addBookmark': function (_0xead84, _0x473531, _0x595698) {
+                                var _0x314c7c = this,
+                                    _0x52e2ed = this['findObjsInOffsetRange'](_0x4cbe2d, _0xead84[_0x25c8('0x20e')], _0xead84['end']);
+                                return this['$store']['dispatch'](_0x40127e['ADD_BOOKMARK'], {
+                                    'bookId': this['bookId'],
+                                    'chapterUid': this['currentChapter']['chapterUid'],
+                                    'chapterIdx': this['currentChapter']['chapterIdx'],
+                                    'bookVersion': this['bookInfo']['version'],
+                                    'type': 0x1,
+                                    'style': _0x473531,
+                                    'colorStyle': _0x595698,
+                                    'range': _0xead84['toString'](),
+                                    'markText': this['getTextFromObjs'](_0x52e2ed)
+                                })['then'](function (_0xf893b9) {
+                                    if (0x1 === _0xf893b9[_0x25c8('0x424')]) {
+                                        if (_0x314c7c['saveLastBookmarkStyle'](_0x473531), _0xf893b9['bookmarkId']) {
+                                            var _0x4ffa6a = _0x314c7c['$store'][_0x25c8('0x221')]['notes'][_0x25c8('0x2ec')];
+                                            if (_0x4ffa6a && _0x4ffa6a['length']) {
+                                                var _0x58ee81 = _0x4ffa6a['find'](function (_0x5b7d7e) {
+                                                    return _0x5b7d7e['bookmarkId'] === _0xf893b9['bookmarkId'];
+                                                });
+                                                _0x58ee81 && _0x314c7c['$updateSelectionToolBar']({'existBookmark': _0x58ee81});
+                                            }
+                                        }
+                                    } else _0x314c7c['$toast']('划线失败，请重试');
+                                });
+                            },
+                            'saveLastBookmarkStyle': function (_0x3cd09b) {
+                                var _0x3df1eb = _0x1325ea['default']['getLocalSettingOperator']();
+                                _0x3df1eb['value'][_0x1057f6['LOCAL_SETTING_OBJ_KEYS']['UNDERLINE_STYLE']] = _0x3cd09b, _0x3df1eb['save']();
+                            },
+                            'hasTextObjs': function (_0x440d95) {
+                                for (var _0x477a2e = 0x0, _0x10d59c = _0x440d95['length']; _0x477a2e < _0x10d59c; _0x477a2e++) {
+                                    if (_0x440d95[_0x477a2e]['isTextOrCanvasType']()) return !0x0;
                                 }
                                 return !0x1;
-                            });
-                        },
-                        'checkIfNeedRequestLoginQRCode': function () {
-                            this['isNeedShowLoginGuide'] && (!this[_0x25c8('0x1d')] || this['isLoginGetInfoError'] || this['isLoginGetUidError']) && this['requestLoginUid']();
-                        },
-                        'requestLoginUid': function () {
-                            var _0x5e4381 = this;
-                            this[_0x25c8('0x3c2')] = !0x0, (0x0, _0x27252b['default'])('/web/login/getuid', {}, function (_0x16a8dc) {
-                                _0x16a8dc && _0x16a8dc['data'] && _0x16a8dc[_0x25c8('0x1b9')]['uid'] ? (_0x5e4381[_0x25c8('0x3c2')] = !0x1, _0x5e4381['isLoginGetUidError'] = !0x1, _0x5e4381['isLoginGetInfoError'] = !0x1, _0x5e4381['generateLoginGuideQRCode'](_0x16a8dc[_0x25c8('0x1b9')]['uid']), _0x5e4381['requestLoginInfo'](_0x16a8dc['data']['uid'])) : (_0x5e4381['isLoginQRCodeLoading'] = !0x1, _0x5e4381['isLoginGetUidError'] = !0x0, _0x5e4381['isLoginGetInfoError'] = !0x1);
-                            }, function (_0x220b7e) {
-                                _0x5e4381['logError']('Reader-requestLoginUid\x20error', _0x220b7e), _0x5e4381['isLoginQRCodeLoading'] = !0x1, _0x5e4381['isLoginGetUidError'] = !0x0, _0x5e4381['isLoginGetInfoError'] = !0x1;
-                            });
-                        },
-                        'generateLoginGuideQRCode': function (_0x4ce1e9) {
-                            this['loginGuideQRCodeImg'] = _0x3088eb(0x50)['getQrBase64']('https://weread.qq.com/web/confirm?uid=' + _0x4ce1e9, {
-                                'padding': 0x6,
-                                'width': 0x90,
-                                'height': 0x90,
-                                'correctLevel': QRErrorCorrectLevel['H'],
-                                'background': '#FFF',
-                                'foreground': '#000'
-                            });
-                        },
-                        'requestLoginInfo': function (_0x610862) {
-                            var _0x40a42b = this;
-                            (0x0, _0x27252b['default'])('/web/login/getinfo', {'uid': _0x610862}, function (_0xa8f938) {
-                                _0xa8f938 && _0xa8f938['data'] && _0xa8f938[_0x25c8('0x1b9')]['vid'] && _0xa8f938['data']['skey'] && _0xa8f938['data'][_0x25c8('0x2c4')] ? _0x40a42b['requestLogin'](_0xa8f938['data']) : (_0x40a42b['isLoginGetInfoError'] = !0x0, _0x40a42b['autoLoadLoginQRCodeCount'] > 0x0 && (_0x40a42b['autoLoadLoginQRCodeCount']--, _0x40a42b[_0x25c8('0x183')]()));
-                            }, function (_0x340d66) {
-                                _0x40a42b['logError']('Reader-requestLoginInfo\x20error', _0x340d66), _0x40a42b['isLoginGetInfoError'] = !0x0, _0x40a42b[_0x25c8('0x164')] > 0x0 && (_0x40a42b['autoLoadLoginQRCodeCount']--, _0x40a42b['checkIfNeedRequestLoginQRCode']());
-                            });
-                        },
-                        'requestLogin': function (_0x5bc5aa) {
-                            var _0x2b9446 = this, _0xdcb927 = _0x5bc5aa['pf'],
-                                _0x5f0f94 = _0x18d408[_0x25c8('0x293')]();
-                            (0x0, _0x27252b['default'])('/web/login/weblogin', {
-                                'vid': _0x5bc5aa['vid'],
-                                'skey': _0x5bc5aa[_0x25c8('0x2dd')],
-                                'code': _0x5bc5aa['code'],
-                                'fp': _0x5f0f94,
-                                'isAutoLogout': _0x5bc5aa['isAutoLogout']
-                            }, function (_0x331448) {
-                                _0x331448 && _0x331448[_0x25c8('0x1b9')] && _0x331448['data']['vid'] && _0x331448['data'][_0x25c8('0x85')] && _0x331448['data']['refreshToken'] && (_0x331448['data']['pf'] = _0xdcb927, _0x2b9446[_0x25c8('0x40c')](_0x331448['data']));
-                            }, function (_0x49732f) {
-                                _0x2b9446[_0x25c8('0x2bd')](_0x25c8('0x1c'), _0x49732f);
-                            });
-                        },
-                        'handleLoginResult': function (_0x47d250) {
-                            var _0x3bdd38 = this;
-                            console['log'](_0x25c8('0x89'), _0x47d250), (0x0, _0x27252b['default'])('/web/login/session/init', {
-                                'vid': _0x47d250['vid'],
-                                'skey': _0x47d250['accessToken'],
-                                'rt': _0x47d250['refreshToken'],
-                                'pf': _0x47d250['pf']
-                            }, function () {
-                                _0x3bdd38['onAfterLoginToGetMemberCard']();
-                            }, function (_0x35bbbc) {
-                                _0x3bdd38['logError'](_0x25c8('0x4ba'), _0x35bbbc), _0x3bdd38['onAfterLoginToGetMemberCard']();
-                            });
-                        },
-                        'receiveMemberCard': function () {
-                        },
-                        'downloadApp': function () {
-                            this['isPhone'] && this['reportClientBusiness']({'itemName': 'Web_Phone_Reader_DownloadClk'}), this['$showDownloadAppDialog'](), this['$downloadAppComponent']['beginToLoadQrCode']({'subTitle': '百万好书免费读'});
-                        },
-                        'handleGoToActivity': function () {
-                            if (this[_0x25c8('0x90')]) {
-                                this[_0x25c8('0x18d')]({'itemName': _0x25c8('0x2c9')});
-                                var _0x47f012 = this['$route']['query'],
-                                    _0x1b092d = 'https://weread.qq.com/wrpage/promo/giveonegetone/newyear?isAnimateNavBarBackground=1&senderVid=' + _0x47f012['senderVid'] + '&vol=' + _0x47f012['vol'] + '&designId=' + _0x47f012['designId'];
-                                return _0x3f7cfe['inDevelopment']() && console['log'](_0x1b092d), (0x0, _0x427c36['default'])(function (_0x4bb1a6) {
-                                    _0x4bb1a6 ? (0x0, _0x9861df['default'])({'openUrl': _0x25c8('0x44c') + encodeURIComponent(_0x1b092d) + '&style=1&userinfo=1'}) : (0x0, _0x3bc9f3['default'])();
-                                });
-                            }
-                        },
-                        'downloadAppToRead': function () {
-                            this[_0x25c8('0xcd')]('click\x20footer\x20button\x20Logic\x20start'), this['reportClientBusiness']({'itemName': _0x25c8('0x3c0')}), this[_0x25c8('0x353')]();
-                            var _0x334b65 = void 0x0;
-                            _0x334b65 = _0x251dd7['default']['isSoldOut'](this['bookInfo']) || _0x251dd7['default']['isMPBookType'](this['bookInfo']['type']) ? {
-                                'schemeName': 'book',
-                                'bId': this['bookId'],
-                                'type': this[_0x25c8('0xc6')]['type']
-                            } : _0x251dd7['default']['isComicType'](this['bookInfo']['type']) ? {
-                                'schemeName': 'comicReader',
-                                'bId': this['bookId']
-                            } : {
-                                'schemeName': 'reading',
-                                'bId': this['bookId'],
-                                'type': this[_0x25c8('0xc6')]['type'],
-                                'chapterUid': _0x5b60e9['get'](this['currentChapter'], 'chapterUid', 0x0)
-                            }, _0x334b65 = _0x5b60e9['merge'](_0x334b65, {
-                                'subTitle': '在手机上继续阅读本书',
-                                'from': 'ReaderControl'
-                            }), this[_0x25c8('0xcd')]('SchemeConfig:\x20' + (0x0, _0x10d271['default'])(_0x334b65)), this['$downloadAppComponent']['beginToLoadQrCode'](_0x334b65);
-                        },
-                        'downloadAppToMemberCard': function () {
-                            this['$showDownloadAppDialog'](), this['$downloadAppComponent']['beginToLoadQrCode']({
-                                'schemeName': 'memCard',
-                                'from': _0x25c8('0x2c'),
-                                'memCardExpand': 0x1,
-                                'title': '扫码去微信读书\x20App\x20续期会员卡',
-                                'subTitle': _0x25c8('0x3c9')
-                            }), this[_0x25c8('0x18d')]({'itemName': 'Web_Download_ReaderCardExp'});
-                        },
-                        'downloadAppToAccount': function () {
-                            this['$showDownloadAppDialog'](), this['$downloadAppComponent']['beginToLoadQrCode']({
-                                'schemeName': 'account',
-                                'from': _0x25c8('0x1c5'),
-                                'title': '扫码去微信读书\x20App\x20充值',
-                                'subTitle': ''
-                            }), this['reportClientBusiness']({'itemName': 'Web_Download_ReaderRechargeExp'});
-                        },
-                        'logOnClientMounted': function () {
-                            var _0x241add = this;
-                            if (_0x3f7cfe[_0x25c8('0x1bb')]) {
-                                this[_0x25c8('0x2d4')] || 'weixin' === _0x94132['getPlatform']() || this[_0x25c8('0x487')](), this['relatedAlbum'] && _0x6db688['wrReport']['newCHReport']({
-                                    'itemName': 'Web_Lecture_ButtonExposure',
-                                    'vid': this['user']['vid'],
-                                    'extra': {'bookId': this['bookId'], 'albumId': this[_0x25c8('0x38b')]}
-                                }), this['haveReportInfo'](_0x25c8('0x496')) && this['reportClientBusiness']({'itemName': 'Web_Home_GuessClk'}, 'Index_Recommend'), this[_0x25c8('0x3eb')]('Index_Shelf_Book') && this[_0x25c8('0x18d')]({'itemName': 'Web_Home_ShelfBookClk'}, 'Index_Shelf_Book'), this['haveReportInfo']('Shelf_Enter_Reader') && this['reportClientBusiness']({'itemName': _0x25c8('0x16d')}, 'Shelf_Enter_Reader'), this['haveReportInfo']('Search_HotBook_Reader') && this['reportClientBusiness']({'itemName': _0x25c8('0x197')}, 'Search_HotBook_Reader'), this['haveReportInfo']('SearchResult_Click_BookId') && this['reportClientBusiness']({
-                                    'itemName': 'Web_Search_BookId_Clk',
-                                    'value': this['bookId']
-                                }, 'SearchResult_Click_BookId'), this[_0x25c8('0x3eb')]('SearchResult_Click_BookName') && (this['reportClientBusiness']({'itemName': _0x25c8('0x30b')}, 'SearchResult_Click_BookName'), this['reportClientBusiness']({'itemName': 'Web_Search_ResultClk_Name'})), this['haveReportInfo']('SearchResult_Click_Content') && (this['reportClientBusiness']({'itemName': 'Web_Search_ResultClk'}, 'SearchResult_Click_Content'), this[_0x25c8('0x18d')]({'itemName': 'Web_Search_ResultClk_Content'}));
-                                var _0x92b9c9 = this['haveReportInfo']('CategoryBook_Enter_Reader');
-                                if ((_0x92b9c9 || _0x92b9c9 && _0x92b9c9[_0x25c8('0xd6')]) && (this[_0x25c8('0x18d')]({'itemName': _0x25c8('0x437')}, 'CategoryBook_Enter_Reader'), _0x92b9c9[_0x25c8('0xd6')] && this['reportClientBusiness']({
-                                    'itemName': _0x25c8('0x8'),
-                                    'value': (0x0, _0x10d271['default'])({'type': _0x92b9c9['categoryId']})
-                                })), this['haveReportInfo']('Index_Book_All') ? this['reportClientBusiness']({'itemName': 'Web_Home_Top200_Clk'}, 'Index_Book_All') : this['haveReportInfo']('Index_Book_Novel') ? this[_0x25c8('0x18d')]({'itemName': _0x25c8('0x102')}, 'Index_Book_Novel') : this['haveReportInfo']('Index_Book_New') ? this['reportClientBusiness']({'itemName': 'Web_Home_TopNew_Clk'}, _0x25c8('0x224')) : this['haveReportInfo']('Index_Book_Rise') && this[_0x25c8('0x18d')]({'itemName': 'Web_Home_TopRise_Clk'}, _0x25c8('0x4b8')), (this['hasLogin'] || this['isSoldOut']) && this['isInShelf'] || this['reportClientBusiness']({'itemName': 'Web_Reader_TopAddExp'}), this['isPhone'] && this['reportClientBusiness']({'itemName': 'Web_Phone_Reader_DownloadExp'}), this['isWeiXin'] && this[_0x25c8('0x2d4')]) {
-                                    var _0x3ed676 = this['$router'][_0x25c8('0x1ec')]['query'],
-                                        _0x5e6236 = _0x3ed676['wtype'] && 'shareOneGetOne' === _0x3ed676['wtype'],
-                                        _0x532906 = _0x3ed676['wtype'] && 'shareOneGetOne2' === _0x3ed676['wtype'],
-                                        _0x142400 = _0x3ed676['wtype'] && 'giveOneGetOneNewYear' === _0x3ed676['wtype'],
-                                        _0x339f47 = _0x3ed676['wtype'] && 'flipCardGame' === _0x3ed676['wtype'],
-                                        _0x5db947 = _0x3ed676['wvid'] && 'app' === _0x3ed676['wfrom'],
-                                        _0x504d2d = _0x3ed676['wfrom'] && 'status' === _0x3ed676['wfrom'],
-                                        _0x21be14 = _0x3ed676['inviteCode'],
-                                        _0x19996b = _0x3ed676['wtype'] && 'mpArticle' === _0x3ed676[_0x25c8('0x2ad')],
-                                        _0x387ea9 = _0x3ed676['wtype'] && 'thirdpart' === _0x3ed676['wtype'],
-                                        _0x10e8a0 = _0x3ed676['wtype'] && 'topStories' === _0x3ed676['wtype'],
-                                        _0x20e475 = _0x3ed676[_0x25c8('0x1e3')] && _0x25c8('0x92') === _0x3ed676['wfrom'];
-                                    if ((_0x5e6236 || _0x532906 || _0x339f47 || _0x5db947 || _0x142400 || _0x21be14 || _0x19996b || _0x387ea9) && this['reportClientGlobal']({'itemName': 'Web_Enter_Activity'}), _0x5e6236) {
-                                        this[_0x25c8('0x18d')]({'itemName': 'Web_ShareOneGetOne_Enter_Reader'}), this['reportClientAppSharePage']({'itemName': _0x25c8('0x482')}), this['reportClientAppSharePage']({'itemName': 'page|Web_ShareOneGetOne_Enter_Reader|h5'});
-                                        var _0x1cdb00 = _0x3ed676['senderVid'], _0x88fce4 = _0x3ed676[_0x25c8('0xe7')];
-                                        if (!_0x1cdb00 || !_0x88fce4) return;
-                                        var _0x4e8fde = _0x88fce4['split']('_')[0x0];
-                                        _0x4e8fde && (this['reportClientAppSharePage']({'itemName': 'page|Web_ShareOneGetOne_Enter_Reader_' + _0x4e8fde}), this[_0x25c8('0x348')]({'itemName': 'page|Web_ShareOneGetOne_Enter_Reader_' + _0x4e8fde + _0x25c8('0x175')})), _0x5957c5['default']['post']('https://weread.qq.com/share-one-get-one/redeem', {
-                                            'bookId': this['bookId'],
-                                            'campaignId': _0x88fce4,
-                                            'senderVid': _0x1cdb00
-                                        })['then'](function (_0x32ff67) {
-                                            var _0x428593 = _0x5b60e9['get'](_0x32ff67, 'data.succ', 0x0);
-                                            console['log']('[shareOneGetOne]\x20succ\x20=\x20' + _0x428593);
-                                        })[_0x25c8('0x380')](function (_0x3d8ce9) {
-                                            console['log'](_0x25c8('0x18f') + _0x3d8ce9);
-                                        });
-                                    } else if (_0x532906) {
-                                        this['reportClientBusiness']({'itemName': 'Web_ShareOneGetOne2_Enter_Reader'}), this[_0x25c8('0x348')]({'itemName': _0x25c8('0x2f0')}), this['reportClientAppSharePage']({'itemName': 'page|Web_ShareOneGetOne2_Enter_Reader|h5'});
-                                        var _0x2edd46 = this[_0x25c8('0x55')](), _0x507713 = _0x25c8('0x135'),
-                                            _0x418d97 = _0x3ed676[_0x25c8('0x2a7')], _0x29269c = _0x3ed676['senderVid'],
-                                            _0x435b45 = _0x3ed676['type'], _0x31aee6 = _0x3ed676[_0x25c8('0x1e2')],
-                                            _0x2e33fb = _0x3ed676['timestamp'], _0x2e089a = _0x3ed676['sn'],
-                                            _0x139019 = _0x3ed676['vol'], _0x5d2ac0 = {
-                                                'bookId': this['bookId'],
-                                                'campaignType': _0x3ed676['wtype'],
-                                                'senderVid': parseInt(_0x29269c),
-                                                'type': parseInt(_0x435b45),
-                                                'vol': _0x139019,
-                                                'authorVid': parseInt(_0x418d97),
-                                                'timestamp': parseInt(_0x2e33fb),
-                                                'scene': _0x31aee6,
-                                                'sn': _0x2e089a
-                                            };
-                                        if (_0x2edd46['reportExp']((0x0, _0xd54fca['default'])({'source': _0x507713}, _0x5d2ac0)), this[_0x25c8('0x101')]('FETCH_SHARE_ONE_GET_ONE_2\x20query\x20=', _0x3ed676), parseInt(_0x29269c) === parseInt(this['user']['vid'])) return this['logInfo']('FETCH_SHARE_ONE_GET_ONE_2\x20same\x20vid\x20=', _0x3ed676), void _0x2edd46['reportInfo']({
-                                            'source': _0x507713,
-                                            'message': '本人打开，不触发赠书'
-                                        });
-                                        if (!_0x139019) return void _0x2edd46[_0x25c8('0x1b6')]({
-                                            'source': _0x507713,
-                                            'message': '缺少期数'
-                                        });
-                                        if (void 0x0 === _0x435b45) return void _0x2edd46['reportError']({
-                                            'source': _0x507713,
-                                            'message': '缺少类型参数'
-                                        });
-                                        if (!_0x2e33fb || !_0x31aee6 || !_0x2e089a) return void _0x2edd46['reportError']({
-                                            'source': _0x507713,
-                                            'message': _0x25c8('0x14d')
-                                        });
-                                        var _0x4f3cbf = {
-                                            'type': _0x435b45,
-                                            'scene': _0x31aee6,
-                                            'senderVid': _0x29269c,
-                                            'timestamp': _0x2e33fb,
-                                            'sn': _0x2e089a,
-                                            'vol': _0x139019,
-                                            'bookId': this['bookId']
-                                        };
-                                        _0x418d97 && (_0x4f3cbf['authorVid'] = _0x418d97), this['$store']['dispatch'](_0x40127e['FETCH_SHARE_ONE_GET_ONE_2'], _0x4f3cbf)['then'](function (_0xb27047) {
-                                            _0x241add['logInfo']('FETCH_SHARE_ONE_GET_ONE_2\x20res\x20=', _0xb27047), _0xb27047['errCode'] ? -0xa5d === parseInt(_0xb27047['errCode']) ? (_0x241add['$toast']('本周你已帮其他用户解锁过该福利'), _0x2edd46['reportInfo']({
-                                                'source': _0x507713,
-                                                'message': '本周你已帮其他用户解锁过该福利',
-                                                'errorCode': _0xb27047['errCode']
-                                            })) : -0xa60 === parseInt(_0xb27047[_0x25c8('0x23')]) ? _0x2edd46['reportInfo']({
-                                                'source': _0x507713,
-                                                'message': '活动已过期',
-                                                'errorCode': _0xb27047['errCode']
-                                            }) : _0x2edd46['reportError']({
-                                                'source': _0x507713,
-                                                'message': _0x25c8('0x39e'),
-                                                'errorCode': _0xb27047['errCode']
-                                            }) : _0x2edd46['reportSuccess']({'source': _0x507713});
-                                        });
-                                    } else if (_0x142400) this['reportClientBusiness']({'itemName': _0x25c8('0x396')}), this['reportClientAppSharePage']({'itemName': 'page|Web_giveOneGetOneNewYear_Enter_Reader'}), this['reportClientAppSharePage']({'itemName': 'page|Web_giveOneGetOneNewYear_Enter_Reader|h5'}); else if (_0x5db947) this[_0x25c8('0x348')]({'itemName': 'page|Web_AppShare_Enter_Reader'}), this['reportClientAppSharePage']({'itemName': 'page|Web_AppShare_Enter_Reader|h5'}), this['reportClientBusiness']({'itemName': 'Web_AppShare_Enter_Reader'}), this['reportClientBusiness']({
-                                        'itemName': 'Web_AppShare_Enter_ReaderSelf',
-                                        'vid': _0x3ed676[_0x25c8('0x120')]
-                                    }); else if (_0x21be14) this['reportClientBusiness']({'itemName': 'Web_InviteCode_Enter_Reader'}), this['reportClientAppSharePage']({'itemName': _0x25c8('0x48b')}), this['reportClientAppSharePage']({'itemName': 'page|Web_InviteCode_Enter_Reader|h5'}); else if (_0x19996b) this[_0x25c8('0x18d')]({'itemName': 'Web_MpArticle_Enter_Reader'}), this['reportClientAppSharePage']({'itemName': 'page|Web_MpArticle_Enter_Reader'}), this['reportClientAppSharePage']({'itemName': 'page|Web_MpArticle_Enter_Reader|h5'}); else if (_0x387ea9) this[_0x25c8('0x18d')]({'itemName': _0x25c8('0x8e')}), this['reportClientBusiness']({'itemName': _0x25c8('0x486') + this[_0x25c8('0xd3')]}), this['reportClientAppSharePage']({'itemName': 'page|Web_ThirdPart_Enter_Reader'}), this['reportClientAppSharePage']({'itemName': _0x25c8('0x1ba') + this['bookId']}), this['reportClientAppSharePage']({'itemName': 'page|Web_ThirdPart_Enter_Reader|h5'}), this['reportClientAppSharePage']({'itemName': 'page|Web_ThirdPart_Enter_Reader_' + this['bookId'] + _0x25c8('0x175')}); else if (_0x339f47) {
-                                        this['reportClientBusiness']({'itemName': 'Web_FlipCardGame_Enter_Reader'}), this[_0x25c8('0x348')]({'itemName': 'page|Web_FlipCardGame_Enter_Reader'}), this['reportClientAppSharePage']({'itemName': 'page|Web_FlipCardGame_Enter_Reader|h5'});
-                                        var _0x1e43d6 = _0x3ed676[_0x25c8('0x478')];
-                                        if (parseInt(_0x1e43d6) === parseInt(this['user']['vid'])) return void this['logInfo']('FETCH_FLIP_CARD_GAME\x20same\x20vid\x20=', _0x1e43d6);
-                                        this['$store']['dispatch'](_0x40127e['FETCH_FLIP_CARD_GAME'], {'senderVid': _0x1e43d6});
-                                    } else _0x504d2d ? _0x6db688['wrReport'][_0x25c8('0xa0')]({
-                                        'itemName': _0x25c8('0x196'),
-                                        'vid': this['user']['vid'],
-                                        'extra': {'vid': this['user']['vid'] || 0x0, 'bookId': this[_0x25c8('0xd3')]}
-                                    }) : _0x10e8a0 ? _0x6db688[_0x25c8('0x400')]['baseCHReport']({
-                                        'itemName': 'wrweb_reader_topStories_show',
-                                        'vid': this['user'][_0x25c8('0x188')],
-                                        'extra': {'vid': this[_0x25c8('0x35e')]['vid'] || 0x0, 'bookId': this['bookId']}
-                                    }) : _0x20e475 && (console['log'](_0x25c8('0x2e0')), _0x6db688['wrReport']['baseCHReport']({
-                                        'itemName': _0x25c8('0x124'),
-                                        'vid': this['user'][_0x25c8('0x188')],
-                                        'extra': {'vid': this['user']['vid'] || 0x0, 'bookId': this[_0x25c8('0xd3')]}
-                                    }), _0x6db688['wrReport']['baseCHReport']({
-                                        'itemName': 'wrweb_reader_WeChatSearch',
-                                        'vid': this[_0x25c8('0x35e')]['vid'],
-                                        'extra': {
-                                            'vid': this[_0x25c8('0x35e')]['vid'] || 0x0,
-                                            'bookId': this[_0x25c8('0xd3')]
-                                        }
-                                    }), _0x6db688['wrReport']['baseCHReport']({
-                                        'itemName': 'wrweb_reader_WeChatSearch_gray_' + ((this[_0x25c8('0x35e')][_0x25c8('0x188')] || 0x0) % 0x2 == 0x1),
-                                        'vid': this['user']['vid'],
-                                        'extra': {'vid': this['user']['vid'] || 0x0, 'bookId': this['bookId']}
-                                    }));
-                                }
-                                this['logOnReadPublishBook']();
-                            }
-                        },
-                        'reportShareOneGetOneLog': function () {
-                            var _0x4413e3 = this;
-                            return {
-                                'reportExp': function (_0x62e6a9) {
-                                    _0x4413e3['reportShareOneGetOne']({
-                                        'itemName': 'shareGift_exp',
-                                        'vid': _0x4413e3['user']['vid'],
-                                        'extra': _0x62e6a9
-                                    });
-                                }, 'reportInfo': function (_0x1c14a9) {
-                                    _0x4413e3['reportShareOneGetOne']({
-                                        'itemName': 'shareGift_info',
-                                        'vid': _0x4413e3[_0x25c8('0x35e')]['vid'],
-                                        'extra': _0x1c14a9
-                                    });
-                                }, 'reportError': function (_0x76eb9) {
-                                    _0x4413e3['reportShareOneGetOne']({
-                                        'itemName': 'shareGift_error',
-                                        'vid': _0x4413e3['user']['vid'],
-                                        'extra': _0x76eb9
-                                    });
-                                }, 'reportSuccess': function (_0x3ab73b) {
-                                    _0x4413e3['reportShareOneGetOne']({
-                                        'itemName': 'shareGift_success',
-                                        'vid': _0x4413e3['user']['vid'],
-                                        'extra': _0x3ab73b
-                                    });
-                                }
-                            };
-                        },
-                        'autoSearchOnClientMounted': function () {
-                            var _0x3e1cf7 = _0x1325ea[_0x25c8('0x3a0')]['getSessionStorage'](_0x1057f6[_0x25c8('0x3cb')]);
-                            if (_0x3e1cf7) {
-                                var _0x5f233a = JSON['parse'](_0x3e1cf7);
-                                _0x5f233a['keyword'] && (this['$store']['dispatch'](_0x40127e['FETCH_READER_SEARCH_AUTO'], {'keyword': _0x5f233a['keyword']}), this['$refs']['readerCatalog'] && this['$refs']['readerCatalog']['setSearchKeyword'](_0x5f233a['keyword'])), _0x1325ea[_0x25c8('0x3a0')][_0x25c8('0x40b')](_0x1057f6['KEY_READER_AUTO_SEARCH']);
-                            }
-                        },
-                        'setupProgressReportOnDomReady': function () {
-                            if (this['needReportReadingProgress'] && !_0x1fd388) {
-                                _0x1fd388 = !0x0;
-                                var _0xc69627 = this;
-                                this['reportEnterReading'](), this['$store']['commit'](_0x2c9cb7['UPDATE_READER_START_READING_TIME']), this['startReportTimer']();
-                                var _0x56c5e3 = _0x3088eb(0x5a8)['ifvisible'],
-                                    _0x423fd7 = this[_0x25c8('0x28f')]['query']['debugIdleTime'] || 0x78,
-                                    _0x411264 = _0x3f7cfe['inDevelopment']() ? _0x423fd7 : 0x78;
-                                _0x56c5e3['setIdleDuration'](_0x411264), _0x56c5e3['on'](_0x25c8('0x6f'), function (_0xce102a) {
-                                    switch (_0xce102a['status']) {
-                                        case'hidden':
-                                            _0xc69627['$store'][_0x25c8('0x3cc')](_0x40127e['READER_MARK_PAUSE']), _0xc69627['clearReportTimer']();
-                                            break;
-                                        case'idle':
-                                            _0x3f7cfe['inDevelopment']() && (_0xc69627['$toast']('DEBUG:\x20page\x20idle'), _0xc69627['$route'][_0x25c8('0x1b5')]['debugIdleClearCookie'] && (_0xc69627['$toast'](_0x25c8('0xaa')), _0xb1ee0a['default']['set']('wr_skey', null, {'expires': -0x1}))), _0xc69627['$store']['dispatch'](_0x40127e['READER_MARK_PAUSE']), _0xc69627['clearReportTimer']();
-                                            break;
-                                        case'active':
-                                            _0x3f7cfe['inDevelopment']() && _0xc69627['$toast']('DEBUG:\x20page\x20active'), _0x2726bd['default']['all']([_0xc69627['$store']['dispatch'](_0x40127e['READER_MARK_ACTIVE']), _0xc69627['checkIfSyncReadingProgress']()])['then'](function (_0x35ace4) {
-                                                var _0x3f9a70 = _0x35ace4[0x0], _0x5271af = _0x35ace4[0x1];
-                                                if (_0x5271af || (_0xc69627[_0x25c8('0x471')]['dispatch'](_0x40127e['RELOAD_READER_CHAPTER_INFOS'], {'isLogin': _0xc69627[_0x25c8('0x2d4')]}), _0xc69627['$store']['dispatch'](_0x40127e[_0x25c8('0x195')], {'isLogin': _0xc69627['hasLogin']})), _0x3f9a70 && !_0x5271af) return _0xc69627[_0x25c8('0x471')]['dispatch'](_0x40127e['FETCH_READER_BOOK_READ'], {
-                                                    'vid': _0x5b60e9['get'](_0xc69627, 'user.vid', 0x0),
-                                                    'retryCount': 0x1,
-                                                    'progressData': _0xc69627[_0x25c8('0x3d5')]()
-                                                });
-                                            }), _0xc69627[_0x25c8('0x18')]();
-                                    }
-                                });
-                            }
-                        },
-                        'handleLoginPendingActions': function () {
-                            if (_0x3f7cfe['isEnvClient']) {
-                                var _0x2c153d = _0x1325ea['default']['getSessionStorage'](_0x1057f6['KEY_READER_LOGIN_PENDING_ACTION']);
-                                if (_0x2c153d) if (_0x1325ea['default']['setSessionStorage'](_0x1057f6['KEY_READER_LOGIN_PENDING_ACTION']), this['hasLogin']) if (0x1 === _0x5b60e9['get'](JSON['parse'](_0x2c153d), _0x25c8('0x27f'), 0x0)) if (this['isNeedPayWithoutMemberCard']) if (!this['isNeedPay'] && this['isNeedPayWithoutMemberCard']) ; else if (this['hasMemberCard']) ; else {
-                                    if (this['isBlackUser'] && 0x2 === _0x5b60e9['get'](this[_0x25c8('0xc6')], 'ispub')) ; else {
-                                        if (this['canReceiveMemberCard']) return this['receiveMemberCard']();
-                                        this['$toast'](_0x25c8('0x2e6'));
-                                    }
-                                } else ;
-                            }
-                        },
-                        'requestMemberCardPriceIfNeeded': function () {
-                            var _0x3cc218 = this;
-                            this['isShowBuyMemberCardButton'] && !this['hasFetchMemberCardPrice'] && (0x0, _0x10c70a['default'])('/web/pay/memberprice', {
-                                'vid': _0x5b60e9['get'](this['user'], 'vid'),
-                                'pf': _0x5b60e9['get'](this['user'], 'pf', 0x0)
-                            }, function (_0x17a604) {
-                                _0x3cc218['hasFetchMemberCardPrice'] = !0x0;
-                                var _0x40aaa6 = _0x17a604[_0x25c8('0x1b9')],
-                                    _0x4bdff6 = _0x5b60e9['get'](_0x40aaa6, 'promoPrice', 0x0),
-                                    _0x5eefc2 = _0x5b60e9[_0x25c8('0x4e')](_0x40aaa6, 'promoLabel', '');
-                                if (_0x4bdff6 > 0x0 && _0x5eefc2['length'] > 0x0) _0x3cc218['buyMemberCardButtonLine1'] = '会员卡\x20' + _0x5eefc2 + Math['round'](_0x4bdff6) / 0x64 + '元\x20·\x20百万好书免费读'; else if (_0x5b60e9['get'](_0x40aaa6, _0x25c8('0xee'), 0x0) > 0x0) {
-                                    var _0x56565a = _0x5b60e9['get'](_0x40aaa6, 'price', 0x0);
-                                    _0x3cc218[_0x25c8('0x123')] = '会员卡\x20' + Math['round'](_0x56565a) / 0x64 + '元/月\x20·\x20百万好书免费读';
-                                } else _0x3cc218['buyMemberCardButtonLine1'] = '会员卡\x2019元/月\x20·\x20百万好书免费读';
-                            }, function () {
-                            });
-                        },
-                        'handleSessionTimeout': function () {
-                            this['isWeiXin'] || this['$toast']('登录过期，请重新登录'), setTimeout(function () {
-                                window['location']['reload']();
-                            }, 0xbb8);
-                        },
-                        'getScrollLeft': function () {
-                            return window && window['pageXOffset'] ? window['pageXOffset'] : document && document['documentElement'] && document[_0x25c8('0x3f6')][_0x25c8('0x1ab')] ? document['documentElement'][_0x25c8('0x1ab')] : document && document['body'] && document['body'][_0x25c8('0x1ab')] ? document['body'][_0x25c8('0x1ab')] : 0x0;
-                        },
-                        'getScrollTop': function () {
-                            return window && window['pageYOffset'] ? window['pageYOffset'] : document && document[_0x25c8('0x3f6')] && document['documentElement']['scrollTop'] ? document['documentElement']['scrollTop'] : document && document['body'] && document['body']['scrollTop'] ? document['body']['scrollTop'] : 0x0;
-                        },
-                        'clientXY2RenderAreaXY': function (_0xa1a128) {
-                            var _0x1e2172 = this['$refs']['renderTargetContainer'];
-                            if (_0x1e2172) {
-                                var _0x47c6fa = _0x1e2172['offsetLeft'], _0xa059b1 = _0x1e2172['offsetTop'],
-                                    _0x3f1409 = this['getScrollLeft'](), _0x13f5ce = this['getScrollTop']();
-                                return _0xa1a128['x'] = _0xa1a128['x'] - _0x47c6fa + _0x3f1409, _0xa1a128['y'] = _0xa1a128['y'] - _0xa059b1 + _0x13f5ce, _0xa1a128;
-                            }
-                            return _0xa1a128;
-                        },
-                        'findObjsWithPoints': function (_0x2e9049, _0x5011f9) {
-                            var _0x30e013, _0x47671f, _0x51c243 = _0x4cbe2d, _0x555666 = _0x51c243['length'],
-                                _0x31ec8d = [_0x2e9049, _0x5011f9]['sort'](function (_0x14367d, _0x10c1e6) {
-                                    return _0x14367d['y'] !== _0x10c1e6['y'] ? _0x14367d['y'] - _0x10c1e6['y'] : _0x14367d['x'] - _0x10c1e6['x'];
-                                }), _0x2709fa = this['binaryFindObjIndex'](_0x51c243, function (_0x3d03e2) {
-                                    return _0x3d03e2 && _0x3d03e2['rect'] && _0x31ec8d[0x0] && _0x3d03e2['rect']['bottom'] >= _0x31ec8d[0x0]['y'];
-                                });
-                            if (-0x1 !== _0x2709fa) {
-                                for (; _0x2709fa < _0x555666 && (_0x30e013 = _0x51c243[_0x2709fa], _0x47671f = void 0x0, !((_0x47671f = _0x30e013[_0x25c8('0x331')]) && _0x31ec8d[0x0] && (_0x47671f[_0x25c8('0x17')] >= _0x31ec8d[0x0]['x'] || _0x47671f['y'] >= _0x31ec8d[0x0]['y'])));) _0x2709fa++;
-                                _0x2709fa === _0x555666 && (_0x2709fa = -0x1);
-                            }
-                            var _0x50ae8c = this['binaryFindObjIndex'](_0x51c243, function (_0x523959) {
-                                return _0x523959 && _0x523959['rect'] && _0x31ec8d[0x1] && _0x523959['rect']['y'] < _0x31ec8d[0x1]['y'];
-                            }, !0x1);
-                            if (-0x1 !== _0x50ae8c) for (var _0x552308 = function (_0x3e1dc7) {
-                                var _0xb9c951 = _0x3e1dc7['rect'];
-                                return !(!_0xb9c951 || !_0x31ec8d[0x1]) && (_0xb9c951['centerX'] <= _0x31ec8d[0x1]['x'] || _0xb9c951[_0x25c8('0x2f4')] <= _0x31ec8d[0x1]['y']);
-                            }; _0x50ae8c >= 0x0 && !_0x552308(_0x51c243[_0x50ae8c]);) _0x50ae8c--;
-                            var _0x3b087d = [], _0x16275c = [];
-                            return -0x1 !== _0x2709fa && -0x1 !== _0x50ae8c && (_0x16275c = _0x2709fa <= _0x50ae8c ? [_0x2709fa, _0x50ae8c + 0x1] : [_0x50ae8c += 0x1, (_0x2709fa -= 0x1) + 0x1], _0x3b087d = _0x51c243['slice'](_0x16275c[0x0], _0x16275c[0x1])), _0x3b087d;
-                        },
-                        'getRangeFromObjs': function (_0x1fafa4) {
-                            for (var _0x1317bf = new _0x4591a5['default'](_0x1fafa4[0x0]['getOffset'](), _0x1fafa4[0x0]['getOffset']() + _0x1fafa4[0x0]['getTextLength']()), _0x48ca67 = 0x1, _0x1d6d82 = _0x1fafa4['length']; _0x48ca67 < _0x1d6d82; _0x48ca67++) {
-                                var _0x40909a = _0x1fafa4[_0x48ca67], _0x12cbec = _0x40909a['getOffset'](),
-                                    _0x544a0f = _0x40909a[_0x25c8('0x67')]();
-                                _0x1317bf['start'] > _0x12cbec && (_0x1317bf[_0x25c8('0x20e')] = _0x12cbec), _0x1317bf['end'] < _0x12cbec + _0x544a0f && (_0x1317bf['end'] = _0x12cbec + _0x544a0f);
-                            }
-                            return _0x1317bf;
-                        },
-                        'hasSelection': function () {
-                            return _0x2029bc['length'] > 0x0;
-                        },
-                        'clearSelection': function () {
-                            this['chapterContentSelectionHtml'] = '', _0x10e1ba = [], _0x2029bc = [], this['$hideSelectionToolBar']();
-                        },
-                        'onContentMouseDown': function (_0x14bc52) {
-                            if (_0x25c8('0xce') === this[_0x25c8('0x210')]) {
-                                var _0xff7615 = (_0x14bc52 = _0x14bc52 || window['event'])[_0x25c8('0x354')],
-                                    _0x1cb6b8 = _0xff7615['parentNode'];
-                                _0x3f7cfe[_0x25c8('0x191')]() && console['log'](_0x25c8('0xdc'), 'target=', _0xff7615, 'parent=', _0x1cb6b8);
-                                var _0x31789d = !0x1;
-                                if (_0xff7615 === this[_0x25c8('0x304')]['appContent'] || _0xff7615 === document['documentElement'] || _0xff7615 === document['getElementById']('routerView')) _0x31789d = !0x0; else for (var _0xf90793 = _0xff7615, _0x23232c = this[_0x25c8('0x304')][_0x25c8('0x2ac')]; _0x23232c && _0xf90793 && _0xf90793 !== document['body'];) {
-                                    if (_0x23232c && _0x23232c === _0xf90793) {
-                                        _0x31789d = !0x0;
-                                        break;
-                                    }
-                                    _0xf90793 = _0xf90793['parentNode'];
-                                }
-                                _0x31789d && (_0x35de2b = !0x0, _0x2029bc = [], _0x10e1ba = [], _0x5167c6 = this['clientXY2RenderAreaXY']({
-                                    'x': _0x14bc52['clientX'],
-                                    'y': _0x14bc52['clientY']
-                                }), _0x39b4c6 = new Date()['getTime']());
-                            }
-                        },
-                        'onContentMouseMove': function (_0x2f7233) {
-                            if ('DONE' === this['chapterContentState'] && _0x35de2b && null !== _0x5167c6) if (0x1 === (_0x2f7233 = _0x2f7233 || window['event'])['which']) {
-                                var _0x2d1d85 = this['clientXY2RenderAreaXY']({
-                                    'x': _0x2f7233[_0x25c8('0xd8')],
-                                    'y': _0x2f7233['clientY']
-                                }), _0x11b7e1 = this['findObjsWithPoints'](_0x5167c6, _0x2d1d85);
-                                if (_0x11b7e1['length'] > _0x41abb5) {
-                                    var _0x1c54f1 = !0x1;
-                                    if (_0x2029bc['length'] > 0x0 ? _0x11b7e1[0x0] === _0x2029bc[0x0] ? (_0x11b7e1 = _0x11b7e1['slice'](0x0, _0x41abb5), _0x1c54f1 = !0x0) : _0x11b7e1[_0x11b7e1['length'] - 0x1] === _0x2029bc[_0x2029bc['length'] - 0x1] && (_0x11b7e1 = _0x11b7e1['slice'](_0x11b7e1['length'] - _0x41abb5), _0x1c54f1 = !0x0) : (_0x11b7e1 = _0x11b7e1['slice'](0x0, _0x41abb5), _0x1c54f1 = !0x0), !_0x1c54f1) return;
-                                }
-                                var _0x3148a9 = this['getRectsByContentObjs'](_0x11b7e1);
-                                if (_0x3148a9['length'] > 0x0) {
-                                    var _0x197807 = '';
-                                    _0x3148a9['forEach'](function (_0x5d9fb6) {
-                                        _0x197807 += '<div\x20class=\x22wr_selection\x22\x20style=\x22' + _0x5d9fb6['toCSSPositionString']() + '\x22></div>';
-                                    }), this['chapterContentSelectionHtml'] = _0x197807;
-                                } else this[_0x25c8('0x10')] = '';
-                                _0x2029bc = _0x11b7e1, _0x10e1ba = _0x3148a9;
-                            } else _0x35de2b = !0x1;
-                        },
-                        'onContentMouseUp': function () {
-                            if (_0x25c8('0xce') === this['chapterContentState'] && (_0x35de2b = !0x1, _0x94f3db && clearTimeout(_0x94f3db), _0x367975 = !0x0, setTimeout(function () {
-                                _0x367975 = !0x1, _0x94f3db = 0x0;
-                            }, 0x1f4), _0x10e1ba['length'] > 0x0)) {
-                                for (var _0x395542 = this['getRangeFromObjs'](_0x2029bc), _0x1deaf7 = null, _0x14fa26 = this['notesListInCurrentChapter'], _0x4d2ca9 = 0x0, _0x593b80 = _0x14fa26['length']; _0x4d2ca9 < _0x593b80; _0x4d2ca9++) {
-                                    var _0x3779d4 = _0x14fa26[_0x4d2ca9];
-                                    if (_0x3779d4['noteType'] === _0x3f6897['NoteTypeBookmark'] && _0x4591a5['default'][_0x25c8('0x34')](_0x3779d4['range'], _0x395542)) {
-                                        _0x1deaf7 = _0x3779d4;
-                                        break;
-                                    }
-                                }
-                                this['showSelectionToolBar']({
-                                    'objs': _0x2029bc,
-                                    'rects': _0x10e1ba,
-                                    'existBookmark': _0x1deaf7
-                                });
-                            }
-                        },
-                        'showSelectionToolBar': function (_0x5d9318) {
-                            var _0x4be858 = this, _0xc42a7e = _0x5d9318['objs'], _0x490d81 = _0x5d9318['rects'],
-                                _0x11cea7 = _0x5d9318['existBookmark'],
-                                _0x58e569 = this['$refs']['renderTargetContainer'],
-                                _0x590deb = this['$refs']['appContent'],
-                                _0x4d7569 = window[_0x25c8('0x117')] || (document && document['documentElement'] && document[_0x25c8('0x5')] ? Math[_0x25c8('0x4ac')](document['documentElement']['clientHeight'], document['body']['clientHeight']) : 0x0),
-                                _0x58995d = this['getScrollTop'](), _0x48a1bd = _0x58e569['offsetTop'],
-                                _0x5e2083 = _0x37431f['default'][_0x25c8('0xc3')](_0x58e569, _0x590deb),
-                                _0x5e9818 = this['hasTextObjs'](_0xc42a7e);
-                            this['$showSelectionToolBar']({
-                                'vid': _0x5b60e9[_0x25c8('0x4e')](this, 'user.vid', 0x0),
-                                'parentNode': _0x58e569,
-                                'toolbarBoundsLimit': {
-                                    'left': -_0x5e2083[_0x25c8('0x292')],
-                                    'right': _0x590deb['offsetWidth'] - _0x5e2083[_0x25c8('0x292')],
-                                    'top': _0x58995d - _0x48a1bd + 0x48,
-                                    'bottom': _0x58995d - _0x48a1bd + _0x4d7569
-                                },
-                                'canCopy': _0x5e9818,
-                                'canQuery': _0x5e9818,
-                                'rects': _0x490d81,
-                                'existBookmark': _0x11cea7,
-                                'onClickToolBarItem': function (_0xf6494f) {
-                                    if (!_0x4be858['hasLogin'] && _0xf6494f && !0x0 === _0xf6494f['requireLogin']) return _0x4be858['$showLoginDialog']({
-                                        'bottomTitle': '扫码登录微信读书',
-                                        'bottomSubTitle': _0xf6494f['requireLoginText'] || ''
-                                    });
-                                    switch (_0xf6494f['type']) {
-                                        case'copy':
-                                            _0x4be858['copyObjsText'](_0xc42a7e), _0x4be858['reportClientBusiness']({'itemName': 'Web_SelectionTool_Copy'});
-                                            break;
-                                        case'underline':
-                                            _0x11cea7 ? _0x4be858[_0x25c8('0x46b')](_0x11cea7, _0xf6494f[_0x25c8('0x2fc')], _0xf6494f['color']) : _0x4be858['underlineObjs'](_0xc42a7e, _0xf6494f['styleId'], _0xf6494f['color']), _0x4be858['reportClientBusiness']({'itemName': 'Web_SelectionTool_Underline'});
-                                            break;
-                                        case'removeUnderline':
-                                            (_0x11cea7 || _0xf6494f['bookmarkId']) && _0x4be858['removeBookmark']([_0x11cea7 ? _0x11cea7['bookmarkId'] : _0xf6494f['bookmarkId']]), _0x4be858['reportClientBusiness']({'itemName': 'Web_SelectionTool_RemoveUnderline'});
-                                            break;
-                                        case'review':
-                                            _0x4be858['hideReviewDetailPanel'](), _0x4be858[_0x25c8('0x418')](_0xc42a7e), _0x4be858['reportClientBusiness']({'itemName': 'Web_SelectionTool_Review'});
-                                            break;
-                                        case'query':
-                                            _0x4be858['hideReviewDetailPanel'](), _0x4be858['dictQuery'](_0xc42a7e), _0x4be858['reportClientBusiness']({'itemName': 'Web_SelectionTool_Query'});
-                                            break;
-                                        case'changeColor':
-                                            (_0x11cea7 || _0xf6494f[_0x25c8('0x49e')]) && _0x4be858['updateBookmark'](_0x11cea7 || _0xf6494f, _0xf6494f['style'], _0xf6494f['color']), _0x4be858['reportClientBusiness']({'itemName': _0x25c8('0x3ab')});
-                                            break;
-                                        default:
-                                            _0x4be858[_0x25c8('0x49')]('功能开发中', 0x5dc);
-                                    }
-                                    'underline' !== _0xf6494f['type'] && 'changeColor' !== _0xf6494f['type'] && _0x4be858['clearSelection']();
-                                }
-                            }), this[_0x25c8('0x18d')]({'itemName': 'Web_SelectionTool_Exp'});
-                        },
-                        'underlineObjs': function (_0x1b025c, _0x43293c) {
-                            for (var _0x175953 = arguments['length'] > 0x2 && void 0x0 !== arguments[0x2] ? arguments[0x2] : 0x0, _0x46582b = this['getRangeFromObjs'](_0x1b025c), _0x544823 = this['notesListInCurrentChapter'], _0x2078f0 = [], _0x35a2f8 = 0x0, _0x306482 = _0x544823['length']; _0x35a2f8 < _0x306482; _0x35a2f8++) {
-                                var _0x56ff8f = _0x544823[_0x35a2f8];
-                                _0x56ff8f['noteType'] === _0x3f6897['NoteTypeBookmark'] && _0x4591a5['default']['isIntersection'](_0x46582b, _0x56ff8f['range']) && (_0x2078f0['push'](_0x56ff8f[_0x25c8('0x49e')]), _0x46582b = _0x4591a5['default'][_0x25c8('0x39d')](_0x46582b, _0x56ff8f[_0x25c8('0x374')]));
-                            }
-                            if (this['removeBookmark'](_0x2078f0), void 0x0 === _0x43293c) {
-                                var _0x16655d = _0x1325ea['default']['getLocalSettingOperator'](),
-                                    _0x560a25 = _0x16655d['getValueWithType'](_0x1057f6['LOCAL_SETTING_OBJ_KEYS']['UNDERLINE_STYLE'], _0x25c8('0x2f7'));
-                                _0x43293c = null === _0x560a25 ? 0x1 : _0x560a25;
-                            }
-                            this['addBookmark'](_0x46582b, _0x43293c, _0x175953);
-                        },
-                        'removeBookmark': function (_0x3145ac) {
-                            var _0x517732 = this;
-                            _0x3145ac[_0x25c8('0x28d')](function (_0x573c0b) {
-                                _0x517732['$store']['dispatch'](_0x40127e[_0x25c8('0x43e')], {'bookmarkId': _0x573c0b});
-                            });
-                        },
-                        'updateBookmark': function (_0x52c952, _0x3eb7e3) {
-                            var _0x4dabe7 = this,
-                                _0x36f344 = arguments[_0x25c8('0x178')] > 0x2 && void 0x0 !== arguments[0x2] ? arguments[0x2] : 0x0;
-                            return this['$store']['dispatch'](_0x40127e['UPDATE_BOOKMARK'], {
-                                'bookmarkId': _0x52c952[_0x25c8('0x49e')],
-                                'style': _0x3eb7e3,
-                                'colorStyle': _0x36f344
-                            })['then'](function (_0x148199) {
-                                if (0x1 === _0x148199['succ']) {
-                                    _0x4dabe7['saveLastBookmarkStyle'](_0x3eb7e3);
-                                    var _0x41a578 = _0x4dabe7['$store']['getters']['notes'][_0x25c8('0x2ec')];
-                                    if (_0x41a578 && _0x41a578['length']) {
-                                        var _0x27de79 = _0x41a578['find'](function (_0x5ab1e5) {
-                                            return _0x52c952[_0x25c8('0x49e')] === _0x5ab1e5['bookmarkId'];
-                                        });
-                                        _0x27de79 && _0x4dabe7['$updateSelectionToolBar']({'existBookmark': _0x27de79});
-                                    }
-                                }
-                            });
-                        },
-                        'addBookmark': function (_0xead84, _0x473531, _0x595698) {
-                            var _0x314c7c = this,
-                                _0x52e2ed = this['findObjsInOffsetRange'](_0x4cbe2d, _0xead84[_0x25c8('0x20e')], _0xead84['end']);
-                            return this['$store']['dispatch'](_0x40127e['ADD_BOOKMARK'], {
-                                'bookId': this['bookId'],
-                                'chapterUid': this['currentChapter']['chapterUid'],
-                                'chapterIdx': this['currentChapter']['chapterIdx'],
-                                'bookVersion': this['bookInfo']['version'],
-                                'type': 0x1,
-                                'style': _0x473531,
-                                'colorStyle': _0x595698,
-                                'range': _0xead84['toString'](),
-                                'markText': this['getTextFromObjs'](_0x52e2ed)
-                            })['then'](function (_0xf893b9) {
-                                if (0x1 === _0xf893b9[_0x25c8('0x424')]) {
-                                    if (_0x314c7c['saveLastBookmarkStyle'](_0x473531), _0xf893b9['bookmarkId']) {
-                                        var _0x4ffa6a = _0x314c7c['$store'][_0x25c8('0x221')]['notes'][_0x25c8('0x2ec')];
-                                        if (_0x4ffa6a && _0x4ffa6a['length']) {
-                                            var _0x58ee81 = _0x4ffa6a['find'](function (_0x5b7d7e) {
-                                                return _0x5b7d7e['bookmarkId'] === _0xf893b9['bookmarkId'];
-                                            });
-                                            _0x58ee81 && _0x314c7c['$updateSelectionToolBar']({'existBookmark': _0x58ee81});
-                                        }
-                                    }
-                                } else _0x314c7c['$toast']('划线失败，请重试');
-                            });
-                        },
-                        'saveLastBookmarkStyle': function (_0x3cd09b) {
-                            var _0x3df1eb = _0x1325ea['default']['getLocalSettingOperator']();
-                            _0x3df1eb['value'][_0x1057f6['LOCAL_SETTING_OBJ_KEYS']['UNDERLINE_STYLE']] = _0x3cd09b, _0x3df1eb['save']();
-                        },
-                        'hasTextObjs': function (_0x440d95) {
-                            for (var _0x477a2e = 0x0, _0x10d59c = _0x440d95['length']; _0x477a2e < _0x10d59c; _0x477a2e++) {
-                                if (_0x440d95[_0x477a2e]['isTextOrCanvasType']()) return !0x0;
-                            }
-                            return !0x1;
-                        },
-                        'canCopy': function (_0x35b772) {
-                            return this['hasTextObjs'](_0x35b772);
-                        },
-                        'canQuery': function (_0x298da2) {
-                            return this['hasTextObjs'](_0x298da2);
-                        },
-                        'copyObjsText': (_0x38d2a7 = (0x0, _0x452d12['default'])(_0x8eb370['default']['mark'](function _0x3e9ffd(_0x166eb7) {
-                            var _0x17a488, _0x125b8d;
-                            return _0x8eb370['default']['wrap'](function (_0xc76915) {
-                                for (; ;) switch (_0xc76915['prev'] = _0xc76915['next']) {
-                                    case 0x0:
-                                        if (this['canCopy'](_0x166eb7)) {
-                                            _0xc76915['next'] = 0x2;
-                                            break;
-                                        }
-                                        return _0xc76915['abrupt']('return');
-                                    case 0x2:
-                                        if (0x0 !== (_0x17a488 = this['getTextFromObjs'](_0x166eb7, {'limitLength': _0x41abb5}))[_0x25c8('0x178')]) {
-                                            _0xc76915['next'] = 0x5;
-                                            break;
-                                        }
-                                        return _0xc76915['abrupt']('return');
-                                    case 0x5:
-                                        if (!this['needSerialProcess']) {
-                                            _0xc76915[_0x25c8('0x4a5')] = 0x10;
-                                            break;
-                                        }
-                                        return _0xc76915['next'] = 0x8, this[_0x25c8('0x471')]['dispatch'](_0x40127e['FETCH_READER_SERIAL_RESTRICTION'], {'vid': this[_0x25c8('0x35e')]['vid']});
-                                    case 0x8:
-                                        if (_0x125b8d = _0xc76915['sent'], !(_0x5b60e9[_0x25c8('0x4e')](_0x125b8d, 'copyTimes', 0x0) >= 0x3)) {
-                                            _0xc76915['next'] = 0xd;
-                                            break;
-                                        }
-                                        return this['$toast'](_0x25c8('0x305')), _0xc76915['abrupt'](_0x25c8('0xfd'));
-                                    case 0xd:
-                                        if (!(_0x17a488['length'] > 0x64)) {
-                                            _0xc76915['next'] = 0x10;
-                                            break;
-                                        }
-                                        return this['$toast']('复制失败，内容过长'), _0xc76915['abrupt']('return');
-                                    case 0x10:
-                                        this['copyText'](_0x17a488) && (this['$toast']('已复制到剪贴板'), this['needSerialProcess'] && this['$store']['dispatch'](_0x40127e[_0x25c8('0x10c')], {'vid': this['user']['vid']}));
-                                    case 0x11:
-                                    case'end':
-                                        return _0xc76915['stop']();
-                                }
-                            }, _0x3e9ffd, this);
-                        })), function (_0x44f65f) {
-                            return _0x38d2a7['apply'](this, arguments);
-                        }),
-                        'getTextFromObjs': function (_0x127757) {
-                            for (var _0x2c28cb = arguments['length'] > 0x1 && void 0x0 !== arguments[0x1] ? arguments[0x1] : {}, _0x3653bf = _0x2c28cb[_0x25c8('0x3f0')] || -0x1, _0x3204bb = '', _0x3bdc4e = 0x0, _0x306d12 = _0x127757['length']; _0x3bdc4e < _0x306d12 && !(_0x3653bf > 0x0 && _0x3bdc4e >= _0x3653bf); _0x3bdc4e++) {
-                                var _0x200d8f = _0x127757[_0x3bdc4e];
-                                _0x2c28cb['filter'] && !_0x2c28cb['filter'](_0x200d8f) || (_0x3204bb += _0x200d8f['text']);
-                            }
-                            return _0x3204bb;
-                        },
-                        'copyText': function (_0x111a18) {
-                            _0x5163db = !0x0;
-                            var _0x4b5113 = document['createElement'](_0x25c8('0x30f'));
-                            _0x4b5113['setAttribute']('type', 'text'), _0x4b5113['setAttribute']('readonly', 'readonly'), _0x4b5113['setAttribute']('value', _0x111a18), document['body']['appendChild'](_0x4b5113), _0x4b5113[_0x25c8('0x2a3')]();
-                            var _0x52947b = document['execCommand']('copy');
-                            return document['body']['removeChild'](_0x4b5113), _0x5163db = !0x1, _0x52947b;
-                        },
-                        'dictQuery': function (_0x35af00) {
-                            var _0x38d319 = this, _0x4a1ed4 = this['getTextFromObjs'](_0x35af00, {
-                                'filter': function (_0x1790a5) {
-                                    return _0x1790a5['isTextOrCanvasType']();
-                                }
-                            });
-                            if (0x0 !== _0x4a1ed4['length']) {
-                                var _0x5e87dc = !0x1, _0x3c11f8 = !0x1;
-                                setTimeout(function () {
-                                    _0x5e87dc || (_0x38d319['$toast'](_0x25c8('0x435'), -0x1), _0x3c11f8 = !0x0);
-                                }, 0x3e8), this['$store']['dispatch'](_0x40127e['FETCH_DICT_QUERY'], {'word': _0x4a1ed4})['then'](function (_0x594445) {
-                                    _0x5e87dc = !0x0, _0x3c11f8 && _0x38d319['$hideToast'](), _0x38d319['$showDictQueryPanel']({
-                                        'parentNode': _0x38d319['$refs'][_0x25c8('0x3be')],
-                                        'isFetching': !0x1,
-                                        'keyword': _0x4a1ed4,
-                                        'data': _0x594445
-                                    });
-                                });
-                            }
-                        },
-                        'loadTopReviews': function () {
-                            this[_0x25c8('0x9a')] || this[_0x25c8('0x3fd')] && this['topReviewList']['length'] > 0x0 || (this['$store'][_0x25c8('0x3cc')](_0x40127e['FETCH_BOOK_REVIEW_LIST'], {
-                                'bookId': this['bookId'],
-                                'count': 0x3,
-                                'listType': _0x11f9c2['ReviewListTypeBookTop']
-                            }), this[_0x25c8('0x2d4')] && this['$store']['dispatch'](_0x40127e['FETCH_BOOK_REVIEW_LIST'], {
-                                'bookId': this['bookId'],
-                                'count': 0x3,
-                                'listType': _0x11f9c2['ReviewListTypeBookFriendTop']
-                            }));
-                        },
-                        'syncMyNote': function (_0x5b5bca) {
-                            if (this['isNeedShowMyNote'] && ('sync' === _0x5b5bca[_0x25c8('0x218')] && this['$store']['dispatch'](_0x40127e[_0x25c8('0x1')], {'bookId': this['bookId']}), 'sync' === _0x5b5bca['review'] || _0x25c8('0x291') === _0x5b5bca['review'])) {
-                                var _0x273113 = {
-                                    'bookId': this['bookId'],
-                                    'listType': _0x11f9c2['ReviewListTypeNote'],
-                                    'userVid': this['user'][_0x25c8('0x188')],
-                                    'mine': 0x1,
-                                    'count': 0x0
-                                };
-                                'append' === _0x5b5bca['review'] && (_0x273113 = _0x5b60e9['merge'](_0x273113, {
-                                    'synckey': this['notes']['reviewSynckey'],
-                                    'append': !0x0
-                                })), this['$store']['dispatch'](_0x40127e['FETCH_BOOK_REVIEW_LIST'], _0x273113);
-                            }
-                        },
-                        'changeFontSize': function (_0x4f6f8b, _0x23ff0b) {
-                            var _0xc04215 = this;
-                            if (_0x4f6f8b < 0x1 || _0x4f6f8b > 0x7) return _0x2726bd['default']['reject'](new Error('wrong\x20font\x20size\x20level'));
-                            if (_0x25c8('0xce') !== this[_0x25c8('0x210')]) return _0x2726bd['default']['resolve']('chapter\x20content\x20state\x20is\x20not\x20DONE');
-                            this['clearSelection'](), this[_0x25c8('0x42e')]();
-                            var _0x341c3f = this['computeProgressData']({
-                                'computeSummary': !0x1,
-                                'computeProgress': !0x1
-                            });
-                            return this['$store']['commit'](_0x2c9cb7[_0x25c8('0x33d')], 'PRERENDER'), this['fontSizeLevel'] = _0x4f6f8b, new _0x2726bd['default'](function (_0x51630d) {
-                                setTimeout(_0x51630d, 0x0);
-                            })[_0x25c8('0x2d0')](this['layout'])['then'](function (_0x45dd24) {
-                                _0x45dd24 && _0x45dd24['success'] && (_0x341c3f && _0xc04215[_0x25c8('0x481')]({
-                                    'chapterOffset': _0x341c3f['offset'],
-                                    'ignoreWhenScrollToTop': !0x0
-                                }), _0xc04215['saveLocalFontSizeLevel'](_0x4f6f8b), _0xc04215['reportClientBusiness']({'itemName': 'Web_Reader_FontChange'}));
-                            })['catch'](function (_0x3970ca) {
-                                _0xc04215['logError']('changeFontSize-UnexpectedError:', _0x3970ca);
-                            });
-                        },
-                        'saveLocalFontSizeLevel': function (_0x117ec1) {
-                            var _0x5c232a = _0x1325ea['default']['getLocalSettingOperator']();
-                            _0x5c232a[_0x25c8('0x299')][_0x1057f6['LOCAL_SETTING_OBJ_KEYS']['FONT_SIZE_LEVEL']] = _0x117ec1, _0x5c232a['save']();
-                        },
-                        'restoreFontSizeLevel': function () {
-                            var _0x4148ff = _0x1325ea['default']['getLocalSettingOperator']()['getValueWithType'](_0x1057f6[_0x25c8('0x233')]['FONT_SIZE_LEVEL'], _0x25c8('0x2f7'));
-                            null != _0x4148ff && _0x4148ff >= 0x1 && _0x4148ff <= 0x7 && (this['fontSizeLevel'] = _0x4148ff);
-                        },
-                        'showReviewDetailPanel': function (_0x3e157f) {
-                            var _0x372e10 = this,
-                                _0x2c663e = _0x4591a5['default']['union']['apply'](_0x4591a5['default'], (0x0, _0x2016a5[_0x25c8('0x3a0')])(_0x3e157f['map'](function (_0x303e3d) {
-                                    return _0x303e3d['range'];
-                                }))),
-                                _0x2915c6 = this['findObjsInOffsetRange'](_0x4cbe2d, _0x2c663e['start'], _0x2c663e['end']);
-                            this['highLightObjs'](_0x2915c6), this[_0x25c8('0x467')]({
-                                'parentNode': this['$refs']['appContent'],
-                                'reviewNotes': _0x3e157f,
-                                'onHide': function () {
-                                    _0x372e10['clearHighLight']();
-                                },
-                                'onClickItem': function (_0x2bd30d, _0x3f8b0d, _0xa4ed1) {
-                                    switch (_0x2bd30d) {
-                                        case'delete':
-                                            return _0x372e10['$store']['dispatch'](_0x40127e['FETCH_BOOK_REVIEW_DELETE'], {'reviewId': _0x3f8b0d[_0x25c8('0x110')]})['then'](function (_0x59da1f) {
-                                                if (_0x59da1f && _0x59da1f['data'] && 0x1 === _0x59da1f['data']['succ']) {
-                                                    if (_0x372e10[_0x25c8('0x49')]('删除成功'), _0x3e157f['length'] > 0x1) {
-                                                        for (var _0x14db37 = [], _0x18ef06 = 0x0, _0x4c2f65 = _0x3e157f['length']; _0x18ef06 < _0x4c2f65; _0x18ef06++) _0x18ef06 !== _0xa4ed1 && _0x14db37['push'](_0x3e157f[_0x18ef06]);
-                                                        _0x372e10['showReviewDetailPanel'](_0x14db37);
-                                                    } else _0x372e10['hideReviewDetailPanel'](), _0x372e10['$hideSelectionToolBar']();
-                                                    _0x372e10['syncMyNote']({'bookmark': '', 'review': 'append'});
-                                                } else _0x372e10['$toast']('删除失败，请重试');
-                                            });
-                                    }
-                                }
-                            });
-                        },
-                        'hideReviewDetailPanel': function () {
-                            this['$hideReviewDetailPanel']();
-                        },
-                        'showWriteReviewPanel': function (_0x43a0e8) {
-                            var _0x4bf61d = this;
-                            this[_0x25c8('0x2d4')] && (this['highLightObjs'](_0x43a0e8), this['$showReaderWriteReviewPanel']({
-                                'parentNode': this['$refs'][_0x25c8('0x3be')],
-                                'curUser': this['user'],
-                                'bookInfo': this['bookInfo'],
-                                'isPrivateUploadBook': this['isPrivateUploadBook'],
-                                'beforeSubmitCallback': function () {
-                                    _0x4bf61d['$toast']('发表中...', 0x57e40);
-                                },
-                                'submitCallback': function (_0x310c9e) {
-                                    var _0x240873 = _0x310c9e['content'], _0x3eea9e = _0x310c9e['isPrivate'];
-                                    _0x4bf61d['$readerWriteReviewPanel']['getIsSending']() || (_0x4bf61d[_0x25c8('0x71')]['setIsSending'](!0x0), _0x4bf61d['$readerWriteReviewPanel']['setIsSendedSucc'](!0x0), _0x4bf61d['$store']['dispatch'](_0x40127e['FETCH_BOOK_REVIEW_ADD'], {
-                                        'type': _0x81033f['ReviewTypeDiscuss'],
-                                        'bookId': _0x4bf61d[_0x25c8('0xd3')],
-                                        'chapterUid': _0x4bf61d['currentChapter'][_0x25c8('0x17a')],
-                                        'range': _0x4bf61d['getRangeFromObjs'](_0x43a0e8)['toString'](),
-                                        'content': _0x240873,
-                                        'abstract': _0x4bf61d['getTextFromObjs'](_0x43a0e8),
-                                        'isPrivate': _0x3eea9e
-                                    })['then'](function (_0x4616b1) {
-                                        var _0x92260d = _0x5b60e9['get'](_0x4616b1, 'data.reviewId', '');
-                                        _0x92260d && _0x92260d[_0x25c8('0x178')] > 0x0 ? (_0x4bf61d['$hideToast'](), _0x4bf61d[_0x25c8('0x49')]('发表成功'), _0x4bf61d['$readerWriteReviewPanel']['hide'](), _0x4bf61d['$readerWriteReviewPanel']['setIsSending'](!0x1), _0x4bf61d['syncMyNote']({
-                                            'bookmark': '',
-                                            'review': 'append'
-                                        }), _0x4bf61d['reportClientBusiness']({'itemName': _0x25c8('0x130')})) : (_0x4bf61d[_0x25c8('0xa5')](), _0x4bf61d['$toast']('发表失败，请重试'));
-                                    })['catch'](function () {
-                                        _0x4bf61d['$hideToast'](), _0x4bf61d['$toast']('发表失败，请重试'), _0x4bf61d['$readerWriteReviewPanel']['setIsSending'](!0x1);
-                                    }));
-                                },
-                                'onHide': function () {
-                                    _0x4bf61d['clearHighLight']();
-                                }
-                            }));
-                        },
-                        'handleClickLoginBtn': function () {
-                            this['$showLoginDialog']({}, function () {
-                                window['location']['reload']();
-                            });
-                        },
-                        'performanceMethodsCheck': function () {
-                            _0x25c8('0x397') != typeof performance && (_0x477859['performance'] = !0x0, performance['timing'] && (_0x477859['timing'] = !0x0), performance['mark'] && (_0x477859['mark'] = !0x0), 'undefined' != typeof MutationObserver && (_0x477859[_0x25c8('0x41a')] = !0x0));
-                        },
-                        'initWaterMask': function () {
-                            var _0x26ba30 = String(this['user']['vid']) || 0x0;
-                            _0x3088eb['e'](0x1f)['then'](_0x3088eb['t']['bind'](null, 0x6e7, 0x7))['then'](function () {
-                                'object' === (0x0, _0xc1cb[_0x25c8('0x3a0')])(window['YWQD']) && 'function' == typeof window['YWQD']['config'] ? window[_0x25c8('0x26c')]['config']({
-                                    'guid': _0x26ba30,
-                                    'domain': 'qq.com',
-                                    'water': '',
-                                    'barcode': !0x0,
-                                    'autoMix': 0x1,
-                                    'report': function (_0x4e7b7b, _0x15543e) {
-                                    },
-                                    'callback': function (_0x564a51) {
-                                    }
-                                }) : console['error'](_0x25c8('0x335'));
-                            });
-                        },
-                        'addWaterMask': function () {
-                            'object' === (0x0, _0xc1cb[_0x25c8('0x3a0')])(window['YWQD']) && _0x25c8('0x94') == typeof window['YWQD'][_0x25c8('0x3f9')] ? this[_0x25c8('0x304')]['renderTargetWatermark'] ? window['YWQD']['add'](this['$refs'][_0x25c8('0x7b')], _0x25c8('0x1c1')) : console[_0x25c8('0x2ee')]('$refs.renderTargetWatermark\x20is\x20null') : console['log']('YWQD\x20is\x20not\x20defined');
-                        },
-                        'logOnReadPublishBook': function () {
-                            try {
-                                var _0x976693 = this['reportVid'](), _0xbb7d53 = this['bookId'],
-                                    _0x3c52ad = 0x1 === this[_0x25c8('0xc6')]['ispub'],
-                                    _0x2deac6 = new _0xe0476c['default']()[_0x25c8('0x3c6')](),
-                                    _0x5a45a6 = 'iOS' === this['OS'] ? 0x1 : _0x25c8('0x1db') === this['OS'] ? 0x2 : 0x0;
-                                _0x6db688['wrReport'][_0x25c8('0xa0')]({
-                                    'itemName': 'Web_Reader_Enter_PublishBook',
-                                    'vid': _0x976693,
-                                    'pf': _0x5a45a6,
-                                    'extra': {'bookId': _0xbb7d53, 'isPub': _0x3c52ad, 'platform': _0x2deac6}
-                                });
-                            } catch (_0x27eeea) {
-                                console['error'](_0x27eeea);
-                            }
-                        },
-                        'devExportRender': function () {
-                            _0x3f7cfe['inDevelopment']() && console[_0x25c8('0x2ee')](_0x4cbe2d);
-                        },
-                        'botDetect': (_0x60e348 = (0x0, _0x452d12['default'])(_0x8eb370[_0x25c8('0x3a0')]['mark'](function _0xa8831f(_0x42dc97, _0x27a140) {
-                            var _0x1362e2, _0x554dfc, _0x416359, _0x4806bd, _0x35b4d0, _0x520fc3, _0x4e0c92;
-                            return _0x8eb370['default']['wrap'](function (_0x2eada0) {
-                                for (; ;) switch (_0x2eada0['prev'] = _0x2eada0['next']) {
-                                    case 0x0:
-                                        return _0x2eada0[_0x25c8('0x258')] = 0x0, _0x2eada0['next'] = 0x3, _0x328101['testAll']();
-                                    case 0x3:
-                                        if (!(_0x1362e2 = _0x2eada0['sent'])['length'] && !_0x42dc97) {
-                                            _0x2eada0[_0x25c8('0x4a5')] = 0x11;
-                                            break;
-                                        }
-                                        return _0x3f7cfe['inDevelopment']() && console[_0x25c8('0x2ee')]('bot\x20detected!'), _0x2eada0['next'] = 0x8, _0x328101['scanFullFingerPrint']();
-                                    case 0x8:
-                                        _0x554dfc = _0x2eada0['sent'], _0x3f7cfe['inDevelopment']() && (console['log'](_0x1362e2), console['log'](_0x554dfc)), _0x27a140 && _0x1362e2['push'](_0x27a140), _0x416359 = this[_0x25c8('0x19e')](), _0x4806bd = this['bookId'], _0x35b4d0 = 0x1 === this['bookInfo'][_0x25c8('0x1be')], _0x520fc3 = new _0xe0476c['default']()['getDeviceInfo'](), _0x4e0c92 = 'iOS' === this['OS'] ? 0x1 : 'Android' === this['OS'] ? 0x2 : 0x0, _0x6db688['wrReport']['baseCHReport']({
-                                            'itemName': 'Web_Reader_Bot_Detected',
-                                            'vid': _0x416359,
-                                            'pf': _0x4e0c92,
-                                            'extra': {
-                                                'bookId': _0x4806bd,
-                                                'fastTest': _0x1362e2,
-                                                'isPub': _0x35b4d0,
-                                                'platform': _0x520fc3,
-                                                'fingerPrint': _0x554dfc
+                            },
+                            'canCopy': function (_0x35b772) {
+                                return this['hasTextObjs'](_0x35b772);
+                            },
+                            'canQuery': function (_0x298da2) {
+                                return this['hasTextObjs'](_0x298da2);
+                            },
+                            'copyObjsText': (_0x38d2a7 = (0x0, _0x452d12['default'])(_0x8eb370['default']['mark'](function _0x3e9ffd(_0x166eb7) {
+                                var _0x17a488, _0x125b8d;
+                                return _0x8eb370['default']['wrap'](function (_0xc76915) {
+                                    for (; ;) switch (_0xc76915['prev'] = _0xc76915['next']) {
+                                        case 0x0:
+                                            if (this['canCopy'](_0x166eb7)) {
+                                                _0xc76915['next'] = 0x2;
+                                                break;
                                             }
-                                        });
-                                    case 0x11:
-                                        _0x2eada0['next'] = 0x16;
-                                        break;
-                                    case 0x13:
-                                        _0x2eada0[_0x25c8('0x258')] = 0x13, _0x2eada0['t0'] = _0x2eada0['catch'](0x0), console['error'](_0x2eada0['t0']);
-                                    case 0x16:
-                                    case'end':
-                                        return _0x2eada0['stop']();
+                                            return _0xc76915['abrupt']('return');
+                                        case 0x2:
+                                            if (0x0 !== (_0x17a488 = this['getTextFromObjs'](_0x166eb7, {'limitLength': _0x41abb5}))[_0x25c8('0x178')]) {
+                                                _0xc76915['next'] = 0x5;
+                                                break;
+                                            }
+                                            return _0xc76915['abrupt']('return');
+                                        case 0x5:
+                                            if (!this['needSerialProcess']) {
+                                                _0xc76915[_0x25c8('0x4a5')] = 0x10;
+                                                break;
+                                            }
+                                            return _0xc76915['next'] = 0x8, this[_0x25c8('0x471')]['dispatch'](_0x40127e['FETCH_READER_SERIAL_RESTRICTION'], {'vid': this[_0x25c8('0x35e')]['vid']});
+                                        case 0x8:
+                                            if (_0x125b8d = _0xc76915['sent'], !(_0x5b60e9[_0x25c8('0x4e')](_0x125b8d, 'copyTimes', 0x0) >= 0x3)) {
+                                                _0xc76915['next'] = 0xd;
+                                                break;
+                                            }
+                                            return this['$toast'](_0x25c8('0x305')), _0xc76915['abrupt'](_0x25c8('0xfd'));
+                                        case 0xd:
+                                            if (!(_0x17a488['length'] > 0x64)) {
+                                                _0xc76915['next'] = 0x10;
+                                                break;
+                                            }
+                                            return this['$toast']('复制失败，内容过长'), _0xc76915['abrupt']('return');
+                                        case 0x10:
+                                            this['copyText'](_0x17a488) && (this['$toast']('已复制到剪贴板'), this['needSerialProcess'] && this['$store']['dispatch'](_0x40127e[_0x25c8('0x10c')], {'vid': this['user']['vid']}));
+                                        case 0x11:
+                                        case'end':
+                                            return _0xc76915['stop']();
+                                    }
+                                }, _0x3e9ffd, this);
+                            })), function (_0x44f65f) {
+                                return _0x38d2a7['apply'](this, arguments);
+                            }),
+                            'getTextFromObjs': function (_0x127757) {
+                                for (var _0x2c28cb = arguments['length'] > 0x1 && void 0x0 !== arguments[0x1] ? arguments[0x1] : {}, _0x3653bf = _0x2c28cb[_0x25c8('0x3f0')] || -0x1, _0x3204bb = '', _0x3bdc4e = 0x0, _0x306d12 = _0x127757['length']; _0x3bdc4e < _0x306d12 && !(_0x3653bf > 0x0 && _0x3bdc4e >= _0x3653bf); _0x3bdc4e++) {
+                                    var _0x200d8f = _0x127757[_0x3bdc4e];
+                                    _0x2c28cb['filter'] && !_0x2c28cb['filter'](_0x200d8f) || (_0x3204bb += _0x200d8f['text']);
                                 }
-                            }, _0xa8831f, this, [[0x0, 0x13]]);
-                        })), function (_0x4f915d, _0x358b63) {
-                            return _0x60e348['apply'](this, arguments);
-                        })
-                    }),
+                                return _0x3204bb;
+                            },
+                            'copyText': function (_0x111a18) {
+                                _0x5163db = !0x0;
+                                var _0x4b5113 = document['createElement'](_0x25c8('0x30f'));
+                                _0x4b5113['setAttribute']('type', 'text'), _0x4b5113['setAttribute']('readonly', 'readonly'), _0x4b5113['setAttribute']('value', _0x111a18), document['body']['appendChild'](_0x4b5113), _0x4b5113[_0x25c8('0x2a3')]();
+                                var _0x52947b = document['execCommand']('copy');
+                                return document['body']['removeChild'](_0x4b5113), _0x5163db = !0x1, _0x52947b;
+                            },
+                            'dictQuery': function (_0x35af00) {
+                                var _0x38d319 = this, _0x4a1ed4 = this['getTextFromObjs'](_0x35af00, {
+                                    'filter': function (_0x1790a5) {
+                                        return _0x1790a5['isTextOrCanvasType']();
+                                    }
+                                });
+                                if (0x0 !== _0x4a1ed4['length']) {
+                                    var _0x5e87dc = !0x1, _0x3c11f8 = !0x1;
+                                    setTimeout(function () {
+                                        _0x5e87dc || (_0x38d319['$toast'](_0x25c8('0x435'), -0x1), _0x3c11f8 = !0x0);
+                                    }, 0x3e8), this['$store']['dispatch'](_0x40127e['FETCH_DICT_QUERY'], {'word': _0x4a1ed4})['then'](function (_0x594445) {
+                                        _0x5e87dc = !0x0, _0x3c11f8 && _0x38d319['$hideToast'](), _0x38d319['$showDictQueryPanel']({
+                                            'parentNode': _0x38d319['$refs'][_0x25c8('0x3be')],
+                                            'isFetching': !0x1,
+                                            'keyword': _0x4a1ed4,
+                                            'data': _0x594445
+                                        });
+                                    });
+                                }
+                            },
+                            'loadTopReviews': function () {
+                                this[_0x25c8('0x9a')] || this[_0x25c8('0x3fd')] && this['topReviewList']['length'] > 0x0 || (this['$store'][_0x25c8('0x3cc')](_0x40127e['FETCH_BOOK_REVIEW_LIST'], {
+                                    'bookId': this['bookId'],
+                                    'count': 0x3,
+                                    'listType': _0x11f9c2['ReviewListTypeBookTop']
+                                }), this[_0x25c8('0x2d4')] && this['$store']['dispatch'](_0x40127e['FETCH_BOOK_REVIEW_LIST'], {
+                                    'bookId': this['bookId'],
+                                    'count': 0x3,
+                                    'listType': _0x11f9c2['ReviewListTypeBookFriendTop']
+                                }));
+                            },
+                            'syncMyNote': function (_0x5b5bca) {
+                                if (this['isNeedShowMyNote'] && ('sync' === _0x5b5bca[_0x25c8('0x218')] && this['$store']['dispatch'](_0x40127e[_0x25c8('0x1')], {'bookId': this['bookId']}), 'sync' === _0x5b5bca['review'] || _0x25c8('0x291') === _0x5b5bca['review'])) {
+                                    var _0x273113 = {
+                                        'bookId': this['bookId'],
+                                        'listType': _0x11f9c2['ReviewListTypeNote'],
+                                        'userVid': this['user'][_0x25c8('0x188')],
+                                        'mine': 0x1,
+                                        'count': 0x0
+                                    };
+                                    'append' === _0x5b5bca['review'] && (_0x273113 = _0x5b60e9['merge'](_0x273113, {
+                                        'synckey': this['notes']['reviewSynckey'],
+                                        'append': !0x0
+                                    })), this['$store']['dispatch'](_0x40127e['FETCH_BOOK_REVIEW_LIST'], _0x273113);
+                                }
+                            },
+                            'changeFontSize': function (_0x4f6f8b, _0x23ff0b) {
+                                var _0xc04215 = this;
+                                if (_0x4f6f8b < 0x1 || _0x4f6f8b > 0x7) return _0x2726bd['default']['reject'](new Error('wrong\x20font\x20size\x20level'));
+                                if (_0x25c8('0xce') !== this[_0x25c8('0x210')]) return _0x2726bd['default']['resolve']('chapter\x20content\x20state\x20is\x20not\x20DONE');
+                                this['clearSelection'](), this[_0x25c8('0x42e')]();
+                                var _0x341c3f = this['computeProgressData']({
+                                    'computeSummary': !0x1,
+                                    'computeProgress': !0x1
+                                });
+                                return this['$store']['commit'](_0x2c9cb7[_0x25c8('0x33d')], 'PRERENDER'), this['fontSizeLevel'] = _0x4f6f8b, new _0x2726bd['default'](function (_0x51630d) {
+                                    setTimeout(_0x51630d, 0x0);
+                                })[_0x25c8('0x2d0')](this['layout'])['then'](function (_0x45dd24) {
+                                    _0x45dd24 && _0x45dd24['success'] && (_0x341c3f && _0xc04215[_0x25c8('0x481')]({
+                                        'chapterOffset': _0x341c3f['offset'],
+                                        'ignoreWhenScrollToTop': !0x0
+                                    }), _0xc04215['saveLocalFontSizeLevel'](_0x4f6f8b), _0xc04215['reportClientBusiness']({'itemName': 'Web_Reader_FontChange'}));
+                                })['catch'](function (_0x3970ca) {
+                                    _0xc04215['logError']('changeFontSize-UnexpectedError:', _0x3970ca);
+                                });
+                            },
+                            'saveLocalFontSizeLevel': function (_0x117ec1) {
+                                var _0x5c232a = _0x1325ea['default']['getLocalSettingOperator']();
+                                _0x5c232a[_0x25c8('0x299')][_0x1057f6['LOCAL_SETTING_OBJ_KEYS']['FONT_SIZE_LEVEL']] = _0x117ec1, _0x5c232a['save']();
+                            },
+                            'restoreFontSizeLevel': function () {
+                                var _0x4148ff = _0x1325ea['default']['getLocalSettingOperator']()['getValueWithType'](_0x1057f6[_0x25c8('0x233')]['FONT_SIZE_LEVEL'], _0x25c8('0x2f7'));
+                                null != _0x4148ff && _0x4148ff >= 0x1 && _0x4148ff <= 0x7 && (this['fontSizeLevel'] = _0x4148ff);
+                            },
+                            'showReviewDetailPanel': function (_0x3e157f) {
+                                var _0x372e10 = this,
+                                    _0x2c663e = _0x4591a5['default']['union']['apply'](_0x4591a5['default'], (0x0, _0x2016a5[_0x25c8('0x3a0')])(_0x3e157f['map'](function (_0x303e3d) {
+                                        return _0x303e3d['range'];
+                                    }))),
+                                    _0x2915c6 = this['findObjsInOffsetRange'](_0x4cbe2d, _0x2c663e['start'], _0x2c663e['end']);
+                                this['highLightObjs'](_0x2915c6), this[_0x25c8('0x467')]({
+                                    'parentNode': this['$refs']['appContent'],
+                                    'reviewNotes': _0x3e157f,
+                                    'onHide': function () {
+                                        _0x372e10['clearHighLight']();
+                                    },
+                                    'onClickItem': function (_0x2bd30d, _0x3f8b0d, _0xa4ed1) {
+                                        switch (_0x2bd30d) {
+                                            case'delete':
+                                                return _0x372e10['$store']['dispatch'](_0x40127e['FETCH_BOOK_REVIEW_DELETE'], {'reviewId': _0x3f8b0d[_0x25c8('0x110')]})['then'](function (_0x59da1f) {
+                                                    if (_0x59da1f && _0x59da1f['data'] && 0x1 === _0x59da1f['data']['succ']) {
+                                                        if (_0x372e10[_0x25c8('0x49')]('删除成功'), _0x3e157f['length'] > 0x1) {
+                                                            for (var _0x14db37 = [], _0x18ef06 = 0x0, _0x4c2f65 = _0x3e157f['length']; _0x18ef06 < _0x4c2f65; _0x18ef06++) _0x18ef06 !== _0xa4ed1 && _0x14db37['push'](_0x3e157f[_0x18ef06]);
+                                                            _0x372e10['showReviewDetailPanel'](_0x14db37);
+                                                        } else _0x372e10['hideReviewDetailPanel'](), _0x372e10['$hideSelectionToolBar']();
+                                                        _0x372e10['syncMyNote']({'bookmark': '', 'review': 'append'});
+                                                    } else _0x372e10['$toast']('删除失败，请重试');
+                                                });
+                                        }
+                                    }
+                                });
+                            },
+                            'hideReviewDetailPanel': function () {
+                                this['$hideReviewDetailPanel']();
+                            },
+                            'showWriteReviewPanel': function (_0x43a0e8) {
+                                var _0x4bf61d = this;
+                                this[_0x25c8('0x2d4')] && (this['highLightObjs'](_0x43a0e8), this['$showReaderWriteReviewPanel']({
+                                    'parentNode': this['$refs'][_0x25c8('0x3be')],
+                                    'curUser': this['user'],
+                                    'bookInfo': this['bookInfo'],
+                                    'isPrivateUploadBook': this['isPrivateUploadBook'],
+                                    'beforeSubmitCallback': function () {
+                                        _0x4bf61d['$toast']('发表中...', 0x57e40);
+                                    },
+                                    'submitCallback': function (_0x310c9e) {
+                                        var _0x240873 = _0x310c9e['content'], _0x3eea9e = _0x310c9e['isPrivate'];
+                                        _0x4bf61d['$readerWriteReviewPanel']['getIsSending']() || (_0x4bf61d[_0x25c8('0x71')]['setIsSending'](!0x0), _0x4bf61d['$readerWriteReviewPanel']['setIsSendedSucc'](!0x0), _0x4bf61d['$store']['dispatch'](_0x40127e['FETCH_BOOK_REVIEW_ADD'], {
+                                            'type': _0x81033f['ReviewTypeDiscuss'],
+                                            'bookId': _0x4bf61d[_0x25c8('0xd3')],
+                                            'chapterUid': _0x4bf61d['currentChapter'][_0x25c8('0x17a')],
+                                            'range': _0x4bf61d['getRangeFromObjs'](_0x43a0e8)['toString'](),
+                                            'content': _0x240873,
+                                            'abstract': _0x4bf61d['getTextFromObjs'](_0x43a0e8),
+                                            'isPrivate': _0x3eea9e
+                                        })['then'](function (_0x4616b1) {
+                                            var _0x92260d = _0x5b60e9['get'](_0x4616b1, 'data.reviewId', '');
+                                            _0x92260d && _0x92260d[_0x25c8('0x178')] > 0x0 ? (_0x4bf61d['$hideToast'](), _0x4bf61d[_0x25c8('0x49')]('发表成功'), _0x4bf61d['$readerWriteReviewPanel']['hide'](), _0x4bf61d['$readerWriteReviewPanel']['setIsSending'](!0x1), _0x4bf61d['syncMyNote']({
+                                                'bookmark': '',
+                                                'review': 'append'
+                                            }), _0x4bf61d['reportClientBusiness']({'itemName': _0x25c8('0x130')})) : (_0x4bf61d[_0x25c8('0xa5')](), _0x4bf61d['$toast']('发表失败，请重试'));
+                                        })['catch'](function () {
+                                            _0x4bf61d['$hideToast'](), _0x4bf61d['$toast']('发表失败，请重试'), _0x4bf61d['$readerWriteReviewPanel']['setIsSending'](!0x1);
+                                        }));
+                                    },
+                                    'onHide': function () {
+                                        _0x4bf61d['clearHighLight']();
+                                    }
+                                }));
+                            },
+                            'handleClickLoginBtn': function () {
+                                this['$showLoginDialog']({}, function () {
+                                    window['location']['reload']();
+                                });
+                            },
+                            'performanceMethodsCheck': function () {
+                                _0x25c8('0x397') != typeof performance && (_0x477859['performance'] = !0x0, performance['timing'] && (_0x477859['timing'] = !0x0), performance['mark'] && (_0x477859['mark'] = !0x0), 'undefined' != typeof MutationObserver && (_0x477859[_0x25c8('0x41a')] = !0x0));
+                            },
+                            'initWaterMask': function () {
+                                var _0x26ba30 = String(this['user']['vid']) || 0x0;
+                                require['e'](0x1f)['then'](require['t']['bind'](null, 0x6e7, 0x7))['then'](function () {
+                                    'object' === (0x0, _0xc1cb[_0x25c8('0x3a0')])(window['YWQD']) && 'function' == typeof window['YWQD']['config'] ? window[_0x25c8('0x26c')]['config']({
+                                        'guid': _0x26ba30,
+                                        'domain': 'qq.com',
+                                        'water': '',
+                                        'barcode': !0x0,
+                                        'autoMix': 0x1,
+                                        'report': function (_0x4e7b7b, _0x15543e) {
+                                        },
+                                        'callback': function (_0x564a51) {
+                                        }
+                                    }) : console['error'](_0x25c8('0x335'));
+                                });
+                            },
+                            'addWaterMask': function () {
+                                'object' === (0x0, _0xc1cb[_0x25c8('0x3a0')])(window['YWQD']) && _0x25c8('0x94') == typeof window['YWQD'][_0x25c8('0x3f9')] ? this[_0x25c8('0x304')]['renderTargetWatermark'] ? window['YWQD']['add'](this['$refs'][_0x25c8('0x7b')], _0x25c8('0x1c1')) : console[_0x25c8('0x2ee')]('$refs.renderTargetWatermark\x20is\x20null') : console['log']('YWQD\x20is\x20not\x20defined');
+                            },
+                            'logOnReadPublishBook': function () {
+                                try {
+                                    var _0x976693 = this['reportVid'](), _0xbb7d53 = this['bookId'],
+                                        _0x3c52ad = 0x1 === this[_0x25c8('0xc6')]['ispub'],
+                                        _0x2deac6 = new _0xe0476c['default']()[_0x25c8('0x3c6')](),
+                                        _0x5a45a6 = 'iOS' === this['OS'] ? 0x1 : _0x25c8('0x1db') === this['OS'] ? 0x2 : 0x0;
+                                    _0x6db688['wrReport'][_0x25c8('0xa0')]({
+                                        'itemName': 'Web_Reader_Enter_PublishBook',
+                                        'vid': _0x976693,
+                                        'pf': _0x5a45a6,
+                                        'extra': {'bookId': _0xbb7d53, 'isPub': _0x3c52ad, 'platform': _0x2deac6}
+                                    });
+                                } catch (_0x27eeea) {
+                                    console['error'](_0x27eeea);
+                                }
+                            },
+                            'devExportRender': function () {
+                                _0x3f7cfe['inDevelopment']() && console[_0x25c8('0x2ee')](_0x4cbe2d);
+                            },
+                            'botDetect': (_0x60e348 = _0x452d12.default(_0x8eb370.default.mark(function _0xa8831f(_0x42dc97, _0x27a140) {
+                                var _0x1362e2, _0x554dfc, _0x416359, _0x4806bd, _0x35b4d0, _0x520fc3, _0x4e0c92;
+                                return _0x8eb370.default.wrap(function (_0x2eada0) {
+                                    for (; ;) switch (_0x2eada0['prev'] = _0x2eada0['next']) {
+                                        case 0x0:
+                                            _0x2eada0.prev = 0x0
+                                            _0x2eada0.next = 0x3
+                                            return _0x328101.testAll()
+                                        case 0x3:
+                                            if (!(_0x1362e2 = _0x2eada0.sent).length && !_0x42dc97) {
+                                                _0x2eada0[_0x25c8('0x4a5')] = 0x11;
+                                                break;
+                                            }
+                                            return _0x3f7cfe['inDevelopment']() && console[_0x25c8('0x2ee')]('bot\x20detected!'), _0x2eada0['next'] = 0x8, _0x328101['scanFullFingerPrint']();
+                                        case 0x8:
+                                            _0x554dfc = _0x2eada0['sent'], _0x3f7cfe['inDevelopment']() && (console['log'](_0x1362e2), console['log'](_0x554dfc)), _0x27a140 && _0x1362e2['push'](_0x27a140), _0x416359 = this[_0x25c8('0x19e')](), _0x4806bd = this['bookId'], _0x35b4d0 = 0x1 === this['bookInfo'][_0x25c8('0x1be')], _0x520fc3 = new _0xe0476c['default']()['getDeviceInfo'](), _0x4e0c92 = 'iOS' === this['OS'] ? 0x1 : 'Android' === this['OS'] ? 0x2 : 0x0, _0x6db688['wrReport']['baseCHReport']({
+                                                'itemName': 'Web_Reader_Bot_Detected',
+                                                'vid': _0x416359,
+                                                'pf': _0x4e0c92,
+                                                'extra': {
+                                                    'bookId': _0x4806bd,
+                                                    'fastTest': _0x1362e2,
+                                                    'isPub': _0x35b4d0,
+                                                    'platform': _0x520fc3,
+                                                    'fingerPrint': _0x554dfc
+                                                }
+                                            });
+                                        case 0x11:
+                                            _0x2eada0['next'] = 0x16;
+                                            break;
+                                        case 0x13:
+                                            _0x2eada0[_0x25c8('0x258')] = 0x13, _0x2eada0['t0'] = _0x2eada0['catch'](0x0), console['error'](_0x2eada0['t0']);
+                                        case 0x16:
+                                        case'end':
+                                            return _0x2eada0['stop']();
+                                    }
+                                }, _0xa8831f, this, [[0x0, 0x13]]);
+                            })), function (_0x4f915d, _0x358b63) {
+                                return _0x60e348.apply(this, arguments);
+                            })
+                        }),
                     'watch': {
                         'isInShelf': function (_0x3b8d1e) {
                             this['hasLogin'] && _0x3b8d1e && this['$store']['dispatch'](_0x40127e['UPDATE_READER_LOCAL_LAST_CHAPTER']);
-                        }, 'currentChapter': function () {
+                        },
+                        'currentChapter': function () {
                             _0x3f7cfe['isEnvClient'] && this['requestMemberCardPriceIfNeeded']();
-                        }, 'isShowAutoSearchHint': function (_0x50381d) {
+                        },
+                        'isShowAutoSearchHint': function (_0x50381d) {
                             _0x3f7cfe[_0x25c8('0x1bb')] && (_0x50381d ? this['reportClientBusiness']({'itemName': _0x25c8('0x7f')}) : this[_0x25c8('0x18d')]({'itemName': 'Web_Search_ReaderContentClk'}));
-                        }, 'memberCardSummary': function () {
+                        },
+                        'memberCardSummary': function () {
                             _0x3f7cfe['isEnvClient'] && this['checkIfShowMemberCardFreeReadingTips']();
-                        }, 'isWhiteTheme': function () {
+                        },
+                        'isWhiteTheme': function () {
                             this['clearDrawTexts'](), this['drawSomeTexts']();
-                        }, 'isShowPreRender': function () {
+                        },
+                        'isShowPreRender': function () {
                             this['isShowPreRender'] ? this[_0x25c8('0x394')] = _0x456c68(this['getCurrentSection']['value'], this['bookId'], this['currentChapter']['chapterUid'], this['getCurrentSectionIdx']) : this['tempContent'] = '';
                         }
                     },
-                    'computed': (0x0, _0xd54fca[_0x25c8('0x3a0')])({
-                        'displayTopTotalReviewList': function () {
-                            var _0x5dd1a3 = _0x5b60e9['uniqWith'](this['topFriendReviewList']['concat'](this['topReviewList']), function (_0x35ac6a, _0x312756) {
-                                return _0x35ac6a['review'][_0x25c8('0x110')] === _0x312756['review']['reviewId'];
-                            });
-                            return _0x5dd1a3 && _0x5dd1a3[_0x25c8('0x178')] > 0x3 ? _0x5dd1a3['slice'](0x0, 0x3) : _0x5dd1a3;
-                        }
-                    }, (0x0, _0x575d51[_0x25c8('0x401')])({
-                        'isFooterShown': function (_0xe056c) {
-                            return _0xe056c['isFooterShown'];
-                        }, 'bookId': function (_0x1a4e43) {
-                            return _0x1a4e43['reader'] && _0x1a4e43['reader'][_0x25c8('0xd3')] ? _0x1a4e43['reader']['bookId'] : '';
-                        }, 'isBookInfoError': function (_0x180f3c) {
-                            return !(!_0x180f3c['reader'] || !_0x180f3c['reader']['isBookInfoError']) && _0x180f3c['reader']['isBookInfoError'];
-                        }, 'bookInfo': function (_0x523502) {
-                            return _0x523502['reader'] && _0x523502['reader']['bookInfo'] ? _0x523502['reader']['bookInfo'] : {};
-                        }, 'isInShelf': function (_0x1f02e5) {
-                            return !(!_0x1f02e5['reader'] || !_0x1f02e5['reader']['isInShelf']) && _0x1f02e5['reader']['isInShelf'];
-                        }, 'memberCardSummary': function (_0x1a3455) {
-                            return _0x1a3455['reader'] && _0x1a3455['reader']['memberCardSummary'] ? _0x1a3455[_0x25c8('0x15f')]['memberCardSummary'] : {};
-                        }, 'infiniteInfo': function (_0x3af363) {
-                            return _0x3af363['reader']['infiniteInfo'];
-                        }, 'readingStat': function (_0x1974e0) {
-                            return _0x1974e0['reader'] && _0x1974e0['reader']['readingStat'] || {};
-                        }, 'chapterInfos': function (_0x5e1eba) {
-                            return _0x5e1eba['reader'] && _0x5e1eba['reader'][_0x25c8('0x16')] ? _0x5e1eba['reader']['chapterInfos'] : [];
-                        }, 'progress': function (_0x141c44) {
-                            return _0x141c44['reader'][_0x25c8('0x27e')];
-                        }, 'currentChapter': function (_0x3bd294) {
-                            return !(!_0x3bd294['reader'] || !_0x3bd294[_0x25c8('0x15f')]['currentChapter']) && _0x3bd294['reader']['currentChapter'];
-                        }, 'chapterContentHtml': function (_0x2e27d9) {
-                            return _0x2e27d9['reader']['chapterContentHtml'];
-                        }, 'chapterContentStyles': function (_0x3bffd2) {
-                            return _0x3bffd2[_0x25c8('0x15f')]['chapterContentStyles'];
-                        }, 'chapterContentTargetHtml': function (_0x2d22a7) {
-                            return _0x2d22a7['reader']['chapterContentTargetHtml'];
-                        }, 'chapterContentTargetCanvasHtml': function (_0x3fa2d4) {
-                            return _0x3fa2d4['reader']['chapterContentTargetCanvasHtml'];
-                        }, 'chapterContentState': function (_0xd1bec1) {
-                            return _0xd1bec1['reader'] && _0xd1bec1['reader']['chapterContentState'] ? _0xd1bec1[_0x25c8('0x15f')]['chapterContentState'] : '';
-                        }, 'isChapterContentDirty': function (_0x5aee57) {
-                            return _0x5aee57['reader']['isChapterContentDirty'];
-                        }, 'isInSearchMode': function (_0x524181) {
-                            return !(!_0x524181['reader'] || !_0x524181['reader']['isInSearchMode']) && _0x524181['reader']['isInSearchMode'];
-                        }, 'isShowAutoSearchHint': function (_0x527b64) {
-                            return !(!_0x527b64['reader'] || !_0x527b64['reader']['isShowAutoSearchHint']) && _0x527b64['reader']['isShowAutoSearchHint'];
-                        }, 'isSearchLoading': function (_0x58ed60) {
-                            return _0x58ed60['reader'] && _0x58ed60['reader']['isSearchLoading'] || !0x1;
-                        }, 'searchResult': function (_0x241921) {
-                            return _0x241921['reader'] && _0x241921['reader']['searchResult'] ? _0x241921['reader']['searchResult'] : {};
-                        }, 'balance': function (_0xd817ea) {
-                            return _0xd817ea['reader']['balance'];
-                        }, 'isBookForbidden': function (_0x1db68a) {
-                            return !(!_0x1db68a['reader'] || !_0x1db68a['reader']['isBookForbidden']) && _0x1db68a['reader'][_0x25c8('0x43a')];
-                        }, 'topReviewList': function (_0x72f278) {
-                            return _0x72f278[_0x25c8('0x3ed')] && _0x72f278[_0x25c8('0x3ed')]['topReviews'] && _0x72f278['bookReview']['topReviews']['reviewList'] ? _0x72f278['bookReview']['topReviews']['reviewList'] : [];
-                        }, 'topFriendReviewList': function (_0x6b2be0) {
-                            return _0x6b2be0[_0x25c8('0x3ed')] && _0x6b2be0[_0x25c8('0x3ed')]['topFriendReviews'] && _0x6b2be0['bookReview']['topFriendReviews']['reviewList'] ? _0x6b2be0['bookReview']['topFriendReviews']['reviewList'] : [];
-                        }, 'bookmarks': function (_0x5ba8ea) {
-                            return _0x5ba8ea['bookReview'] && _0x5ba8ea['bookReview']['bookmarks'] || {};
-                        }, 'pdfUrl': function (_0x3ae1a6) {
-                            return _0x3ae1a6['reader']['pdfUrl'];
-                        }, 'isPdfError': function (_0x51ff51) {
-                            return _0x51ff51[_0x25c8('0x15f')]['isPdfError'];
-                        }, 'shouldShowPdfOutline': function (_0x3bf45d) {
-                            return _0x3bf45d['reader'][_0x25c8('0x3c8')];
-                        }, 'infoId': function (_0x414efb) {
-                            return _0x414efb['reader'] && _0x414efb['reader']['infoId'] || '';
-                        }, 'relatedAlbum': function (_0x4cce4e) {
-                            return _0x4cce4e['reader'] && _0x4cce4e['reader']['relatedAlbum'] || '';
-                        }
-                    }), (0x0, _0x575d51['mapGetters'])(['getChapterWithIdxOffset', 'getCurrentSectionIdx', 'getCurrentSection', 'hasNextSection', _0x25c8('0x1e9'), 'hasPrevChapter', 'hasNextChapter', _0x25c8('0x43f'), 'isBlackUser', 'isNeedPay', 'isNeedPayWithoutMemberCard', 'notes', 'isCopyRightForbiddenRead', 'isSoldOutForbiddenRead', _0x25c8('0x35'), 'treatAsEpub', _0x25c8('0x2c6'), 'isTrialReadBook', 'isTrialChapter', _0x25c8('0x138'), 'isDynamicPDF']), {
-                        'isImportedBook': function () {
-                            return _0x251dd7['default'][_0x25c8('0x204')](this['bookId']);
-                        }, 'isPDFBookType': function () {
-                            return _0x251dd7['default']['actualTreatBookAsPdf'](this['bookInfo']);
-                        }, 'isPaidCoinPurchaseOnly': function () {
-                            return _0x251dd7['default']['isPaidCoinPurchaseOnly'](this[_0x25c8('0xc6')]);
-                        }, 'isShowCatalogButton': function () {
-                            return !this[_0x25c8('0x69')] || this['isPDFBookType'] && this['shouldShowPdfOutline'];
-                        }, 'isShowLectureButton': function () {
-                            return !!this[_0x25c8('0x38b')];
-                        }, 'isShowBuyMemberCardButton': function () {
-                            return this['hasLogin'] && this['isNeedPay'] && !this['isPhone'] && !this['canReceiveMemberCard'] && !this['isBlackUser'] && !this['hasMemberCard'] && !this['isSoldOut'] && !_0x251dd7['default']['isSinglePurchaseBook'](this['bookInfo']);
-                        }, 'isShowLoading': function () {
-                            var _0x2f0461 = this['chapterContentState'];
-                            return 'LOADING' === _0x2f0461 || 'PRERENDER' === _0x2f0461;
-                        }, 'isShowPreRender': function () {
-                            return 'PRERENDER' === this['chapterContentState'];
-                        }, 'isShowRenderTarget': function () {
-                            return 'DONE' === this['chapterContentState'];
-                        }, 'isShowError': function () {
-                            return 'ERROR' === this['chapterContentState'];
-                        }, 'isPayByChapter': function () {
-                            return _0x251dd7['default']['isBuyUnitChapter'](this['bookInfo']);
-                        }, 'isPrivateUploadBook': function () {
-                            return /^CB_/['test'](this['bookId']);
-                        }, 'showGiveOneGetOne': function () {
-                            var _0x6d48bc = this[_0x25c8('0x28f')]['query'], _0x207995 = _0x6d48bc['wtype'],
-                                _0x189456 = _0x6d48bc['wfrom'], _0x323a56 = _0x6d48bc['senderVid'],
-                                _0x1f4e81 = _0x6d48bc['vol'], _0x534ad3 = _0x6d48bc['designId'];
-                            return Boolean('giveOneGetOneNewYear' === _0x207995 && 'app' === _0x189456 && _0x323a56 && _0x1f4e81 && _0x534ad3);
-                        }, 'showFirstPageAddShelfButton': function () {
-                            return !this['hasLogin'] && !this[_0x25c8('0x35')] || !this['isInShelf'] && !this['isSoldOut'];
-                        }, 'showBottomBarAddShelfButton': function () {
-                            return !this['hasLogin'] && !this['isSoldOut'] || !this[_0x25c8('0x440')] && !this[_0x25c8('0x35')];
-                        }, 'hasCurrentChapter': function () {
-                            return !this['isPDFBookType'] && this[_0x25c8('0x3e1')] && (0x0, _0x23b2b3['default'])(this['currentChapter'])[_0x25c8('0x178')] > 0x0;
-                        }, 'needReportReadingProgress': function () {
-                            return _0x3f7cfe['isEnvClient'] && this['hasLogin'];
-                        }, 'hasMemberCard': function () {
-                            return _0x3488c1['default']['isMemberShipValid'](this['memberCardSummary']);
-                        }, 'hasPaidMemberCard': function () {
-                            return _0x3488c1['default']['isPaidCard'](this['memberCardSummary']);
-                        }, 'hasMemberCardDiscount': function () {
-                            return this[_0x25c8('0x369')] && !!_0x5b60e9['get'](this[_0x25c8('0x3e6')], 'isPaying', 0x0) && _0x5b60e9[_0x25c8('0x4e')](this['bookInfo'], _0x25c8('0x2f9'), 0x0) > 0x0;
-                        }, 'canReceiveMemberCard': function () {
-                            return _0x3488c1['default']['canReceiveMemberCard'](this['infiniteInfo']);
-                        }, 'payButtonDisplayInfos': function () {
-                            var _0x1c69f1 = !0x1, _0x1101b6 = [];
-                            if (_0x251dd7['default']['isBuyUnitWholeBook'](this[_0x25c8('0xc6')])) if (_0x251dd7['default']['isLimitFree'](this[_0x25c8('0xc6')])) {
-                                var _0x3dc551 = _0x5b60e9['get'](this['bookInfo'], 'price', 0x0);
-                                _0x1101b6['push'](_0x25c8('0x1ea') + _0x3dc551['toFixed'](0x2) + '</span>');
-                            } else if (_0x251dd7['default']['isFree'](this['bookInfo'])) _0x1101b6['push']('免费获取'); else if (this['hasMemberCardDiscount']) {
-                                var _0x2c6250 = _0x5b60e9['get'](this['bookInfo'], _0x25c8('0xee'), 0x0) * (0x64 - _0x5b60e9['get'](this['bookInfo'], 'mcardDiscount', 0x0)) / 0x64;
-                                _0x1101b6['push']('购买本书\x20' + _0x2c6250['toFixed'](0x2)), _0x1c69f1 = !0x0;
-                            } else {
-                                var _0x2d28a9 = _0x5b60e9['get'](this['bookInfo'], 'price', 0x0);
-                                _0x1101b6['push'](_0x25c8('0x42f') + _0x2d28a9[_0x25c8('0xb')](0x2));
-                            } else if (_0x251dd7['default']['isSinglePurchaseBook'](this[_0x25c8('0xc6')])) {
-                                var _0x319ed5 = _0x5b60e9[_0x25c8('0x4e')](this['bookInfo'], 'centPrice', 0x0) / 0x64;
-                                _0x1101b6[_0x25c8('0x4b3')]('购买本书\x20' + _0x319ed5['toFixed'](0x2));
-                            } else if (this['hasMemberCardDiscount']) {
-                                var _0x53bfd0 = _0x5b60e9['get'](this['currentChapter'], 'price', 0x0) * (0x64 - _0x5b60e9['get'](this['bookInfo'], 'mcardDiscount', 0x0)) / 0x64;
-                                _0x1101b6[_0x25c8('0x4b3')](_0x25c8('0x431') + _0x53bfd0['toFixed'](0x2)), _0x1c69f1 = !0x0;
-                            } else {
-                                var _0x468cb8 = _0x5b60e9['get'](this['currentChapter'], 'price', 0x0);
-                                _0x1101b6['push']('购买本章\x20' + _0x468cb8['toFixed'](0x2));
+                    'computed': _0xd54fca.default({
+                            'displayTopTotalReviewList': function () {
+                                var _0x5dd1a3 = _0x5b60e9['uniqWith'](this['topFriendReviewList']['concat'](this['topReviewList']), function (_0x35ac6a, _0x312756) {
+                                    return _0x35ac6a['review'][_0x25c8('0x110')] === _0x312756['review']['reviewId'];
+                                });
+                                return _0x5dd1a3 && _0x5dd1a3[_0x25c8('0x178')] > 0x3 ? _0x5dd1a3['slice'](0x0, 0x3) : _0x5dd1a3;
                             }
-                            return {'isMCard': _0x1c69f1, 'lines': _0x1101b6};
-                        }, 'isBookFinished': function () {
-                            return 0x1 === this['bookInfo']['finished'];
-                        }, 'endingTexts': function () {
-                            var _0x3d3e2e = this['bookInfo'];
-                            if (0x1 === _0x3d3e2e['finished']) return ['全书完'];
-                            var _0x20b4fd = ['未完待续'];
-                            if (_0x251dd7[_0x25c8('0x3a0')][_0x25c8('0xff')](_0x3d3e2e)) {
-                                var _0x5c4cc0 = _0x3d3e2e[_0x25c8('0x45')];
-                                if (_0x5c4cc0) {
-                                    var _0x1e5f75 = new Date(0x3e8 * _0x5c4cc0),
-                                        _0xf20746 = _0x37431f[_0x25c8('0x3a0')]['formatTime'](_0x1e5f75);
-                                    _0x20b4fd['push']('已阅读至最新章节\x20·\x20最近更新于\x20' + _0xf20746);
+                        },
+                        _0x575d51.mapState({
+                            'isFooterShown': function (_0xe056c) {
+                                return _0xe056c['isFooterShown'];
+                            },
+                            'bookId': function (_0x1a4e43) {
+                                return _0x1a4e43['reader'] && _0x1a4e43['reader'][_0x25c8('0xd3')] ? _0x1a4e43['reader']['bookId'] : '';
+                            },
+                            'isBookInfoError': function (_0x180f3c) {
+                                return !(!_0x180f3c['reader'] || !_0x180f3c['reader']['isBookInfoError']) && _0x180f3c['reader']['isBookInfoError'];
+                            },
+                            'bookInfo': function (_0x523502) {
+                                return _0x523502['reader'] && _0x523502['reader']['bookInfo'] ? _0x523502['reader']['bookInfo'] : {};
+                            },
+                            'isInShelf': function (_0x1f02e5) {
+                                return !(!_0x1f02e5['reader'] || !_0x1f02e5['reader']['isInShelf']) && _0x1f02e5['reader']['isInShelf'];
+                            },
+                            'memberCardSummary': function (_0x1a3455) {
+                                return _0x1a3455['reader'] && _0x1a3455['reader']['memberCardSummary'] ? _0x1a3455[_0x25c8('0x15f')]['memberCardSummary'] : {};
+                            },
+                            'infiniteInfo': function (_0x3af363) {
+                                return _0x3af363['reader']['infiniteInfo'];
+                            },
+                            'readingStat': function (_0x1974e0) {
+                                return _0x1974e0['reader'] && _0x1974e0['reader']['readingStat'] || {};
+                            },
+                            'chapterInfos': function (_0x5e1eba) {
+                                return _0x5e1eba['reader'] && _0x5e1eba['reader'][_0x25c8('0x16')] ? _0x5e1eba['reader']['chapterInfos'] : [];
+                            },
+                            'progress': function (_0x141c44) {
+                                return _0x141c44['reader'][_0x25c8('0x27e')];
+                            },
+                            'currentChapter': function (_0x3bd294) {
+                                return !(!_0x3bd294['reader'] || !_0x3bd294[_0x25c8('0x15f')]['currentChapter']) && _0x3bd294['reader']['currentChapter'];
+                            },
+                            'chapterContentHtml': function (_0x2e27d9) {
+                                return _0x2e27d9['reader']['chapterContentHtml'];
+                            },
+                            'chapterContentStyles': function (_0x3bffd2) {
+                                return _0x3bffd2[_0x25c8('0x15f')]['chapterContentStyles'];
+                            },
+                            'chapterContentTargetHtml': function (_0x2d22a7) {
+                                return _0x2d22a7['reader']['chapterContentTargetHtml'];
+                            },
+                            'chapterContentTargetCanvasHtml': function (_0x3fa2d4) {
+                                return _0x3fa2d4['reader']['chapterContentTargetCanvasHtml'];
+                            },
+                            'chapterContentState': function (_0xd1bec1) {
+                                return _0xd1bec1['reader'] && _0xd1bec1['reader']['chapterContentState'] ? _0xd1bec1[_0x25c8('0x15f')]['chapterContentState'] : '';
+                            },
+                            'isChapterContentDirty': function (_0x5aee57) {
+                                return _0x5aee57['reader']['isChapterContentDirty'];
+                            },
+                            'isInSearchMode': function (_0x524181) {
+                                return !(!_0x524181['reader'] || !_0x524181['reader']['isInSearchMode']) && _0x524181['reader']['isInSearchMode'];
+                            },
+                            'isShowAutoSearchHint': function (_0x527b64) {
+                                return !(!_0x527b64['reader'] || !_0x527b64['reader']['isShowAutoSearchHint']) && _0x527b64['reader']['isShowAutoSearchHint'];
+                            },
+                            'isSearchLoading': function (_0x58ed60) {
+                                return _0x58ed60['reader'] && _0x58ed60['reader']['isSearchLoading'] || !0x1;
+                            },
+                            'searchResult': function (_0x241921) {
+                                return _0x241921['reader'] && _0x241921['reader']['searchResult'] ? _0x241921['reader']['searchResult'] : {};
+                            },
+                            'balance': function (_0xd817ea) {
+                                return _0xd817ea['reader']['balance'];
+                            },
+                            'isBookForbidden': function (_0x1db68a) {
+                                return !(!_0x1db68a['reader'] || !_0x1db68a['reader']['isBookForbidden']) && _0x1db68a['reader'][_0x25c8('0x43a')];
+                            },
+                            'topReviewList': function (_0x72f278) {
+                                return _0x72f278[_0x25c8('0x3ed')] && _0x72f278[_0x25c8('0x3ed')]['topReviews'] && _0x72f278['bookReview']['topReviews']['reviewList'] ? _0x72f278['bookReview']['topReviews']['reviewList'] : [];
+                            },
+                            'topFriendReviewList': function (_0x6b2be0) {
+                                return _0x6b2be0[_0x25c8('0x3ed')] && _0x6b2be0[_0x25c8('0x3ed')]['topFriendReviews'] && _0x6b2be0['bookReview']['topFriendReviews']['reviewList'] ? _0x6b2be0['bookReview']['topFriendReviews']['reviewList'] : [];
+                            },
+                            'bookmarks': function (_0x5ba8ea) {
+                                return _0x5ba8ea['bookReview'] && _0x5ba8ea['bookReview']['bookmarks'] || {};
+                            },
+                            'pdfUrl': function (_0x3ae1a6) {
+                                return _0x3ae1a6['reader']['pdfUrl'];
+                            },
+                            'isPdfError': function (_0x51ff51) {
+                                return _0x51ff51[_0x25c8('0x15f')]['isPdfError'];
+                            },
+                            'shouldShowPdfOutline': function (_0x3bf45d) {
+                                return _0x3bf45d['reader'][_0x25c8('0x3c8')];
+                            },
+                            'infoId': function (_0x414efb) {
+                                return _0x414efb['reader'] && _0x414efb['reader']['infoId'] || '';
+                            },
+                            'relatedAlbum': function (_0x4cce4e) {
+                                return _0x4cce4e['reader'] && _0x4cce4e['reader']['relatedAlbum'] || '';
+                            }
+                        }),
+                        _0x575d51.mapGetters([
+                            'getChapterWithIdxOffset',
+                            'getCurrentSectionIdx',
+                            'getCurrentSection',
+                            'hasNextSection',
+                            _0x25c8('0x1e9'),
+                            'hasPrevChapter',
+                            'hasNextChapter',
+                            _0x25c8('0x43f'),
+                            'isBlackUser',
+                            'isNeedPay',
+                            'isNeedPayWithoutMemberCard',
+                            'notes',
+                            'isCopyRightForbiddenRead',
+                            'isSoldOutForbiddenRead',
+                            _0x25c8('0x35'),
+                            'treatAsEpub',
+                            _0x25c8('0x2c6'),
+                            'isTrialReadBook',
+                            'isTrialChapter',
+                            _0x25c8('0x138'),
+                            'isDynamicPDF'
+                        ]), {
+                            'isImportedBook': function () {
+                                return _0x251dd7['default'][_0x25c8('0x204')](this['bookId']);
+                            },
+                            'isPDFBookType': function () {
+                                return _0x251dd7['default']['actualTreatBookAsPdf'](this['bookInfo']);
+                            },
+                            'isPaidCoinPurchaseOnly': function () {
+                                return _0x251dd7['default']['isPaidCoinPurchaseOnly'](this[_0x25c8('0xc6')]);
+                            },
+                            'isShowCatalogButton': function () {
+                                return !this[_0x25c8('0x69')] || this['isPDFBookType'] && this['shouldShowPdfOutline'];
+                            },
+                            'isShowLectureButton': function () {
+                                return !!this[_0x25c8('0x38b')];
+                            },
+                            'isShowBuyMemberCardButton': function () {
+                                return this['hasLogin'] && this['isNeedPay'] && !this['isPhone'] && !this['canReceiveMemberCard'] && !this['isBlackUser'] && !this['hasMemberCard'] && !this['isSoldOut'] && !_0x251dd7['default']['isSinglePurchaseBook'](this['bookInfo']);
+                            },
+                            'isShowLoading': function () {
+                                var _0x2f0461 = this['chapterContentState'];
+                                return 'LOADING' === _0x2f0461 || 'PRERENDER' === _0x2f0461;
+                            },
+                            'isShowPreRender': function () {
+                                return 'PRERENDER' === this['chapterContentState'];
+                            },
+                            'isShowRenderTarget': function () {
+                                return 'DONE' === this['chapterContentState'];
+                            },
+                            'isShowError': function () {
+                                return 'ERROR' === this['chapterContentState'];
+                            },
+                            'isPayByChapter': function () {
+                                return _0x251dd7['default']['isBuyUnitChapter'](this['bookInfo']);
+                            },
+                            'isPrivateUploadBook': function () {
+                                return /^CB_/['test'](this['bookId']);
+                            },
+                            'showGiveOneGetOne': function () {
+                                var _0x6d48bc = this[_0x25c8('0x28f')]['query'], _0x207995 = _0x6d48bc['wtype'],
+                                    _0x189456 = _0x6d48bc['wfrom'], _0x323a56 = _0x6d48bc['senderVid'],
+                                    _0x1f4e81 = _0x6d48bc['vol'], _0x534ad3 = _0x6d48bc['designId'];
+                                return Boolean('giveOneGetOneNewYear' === _0x207995 && 'app' === _0x189456 && _0x323a56 && _0x1f4e81 && _0x534ad3);
+                            },
+                            'showFirstPageAddShelfButton': function () {
+                                return !this['hasLogin'] && !this[_0x25c8('0x35')] || !this['isInShelf'] && !this['isSoldOut'];
+                            },
+                            'showBottomBarAddShelfButton': function () {
+                                return !this['hasLogin'] && !this['isSoldOut'] || !this[_0x25c8('0x440')] && !this[_0x25c8('0x35')];
+                            },
+                            'hasCurrentChapter': function () {
+                                return !this['isPDFBookType'] && this[_0x25c8('0x3e1')] && (0x0, _0x23b2b3['default'])(this['currentChapter'])[_0x25c8('0x178')] > 0x0;
+                            },
+                            'needReportReadingProgress': function () {
+                                return _0x3f7cfe.isEnvClient && this.hasLogin;
+                            },
+                            'hasMemberCard': function () {
+                                return _0x3488c1['default']['isMemberShipValid'](this['memberCardSummary']);
+                            },
+                            'hasPaidMemberCard': function () {
+                                return _0x3488c1['default']['isPaidCard'](this['memberCardSummary']);
+                            },
+                            'hasMemberCardDiscount': function () {
+                                return this[_0x25c8('0x369')] && !!_0x5b60e9['get'](this[_0x25c8('0x3e6')], 'isPaying', 0x0) && _0x5b60e9[_0x25c8('0x4e')](this['bookInfo'], _0x25c8('0x2f9'), 0x0) > 0x0;
+                            },
+                            'canReceiveMemberCard': function () {
+                                return _0x3488c1['default']['canReceiveMemberCard'](this['infiniteInfo']);
+                            },
+                            'payButtonDisplayInfos': function () {
+                                var _0x1c69f1 = !0x1, _0x1101b6 = [];
+                                if (_0x251dd7['default']['isBuyUnitWholeBook'](this[_0x25c8('0xc6')])) if (_0x251dd7['default']['isLimitFree'](this[_0x25c8('0xc6')])) {
+                                    var _0x3dc551 = _0x5b60e9['get'](this['bookInfo'], 'price', 0x0);
+                                    _0x1101b6['push'](_0x25c8('0x1ea') + _0x3dc551['toFixed'](0x2) + '</span>');
+                                } else if (_0x251dd7['default']['isFree'](this['bookInfo'])) _0x1101b6['push']('免费获取'); else if (this['hasMemberCardDiscount']) {
+                                    var _0x2c6250 = _0x5b60e9['get'](this['bookInfo'], _0x25c8('0xee'), 0x0) * (0x64 - _0x5b60e9['get'](this['bookInfo'], 'mcardDiscount', 0x0)) / 0x64;
+                                    _0x1101b6['push']('购买本书\x20' + _0x2c6250['toFixed'](0x2)), _0x1c69f1 = !0x0;
+                                } else {
+                                    var _0x2d28a9 = _0x5b60e9['get'](this['bookInfo'], 'price', 0x0);
+                                    _0x1101b6['push'](_0x25c8('0x42f') + _0x2d28a9[_0x25c8('0xb')](0x2));
+                                } else if (_0x251dd7['default']['isSinglePurchaseBook'](this[_0x25c8('0xc6')])) {
+                                    var _0x319ed5 = _0x5b60e9[_0x25c8('0x4e')](this['bookInfo'], 'centPrice', 0x0) / 0x64;
+                                    _0x1101b6[_0x25c8('0x4b3')]('购买本书\x20' + _0x319ed5['toFixed'](0x2));
+                                } else if (this['hasMemberCardDiscount']) {
+                                    var _0x53bfd0 = _0x5b60e9['get'](this['currentChapter'], 'price', 0x0) * (0x64 - _0x5b60e9['get'](this['bookInfo'], 'mcardDiscount', 0x0)) / 0x64;
+                                    _0x1101b6[_0x25c8('0x4b3')](_0x25c8('0x431') + _0x53bfd0['toFixed'](0x2)), _0x1c69f1 = !0x0;
+                                } else {
+                                    var _0x468cb8 = _0x5b60e9['get'](this['currentChapter'], 'price', 0x0);
+                                    _0x1101b6['push']('购买本章\x20' + _0x468cb8['toFixed'](0x2));
                                 }
-                            }
-                            return _0x20b4fd;
-                        }, 'isNeedShowLoginGuide': function () {
-                            return this['isNeedPay'] && !this['hasLogin'] && !this['isPhone'];
-                        }, 'isNeedShowPhoneDownloadGuide': function () {
-                            return this[_0x25c8('0x65')];
-                        }, 'isNeedShowMyNote': function () {
-                            return this[_0x25c8('0x2d4')];
-                        }, 'readingTimeString': function () {
-                            if (this['progress'] && this['progress'][_0x25c8('0xa2')] && this['progress']['book']['readingTime']) {
-                                var _0x1001cc = this['progress']['book']['readingTime'];
-                                return '已阅读\x20' + Math['floor'](_0x1001cc / 0xe10) + _0x25c8('0x404') + Math['floor'](_0x1001cc % 0xe10 / 0x3c) + '\x20分钟';
-                            }
-                            return '';
-                        }, 'notesListInCurrentChapter': function () {
-                            var _0x1020f4 = this['currentChapter'];
-                            if (!_0x1020f4) return [];
-                            var _0xd56733 = this[_0x25c8('0x125')];
-                            if (_0xd56733[_0x25c8('0x279')] || 0x0 === _0xd56733['noteList']['length']) return [];
-                            var _0x6934ca = _0x1020f4['chapterUid'], _0x596a9c = _0xd56733['noteList'], _0x12774b = [];
-                            return _0x596a9c['forEach'](function (_0x4ae82d) {
-                                _0x4ae82d[_0x25c8('0x17a')] === _0x6934ca && _0x12774b['push'](_0x4ae82d);
-                            }), _0x12774b;
-                        }, 'underlineRenderDatas': function () {
-                            var _0x210c4e = this;
-                            if (-0x1 === this['renderContentsVersion']) return [];
-                            if (!this['isNeedShowMyNote'] || 0x0 === _0x4cbe2d[_0x25c8('0x178')]) return [];
-                            var _0x59ac44 = [], _0x48a6d7 = this['notesListInCurrentChapter'], _0x4bc4da = [],
-                                _0x47cdf1 = [];
-                            _0x48a6d7['forEach'](function (_0x4a6f4a) {
-                                if (_0x4a6f4a['noteType'] !== _0x3f6897['NoteTypeReview']) {
-                                    if (_0x4a6f4a[_0x25c8('0x2e2')] === _0x3f6897['NoteTypeBookmark'] && _0x4a6f4a['type'] === _0x4c55ba['BookMarkTypeUnderline']) {
-                                        _0x47cdf1['push'](_0x4a6f4a);
-                                        var _0x2d7b8b = _0x210c4e['findObjsInOffsetRange'](_0x4cbe2d, _0x4a6f4a['range']['start'], _0x4a6f4a['range'][_0x25c8('0x9c')]);
-                                        _0x210c4e['getRectsByContentObjs'](_0x2d7b8b)['forEach'](function (_0x349908, _0x58d633) {
-                                            var _0x53d5a8 = {
-                                                'key': _0x4a6f4a['key'] + '_' + _0x58d633,
-                                                'notes': [_0x4a6f4a],
-                                                'range': _0x4a6f4a['range'],
-                                                'rect': _0x349908,
-                                                'style': _0x4a6f4a['style'],
-                                                'colorStyle': _0x4a6f4a['colorStyle']
-                                            };
-                                            _0x59ac44['push'](_0x53d5a8);
+                                return {'isMCard': _0x1c69f1, 'lines': _0x1101b6};
+                            },
+                            'isBookFinished': function () {
+                                return 0x1 === this['bookInfo']['finished'];
+                            },
+                            'endingTexts': function () {
+                                var _0x3d3e2e = this['bookInfo'];
+                                if (0x1 === _0x3d3e2e['finished']) return ['全书完'];
+                                var _0x20b4fd = ['未完待续'];
+                                if (_0x251dd7[_0x25c8('0x3a0')][_0x25c8('0xff')](_0x3d3e2e)) {
+                                    var _0x5c4cc0 = _0x3d3e2e[_0x25c8('0x45')];
+                                    if (_0x5c4cc0) {
+                                        var _0x1e5f75 = new Date(0x3e8 * _0x5c4cc0),
+                                            _0xf20746 = _0x37431f[_0x25c8('0x3a0')]['formatTime'](_0x1e5f75);
+                                        _0x20b4fd['push']('已阅读至最新章节\x20·\x20最近更新于\x20' + _0xf20746);
+                                    }
+                                }
+                                return _0x20b4fd;
+                            },
+                            'isNeedShowLoginGuide': function () {
+                                return this['isNeedPay'] && !this['hasLogin'] && !this['isPhone'];
+                            },
+                            'isNeedShowPhoneDownloadGuide': function () {
+                                return this[_0x25c8('0x65')];
+                            },
+                            'isNeedShowMyNote': function () {
+                                return this[_0x25c8('0x2d4')];
+                            },
+                            'readingTimeString': function () {
+                                if (this['progress'] && this['progress'][_0x25c8('0xa2')] && this['progress']['book']['readingTime']) {
+                                    var _0x1001cc = this['progress']['book']['readingTime'];
+                                    return '已阅读\x20' + Math['floor'](_0x1001cc / 0xe10) + _0x25c8('0x404') + Math['floor'](_0x1001cc % 0xe10 / 0x3c) + '\x20分钟';
+                                }
+                                return '';
+                            },
+                            'notesListInCurrentChapter': function () {
+                                var _0x1020f4 = this['currentChapter'];
+                                if (!_0x1020f4) return [];
+                                var _0xd56733 = this[_0x25c8('0x125')];
+                                if (_0xd56733[_0x25c8('0x279')] || 0x0 === _0xd56733['noteList']['length']) return [];
+                                var _0x6934ca = _0x1020f4['chapterUid'], _0x596a9c = _0xd56733['noteList'],
+                                    _0x12774b = [];
+                                return _0x596a9c['forEach'](function (_0x4ae82d) {
+                                    _0x4ae82d[_0x25c8('0x17a')] === _0x6934ca && _0x12774b['push'](_0x4ae82d);
+                                }), _0x12774b;
+                            },
+                            'underlineRenderDatas': function () {
+                                var _0x210c4e = this;
+                                if (-0x1 === this['renderContentsVersion']) return [];
+                                if (!this['isNeedShowMyNote'] || 0x0 === _0x4cbe2d[_0x25c8('0x178')]) return [];
+                                var _0x59ac44 = [], _0x48a6d7 = this['notesListInCurrentChapter'], _0x4bc4da = [],
+                                    _0x47cdf1 = [];
+                                _0x48a6d7['forEach'](function (_0x4a6f4a) {
+                                    if (_0x4a6f4a['noteType'] !== _0x3f6897['NoteTypeReview']) {
+                                        if (_0x4a6f4a[_0x25c8('0x2e2')] === _0x3f6897['NoteTypeBookmark'] && _0x4a6f4a['type'] === _0x4c55ba['BookMarkTypeUnderline']) {
+                                            _0x47cdf1['push'](_0x4a6f4a);
+                                            var _0x2d7b8b = _0x210c4e['findObjsInOffsetRange'](_0x4cbe2d, _0x4a6f4a['range']['start'], _0x4a6f4a['range'][_0x25c8('0x9c')]);
+                                            _0x210c4e['getRectsByContentObjs'](_0x2d7b8b)['forEach'](function (_0x349908, _0x58d633) {
+                                                var _0x53d5a8 = {
+                                                    'key': _0x4a6f4a['key'] + '_' + _0x58d633,
+                                                    'notes': [_0x4a6f4a],
+                                                    'range': _0x4a6f4a['range'],
+                                                    'rect': _0x349908,
+                                                    'style': _0x4a6f4a['style'],
+                                                    'colorStyle': _0x4a6f4a['colorStyle']
+                                                };
+                                                _0x59ac44['push'](_0x53d5a8);
+                                            });
+                                        }
+                                    } else _0x4bc4da['push'](_0x4a6f4a);
+                                });
+                                var _0x7c1aa9 = [];
+                                return _0x4bc4da['forEach'](function (_0x5849f2) {
+                                    for (var _0x5f26b4 = _0x5849f2['range'], _0x531bc6 = null, _0x33ddc8 = 0x0, _0x5b45b7 = _0x7c1aa9[_0x25c8('0x178')]; _0x33ddc8 < _0x5b45b7; _0x33ddc8++) {
+                                        var _0xb6abf2 = _0x7c1aa9[_0x33ddc8];
+                                        if (_0x4591a5['default']['isIntersection'](_0xb6abf2['mergedRange'], _0x5f26b4)) {
+                                            _0x531bc6 = _0xb6abf2;
+                                            break;
+                                        }
+                                    }
+                                    _0x531bc6 ? (_0x531bc6['mergedRange'] = _0x4591a5['default']['union'](_0x531bc6[_0x25c8('0x385')], _0x5f26b4), _0x531bc6['notes']['push'](_0x5849f2)) : _0x7c1aa9['push']({
+                                        'mergedRange': _0x5f26b4,
+                                        'notes': [_0x5849f2]
+                                    });
+                                }), _0x7c1aa9[_0x25c8('0x28d')](function (_0x4a94c9) {
+                                    for (var _0x2b3ace = [_0x4a94c9['mergedRange']], _0x12e911 = null, _0x4a92c7 = function (_0xcedce, _0x28f126) {
+                                        var _0x4d471e = _0x47cdf1[_0xcedce], _0x338159 = [];
+                                        if (_0x2b3ace['forEach'](function (_0x48d084) {
+                                            var _0x4a92ff = _0x48d084['splitBy'](_0x4d471e['range']);
+                                            _0x338159 = _0x338159['concat'](_0x4a92ff);
+                                        }), 0x0 === (_0x2b3ace = _0x338159)['length']) return _0x12e911 = _0x4d471e, 'break';
+                                    }, _0x2f2f53 = 0x0, _0x2ffb0b = _0x47cdf1['length']; _0x2f2f53 < _0x2ffb0b; _0x2f2f53++) {
+                                        if ('break' === _0x4a92c7(_0x2f2f53)) break;
+                                    }
+                                    if (0x0 === _0x2b3ace['length'] && _0x12e911 && _0x12e911['key']) {
+                                        var _0xdd1a8e = _0x12e911['key'];
+                                        _0x59ac44['forEach'](function (_0x4dccf7) {
+                                            _0x4dccf7['key']['substr'](0x0, _0xdd1a8e['length']) === _0xdd1a8e && (_0x4dccf7['notes'] = _0x4dccf7['notes'][_0x25c8('0x33c')](_0x4a94c9['notes']));
                                         });
-                                    }
-                                } else _0x4bc4da['push'](_0x4a6f4a);
-                            });
-                            var _0x7c1aa9 = [];
-                            return _0x4bc4da['forEach'](function (_0x5849f2) {
-                                for (var _0x5f26b4 = _0x5849f2['range'], _0x531bc6 = null, _0x33ddc8 = 0x0, _0x5b45b7 = _0x7c1aa9[_0x25c8('0x178')]; _0x33ddc8 < _0x5b45b7; _0x33ddc8++) {
-                                    var _0xb6abf2 = _0x7c1aa9[_0x33ddc8];
-                                    if (_0x4591a5['default']['isIntersection'](_0xb6abf2['mergedRange'], _0x5f26b4)) {
-                                        _0x531bc6 = _0xb6abf2;
-                                        break;
-                                    }
-                                }
-                                _0x531bc6 ? (_0x531bc6['mergedRange'] = _0x4591a5['default']['union'](_0x531bc6[_0x25c8('0x385')], _0x5f26b4), _0x531bc6['notes']['push'](_0x5849f2)) : _0x7c1aa9['push']({
-                                    'mergedRange': _0x5f26b4,
-                                    'notes': [_0x5849f2]
-                                });
-                            }), _0x7c1aa9[_0x25c8('0x28d')](function (_0x4a94c9) {
-                                for (var _0x2b3ace = [_0x4a94c9['mergedRange']], _0x12e911 = null, _0x4a92c7 = function (_0xcedce, _0x28f126) {
-                                    var _0x4d471e = _0x47cdf1[_0xcedce], _0x338159 = [];
-                                    if (_0x2b3ace['forEach'](function (_0x48d084) {
-                                        var _0x4a92ff = _0x48d084['splitBy'](_0x4d471e['range']);
-                                        _0x338159 = _0x338159['concat'](_0x4a92ff);
-                                    }), 0x0 === (_0x2b3ace = _0x338159)['length']) return _0x12e911 = _0x4d471e, 'break';
-                                }, _0x2f2f53 = 0x0, _0x2ffb0b = _0x47cdf1['length']; _0x2f2f53 < _0x2ffb0b; _0x2f2f53++) {
-                                    if ('break' === _0x4a92c7(_0x2f2f53)) break;
-                                }
-                                if (0x0 === _0x2b3ace['length'] && _0x12e911 && _0x12e911['key']) {
-                                    var _0xdd1a8e = _0x12e911['key'];
-                                    _0x59ac44['forEach'](function (_0x4dccf7) {
-                                        _0x4dccf7['key']['substr'](0x0, _0xdd1a8e['length']) === _0xdd1a8e && (_0x4dccf7['notes'] = _0x4dccf7['notes'][_0x25c8('0x33c')](_0x4a94c9['notes']));
+                                    } else _0x2b3ace['forEach'](function (_0x56cea0, _0x4121e2) {
+                                        var _0x45e0a3 = _0x210c4e['findObjsInOffsetRange'](_0x4cbe2d, _0x56cea0['start'], _0x56cea0[_0x25c8('0x9c')]);
+                                        _0x210c4e['getRectsByContentObjs'](_0x45e0a3)['forEach'](function (_0x412176, _0x351556) {
+                                            var _0x1f2d87 = {
+                                                'key': _0x4a94c9[_0x25c8('0x125')][0x0]['key'] + '_' + _0x4121e2 + '_' + _0x351556,
+                                                'notes': _0x4a94c9[_0x25c8('0x125')],
+                                                'range': _0x4a94c9['mergedRange'],
+                                                'rect': _0x412176,
+                                                'classNames': ['wr_myNote'],
+                                                'style': -0x1,
+                                                'colorStyle': 0x0
+                                            };
+                                            _0x59ac44[_0x25c8('0x4b3')](_0x1f2d87);
+                                        });
                                     });
-                                } else _0x2b3ace['forEach'](function (_0x56cea0, _0x4121e2) {
-                                    var _0x45e0a3 = _0x210c4e['findObjsInOffsetRange'](_0x4cbe2d, _0x56cea0['start'], _0x56cea0[_0x25c8('0x9c')]);
-                                    _0x210c4e['getRectsByContentObjs'](_0x45e0a3)['forEach'](function (_0x412176, _0x351556) {
-                                        var _0x1f2d87 = {
-                                            'key': _0x4a94c9[_0x25c8('0x125')][0x0]['key'] + '_' + _0x4121e2 + '_' + _0x351556,
-                                            'notes': _0x4a94c9[_0x25c8('0x125')],
-                                            'range': _0x4a94c9['mergedRange'],
-                                            'rect': _0x412176,
-                                            'classNames': ['wr_myNote'],
-                                            'style': -0x1,
-                                            'colorStyle': 0x0
-                                        };
-                                        _0x59ac44[_0x25c8('0x4b3')](_0x1f2d87);
-                                    });
-                                });
-                            }), _0x59ac44;
-                        }, 'showDevPanel': function () {
-                            return _0x3f7cfe['isEnvClient'] ? _0x3f7cfe['inDevelopment']() || window[_0x25c8('0x1a')] : _0x3f7cfe['inDevelopment']();
-                        }, 'needSerialProcess': function () {
-                            var _0x153e56 = _0x5b60e9[_0x25c8('0x4e')](this['bookInfo'], 'cpid', 0x26);
-                            return this[_0x25c8('0x2cb')] && !this['isBookFinished'] && this['currentChapter']['chapterIdx'] >= Math['max'](this[_0x25c8('0xc6')]['lastChapterIdx'] - 0x14, 0x0) && !this['isNeedPay'] && _0x153e56 <= 0x25;
-                        }, 'showPrevButton': function () {
-                            var _0x3fbfaf = this['isPaperBook'] && this['isSoldOut'] && !this['isTrialReadBook'] && this['isSoldOutForbiddenRead'],
-                                _0x2a583d = this['isCopyRightForbiddenRead'],
-                                _0x4cba69 = this['isSoldOutForbiddenRead'];
-                            return !_0x3fbfaf && !_0x2a583d && !_0x4cba69;
-                        }
-                    })
+                                }), _0x59ac44;
+                            },
+                            'showDevPanel': function () {
+                                return _0x3f7cfe['isEnvClient'] ? _0x3f7cfe['inDevelopment']() || window[_0x25c8('0x1a')] : _0x3f7cfe['inDevelopment']();
+                            },
+                            'needSerialProcess': function () {
+                                var _0x153e56 = _0x5b60e9[_0x25c8('0x4e')](this['bookInfo'], 'cpid', 0x26);
+                                return this[_0x25c8('0x2cb')] && !this['isBookFinished'] && this['currentChapter']['chapterIdx'] >= Math['max'](this[_0x25c8('0xc6')]['lastChapterIdx'] - 0x14, 0x0) && !this['isNeedPay'] && _0x153e56 <= 0x25;
+                            },
+                            'showPrevButton': function () {
+                                var _0x3fbfaf = this['isPaperBook'] && this['isSoldOut'] && !this['isTrialReadBook'] && this['isSoldOutForbiddenRead'],
+                                    _0x2a583d = this['isCopyRightForbiddenRead'],
+                                    _0x4cba69 = this['isSoldOutForbiddenRead'];
+                                return !_0x3fbfaf && !_0x2a583d && !_0x4cba69;
+                            }
+                        })
                 };
             },
             1135: function (_0x7a317a, _0x2f74bb, _0x15113e) {
