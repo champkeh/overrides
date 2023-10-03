@@ -6645,6 +6645,7 @@ window.webpackJsonp.push(
                         }
                         _0x5510d5('bookRead', 'return bcs of bookInfoError');
                     })
+
                     _0x5b5d51.default(actions, _0x5e60c2['FETCH_READER_SERIAL_RESTRICTION'], function (_0xeec0bf, _0x4c0279) {
                         var _0x1b62a6 = _0xeec0bf['state'], _0x46efca = _0x4c0279['vid'],
                             _0x1a491b = _0x1b62a6['bookId'] || 0x0,
@@ -9804,9 +9805,10 @@ window.webpackJsonp.push(
                                 });
                             },
                             'handleSessionTimeout': function () {
-                                this['isWeiXin'] || this['$toast']('登录过期，请重新登录'), setTimeout(function () {
+                                this.isWeiXin || this.$toast('登录过期，请重新登录')
+                                setTimeout(function () {
                                     window['location']['reload']();
-                                }, 0xbb8);
+                                }, 3000);
                             },
                             'getScrollLeft': function () {
                                 return window && window['pageXOffset'] ? window['pageXOffset'] : document && document['documentElement'] && document[_0x25c8('0x3f6')][_0x25c8('0x1ab')] ? document['documentElement'][_0x25c8('0x1ab')] : document && document['body'] && document['body'][_0x25c8('0x1ab')] ? document['body'][_0x25c8('0x1ab')] : 0x0;
