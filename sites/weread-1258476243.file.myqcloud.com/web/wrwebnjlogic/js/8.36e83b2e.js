@@ -7564,19 +7564,26 @@ window.webpackJsonp.push(
                                     'chapter': _0x386a07['currentChapter']
                                 });
                             },
-                            'isSoldOutForbiddenRead': function (_0x480c83, _0x3382dc) {
-                                if (_0x3382dc['isSoldOut']) {
-                                    if (_0x3382dc[_0x4db5('0x1f0')]) return !_0x3382dc['isTrialChapter'];
-                                    if (_0x2f54a8[_0x4db5('0x1d6')]['isBuyUnitWholeBook'](_0x480c83['bookInfo'])) return !(0x1 === _0x480c83[_0x4db5('0x3f1')]['paid']);
-                                    for (var _0x1d7a13 = !0x1, _0xb36de7 = 0x0, _0x3fc995 = _0x480c83['chapterInfos']['length']; _0xb36de7 < _0x3fc995; _0xb36de7++) {
-                                        if (0x1 === _0x480c83['chapterInfos'][_0xb36de7][_0x4db5('0x21f')]) {
-                                            _0x1d7a13 = !0x0;
+
+                            // 是否下架不可读
+                            'isSoldOutForbiddenRead': function (state, getters) {
+                                if (getters.isSoldOut) {
+                                    if (getters.isTrialReadBook) {
+                                        return !getters.isTrialChapter
+                                    }
+                                    if (_0x2f54a8.default.isBuyUnitWholeBook(state.bookInfo)) {
+                                        return !(1 === state.bookInfo.paid)
+                                    }
+                                    let hasPaid = false
+                                    for (let i = 0; i < state.chapterInfos.length; i++) {
+                                        if (1 === state.chapterInfos[i].paid) {
+                                            hasPaid = true;
                                             break;
                                         }
                                     }
-                                    return !_0x1d7a13;
+                                    return !hasPaid;
                                 }
-                                return !0x1;
+                                return false
                             },
                             'getRelatedAlbum': function (_0x1422af) {
                                 return _0x1422af[_0x4db5('0xcf')] || '';
@@ -14767,342 +14774,580 @@ window.webpackJsonp.push(
                 var _0xaf64d5 = _0x480afc(0x4bb);
                 _0x480afc['n'](_0xaf64d5)['a'];
             },
-            1961: function (_0x30aa5d, _0x374a91, _0x33952f) {
+
+            1961: function (module, exports, require) {
                 'use strict';
-                var _0x38fa8a = function () {
-                    var _0xa8c2d3 = this, _0x375e01 = _0xa8c2d3['$createElement'],
-                        _0x70cbe1 = _0xa8c2d3['_self']['_c'] || _0x375e01;
-                    return _0x70cbe1('div', {'class': [_0x4db5('0x1b5')]}, [_0xa8c2d3['isBookForbidden'] ? _0xa8c2d3['_e']() : _0x70cbe1(_0x4db5('0x4'), {
-                        'ref': 'appContent',
-                        'staticClass': 'app_content'
-                    }, [_0x70cbe1(_0x4db5('0x4'), {
-                        'ref': 'topAnchor',
-                        'staticClass': 'topAnchor'
-                    }), _0x70cbe1('reader-top-bar', {
-                        'ref': 'reader_top_bar',
-                        'attrs': {
-                            'book-info': _0xa8c2d3['bookInfo'],
-                            'current-chapter': _0xa8c2d3['currentChapter'],
-                            'current-chapter-anchor': _0xa8c2d3['currentChapterAnchor'],
-                            'has-login': _0xa8c2d3['hasLogin'],
-                            'is-sold-out': _0xa8c2d3['isSoldOut'],
-                            'is-in-shelf': _0xa8c2d3['isInShelf'],
-                            'is-dynamic-type-book': _0xa8c2d3['isDynamicTypeBook'] && _0xa8c2d3['isDynamicPDF']
-                        },
-                        'on': {'onClickItem': _0xa8c2d3['handleClickTopBarItem']}
-                    }), _0xa8c2d3['isPDFBookType'] ? _0x70cbe1('reader-pdf-viewer', {
-                        'ref': 'readerPdfViewer',
-                        'attrs': {
-                            'current-chapter': _0xa8c2d3['currentChapter'],
-                            'book-info': _0xa8c2d3['bookInfo'],
-                            'pdf-url': _0xa8c2d3['pdfUrl'],
-                            'is-pdf-error': _0xa8c2d3['isPdfError']
-                        },
-                        'on': {'pdfMounted': _0xa8c2d3['setupProgressReportOnDomReady']}
-                    }) : _0xa8c2d3['_e'](), _0xa8c2d3['hasCurrentChapter'] && !_0xa8c2d3[_0x4db5('0x150')] && _0xa8c2d3[_0x4db5('0x40b')] ? _0x70cbe1('div', {'class': [{'navBarOffset': !_0xa8c2d3['isFromWeReadApp'] || _0xa8c2d3['isFromBookDetailH5']}]}) : _0xa8c2d3['_e'](), _0xa8c2d3['hasCurrentChapter'] && !_0xa8c2d3['isChapterContentDirty'] && _0xa8c2d3['isShowRenderTarget'] && _0xa8c2d3['showPrevButton'] && (_0xa8c2d3[_0x4db5('0x393')] || _0xa8c2d3['hasPrevSection']) ? _0x70cbe1('div', {'staticClass': _0x4db5('0x280')}, [_0xa8c2d3[_0x4db5('0x487')] ? [_0xa8c2d3['hasPrevSection'] ? _0x70cbe1('button', {
-                        'staticClass': 'readerHeaderButton',
-                        'on': {'click': _0xa8c2d3['handlePrevSection']}
-                    }, [_0xa8c2d3['_v']('上一页')]) : _0xa8c2d3['hasCurrentChapter'] ? _0x70cbe1('button', {
-                        'staticClass': _0x4db5('0x168'),
-                        'on': {'click': _0xa8c2d3['handlePrevChapter']}
-                    }, [_0xa8c2d3['_v']('上一章')]) : _0xa8c2d3['_e']()] : [_0xa8c2d3['hasPrevSection'] ? _0x70cbe1('button', {
-                        'staticClass': 'readerHeaderButton',
-                        'on': {
-                            'click': function (_0x57ecd8) {
-                                return _0xa8c2d3['handleClickPrevSectionButton'](_0x57ecd8);
-                            }
-                        }
-                    }, [_0xa8c2d3['_v'](_0x4db5('0x181'))]) : _0xa8c2d3[_0x4db5('0x393')] ? _0x70cbe1('button', {
-                        'staticClass': 'readerHeaderButton',
-                        'on': {
-                            'click': function (_0x1a7ec8) {
-                                return _0xa8c2d3['handleClickPrevChapterButton'](_0x1a7ec8);
-                            }
-                        }
-                    }, [_0xa8c2d3['_v']('上一章')]) : _0xa8c2d3['_e']()]], 0x2) : _0xa8c2d3['_e'](), _0xa8c2d3['hasCurrentChapter'] ? _0x70cbe1('div', {
-                        'ref': 'readerChapterContent',
-                        'class': [_0x4db5('0x63'), 'fontLevel' + _0xa8c2d3['fontSizeLevel']]
-                    }, [_0xa8c2d3['isShowLoading'] ? _0x70cbe1('div', {'staticClass': 'readerChapterContentLoading'}, [_0x70cbe1(_0x4db5('0x38a'), {'attrs': {'zoom': '0.3'}})], 0x1) : _0xa8c2d3['_e'](), !_0xa8c2d3['isShowRenderTarget'] || _0xa8c2d3['treatAsEpub'] || _0xa8c2d3['isSoldOut'] && !_0xa8c2d3['isTrialReadBook'] || _0xa8c2d3['hasPrevSection'] ? _0xa8c2d3['_e']() : _0x70cbe1('div', {'staticClass': 'chapterTitle'}, [_0xa8c2d3['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20' + _0xa8c2d3['_s'](_0xa8c2d3['chapterTitleText']) + '\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]), _0xa8c2d3['isShowPreRender'] && _0xa8c2d3['dangerMode'] ? _0xa8c2d3['_l'](new Array(_0xa8c2d3['getRandomNumber'](0x0, 0x3)), function (_0x11b4c2, _0x59d60d) {
-                        return _0x70cbe1('div', {
-                            'key': 'preRenderContainer' + _0x59d60d,
-                            'staticClass': _0x4db5('0x1ef')
-                        }, [_0xa8c2d3['treatAsEpub'] && _0xa8c2d3[_0x4db5('0x48b')] ? _0x70cbe1(_0x4db5('0x261'), [_0xa8c2d3['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20' + _0xa8c2d3['_s'](_0xa8c2d3[_0x4db5('0x48b')]) + _0x4db5('0x1b1'))]) : _0xa8c2d3['_e'](), _0x70cbe1('div', {
-                            'ref': 'preRenderContent',
-                            'refInFor': !0x0,
-                            'staticClass': 'preRenderContent',
-                            'attrs': {'id': 'preRenderContent'},
-                            'domProps': {'innerHTML': _0xa8c2d3['_s'](_0xa8c2d3['shiftString'](_0xa8c2d3[_0x4db5('0x43e')]))}
-                        })], 0x1);
-                    }) : _0xa8c2d3['_e'](), _0xa8c2d3['isShowPreRender'] ? _0x70cbe1('div', {
-                        'key': 'preRenderContainer',
-                        'ref': 'preRenderContainer',
-                        'staticClass': 'preRenderContainer'
-                    }, [_0xa8c2d3[_0x4db5('0x88')] && _0xa8c2d3['chapterContentStyles'] ? _0x70cbe1('CustomStyle', [_0xa8c2d3['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20' + _0xa8c2d3['_s'](_0xa8c2d3['chapterContentStyles']) + _0x4db5('0x10a'))]) : _0xa8c2d3['_e'](), _0x70cbe1('div', {
-                        'ref': 'preRenderContent',
-                        'staticClass': 'preRenderContent',
-                        'attrs': {'id': 'preRenderContent'},
-                        'domProps': {'innerHTML': _0xa8c2d3['_s'](_0xa8c2d3['tempContent'])}
-                    })], 0x1) : _0xa8c2d3['_e'](), _0xa8c2d3['isShowPreRender'] && _0xa8c2d3['dangerMode'] ? _0xa8c2d3['_l'](new Array(_0xa8c2d3['getRandomNumber'](0x0, 0x3)), function (_0x26d514, _0x4a5368) {
-                        return _0x70cbe1('div', {
-                            'key': 'preRenderContainer' + _0x4a5368 + '2',
-                            'staticClass': 'preRenderContainer'
-                        }, [_0xa8c2d3['treatAsEpub'] && _0xa8c2d3[_0x4db5('0x48b')] ? _0x70cbe1('CustomStyle', [_0xa8c2d3['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20' + _0xa8c2d3['_s'](_0xa8c2d3['chapterContentStyles']) + '\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]) : _0xa8c2d3['_e'](), _0x70cbe1('div', {
-                            'ref': 'preRenderContent',
-                            'refInFor': !0x0,
-                            'staticClass': _0x4db5('0x437'),
-                            'attrs': {'id': 'preRenderContent'},
-                            'domProps': {'innerHTML': _0xa8c2d3['_s'](_0xa8c2d3['shiftString'](_0xa8c2d3['tempContent']))}
-                        })], 0x1);
-                    }) : _0xa8c2d3['_e'](), _0x70cbe1('div', {
-                        'key': _0x4db5('0x163'),
-                        'ref': 'renderTargetContainerSibling'
-                    }), _0x70cbe1('div', {
-                        'directives': [{
-                            'name': 'show',
-                            'rawName': 'v-show',
-                            'value': _0x4db5('0x41b') === _0xa8c2d3['chapterContentState'],
-                            'expression': 'chapterContentState\x20===\x20\x27DONE\x27'
-                        }],
-                        'key': 'renderTargetContainer',
-                        'ref': 'renderTargetContainer',
-                        'class': ['renderTargetContainer', {
-                            'renderTargetContainer_needPay': _0xa8c2d3[_0x4db5('0x172')],
-                            'hide': _0xa8c2d3['isSoldOutForbiddenRead'] || _0xa8c2d3['isCopyRightForbiddenRead']
-                        }]
-                    }, [_0x70cbe1('div', {
-                        'ref': 'renderTargetWatermark',
-                        'staticClass': 'renderTargetWatermark',
-                        'attrs': {'id': 'renderTargetWatermark'}
-                    }), _0x70cbe1('div', {
-                        'key': 'chapterContentHighLightBgHtml',
-                        'domProps': {'innerHTML': _0xa8c2d3['_s'](_0xa8c2d3['chapterContentHighLightBgHtml'])}
-                    }), _0x70cbe1('div', {
-                        'key': 'renderTargetCanvasContainer',
-                        'ref': 'renderTargetCanvasContainer',
-                        'staticClass': 'wr_canvasContainer',
-                        'domProps': {'innerHTML': _0xa8c2d3['_s'](_0xa8c2d3[_0x4db5('0x3a2')])}
-                    }), _0xa8c2d3[_0x4db5('0x88')] && _0xa8c2d3['chapterContentStyles'] ? _0x70cbe1('CustomStyle', [_0xa8c2d3['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20' + _0xa8c2d3['_s'](_0xa8c2d3['chapterContentStyles']) + '\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]) : _0xa8c2d3['_e'](), _0x70cbe1(_0x4db5('0x4'), {
-                        'ref': 'renderTargetContent',
-                        'staticClass': 'renderTargetContent',
-                        'attrs': {'id': 'renderTargetContent'}
-                    }, [_0x70cbe1('ReaderRenderContent', {
-                        'attrs': {
-                            'content': _0xa8c2d3['chapterContentTargetHtml'],
-                            'client-height': _0xa8c2d3[_0x4db5('0x37f')],
-                            'container-offset-top': _0xa8c2d3['renderTargetOffsetTop'],
-                            'scroll-top': _0xa8c2d3[_0x4db5('0x1b9')]
-                        }
-                    })], 0x1), _0x70cbe1('div', {
-                        'key': _0x4db5('0x149'),
-                        'domProps': {'innerHTML': _0xa8c2d3['_s'](_0xa8c2d3['chapterContentSelectionHtml'])}
-                    }), _0xa8c2d3['isNeedShowMyNote'] ? _0x70cbe1('div', {'key': _0x4db5('0x247')}, _0xa8c2d3['_l'](_0xa8c2d3['underlineRenderDatas'], function (_0x3fd5cc) {
-                        return _0x70cbe1('ReaderUnderLine', {
-                            'key': _0x3fd5cc['key'],
+                const a = function () {
+                    let _0xa8c2d3 = this,
+                        _this = this,
+                        _0x375e01 = _this.$createElement,
+                        h = _this._self._c || _0x375e01;
+
+                    return h('div', {
+                        'class': ['readerContent']
+                    }, [
+                        _this.isBookForbidden
+                            ? _this._e()
+                            : h('div', {
+                                'ref': 'appContent',
+                                'staticClass': 'app_content'
+                            }, [
+                                h('div', {
+                                    'ref': 'topAnchor',
+                                    'staticClass': 'topAnchor'
+                                }),
+                                h('reader-top-bar', {
+                                    'ref': 'reader_top_bar',
+                                    'attrs': {
+                                        'book-info': _this['bookInfo'],
+                                        'current-chapter': _this['currentChapter'],
+                                        'current-chapter-anchor': _this['currentChapterAnchor'],
+                                        'has-login': _this['hasLogin'],
+                                        'is-sold-out': _this['isSoldOut'],
+                                        'is-in-shelf': _this['isInShelf'],
+                                        'is-dynamic-type-book': _this['isDynamicTypeBook'] && _this['isDynamicPDF']
+                                    },
+                                    'on': {'onClickItem': _this.handleClickTopBarItem}
+                                }),
+
+                                _this.isPDFBookType
+                                    ? h('reader-pdf-viewer', {
+                                        'ref': 'readerPdfViewer',
+                                        'attrs': {
+                                            'current-chapter': _this['currentChapter'],
+                                            'book-info': _this['bookInfo'],
+                                            'pdf-url': _this['pdfUrl'],
+                                            'is-pdf-error': _this['isPdfError']
+                                        },
+                                        'on': {'pdfMounted': _this.setupProgressReportOnDomReady}
+                                    })
+                                    : _this._e(),
+
+                                _this.hasCurrentChapter && !_this.isChapterContentDirty && _this.isShowRenderTarget
+                                    ? h('div', {
+                                        'class': [{
+                                            'navBarOffset': !_this.isFromWeReadApp || _this.isFromBookDetailH5
+                                        }]
+                                    })
+                                    : _this._e(),
+
+                                _this.hasCurrentChapter && !_this.isChapterContentDirty && _this.isShowRenderTarget && _this.showPrevButton && (_this.hasPrevChapter || _this.hasPrevSection)
+                                    ? h('div', {
+                                        'staticClass': 'readerContentHeader'
+                                    }, [
+                                        _this.isPhone
+                                            ? [
+                                                _this.hasPrevSection
+                                                    ? h('button', {
+                                                        'staticClass': 'readerHeaderButton',
+                                                        'on': {'click': _this.handlePrevSection}
+                                                    }, [_this._v('上一页')])
+                                                    : _this.hasCurrentChapter
+                                                        ? h('button', {
+                                                            'staticClass': 'readerHeaderButton',
+                                                            'on': {'click': _this.handlePrevChapter}
+                                                        }, [_this._v('上一章')])
+                                                        : _this._e()
+                                            ]
+                                            : [
+                                                _this.hasPrevSection
+                                                    ? h('button', {
+                                                        'staticClass': 'readerHeaderButton',
+                                                        'on': {
+                                                            'click': function (_0x57ecd8) {
+                                                                return _0xa8c2d3.handleClickPrevSectionButton(_0x57ecd8);
+                                                            }
+                                                        }
+                                                    }, [_this._v('上一页')])
+                                                    : _this.hasPrevChapter
+                                                        ? h('button', {
+                                                            'staticClass': 'readerHeaderButton',
+                                                            'on': {
+                                                                'click': function (_0x1a7ec8) {
+                                                                    return _0xa8c2d3.handleClickPrevChapterButton(_0x1a7ec8);
+                                                                }
+                                                            }
+                                                        }, [_this['_v']('上一章')])
+                                                        : _this._e()
+                                            ]
+                                    ], 2)
+                                    : _this_e(),
+
+                                _this.hasCurrentChapter
+                                    ? h('div', {
+                                        'ref': 'readerChapterContent',
+                                        'class': [_0x4db5('0x63'), 'fontLevel' + _0xa8c2d3['fontSizeLevel']]
+                                    }, [_0xa8c2d3['isShowLoading'] ? h('div', {'staticClass': 'readerChapterContentLoading'}, [h(_0x4db5('0x38a'), {'attrs': {'zoom': '0.3'}})], 0x1) : _0xa8c2d3['_e'](), !_0xa8c2d3['isShowRenderTarget'] || _0xa8c2d3['treatAsEpub'] || _0xa8c2d3['isSoldOut'] && !_0xa8c2d3['isTrialReadBook'] || _0xa8c2d3['hasPrevSection'] ? _0xa8c2d3['_e']() : h('div', {'staticClass': 'chapterTitle'}, [_0xa8c2d3['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20' + _0xa8c2d3['_s'](_0xa8c2d3['chapterTitleText']) + '\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]), _0xa8c2d3['isShowPreRender'] && _0xa8c2d3['dangerMode'] ? _0xa8c2d3['_l'](new Array(_0xa8c2d3['getRandomNumber'](0x0, 0x3)), function (_0x11b4c2, _0x59d60d) {
+                                        return h('div', {
+                                            'key': 'preRenderContainer' + _0x59d60d,
+                                            'staticClass': _0x4db5('0x1ef')
+                                        }, [_0xa8c2d3['treatAsEpub'] && _0xa8c2d3[_0x4db5('0x48b')] ? h(_0x4db5('0x261'), [_0xa8c2d3['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20' + _0xa8c2d3['_s'](_0xa8c2d3[_0x4db5('0x48b')]) + _0x4db5('0x1b1'))]) : _0xa8c2d3['_e'](), h('div', {
+                                            'ref': 'preRenderContent',
+                                            'refInFor': !0x0,
+                                            'staticClass': 'preRenderContent',
+                                            'attrs': {'id': 'preRenderContent'},
+                                            'domProps': {'innerHTML': _0xa8c2d3['_s'](_0xa8c2d3['shiftString'](_0xa8c2d3[_0x4db5('0x43e')]))}
+                                        })], 0x1);
+                                    }) : _0xa8c2d3['_e'](), _0xa8c2d3['isShowPreRender'] ? h('div', {
+                                        'key': 'preRenderContainer',
+                                        'ref': 'preRenderContainer',
+                                        'staticClass': 'preRenderContainer'
+                                    }, [_0xa8c2d3[_0x4db5('0x88')] && _0xa8c2d3['chapterContentStyles'] ? h('CustomStyle', [_0xa8c2d3['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20' + _0xa8c2d3['_s'](_0xa8c2d3['chapterContentStyles']) + _0x4db5('0x10a'))]) : _0xa8c2d3['_e'](), h('div', {
+                                        'ref': 'preRenderContent',
+                                        'staticClass': 'preRenderContent',
+                                        'attrs': {'id': 'preRenderContent'},
+                                        'domProps': {'innerHTML': _0xa8c2d3['_s'](_0xa8c2d3['tempContent'])}
+                                    })], 0x1) : _0xa8c2d3['_e'](), _0xa8c2d3['isShowPreRender'] && _0xa8c2d3['dangerMode'] ? _0xa8c2d3['_l'](new Array(_0xa8c2d3['getRandomNumber'](0x0, 0x3)), function (_0x26d514, _0x4a5368) {
+                                        return h('div', {
+                                            'key': 'preRenderContainer' + _0x4a5368 + '2',
+                                            'staticClass': 'preRenderContainer'
+                                        }, [_0xa8c2d3['treatAsEpub'] && _0xa8c2d3[_0x4db5('0x48b')] ? h('CustomStyle', [_0xa8c2d3['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20' + _0xa8c2d3['_s'](_0xa8c2d3['chapterContentStyles']) + '\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]) : _0xa8c2d3['_e'](), h('div', {
+                                            'ref': 'preRenderContent',
+                                            'refInFor': !0x0,
+                                            'staticClass': _0x4db5('0x437'),
+                                            'attrs': {'id': 'preRenderContent'},
+                                            'domProps': {'innerHTML': _0xa8c2d3['_s'](_0xa8c2d3['shiftString'](_0xa8c2d3['tempContent']))}
+                                        })], 0x1);
+                                    }) : _0xa8c2d3['_e'](), h('div', {
+                                        'key': _0x4db5('0x163'),
+                                        'ref': 'renderTargetContainerSibling'
+                                    }), h('div', {
+                                        'directives': [{
+                                            'name': 'show',
+                                            'rawName': 'v-show',
+                                            'value': _0x4db5('0x41b') === _0xa8c2d3['chapterContentState'],
+                                            'expression': 'chapterContentState\x20===\x20\x27DONE\x27'
+                                        }],
+                                        'key': 'renderTargetContainer',
+                                        'ref': 'renderTargetContainer',
+                                        'class': ['renderTargetContainer', {
+                                            'renderTargetContainer_needPay': _0xa8c2d3[_0x4db5('0x172')],
+                                            'hide': _0xa8c2d3['isSoldOutForbiddenRead'] || _0xa8c2d3['isCopyRightForbiddenRead']
+                                        }]
+                                    }, [h('div', {
+                                        'ref': 'renderTargetWatermark',
+                                        'staticClass': 'renderTargetWatermark',
+                                        'attrs': {'id': 'renderTargetWatermark'}
+                                    }), h('div', {
+                                        'key': 'chapterContentHighLightBgHtml',
+                                        'domProps': {'innerHTML': _0xa8c2d3['_s'](_0xa8c2d3['chapterContentHighLightBgHtml'])}
+                                    }), h('div', {
+                                        'key': 'renderTargetCanvasContainer',
+                                        'ref': 'renderTargetCanvasContainer',
+                                        'staticClass': 'wr_canvasContainer',
+                                        'domProps': {'innerHTML': _0xa8c2d3['_s'](_0xa8c2d3[_0x4db5('0x3a2')])}
+                                    }), _0xa8c2d3[_0x4db5('0x88')] && _0xa8c2d3['chapterContentStyles'] ? h('CustomStyle', [_0xa8c2d3['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20' + _0xa8c2d3['_s'](_0xa8c2d3['chapterContentStyles']) + '\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]) : _0xa8c2d3['_e'](), h(_0x4db5('0x4'), {
+                                        'ref': 'renderTargetContent',
+                                        'staticClass': 'renderTargetContent',
+                                        'attrs': {'id': 'renderTargetContent'}
+                                    }, [h('ReaderRenderContent', {
+                                        'attrs': {
+                                            'content': _0xa8c2d3['chapterContentTargetHtml'],
+                                            'client-height': _0xa8c2d3[_0x4db5('0x37f')],
+                                            'container-offset-top': _0xa8c2d3['renderTargetOffsetTop'],
+                                            'scroll-top': _0xa8c2d3[_0x4db5('0x1b9')]
+                                        }
+                                    })], 0x1), h('div', {
+                                        'key': _0x4db5('0x149'),
+                                        'domProps': {'innerHTML': _0xa8c2d3['_s'](_0xa8c2d3['chapterContentSelectionHtml'])}
+                                    }), _0xa8c2d3['isNeedShowMyNote'] ? h('div', {'key': _0x4db5('0x247')}, _0xa8c2d3['_l'](_0xa8c2d3['underlineRenderDatas'], function (_0x3fd5cc) {
+                                        return h('ReaderUnderLine', {
+                                            'key': _0x3fd5cc['key'],
+                                            'attrs': {
+                                                'rect': _0x3fd5cc['rect'],
+                                                'lineStyle': _0x3fd5cc['style'],
+                                                'colorStyle': _0x3fd5cc['colorStyle']
+                                            },
+                                            'nativeOn': {
+                                                'click': function (_0x18edc6) {
+                                                    return _0x18edc6['stopPropagation'](), _0xa8c2d3['handleClickUnderline'](_0x3fd5cc);
+                                                }
+                                            }
+                                        });
+                                    }), 0x1) : _0xa8c2d3['_e']()], 0x1), _0xa8c2d3['isShowError'] ? h('div', {
+                                        'key': _0x4db5('0x242'),
+                                        'staticClass': 'chapterContentError'
+                                    }, [_0xa8c2d3['_v'](_0x4db5('0x20f')), h('button', {
+                                        'staticClass': 'retry',
+                                        'on': {'click': _0xa8c2d3[_0x4db5('0x2c2')]}
+                                    }, [_0xa8c2d3['_v']('点击重试')])]) : _0xa8c2d3['_e']()], 0x2)
+                                    : _this['_e'](),
+
+                                _this.hasCurrentChapter && _this.isShowRenderTarget
+                                    ? h('div', {'staticClass': 'readerFooter'}, [
+                                        _this.unsupported
+                                            ? [_this._m(0)]
+                                            : _this.isChapterContentDirty
+                                                ? _this._e()
+                                                : [
+                                                    _this.isTrialReadBook && !_this.isTrialChapter
+                                                        ? h('div', [
+                                                            _this._m(1),
+                                                            h('button', {
+                                                                'staticClass': 'readerFooter_button blue',
+                                                                'on': {'click': _this.downloadApp}
+                                                            }, [
+                                                                _this._v('\n                            去微信读书 App 购买本书\n                        ')
+                                                            ])
+                                                        ])
+                                                        : _this.isPaperBook && _this.isSoldOut && !_this.isTrialReadBook && _this.isSoldOutForbiddenRead
+                                                            ? h('div', [
+                                                                _this._v('\n                        本书已下架'),
+                                                                h('br'),
+                                                                _this._v('内容不再支持阅读\n                    ')
+                                                            ])
+                                                            : _this.isNeedPay && _this.isSoldOut && !_this.isTrialReadBook && _this.isSoldOutForbiddenRead
+                                                                ? h('div', {'staticClass': 'readerFooter_desc'}, [
+                                                                    _this._v('\n                        本书已下架'),
+                                                                    h('br'),
+                                                                    _this._v('内容不再支持阅读\n                    ')
+                                                                ])
+                                                                : _this.isCopyRightForbiddenRead
+                                                                    ? h('div', {'staticClass': 'readerFooter_desc'}, [
+                                                                        _this._v('\n                        因版权原因，本书不支持在网页端阅读'),
+                                                                        h('br'),
+                                                                        _this._v('请至微信读书 App 阅读本书\n                    ')
+                                                                    ])
+                                                                    : _this.isSoldOutForbiddenRead
+                                                                        ? h('div', {'staticClass': 'readerFooter_desc'}, [
+                                                                            _this._v('\n                        本书已下架'),
+                                                                            h('br'),
+                                                                            _this._v('内容不再支持阅读\n                    ')
+                                                                        ])
+                                                                        : _this.isPhone
+                                                                            ? h('div', [
+                                                                                _this.isNeedPay
+                                                                                    ? h('button', {
+                                                                                        'class': [
+                                                                                            'readerFooter_button',
+                                                                                            'readerFooter_button_twoLines',
+                                                                                            {'blue': _this.payButtonDisplayInfos.isMCard}
+                                                                                        ],
+                                                                                        'on': {'click': _this.showPayDialog}
+                                                                                    }, [
+                                                                                        h('span', {
+                                                                                            'class': ['line1', {'withIcon': _this.payButtonDisplayInfos.isMCard}],
+                                                                                            'domProps': {'innerHTML': _this._s(_this.payButtonDisplayInfos.lines[0])}
+                                                                                        }),
+                                                                                        _this.payButtonDisplayInfos.lines.length > 1
+                                                                                            ? h('span', {
+                                                                                                'staticClass': 'line2',
+                                                                                                'domProps': {'innerHTML': _this._s(_this.payButtonDisplayInfos.lines[1])}
+                                                                                            })
+                                                                                            : _this._e()
+                                                                                    ])
+                                                                                    : _this._e(),
+                                                                                _this.hasNextSection && _this.isPhone
+                                                                                    ? h('button', {
+                                                                                        'staticClass': 'readerFooter_button',
+                                                                                        'attrs': {'title': '下一页'},
+                                                                                        'on': {'click': _this.handleNextSection}
+                                                                                    }, [_this._v('\n                            下一页\n                        ')])
+                                                                                    : _this._e(),
+                                                                                _this.hasNextSection || _this.isNeedPay || !_this.hasNextChapter
+                                                                                    ? _this._e()
+                                                                                    : h('button', {
+                                                                                        'staticClass': 'readerFooter_button',
+                                                                                        'attrs': {'title': '下一章'},
+                                                                                        'on': {'click': _this.handleNextChapter}
+                                                                                    }, [
+                                                                                        _this._v('\n                            下一章\n                        ')]),
+                                                                                h('button', {
+                                                                                    'staticClass': 'readerFooter_button blue',
+                                                                                    'on': {'click': _0xa8c2d3.downloadAppToRead}
+                                                                                }, [_this._v('\n 去微信读书 App 阅读本书')])
+                                                                            ])
+                                                                            : h('div', [
+                                                                                _this.isNeedPay && _this.hasLogin && _this.canReceiveMemberCard
+                                                                                    ? h('button', {
+                                                                                        'staticClass': 'readerFooter_button readerFooter_button_twoLines blue',
+                                                                                        'on': {'click': _0xa8c2d3.handleClickReceiveMemberCardButton}
+                                                                                    }, [
+                                                                                        h('span', {'staticClass': 'line1 withIcon'}, [_this._v('送你一张体验卡 · 百万好书免费读')])
+                                                                                    ])
+                                                                                    : _this._e(),
+                                                                                _0xa8c2d3.isShowBuyMemberCardButton
+                                                                                    ? h('button', {
+                                                                                        'staticClass': 'readerFooter_button\x20readerFooter_button_twoLines\x20blue',
+                                                                                        'on': {'click': _0xa8c2d3['downloadAppToMemberCard']}
+                                                                                    }, [h('span', {'staticClass': 'line1\x20withIcon'}, [_this['_v'](_this['_s'](_0xa8c2d3['buyMemberCardButtonLine1']))])])
+                                                                                    : _this['_e'](),
+                                                                                _this.isNeedPay && _this.hasLogin && !_this.canReceiveMemberCard
+                                                                                    ? h('button', {
+                                                                                        'class': ['readerFooter_button', 'readerFooter_button_twoLines'],
+                                                                                        'on': {'click': _0xa8c2d3.showPayDialog}
+                                                                                    }, [
+                                                                                        h('span', {
+                                                                                        'class': ['line1'],
+                                                                                        'domProps': {'innerHTML': _0xa8c2d3['_s'](_0xa8c2d3['payButtonDisplayInfos']['lines'][0x0])}
+                                                                                    }),
+                                                                                        _0xa8c2d3[_0x4db5('0x224')]['lines']['length'] > 0x1 ? h('span', {
+                                                                                        'staticClass': 'line2',
+                                                                                        'domProps': {'innerHTML': _0xa8c2d3['_s'](_0xa8c2d3['payButtonDisplayInfos']['lines'][0x1])}
+                                                                                    }) : _0xa8c2d3['_e']()])
+                                                                                    : _this._e(),
+                                                                                _this.isNeedShowLoginGuide
+                                                                                    ? h('button', {
+                                                                                        'staticClass': 'readerFooter_button blue',
+                                                                                        'attrs': {'title': '登录后获得专属福利 · 百万好书免费读'},
+                                                                                        'on': {'click': _0xa8c2d3.handleClickLoginBtn}
+                                                                                    }, [
+                                                                                        _this._v('登录后获得专属福利 · 百万好书免费读')
+                                                                                    ])
+                                                                                    : _this._e(),
+                                                                                !_this.hasNextSection || _this.isPhone || _this.isNeedShowLoginGuide
+                                                                                    ? _this._e()
+                                                                                    : h('button', {
+                                                                                        'staticClass': 'readerFooter_button',
+                                                                                        'attrs': {'title': '下一页'},
+                                                                                        'on': {
+                                                                                            'click': function (_0x4b1165) {
+                                                                                                return _0xa8c2d3.handleClickNextSectionButton(_0x4b1165);
+                                                                                            }
+                                                                                        }
+                                                                                    }, [_this._v('下一页')]),
+                                                                                _this.hasNextSection && !_this.isNeedShowLoginGuide || !_this.hasNextChapter
+                                                                                    ? _this._e()
+                                                                                    : h('button', {
+                                                                                        'staticClass': 'readerFooter_button',
+                                                                                        'attrs': {'title': '下一章'},
+                                                                                        'on': {
+                                                                                            'click': function (_0x1922b3) {
+                                                                                                return _0xa8c2d3.handleClickNextChapterButton(_0x1922b3);
+                                                                                            }
+                                                                                        }
+                                                                                    }, [_this._v('\n 下一章 ')]),
+                                                                                !_this.isTrialReadBook || _this.hasNextChapter || _this.hasNextSection
+                                                                                    ? !_this.hasLogin || _this.hasNextChapter || _this.hasNextSection
+                                                                                        ? _this._e()
+                                                                                        : h('div', {'staticClass': 'readerFooter_ending'}, [
+                                                                                            _this.isBookFinished
+                                                                                                ? h('div', {'staticClass': 'readerFooter_ending readerFooter_ending_finish'}, [
+                                                                                                    h('div', {'staticClass': 'readerFooter_ending_title'}, [
+                                                                                                        _this._v('全 书 完')
+                                                                                                    ]),
+                                                                                                    _this.readingTimeString
+                                                                                                        ? h('div', {'staticClass': 'readerFooter_ending_time'}, [
+                                                                                                            _this._v(_this._s(_this.readingTimeString))
+                                                                                                        ])
+                                                                                                        : _this._e()
+                                                                                                ])
+                                                                                                : h('div', {'staticClass': 'readerFooter_ending readerFooter_ending_continue'}, [
+                                                                                                    h('div', {'staticClass': 'readerFooter_ending_title'}, [
+                                                                                                        _this._v('未 完 待 续')
+                                                                                                    ]),
+                                                                                                    _this.readingTimeString
+                                                                                                        ? h('div', {'staticClass': 'readerFooter_ending_time'}, [
+                                                                                                            _this._v(_this._s(_this.readingTimeString))
+                                                                                                        ])
+                                                                                                        : _this._e()
+                                                                                                ])
+                                                                                        ])
+                                                                                    : h('div', [
+                                                                                        _this._m(2),
+                                                                                        h('button', {
+                                                                                            'staticClass': 'readerFooter_button blue',
+                                                                                            'on': {'click': _this.downloadApp}
+                                                                                        }, [
+                                                                                            _this._v('\n 去微信读书 App 购买本书\n')
+                                                                                        ])
+                                                                                    ])
+                                                                            ])
+                                                ]
+                                    ], 2)
+                                    : _this._e()
+                            ], 1),
+
+                        _this.isBookForbidden
+                            ? _this._e()
+                            : h('reader-controls', {
+                                'ref': 'readerControls',
+                                'staticClass': 'readerControls',
+                                'attrs': {
+                                    'isPDFBookType': _0xa8c2d3['isPDFBookType'],
+                                    'is-show-catalog-button': _0xa8c2d3[_0x4db5('0x2cf')],
+                                    'is-show-lecture-button': _0xa8c2d3['isShowLectureButton'],
+                                    'disable-chapter-link': _0xa8c2d3[_0x4db5('0x1cf')],
+                                    'is-show-search-hint': _0xa8c2d3['isShowAutoSearchHint'],
+                                    'search-hint-total-count': _0xa8c2d3['searchResult']['totalCount'] || 0x0,
+                                    'disable-font-size-slider': 'DONE' !== _0xa8c2d3['chapterContentState'],
+                                    'init-font-size-level': _0xa8c2d3[_0x4db5('0x441')],
+                                    'font-size-level-count': _0xa8c2d3['fontSizeLevelCount'],
+                                    'fontSizeLevelChangeHandler': _0xa8c2d3['changeFontSize']
+                                },
+                                'on': {'onClickItem': _0xa8c2d3.handleClickControls}
+                            }),
+
+                        h('reader-bottom-bar', {
+                            'class': _0xa8c2d3[_0x4db5('0x392')] ? 'active' : '',
                             'attrs': {
-                                'rect': _0x3fd5cc['rect'],
-                                'lineStyle': _0x3fd5cc['style'],
-                                'colorStyle': _0x3fd5cc['colorStyle']
+                                'show-shadow': !_0xa8c2d3['isShowBottomSettingPanel'],
+                                'show-add-shelf-button': _0xa8c2d3['showBottomBarAddShelfButton']
                             },
-                            'nativeOn': {
-                                'click': function (_0x18edc6) {
-                                    return _0x18edc6['stopPropagation'](), _0xa8c2d3['handleClickUnderline'](_0x3fd5cc);
+                            'on': {'onClickItem': _0xa8c2d3['handleClickBottomBarItem']}
+                        }),
+
+                        _this.isShowBottomSettingPanel
+                            ? h('reader-bottom-setting-panel', {'on': {'onClickItem': _0xa8c2d3['handleClickBottomSettingPanelItem']}})
+                            : _this._e(),
+
+                        h('reader-member-card-tips', {
+                            'ref': _0x4db5('0x48a'),
+                            'class': _0xa8c2d3['isPhoneBottomBarActive'] ? '' : 'atBottom'
+                        }),
+                        h('reader-catalog', {
+                            'ref': _0x4db5('0x237'),
+                            'attrs': {
+                                'book-info': _0xa8c2d3['bookInfo'],
+                                'member-card-summary': _0xa8c2d3['memberCardSummary'],
+                                'chapter-infos': _0xa8c2d3['chapterInfos'],
+                                'current-chapter': _0xa8c2d3['currentChapter'],
+                                'current-chapter-anchor': _0xa8c2d3['currentChapterAnchor'],
+                                'is-in-search-mode': _0xa8c2d3['isInSearchMode'],
+                                'is-search-loading': _0xa8c2d3['isSearchLoading'],
+                                'search-result': _0xa8c2d3['searchResult']
+                            },
+                            'on': {
+                                'clickChapter': _0xa8c2d3['handleClickChapter'],
+                                'clickBookInfo': _0xa8c2d3['handleClickFirstChapter'],
+                                'search': _0xa8c2d3['doSearch'],
+                                'clickSearchItem': _0xa8c2d3['handleClickSearchItem'],
+                                'enterSearch': _0xa8c2d3['enterSearch'],
+                                'exitSearch': _0xa8c2d3[_0x4db5('0x2fb')]
+                            }
+                        }),
+                        h('reader-note-panel', {
+                            'ref': 'readerNotePanel',
+                            'attrs': {
+                                'book-info': _0xa8c2d3['bookInfo'],
+                                'chapter-infos': _0xa8c2d3['chapterInfos'],
+                                'notes': _0xa8c2d3['notes']
+                            },
+                            'on': {'clickNoteItem': _0xa8c2d3['handleClickNoteItem']}
+                        }),
+
+                        _this.isShowPayWholeDialog
+                            ? h(_0x4db5('0x372'), {
+                                'ref': 'payWholeBookDialog',
+                                'attrs': {
+                                    'book-info': _0xa8c2d3[_0x4db5('0x3f1')],
+                                    'member-card-summary': _0xa8c2d3[_0x4db5('0x10')],
+                                    'balance': _0xa8c2d3[_0x4db5('0x1b8')]
+                                },
+                                'on': {'doPay': _0xa8c2d3['payWholeBook']}
+                            })
+                            : _this._e(),
+                        _this.isShowPayChapterDialog
+                            ? h('pay-chapter-dialog', {
+                                'ref': 'payChapterDialog',
+                                'attrs': {
+                                    'book-info': _0xa8c2d3['bookInfo'],
+                                    'chapters': _0xa8c2d3['chapterInfos'],
+                                    'member-card-summary': _0xa8c2d3['memberCardSummary'],
+                                    'balance': _0xa8c2d3['balance'],
+                                    'is-paid-balance-only': _0xa8c2d3['isPaidCoinPurchaseOnly']
+                                },
+                                'on': {'doPay': _0xa8c2d3['payChapter']}
+                            })
+                            : _this._e(),
+                        h('ReaderCommonDialog', {'ref': 'readerCommonDialog'}),
+                        _this.isBookForbidden
+                            ? h(_0x4db5('0x331'))
+                            : _this._e(),
+                        _this.showDevPanel
+                            ? h('div', {'staticClass': 'dev_panel'}, [h(_0x4db5('0x4'), [_0xa8c2d3['_v']('hasPrevSection:\x20' + _0xa8c2d3['_s'](_0xa8c2d3['hasPrevSection']))]), h('div', [_0xa8c2d3['_v']('hasNextSection:\x20' + _0xa8c2d3['_s'](_0xa8c2d3['hasNextSection']))]), h('div', [_0xa8c2d3['_v'](_0x4db5('0x57') + _0xa8c2d3['_s'](_0xa8c2d3['hasPrevChapter']))]), h('div', [_0xa8c2d3['_v']('hasNextChapter:\x20' + _0xa8c2d3['_s'](_0xa8c2d3['hasNextChapter']))]), h('div', [_0xa8c2d3['_v']('sectionIdx:\x20' + _0xa8c2d3['_s'](_0xa8c2d3['getCurrentSectionIdx']))]), h('div', [_0xa8c2d3['_v']('isPaidCoinPurchaseOnly:\x20' + _0xa8c2d3['_s'](_0xa8c2d3['isPaidCoinPurchaseOnly']))]), h('div', [_0xa8c2d3['_v']('isWeiXin:\x20' + _0xa8c2d3['_s'](_0xa8c2d3['isWeiXin']))]), h('div', [_0xa8c2d3['_v']('needSerialProcess:\x20' + _0xa8c2d3['_s'](_0xa8c2d3['needSerialProcess']))]), h(_0x4db5('0x4'), [_0xa8c2d3['_v']('export\x20renderContents:\x20'), h('a', {'on': {'click': _0xa8c2d3['devExportRender']}}, [_0xa8c2d3['_v']('RUN')])]), h('div', [_0xa8c2d3['_v']('reader\x20idle\x20time:\x20' + _0xa8c2d3['_s'](_0xa8c2d3['$route'][_0x4db5('0x34c')][_0x4db5('0x15e')] || 0x78))]), h('div', [_0xa8c2d3['_v']('reader\x20idle\x20clear\x20cookie\x20' + _0xa8c2d3['_s'](_0xa8c2d3['$route']['query']['debugIdleClearCookie']))]), h('div', [_0xa8c2d3['_v']('FindOffsetSectionIdx:\x20'), h('input', {
+                                'directives': [{
+                                    'name': 'model',
+                                    'rawName': 'v-model',
+                                    'value': _0xa8c2d3['debug']['offset'],
+                                    'expression': 'debug.offset'
+                                }], 'domProps': {'value': _0xa8c2d3['debug']['offset']}, 'on': {
+                                    'input': function (_0x4f0407) {
+                                        _0x4f0407['target']['composing'] || _0xa8c2d3['$set'](_0xa8c2d3['debug'], 'offset', _0x4f0407['target']['value']);
+                                    }
                                 }
-                            }
-                        });
-                    }), 0x1) : _0xa8c2d3['_e']()], 0x1), _0xa8c2d3['isShowError'] ? _0x70cbe1('div', {
-                        'key': _0x4db5('0x242'),
-                        'staticClass': 'chapterContentError'
-                    }, [_0xa8c2d3['_v'](_0x4db5('0x20f')), _0x70cbe1('button', {
-                        'staticClass': 'retry',
-                        'on': {'click': _0xa8c2d3[_0x4db5('0x2c2')]}
-                    }, [_0xa8c2d3['_v']('点击重试')])]) : _0xa8c2d3['_e']()], 0x2) : _0xa8c2d3['_e'](), _0xa8c2d3['hasCurrentChapter'] && _0xa8c2d3['isShowRenderTarget'] ? _0x70cbe1('div', {'staticClass': 'readerFooter'}, [_0xa8c2d3['unsupported'] ? [_0xa8c2d3['_m'](0x0)] : _0xa8c2d3[_0x4db5('0x150')] ? _0xa8c2d3['_e']() : [_0xa8c2d3['isTrialReadBook'] && !_0xa8c2d3[_0x4db5('0x24f')] ? _0x70cbe1('div', [_0xa8c2d3['_m'](0x1), _0x70cbe1(_0x4db5('0x3bb'), {
-                        'staticClass': 'readerFooter_button\x20blue',
-                        'on': {'click': _0xa8c2d3['downloadApp']}
-                    }, [_0xa8c2d3['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20去微信读书\x20App\x20购买本书\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])]) : _0xa8c2d3['isPaperBook'] && _0xa8c2d3['isSoldOut'] && !_0xa8c2d3['isTrialReadBook'] && _0xa8c2d3['isSoldOutForbiddenRead'] ? _0x70cbe1('div', [_0xa8c2d3['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20本书已下架'), _0x70cbe1('br'), _0xa8c2d3['_v'](_0x4db5('0x294'))]) : _0xa8c2d3['isNeedPay'] && _0xa8c2d3['isSoldOut'] && !_0xa8c2d3['isTrialReadBook'] && _0xa8c2d3['isSoldOutForbiddenRead'] ? _0x70cbe1(_0x4db5('0x4'), {'staticClass': _0x4db5('0x35d')}, [_0xa8c2d3['_v'](_0x4db5('0x299')), _0x70cbe1('br'), _0xa8c2d3['_v']('内容不再支持阅读\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]) : _0xa8c2d3['isCopyRightForbiddenRead'] ? _0x70cbe1('div', {'staticClass': 'readerFooter_desc'}, [_0xa8c2d3['_v'](_0x4db5('0x430')), _0x70cbe1('br'), _0xa8c2d3['_v'](_0x4db5('0x322'))]) : _0xa8c2d3['isSoldOutForbiddenRead'] ? _0x70cbe1('div', {'staticClass': 'readerFooter_desc'}, [_0xa8c2d3['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20本书已下架'), _0x70cbe1('br'), _0xa8c2d3['_v']('内容不再支持阅读\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]) : _0xa8c2d3['isPhone'] ? _0x70cbe1('div', [_0xa8c2d3['isNeedPay'] ? _0x70cbe1(_0x4db5('0x3bb'), {
-                        'class': [_0x4db5('0x257'), 'readerFooter_button_twoLines', {'blue': _0xa8c2d3[_0x4db5('0x224')]['isMCard']}],
-                        'on': {'click': _0xa8c2d3['showPayDialog']}
-                    }, [_0x70cbe1('span', {
-                        'class': ['line1', {'withIcon': _0xa8c2d3['payButtonDisplayInfos']['isMCard']}],
-                        'domProps': {'innerHTML': _0xa8c2d3['_s'](_0xa8c2d3['payButtonDisplayInfos'][_0x4db5('0x2d7')][0x0])}
-                    }), _0xa8c2d3[_0x4db5('0x224')][_0x4db5('0x2d7')]['length'] > 0x1 ? _0x70cbe1('span', {
-                        'staticClass': 'line2',
-                        'domProps': {'innerHTML': _0xa8c2d3['_s'](_0xa8c2d3['payButtonDisplayInfos']['lines'][0x1])}
-                    }) : _0xa8c2d3['_e']()]) : _0xa8c2d3['_e'](), _0xa8c2d3['hasNextSection'] && _0xa8c2d3['isPhone'] ? _0x70cbe1('button', {
-                        'staticClass': 'readerFooter_button',
-                        'attrs': {'title': '下一页'},
-                        'on': {'click': _0xa8c2d3['handleNextSection']}
-                    }, [_0xa8c2d3['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20下一页\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]) : _0xa8c2d3['_e'](), _0xa8c2d3['hasNextSection'] || _0xa8c2d3['isNeedPay'] || !_0xa8c2d3['hasNextChapter'] ? _0xa8c2d3['_e']() : _0x70cbe1('button', {
-                        'staticClass': 'readerFooter_button',
-                        'attrs': {'title': _0x4db5('0x2d4')},
-                        'on': {'click': _0xa8c2d3['handleNextChapter']}
-                    }, [_0xa8c2d3['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20下一章\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]), _0x70cbe1(_0x4db5('0x3bb'), {
-                        'staticClass': 'readerFooter_button\x20blue',
-                        'on': {'click': _0xa8c2d3['downloadAppToRead']}
-                    }, [_0xa8c2d3['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20去微信读书\x20App\x20阅读本书\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])]) : _0x70cbe1(_0x4db5('0x4'), [_0xa8c2d3['isNeedPay'] && _0xa8c2d3[_0x4db5('0x2a6')] && _0xa8c2d3['canReceiveMemberCard'] ? _0x70cbe1(_0x4db5('0x3bb'), {
-                        'staticClass': 'readerFooter_button\x20readerFooter_button_twoLines\x20blue',
-                        'on': {'click': _0xa8c2d3[_0x4db5('0x48e')]}
-                    }, [_0x70cbe1(_0x4db5('0x3c9'), {'staticClass': 'line1\x20withIcon'}, [_0xa8c2d3['_v']('送你一张体验卡\x20·\x20百万好书免费读')])]) : _0xa8c2d3['_e'](), _0xa8c2d3['isShowBuyMemberCardButton'] ? _0x70cbe1('button', {
-                        'staticClass': 'readerFooter_button\x20readerFooter_button_twoLines\x20blue',
-                        'on': {'click': _0xa8c2d3['downloadAppToMemberCard']}
-                    }, [_0x70cbe1('span', {'staticClass': 'line1\x20withIcon'}, [_0xa8c2d3['_v'](_0xa8c2d3['_s'](_0xa8c2d3['buyMemberCardButtonLine1']))])]) : _0xa8c2d3['_e'](), _0xa8c2d3['isNeedPay'] && _0xa8c2d3[_0x4db5('0x2a6')] && !_0xa8c2d3['canReceiveMemberCard'] ? _0x70cbe1('button', {
-                        'class': ['readerFooter_button', _0x4db5('0x1ed')],
-                        'on': {'click': _0xa8c2d3['showPayDialog']}
-                    }, [_0x70cbe1('span', {
-                        'class': ['line1'],
-                        'domProps': {'innerHTML': _0xa8c2d3['_s'](_0xa8c2d3['payButtonDisplayInfos']['lines'][0x0])}
-                    }), _0xa8c2d3[_0x4db5('0x224')]['lines']['length'] > 0x1 ? _0x70cbe1('span', {
-                        'staticClass': 'line2',
-                        'domProps': {'innerHTML': _0xa8c2d3['_s'](_0xa8c2d3['payButtonDisplayInfos']['lines'][0x1])}
-                    }) : _0xa8c2d3['_e']()]) : _0xa8c2d3['_e'](), _0xa8c2d3['isNeedShowLoginGuide'] ? _0x70cbe1('button', {
-                        'staticClass': 'readerFooter_button\x20blue',
-                        'attrs': {'title': '登录后获得专属福利\x20·\x20百万好书免费读'},
-                        'on': {'click': _0xa8c2d3['handleClickLoginBtn']}
-                    }, [_0xa8c2d3['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20登录后获得专属福利\x20·\x20百万好书免费读\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]) : _0xa8c2d3['_e'](), !_0xa8c2d3['hasNextSection'] || _0xa8c2d3['isPhone'] || _0xa8c2d3['isNeedShowLoginGuide'] ? _0xa8c2d3['_e']() : _0x70cbe1('button', {
-                        'staticClass': 'readerFooter_button',
-                        'attrs': {'title': '下一页'},
-                        'on': {
-                            'click': function (_0x4b1165) {
-                                return _0xa8c2d3['handleClickNextSectionButton'](_0x4b1165);
-                            }
-                        }
-                    }, [_0xa8c2d3['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20下一页\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]), _0xa8c2d3['hasNextSection'] && !_0xa8c2d3['isNeedShowLoginGuide'] || !_0xa8c2d3['hasNextChapter'] ? _0xa8c2d3['_e']() : _0x70cbe1(_0x4db5('0x3bb'), {
-                        'staticClass': _0x4db5('0x257'),
-                        'attrs': {'title': _0x4db5('0x2d4')},
-                        'on': {
-                            'click': function (_0x1922b3) {
-                                return _0xa8c2d3['handleClickNextChapterButton'](_0x1922b3);
-                            }
-                        }
-                    }, [_0xa8c2d3['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20下一章\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')]), !_0xa8c2d3['isTrialReadBook'] || _0xa8c2d3['hasNextChapter'] || _0xa8c2d3['hasNextSection'] ? !_0xa8c2d3['hasLogin'] || _0xa8c2d3['hasNextChapter'] || _0xa8c2d3['hasNextSection'] ? _0xa8c2d3['_e']() : _0x70cbe1('div', {'staticClass': _0x4db5('0x36b')}, [_0xa8c2d3['isBookFinished'] ? _0x70cbe1('div', {'staticClass': 'readerFooter_ending\x20readerFooter_ending_finish'}, [_0x70cbe1('div', {'staticClass': 'readerFooter_ending_title'}, [_0xa8c2d3['_v']('全\x20书\x20完')]), _0xa8c2d3['readingTimeString'] ? _0x70cbe1('div', {'staticClass': 'readerFooter_ending_time'}, [_0xa8c2d3['_v'](_0xa8c2d3['_s'](_0xa8c2d3['readingTimeString']))]) : _0xa8c2d3['_e']()]) : _0x70cbe1(_0x4db5('0x4'), {'staticClass': 'readerFooter_ending\x20readerFooter_ending_continue'}, [_0x70cbe1('div', {'staticClass': _0x4db5('0x3e3')}, [_0xa8c2d3['_v']('未\x20完\x20待\x20续')]), _0xa8c2d3['readingTimeString'] ? _0x70cbe1('div', {'staticClass': 'readerFooter_ending_time'}, [_0xa8c2d3['_v'](_0xa8c2d3['_s'](_0xa8c2d3[_0x4db5('0x7d')]))]) : _0xa8c2d3['_e']()])]) : _0x70cbe1('div', [_0xa8c2d3['_m'](0x2), _0x70cbe1('button', {
-                        'staticClass': 'readerFooter_button\x20blue',
-                        'on': {'click': _0xa8c2d3['downloadApp']}
-                    }, [_0xa8c2d3['_v']('\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20去微信读书\x20App\x20购买本书\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20')])])])]], 0x2) : _0xa8c2d3['_e']()], 0x1), _0xa8c2d3['isBookForbidden'] ? _0xa8c2d3['_e']() : _0x70cbe1('reader-controls', {
-                        'ref': 'readerControls',
-                        'staticClass': 'readerControls',
-                        'attrs': {
-                            'isPDFBookType': _0xa8c2d3['isPDFBookType'],
-                            'is-show-catalog-button': _0xa8c2d3[_0x4db5('0x2cf')],
-                            'is-show-lecture-button': _0xa8c2d3['isShowLectureButton'],
-                            'disable-chapter-link': _0xa8c2d3[_0x4db5('0x1cf')],
-                            'is-show-search-hint': _0xa8c2d3['isShowAutoSearchHint'],
-                            'search-hint-total-count': _0xa8c2d3['searchResult']['totalCount'] || 0x0,
-                            'disable-font-size-slider': 'DONE' !== _0xa8c2d3['chapterContentState'],
-                            'init-font-size-level': _0xa8c2d3[_0x4db5('0x441')],
-                            'font-size-level-count': _0xa8c2d3['fontSizeLevelCount'],
-                            'fontSizeLevelChangeHandler': _0xa8c2d3['changeFontSize']
-                        },
-                        'on': {'onClickItem': _0xa8c2d3['handleClickControls']}
-                    }), _0x70cbe1('reader-bottom-bar', {
-                        'class': _0xa8c2d3[_0x4db5('0x392')] ? 'active' : '',
-                        'attrs': {
-                            'show-shadow': !_0xa8c2d3['isShowBottomSettingPanel'],
-                            'show-add-shelf-button': _0xa8c2d3['showBottomBarAddShelfButton']
-                        },
-                        'on': {'onClickItem': _0xa8c2d3['handleClickBottomBarItem']}
-                    }), _0xa8c2d3['isShowBottomSettingPanel'] ? _0x70cbe1('reader-bottom-setting-panel', {'on': {'onClickItem': _0xa8c2d3['handleClickBottomSettingPanelItem']}}) : _0xa8c2d3['_e'](), _0x70cbe1('reader-member-card-tips', {
-                        'ref': _0x4db5('0x48a'),
-                        'class': _0xa8c2d3['isPhoneBottomBarActive'] ? '' : 'atBottom'
-                    }), _0x70cbe1('reader-catalog', {
-                        'ref': _0x4db5('0x237'),
-                        'attrs': {
-                            'book-info': _0xa8c2d3['bookInfo'],
-                            'member-card-summary': _0xa8c2d3['memberCardSummary'],
-                            'chapter-infos': _0xa8c2d3['chapterInfos'],
-                            'current-chapter': _0xa8c2d3['currentChapter'],
-                            'current-chapter-anchor': _0xa8c2d3['currentChapterAnchor'],
-                            'is-in-search-mode': _0xa8c2d3['isInSearchMode'],
-                            'is-search-loading': _0xa8c2d3['isSearchLoading'],
-                            'search-result': _0xa8c2d3['searchResult']
-                        },
-                        'on': {
-                            'clickChapter': _0xa8c2d3['handleClickChapter'],
-                            'clickBookInfo': _0xa8c2d3['handleClickFirstChapter'],
-                            'search': _0xa8c2d3['doSearch'],
-                            'clickSearchItem': _0xa8c2d3['handleClickSearchItem'],
-                            'enterSearch': _0xa8c2d3['enterSearch'],
-                            'exitSearch': _0xa8c2d3[_0x4db5('0x2fb')]
-                        }
-                    }), _0x70cbe1('reader-note-panel', {
-                        'ref': 'readerNotePanel',
-                        'attrs': {
-                            'book-info': _0xa8c2d3['bookInfo'],
-                            'chapter-infos': _0xa8c2d3['chapterInfos'],
-                            'notes': _0xa8c2d3['notes']
-                        },
-                        'on': {'clickNoteItem': _0xa8c2d3['handleClickNoteItem']}
-                    }), _0xa8c2d3['isShowPayWholeDialog'] ? _0x70cbe1(_0x4db5('0x372'), {
-                        'ref': 'payWholeBookDialog',
-                        'attrs': {
-                            'book-info': _0xa8c2d3[_0x4db5('0x3f1')],
-                            'member-card-summary': _0xa8c2d3[_0x4db5('0x10')],
-                            'balance': _0xa8c2d3[_0x4db5('0x1b8')]
-                        },
-                        'on': {'doPay': _0xa8c2d3['payWholeBook']}
-                    }) : _0xa8c2d3['_e'](), _0xa8c2d3[_0x4db5('0x1e7')] ? _0x70cbe1('pay-chapter-dialog', {
-                        'ref': 'payChapterDialog',
-                        'attrs': {
-                            'book-info': _0xa8c2d3['bookInfo'],
-                            'chapters': _0xa8c2d3['chapterInfos'],
-                            'member-card-summary': _0xa8c2d3['memberCardSummary'],
-                            'balance': _0xa8c2d3['balance'],
-                            'is-paid-balance-only': _0xa8c2d3['isPaidCoinPurchaseOnly']
-                        },
-                        'on': {'doPay': _0xa8c2d3['payChapter']}
-                    }) : _0xa8c2d3['_e'](), _0x70cbe1('ReaderCommonDialog', {'ref': 'readerCommonDialog'}), _0xa8c2d3['isBookForbidden'] ? _0x70cbe1(_0x4db5('0x331')) : _0xa8c2d3['_e'](), _0xa8c2d3['showDevPanel'] ? _0x70cbe1('div', {'staticClass': 'dev_panel'}, [_0x70cbe1(_0x4db5('0x4'), [_0xa8c2d3['_v']('hasPrevSection:\x20' + _0xa8c2d3['_s'](_0xa8c2d3['hasPrevSection']))]), _0x70cbe1('div', [_0xa8c2d3['_v']('hasNextSection:\x20' + _0xa8c2d3['_s'](_0xa8c2d3['hasNextSection']))]), _0x70cbe1('div', [_0xa8c2d3['_v'](_0x4db5('0x57') + _0xa8c2d3['_s'](_0xa8c2d3['hasPrevChapter']))]), _0x70cbe1('div', [_0xa8c2d3['_v']('hasNextChapter:\x20' + _0xa8c2d3['_s'](_0xa8c2d3['hasNextChapter']))]), _0x70cbe1('div', [_0xa8c2d3['_v']('sectionIdx:\x20' + _0xa8c2d3['_s'](_0xa8c2d3['getCurrentSectionIdx']))]), _0x70cbe1('div', [_0xa8c2d3['_v']('isPaidCoinPurchaseOnly:\x20' + _0xa8c2d3['_s'](_0xa8c2d3['isPaidCoinPurchaseOnly']))]), _0x70cbe1('div', [_0xa8c2d3['_v']('isWeiXin:\x20' + _0xa8c2d3['_s'](_0xa8c2d3['isWeiXin']))]), _0x70cbe1('div', [_0xa8c2d3['_v']('needSerialProcess:\x20' + _0xa8c2d3['_s'](_0xa8c2d3['needSerialProcess']))]), _0x70cbe1(_0x4db5('0x4'), [_0xa8c2d3['_v']('export\x20renderContents:\x20'), _0x70cbe1('a', {'on': {'click': _0xa8c2d3['devExportRender']}}, [_0xa8c2d3['_v']('RUN')])]), _0x70cbe1('div', [_0xa8c2d3['_v']('reader\x20idle\x20time:\x20' + _0xa8c2d3['_s'](_0xa8c2d3['$route'][_0x4db5('0x34c')][_0x4db5('0x15e')] || 0x78))]), _0x70cbe1('div', [_0xa8c2d3['_v']('reader\x20idle\x20clear\x20cookie\x20' + _0xa8c2d3['_s'](_0xa8c2d3['$route']['query']['debugIdleClearCookie']))]), _0x70cbe1('div', [_0xa8c2d3['_v']('FindOffsetSectionIdx:\x20'), _0x70cbe1('input', {
-                        'directives': [{
-                            'name': 'model',
-                            'rawName': 'v-model',
-                            'value': _0xa8c2d3['debug']['offset'],
-                            'expression': 'debug.offset'
-                        }], 'domProps': {'value': _0xa8c2d3['debug']['offset']}, 'on': {
-                            'input': function (_0x4f0407) {
-                                _0x4f0407['target']['composing'] || _0xa8c2d3['$set'](_0xa8c2d3['debug'], 'offset', _0x4f0407['target']['value']);
-                            }
-                        }
-                    }), _0x70cbe1('a', {
-                        'on': {
-                            'click': function (_0x4cf592) {
-                                return _0xa8c2d3['debugSearchOffset'](_0xa8c2d3['debug'][_0x4db5('0x79')]);
-                            }
-                        }
-                    }, [_0xa8c2d3['_v']('RUN')])]), _0x70cbe1('div', [_0xa8c2d3['_v']('findNearestObjByOffset:\x20'), _0x70cbe1('a', {
-                        'on': {
-                            'click': function (_0x28ea4e) {
-                                return _0xa8c2d3['findNearestObjByOffset'](_0xa8c2d3['debug']['offset']);
-                            }
-                        }
-                    }, [_0xa8c2d3['_v']('RUN')])]), _0x70cbe1('div', [_0xa8c2d3['_v']('showMemberCardTips:\x20'), _0x70cbe1('a', {
-                        'on': {
-                            'click': function (_0x130cd4) {
-                                return _0xa8c2d3['checkIfShowMemberCardFreeReadingTips'](!0x0);
-                            }
-                        }
-                    }, [_0xa8c2d3['_v']('RUN')])]), _0x70cbe1('div', [_0xa8c2d3['_v']('testDangerNext:'), _0x70cbe1('a', {
-                        'on': {
-                            'click': function (_0x548fb0) {
-                                return _0xa8c2d3[_0x4db5('0x28d')](!0x1);
-                            }
-                        }
-                    }, [_0xa8c2d3['_v'](_0x4db5('0x443'))])])]) : _0xa8c2d3['_e']()], 0x1);
-                }, _0x4c27c9 = [function () {
-                    var _0x2990dc = this, _0x3f3f8d = _0x2990dc['$createElement'],
-                        _0x358056 = _0x2990dc['_self']['_c'] || _0x3f3f8d;
-                    return _0x358056('div', {'staticClass': 'readerFooter_desc'}, [_0x2990dc['_v']('本书不支持在网页端阅读'), _0x358056('br'), _0x2990dc['_v']('请至微信读书\x20App\x20阅读本书')]);
-                }, function () {
-                    var _0x3d31ce = this, _0x1b92d6 = _0x3d31ce[_0x4db5('0x303')],
-                        _0x2941ff = _0x3d31ce['_self']['_c'] || _0x1b92d6;
-                    return _0x2941ff('div', {'staticClass': 'readerFooter_trial_end'}, [_0x2941ff('div', {'staticClass': 'readerFooter_ending_title'}, [_0x3d31ce['_v']('试\x20读\x20结\x20束')])]);
-                }, function () {
-                    var _0x348a06 = this, _0x81812f = _0x348a06[_0x4db5('0x303')],
-                        _0x2cb300 = _0x348a06[_0x4db5('0x3e6')]['_c'] || _0x81812f;
-                    return _0x2cb300('div', {'staticClass': 'readerFooter_trial_end'}, [_0x2cb300('div', {'staticClass': 'readerFooter_ending_title'}, [_0x348a06['_v']('试\x20读\x20结\x20束')])]);
-                }];
-                _0x33952f['d'](_0x374a91, 'a', function () {
-                    return _0x38fa8a;
-                }), _0x33952f['d'](_0x374a91, 'b', function () {
-                    return _0x4c27c9;
+                            }), h('a', {
+                                'on': {
+                                    'click': function (_0x4cf592) {
+                                        return _0xa8c2d3['debugSearchOffset'](_0xa8c2d3['debug'][_0x4db5('0x79')]);
+                                    }
+                                }
+                            }, [_0xa8c2d3['_v']('RUN')])]), h('div', [_0xa8c2d3['_v']('findNearestObjByOffset:\x20'), h('a', {
+                                'on': {
+                                    'click': function (_0x28ea4e) {
+                                        return _0xa8c2d3['findNearestObjByOffset'](_0xa8c2d3['debug']['offset']);
+                                    }
+                                }
+                            }, [_0xa8c2d3['_v']('RUN')])]), h('div', [_0xa8c2d3['_v']('showMemberCardTips:\x20'), h('a', {
+                                'on': {
+                                    'click': function (_0x130cd4) {
+                                        return _0xa8c2d3['checkIfShowMemberCardFreeReadingTips'](!0x0);
+                                    }
+                                }
+                            }, [_0xa8c2d3['_v']('RUN')])]), h('div', [_0xa8c2d3['_v']('testDangerNext:'), h('a', {
+                                'on': {
+                                    'click': function (_0x548fb0) {
+                                        return _0xa8c2d3[_0x4db5('0x28d')](!0x1);
+                                    }
+                                }
+                            }, [_0xa8c2d3['_v'](_0x4db5('0x443'))])])])
+                            : _this._e()
+                    ], 1);
+                }
+                const b = [
+                    function () {
+                        let _this = this,
+                            _0x3f3f8d = _this.$createElement,
+                            h = _this._self._c || _0x3f3f8d;
+
+                        return h('div', {
+                                'staticClass': 'readerFooter_desc'
+                            }, [
+                                _this._v('本书不支持在网页端阅读'),
+                                h('br'),
+                                _this._v('请至微信读书 App 阅读本书')
+                            ]
+                        );
+                    },
+                    function () {
+                        let _this = this,
+                            _0x1b92d6 = _this.$createElement,
+                            h = _this._self._c || _0x1b92d6;
+
+                        return h('div', {
+                            'staticClass': 'readerFooter_trial_end'
+                        }, [
+                            h('div', {
+                                'staticClass': 'readerFooter_ending_title'
+                            }, [
+                                _this._v('试 读 结 束')
+                            ])
+                        ]);
+                    },
+                    function () {
+                        let _this = this,
+                            _0x81812f = _this.$createElement,
+                            h = _this._self._c || _0x81812f;
+                        return h('div', {
+                            'staticClass': 'readerFooter_trial_end'
+                        }, [
+                            h('div', {
+                                'staticClass': 'readerFooter_ending_title'
+                            }, [
+                                _this._v('试 读 结 束')
+                            ])
+                        ]);
+                    }
+                ];
+
+                require['d'](exports, 'a', function () {
+                    return a;
+                })
+                require['d'](exports, 'b', function () {
+                    return b;
                 });
             },
+
             1984: function (_0x4c1061, _0x77b177, _0x2893bc) {
                 'use strict';
                 var _0x1a85a2 = function () {
