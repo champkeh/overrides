@@ -8,7 +8,6 @@
     this,
     function factory() {
         "use strict";
-        debugger
         let _global = "undefined" != typeof globalThis
             ? globalThis
             : "undefined" != typeof window
@@ -365,12 +364,12 @@
         var vr = r.exports;
 
         function gr(A, r) {
-            for (var e = 0; e < r.length; e++) {
-                var n = r[e];
-                n.enumerable = n.enumerable || !1,
-                    n.configurable = !0,
-                "value" in n && (n.writable = !0),
-                    vr(A, n.key, n)
+            for (let i = 0; i < r.length; i++) {
+                let n = r[i];
+                n.enumerable = n.enumerable || false
+                n.configurable = true
+                "value" in n && (n.writable = true)
+                vr(A, n.key, n)
             }
         }
 
@@ -478,26 +477,26 @@
         });
         var Nr = B
             , Yr = function (A) {
-            return Nr[A + "Prototype"]
-        }
+                return Nr[A + "Prototype"]
+            }
             , Gr = Yr("Array").map
-            , Jr = Array.prototype
-            , qr = function (A) {
-            var r = A.map;
-            return A === Jr || A instanceof Array && r === Jr.map ? Gr : r
-        }
+            , Jr = Array.prototype,
+            qr = function (A) {
+                var r = A.map;
+                return A === Jr || A instanceof Array && r === Jr.map ? Gr : r
+            }
             , Wr = n
             , Vr = [].slice
             , zr = function (A) {
-            return function (r, e) {
-                var n = arguments.length > 2
-                    , t = n ? Vr.call(arguments, 2) : void 0;
-                return A(n ? function () {
-                        ("function" == typeof r ? r : Function(r)).apply(this, t)
-                    }
-                    : r, e)
-            }
-        };
+                return function (r, e) {
+                    var n = arguments.length > 2
+                        , t = n ? Vr.call(arguments, 2) : void 0;
+                    return A(n ? function () {
+                            ("function" == typeof r ? r : Function(r)).apply(this, t)
+                        }
+                        : r, e)
+                }
+            };
         sr({
             global: !0,
             bind: !0,
@@ -11855,97 +11854,107 @@
         var Al = [];
 
         function rl(A) {
-            var r;
-            return new Uint8Array(qr(r = A.split("")).call(r, (function (A) {
-                    return A.charCodeAt(0)
-                }
-            )))
+            let r = A.split("")
+            return new Uint8Array(qr(r).call(r, _ => _.charCodeAt(0)))
         }
 
+        debugger
         window.fockCallback = function (A, r, e) {
             var n = Al.shift();
             null != n && n(A, r, e)
         }
-            ,
-            window.onkeyfocus = function (A, r) {
-                var e = rl(atob(A));
-                qs(e, e.length, r.toString())
-            }
-        ;
+        window.onkeyfocus = function (A, r) {
+            var e = rl(atob(A));
+            qs(e, e.length, r.toString())
+        }
         return function () {
-            function A() {
+            debugger
+
+            function Fock() {
                 !function (A, r) {
                     if (!(A instanceof r))
                         throw new TypeError("Cannot call a class as a function")
-                }(this, A)
+                }(this, Fock)
             }
 
-            var r, e, n;
-            return r = A,
-                n = [{
+            const n = [
+                {
                     key: "initialize",
                     value: function () {
-                        void 0 === Gs && (Gs = $s(),
-                            Js = Gs.cwrap("fock_i", "number", ["array", "number"]),
-                            qs = Gs.cwrap("fock_a", null, ["array", "number", "string"]),
-                            Ws = Gs.cwrap("fock_u", null, ["array", "number", "array", "number"]),
-                            Vs = Gs.cwrap("fock_s", "string", ["array", "number"]),
-                            zs = Gs.cwrap("fock_e", "string", ["array", "number"]))
+                        debugger
+                        if (void 0 === Gs) {
+                            Gs = $s()
+                            Js = Gs.cwrap("fock_i", "number", ["array", "number"])
+                            qs = Gs.cwrap("fock_a", null, ["array", "number", "string"])
+                            Ws = Gs.cwrap("fock_u", null, ["array", "number", "array", "number"])
+                            Vs = Gs.cwrap("fock_s", "string", ["array", "number"])
+                            zs = Gs.cwrap("fock_e", "string", ["array", "number"])
+                        }
                     }
                 }, {
                     key: "setupUserKey",
-                    value: function (A) {
-                        Js(rl(A), A.length)
+                    value: function (uid) {
+                        debugger
+                        Js(rl(uid), uid.length)
                     }
                 }, {
                     key: "addKeypool",
-                    value: function (A, r) {
-                        if ("string" != typeof r)
-                            throw new TypeError("`addKeypool` requires `version` of type string");
-                        var e = rl(atob(A));
-                        qs(e, e.length, r)
+                    value: function (encryptKeyPool, encryptVersion) {
+                        debugger
+                        if ("string" != typeof encryptVersion) {
+                            throw new TypeError("`addKeypool` requires `version` of type string")
+                        }
+                        var e = rl(atob(encryptKeyPool));
+                        qs(e, e.length, encryptVersion)
                     }
                 }, {
                     key: "unlock",
-                    value: function (A, r, e) {
-                        var n = rl(atob(A));
-                        Al.push((function (A, r, n) {
+                    value: function (content, bookId, cb) {
+                        debugger
+                        var n = rl(atob(content));
+                        Al.push((A, r, n) => {
                                 var t, o;
                                 if (0 == A) {
                                     var i = new Uint8Array(Gs.HEAPU8.subarray(r, r + n));
                                     t = (new TextDecoder).decode(i)
                                 }
                                 o = function () {
-                                    e(A, t)
+                                    cb(A, t)
                                 }
-                                    ,
-                                    Zr((function () {
-                                            var A, r, e = window.outerHeight - window.innerHeight, n = !1;
-                                            window.chrome && (pe(A = navigator.userAgent).call(A, "Windows") >= 0 && (n = e - 81 == 44 || e - 71 == 44),
-                                            pe(r = navigator.userAgent).call(r, "Mac") >= 0 && (n = e - 80 == 44)),
-                                            n || o()
+                                Zr((() => {
+                                        let A, r,
+                                            e = window.outerHeight - window.innerHeight,
+                                            n = false;
+                                        if (window.chrome) {
+                                            if (pe(A = navigator.userAgent).call(A, "Windows") >= 0) {
+                                                n = e - 81 === 44 || e - 71 === 44
+                                            }
+                                            if (pe(r = navigator.userAgent).call(r, "Mac") >= 0) {
+                                                n = e - 80 === 44
+                                            }
                                         }
-                                    ), 100)
+                                        n || o()
+                                    }
+                                ), 100)
                             }
-                        )),
-                            Ws(n, n.length, rl(r), r.length)
+                        )
+                        Ws(n, n.length, rl(bookId), bookId.length)
                     }
                 }, {
                     key: "sign",
-                    value: function (A) {
-                        var r = (new TextEncoder).encode(A);
+                    value: function (data) {
+                        let r = (new TextEncoder).encode(data);
                         return Vs(r, r.length)
                     }
                 }, {
                     key: "encodeGuid",
-                    value: function (A) {
-                        var r = (new TextEncoder).encode(A);
+                    value: function (guid) {
+                        let r = (new TextEncoder).encode(guid);
                         return zs(r, r.length)
                     }
-                }],
-            (e = null) && gr(r.prototype, e),
-            n && gr(r, n),
-                A
+                }]
+            gr(Fock, n)
+            return Fock
         }()
     }
 )
