@@ -8244,7 +8244,7 @@ window.webpackJsonp.push(
 
                 var _0x2ba37e, _0x56ea70, _0xbe897c, _0x3c3415, _0x34db8d, _0x37f2b0, _0x500316 = require(0xc5),
                     _0x5c93ec = require(0x666), _0x415aba = require(0x8), _0x2db0ce = require(0x1f),
-                    _0x562ff5 = require(0x37), _0x4c9098 = require(0x2eb), _0x37d162 = require(0x3e6),
+                    _0x562ff5 = require(0x37), _0x4c9098 = require(0x2eb), _0x37d162 = require(998),
                     _0x3e048e = require(0x3e4)['decryption'], _0x241d86 = require(0x3e5),
                     _0x5202e4 = new _0x1cead7['default'](), _0x34e0ac = 'reader', _0x29caf6 = _0x4db5('0x476'),
                     _0x44634c = _0x4db5('0x3ef'), _0xe36b87 = 0x0, _0x4967e1 = 0x0, _0xd19d37 = [], _0x4f8488 = [],
@@ -9126,35 +9126,43 @@ window.webpackJsonp.push(
                                     'extra': {'bookId': this['bookId'], 'vid': this['user']['vid']}
                                 });
                             },
-                            'changeChapter': (_0x34db8d = (0x0, _0x96a925[_0x4db5('0x1d6')])(_0xacb54['default']['mark'](function _0x12c9c7(_0x463cd9) {
+                            'changeChapter': (_0x34db8d = _0x96a925.default(_0xacb54.default.mark(function _0x12c9c7(_0x463cd9) {
                                 var _0x56d98b, _0x447d16, _0x4d9d0e, _0x524ecb, _0x59b7d0, _0x2f3ead, _0x5070bb,
-                                    _0x449fbc = this;
-                                return _0xacb54['default']['wrap'](function (_0x41c8ae) {
+                                    _this = this;
+                                return _0xacb54.default.wrap(function (_0x41c8ae) {
                                     for (; ;) switch (_0x41c8ae['prev'] = _0x41c8ae['next']) {
                                         case 0x0:
-                                            return _0x41c8ae['next'] = 0x2, _0x37d162['get']()['then'](function (_0x229221) {
-                                                return _0x229221[_0x4db5('0x355')](function (_0x2301c5) {
-                                                    return _0x2301c5['fileName'];
-                                                });
-                                            })['catch'](function (_0x5246ab) {
-                                                console['log'](_0x5246ab);
+                                            _0x41c8ae['next'] = 0x2
+                                            return _0x37d162.get().then((resp) => {
+                                                return resp.map((_) => _.fileName)
+                                            }).catch((err) => {
+                                                console.log(err);
                                             });
                                         case 0x2:
-                                            _0x56d98b = _0x41c8ae['sent'], _0x447d16 = !0x0, _0x4d9d0e = !0x1, _0x524ecb = void 0x0, _0x41c8ae['prev'] = 0x6, _0x59b7d0 = (0x0, _0x5a709c[_0x4db5('0x1d6')])(_0x56d98b);
+                                            _0x56d98b = _0x41c8ae['sent']
+                                            _0x447d16 = true
+                                            _0x4d9d0e = false
+                                            _0x524ecb = undefined
+                                            _0x41c8ae['prev'] = 0x6
+                                            _0x59b7d0 = _0x5a709c.default(_0x56d98b);
                                         case 0x8:
-                                            if (_0x447d16 = (_0x2f3ead = _0x59b7d0['next']())['done']) {
+                                            if (_0x447d16 = (_0x2f3ead = _0x59b7d0.next()).done) {
                                                 _0x41c8ae['next'] = 0x12;
                                                 break;
                                             }
-                                            if (_0x5070bb = _0x2f3ead['value'], _0x415aba['inDevelopment']() && console['log'](_0x5070bb), !(_0x5070bb[_0x4db5('0x94')]('puppeteer') > -0x1 || _0x5070bb['indexOf']('Puppeteer') > -0x1 || _0x5070bb[_0x4db5('0x94')]('pptr') > -0x1)) {
+                                            _0x5070bb = _0x2f3ead['value']
+                                            _0x415aba.inDevelopment() && console.log(_0x5070bb)
+                                            if (!(_0x5070bb.indexOf('puppeteer') > -1 || _0x5070bb.indexOf('Puppeteer') > -1 || _0x5070bb.indexOf('pptr') > -1)) {
                                                 _0x41c8ae['next'] = 0xf;
                                                 break;
                                             }
-                                            return _0x41c8ae['next'] = 0xe, this['botDetect'](!0x0, _0x4db5('0x2d2'));
+                                            _0x41c8ae['next'] = 0xe
+                                            return this.botDetect(true, 'puppeteer execute changeChapter');
                                         case 0xe:
-                                            return _0x41c8ae['abrupt']('break', 0x12);
+                                            return _0x41c8ae.abrupt('break', 0x12);
                                         case 0xf:
-                                            _0x447d16 = !0x0, _0x41c8ae['next'] = 0x8;
+                                            _0x447d16 = true
+                                            _0x41c8ae['next'] = 0x8;
                                             break;
                                         case 0x12:
                                             _0x41c8ae['next'] = 0x18;
@@ -9162,7 +9170,9 @@ window.webpackJsonp.push(
                                         case 0x14:
                                             _0x41c8ae['prev'] = 0x14, _0x41c8ae['t0'] = _0x41c8ae['catch'](0x6), _0x4d9d0e = !0x0, _0x524ecb = _0x41c8ae['t0'];
                                         case 0x18:
-                                            _0x41c8ae['prev'] = 0x18, _0x41c8ae['prev'] = 0x19, !_0x447d16 && _0x59b7d0['return'] && _0x59b7d0['return']();
+                                            _0x41c8ae['prev'] = 0x18
+                                            _0x41c8ae['prev'] = 0x19
+                                            !_0x447d16 && _0x59b7d0['return'] && _0x59b7d0['return']();
                                         case 0x1b:
                                             if (_0x41c8ae[_0x4db5('0x4d')] = 0x1b, !_0x4d9d0e) {
                                                 _0x41c8ae['next'] = 0x1e;
@@ -9186,12 +9196,12 @@ window.webpackJsonp.push(
                                                 'sectionId': _0x463cd9[_0x4db5('0x49b')],
                                                 'isLogin': this['hasLogin']
                                             })['then'](function () {
-                                                return _0x449fbc['clearSelection'](), _0x449fbc['clearHighLightDom'](), _0x449fbc['layout']();
+                                                return _this['clearSelection'](), _this['clearHighLightDom'](), _this['layout']();
                                             })['catch'](function (_0x49eaec) {
                                                 if (_0x49eaec && _0x49eaec['isCustomError']) {
                                                     switch (_0x49eaec[_0x4db5('0x253')]) {
                                                         case _0x4db5('0x58'):
-                                                            _0x449fbc['clearSelection'](), _0x449fbc['clearHighLightDom'](), _0x463cd9['searchItem'] ? _0x449fbc['highLightDomsAndScrollTo'](_0x463cd9['searchItem']) : _0x463cd9[_0x4db5('0x3e0')] ? _0x449fbc['scrollTo'](_0x463cd9['scrollTo']) : _0x463cd9['sectionId'] || _0x449fbc['changeSection']({
+                                                            _this['clearSelection'](), _this['clearHighLightDom'](), _0x463cd9['searchItem'] ? _this['highLightDomsAndScrollTo'](_0x463cd9['searchItem']) : _0x463cd9[_0x4db5('0x3e0')] ? _this['scrollTo'](_0x463cd9['scrollTo']) : _0x463cd9['sectionId'] || _this['changeSection']({
                                                                 'sectionIdx': 0x0,
                                                                 'offsetTop': 0x0
                                                             });
@@ -9200,16 +9210,16 @@ window.webpackJsonp.push(
                                                             window['location'][_0x4db5('0x333')]();
                                                             break;
                                                         case'sessionTimeout':
-                                                            _0x449fbc['handleSessionTimeout']();
+                                                            _this['handleSessionTimeout']();
                                                     }
                                                     return _0x49eaec;
                                                 }
-                                                _0x449fbc[_0x4db5('0xaa')]('changeChapter-UnexpectedError0:', _0x49eaec);
+                                                _this[_0x4db5('0xaa')]('changeChapter-UnexpectedError0:', _0x49eaec);
                                             })['then'](function (_0x1c6a25) {
-                                                return _0x1c6a25 && _0x1c6a25[_0x4db5('0x396')] && (_0x463cd9[_0x4db5('0xe5')] ? _0x449fbc['highLightDomsAndScrollTo'](_0x463cd9['searchItem']) : _0x463cd9['scrollTo'] ? _0x449fbc['scrollTo'](_0x463cd9['scrollTo']) : (_0x463cd9['sectionId'] || _0x449fbc['changeSection']({
+                                                return _0x1c6a25 && _0x1c6a25[_0x4db5('0x396')] && (_0x463cd9[_0x4db5('0xe5')] ? _this['highLightDomsAndScrollTo'](_0x463cd9['searchItem']) : _0x463cd9['scrollTo'] ? _this['scrollTo'](_0x463cd9['scrollTo']) : (_0x463cd9['sectionId'] || _this['changeSection']({
                                                     'sectionIdx': 0x0,
                                                     'scrollTo': {'chapterOffset': 0x0}
-                                                }), _0x449fbc['scrollToOffsetTop'](0x0)), _0x449fbc['checkIfShowMemberCardFreeReadingTips'](), _0x449fbc['checkIfNeedRequestLoginQRCode'](), _0x449fbc['$store']['dispatch'](_0x585699['RELOAD_READER_BOOK_INFO'], {'isLogin': _0x449fbc['hasLogin']}), _0x449fbc['$store']['dispatch'](_0x585699['RELOAD_READER_CHAPTER_INFOS'], {'isLogin': _0x449fbc['hasLogin']}), _0x449fbc['reportReadingProgress']({
+                                                }), _this['scrollToOffsetTop'](0x0)), _this['checkIfShowMemberCardFreeReadingTips'](), _this['checkIfNeedRequestLoginQRCode'](), _this['$store']['dispatch'](_0x585699['RELOAD_READER_BOOK_INFO'], {'isLogin': _this['hasLogin']}), _this['$store']['dispatch'](_0x585699['RELOAD_READER_CHAPTER_INFOS'], {'isLogin': _this['hasLogin']}), _this['reportReadingProgress']({
                                                     'computeSummary': !0x0,
                                                     'computeProgress': !0x1
                                                 })), _0x1c6a25;
@@ -9220,7 +9230,7 @@ window.webpackJsonp.push(
                                     }
                                 }, _0x12c9c7, this, [[0x6, 0x14, 0x18, 0x20], [0x19, , 0x1b, 0x1f]]);
                             })), function (_0x242da8) {
-                                return _0x34db8d['apply'](this, arguments);
+                                return _0x34db8d.apply(this, arguments);
                             }),
                             'changeSection': function (_0x5687d2) {
                                 var _0x212c41 = this;
@@ -10677,43 +10687,60 @@ window.webpackJsonp.push(
                             'devExportRender': function () {
                                 _0x415aba['inDevelopment']() && console[_0x4db5('0x302')](_0x4f8488);
                             },
-                            'botDetect': (_0x2ba37e = (0x0, _0x96a925['default'])(_0xacb54['default'][_0x4db5('0x453')](function _0x1973a1(_0x346369, _0xb079ba) {
-                                var _0x58bee3, _0x128006, _0x583954, _0x472409, _0x25fc23, _0x22e35e, _0x26cb23;
-                                return _0xacb54['default']['wrap'](function (_0x3da001) {
+                            'botDetect': (_0x2ba37e = _0x96a925.default(_0xacb54.default.mark(function _0x1973a1(_0x346369, _0xb079ba) {
+                                var fastTest, finger, vid, bookId, isPub, deviceInfo, platform;
+                                return _0xacb54.default.wrap(function (_0x3da001) {
                                     for (; ;) switch (_0x3da001['prev'] = _0x3da001['next']) {
                                         case 0x0:
-                                            return _0x3da001['prev'] = 0x0, _0x3da001['next'] = 0x3, _0x5c93ec['testAll']();
+                                            _0x3da001['prev'] = 0x0
+                                            _0x3da001['next'] = 0x3
+                                            return _0x5c93ec.testAll();
                                         case 0x3:
-                                            if (!(_0x58bee3 = _0x3da001['sent'])['length'] && !_0x346369) {
+                                            if (!(fastTest = _0x3da001.sent).length && !_0x346369) {
                                                 _0x3da001['next'] = 0x11;
                                                 break;
                                             }
-                                            return _0x415aba['inDevelopment']() && console[_0x4db5('0x302')]('bot\x20detected!'), _0x3da001[_0x4db5('0x74')] = 0x8, _0x5c93ec[_0x4db5('0x1e')]();
+                                            _0x415aba.inDevelopment() && console.log('bot detected!')
+                                            _0x3da001.next = 0x8
+                                            return _0x5c93ec.scanFullFingerPrint();
                                         case 0x8:
-                                            _0x128006 = _0x3da001['sent'], _0x415aba['inDevelopment']() && (console['log'](_0x58bee3), console['log'](_0x128006)), _0xb079ba && _0x58bee3['push'](_0xb079ba), _0x583954 = this['reportVid'](), _0x472409 = this['bookId'], _0x25fc23 = 0x1 === this['bookInfo']['ispub'], _0x22e35e = new _0x1cead7['default']()['getDeviceInfo'](), _0x26cb23 = _0x4db5('0x221') === this['OS'] ? 0x1 : 'Android' === this['OS'] ? 0x2 : 0x0, _0x65233e['wrReport']['baseCHReport']({
+                                            finger = _0x3da001['sent']
+                                            if (_0x415aba.inDevelopment()) {
+                                                console.log(fastTest)
+                                                console.log(finger)
+                                            }
+                                            _0xb079ba && fastTest.push(_0xb079ba)
+                                            vid = this.reportVid()
+                                            bookId = this.bookId
+                                            isPub = 0x1 === this.bookInfo.ispub
+                                            deviceInfo = new _0x1cead7.default().getDeviceInfo()
+                                            platform = 'iOS' === this['OS'] ? 1 : 'Android' === this['OS'] ? 2 : 0
+                                            _0x65233e.wrReport.baseCHReport({
                                                 'itemName': 'Web_Reader_Bot_Detected',
-                                                'vid': _0x583954,
-                                                'pf': _0x26cb23,
+                                                'vid': vid,
+                                                'pf': platform,
                                                 'extra': {
-                                                    'bookId': _0x472409,
-                                                    'fastTest': _0x58bee3,
-                                                    'isPub': _0x25fc23,
-                                                    'platform': _0x22e35e,
-                                                    'fingerPrint': _0x128006
+                                                    'bookId': bookId,
+                                                    'fastTest': fastTest,
+                                                    'isPub': isPub,
+                                                    'platform': deviceInfo,
+                                                    'fingerPrint': finger
                                                 }
                                             });
                                         case 0x11:
-                                            _0x3da001[_0x4db5('0x74')] = 0x16;
+                                            _0x3da001['next'] = 0x16;
                                             break;
                                         case 0x13:
-                                            _0x3da001['prev'] = 0x13, _0x3da001['t0'] = _0x3da001['catch'](0x0), console[_0x4db5('0x174')](_0x3da001['t0']);
+                                            _0x3da001['prev'] = 0x13
+                                            _0x3da001['t0'] = _0x3da001.catch(0)
+                                            console.error(_0x3da001['t0']);
                                         case 0x16:
                                         case _0x4db5('0x43'):
                                             return _0x3da001['stop']();
                                     }
                                 }, _0x1973a1, this, [[0x0, 0x13]]);
                             })), function (_0x587d48, _0x9ab52) {
-                                return _0x2ba37e['apply'](this, arguments);
+                                return _0x2ba37e.apply(this, arguments);
                             })
                         }
                     ),
