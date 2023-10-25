@@ -4770,205 +4770,208 @@ window.webpackJsonp.push(
     [
         [0x6],
         {
-            1021: function (_0x29dfdf, _0x19ce45, _0x5b0d72) {
-                var _0x532937 = _0x5b0d72(0x6e8);
-                _0x532937['registerLanguage']('1c', _0x5b0d72(0x6e9)),
-                    _0x532937['registerLanguage']('abnf', _0x5b0d72(0x6ea)),
-                    _0x532937['registerLanguage']('accesslog', _0x5b0d72(0x6eb)),
-                    _0x532937['registerLanguage'](_0x3a8f('0xeae'), _0x5b0d72(0x6ec)),
-                    _0x532937[_0x3a8f('0x57c')]('ada', _0x5b0d72(0x6ed)),
-                    _0x532937['registerLanguage']('angelscript', _0x5b0d72(0x6ee)),
-                    _0x532937[_0x3a8f('0x57c')]('apache', _0x5b0d72(0x6ef)),
-                    _0x532937['registerLanguage']('applescript', _0x5b0d72(0x6f0)),
-                    _0x532937['registerLanguage'](_0x3a8f('0xec1'), _0x5b0d72(0x6f1)),
-                    _0x532937['registerLanguage']('arduino', _0x5b0d72(0x6f2)),
-                    _0x532937['registerLanguage']('armasm', _0x5b0d72(0x6f3)),
-                    _0x532937['registerLanguage']('xml', _0x5b0d72(0x6f4)),
-                    _0x532937['registerLanguage']('asciidoc', _0x5b0d72(0x6f5)),
-                    _0x532937['registerLanguage']('aspectj', _0x5b0d72(0x6f6)),
-                    _0x532937['registerLanguage']('autohotkey', _0x5b0d72(0x6f7)),
-                    _0x532937['registerLanguage']('autoit', _0x5b0d72(0x6f8)),
-                    _0x532937['registerLanguage']('avrasm', _0x5b0d72(0x6f9)),
-                    _0x532937['registerLanguage']('awk', _0x5b0d72(0x6fa)),
-                    _0x532937['registerLanguage']('axapta', _0x5b0d72(0x6fb)),
-                    _0x532937['registerLanguage'](_0x3a8f('0x855'), _0x5b0d72(0x6fc)),
-                    _0x532937['registerLanguage']('basic', _0x5b0d72(0x6fd)),
-                    _0x532937['registerLanguage']('bnf', _0x5b0d72(0x6fe)),
-                    _0x532937[_0x3a8f('0x57c')]('brainfuck', _0x5b0d72(0x6ff)),
-                    _0x532937['registerLanguage']('c', _0x5b0d72(0x700)),
-                    _0x532937['registerLanguage']('cal', _0x5b0d72(0x701)),
-                    _0x532937['registerLanguage']('capnproto', _0x5b0d72(0x702)),
-                    _0x532937['registerLanguage']('ceylon', _0x5b0d72(0x703)),
-                    _0x532937['registerLanguage']('clean', _0x5b0d72(0x704)),
-                    _0x532937['registerLanguage']('clojure', _0x5b0d72(0x705)),
-                    _0x532937['registerLanguage']('clojure-repl', _0x5b0d72(0x706)),
-                    _0x532937['registerLanguage']('cmake', _0x5b0d72(0x707)),
-                    _0x532937['registerLanguage'](_0x3a8f('0xe37'), _0x5b0d72(0x708)),
-                    _0x532937['registerLanguage']('coq', _0x5b0d72(0x709)),
-                    _0x532937['registerLanguage']('cos', _0x5b0d72(0x70a)),
-                    _0x532937['registerLanguage']('cpp', _0x5b0d72(0x70b)),
-                    _0x532937[_0x3a8f('0x57c')](_0x3a8f('0x364'), _0x5b0d72(0x70c)),
-                    _0x532937['registerLanguage'](_0x3a8f('0x943'), _0x5b0d72(0x70d)),
-                    _0x532937[_0x3a8f('0x57c')]('csharp', _0x5b0d72(0x70e)),
-                    _0x532937['registerLanguage']('csp', _0x5b0d72(0x70f)),
-                    _0x532937['registerLanguage']('css', _0x5b0d72(0x710)),
-                    _0x532937['registerLanguage']('d', _0x5b0d72(0x711)),
-                    _0x532937['registerLanguage']('markdown', _0x5b0d72(0x712)),
-                    _0x532937['registerLanguage']('dart', _0x5b0d72(0x713)),
-                    _0x532937[_0x3a8f('0x57c')]('delphi', _0x5b0d72(0x714)),
-                    _0x532937[_0x3a8f('0x57c')]('diff', _0x5b0d72(0x715)),
-                    _0x532937['registerLanguage']('django', _0x5b0d72(0x716)),
-                    _0x532937['registerLanguage']('dns', _0x5b0d72(0x717)),
-                    _0x532937['registerLanguage']('dockerfile', _0x5b0d72(0x718)),
-                    _0x532937['registerLanguage']('dos', _0x5b0d72(0x719)),
-                    _0x532937['registerLanguage']('dsconfig', _0x5b0d72(0x71a)),
-                    _0x532937['registerLanguage']('dts', _0x5b0d72(0x71b)),
-                    _0x532937['registerLanguage']('dust', _0x5b0d72(0x71c)),
-                    _0x532937['registerLanguage']('ebnf', _0x5b0d72(0x71d)),
-                    _0x532937[_0x3a8f('0x57c')]('elixir', _0x5b0d72(0x71e)),
-                    _0x532937['registerLanguage']('elm', _0x5b0d72(0x71f)),
-                    _0x532937['registerLanguage']('ruby', _0x5b0d72(0x720)),
-                    _0x532937['registerLanguage']('erb', _0x5b0d72(0x721)),
-                    _0x532937[_0x3a8f('0x57c')](_0x3a8f('0x18'), _0x5b0d72(0x722)),
-                    _0x532937['registerLanguage'](_0x3a8f('0xc05'), _0x5b0d72(0x723)),
-                    _0x532937['registerLanguage']('excel', _0x5b0d72(0x724)),
-                    _0x532937['registerLanguage'](_0x3a8f('0xb33'), _0x5b0d72(0x725)),
-                    _0x532937[_0x3a8f('0x57c')]('flix', _0x5b0d72(0x726)),
-                    _0x532937['registerLanguage']('fortran', _0x5b0d72(0x727)),
-                    _0x532937['registerLanguage']('fsharp', _0x5b0d72(0x728)),
-                    _0x532937[_0x3a8f('0x57c')](_0x3a8f('0x1271'), _0x5b0d72(0x729)),
-                    _0x532937[_0x3a8f('0x57c')](_0x3a8f('0x34a'), _0x5b0d72(0x72a)),
-                    _0x532937[_0x3a8f('0x57c')]('gcode', _0x5b0d72(0x72b)),
-                    _0x532937['registerLanguage']('gherkin', _0x5b0d72(0x72c)),
-                    _0x532937['registerLanguage']('glsl', _0x5b0d72(0x72d)),
-                    _0x532937['registerLanguage']('gml', _0x5b0d72(0x72e)),
-                    _0x532937['registerLanguage']('go', _0x5b0d72(0x72f)),
-                    _0x532937[_0x3a8f('0x57c')]('golo', _0x5b0d72(0x730)),
-                    _0x532937['registerLanguage']('gradle', _0x5b0d72(0x731)),
-                    _0x532937[_0x3a8f('0x57c')]('graphql', _0x5b0d72(0x732)),
-                    _0x532937['registerLanguage']('groovy', _0x5b0d72(0x733)),
-                    _0x532937['registerLanguage']('haml', _0x5b0d72(0x734)),
-                    _0x532937['registerLanguage']('handlebars', _0x5b0d72(0x735)),
-                    _0x532937[_0x3a8f('0x57c')](_0x3a8f('0xd26'), _0x5b0d72(0x736)),
-                    _0x532937['registerLanguage']('haxe', _0x5b0d72(0x737)),
-                    _0x532937[_0x3a8f('0x57c')]('hsp', _0x5b0d72(0x738)),
-                    _0x532937['registerLanguage']('http', _0x5b0d72(0x739)),
-                    _0x532937[_0x3a8f('0x57c')]('hy', _0x5b0d72(0x73a)),
-                    _0x532937['registerLanguage']('inform7', _0x5b0d72(0x73b)),
-                    _0x532937[_0x3a8f('0x57c')]('ini', _0x5b0d72(0x73c)),
-                    _0x532937['registerLanguage']('irpf90', _0x5b0d72(0x73d)),
-                    _0x532937['registerLanguage']('isbl', _0x5b0d72(0x73e)),
-                    _0x532937['registerLanguage'](_0x3a8f('0x28d'), _0x5b0d72(0x73f)),
-                    _0x532937[_0x3a8f('0x57c')]('javascript', _0x5b0d72(0x740)),
-                    _0x532937[_0x3a8f('0x57c')]('jboss-cli', _0x5b0d72(0x741)),
-                    _0x532937[_0x3a8f('0x57c')]('json', _0x5b0d72(0x742)),
-                    _0x532937['registerLanguage'](_0x3a8f('0x484'), _0x5b0d72(0x743)),
-                    _0x532937[_0x3a8f('0x57c')]('julia-repl', _0x5b0d72(0x744)),
-                    _0x532937['registerLanguage'](_0x3a8f('0x449'), _0x5b0d72(0x745)),
-                    _0x532937['registerLanguage']('lasso', _0x5b0d72(0x746)),
-                    _0x532937[_0x3a8f('0x57c')]('latex', _0x5b0d72(0x747)),
-                    _0x532937['registerLanguage']('ldif', _0x5b0d72(0x748)),
-                    _0x532937['registerLanguage']('leaf', _0x5b0d72(0x749)),
-                    _0x532937[_0x3a8f('0x57c')](_0x3a8f('0x752'), _0x5b0d72(0x74a)),
-                    _0x532937['registerLanguage'](_0x3a8f('0x35b'), _0x5b0d72(0x74b)),
-                    _0x532937['registerLanguage']('livecodeserver', _0x5b0d72(0x74c)),
-                    _0x532937[_0x3a8f('0x57c')](_0x3a8f('0xb7c'), _0x5b0d72(0x74d)),
-                _0x532937[_0x3a8f('0x57c')]('llvm', _0x5b0d72(0x74e)),
-                _0x532937['registerLanguage']('lsl', _0x5b0d72(0x74f)),
-                _0x532937[_0x3a8f('0x57c')]('lua', _0x5b0d72(0x750)),
-                _0x532937['registerLanguage']('makefile', _0x5b0d72(0x751)),
-                _0x532937['registerLanguage']('mathematica', _0x5b0d72(0x752)),
-                _0x532937['registerLanguage']('matlab', _0x5b0d72(0x753)),
-                _0x532937['registerLanguage'](_0x3a8f('0xa74'), _0x5b0d72(0x754)),
-                _0x532937['registerLanguage']('mel', _0x5b0d72(0x755)),
-                _0x532937['registerLanguage']('mercury', _0x5b0d72(0x756)),
-                _0x532937['registerLanguage']('mipsasm', _0x5b0d72(0x757)),
-                _0x532937['registerLanguage'](_0x3a8f('0x32a'), _0x5b0d72(0x758)),
-                _0x532937['registerLanguage']('perl', _0x5b0d72(0x759)),
-                _0x532937['registerLanguage']('mojolicious', _0x5b0d72(0x75a)),
-                _0x532937['registerLanguage'](_0x3a8f('0x935'), _0x5b0d72(0x75b)),
-                _0x532937['registerLanguage']('moonscript', _0x5b0d72(0x75c)),
-                _0x532937[_0x3a8f('0x57c')](_0x3a8f('0x340'), _0x5b0d72(0x75d)),
-                _0x532937['registerLanguage']('nestedtext', _0x5b0d72(0x75e)),
-                _0x532937[_0x3a8f('0x57c')](_0x3a8f('0x7f1'), _0x5b0d72(0x75f)),
-                _0x532937['registerLanguage'](_0x3a8f('0x5e4'), _0x5b0d72(0x760)),
-                _0x532937[_0x3a8f('0x57c')]('nix', _0x5b0d72(0x761)),
-                _0x532937['registerLanguage'](_0x3a8f('0x7eb'), _0x5b0d72(0x762)),
-                _0x532937['registerLanguage']('nsis', _0x5b0d72(0x763)),
-                _0x532937['registerLanguage']('objectivec', _0x5b0d72(0x764)),
-                _0x532937[_0x3a8f('0x57c')]('ocaml', _0x5b0d72(0x765)),
-                _0x532937['registerLanguage']('openscad', _0x5b0d72(0x766)),
-                _0x532937['registerLanguage']('oxygene', _0x5b0d72(0x767)),
-                _0x532937['registerLanguage']('parser3', _0x5b0d72(0x768)),
-                _0x532937['registerLanguage']('pf', _0x5b0d72(0x769)),
-                _0x532937['registerLanguage']('pgsql', _0x5b0d72(0x76a)),
-                _0x532937['registerLanguage'](_0x3a8f('0x4b6'), _0x5b0d72(0x76b)),
-                _0x532937['registerLanguage']('php-template', _0x5b0d72(0x76c)),
-                _0x532937['registerLanguage'](_0x3a8f('0xd4f'), _0x5b0d72(0x76d)),
-                _0x532937['registerLanguage']('pony', _0x5b0d72(0x76e)),
-                _0x532937['registerLanguage']('powershell', _0x5b0d72(0x76f)),
-                _0x532937['registerLanguage']('processing', _0x5b0d72(0x770)),
-                _0x532937['registerLanguage']('profile', _0x5b0d72(0x771)),
-                _0x532937['registerLanguage']('prolog', _0x5b0d72(0x772)),
-                _0x532937['registerLanguage']('properties', _0x5b0d72(0x773)),
-                _0x532937['registerLanguage']('protobuf', _0x5b0d72(0x774)),
-                _0x532937['registerLanguage']('puppet', _0x5b0d72(0x775)),
-                _0x532937['registerLanguage']('purebasic', _0x5b0d72(0x776)),
-                _0x532937['registerLanguage']('python', _0x5b0d72(0x777)),
-                _0x532937['registerLanguage']('python-repl', _0x5b0d72(0x778)),
-                _0x532937['registerLanguage']('q', _0x5b0d72(0x779)),
-                _0x532937['registerLanguage']('qml', _0x5b0d72(0x77a)),
-                _0x532937['registerLanguage']('r', _0x5b0d72(0x77b)),
-                _0x532937['registerLanguage']('reasonml', _0x5b0d72(0x77c)),
-                _0x532937['registerLanguage']('rib', _0x5b0d72(0x77d)),
-                _0x532937['registerLanguage'](_0x3a8f('0xa34'), _0x5b0d72(0x77e)),
-                _0x532937[_0x3a8f('0x57c')]('routeros', _0x5b0d72(0x77f)),
-                _0x532937['registerLanguage']('rsl', _0x5b0d72(0x780)),
-                _0x532937['registerLanguage']('ruleslanguage', _0x5b0d72(0x781)),
-                _0x532937[_0x3a8f('0x57c')]('rust', _0x5b0d72(0x782)),
-                _0x532937['registerLanguage']('sas', _0x5b0d72(0x783)),
-                _0x532937['registerLanguage']('scala', _0x5b0d72(0x784)),
-                _0x532937['registerLanguage']('scheme', _0x5b0d72(0x785)),
-                _0x532937[_0x3a8f('0x57c')](_0x3a8f('0xe7e'), _0x5b0d72(0x786)),
-                _0x532937['registerLanguage']('scss', _0x5b0d72(0x787)),
-                _0x532937['registerLanguage'](_0x3a8f('0xb11'), _0x5b0d72(0x788)),
-                _0x532937['registerLanguage']('smali', _0x5b0d72(0x789)),
-                _0x532937['registerLanguage']('smalltalk', _0x5b0d72(0x78a)),
-                _0x532937['registerLanguage']('sml', _0x5b0d72(0x78b)),
-                _0x532937[_0x3a8f('0x57c')](_0x3a8f('0x113a'), _0x5b0d72(0x78c)),
-                _0x532937[_0x3a8f('0x57c')]('sql', _0x5b0d72(0x78d)),
-                _0x532937[_0x3a8f('0x57c')]('stan', _0x5b0d72(0x78e)),
-                _0x532937['registerLanguage']('stata', _0x5b0d72(0x78f)),
-                _0x532937['registerLanguage'](_0x3a8f('0xb34'), _0x5b0d72(0x790)),
-                _0x532937[_0x3a8f('0x57c')]('stylus', _0x5b0d72(0x791)),
-                _0x532937[_0x3a8f('0x57c')]('subunit', _0x5b0d72(0x792)),
-                _0x532937[_0x3a8f('0x57c')]('swift', _0x5b0d72(0x793)),
-                _0x532937['registerLanguage']('taggerscript', _0x5b0d72(0x794)),
-                _0x532937[_0x3a8f('0x57c')]('yaml', _0x5b0d72(0x795)),
-                _0x532937['registerLanguage']('tap', _0x5b0d72(0x796)),
-                _0x532937['registerLanguage']('tcl', _0x5b0d72(0x797)),
-                _0x532937['registerLanguage'](_0x3a8f('0x7f8'), _0x5b0d72(0x798)),
-                _0x532937['registerLanguage']('tp', _0x5b0d72(0x799)),
-                _0x532937[_0x3a8f('0x57c')]('twig', _0x5b0d72(0x79a)),
-                _0x532937['registerLanguage']('typescript', _0x5b0d72(0x79b)),
-                _0x532937['registerLanguage']('vala', _0x5b0d72(0x79c)),
-                _0x532937['registerLanguage']('vbnet', _0x5b0d72(0x79d)),
-                _0x532937[_0x3a8f('0x57c')]('vbscript', _0x5b0d72(0x79e)),
-                _0x532937['registerLanguage']('vbscript-html', _0x5b0d72(0x79f)),
-                _0x532937['registerLanguage']('verilog', _0x5b0d72(0x7a0)),
-                _0x532937[_0x3a8f('0x57c')]('vhdl', _0x5b0d72(0x7a1)),
-                _0x532937['registerLanguage']('vim', _0x5b0d72(0x7a2)),
-                _0x532937['registerLanguage']('wasm', _0x5b0d72(0x7a3)),
-                _0x532937['registerLanguage'](_0x3a8f('0x6dd'), _0x5b0d72(0x7a4)),
-                _0x532937['registerLanguage']('x86asm', _0x5b0d72(0x7a5)),
-                _0x532937[_0x3a8f('0x57c')]('xl', _0x5b0d72(0x7a6)),
-                _0x532937['registerLanguage']('xquery', _0x5b0d72(0x7a7)),
-                _0x532937['registerLanguage']('zephir', _0x5b0d72(0x7a8)),
-                _0x532937['HighlightJS'] = _0x532937,
-                _0x532937['default'] = _0x532937,
-                _0x29dfdf['exports'] = _0x532937;
+            // HighlightJS
+            1021: function (module, exports, require) {
+                var m1768 = require(1768);
+
+                m1768['registerLanguage']('1c', require(0x6e9))
+                m1768['registerLanguage']('abnf', require(0x6ea))
+                m1768['registerLanguage']('accesslog', require(0x6eb))
+                m1768['registerLanguage']('actionscript', require(0x6ec))
+                m1768['registerLanguage']('ada', require(0x6ed))
+                m1768['registerLanguage']('angelscript', require(0x6ee))
+                m1768['registerLanguage']('apache', require(0x6ef))
+                m1768['registerLanguage']('applescript', require(0x6f0))
+                m1768['registerLanguage']('arcade', require(0x6f1))
+                m1768['registerLanguage']('arduino', require(0x6f2))
+                m1768['registerLanguage']('armasm', require(0x6f3))
+                m1768['registerLanguage']('xml', require(0x6f4))
+                m1768['registerLanguage']('asciidoc', require(0x6f5))
+                m1768['registerLanguage']('aspectj', require(0x6f6))
+                m1768['registerLanguage']('autohotkey', require(0x6f7))
+                m1768['registerLanguage']('autoit', require(0x6f8))
+                m1768['registerLanguage']('avrasm', require(0x6f9))
+                m1768['registerLanguage']('awk', require(0x6fa))
+                m1768['registerLanguage']('axapta', require(0x6fb))
+                m1768['registerLanguage']('bash', require(0x6fc))
+                m1768['registerLanguage']('basic', require(0x6fd))
+                m1768['registerLanguage']('bnf', require(0x6fe))
+                m1768['registerLanguage']('brainfuck', require(0x6ff))
+                m1768['registerLanguage']('c', require(0x700))
+                m1768['registerLanguage']('cal', require(0x701))
+                m1768['registerLanguage']('capnproto', require(0x702))
+                m1768['registerLanguage']('ceylon', require(0x703))
+                m1768['registerLanguage']('clean', require(0x704))
+                m1768['registerLanguage']('clojure', require(0x705))
+                m1768['registerLanguage']('clojure-repl', require(0x706))
+                m1768['registerLanguage']('cmake', require(0x707))
+                m1768['registerLanguage']('coffeescript', require(0x708))
+                m1768['registerLanguage']('coq', require(0x709))
+                m1768['registerLanguage']('cos', require(0x70a))
+                m1768['registerLanguage']('cpp', require(0x70b))
+                m1768['registerLanguage']('crmsh', require(0x70c))
+                m1768['registerLanguage']('crystal', require(0x70d))
+                m1768['registerLanguage']('csharp', require(0x70e))
+                m1768['registerLanguage']('csp', require(0x70f))
+                m1768['registerLanguage']('css', require(0x710))
+                m1768['registerLanguage']('d', require(0x711))
+                m1768['registerLanguage']('markdown', require(0x712))
+                m1768['registerLanguage']('dart', require(0x713))
+                m1768['registerLanguage']('delphi', require(0x714))
+                m1768['registerLanguage']('diff', require(0x715))
+                m1768['registerLanguage']('django', require(0x716))
+                m1768['registerLanguage']('dns', require(0x717))
+                m1768['registerLanguage']('dockerfile', require(0x718))
+                m1768['registerLanguage']('dos', require(0x719))
+                m1768['registerLanguage']('dsconfig', require(0x71a))
+                m1768['registerLanguage']('dts', require(0x71b))
+                m1768['registerLanguage']('dust', require(0x71c))
+                m1768['registerLanguage']('ebnf', require(0x71d))
+                m1768['registerLanguage']('elixir', require(0x71e))
+                m1768['registerLanguage']('elm', require(0x71f))
+                m1768['registerLanguage']('ruby', require(0x720))
+                m1768['registerLanguage']('erb', require(0x721))
+                m1768['registerLanguage']('erlang-repl', require(0x722))
+                m1768['registerLanguage']('erlang', require(0x723))
+                m1768['registerLanguage']('excel', require(0x724))
+                m1768['registerLanguage']('fix', require(0x725))
+                m1768['registerLanguage']('flix', require(0x726))
+                m1768['registerLanguage']('fortran', require(0x727))
+                m1768['registerLanguage']('fsharp', require(0x728))
+                m1768['registerLanguage']('gams', require(0x729))
+                m1768['registerLanguage']('gauss', require(0x72a))
+                m1768['registerLanguage']('gcode', require(0x72b))
+                m1768['registerLanguage']('gherkin', require(0x72c))
+                m1768['registerLanguage']('glsl', require(0x72d))
+                m1768['registerLanguage']('gml', require(0x72e))
+                m1768['registerLanguage']('go', require(0x72f))
+                m1768['registerLanguage']('golo', require(0x730))
+                m1768['registerLanguage']('gradle', require(0x731))
+                m1768['registerLanguage']('graphql', require(0x732))
+                m1768['registerLanguage']('groovy', require(0x733))
+                m1768['registerLanguage']('haml', require(0x734))
+                m1768['registerLanguage']('handlebars', require(0x735))
+                m1768['registerLanguage']('haskell', require(0x736))
+                m1768['registerLanguage']('haxe', require(0x737))
+                m1768['registerLanguage']('hsp', require(0x738))
+                m1768['registerLanguage']('http', require(0x739))
+                m1768['registerLanguage']('hy', require(0x73a))
+                m1768['registerLanguage']('inform7', require(0x73b))
+                m1768['registerLanguage']('ini', require(0x73c))
+                m1768['registerLanguage']('irpf90', require(0x73d))
+                m1768['registerLanguage']('isbl', require(0x73e))
+                m1768['registerLanguage']('java', require(0x73f))
+                m1768['registerLanguage']('javascript', require(0x740))
+                m1768['registerLanguage']('jboss-cli', require(0x741))
+                m1768['registerLanguage']('json', require(0x742))
+                m1768['registerLanguage']('julia', require(0x743))
+                m1768['registerLanguage']('julia-repl', require(0x744))
+                m1768['registerLanguage']('kotlin', require(0x745))
+                m1768['registerLanguage']('lasso', require(0x746))
+                m1768['registerLanguage']('latex', require(0x747))
+                m1768['registerLanguage']('ldif', require(0x748))
+                m1768['registerLanguage']('leaf', require(0x749))
+                m1768['registerLanguage']('less', require(0x74a))
+                m1768['registerLanguage']('lisp', require(0x74b))
+                m1768['registerLanguage']('livecodeserver', require(0x74c))
+                m1768['registerLanguage']('livescript', require(0x74d))
+                m1768['registerLanguage']('llvm', require(0x74e))
+                m1768['registerLanguage']('lsl', require(0x74f))
+                m1768['registerLanguage']('lua', require(0x750))
+                m1768['registerLanguage']('makefile', require(0x751))
+                m1768['registerLanguage']('mathematica', require(0x752))
+                m1768['registerLanguage']('matlab', require(0x753))
+                m1768['registerLanguage']('maxima', require(0x754))
+                m1768['registerLanguage']('mel', require(0x755))
+                m1768['registerLanguage']('mercury', require(0x756))
+                m1768['registerLanguage']('mipsasm', require(0x757))
+                m1768['registerLanguage']('mizar', require(0x758))
+                m1768['registerLanguage']('perl', require(0x759))
+                m1768['registerLanguage']('mojolicious', require(0x75a))
+                m1768['registerLanguage']('monkey', require(0x75b))
+                m1768['registerLanguage']('moonscript', require(0x75c))
+                m1768['registerLanguage']('n1ql', require(0x75d))
+                m1768['registerLanguage']('nestedtext', require(0x75e))
+                m1768['registerLanguage']('nginx', require(0x75f))
+                m1768['registerLanguage']('nim', require(0x760))
+                m1768['registerLanguage']('nix', require(0x761))
+                m1768['registerLanguage']('node-repl', require(0x762))
+                m1768['registerLanguage']('nsis', require(0x763))
+                m1768['registerLanguage']('objectivec', require(0x764))
+                m1768['registerLanguage']('ocaml', require(0x765))
+                m1768['registerLanguage']('openscad', require(0x766))
+                m1768['registerLanguage']('oxygene', require(0x767))
+                m1768['registerLanguage']('parser3', require(0x768))
+                m1768['registerLanguage']('pf', require(0x769))
+                m1768['registerLanguage']('pgsql', require(0x76a))
+                m1768['registerLanguage']('php', require(0x76b))
+                m1768['registerLanguage']('php-template', require(0x76c))
+                m1768['registerLanguage']('plaintext', require(0x76d))
+                m1768['registerLanguage']('pony', require(0x76e))
+                m1768['registerLanguage']('powershell', require(0x76f))
+                m1768['registerLanguage']('processing', require(0x770))
+                m1768['registerLanguage']('profile', require(0x771))
+                m1768['registerLanguage']('prolog', require(0x772))
+                m1768['registerLanguage']('properties', require(0x773))
+                m1768['registerLanguage']('protobuf', require(0x774))
+                m1768['registerLanguage']('puppet', require(0x775))
+                m1768['registerLanguage']('purebasic', require(0x776))
+                m1768['registerLanguage']('python', require(0x777))
+                m1768['registerLanguage']('python-repl', require(0x778))
+                m1768['registerLanguage']('q', require(0x779))
+                m1768['registerLanguage']('qml', require(0x77a))
+                m1768['registerLanguage']('r', require(0x77b))
+                m1768['registerLanguage']('reasonml', require(0x77c))
+                m1768['registerLanguage']('rib', require(0x77d))
+                m1768['registerLanguage']('roboconf', require(0x77e))
+                m1768['registerLanguage']('routeros', require(0x77f))
+                m1768['registerLanguage']('rsl', require(0x780))
+                m1768['registerLanguage']('ruleslanguage', require(0x781))
+                m1768['registerLanguage']('rust', require(0x782))
+                m1768['registerLanguage']('sas', require(0x783))
+                m1768['registerLanguage']('scala', require(0x784))
+                m1768['registerLanguage']('scheme', require(0x785))
+                m1768['registerLanguage']('scilab', require(0x786))
+                m1768['registerLanguage']('scss', require(0x787))
+                m1768['registerLanguage']('shell', require(0x788))
+                m1768['registerLanguage']('smali', require(0x789))
+                m1768['registerLanguage']('smalltalk', require(0x78a))
+                m1768['registerLanguage']('sml', require(0x78b))
+                m1768['registerLanguage']('sqf', require(0x78c))
+                m1768['registerLanguage']('sql', require(0x78d))
+                m1768['registerLanguage']('stan', require(0x78e))
+                m1768['registerLanguage']('stata', require(0x78f))
+                m1768['registerLanguage']('step21', require(0x790))
+                m1768['registerLanguage']('stylus', require(0x791))
+                m1768['registerLanguage']('subunit', require(0x792))
+                m1768['registerLanguage']('swift', require(0x793))
+                m1768['registerLanguage']('taggerscript', require(0x794))
+                m1768['registerLanguage']('yaml', require(0x795))
+                m1768['registerLanguage']('tap', require(0x796))
+                m1768['registerLanguage']('tcl', require(0x797))
+                m1768['registerLanguage']('thrift', require(0x798))
+                m1768['registerLanguage']('tp', require(0x799))
+                m1768['registerLanguage']('twig', require(0x79a))
+                m1768['registerLanguage']('typescript', require(0x79b))
+                m1768['registerLanguage']('vala', require(0x79c))
+                m1768['registerLanguage']('vbnet', require(0x79d))
+                m1768['registerLanguage']('vbscript', require(0x79e))
+                m1768['registerLanguage']('vbscript-html', require(0x79f))
+                m1768['registerLanguage']('verilog', require(0x7a0))
+                m1768['registerLanguage']('vhdl', require(0x7a1))
+                m1768['registerLanguage']('vim', require(0x7a2))
+                m1768['registerLanguage']('wasm', require(0x7a3))
+                m1768['registerLanguage']('wren', require(0x7a4))
+                m1768['registerLanguage']('x86asm', require(0x7a5))
+                m1768['registerLanguage']('xl', require(0x7a6))
+                m1768['registerLanguage']('xquery', require(0x7a7))
+                m1768['registerLanguage']('zephir', require(0x7a8))
+                m1768['HighlightJS'] = m1768
+                m1768['default'] = m1768
+
+                module.exports = m1768
             },
-            1768: function (_0x20f27e, _0x9f3f35) {
+            1768: function (module, exports) {
                 var _0x10d08f = {
                     'exports': {}
                 };
@@ -4989,8 +4992,8 @@ window.webpackJsonp.push(
                         _0x40fa93;
                 }
 
-                _0x10d08f[_0x3a8f('0x75f')] = _0x155f5d,
-                    _0x10d08f['exports']['default'] = _0x155f5d;
+                _0x10d08f[_0x3a8f('0x75f')] = _0x155f5d
+                _0x10d08f['exports']['default'] = _0x155f5d;
 
                 class _0xf8b6f1 {
                     constructor(_0x57b759) {
@@ -5063,13 +5066,12 @@ window.webpackJsonp.push(
                 }
 
                 const _0x3b3b6a = (_0x462f69 = {}) => {
-                        const _0x5183ee = {
-                            'children': []
-                        };
-                        return Object['assign'](_0x5183ee, _0x462f69),
-                            _0x5183ee;
-                    }
-                ;
+                    const _0x5183ee = {
+                        'children': []
+                    };
+                    return Object['assign'](_0x5183ee, _0x462f69),
+                        _0x5183ee;
+                }
 
                 class _0x43331c {
                     constructor() {
@@ -5416,8 +5418,7 @@ window.webpackJsonp.push(
                             },
                             _0x1e30d6['relevance'] = 0x0,
                             delete _0x3a68dd[_0x3a8f('0x787')];
-                    }
-                    ,
+                    },
                     _0x460b30 = ['of', 'and', 'for', 'in', 'not', 'or', 'if', 'then', 'parent', _0x3a8f('0xa8e'), 'value'];
 
                 function _0x554856(_0x67608, _0x29e653, _0x3f6365 = 'keyword') {
@@ -6211,12 +6212,13 @@ window.webpackJsonp.push(
                     return Object[_0x3a8f('0xc00')](_0x4e27ef, _0xfcb323),
                         _0x4e27ef;
                 }({});
-                _0x20f27e['exports'] = _0x5ac87e,
-                    _0x5ac87e['HighlightJS'] = _0x5ac87e,
-                    _0x5ac87e['default'] = _0x5ac87e;
+
+                module.exports = _0x5ac87e
+                _0x5ac87e['HighlightJS'] = _0x5ac87e
+                _0x5ac87e['default'] = _0x5ac87e
             },
-            1769: function (_0x47a7b3, _0x2fd247) {
-                _0x47a7b3[_0x3a8f('0x75f')] = function (_0x1de0d5) {
+            1769: function (module, exports) {
+                module.exports = function (_0x1de0d5) {
                     const _0x2a970b = '[A-Za-zА-Яа-яёЁ_][A-Za-zА-Яа-яёЁ_0-9]+'
                         ,
                         _0x69a3fd = 'далее\x20возврат\x20вызватьисключение\x20выполнить\x20для\x20если\x20и\x20из\x20или\x20иначе\x20иначеесли\x20исключение\x20каждого\x20конецесли\x20конецпопытки\x20конеццикла\x20не\x20новый\x20перейти\x20перем\x20по\x20пока\x20попытка\x20прервать\x20продолжить\x20тогда\x20цикл\x20экспорт\x20'
@@ -6299,7 +6301,6 @@ window.webpackJsonp.push(
                         }, _0x40591f, _0x544e35, _0x415a0e]
                     };
                 }
-                ;
             },
             1770: function (_0x706dd1, _0xbbc557) {
                 _0x706dd1['exports'] = function (_0x5b060f) {
@@ -6330,7 +6331,6 @@ window.webpackJsonp.push(
                         }, _0x5b060f['QUOTE_STRING_MODE'], _0x5b060f['NUMBER_MODE']]
                     };
                 }
-                ;
             },
             1771: function (_0x4bf220, _0x4237b0) {
                 _0x4bf220['exports'] = function (_0x31cf56) {
@@ -6384,7 +6384,6 @@ window.webpackJsonp.push(
                         }]
                     };
                 }
-                ;
             },
             1772: function (_0x26e731, _0x1a964e) {
                 _0x26e731[_0x3a8f('0x75f')] = function (_0x35bcbf) {

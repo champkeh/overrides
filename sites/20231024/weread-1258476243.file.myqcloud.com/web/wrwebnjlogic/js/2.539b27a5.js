@@ -139,15 +139,15 @@ window.webpackJsonp.push(
     [
         [0x2],
         {
-            1490: function (_0x54b8ce, _0x2e90ac, _0x20cf82) {
-                'use strict';
-                Object['defineProperty'](_0x2e90ac, '__esModule', {
+            1490: function (module, exports, require) {
+                Object['defineProperty'](exports, '__esModule', {
                     'value': !0x0
-                }),
-                    _0x2e90ac[_0x14a3('0x6c')] = _0x2e90ac['com'] = void 0x0;
-                var _0x13097f = _0x2f7e8c(_0x20cf82(0x4f))
-                    , _0xa6e7e9 = _0x2f7e8c(_0x20cf82(0x60))
-                    , _0x30e9db = _0x2f7e8c(_0x20cf82(0x180))
+                })
+
+                exports[_0x14a3('0x6c')] = exports['com'] = void 0x0;
+                var _0x13097f = _0x2f7e8c(require(0x4f))
+                    , _0xa6e7e9 = _0x2f7e8c(require(0x60))
+                    , _0x30e9db = _0x2f7e8c(require(0x180))
                     , _0x548b47 = function (_0x429398) {
                     if (_0x429398 && _0x429398['__esModule'])
                         return _0x429398;
@@ -157,7 +157,7 @@ window.webpackJsonp.push(
                             Object['prototype']['hasOwnProperty']['call'](_0x429398, _0x29aaca) && (_0x3573cb[_0x29aaca] = _0x429398[_0x29aaca]);
                     return _0x3573cb['default'] = _0x429398,
                         _0x3573cb;
-                }(_0x20cf82(0x42a));
+                }(require(0x42a));
 
                 function _0x2f7e8c(_0x443119) {
                     return _0x443119 && _0x443119['__esModule'] ? _0x443119 : {
@@ -169,7 +169,7 @@ window.webpackJsonp.push(
                     , _0x421606 = _0x548b47['Writer']
                     , _0x15b6fb = _0x548b47[_0x14a3('0x42')]
                     , _0x1a2fc5 = _0x548b47['roots']['default'] || (_0x548b47['roots']['default'] = {});
-                _0x2e90ac['com'] = _0x1a2fc5['com'] = function () {
+                exports['com'] = _0x1a2fc5['com'] = function () {
                     var _0x1177a, _0x5cb2be, _0x5e809d, _0x24985c, _0x7bad9f, _0x479e12 = {};
                     return _0x479e12['tencent'] = ((_0x7bad9f = {})['wrbus'] = ((_0x24985c = {})['pb'] = ((_0x5e809d = {})[_0x14a3('0x1e')] = (_0x1177a = {},
                         (_0x5cb2be = (0x0,
@@ -608,7 +608,7 @@ window.webpackJsonp.push(
                         _0x7bad9f),
                         _0x479e12;
                 }();
-                _0x2e90ac['default'] = _0x1a2fc5;
+                exports['default'] = _0x1a2fc5;
             },
             1500: function (_0x1d5eea, _0x396adf, _0x3f635b) {
                 'use strict';
