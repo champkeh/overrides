@@ -10737,7 +10737,7 @@ window.webpackJsonp.push(
                     _0x184069 = 'book',
                     _0x12bfda = 'bookReview',
                     _0x5b88ba = 0,
-                    _0xdfb3db = 0,
+                    clientHeight = 0,
                     _0x4a5c08 = [],
                     _0x3f16ee = [],
                     anchors = [],
@@ -10830,6 +10830,7 @@ window.webpackJsonp.push(
                         }
                     },
                     'created': function () {
+                        debugger
                         if (m9.isEnvClient) {
                             let __this = this;
                             this.$store.registerModule('reader', m1023.default(), {
@@ -11244,179 +11245,194 @@ window.webpackJsonp.push(
                         'markFirstPageRenderEnd': m55['MARK_FIRST_PAGE_RENDER_END']
                     }), {
                         'tryToHideMenu': function () {
-                            var _0x35bc1c = this.$refs && this.$refs.reader_top_bar;
-                            _0x35bc1c && _0x35bc1c.isMenuShowing && _0x35bc1c.handleHideMenu();
+                            let readerTopBarRef = this.$refs && this.$refs.reader_top_bar;
+                            readerTopBarRef && readerTopBarRef.isMenuShowing && readerTopBarRef.handleHideMenu()
                         },
                         'tryUpdateBottomBarClassList': function (_0x38018b) {
-                            if (m9[_0x136f('0x37e')]) {
-                                if (this['isFromWeReadApp'])
-                                    return;
-                                if (document['querySelector']('.readerBottomBar')) {
+                            if (m9.isEnvClient) {
+                                if (this.isFromWeReadApp) {
+                                    return
+                                }
+                                if (document.querySelector('.readerBottomBar')) {
                                     if (_0x38018b) {
-                                        var _0x4c4d3a = _0x38018b['clientHeight'] || 0x0
-                                            , _0x2f6914 = _0x38018b['scrollTop'] || 0x0
-                                            , _0x4f1b55 = _0x38018b[_0x136f('0x1dd')] || 0x0;
-                                        return void (this['isPhoneBottomBarActive'] = _0x4c4d3a + _0x2f6914 >= _0x4f1b55 - 0x32);
+                                        let clientHeight = _0x38018b.clientHeight || 0,
+                                            scrollTop = _0x38018b.scrollTop || 0,
+                                            scrollHeight = _0x38018b.scrollHeight || 0;
+                                        this.isPhoneBottomBarActive = clientHeight + scrollTop >= scrollHeight - 50
+                                        return
                                     }
-                                    this[_0x136f('0x1a4')] = !this[_0x136f('0x1a4')];
+                                    this.isPhoneBottomBarActive = !this.isPhoneBottomBarActive
                                 }
                             }
                         },
                         'handleTopWriteReviewClickEvent': function (_0x552abc) {
-                            var _0x2fb4a4 = this
-                                , _0x2dbb28 = _0x552abc['grade'];
-                            if (this['hasLogin']) {
-                                var _0x234ba3 = m33['get'](this, 'bookInfo.version', 0x0);
-                                this['reportClientBusiness']({
-                                    'itemName': _0x136f('0x31c')
-                                }),
-                                    this['$showWriteReviewDialog']({
-                                        'vid': this['user']['vid'] || 0x0,
-                                        'bookId': this['bookId'],
-                                        'grade': _0x2dbb28,
-                                        'isPrivateUploadBook': this['isPrivateUploadBook']
-                                    }, function () {
-                                        _0x2fb4a4['$toast']('发表中...', -0x1);
-                                    }, function (_0x3194e6) {
-                                        var _0x84b0b = _0x3194e6['bookId']
-                                            , _0xd6d123 = _0x3194e6['content']
-                                            , _0x18984f = _0x3194e6['newRatingLevel']
-                                            , _0x5a9084 = _0x3194e6['isPrivate']
-                                            , _0x33d465 = _0x3194e6['friendship'];
-                                        _0x2fb4a4[_0x136f('0x49f')]['getIsSending']() || (_0x2fb4a4['$writeReviewDialog']['setIsSending'](!0x0),
-                                            _0x2fb4a4['$writeReviewDialog']['setIsSendedSucc'](!0x0),
-                                            _0x2fb4a4['$store']['dispatch'](m55['FETCH_BOOK_REVIEW_ADD'], {
-                                                'bookId': _0x84b0b,
-                                                'content': _0xd6d123,
-                                                'newRatingLevel': _0x18984f,
-                                                'isPrivate': _0x5a9084,
-                                                'friendship': _0x33d465,
-                                                'bookVersion': _0x234ba3
-                                            })['then'](function (_0x798c04) {
-                                                var _0x112c15 = m33[_0x136f('0x48c')](_0x798c04, 'data.reviewId', '');
-                                                _0x112c15 && _0x112c15['length'] > 0x0 ? (_0x2fb4a4['$hideToast'](),
-                                                    _0x2fb4a4['$toast']('发表成功'),
-                                                    _0x2fb4a4['$writeReviewDialog'][_0x136f('0x1ea')](),
-                                                    _0x2fb4a4[_0x136f('0x225')]({
-                                                        'bookmark': '',
-                                                        'review': 'append'
-                                                    })) : (_0x2fb4a4['$hideToast'](),
-                                                    _0x2fb4a4['$toast']('发表失败，请重试')),
-                                                    _0x2fb4a4['$writeReviewDialog']['setIsSending'](!0x1),
-                                                    _0x2fb4a4[_0x136f('0x470')]({
-                                                        'itemName': _0x136f('0x203')
-                                                    });
-                                            })[_0x136f('0x221')](function (_0x201325) {
-                                                _0x2fb4a4['$hideToast'](),
-                                                    _0x2fb4a4['$toast']('发表失败，请重试'),
-                                                    _0x2fb4a4['$writeReviewDialog']['setIsSending'](!0x1),
-                                                    _0x2fb4a4['logInfo']('[writeReview]\x20err\x20=\x20' + _0x201325);
-                                            }));
-                                    }, function () {
-                                        var _0x45e035 = _0x2fb4a4[_0x136f('0x36e')]['bookRatings'];
-                                        _0x45e035 && _0x45e035['refreshRatingsButtonStatus']();
-                                    });
-                            } else
-                                this['$showLoginDialog']({
+                            let _this = this,
+                                grade = _0x552abc.grade;
+                            if (this.hasLogin) {
+                                let bookVersion = m33.get(this, 'bookInfo.version', 0)
+                                this.reportClientBusiness({
+                                    'itemName': 'Web_Reader_WriteBookReview'
+                                })
+                                this.$showWriteReviewDialog({
+                                    'vid': this.user.vid || 0,
+                                    'bookId': this.bookId,
+                                    'grade': grade,
+                                    'isPrivateUploadBook': this.isPrivateUploadBook
+                                }, function () {
+                                    _this.$toast('发表中...', -1)
+                                }, function (_0x3194e6) {
+                                    let bookId = _0x3194e6['bookId'],
+                                        content = _0x3194e6['content'],
+                                        newRatingLevel = _0x3194e6['newRatingLevel'],
+                                        isPrivate = _0x3194e6['isPrivate'],
+                                        friendship = _0x3194e6['friendship'];
+
+                                    if (!_this.$writeReviewDialog.getIsSending()) {
+                                        _this.$writeReviewDialog.setIsSending(true)
+                                        _this.$writeReviewDialog.setIsSendedSucc(true)
+                                        _this.$store.dispatch(m55['FETCH_BOOK_REVIEW_ADD'], {
+                                            'bookId': bookId,
+                                            'content': content,
+                                            'newRatingLevel': newRatingLevel,
+                                            'isPrivate': isPrivate,
+                                            'friendship': friendship,
+                                            'bookVersion': bookVersion,
+                                        }).then((resp) => {
+                                            let reviewId = m33.get(resp, 'data.reviewId', '');
+                                            if (reviewId && reviewId.length > 0) {
+                                                _this.$hideToast()
+                                                _this.$toast('发表成功')
+                                                _this.$writeReviewDialog.closeDialog()
+                                                _this.syncMyNote({
+                                                    'bookmark': '',
+                                                    'review': 'append'
+                                                })
+                                            } else {
+                                                _this.$hideToast()
+                                                _this.$toast('发表失败，请重试')
+                                            }
+                                            _this.$writeReviewDialog.setIsSending(false)
+                                            _this.reportClientBusiness({
+                                                'itemName': 'Web_WriteBookReview_Succ'
+                                            })
+                                        }).catch((err) => {
+                                            _this.$hideToast()
+                                            _this.$toast('发表失败，请重试')
+                                            _this.$writeReviewDialog.setIsSending(false)
+                                            _this.logInfo('[writeReview] err = ' + err)
+                                        })
+                                    }
+                                }, function () {
+                                    let bookRatingsRef = _this.$refs.bookRatings
+                                    bookRatingsRef && bookRatingsRef.refreshRatingsButtonStatus()
+                                })
+                            } else {
+                                this.$showLoginDialog({
                                     'bottomTitle': '扫码登录微信读书',
                                     'bottomSubTitle': '登录后可以点评此书'
-                                });
+                                })
+                            }
                         },
                         'handleBookRatingsOpenBookReviews': function (_0x2d8086) {
-                            var _0x58aa1a = _0x2d8086['bookId'];
-                            this['displayTopTotalReviewList'] && this['displayTopTotalReviewList']['length'] > 0x0 ? (0x0,
-                                m78['default'])(this[_0x136f('0x3da')](_0x58aa1a)) : this['$toast']('暂无精彩点评');
+                            let bookId = _0x2d8086['bookId']
+                            if (this.displayTopTotalReviewList && this.displayTopTotalReviewList.length > 0) {
+                                m78.default(this.bookReviewURL(bookId))
+                            } else {
+                                this.$toast('暂无精彩点评')
+                            }
                         },
                         'onClickLogout': function () {
-                            return this['$store'][_0x136f('0x478')](m55['FETCH_LOGOUT'])['then'](function (_0x4cb7a9) {
-                                !_0x4cb7a9 || 0x1 !== _0x4cb7a9['success'] && -0x7da !== _0x4cb7a9['errCode'] && -0x7dc !== _0x4cb7a9[_0x136f('0x436')] && -0x7dd !== _0x4cb7a9['errCode'] || window['location']['reload']();
-                            });
+                            return this.$store.dispatch(m55['FETCH_LOGOUT']).then((resp) => {
+                                !resp || 1 !== resp.success && -2010 !== resp.errCode && -2012 !== resp.errCode && -2013 !== resp.errCode || window.location.reload()
+                            })
                         },
-                        'handleClickTopBarItem': function (_0x1a067d) {
-                            switch (_0x1a067d) {
+                        'handleClickTopBarItem': function (item) {
+                            switch (item) {
                                 case 'login':
-                                    return this['$showLoginDialog']();
-                                case _0x136f('0x12d'):
-                                    return this['onClickLogout']();
-                                case _0x136f('0x1d0'):
-                                    return this['onClickShelf']();
+                                    return this.$showLoginDialog()
+                                case 'logout':
+                                    return this.onClickLogout()
+                                case 'gotoShelf':
+                                    return this.onClickShelf()
                                 case 'addShelf':
-                                    return this['reportClientBusiness']({
+                                    this.reportClientBusiness({
                                         'itemName': 'Web_Reader_TopAddClk'
-                                    }),
-                                        this['handleClickShelfButton']();
+                                    })
+                                    return this.handleClickShelfButton()
                                 case 'firstChapter':
-                                    return this['handleClickFirstChapter']();
+                                    return this.handleClickFirstChapter()
                                 case 'switchFormat':
-                                    return this['handleClickSwitchFormat']();
+                                    return this.handleClickSwitchFormat()
                             }
                         },
                         'handleClickSwitchFormat': function () {
-                            var _0x344d6c = this;
-                            this['reportClientBusiness']({
+                            let _this = this
+                            this.reportClientBusiness({
                                 'itemName': 'Web_Reader_SwitchFormat'
-                            });
-                            var _0x57e419 = this[_0x136f('0x323')]();
-                            this['$store']['dispatch'](m55['SWITCH_DYNAMIC_BOOK_FORMAT'], {
-                                'progressData': _0x57e419
-                            })['then'](function (_0x307dac) {
-                                var _0x21eef9 = _0x307dac['data'];
-                                console['log'](_0x21eef9);
-                                var _0x19ad8a = m33['get'](_0x21eef9, 'chapterUid', -0x1)
-                                    , _0x24397a = m33['get'](_0x21eef9, _0x136f('0x6d'), 0x0);
-                                if (!(_0x19ad8a < 0x0)) {
-                                    var _0x298451 = m58['readerURL'](_0x344d6c['bookId'], {
-                                        'chapterUid': _0x19ad8a,
+                            })
+                            let progressData = this.computeProgressData()
+                            this.$store.dispatch(m55['SWITCH_DYNAMIC_BOOK_FORMAT'], {
+                                'progressData': progressData
+                            }).then((resp) => {
+                                let respData = resp.data
+                                console.log(respData)
+
+                                let chapterUid = m33.get(respData, 'chapterUid', -1),
+                                    chapterOffset = m33.get(respData, 'chapterOffset', 0);
+
+                                if (chapterUid >= 0) {
+                                    let url = m58.readerURL(_this.bookId, {
+                                        'chapterUid': chapterUid,
                                         'jumpType': 'switchFormat',
-                                        'offset': _0x24397a
-                                    });
-                                    (0x0,
-                                        m78[_0x136f('0x18f')])(_0x298451);
+                                        'offset': chapterOffset,
+                                    })
+                                    m78.default(url)
                                 }
-                            })['catch'](function (_0x39b41b) {
-                                console[_0x136f('0x395')](_0x39b41b),
-                                    _0x344d6c['$toast']('切换失败');
-                            });
+                            }).catch((err) => {
+                                console.log(err)
+                                _this.$toast('切换失败')
+                            })
                         },
                         'onClickShelf': function () {
-                            this['saveReportInfo']('Nav_Shelf'),
-                                (0x0,
-                                    m78['default'])('/web/shelf');
+                            this.saveReportInfo('Nav_Shelf')
+                            m78.default('/web/shelf')
                         },
                         'checkHasValidRange': function () {
-                            var _0x534a62 = this['$route'][_0x136f('0x25f')]
-                                , _0x2fb468 = m33['get'](_0x534a62, 'range', '');
-                            return /(\d+)-(\d+)/['test'](String(_0x2fb468));
+                            let query = this.$route.query,
+                                range = m33.get(query, 'range', '');
+                            return /(\d+)-(\d+)/.test(String(range))
                         },
                         'parseAndClearQueryRange': function () {
                             try {
-                                var _0x26d115 = /(\d+)-(\d+)/
-                                    , _0x20740e = this['$route']['query']
-                                    , _0x3fe1b3 = m33[_0x136f('0x48c')](_0x20740e, 'range', '');
-                                if (_0x26d115['test'](String(_0x3fe1b3))) {
-                                    var _0x54605f = _0x3fe1b3['match'](_0x26d115)
-                                        , _0x373401 = parseInt(_0x54605f[0x1])
-                                        , _0x1495a0 = parseInt(_0x54605f[0x2]);
-                                    if (_0x373401 >= 0x0 && _0x1495a0 >= 0x0)
-                                        return this['$router']['replace']({
-                                            'query': (0x0,
-                                                m54[_0x136f('0x18f')])({}, _0x20740e, {
+                                let rangeRE = /(\d+)-(\d+)/,
+                                    query = this.$route.query,
+                                    range = m33.get(query, 'range', '');
+
+                                if (rangeRE.test(String(range))) {
+                                    let matchResult = range.match(rangeRE),
+                                        start = parseInt(matchResult[1]),
+                                        end = parseInt(matchResult[2]);
+                                    if (start >= 0 && end >= 0) {
+                                        this.$router.replace({
+                                            'query': m54.default({}, query, {
                                                 'range': ''
                                             })
-                                        }),
-                                            {
-                                                'start': _0x373401,
-                                                'end': _0x1495a0
-                                            };
+                                        })
+                                        return {
+                                            'start': start,
+                                            'end': end
+                                        }
+                                    }
                                 }
                                 return null;
-                            } catch (_0x5a4872) {
-                                return console['error'](_0x5a4872),
-                                    null;
+                            } catch (err) {
+                                console.error(err)
+                                return null
                             }
                         },
                         'layout': (_0xf9e7c7 = m376.default(m375.default.mark(function _0x555647() {
-                                var _this = this;
+                                let _this = this
+                                let layoutResult
                                 return m375.default.wrap(function (_0x47b4ad) {
                                     for (; ;) {
                                         debugger
@@ -11429,51 +11445,56 @@ window.webpackJsonp.push(
                                                 });
                                             case 0x2:
                                                 this.dangerMode = _0x47b4ad.sent
-                                                m9.inDevelopment() && console.log('dangerMode', this.dangerMode)
+
+                                                console.log('dangerMode', this.dangerMode)
+
                                                 if ('PRERENDER' === this.chapterContentState) {
                                                     _0x47b4ad['next'] = 0x6;
                                                     break;
                                                 }
+
                                                 return _0x47b4ad.abrupt('return', m76.default.reject({
                                                     'isCustomError': true,
                                                     'reason': 'ignoreLayoutWithWrongState'
                                                 }));
                                             case 0x6:
-                                                return _0x47b4ad.abrupt('return',
-                                                    this.waitForPreRender()
-                                                        .then(this.collectPreRenderInfos)
-                                                        .then(m376.default(m375.default.mark(function _0x33bcc5() {
-                                                            var _0x151f12, _0x26c9e6;
-                                                            return m375.default.wrap(function (_0x471bee) {
-                                                                for (; ;)
-                                                                    switch (_0x471bee['prev'] = _0x471bee['next']) {
-                                                                        case 0x0:
-                                                                            _this.needSerialProcess && _this.addWaterMask()
-                                                                            _0x151f12 = m33.get(_this, '$store.state.reader.initialSearchResult', null)
-                                                                            _0x26c9e6 = _this.parseAndClearQueryRange()
-                                                                            if (_0x151f12) {
-                                                                                try {
-                                                                                    _this.$store.commit(m75['UPDATE_INITIAL_SEARCH_RESULT'], null)
-                                                                                    _this.highLightDomsAndScrollTo(_0x151f12)
-                                                                                } catch (err) {
-                                                                                    console.log(err)
-                                                                                }
-                                                                            } else {
-                                                                                _0x26c9e6 && _this.scrollTo({
-                                                                                    'chapterOffset': _0x26c9e6['start'],
-                                                                                    'chapterOffsetEnd': _0x26c9e6['end'],
-                                                                                    'highlight': !0x0
-                                                                                })
+                                                layoutResult = this.waitForPreRender()
+                                                    .then(this.collectPreRenderInfos)
+                                                    .then(m376.default(m375.default.mark(function _0x33bcc5() {
+                                                        let searchResult, range;
+                                                        return m375.default.wrap(function (_0x471bee) {
+                                                            for (; ;)
+                                                                switch (_0x471bee['prev'] = _0x471bee['next']) {
+                                                                    case 0x0:
+                                                                        _this.needSerialProcess && _this.addWaterMask()
+
+                                                                        searchResult = m33.get(_this, '$store.state.reader.initialSearchResult', null)
+                                                                        range = _this.parseAndClearQueryRange()
+
+                                                                        if (searchResult) {
+                                                                            try {
+                                                                                _this.$store.commit(m75['UPDATE_INITIAL_SEARCH_RESULT'], null)
+                                                                                _this.highLightDomsAndScrollTo(searchResult)
+                                                                            } catch (err) {
+                                                                                console.log(err)
                                                                             }
-                                                                            return _0x471bee['abrupt']('return', {
-                                                                                'success': true
+                                                                        } else {
+                                                                            range && _this.scrollTo({
+                                                                                'chapterOffset': range.start,
+                                                                                'chapterOffsetEnd': range.end,
+                                                                                'highlight': true,
                                                                             })
-                                                                        case 0x5:
-                                                                        case 'end':
-                                                                            return _0x471bee['stop']();
-                                                                    }
-                                                            }, _0x33bcc5, _this);
-                                                        }))))
+                                                                        }
+                                                                        return _0x471bee['abrupt']('return', {
+                                                                            'success': true
+                                                                        })
+                                                                    case 0x5:
+                                                                    case 'end':
+                                                                        return _0x471bee['stop']();
+                                                                }
+                                                        }, _0x33bcc5, _this);
+                                                    })))
+                                                return _0x47b4ad.abrupt('return', layoutResult)
                                             case 0x7:
                                             case 'end':
                                                 return _0x47b4ad['stop']();
@@ -11482,353 +11503,425 @@ window.webpackJsonp.push(
                                 }, _0x555647, this)
                             })),
                                 function () {
-                                    return _0xf9e7c7['apply'](this, arguments);
+                                    return _0xf9e7c7['apply'](this, arguments)
                                 }
                         ),
-                        'eventProtect': function (_0xcec549, _0x151938) {
+                        'eventProtect': function (event, cb) {
                             try {
-                                m1028['e'](_0xcec549, function () {
-                                    _0x151938 && _0x151938();
-                                });
-                            } catch (_0x16c39f) {
-                                console['log'](_0x16c39f);
+                                m1028.e(event, function () {
+                                    cb && cb()
+                                })
+                            } catch (err) {
+                                console.log(err)
                             }
                         },
                         'waitForPreRender': function () {
                             debugger
 
-                            var _0x555e2b = this
-                                , _0x2c398b = this;
-                            return new m76['default'](function (_0xb96d0b) {
-                                    try {
-                                        _0x555e2b['markFirstPagePrerenderStart']();
-                                    } catch (_0xd22076) {
-                                        m9['inDevelopment']() && console[_0x136f('0x395')](_0xd22076);
-                                    }
-                                    var _0x46ea4b = function () {
-                                        var _0x362135 = _0x2c398b['$refs']['renderTargetContainerSibling']
-                                            , _0x4d6976 = _0x2c398b['$refs']['preRenderContainer'];
-                                        if (!_0x362135 || !_0x4d6976)
-                                            return _0x2c398b['logError'](_0x136f('0x1da') + !!_0x362135 + _0x136f('0x46e') + !!_0x4d6976 + ',state=' + _0x2c398b['chapterContentState']),
-                                                void _0xb96d0b();
-                                        var _0x4c2868 = _0x4d6976['getElementsByTagName']('img')
-                                            , _0xec7982 = _0x4c2868['length'];
-                                        if (_0xec7982 > 0x0) {
-                                            for (var _0x529f15 = 0x0; _0x529f15 < _0xec7982; _0x529f15++) {
-                                                var _0x3bf594 = _0x4c2868[_0x529f15]
-                                                    , _0x2115d1 = _0x3bf594['outerHTML']
-                                                    ,
-                                                    _0x5d3f21 = Math['min'](_0x362135['offsetWidth'], _0x3bf594[_0x136f('0x328')]['offsetWidth']);
-                                                if (-0x1 !== _0x2115d1['indexOf']('data-w') && -0x1 !== _0x2115d1[_0x136f('0x2d5')]('data-ratio')) {
-                                                    var _0x25ff9f = new RegExp('data-w=\x22(.*?)px\x22', 'ig');
-                                                    _0x2115d1[_0x136f('0x177')](_0x25ff9f);
-                                                    var _0x4e5abc = RegExp['$1']
-                                                        ,
-                                                        _0x3c0e5e = _0x4e5abc && _0x4e5abc['length'] > 0x0 ? parseInt(_0x4e5abc) : 0x0;
-                                                    if (new RegExp('data-w-new=\x22(.*?)px\x22', 'ig')[_0x136f('0x234')](_0x2115d1)) {
-                                                        _0x25ff9f = new RegExp('data-w-new=\x22(.*?)px\x22', 'ig'),
-                                                            _0x2115d1['match'](_0x25ff9f);
-                                                        var _0x43652c = RegExp['$1'];
-                                                        _0x3c0e5e = _0x43652c && _0x43652c['length'] > 0x0 ? parseInt(_0x43652c) : 0x0;
-                                                    }
-                                                    _0x25ff9f = new RegExp('data-ratio=\x22(.*?)\x22', 'ig'),
-                                                        _0x2115d1['match'](_0x25ff9f);
-                                                    var _0x4e141b = RegExp['$1']
-                                                        ,
-                                                        _0xd90357 = _0x4e141b && _0x4e141b['length'] > 0x0 ? parseFloat(_0x4e141b) : 0x0;
-                                                    if (0x0 !== _0x3c0e5e && 0x0 !== _0xd90357) {
-                                                        var _0x21c334 = _0x3bf594[_0x136f('0x3f0')]()
-                                                            , _0x45cbf6 = _0x3c0e5e / _0xd90357
-                                                            , _0x535853 = _0x45cbf6;
-                                                        if ((_0x25ff9f = new RegExp('width[0-9]{2,3}', 'ig'))['test'](_0x2115d1)) {
-                                                            _0x25ff9f = new RegExp('width([0-9]{2,3})', 'ig'),
-                                                                _0x2115d1['match'](_0x25ff9f);
-                                                            var _0x393c31 = RegExp['$1']
-                                                                ,
-                                                                _0x46779f = _0x393c31 && _0x393c31['length'] > 0x0 ? parseInt(_0x393c31) : 0x0;
-                                                            _0x46779f > 0x0 && _0x46779f <= 0x64 && (_0x3c0e5e *= (_0x535853 = _0x5d3f21 * _0x46779f / 0x64) / _0x45cbf6);
-                                                        } else
-                                                            -0x1 !== _0x2115d1['indexOf']('qqreader-fullimg') || -0x1 !== _0x2115d1['indexOf']('bleed-pic') || _0x3bf594['parentNode']['classList'][_0x136f('0x12a')]('bleed-pic') ? _0x3c0e5e *= (_0x535853 = _0x5d3f21) / _0x45cbf6 : _0x21c334[_0x136f('0x35f')] > 0x1 ? _0x535853 = (_0x3c0e5e = _0x21c334[_0x136f('0x35f')]) / _0xd90357 : _0x21c334[_0x136f('0x2f3')] > 0x1 && (_0x3c0e5e *= (_0x535853 = _0x21c334['width']) / _0x45cbf6);
-                                                        _0x535853 > _0x5d3f21 && _0x5d3f21 > 0x1 && (_0x3c0e5e *= _0x5d3f21 / _0x535853,
-                                                            _0x535853 = _0x5d3f21),
-                                                            _0x3bf594['style']['width'] = _0x535853 + 'px',
-                                                            _0x3bf594['style']['height'] = _0x3c0e5e + 'px';
-                                                    } else
-                                                        _0x2c398b['logInfo'](_0x136f('0x92') + _0x3c0e5e + '\x20ratio\x20=\x20' + _0xd90357),
-                                                        m9['inDevelopment']() && alert(_0x136f('0x1b4'));
-                                                } else
-                                                    _0x2c398b['logInfo']('[img-style]\x20img\x20no\x20height\x20or\x20ratio'),
-                                                    m9['inDevelopment']() && alert(_0x136f('0x1b4'));
-                                            }
-                                            _0xb96d0b();
-                                        } else
-                                            _0xb96d0b();
-                                    };
-
-                                    function _0x4821b0() {
-                                        var _0x5e3b58 = _0x2c398b['$refs']['renderTargetContainerSibling']
-                                            , _0x315b0f = _0x2c398b['$refs']['preRenderContainer'];
-                                        if (_0x5e3b58 && _0x315b0f) {
-                                            var _0x1377d9 = _0x5e3b58['offsetWidth'];
-                                            _0x5b88ba = _0x1377d9,
-                                                _0x315b0f['style'][_0x136f('0x2f3')] = _0x1377d9 + 'px';
-                                        }
-                                    }
-
-                                    _0x2c398b['$nextTick'](function () {
-                                        var _0x53a5c7 = _0x2c398b['$refs']['renderTargetContainerSibling']
-                                            , _0x3c444e = _0x2c398b[_0x136f('0x36e')]['preRenderContainer'];
-                                        _0xdfb3db = document && document['documentElement'] && document['body'] ? Math['min'](document['documentElement']['clientHeight'], document[_0x136f('0x2c5')]['clientHeight']) : 0x0,
-                                            _0x53a5c7 && _0x3c444e ? (_0x4821b0(),
-                                                _0x2c398b['$nextTick'](function () {
-                                                    _0x46ea4b();
-                                                })) : (_0x555e2b['logError'](_0x136f('0x71') + !!_0x53a5c7 + ',prerender=' + !!_0x3c444e + ',state=' + _0x2c398b['chapterContentState']),
-                                                _0x2c398b['$nextTick'](function () {
-                                                    _0x4821b0(),
-                                                        _0x2c398b['$nextTick'](function () {
-                                                            _0x46ea4b();
-                                                        });
-                                                }));
-                                    });
+                            let _0x555e2b = this,
+                                _this = this;
+                            return new m76.default((resolve) => {
+                                try {
+                                    this.markFirstPagePrerenderStart()
+                                } catch (err) {
+                                    m9.inDevelopment() && console.log(err)
                                 }
-                            );
+                                let _0x46ea4b = function () {
+                                    let renderTargetContainerSiblingRef = _this.$refs.renderTargetContainerSibling,
+                                        preRenderContainerRef = _this.$refs.preRenderContainer;
+                                    if (!renderTargetContainerSiblingRef || !preRenderContainerRef) {
+                                        _this.logError('waitForPreRender-wait: dom is not exist: target=' + !!renderTargetContainerSiblingRef + ',prerender=' + !!preRenderContainerRef + ',state=' + _this.chapterContentState)
+                                        resolve()
+                                        return
+                                    }
+
+                                    // 处理图片的尺寸
+                                    let imgs = preRenderContainerRef.getElementsByTagName('img'),
+                                        imgCount = imgs.length;
+                                    if (imgCount > 0) {
+                                        for (let i = 0; i < imgCount; i++) {
+                                            let img = imgs[i],
+                                                imgHtml = img.outerHTML,
+                                                _0x5d3f21 = Math.min(renderTargetContainerSiblingRef.offsetWidth, img.parentNode.offsetWidth)
+                                            if (-1 !== imgHtml.indexOf('data-w') && -1 !== imgHtml.indexOf('data-ratio')) {
+                                                let dataWRe = new RegExp('data-w="(.*?)px"', 'ig')
+                                                imgHtml.match(dataWRe)
+                                                let _0x4e5abc = RegExp.$1,
+                                                    height = _0x4e5abc && _0x4e5abc.length > 0 ? parseInt(_0x4e5abc) : 0;
+                                                if (new RegExp('data-w-new="(.*?)px"', 'ig').test(imgHtml)) {
+                                                    dataWRe = new RegExp('data-w-new="(.*?)px"', 'ig')
+                                                    imgHtml.match(dataWRe)
+                                                    let _0x43652c = RegExp['$1']
+                                                    height = _0x43652c && _0x43652c.length > 0 ? parseInt(_0x43652c) : 0;
+                                                }
+                                                dataWRe = new RegExp('data-ratio="(.*?)"', 'ig')
+                                                imgHtml.match(dataWRe)
+                                                let _0x4e141b = RegExp['$1'],
+                                                    ratio = _0x4e141b && _0x4e141b.length > 0 ? parseFloat(_0x4e141b) : 0;
+                                                if (0 !== height && 0 !== ratio) {
+                                                    let rect = img.getBoundingClientRect(),
+                                                        intrinsicWidth = height / ratio,
+                                                        width = intrinsicWidth;
+                                                    if ((dataWRe = new RegExp('width[0-9]{2,3}', 'ig')).test(imgHtml)) {
+                                                        dataWRe = new RegExp('width([0-9]{2,3})', 'ig')
+                                                        imgHtml.match(dataWRe)
+                                                        let _0x393c31 = RegExp['$1'],
+                                                            _0x46779f = _0x393c31 && _0x393c31.length > 0 ? parseInt(_0x393c31) : 0;
+                                                        if (_0x46779f > 0 && _0x46779f <= 100) {
+                                                            height *= (width = _0x5d3f21 * _0x46779f / 100) / intrinsicWidth
+                                                        }
+                                                    } else {
+                                                        -1 !== imgHtml.indexOf('qqreader-fullimg') || -1 !== imgHtml.indexOf('bleed-pic') || img.parentNode.classList.contains('bleed-pic')
+                                                            ? height *= (width = _0x5d3f21) / intrinsicWidth
+                                                            : rect.height > 1
+                                                                ? width = (height = rect.height) / ratio
+                                                                : rect.width > 1 && (height *= (width = rect.width) / intrinsicWidth)
+                                                    }
+                                                    if (width > _0x5d3f21 && _0x5d3f21 > 1) {
+                                                        height *= _0x5d3f21 / width
+                                                        width = _0x5d3f21
+                                                    }
+                                                    img.style.width = width + 'px'
+                                                    img.style.height = height + 'px'
+                                                } else {
+                                                    _this.logInfo('[img-style] img no height or ratio, height = ' + height + ' ratio = ' + ratio)
+                                                    m9.inDevelopment() && alert('找 zhoon 看看 - img no height or ratio')
+                                                }
+                                            } else {
+                                                _this.logInfo('[img-style] img no height or ratio')
+                                                m9.inDevelopment() && alert('找 zhoon 看看 - img no height or ratio')
+                                            }
+                                        }
+                                        resolve()
+                                    } else {
+                                        resolve()
+                                    }
+                                }
+
+                                function _0x4821b0() {
+                                    let renderTargetContainerSiblingRef = _this.$refs.renderTargetContainerSibling,
+                                        preRenderContainerRef = _this.$refs.preRenderContainer;
+                                    if (renderTargetContainerSiblingRef && preRenderContainerRef) {
+                                        let offsetWidth = renderTargetContainerSiblingRef.offsetWidth;
+                                        _0x5b88ba = offsetWidth
+                                        preRenderContainerRef.style.width = offsetWidth + 'px'
+                                    }
+                                }
+
+                                this.$nextTick(function () {
+                                    let renderTargetContainerSiblingRef = _this.$refs.renderTargetContainerSibling,
+                                        preRenderContainerRef = _this.$refs.preRenderContainer;
+                                    clientHeight = document && document.documentElement && document.body
+                                        ? Math.min(document.documentElement.clientHeight, document.body.clientHeight)
+                                        : 0
+                                    if (renderTargetContainerSiblingRef && preRenderContainerRef) {
+                                        _0x4821b0()
+                                        _this.$nextTick(function () {
+                                            _0x46ea4b()
+                                        })
+                                    } else {
+                                        _0x555e2b.logError('waitForPreRender-nextTick: dom is not exist: target=' + !!renderTargetContainerSiblingRef + ',prerender=' + !!preRenderContainerRef + ',state=' + _this.chapterContentState)
+                                        _this.$nextTick(function () {
+                                            _0x4821b0()
+                                            _this.$nextTick(function () {
+                                                _0x46ea4b()
+                                            })
+                                        })
+                                    }
+                                })
+                            })
                         },
                         'collectPreRenderInfos': function () {
                             debugger
 
-                            var _0x417e88 = this
-                                , _0x5b50cc = this;
-                            return new m76['default'](function (_0xff0ebb) {
-                                    var _0x4d4df9 = window['devicePixelRatio']
-                                        , _0x401b76 = _0x5b50cc['$refs']['preRenderContainer'];
-                                    if (!_0x401b76)
-                                        return m76['default']['reject'](new Error('can\x20not\x20found\x20preRenderContainer\x20reference'));
-                                    var _0x46fb4b = [];
-                                    _0x5b50cc['currentChapter'] && _0x5b50cc['currentChapter']['anchors'] && (_0x46fb4b = _0x5b50cc['currentChapter']['anchors']['map'](function (_0x3f2a24) {
-                                        return _0x3f2a24[_0x136f('0xb')];
-                                    }));
-                                    var _0x1791cc = m1019['default']['collect'](_0x401b76, {
-                                        'canvasMaxHeight': 0xfa0 / _0x4d4df9,
-                                        'canvasMaxCount': 0x2
-                                    }, _0x46fb4b, _0xdfb3db);
-                                    anchors = _0x1791cc['anchorsTop'];
-                                    for (var _0x537b39 = _0x1791cc['customStyle']['join']('\x20'), _0x17555d = _0x1791cc['decoration'], _0x565fb9 = _0x1791cc['splitHtml'] || {}, _0x3c177c = m33['compact'](_0x1791cc['canvasPositions']) || [], _0x5dda3d = {
+                            let _0x417e88 = this,
+                                _this = this;
+                            return new m76.default((resolve) => {
+                                let devicePixelRatio = window.devicePixelRatio,
+                                    preRenderContainerRef = _this.$refs.preRenderContainer;
+                                if (!preRenderContainerRef) {
+                                    return m76.default.reject(new Error('can not found preRenderContainer reference'))
+                                }
+                                let anchors = []
+                                if (_this.currentChapter && _this.currentChapter.anchors) {
+                                    anchors = _this.currentChapter.anchors.map(_ => _.anchor)
+                                }
+                                let _0x1791cc = m1019.default.collect(preRenderContainerRef, {
+                                    'canvasMaxHeight': 4000 / devicePixelRatio,
+                                    'canvasMaxCount': 2
+                                }, anchors, clientHeight)
+                                anchors = _0x1791cc.anchorsTop
+
+                                let _0x537b39 = _0x1791cc.customStyle.join(' '),
+                                    _0x17555d = _0x1791cc.decoration,
+                                    _0x565fb9 = _0x1791cc.splitHtml || {},
+                                    _0x3c177c = m33.compact(_0x1791cc.canvasPositions) || [],
+                                    _0x5dda3d = {
                                         'canvasPositions': _0x3c177c,
                                         'customStyleText': _0x537b39,
                                         'content': _0x565fb9,
                                         'decorations': _0x17555d
-                                    }, _0x5a7172 = '', _0x568538 = _0x401b76['offsetWidth'], _0x52d854 = [], _0x536adf = 0x0, _0x12385f = _0x3c177c['length']; _0x536adf < _0x12385f; _0x536adf++) {
-                                        var _0x203c59 = _0x3c177c[_0x536adf];
-                                        if (_0x203c59) {
-                                            _0x52d854['push'](_0x203c59);
-                                            var _0x3d0c25 = _0x203c59['bottom'] - _0x203c59['top']
-                                                ,
-                                                _0x3332e7 = 'Windows' === _0x417e88['$store'][_0x136f('0x3fd')]['OS'] ? 0x2 : 0x1;
-                                            console['log']('Use\x20canvas\x20render\x20ratio:', _0x3332e7),
-                                                _0x5a7172 += _0x136f('0x20c') + _0x203c59['top'] + 'px;width:' + _0x568538 + _0x136f('0x2cc') + _0x3d0c25 + 'px;\x22\x20width=' + _0x568538 * _0x4d4df9 * _0x3332e7 + '\x20height=' + _0x3d0c25 * _0x4d4df9 * _0x3332e7 + '\x20data-random=\x22' + Math['random']()['toString'](0x24)['slice'](0x2) + '\x22></canvas>';
+                                    },
+                                    canvasHtml = '',
+                                    width = preRenderContainerRef.offsetWidth,
+                                    _0x52d854 = []
+                                for (let i = 0; i < _0x3c177c.length; i++) {
+                                    let _0x203c59 = _0x3c177c[i]
+                                    if (_0x203c59) {
+                                        _0x52d854.push(_0x203c59);
+                                        let height = _0x203c59.bottom - _0x203c59.top,
+                                            _0x3332e7 = 'Windows' === _0x417e88.$store.state.OS ? 2 : 1;
+                                        console.log('Use canvas render ratio:', _0x3332e7)
+
+                                        canvasHtml += '<canvas style="position:absolute;left:0;top:' + _0x203c59.top + 'px;width:' + width + 'px;height:' + height + 'px;" width=' + width * devicePixelRatio * _0x3332e7 + ' height=' + height * devicePixelRatio * _0x3332e7 + ' data-random="' + Math.random().toString(36).slice(2) + '"></canvas>'
+                                    }
+                                }
+
+                                _this.$store.commit(m75['UPDATE_READER_CHAPTER_CANVAS_TARGET_HTML'], canvasHtml)
+                                _0x3f16ee = _0x1791cc.content || []
+                                _0x4a5c08 = _0x52d854
+                                _this.renderContentsVersion++
+                                _this.$store.commit(m75['UPDATE_READER_CHAPTER_CONTENT_TARGET_HTML'], _0x5dda3d)
+                                try {
+                                    _this.markFirstPagePrerenderEnd()
+                                    _this.markFirstPageRenderStart()
+                                } catch (err) {
+                                    m9.inDevelopment() && console.log(err)
+                                }
+                                _this.$store.commit(m75['UPDATE_READER_CONTENT_STATE'], 'DONE')
+                                _this.$nextTick(function () {
+                                    let rootHeight = _0x1791cc.rootHeight
+                                    rootHeight <= 0 && _this.logInfo('render rootHeight error !!!')
+
+                                    let renderTargetContentRef = _this.$refs.renderTargetContent;
+                                    if (renderTargetContentRef) {
+                                        renderTargetContentRef.style.height = rootHeight + 'px'
+                                        let offsetWidth = renderTargetContentRef.offsetWidth,
+                                            renderTargetCanvasContainerRef = _this.$refs.renderTargetCanvasContainer;
+                                        if (renderTargetCanvasContainerRef) {
+                                            renderTargetCanvasContainerRef.style.width = offsetWidth + 'px'
+                                            renderTargetCanvasContainerRef.style.height = rootHeight + 'px'
                                         }
                                     }
-                                    _0x5b50cc['$store']['commit'](m75['UPDATE_READER_CHAPTER_CANVAS_TARGET_HTML'], _0x5a7172),
-                                        _0x3f16ee = _0x1791cc['content'] || [],
-                                        _0x4a5c08 = _0x52d854,
-                                        _0x5b50cc['renderContentsVersion']++,
-                                        _0x5b50cc['$store'][_0x136f('0x3e8')](m75[_0x136f('0x399')], _0x5dda3d);
-                                    try {
-                                        _0x5b50cc['markFirstPagePrerenderEnd'](),
-                                            _0x5b50cc['markFirstPageRenderStart']();
-                                    } catch (_0x14493e) {
-                                        m9[_0x136f('0x4a6')]() && console['log'](_0x14493e);
+                                    _this.drawSomeTexts()
+                                    _this.bindVideoEvent()
+
+                                    let renderTargetContainerRef = _this.$refs.renderTargetContainer
+                                    if (renderTargetContainerRef) {
+                                        _this.renderTargetOffsetTop = renderTargetContainerRef.offsetTop
                                     }
-                                    _0x5b50cc['$store']['commit'](m75['UPDATE_READER_CONTENT_STATE'], _0x136f('0x4b6')),
-                                        _0x5b50cc['$nextTick'](function () {
-                                            var _0x29b078 = _0x1791cc['rootHeight'];
-                                            _0x29b078 <= 0x0 && _0x5b50cc['logInfo']('render\x20rootHeight\x20error\x20!!!');
-                                            var _0x3b6083 = _0x5b50cc[_0x136f('0x36e')]['renderTargetContent'];
-                                            if (_0x3b6083) {
-                                                _0x3b6083['style']['height'] = _0x29b078 + 'px';
-                                                var _0x50f5b3 = _0x3b6083[_0x136f('0x3af')]
-                                                    ,
-                                                    _0x754c92 = _0x5b50cc[_0x136f('0x36e')]['renderTargetCanvasContainer'];
-                                                _0x754c92 && (_0x754c92['style']['width'] = _0x50f5b3 + 'px',
-                                                    _0x754c92['style']['height'] = _0x29b078 + 'px');
-                                            }
-                                            _0x5b50cc['drawSomeTexts'](),
-                                                _0x5b50cc['bindVideoEvent']();
-                                            var _0x4e3f11 = _0x5b50cc['$refs']['renderTargetContainer'];
-                                            _0x4e3f11 && (_0x5b50cc['renderTargetOffsetTop'] = _0x4e3f11['offsetTop']),
-                                                _0xff0ebb();
-                                        });
-                                }
-                            );
+                                    resolve()
+                                })
+                            })
                         },
                         'clearDrawTexts': function () {
-                            var _0x5009c9 = this['$refs']['renderTargetCanvasContainer'];
-                            if (_0x5009c9)
-                                for (var _0x1fa458 = _0x5009c9['getElementsByTagName']('canvas'), _0x3b705d = 0x0, _0x4fd0c9 = _0x1fa458['length']; _0x3b705d < _0x4fd0c9; _0x3b705d++) {
-                                    var _0x49b2d8 = _0x1fa458[_0x3b705d]
-                                        , _0x59ca88 = _0x49b2d8['ctx'];
-                                    _0x59ca88 || (_0x59ca88 = _0x49b2d8[_0x136f('0x2b6')]('2d')),
-                                    _0x59ca88 && _0x59ca88['clearRect'](0x0, 0x0, _0x49b2d8['width'], _0x49b2d8[_0x136f('0x35f')]);
+                            let renderTargetCanvasContainerRef = this.$refs.renderTargetCanvasContainer
+                            if (renderTargetCanvasContainerRef) {
+                                let canvases = renderTargetCanvasContainerRef.getElementsByTagName('canvas')
+                                for (let i = 0; i < canvases.length; i++) {
+                                    let canvas = canvases[i],
+                                        ctx = canvas.ctx;
+                                    ctx || (ctx = canvas.getContext('2d'))
+                                    ctx && ctx.clearRect(0, 0, canvas.width, canvas.height)
                                 }
+                            }
                         },
                         'drawSomeTexts': function () {
                             try {
-                                this[_0x136f('0x3e3')]();
-                            } catch (_0x58e2e2) {
-                                m9['inDevelopment']() && console['log'](_0x58e2e2);
+                                this.markCanvasPaintStart()
+                            } catch (err) {
+                                m9.inDevelopment() && console.log(err)
                             }
-                            var _0x27b6ec = this['$refs']['renderTargetCanvasContainer'];
-                            if (_0x27b6ec) {
-                                for (var _0x51c8cf = 'Windows' === this['$store']['state']['OS'] ? 0x2 * window[_0x136f('0x97')] : window['devicePixelRatio'], _0x3870e4 = _0x4a5c08, _0xb9f05b = _0x27b6ec['getElementsByTagName']('canvas'), _0x3c8081 = _0xb9f05b ? _0xb9f05b['length'] : 0x0, _0x30ff5c = new Array(_0x3c8081), _0x108f65 = 0x0, _0x52ed2e = 0x0; _0x52ed2e < _0x3c8081; _0x52ed2e++) {
-                                    var _0x411bc4 = _0xb9f05b[_0x52ed2e]
-                                        , _0x49ce01 = _0x3870e4[_0x52ed2e]
-                                        , _0x4b9037 = _0x411bc4[_0x136f('0x2b6')]('2d');
-                                    _0x4b9037 && _0x49ce01 && (_0x4b9037['save'](),
-                                        _0x4b9037['scale'](_0x51c8cf, _0x51c8cf),
-                                        _0x4b9037['translate'](0x0, -_0x49ce01['top']),
-                                        _0x4b9037['textAlign'] = _0x136f('0x3d8'),
-                                        _0x4b9037[_0x136f('0x2d2')] = 'middle',
-                                        _0x30ff5c[_0x52ed2e] = _0x4b9037,
-                                        _0x108f65 += Math[_0x136f('0x466')](_0x108f65, _0x49ce01['bottom']));
-                                }
-                                for (var _0x26495a = _0x3f16ee, _0x28857a = this['isWhiteTheme'], _0x459f9f = null, _0x131202 = -0x1, _0x2b5777 = 0x0, _0x432d82 = _0x26495a[_0x136f('0x360')], _0x20035f = 0x0; _0x2b5777 < _0x432d82; _0x2b5777++) {
-                                    var _0x5d5fc3 = _0x26495a[_0x2b5777]
-                                        , _0x52f011 = _0x5d5fc3['rect'];
-                                    if (_0x52f011 && _0x52f011['y'] > _0x108f65)
-                                        break;
-                                    if (_0x5d5fc3['type'] === m1156['ObjType'][_0x136f('0x0')]) {
-                                        _0x52f011 && _0x3870e4[_0x20035f] && _0x52f011['y'] > _0x3870e4[_0x20035f]['bottom'] && _0x20035f + 0x1 < _0x3870e4['length'] ? _0x20035f++ : _0x52f011 && _0x3870e4[_0x20035f] && _0x52f011['bottom'] < _0x3870e4[_0x20035f]['top'] && _0x20035f - 0x1 >= 0x0 && _0x20035f--;
-                                        var _0x4c7b65 = _0x30ff5c[_0x20035f];
-                                        _0x4c7b65 ? (_0x131202 === _0x20035f && _0x459f9f && _0x459f9f['font'] === _0x5d5fc3['font'] || (_0x4c7b65['font'] = _0x5d5fc3[_0x136f('0x10f')]),
-                                        _0x131202 === _0x20035f && _0x459f9f && _0x459f9f['isHighLight']() === _0x5d5fc3['isHighLight']() && _0x459f9f['colors']['colorOnWhite'] === _0x5d5fc3[_0x136f('0xe5')]['colorOnWhite'] && _0x459f9f['colors']['colorOnBlack'] === _0x5d5fc3['colors']['colorOnBlack'] || (_0x4c7b65['fillStyle'] = _0x5d5fc3[_0x136f('0x3c6')]() ? _0x28857a ? '#1B88EE' : '#0097FF' : _0x5d5fc3[_0x136f('0xe5')][_0x28857a ? 'colorOnWhite' : 'colorOnBlack']),
-                                            _0x4c7b65['fillText'](_0x5d5fc3[_0x136f('0x30c')], _0x52f011['x'], _0x52f011['centerY']),
-                                            _0x459f9f = _0x5d5fc3,
-                                            _0x131202 = _0x20035f) : this['logError']('Cannot\x20get\x20canvas.context,\x20objIdx=' + _0x2b5777 + '\x20,canvasIdx=' + _0x20035f);
+                            let renderTargetCanvasContainerRef = this.$refs.renderTargetCanvasContainer
+                            if (renderTargetCanvasContainerRef) {
+                                let devicePixelRatio = 'Windows' === this.$store.state.OS ? 2 * window.devicePixelRatio : window.devicePixelRatio,
+                                    _0x3870e4 = _0x4a5c08,
+                                    canvases = renderTargetCanvasContainerRef.getElementsByTagName('canvas'),
+                                    canvasCount = canvases ? canvases.length : 0,
+                                    ctxArray = new Array(canvasCount),
+                                    offset = 0
+
+                                for (let i = 0; i < canvasCount; i++) {
+                                    let canvas = canvases[i],
+                                        _0x49ce01 = _0x3870e4[i],
+                                        ctx = canvas.getContext('2d');
+                                    if (ctx && _0x49ce01) {
+                                        ctx.save()
+                                        ctx.scale(devicePixelRatio, devicePixelRatio)
+                                        ctx.translate(0, -_0x49ce01.top)
+                                        ctx.textAlign = 'left'
+                                        ctx.textBaseline = 'middle'
+                                        ctxArray[i] = ctx
+                                        offset += Math.max(offset, _0x49ce01.bottom)
                                     }
                                 }
-                                for (var _0x39f01f = 0x0, _0x4a1cad = _0x30ff5c[_0x136f('0x360')]; _0x39f01f < _0x4a1cad; _0x39f01f++) {
-                                    var _0x483858 = _0x30ff5c[_0x39f01f];
-                                    _0x483858 && _0x483858[_0x136f('0x12')]();
+
+                                let _0x26495a = _0x3f16ee,
+                                    theme = this.isWhiteTheme,
+                                    _0x459f9f = null,
+                                    _0x131202 = -1,
+                                    _0x432d82 = _0x26495a.length,
+                                    canvasIdx = 0
+                                for (let i = 0; i < _0x432d82; i++) {
+                                    let _0x5d5fc3 = _0x26495a[i],
+                                        _0x52f011 = _0x5d5fc3['rect'];
+                                    if (_0x52f011 && _0x52f011['y'] > offset) {
+                                        break
+                                    }
+                                    if (_0x5d5fc3.type === m1156.ObjType.canvas) {
+                                        _0x52f011 && _0x3870e4[canvasIdx] && _0x52f011['y'] > _0x3870e4[canvasIdx].bottom && canvasIdx + 1 < _0x3870e4.length
+                                            ? canvasIdx++
+                                            : _0x52f011 && _0x3870e4[canvasIdx] && _0x52f011.bottom < _0x3870e4[canvasIdx].top && canvasIdx - 1 >= 0 && canvasIdx--;
+                                        let ctx = ctxArray[canvasIdx];
+                                        if (ctx) {
+                                            _0x131202 === canvasIdx && _0x459f9f && _0x459f9f.font === _0x5d5fc3.font || (ctx.font = _0x5d5fc3.font)
+                                            _0x131202 === canvasIdx && _0x459f9f && _0x459f9f.isHighLight() === _0x5d5fc3.isHighLight() && _0x459f9f.colors.colorOnWhite === _0x5d5fc3.colors.colorOnWhite && _0x459f9f.colors.colorOnBlack === _0x5d5fc3.colors.colorOnBlack || (ctx.fillStyle = _0x5d5fc3.isHighLight() ? theme ? '#1B88EE' : '#0097FF' : _0x5d5fc3.colors[theme ? 'colorOnWhite' : 'colorOnBlack'])
+
+                                            ctx.fillText(_0x5d5fc3.text, _0x52f011.x, _0x52f011.centerY)
+                                            _0x459f9f = _0x5d5fc3
+                                            _0x131202 = canvasIdx
+                                        } else {
+                                            this.logError('Cannot get canvas.context, objIdx=' + i + ' ,canvasIdx=' + canvasIdx)
+                                        }
+                                    }
                                 }
+
+                                for (let i = 0; i < ctxArray.length; i++) {
+                                    let ctx = ctxArray[i]
+                                    ctx && ctx.restore()
+                                }
+
                                 try {
-                                    this['markCanvasPaintEnd']();
-                                } catch (_0x3aa38e) {
-                                    console['log'](_0x3aa38e);
+                                    this.markCanvasPaintEnd()
+                                } catch (err) {
+                                    console.log(err)
                                 }
                             }
                         },
-                        'resizeToReCollect': function (_0x16d04d) {
-                            var _0xedcf86 = this
-                                , _0x22e7d0 = this;
-                            _0x136f('0x4b6') === this[_0x136f('0x407')] && (this[_0x136f('0x44f')](),
-                                this['clearHighLightDom'](),
-                                this[_0x136f('0x83')][_0x136f('0x3e8')](m75['UPDATE_READER_CONTENT_STATE'], 'PRERENDER'),
-                                this[_0x136f('0x420')](function () {
+                        'resizeToReCollect': function (width) {
+                            let _this = this
+                            if ('DONE' === this.chapterContentState) {
+                                this.clearSelection()
+                                this.clearHighLightDom()
+                                this.$store.commit(m75['UPDATE_READER_CONTENT_STATE'], 'PRERENDER')
+                                this.$nextTick(function () {
                                     setTimeout(function () {
-                                        return _0x5b88ba = _0x16d04d,
-                                        _0xedcf86[_0x136f('0x36e')]['preRenderContainer'] && (_0xedcf86['$refs']['preRenderContainer'][_0x136f('0x332')]['width'] = _0x16d04d + 'px'),
-                                            _0x22e7d0['layout']();
-                                    }, 0x0);
-                                }));
+                                        _0x5b88ba = width
+                                        if (_this.$refs.preRenderContainer) {
+                                            _this.$refs.preRenderContainer.style.width = width + 'px'
+                                        }
+                                        return _this.layout()
+                                    }, 0)
+                                })
+                            }
                         },
                         'bindVideoEvent': function () {
-                            var _0x39a56b = document['querySelectorAll']('video');
-                            if (_0x39a56b[_0x136f('0x360')] > 0x0)
-                                for (var _0x4851e4 = function (_0x1249f9) {
-                                    var _0x41c68d = _0x39a56b[_0x1249f9];
-                                    _0x41c68d[_0x136f('0x489')](_0x136f('0x305'), function () {
-                                        _0x41c68d[_0x136f('0x497')] > 0x0 && !_0x41c68d['paused'] && !_0x41c68d['ended'] && _0x41c68d['readyState'] > 0x2 ? _0x41c68d['pause']() : (_0x41c68d['parentNode'] && _0x41c68d['parentNode']['classList']['add']('wr_video_playing'),
-                                            _0x41c68d['play']());
-                                    }),
-                                        _0x41c68d[_0x136f('0x27f')] = function () {
-                                            _0x41c68d['parentNode'] && _0x41c68d['parentNode']['classList']['remove']('wr_video_playing');
+                            let videos = document.querySelectorAll('video')
+                            if (videos.length > 0) {
+                                let _0x4851e4 = function (idx) {
+                                    let video = videos[idx]
+                                    video.addEventListener('click', function () {
+                                        if (video.currentTime > 0 && !video.paused && !video.ended && video.readyState > 2) {
+                                            video.pause()
+                                        } else {
+                                            video.parentNode && video.parentNode.classList.add('wr_video_playing')
+                                            video.play()
                                         }
-                                        ,
-                                        _0x41c68d['onpause'] = function () {
-                                            _0x41c68d['parentNode'] && _0x41c68d['parentNode']['classList']['remove']('wr_video_playing');
-                                        }
-                                    ;
-                                }, _0x5064c4 = 0x0; _0x5064c4 < _0x39a56b['length']; _0x5064c4++)
-                                    _0x4851e4(_0x5064c4);
+                                    })
+                                    video.onended = function () {
+                                        video.parentNode && video.parentNode.classList.remove('wr_video_playing')
+                                    }
+                                    video.onpause = function () {
+                                        video.parentNode && video.parentNode.classList.remove('wr_video_playing')
+                                    }
+                                }
+                                for (let i = 0; i < videos.length; i++) {
+                                    _0x4851e4(i)
+                                }
+                            }
                         },
                         'handleClickStartReading': function () {
-                            'DONE' === this['chapterContentState'] && m781['scrollTo'] && m781['scrollTo']('.readerChapterContent', 0x12c, {
-                                'container': document['body'],
-                                'x': !0x1,
-                                'y': !0x0,
-                                'offset': -0x48
-                            });
+                            'DONE' === this.chapterContentState && m781.scrollTo && m781.scrollTo('.readerChapterContent', 300, {
+                                'container': document.body,
+                                'x': false,
+                                'y': true,
+                                'offset': -72
+                            })
                         },
                         'handleClickAuthor': function () {
-                            if (this[_0x136f('0x52')] || this['isFromWechatStatus']) {
-                                var _0x2f9597 = 'wrweb_reader_' + (this['isFromWechatStatus'] ? 'status' : 'topStories') + _0x136f('0x38d');
-                                m395['wrReport']['newCHReport']({
-                                    'itemName': _0x2f9597,
-                                    'vid': this['user']['vid'],
+                            if (this.isFromTopStories || this.isFromWechatStatus) {
+                                let itemName = 'wrweb_reader_' + (this.isFromWechatStatus ? 'status' : 'topStories') + '_author_clk'
+                                m395.wrReport.newCHReport({
+                                    'itemName': itemName,
+                                    'vid': this.user.vid,
                                     'extra': {
-                                        'bookId': this[_0x136f('0x85')],
-                                        'vid': this['user']['vid']
+                                        'bookId': this.bookId,
+                                        'vid': this.user.vid
                                     }
-                                });
+                                })
                             }
                         },
                         'handleClickShelfButtonInBookInfo': function () {
-                            return this['reportClientBusiness']({
+                            this.reportClientBusiness({
                                 'itemName': 'Web_Reader_FirstPage_AddClk'
-                            }),
-                                this['handleClickShelfButton']();
+                            })
+                            return this.handleClickShelfButton()
                         },
                         'handleClickRatingButton': function () {
-                            this[_0x136f('0x3e9')](_0x136f('0x462')),
-                                (0x0,
-                                    m78[_0x136f('0x18f')])(this['bookReviewURL'](this['bookId']));
+                            this.saveReportInfo('Reader_Click_Rating_Button')
+                            m78.default(this.bookReviewURL(this.bookId))
                         },
                         'handleClickShelfButton': function () {
-                            if (this['hasLogin']) {
-                                if (!this['isInShelf'])
-                                    return this['$store']['dispatch'](m55['FETCH_READER_ADD_SHELF']);
-                            } else
-                                this['$showLoginDialog']({
-                                    'scheme': 'weread://bDetail?bId=' + this['bookId'],
+                            if (this.hasLogin) {
+                                if (!this.isInShelf) {
+                                    return this.$store.dispatch(m55['FETCH_READER_ADD_SHELF'])
+                                }
+                            } else {
+                                this.$showLoginDialog({
+                                    'scheme': 'weread://bDetail?bId=' + this.bookId,
                                     'bottomTitle': '扫码登录微信读书',
                                     'bottomSubTitle': '在书架随时阅读本书'
-                                });
+                                })
+                            }
                         },
                         'handleClickReceiveMemberCardButton': function () {
-                            this['isPhone'] ? this['downloadApp']() : this['receiveMemberCard']();
+                            this.isPhone ? this.downloadApp() : this.receiveMemberCard()
                         },
-                        'handleClickNextChapterIndex': function (_0x35f837) {
-                            var _0xb7ce3 = this;
-                            return this['hasNextSection'] ? this['handleNextSection']() : new m76['default'](function (_0x4ef778) {
-                                    var _0x3485ff = !0x1;
-                                    if (_0xb7ce3[_0x136f('0x44d')] && _0xb7ce3['currentChapter']['anchors'] && _0xb7ce3['currentChapter']['anchors'][_0x136f('0x360')] > 0x0) {
-                                        var _0x2a1071 = _0xb7ce3[_0x136f('0x44d')]['anchors']
-                                            , _0x42e26d = null
-                                            , _0x25eb81 = _0xb7ce3['currentChapterAnchor'];
-                                        if (_0x25eb81)
-                                            for (var _0x5d431b = 0x0, _0x8fdc2f = _0x2a1071['length']; _0x5d431b < _0x8fdc2f; _0x5d431b++) {
-                                                if (_0x2a1071[_0x5d431b]['anchor'] === _0x25eb81 && _0x5d431b < _0x8fdc2f - 0x1) {
-                                                    _0x42e26d = _0x2a1071[_0x5d431b + 0x1];
-                                                    break;
+                        'handleClickNextChapterIndex': function (event) {
+                            let _this = this;
+                            return this.hasNextSection
+                                ? this.handleNextSection()
+                                : new m76.default((resolve) => {
+                                    let _0x3485ff = false
+                                    if (_this.currentChapter && _this.currentChapter.anchors && _this.currentChapter.anchors.length > 0) {
+                                        let anchors = _this.currentChapter.anchors,
+                                            anchor = null,
+                                            currentChapterAnchor = _this.currentChapterAnchor
+                                        if (currentChapterAnchor) {
+                                            for (let i = 0; i < anchors.length; i++) {
+                                                if (anchors[i].anchor === currentChapterAnchor && i < anchors.length - 1) {
+                                                    anchor = anchors[i + 1]
+                                                    break
                                                 }
                                             }
-                                        else
-                                            _0x42e26d = _0x2a1071[0x0];
-                                        if (_0x42e26d) {
-                                            var _0x11541f = _0xb7ce3[_0x136f('0x3b')]();
-                                            _0xb7ce3['scrollTo']({
-                                                'anchor': _0x42e26d[_0x136f('0xb')]
-                                            }),
-                                                _0x3485ff = !0x0,
-                                            _0xb7ce3[_0x136f('0x3b')]() === _0x11541f && (_0x3485ff = !0x1);
+                                        } else {
+                                            anchor = anchors[0]
+                                        }
+                                        if (anchor) {
+                                            let _0x11541f = _this.getScrollTop()
+                                            _this.scrollTo({
+                                                'anchor': anchor.anchor
+                                            })
+                                            _0x3485ff = true
+                                            _this.getScrollTop() === _0x11541f && (_0x3485ff = false)
                                         }
                                     }
-                                    _0x4ef778(_0x3485ff);
-                                }
-                            )['then'](function (_0x1feab9) {
-                                if (!_0x1feab9)
-                                    return _0xb7ce3['handleNextChapter'](_0x35f837);
-                            });
+                                    resolve(_0x3485ff);
+                                }).then(function (_0x1feab9) {
+                                    if (!_0x1feab9) {
+                                        return _this.handleNextChapter(event)
+                                    }
+                                })
                         },
                         'handleClickPrevChapterIndex': function (_0x3a915d) {
                             var _0x32ab92 = this;
@@ -11874,46 +11967,48 @@ window.webpackJsonp.push(
                                     }
                                 });
                         },
-                        'handleNextChapter': function (_0x330828) {
-                            var _0x2f0f64 = this;
-                            this['eventProtect'](_0x330828, function () {
-                                m9['inDevelopment']() && alert('danger\x20mode'),
-                                    _0x2f0f64['$store']['dispatch'](m55['ENTER_DANGER_MODE'], {
-                                        'vid': _0x2f0f64['user']['vid']
-                                    });
-                            });
-                            var _0x168b62 = this['getChapterWithIdxOffset'](0x1);
-                            if (_0x168b62)
-                                return this['changeChapter']({
-                                    'chapterUid': _0x168b62[_0x136f('0x174')]
-                                });
+                        'handleNextChapter': function (event) {
+                            let _this = this
+                            this.eventProtect(event, function () {
+                                m9.inDevelopment() && alert('danger mode')
+                                _this.$store.dispatch(m55['ENTER_DANGER_MODE'], {
+                                    'vid': _this.user.vid
+                                })
+                            })
+                            let _0x168b62 = this.getChapterWithIdxOffset(1)
+                            if (_0x168b62) {
+                                return this.changeChapter({
+                                    'chapterUid': _0x168b62.chapterUid
+                                })
+                            }
                         },
                         'handlePrevSection': function () {
-                            var _0x2d4f2d = this['getCurrentSectionIdx'] - 0x1;
-                            if (_0x2d4f2d >= 0x0)
-                                return this['changeSection']({
-                                    'sectionIdx': _0x2d4f2d,
-                                    'offsetTop': m1022['default']
-                                });
+                            let sectionIdx = this.getCurrentSectionIdx - 1
+                            if (sectionIdx >= 0)
+                                return this.changeSection({
+                                    'sectionIdx': sectionIdx,
+                                    'offsetTop': m1022.default
+                                })
                         },
                         'handleNextSection': function () {
-                            var _0x4692ac = this['getCurrentSectionIdx'] + 0x1;
-                            if (_0x4692ac)
-                                return this[_0x136f('0x99')]({
-                                    'sectionIdx': _0x4692ac
-                                });
+                            let sectionIdx = this.getCurrentSectionIdx + 1
+                            if (sectionIdx) {
+                                return this.changeSection({
+                                    'sectionIdx': sectionIdx
+                                })
+                            }
                         },
-                        'handleClickNextChapterButton': function (_0x510fe1) {
-                            (_0x510fe1 = _0x510fe1 || window['event'])['clientX'] && _0x510fe1[_0x136f('0xc2')] && this['handleNextChapter'](_0x510fe1);
+                        'handleClickNextChapterButton': function (event) {
+                            (event = event || window.event).clientX && event.clientY && this.handleNextChapter(event)
                         },
-                        'handleClickPrevChapterButton': function (_0x604f1d) {
-                            (_0x604f1d = _0x604f1d || window['event'])['clientX'] && _0x604f1d[_0x136f('0xc2')] && this['handlePrevChapter'](_0x604f1d);
+                        'handleClickPrevChapterButton': function (event) {
+                            (event = event || window.event).clientX && event.clientY && this.handlePrevChapter(event)
                         },
-                        'handleClickPrevSectionButton': function (_0x6b4e8) {
-                            (_0x6b4e8 = _0x6b4e8 || window['event'])['clientX'] && _0x6b4e8['clientY'] && this['handlePrevSection'](_0x6b4e8);
+                        'handleClickPrevSectionButton': function (event) {
+                            (event = event || window.event).clientX && event.clientY && this.handlePrevSection(event)
                         },
-                        'handleClickNextSectionButton': function (_0x371fe4) {
-                            (_0x371fe4 = _0x371fe4 || window['event'])['clientX'] && _0x371fe4['clientY'] && this['handleNextSection']();
+                        'handleClickNextSectionButton': function (event) {
+                            (event = event || window.event).clientX && event.clientY && this.handleNextSection()
                         },
                         'handlePrevChapter': function (_0x591500) {
                             var _0x4c8d40 = this;
@@ -11930,49 +12025,51 @@ window.webpackJsonp.push(
                                 });
                         },
                         'handleClickFirstChapter': function () {
-                            if (this[_0x136f('0xf8')]) {
-                                var _0x7d3bf5 = this['chapterInfos'];
-                                if (_0x7d3bf5 && _0x7d3bf5['length'] > 0x0) {
-                                    var _0x58ec5d = _0x7d3bf5[0x0];
-                                    return this[_0x136f('0x2d8')](),
-                                        this['changeChapter']({
-                                            'chapterUid': _0x58ec5d['chapterUid']
-                                        });
+                            if (this.isPrivateUploadBook) {
+                                let chapterInfos = this.chapterInfos
+                                if (chapterInfos && chapterInfos.length > 0) {
+                                    let chapterInfo = chapterInfos[0]
+                                    this.hideCatalog()
+                                    return this.changeChapter({
+                                        'chapterUid': chapterInfo.chapterUid
+                                    })
                                 }
-                                return window['location']['reload']();
+                                return window.location.reload()
                             }
-                            (0x0,
-                                m78['default'])(this['bookDetailURL'](this['bookId']));
+                            m78.default(this.bookDetailURL(this.bookId))
                         },
                         'handleClickChapter': function (_0x25c758) {
-                            if (_0x25c758 && _0x25c758['chapterUid']) {
-                                var _0x2957fd = {
-                                    'chapterUid': _0x25c758['chapterUid']
-                                };
-                                return _0x25c758['anchor'] && (_0x2957fd['scrollTo'] = {
-                                    'anchor': _0x25c758['anchor']
-                                }),
-                                    this['hideCatalog'](),
-                                    this['changeChapter'](_0x2957fd);
+                            if (_0x25c758 && _0x25c758.chapterUid) {
+                                let _0x2957fd = {
+                                    'chapterUid': _0x25c758.chapterUid
+                                }
+                                if (_0x25c758.anchor) {
+                                    _0x2957fd.scrollTo = {
+                                        'anchor': _0x25c758.anchor
+                                    }
+                                }
+                                this.hideCatalog()
+                                return this.changeChapter(_0x2957fd)
                             }
                         },
                         'handleClickNoteItem': function (_0x2885a9) {
-                            var _0x4be974 = this;
-                            if (_0x2885a9[_0x136f('0x174')])
-                                return this['hideNotePanel'](),
-                                    this['changeChapter']({
-                                        'chapterUid': _0x2885a9['chapterUid'],
-                                        'scrollTo': {
-                                            'chapterOffset': _0x2885a9['range']['start']
-                                        }
-                                    })[_0x136f('0x26e')](function () {
-                                        _0x4be974['reportClientBusiness']({
-                                            'itemName': _0x136f('0x1f4')
-                                        }),
-                                        _0x2885a9['noteType'] === m789['NoteTypeReview'] && setTimeout(function () {
-                                            _0x4be974['showReviewDetailPanel']([_0x2885a9]);
-                                        });
-                                    });
+                            var _this = this;
+                            if (_0x2885a9.chapterUid) {
+                                this.hideNotePanel()
+                            }
+                            return this.changeChapter({
+                                'chapterUid': _0x2885a9.chapterUid,
+                                'scrollTo': {
+                                    'chapterOffset': _0x2885a9.range.start
+                                }
+                            }).then(function () {
+                                _this.reportClientBusiness({
+                                    'itemName': 'Web_Reader_Note_ItemClk'
+                                })
+                                _0x2885a9.noteType === m789.NoteTypeReview && setTimeout(function () {
+                                    _this.showReviewDetailPanel([_0x2885a9])
+                                })
+                            })
                         },
                         'handleClickUnderline': function (_0x208da1) {
                             var _0xc9faf1 = this
@@ -12018,72 +12115,70 @@ window.webpackJsonp.push(
                             });
                         },
                         'handleClickIsLooking': function () {
-                            m395['wrReport']['newCHReport']({
+                            m395.wrReport.newCHReport({
                                 'itemName': 'wrweb_reader_topStories_isLooking_clk',
-                                'vid': this['user']['vid'],
+                                'vid': this.user.vid,
                                 'extra': {
-                                    'bookId': this['bookId'],
-                                    'vid': this['user']['vid']
+                                    'bookId': this.bookId,
+                                    'vid': this.user.vid
                                 }
-                            });
+                            })
                         },
                         'changeChapter': (_0x230d34 = m376.default(m375.default.mark(function _0x2d4203(_0x577117) {
                                 var _0x5c19c2, _0x7b5677, _0x1ec405, _0x51b180, _0x50b8c4, _0x326db3, _0x141e34,
                                     _0xf9db89 = this;
-                                return m375['default']['wrap'](function (_0x5c0a1b) {
-                                    for (; ;)
-                                        switch (_0x5c0a1b['prev'] = _0x5c0a1b[_0x136f('0xe')]) {
+                                return m375.default.wrap(function (_0x5c0a1b) {
+                                    for (; ;) {
+                                        switch (_0x5c0a1b['prev'] = _0x5c0a1b['next']) {
                                             case 0x0:
-                                                return _0x5c0a1b[_0x136f('0xe')] = 0x2,
-                                                    m1029['get']()[_0x136f('0x26e')](function (_0x2e333e) {
-                                                        return _0x2e333e['map'](function (_0x7f2013) {
-                                                            return _0x7f2013['fileName'];
-                                                        });
-                                                    })[_0x136f('0x221')](function (_0xaaed2c) {
-                                                        console['log'](_0xaaed2c);
-                                                    });
+                                                _0x5c0a1b['next'] = 0x2
+                                                return m1029.get().then((resp) => {
+                                                    return resp.map((_) => _.fileName)
+                                                }).catch((err) => {
+                                                    console.log(err)
+                                                });
                                             case 0x2:
-                                                _0x5c19c2 = _0x5c0a1b['sent'],
-                                                    _0x7b5677 = !0x0,
-                                                    _0x1ec405 = !0x1,
-                                                    _0x51b180 = void 0x0,
-                                                    _0x5c0a1b['prev'] = 0x6,
-                                                    _0x50b8c4 = (0x0,
-                                                        m374['default'])(_0x5c19c2);
+                                                _0x5c19c2 = _0x5c0a1b['sent']
+                                                _0x7b5677 = true
+                                                _0x1ec405 = false
+                                                _0x51b180 = undefined
+                                                _0x5c0a1b['prev'] = 0x6
+                                                _0x50b8c4 = m374.default(_0x5c19c2)
                                             case 0x8:
-                                                if (_0x7b5677 = (_0x326db3 = _0x50b8c4['next']())['done']) {
-                                                    _0x5c0a1b['next'] = 0x12;
-                                                    break;
+                                                if (_0x7b5677 = (_0x326db3 = _0x50b8c4.next()).done) {
+                                                    _0x5c0a1b['next'] = 0x12
+                                                    break
                                                 }
-                                                if (_0x141e34 = _0x326db3['value'],
-                                                m9['inDevelopment']() && console['log'](_0x141e34),
-                                                    !(_0x141e34[_0x136f('0x2d5')]('puppeteer') > -0x1 || _0x141e34['indexOf']('Puppeteer') > -0x1 || _0x141e34[_0x136f('0x2d5')]('pptr') > -0x1)) {
-                                                    _0x5c0a1b['next'] = 0xf;
-                                                    break;
+                                                _0x141e34 = _0x326db3['value']
+                                                m9.inDevelopment() && console.log(_0x141e34)
+                                                if (_0x141e34.indexOf('puppeteer') === -1 && _0x141e34.indexOf('Puppeteer') === -1 && _0x141e34.indexOf('pptr') === -1) {
+                                                    _0x5c0a1b['next'] = 0xf
+                                                    break
                                                 }
-                                                return _0x5c0a1b['next'] = 0xe,
-                                                    this['botDetect'](!0x0, 'puppeteer\x20execute\x20changeChapter');
+                                                _0x5c0a1b['next'] = 0xe
+                                                return this.botDetect(true, 'puppeteer execute changeChapter')
                                             case 0xe:
+                                                // 检测到程序操作
                                                 return _0x5c0a1b['abrupt']('break', 0x12);
                                             case 0xf:
-                                                _0x7b5677 = !0x0,
-                                                    _0x5c0a1b['next'] = 0x8;
-                                                break;
+                                                _0x7b5677 = true
+                                                _0x5c0a1b['next'] = 0x8
+                                                break
                                             case 0x12:
                                                 _0x5c0a1b['next'] = 0x18;
                                                 break;
                                             case 0x14:
-                                                _0x5c0a1b['prev'] = 0x14,
-                                                    _0x5c0a1b['t0'] = _0x5c0a1b[_0x136f('0x221')](0x6),
-                                                    _0x1ec405 = !0x0,
-                                                    _0x51b180 = _0x5c0a1b['t0'];
+                                                _0x5c0a1b['prev'] = 0x14
+                                                _0x5c0a1b['t0'] = _0x5c0a1b.catch(6)
+                                                _0x1ec405 = true
+                                                _0x51b180 = _0x5c0a1b['t0']
                                             case 0x18:
-                                                _0x5c0a1b['prev'] = 0x18,
-                                                    _0x5c0a1b['prev'] = 0x19,
-                                                !_0x7b5677 && _0x50b8c4['return'] && _0x50b8c4['return']();
+                                                _0x5c0a1b['prev'] = 0x18
+                                                _0x5c0a1b['prev'] = 0x19
+                                                !_0x7b5677 && _0x50b8c4['return'] && _0x50b8c4['return']()
                                             case 0x1b:
-                                                if (_0x5c0a1b['prev'] = 0x1b,
-                                                    !_0x1ec405) {
+                                                _0x5c0a1b['prev'] = 0x1b
+                                                if (!_0x1ec405) {
                                                     _0x5c0a1b['next'] = 0x1e;
                                                     break;
                                                 }
@@ -12091,72 +12186,79 @@ window.webpackJsonp.push(
                                             case 0x1e:
                                                 return _0x5c0a1b['finish'](0x1b);
                                             case 0x1f:
-                                                return _0x5c0a1b[_0x136f('0x1e4')](0x18);
+                                                return _0x5c0a1b.finish(0x18);
                                             case 0x20:
-                                                if (m278['default']['isLegacyReaderSupportBook'](this['bookInfo'])) {
+                                                if (m278.default.isLegacyReaderSupportBook(this.bookInfo)) {
                                                     _0x5c0a1b['next'] = 0x23;
                                                     break;
                                                 }
-                                                return this[_0x136f('0x2b9')] = !0x0,
-                                                    _0x5c0a1b['abrupt']('return', m76['default']['resolve']());
+                                                this.unsupported = true
+                                                return _0x5c0a1b['abrupt']('return', m76.default.resolve())
                                             case 0x23:
-                                                return this['loadTopReviews'](),
-                                                    _0x5c0a1b['abrupt']('return', this['$store']['dispatch'](m55['CHANGE_READER_CHAPTER'], {
-                                                        'pushStack': _0x577117[_0x136f('0x3c3')],
-                                                        'chapterUid': _0x577117['chapterUid'],
-                                                        'sectionId': _0x577117['sectionId'],
-                                                        'isLogin': this[_0x136f('0x441')]
-                                                    })['then'](function () {
-                                                        return _0xf9db89['clearSelection'](),
-                                                            _0xf9db89['clearHighLightDom'](),
-                                                            _0xf9db89['layout']();
-                                                    })['catch'](function (_0x4538b2) {
-                                                        if (_0x4538b2 && _0x4538b2[_0x136f('0x348')]) {
-                                                            switch (_0x4538b2[_0x136f('0x120')]) {
-                                                                case 'currentChapter':
-                                                                    _0xf9db89[_0x136f('0x44f')](),
-                                                                        _0xf9db89['clearHighLightDom'](),
-                                                                        _0x577117['searchItem'] ? _0xf9db89['highLightDomsAndScrollTo'](_0x577117['searchItem']) : _0x577117['scrollTo'] ? _0xf9db89['scrollTo'](_0x577117['scrollTo']) : _0x577117['sectionId'] || _0xf9db89['changeSection']({
-                                                                            'sectionIdx': 0x0,
-                                                                            'offsetTop': 0x0
-                                                                        });
-                                                                    break;
-                                                                case 'forceReload':
-                                                                    window['location']['reload']();
-                                                                    break;
-                                                                case 'sessionTimeout':
-                                                                    _0xf9db89['handleSessionTimeout']();
-                                                            }
-                                                            return _0x4538b2;
+                                                this.loadTopReviews()
+                                                return _0x5c0a1b['abrupt']('return', this.$store.dispatch(m55['CHANGE_READER_CHAPTER'], {
+                                                    'pushStack': _0x577117['pushStack'],
+                                                    'chapterUid': _0x577117['chapterUid'],
+                                                    'sectionId': _0x577117['sectionId'],
+                                                    'isLogin': this.hasLogin
+                                                }).then(() => {
+                                                    _0xf9db89.clearSelection()
+                                                    _0xf9db89.clearHighLightDom()
+                                                    return _0xf9db89.layout()
+                                                }).catch((err) => {
+                                                    if (err && err.isCustomError) {
+                                                        switch (err[_0x136f('0x120')]) {
+                                                            case 'currentChapter':
+                                                                _0xf9db89[_0x136f('0x44f')](),
+                                                                    _0xf9db89['clearHighLightDom'](),
+                                                                    _0x577117['searchItem'] ? _0xf9db89['highLightDomsAndScrollTo'](_0x577117['searchItem']) : _0x577117['scrollTo'] ? _0xf9db89['scrollTo'](_0x577117['scrollTo']) : _0x577117['sectionId'] || _0xf9db89['changeSection']({
+                                                                        'sectionIdx': 0x0,
+                                                                        'offsetTop': 0x0
+                                                                    });
+                                                                break;
+                                                            case 'forceReload':
+                                                                window['location']['reload']();
+                                                                break;
+                                                            case 'sessionTimeout':
+                                                                _0xf9db89['handleSessionTimeout']();
                                                         }
-                                                        _0xf9db89['logError']('changeChapter-UnexpectedError0:', _0x4538b2);
-                                                    })['then'](function (_0x279b8c) {
-                                                        return _0x279b8c && _0x279b8c['success'] && (_0x577117['searchItem'] ? _0xf9db89['highLightDomsAndScrollTo'](_0x577117['searchItem']) : _0x577117[_0x136f('0x182')] ? _0xf9db89[_0x136f('0x182')](_0x577117['scrollTo']) : (_0x577117[_0x136f('0x37d')] || _0xf9db89['changeSection']({
-                                                            'sectionIdx': 0x0,
-                                                            'scrollTo': {
-                                                                'chapterOffset': 0x0
-                                                            }
-                                                        }),
-                                                            _0xf9db89['scrollToOffsetTop'](0x0)),
-                                                            _0xf9db89[_0x136f('0x128')](),
-                                                            _0xf9db89['checkIfNeedRequestLoginQRCode'](),
-                                                            _0xf9db89['$store']['dispatch'](m55['RELOAD_READER_BOOK_INFO'], {
-                                                                'isLogin': _0xf9db89['hasLogin']
-                                                            }),
-                                                            _0xf9db89['$store'][_0x136f('0x478')](m55['RELOAD_READER_CHAPTER_INFOS'], {
-                                                                'isLogin': _0xf9db89['hasLogin']
-                                                            }),
-                                                            _0xf9db89['reportReadingProgress']({
-                                                                'computeSummary': !0x0,
-                                                                'computeProgress': !0x1
-                                                            })),
-                                                            _0x279b8c;
-                                                    }));
+                                                        return err;
+                                                    }
+                                                    _0xf9db89.logError('changeChapter-UnexpectedError0:', err)
+                                                }).then((resp) => {
+                                                    if (resp && resp.success) {
+                                                        _0x577117.searchItem
+                                                            ? _0xf9db89.highLightDomsAndScrollTo(_0x577117.searchItem)
+                                                            : _0x577117.scrollTo
+                                                                ? _0xf9db89.scrollTo(_0x577117.scrollTo)
+                                                                : (_0x577117.sectionId || _0xf9db89.changeSection({
+                                                                    'sectionIdx': 0x0,
+                                                                    'scrollTo': {
+                                                                        'chapterOffset': 0x0
+                                                                    }
+                                                                }),
+                                                                    _0xf9db89.scrollToOffsetTop(0x0))
+                                                        _0xf9db89.checkIfShowMemberCardFreeReadingTips()
+                                                        _0xf9db89.checkIfNeedRequestLoginQRCode()
+                                                        _0xf9db89.$store.dispatch(m55['RELOAD_READER_BOOK_INFO'], {
+                                                            'isLogin': _0xf9db89['hasLogin']
+                                                        })
+                                                        _0xf9db89.$store.dispatch(m55['RELOAD_READER_CHAPTER_INFOS'], {
+                                                            'isLogin': _0xf9db89['hasLogin']
+                                                        })
+                                                        _0xf9db89.reportReadingProgress({
+                                                            'computeSummary': !0x0,
+                                                            'computeProgress': !0x1
+                                                        })
+                                                    }
+                                                    return resp
+                                                }))
                                             case 0x25:
                                             case _0x136f('0x19a'):
                                                 return _0x5c0a1b['stop']();
                                         }
-                                }, _0x2d4203, this, [[0x6, 0x14, 0x18, 0x20], [0x19, , 0x1b, 0x1f]]);
+                                    }
+                                }, _0x2d4203, this, [[0x6, 0x14, 0x18, 0x20], [0x19, , 0x1b, 0x1f]])
                             })),
                                 function (_0x1623a5) {
                                     return _0x230d34['apply'](this, arguments);
@@ -13714,18 +13816,18 @@ window.webpackJsonp.push(
                         'getScrollTop': function () {
                             return window && window['pageYOffset'] ? window['pageYOffset'] : document && document['documentElement'] && document[_0x136f('0x1af')][_0x136f('0xce')] ? document['documentElement']['scrollTop'] : document && document['body'] && document['body']['scrollTop'] ? document['body']['scrollTop'] : 0x0;
                         },
-                        'clientXY2RenderAreaXY': function (_0x53aa16) {
-                            var _0x3f8d90 = this['$refs'][_0x136f('0xd')];
-                            if (_0x3f8d90) {
-                                var _0x497226 = _0x3f8d90[_0x136f('0x43b')]
-                                    , _0x3df591 = _0x3f8d90['offsetTop']
-                                    , _0x2e57ef = this['getScrollLeft']()
-                                    , _0x4d210e = this['getScrollTop']();
-                                return _0x53aa16['x'] = _0x53aa16['x'] - _0x497226 + _0x2e57ef,
-                                    _0x53aa16['y'] = _0x53aa16['y'] - _0x3df591 + _0x4d210e,
-                                    _0x53aa16;
+                        'clientXY2RenderAreaXY': function (point) {
+                            let renderTargetContainerRef = this.$refs.renderTargetContainer;
+                            if (renderTargetContainerRef) {
+                                let offsetLeft = renderTargetContainerRef.offsetLeft,
+                                    offsetTop = renderTargetContainerRef.offsetTop,
+                                    scrollLeft = this.getScrollLeft(),
+                                    scrollTop = this.getScrollTop();
+                                point.x = point.x - offsetLeft + scrollLeft
+                                point.y = point.y - offsetTop + scrollTop
+                                return point
                             }
-                            return _0x53aa16;
+                            return point
                         },
                         'findObjsWithPoints': function (_0x598bac, _0x16a65a) {
                             var _0x471314, _0x269d06, _0x26655c = _0x3f16ee, _0x3947bc = _0x26655c['length'],
@@ -13770,10 +13872,10 @@ window.webpackJsonp.push(
                             return _0x191b82['length'] > 0x0;
                         },
                         'clearSelection': function () {
-                            this['chapterContentSelectionHtml'] = '',
-                                _0x14aa3b = [],
-                                _0x191b82 = [],
-                                this['$hideSelectionToolBar']();
+                            this.chapterContentSelectionHtml = ''
+                            _0x14aa3b = []
+                            _0x191b82 = []
+                            this.$hideSelectionToolBar()
                         },
                         'onContentMouseDown': function (_0x2f3c26) {
                             if ('DONE' === this['chapterContentState']) {
@@ -14169,35 +14271,38 @@ window.webpackJsonp.push(
                                     this['$store']['dispatch'](m55['FETCH_BOOK_REVIEW_LIST'], _0x106a24);
                             }
                         },
-                        'changeFontSize': function (_0x39333e, _0x59a169) {
-                            var _0x2dd3cd = this;
-                            if (_0x39333e < 0x1 || _0x39333e > 0x7)
-                                return m76['default']['reject'](new Error('wrong\x20font\x20size\x20level'));
-                            if ('DONE' !== this['chapterContentState'])
-                                return m76['default']['resolve']('chapter\x20content\x20state\x20is\x20not\x20DONE');
-                            this[_0x136f('0x44f')](),
-                                this['clearHighLightDom']();
-                            var _0xb1072 = this[_0x136f('0x323')]({
-                                'computeSummary': !0x1,
-                                'computeProgress': !0x1
-                            });
-                            return this['$store']['commit'](m75['UPDATE_READER_CONTENT_STATE'], 'PRERENDER'),
-                                this['fontSizeLevel'] = _0x39333e,
-                                new m76[(_0x136f('0x18f'))](function (_0x391bbd) {
-                                        setTimeout(_0x391bbd, 0x0);
-                                    }
-                                )['then'](this['layout'])['then'](function (_0x7c05c5) {
-                                    _0x7c05c5 && _0x7c05c5[_0x136f('0x408')] && (_0xb1072 && _0x2dd3cd['scrollTo']({
-                                        'chapterOffset': _0xb1072['offset'],
-                                        'ignoreWhenScrollToTop': !0x0
-                                    }),
-                                        _0x2dd3cd['saveLocalFontSizeLevel'](_0x39333e),
-                                        _0x2dd3cd['reportClientBusiness']({
-                                            'itemName': 'Web_Reader_FontChange'
-                                        }));
-                                })['catch'](function (_0x5e5988) {
-                                    _0x2dd3cd['logError']('changeFontSize-UnexpectedError:', _0x5e5988);
-                                });
+                        'changeFontSize': function (fontSizeLevel, _0x59a169) {
+                            let _this = this;
+                            if (fontSizeLevel < 1 || fontSizeLevel > 7) {
+                                return m76.default.reject(new Error('wrong font size level'))
+                            }
+                            if ('DONE' !== this.chapterContentState) {
+                                return m76.default.resolve('chapter content state is not DONE')
+                            }
+                            this.clearSelection()
+                            this.clearHighLightDom()
+                            let computeProgressData = this.computeProgressData({
+                                'computeSummary': false,
+                                'computeProgress': false
+                            })
+                            this.$store.commit(m75['UPDATE_READER_CONTENT_STATE'], 'PRERENDER')
+                            this.fontSizeLevel = fontSizeLevel
+                            return new m76.default((resolve) => {
+                                setTimeout(resolve, 0)
+                            }).then(this.layout).then((resp) => {
+                                if (resp && resp.success) {
+                                    computeProgressData && _this.scrollTo({
+                                        'chapterOffset': computeProgressData.offset,
+                                        'ignoreWhenScrollToTop': true
+                                    })
+                                    _this.saveLocalFontSizeLevel(fontSizeLevel)
+                                    _this.reportClientBusiness({
+                                        'itemName': 'Web_Reader_FontChange'
+                                    })
+                                }
+                            }).catch((err) => {
+                                _this.logError('changeFontSize-UnexpectedError:', err)
+                            })
                         },
                         'saveLocalFontSizeLevel': function (_0x46dcdf) {
                             var _0x397ac1 = m99['default'][_0x136f('0x30a')]();
@@ -14318,25 +14423,29 @@ window.webpackJsonp.push(
                             'undefined' != typeof MutationObserver && (_0x10054b['mutationObserver'] = !0x0));
                         },
                         'initWaterMask': function () {
-                            var _0x4f7488 = String(this['user'][_0x136f('0x2c2')]) || 0x0;
-                            require['e'](0x1f)[_0x136f('0x26e')](require['t'][_0x136f('0x130')](null, 0x6e7, 0x7))['then'](function () {
-                                _0x136f('0x41e') === (0x0,
-                                    m79['default'])(window['YWQD']) && 'function' == typeof window['YWQD']['config'] ? window['YWQD']['config']({
-                                    'guid': _0x4f7488,
-                                    'domain': 'qq.com',
-                                    'water': '',
-                                    'barcode': !0x0,
-                                    'autoMix': 0x1,
-                                    'report': function (_0x15f88f, _0xce0526) {
-                                    },
-                                    'callback': function (_0x2c9291) {
-                                    }
-                                }) : console['error'](_0x136f('0x410'));
-                            });
+                            let vid = String(this.user.vid) || 0
+                            require.e(31).then(require.t.bind(null, 1767, 7)).then(function () {
+                                'object' === m79.default(window['YWQD']) && 'function' == typeof window.YWQD.config
+                                    ? window.YWQD.config({
+                                        'guid': vid,
+                                        'domain': 'qq.com',
+                                        'water': '',
+                                        'barcode': true,
+                                        'autoMix': 1,
+                                        'report': function (_0x15f88f, _0xce0526) {
+                                        },
+                                        'callback': function (_0x2c9291) {
+                                        }
+                                    })
+                                    : console.error(_0x136f('0x410'))
+                            })
                         },
                         'addWaterMask': function () {
-                            'object' === (0x0,
-                                m79['default'])(window['YWQD']) && _0x136f('0x1f5') == typeof window['YWQD']['add'] ? this['$refs'][_0x136f('0x2e6')] ? window['YWQD']['add'](this['$refs']['renderTargetWatermark'], '<p></p>') : console['log'](_0x136f('0x46d')) : console['log']('YWQD\x20is\x20not\x20defined');
+                            'object' === m79.default(window.YWQD) && 'function' === typeof window.YWQD.add
+                                ? this.$refs.renderTargetWatermark
+                                    ? window.YWQD.add(this.$refs.renderTargetWatermark, '<p></p>')
+                                    : console.log('$refs.renderTargetWatermark is null')
+                                : console.log('YWQD is not defined')
                         },
                         'logOnReadPublishBook': function () {
                             try {
@@ -14364,59 +14473,62 @@ window.webpackJsonp.push(
                             m9['inDevelopment']() && console['log'](_0x3f16ee);
                         },
                         'botDetect': (_0x5b1daf = m376.default(m375.default.mark(function _0x553ae4(_0x1ef662, _0x1f0a73) {
-                                var _0x5c5d1f, _0x40b66d, _0x5b47db, _0x4e8cbb, _0x593c94, _0x5a4a78, _0x2be0e9;
-                                return m375['default']['wrap'](function (_0x264821) {
-                                    for (; ;)
-                                        switch (_0x264821['prev'] = _0x264821[_0x136f('0xe')]) {
+                                var fastTest, fingerPrint, vid, bookId, isPub, platform, pf;
+                                return m375.default.wrap(function (_0x264821) {
+                                    for (; ;) {
+                                        switch (_0x264821['prev'] = _0x264821['next']) {
                                             case 0x0:
-                                                return _0x264821[_0x136f('0x1a7')] = 0x0,
-                                                    _0x264821['next'] = 0x3,
-                                                    m1643['testAll']();
+                                                _0x264821['prev'] = 0x0
+                                                _0x264821['next'] = 0x3
+                                                return m1643.testAll()
                                             case 0x3:
-                                                if (!(_0x5c5d1f = _0x264821['sent'])[_0x136f('0x360')] && !_0x1ef662) {
-                                                    _0x264821[_0x136f('0xe')] = 0x11;
-                                                    break;
+                                                if (!(fastTest = _0x264821['sent']).length && !_0x1ef662) {
+                                                    _0x264821['next'] = 0x11
+                                                    break
                                                 }
-                                                return m9[_0x136f('0x4a6')]() && console['log'](_0x136f('0x49b')),
-                                                    _0x264821['next'] = 0x8,
-                                                    m1643['scanFullFingerPrint']();
+                                                m9.inDevelopment() && console.log('bot detected!')
+                                                _0x264821['next'] = 0x8
+                                                return m1643.scanFullFingerPrint()
                                             case 0x8:
-                                                _0x40b66d = _0x264821['sent'],
-                                                m9['inDevelopment']() && (console['log'](_0x5c5d1f),
-                                                    console['log'](_0x40b66d)),
-                                                _0x1f0a73 && _0x5c5d1f['push'](_0x1f0a73),
-                                                    _0x5b47db = this['reportVid'](),
-                                                    _0x4e8cbb = this['bookId'],
-                                                    _0x593c94 = 0x1 === this['bookInfo'][_0x136f('0x461')],
-                                                    _0x5a4a78 = new m24['default']()['getDeviceInfo'](),
-                                                    _0x2be0e9 = _0x136f('0x38b') === this['OS'] ? 0x1 : _0x136f('0xc8') === this['OS'] ? 0x2 : 0x0,
-                                                    m395['wrReport']['baseCHReport']({
-                                                        'itemName': _0x136f('0x10a'),
-                                                        'vid': _0x5b47db,
-                                                        'pf': _0x2be0e9,
-                                                        'extra': {
-                                                            'bookId': _0x4e8cbb,
-                                                            'fastTest': _0x5c5d1f,
-                                                            'isPub': _0x593c94,
-                                                            'platform': _0x5a4a78,
-                                                            'fingerPrint': _0x40b66d
-                                                        }
-                                                    });
+                                                fingerPrint = _0x264821['sent']
+                                                if (m9.inDevelopment()) {
+                                                    console.log(fastTest)
+                                                    console.log(fingerPrint)
+                                                }
+                                                _0x1f0a73 && fastTest.push(_0x1f0a73)
+                                                vid = this.reportVid()
+                                                bookId = this.bookId
+                                                isPub = 1 === this.bookInfo.ispub
+                                                platform = new m24.default().getDeviceInfo()
+                                                pf = 'iOS' === this.OS ? 1 : 'Android' === this.OS ? 2 : 0
+                                                m395.wrReport.baseCHReport({
+                                                    'itemName': 'Web_Reader_Bot_Detected',
+                                                    'vid': vid,
+                                                    'pf': pf,
+                                                    'extra': {
+                                                        'bookId': bookId,
+                                                        'fastTest': fastTest,
+                                                        'isPub': isPub,
+                                                        'platform': platform,
+                                                        'fingerPrint': fingerPrint,
+                                                    }
+                                                })
                                             case 0x11:
-                                                _0x264821[_0x136f('0xe')] = 0x16;
-                                                break;
+                                                _0x264821['next'] = 0x16
+                                                break
                                             case 0x13:
-                                                _0x264821['prev'] = 0x13,
-                                                    _0x264821['t0'] = _0x264821[_0x136f('0x221')](0x0),
-                                                    console['error'](_0x264821['t0']);
+                                                _0x264821['prev'] = 0x13
+                                                _0x264821['t0'] = _0x264821.catch(0)
+                                                console.error(_0x264821['t0'])
                                             case 0x16:
                                             case 'end':
                                                 return _0x264821['stop']();
                                         }
+                                    }
                                 }, _0x553ae4, this, [[0x0, 0x13]]);
                             })),
-                                function (_0x2f2e86, _0x44656a) {
-                                    return _0x5b1daf['apply'](this, arguments);
+                                function (status, msg) {
+                                    return _0x5b1daf['apply'](this, arguments)
                                 }
                         )
                     }),

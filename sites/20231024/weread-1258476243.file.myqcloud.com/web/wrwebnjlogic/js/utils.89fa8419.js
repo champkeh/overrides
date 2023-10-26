@@ -1207,10 +1207,9 @@ window.webpackJsonp.push(
                 }
                 exports.getRandomNumber = getRandomNumber
             },
-            1028: function (_0x3282b6, _0x2dd8f2, _0x59324f) {
-                'use strict';
-                var _0x1bc06b = _0x533873(_0x59324f(0x4f))
-                    , _0x2f05f1 = _0x533873(_0x59324f(0x176));
+            1028: function (module, exports, require) {
+                var m79 = _0x533873(require(79)),
+                    m374 = _0x533873(require(374));
 
                 function _0x533873(_0x58f492) {
                     return _0x58f492 && _0x58f492['__esModule'] ? _0x58f492 : {
@@ -1218,8 +1217,9 @@ window.webpackJsonp.push(
                     };
                 }
 
-                _0x59324f(0x189);
-                _0x3282b6['exports'] = {
+                require(393)
+
+                module.exports = {
                     't': function (_0x1b4518, _0x310d1b, _0x12f325) {
                         var _0x5b31d9 = _0x1b4518['getSync']();
                         console['log'](_0x5b31d9);
@@ -1229,7 +1229,7 @@ window.webpackJsonp.push(
                             , _0x33f074 = void 0x0;
                         try {
                             for (var _0x90f05b, _0x248c3f = (0x0,
-                                _0x2f05f1['default'])(_0x5b31d9); !(_0x3c6049 = (_0x90f05b = _0x248c3f['next']())[_0x2180('0xa8')]); _0x3c6049 = !0x0) {
+                                m374['default'])(_0x5b31d9); !(_0x3c6049 = (_0x90f05b = _0x248c3f['next']())[_0x2180('0xa8')]); _0x3c6049 = !0x0) {
                                 var _0x2c3058 = _0x90f05b[_0x2180('0x69')];
                                 -0x1 === _0x2c3058['fileName']['indexOf']('extension') && -0x1 === _0x2c3058['fileName']['indexOf']('puppeteer') && -0x1 === _0x2c3058['fileName']['indexOf']('chrome') || (Array[_0x2180('0x10')](_0x310d1b) && (_0x53942c = _0x12f325(_0x310d1b)),
                                     _0x53942c = _0x12f325(_0x310d1b['toString']()['split'](''))['join'](''));
@@ -1274,10 +1274,10 @@ window.webpackJsonp.push(
                             , _0xcb140c = void 0x0;
                         try {
                             for (var _0x4ce147, _0x2605ad = (0x0,
-                                _0x2f05f1['default'])(['extension', 'puppeteer', _0x2180('0xe3')]); !(_0x122ab7 = (_0x4ce147 = _0x2605ad['next']())['done']); _0x122ab7 = !0x0) {
+                                m374['default'])(['extension', 'puppeteer', _0x2180('0xe3')]); !(_0x122ab7 = (_0x4ce147 = _0x2605ad['next']())['done']); _0x122ab7 = !0x0) {
                                 var _0xaa90af = _0x56b465(_0x4ce147['value']);
                                 if ('object' === (void 0x0 === _0xaa90af ? 'undefined' : (0x0,
-                                    _0x1bc06b[_0x2180('0x21')])(_0xaa90af)))
+                                    m79[_0x2180('0x21')])(_0xaa90af)))
                                     return _0xaa90af['v'];
                             }
                         } catch (_0x104f3d) {
@@ -1293,10 +1293,10 @@ window.webpackJsonp.push(
                         }
                         return !0x1;
                     },
-                    'e': function (_0x3e54ec, _0x24690e) {
-                        _0x3e54ec['isTrusted'] || _0x24690e(_0x3e54ec);
+                    'e': function (event, cb) {
+                        event.isTrusted || cb(event)
                     }
-                };
+                }
             },
             1064: function (_0x4493b3, _0x263ad2, _0x56ebb2) {
                 'use strict';
