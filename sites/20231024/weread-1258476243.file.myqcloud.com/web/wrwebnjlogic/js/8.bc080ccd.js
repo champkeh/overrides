@@ -7775,7 +7775,7 @@ window.webpackJsonp.push(
 
                 var _0xbe6b39 = _0x5ce465(require(0x309))
                     , _0x498a8a = _0x5ce465(require(0x4f))
-                    , _0x35291d = _0x5ce465(require(0xc9))
+                    , m201 = _0x5ce465(require(201))
                     , _0x4dd4c5 = _0x5ce465(require(0x176))
                     , _0x4bab19 = _0x5ce465(require(0x117))
                     , _0x4506c3 = _0x5ce465(require(0x177))
@@ -7796,7 +7796,7 @@ window.webpackJsonp.push(
                     , _0x112cb5 = _0x5a7994(require(0x37))
                     , _0x523bfb = _0x5a7994(require(0x4b))
                     , _0x2af8f0 = _0x5ce465(require(0x4d))
-                    , _0x18ae4b = _0x5ce465(require(0x116))
+                    , m278 = _0x5ce465(require(278))
                     , _0x325532 = _0x5ce465(require(0x305))
                     , _0x2482e4 = _0x5ce465(require(0x2e3))
                     , _0x31aeec = _0x5ce465(require(0x63))
@@ -7856,7 +7856,7 @@ window.webpackJsonp.push(
                         })),
                             _0x132045;
                     });
-                    return (_0x18ae4b['default']['isBuyUnitWholeBook'](_0x46f10a) || _0x18ae4b['default'][_0x136f('0x3a3')](_0x46f10a)) && (_0x4ced80 = _0x4ced80['filter'](function (_0x3cfc3f) {
+                    return (m278['default']['isBuyUnitWholeBook'](_0x46f10a) || m278['default'][_0x136f('0x3a3')](_0x46f10a)) && (_0x4ced80 = _0x4ced80['filter'](function (_0x3cfc3f) {
                         return '封面' !== _0x3cfc3f[_0x136f('0x3ad')];
                     })),
                         _0x4ced80;
@@ -7880,25 +7880,28 @@ window.webpackJsonp.push(
                         _0x532b5b;
                 }
 
-                function _0x316938(_0x17a61b) {
+                function sign(_0x17a61b) {
                     for (var _0x21809c = 0x15051505, _0x50cd6a = _0x21809c, _0x3cd821 = _0x17a61b['length'], _0x29c31a = _0x3cd821 - 0x1; _0x29c31a > 0x0; _0x29c31a -= 0x2)
                         _0x21809c = 0x7fffffff & (_0x21809c ^ _0x17a61b['charCodeAt'](_0x29c31a) << (_0x3cd821 - _0x29c31a) % 0x1e),
                             _0x50cd6a = 0x7fffffff & (_0x50cd6a ^ _0x17a61b['charCodeAt'](_0x29c31a - 0x1) << _0x29c31a % 0x1e);
                     return (_0x21809c + _0x50cd6a)['toString'](0x10)['toLowerCase']();
                 }
 
-                function _0x19c1bd(_0x581660) {
-                    for (var _0x5efd38 = arguments['length'] > 0x1 && void 0x0 !== arguments[0x1] ? arguments[0x1] : [], _0x13db7e = '', _0x4655e6 = 0x0 === _0x5efd38[_0x136f('0x360')], _0x319ef2 = (0x0,
-                        _0x30881b['default'])(_0x581660)['sort'](), _0x327ec5 = 0x0; _0x327ec5 < _0x319ef2['length']; _0x327ec5++) {
-                        var _0x3a19f2 = _0x319ef2[_0x327ec5];
+                function stringify(data) {
+                    var _0x5efd38 = arguments.length > 1 && undefined !== arguments[1] ? arguments[1] : [],
+                        _0x13db7e = '',
+                        _0x4655e6 = 0 === _0x5efd38.length,
+                        _0x319ef2 = _0x30881b.default(data).sort()
+                    for (let i = 0; i < _0x319ef2.length; i++) {
+                        var _0x3a19f2 = _0x319ef2[i];
                         if (_0x4655e6 || -0x1 !== _0x5efd38['indexOf'](_0x3a19f2)) {
-                            var _0x4e73ab = _0x581660[_0x3a19f2];
+                            var _0x4e73ab = data[_0x3a19f2];
                             _0x13db7e += _0x3a19f2 + '=' + encodeURIComponent(_0x4e73ab),
                                 _0x13db7e += '&';
                         }
                     }
-                    return _0x13db7e['length'] > 0x0 && '&' === _0x13db7e['charAt'](_0x13db7e['length'] - 0x1) && (_0x13db7e = _0x13db7e['slice'](0x0, _0x13db7e['length'] - 0x1)),
-                        _0x13db7e;
+                    _0x13db7e.length > 0 && '&' === _0x13db7e.charAt(_0x13db7e.length - 1) && (_0x13db7e = _0x13db7e.slice(0, _0x13db7e.length - 1))
+                    return _0x13db7e
                 }
 
                 function _0x45112c(_0x517fd9) {
@@ -8010,8 +8013,10 @@ window.webpackJsonp.push(
                     _0x46aa10.default(mutations, _0x523bfb['UPDATE_READER_CURRENT_SECTION'], function (_0x278ebe, _0x5ed8bc) {
                         _0x278ebe['currentSectionIdx'] = _0x5ed8bc;
                     })
-                    _0x46aa10.default(mutations, _0x523bfb['UPDATE_READER_CONTENT_HTML'], function (_0x28843b, _0x328636) {
-                        _0x28843b['chapterContentHtml'] = _0x328636['map'](function (_0x43a0e2, _0x14feeb) {
+
+                    _0x46aa10.default(mutations, _0x523bfb['UPDATE_READER_CONTENT_HTML'], function (state, _0x328636) {
+                        debugger
+                        state.chapterContentHtml = _0x328636.map(function (_0x43a0e2, _0x14feeb) {
                             var _0x50de70 = function (_0x19cd92, _0xf8668a) {
                                 if (!_0x19cd92 || _0x19cd92['length'] <= 0x0)
                                     return '';
@@ -8019,11 +8024,11 @@ window.webpackJsonp.push(
                                 _0x19cd92 = _0x19cd92['replace'](_0x21c15b, '<span\x20class=\x22reader_footer_note\x20js_readerFooterNote\x22\x20data-wr-co=\x22$1\x22\x20data-wr-footernote=\x22$2\x22></span>');
                                 var _0x40b0be = new RegExp('<img[^>]+?data-wr-co=\x22([^\x22]+?)\x22[^>]+?qqreader-footnote[^>]+?alt=\x22([^\x22]+?)\x22[^>]*?>', 'gi');
                                 return (_0x19cd92 = (_0x19cd92 = (_0x19cd92 = _0x19cd92['replace'](_0x40b0be, '<span\x20class=\x22reader_footer_note\x20js_readerFooterNote\x22\x20data-wr-co=\x22$1\x22\x20data-wr-footernote=\x22$2\x22></span>'))['replace'](/\.\.\/video\/(.*?\.(mp4|wmv|3gp|rm|rmvb|mov|m4v|avi))/gi, 'https://res.weread.qq.com/wrepub/web/' + _0xf8668a + '/$1'))[_0x136f('0x481')](/\.\.\/images\/(.*?\.(png|jpg|jpeg|gif))/gi, _0x136f('0x29e') + _0xf8668a + '/$1'))['trim']();
-                            }(_0x43a0e2 || '', _0x28843b['bookId'])
-                                , _0x5e832c = _0x28843b['bookId']
-                                , _0x25b90d = _0x28843b['currentChapter']['chapterUid']
+                            }(_0x43a0e2 || '', state['bookId'])
+                                , _0x5e832c = state['bookId']
+                                , _0x25b90d = state['currentChapter']['chapterUid']
                                 , _0x3a9b7f = _0x14feeb;
-                            _0x58e77e['get'](_0x28843b, 'user.vid', 0x0);
+                            _0x58e77e['get'](state, 'user.vid', 0x0);
                             return {
                                 'value': (0x0,
                                     _0x59e7d1['encryption'])(_0x50de70, _0x5e832c, _0x25b90d, _0x3a9b7f),
@@ -8031,10 +8036,11 @@ window.webpackJsonp.push(
                                     return _0x50de70['indexOf'](_0x47d383) > -0x1;
                                 }
                             };
-                        });
+                        })
                     })
-                    _0x46aa10.default(mutations, _0x523bfb['UPDATE_READER_CONTENT_STYLES'], function (_0x4d4d82, _0x3f73c1) {
-                        _0x4d4d82['chapterContentStyles'] = function (_0x217fc7, _0x31aac3) {
+                    _0x46aa10.default(mutations, _0x523bfb['UPDATE_READER_CONTENT_STYLES'], function (state, _0x3f73c1) {
+                        debugger
+                        state.chapterContentStyles = function (_0x217fc7, _0x31aac3) {
                             if (!_0x217fc7 || _0x217fc7['length'] <= 0x0)
                                 return '';
                             _0x217fc7 = _0x217fc7['trim']()[_0x136f('0x481')](/\/\*.*?\*\//gi, '');
@@ -8047,17 +8053,20 @@ window.webpackJsonp.push(
                                     return -0x1 === (_0x350e7a = _0x350e7a['trim']())['indexOf']('{') && -0x1 === _0x350e7a[_0x136f('0x2d5')]('}') && -0x1 === _0x350e7a['indexOf'](';') ? _0x350e7a + ';' : _0x350e7a;
                                 })['join']('');
                             })[_0x136f('0xb7')]('')[_0x136f('0x153')]()['replace'](/\.\.\/images\/(.*?\.(png|jpg|jpeg|gif))/gi, 'https://res.weread.qq.com/wrepub/web/' + _0x31aac3 + '/$1');
-                        }(_0x3f73c1 || '', _0x4d4d82[_0x136f('0x85')]);
+                        }(_0x3f73c1 || '', state[_0x136f('0x85')]);
                     })
-                    _0x46aa10.default(mutations, _0x523bfb['UPDATE_READER_CHAPTER_CONTENT_TARGET_HTML'], function (_0x1bc895, _0x4eee92) {
-                        _0x1bc895[_0x136f('0x105')] = _0x4eee92 || {};
+                    _0x46aa10.default(mutations, _0x523bfb['UPDATE_READER_CHAPTER_CONTENT_TARGET_HTML'], function (state, payload) {
+                        debugger
+                        state.chapterContentTargetHtml = payload || {};
                     })
                     _0x46aa10.default(mutations, _0x523bfb['UPDATE_READER_CHAPTER_CANVAS_TARGET_HTML'], function (_0x3000f0, _0x17c518) {
-                        _0x3000f0['chapterContentTargetCanvasHtml'] = _0x17c518 || '';
+                        debugger
+                        _0x3000f0.chapterContentTargetCanvasHtml = _0x17c518 || '';
                     })
-                    _0x46aa10.default(mutations, _0x523bfb['UPDATE_READER_CONTENT_STATE'], function (_0x18e69d, _0x498ede) {
-                        _0x18e69d['chapterContentState'] = _0x498ede;
+                    _0x46aa10.default(mutations, _0x523bfb['UPDATE_READER_CONTENT_STATE'], function (state, payload) {
+                        state.chapterContentState = payload
                     })
+
                     _0x46aa10.default(mutations, _0x523bfb['UPDATE_READER_CONTENT_IS_DIRTY'], function (_0x2fa0f2, _0xa07a8a) {
                         _0x2fa0f2['isChapterContentDirty'] = _0xa07a8a || !0x1;
                     })
@@ -8210,7 +8219,7 @@ window.webpackJsonp.push(
                                     , _0x4f895f = _0x20e249['progress']
                                     , _0x10f74a = _0x20e249['jumpType']
                                     , _0x261b4a = null;
-                                if (_0x18ae4b['default']['isLegacyReaderSupportBook'](_0x1022c3)) {
+                                if (m278['default']['isLegacyReaderSupportBook'](_0x1022c3)) {
                                     var _0x410ba8 = _0x30eca3;
                                     if (!_0x30eca3 || !(0x0,
                                         _0xc89032[_0x136f('0x18f')])(_0x30eca3)) {
@@ -8226,7 +8235,7 @@ window.webpackJsonp.push(
                                     }
                                 }
                                 _0x261b4a && _0x261b4a['chapterUid'] || (_0x261b4a = _0x1fb622[0x0]);
-                                if (_0x18ae4b['default']['actualTreatBookAsPdf'](_0x1022c3)) {
+                                if (m278['default']['actualTreatBookAsPdf'](_0x1022c3)) {
                                     _0x261b4a = {
                                         'chapterUid': ('switchFormat' === _0x10f74a ? _0x30eca3 : _0x58e77e['get'](_0x4f895f, 'book.chapterUid', 0x0)) || 0x0,
                                         'chapterOffset': 0x0
@@ -8245,7 +8254,7 @@ window.webpackJsonp.push(
                             _0x4d1bd4(_0x523bfb['UPDATE_READER_CURRENT_CHAPTER'], _0x1c07d8),
                                 _0x4d1bd4(_0x523bfb[_0x136f('0x1e7')], _0x4d959d['isBookForbidden']),
                                 _0x4d1bd4(_0x523bfb['UPDATE_READER_CONTENT_IS_DIRTY'], !0x0),
-                                _0x18ae4b['default']['isSupportedBookType'](_0x4d959d['bookInfo'][_0x136f('0x93')]) ? _0x4d1bd4(_0x523bfb[_0x136f('0x2ab')], 'LOADING') : _0x4d1bd4(_0x523bfb['UPDATE_READER_CONTENT_STATE'], 'DONE');
+                                m278['default']['isSupportedBookType'](_0x4d959d['bookInfo'][_0x136f('0x93')]) ? _0x4d1bd4(_0x523bfb[_0x136f('0x2ab')], 'LOADING') : _0x4d1bd4(_0x523bfb['UPDATE_READER_CONTENT_STATE'], 'DONE');
                         }), _0x104d45['default']['all']([]['concat']((0x0,
                             _0x4bab19['default'])(_0x138207 ? [_0x1b5ec2(_0x112cb5['FETCH_READER_BOOK_IN_SHELF'], _0x24aa59), _0x1b5ec2(_0x112cb5['FETCH_READER_MEMBER_CARD_SUMMARY'], _0x24aa59), _0x1b5ec2(_0x112cb5['FETCH_READER_INFINITE_INFO'], _0x24aa59), _0x1b5ec2(_0x112cb5['FETCH_READER_ACTIVE_INFINITE'], _0x24aa59), _0x1b5ec2(_0x112cb5[_0x136f('0x84')], _0x24aa59)] : []), [_0x1b5ec2(_0x112cb5['FETCH_READER_BOOK_READING_STAT'], {
                             'envConfig': _0x24aa59,
@@ -8620,9 +8629,16 @@ window.webpackJsonp.push(
                                     _0x4de21a;
                             }, !0x0);
                     })
+
                     _0x46aa10.default(actions, _0x112cb5['FETCH_READER_CHAPTER_CONTENT'], (_0x8f774c = _0x3d442d.default(_0x4506c3.default.mark(function _0x253856(context, payload) {
-                            var bookId, currentChapter, chapterUid, _0x16644f, _0x11f27a, isNeedPay, _0x135e2d,
-                                _0x1257fa,
+                            let bookId,
+                                currentChapter,
+                                chapterUid,
+                                getRequestPayload,
+                                promise,
+                                isNeedPay,
+                                membershipValid,
+                                canFreeReading,
                                 _dispatch = context['dispatch'],
                                 _commit = context['commit'],
                                 _state = context['state'],
@@ -8650,30 +8666,28 @@ window.webpackJsonp.push(
 
                                             _commit(_0x523bfb['UPDATE_READER_CONTENT_STATE'], 'LOADING')
                                             _commit(_0x523bfb['UPDATE_READER_CHAPTER_CONTENT_TARGET_HTML'], {})
-                                            _0x16644f = function () {
-                                                var _0x2b1932 = arguments['length'] > 0x0 && void 0x0 !== arguments[0x0] ? arguments[0x0] : {}
-                                                    , _0x5f592c = {
+                                            getRequestPayload = function (data = {}) {
+                                                let requestPayload = {
                                                     'b': _0x528cb9['e'](bookId),
                                                     'c': _0x528cb9['e'](chapterUid),
-                                                    'r': Math['pow'](parseInt(0x2710 * Math['random']()), 0x2),
+                                                    'r': Math['pow'](parseInt(0x2710 * Math.random()), 2),
                                                     'st': 0x0,
-                                                    'ct': parseInt(new Date()[_0x136f('0xb8')]() / 0x3e8),
+                                                    'ct': parseInt(new Date()[_0x136f('0xb8')]() / 1000),
                                                     'ps': _state['psvts'],
                                                     'pc': _state['pclts'],
                                                     'sc': 0x0
-                                                };
-                                                (0x0,
-                                                    _0x35291d[_0x136f('0x18f')])(_0x5f592c, _0x2b1932);
-                                                var _0x2e6471 = _0x19c1bd(_0x5f592c);
-                                                return _0x5f592c['s'] = _0x316938(_0x2e6471),
-                                                    _0x5f592c;
+                                                }
+                                                m201.default(requestPayload, data)
+                                                const str = stringify(requestPayload);
+                                                requestPayload['s'] = sign(str)
+                                                return requestPayload
                                             }
-                                            _0x11f27a = void 0x0
+                                            promise = undefined
                                             if (!_getters.isSoldOutForbiddenRead && !_getters.isCopyRightForbiddenRead) {
                                                 _0x25579e['next'] = 0x10;
                                                 break;
                                             }
-                                            _0x11f27a = new _0x104d45.default((resolve) => {
+                                            promise = new _0x104d45.default((resolve) => {
                                                 _commit(_0x523bfb['UPDATE_READER_CONTENT_HTML'], [])
                                                 _commit(_0x523bfb['UPDATE_READER_CONTENT_STYLES'], '')
                                                 _commit(_0x523bfb['UPDATE_READER_CONTENT_STATE'], 'DONE')
@@ -8689,16 +8703,16 @@ window.webpackJsonp.push(
 
                                             try {
                                                 _dispatch(_0x112cb5['MARK_FETCH_START']);
-                                            } catch (_0x7926b9) {
-                                                _0x35ff76['inDevelopment']() && console['log'](_0x7926b9);
+                                            } catch (err) {
+                                                _0x35ff76['inDevelopment']() && console['log'](err);
                                             }
-                                            if (!_0x16644f(payload)['sc']) {
+                                            if (!getRequestPayload(payload)['sc']) {
                                                 _0x25579e['next'] = 0x15;
                                                 break;
                                             }
 
                                             _0x25579e['next'] = 0x15
-                                            return _0x24f6f0.default(_0x244b39.cs('255e4h4e254e565652254f4k4d575b4h59254h4b26'), _0x16644f(payload), (resp) => {
+                                            return _0x24f6f0.default('/web/book/chapter/e_0', getRequestPayload(payload), (resp) => {
                                                 var respData = resp.data
                                                 return respData && 'string' == typeof respData ? _0x244b39.chk(respData) : '';
                                             }, (err) => {
@@ -8706,22 +8720,22 @@ window.webpackJsonp.push(
                                                 return err
                                             })
                                         case 0x15:
-                                            _0x11f27a = _0x104d45.default.all([
-                                                _0x24f6f0.default(_0x244b39.cs('255e4h4e254e565652254f4k4d575b4h59254h4b26'), _0x16644f(payload), function (_0xdcaf7b) {
+                                            promise = _0x104d45.default.all([
+                                                _0x24f6f0.default('/web/book/chapter/e_0', getRequestPayload(payload), function (_0xdcaf7b) {
                                                     var _0x5a79fa = _0xdcaf7b['data'];
                                                     return _0x5a79fa && 'string' == typeof _0x5a79fa ? _0x244b39['chk'](_0x5a79fa) : '';
                                                 }, function (_0x41046b) {
                                                     return _0x11c122('Error\x20in\x20fetchContent', _0x41046b),
                                                         _0x41046b;
                                                 }),
-                                                _0x24f6f0.default(_0x244b39.cs('255e4h4e254e565652254f4k4d575b4h59254h4b27'), _0x16644f(payload), function (_0x4272cf) {
+                                                _0x24f6f0.default('/web/book/chapter/e_1', getRequestPayload(payload), function (_0x4272cf) {
                                                     var _0x56ed2e = _0x4272cf[_0x136f('0x285')];
                                                     return _0x56ed2e && 'string' == typeof _0x56ed2e ? _0x244b39['chk'](_0x56ed2e) : '';
                                                 }, function (_0x2972f3) {
                                                     return _0x11c122('Error\x20in\x20fetchContent', _0x2972f3),
                                                         _0x2972f3;
                                                 }),
-                                                _0x24f6f0.default(_0x244b39.cs('255e4h4e254e565652254f4k4d575b4h59254h4b28'), _0x16644f(_0x12ee2c.default({}, payload, {
+                                                _0x24f6f0.default('/web/book/chapter/e_2', getRequestPayload(_0x12ee2c.default({}, payload, {
                                                     'st': 0x1
                                                 })), function (_0x350422) {
                                                     var _0x28f3a1 = _0x350422['data'];
@@ -8730,7 +8744,7 @@ window.webpackJsonp.push(
                                                     return _0x11c122('Error\x20in\x20fetchContent', _0x58a9a0),
                                                         _0x58a9a0;
                                                 }),
-                                                _0x24f6f0.default(_0x244b39.cs('255e4h4e254e565652254f4k4d575b4h59254h4b29'), _0x16644f(payload), function (_0x28be28) {
+                                                _0x24f6f0.default('/web/book/chapter/e_3', getRequestPayload(payload), function (_0x28be28) {
                                                     var _0x585288 = _0x28be28['data'];
                                                     return _0x585288 && 'string' == typeof _0x585288 ? _0x244b39['chk'](_0x585288) : '';
                                                 }, function (_0x18a294) {
@@ -8738,25 +8752,29 @@ window.webpackJsonp.push(
                                                         _0x18a294;
                                                 })
                                             ]).then((results) => {
-                                                if ('string' == typeof results[0x0] && results[0x0]['length'] > 0x0 && 'string' == typeof results[0x1] && results[0x1]['length'] > 0x0 && 'string' == typeof results[0x3] && results[0x3]['length'] > 0x0) {
-                                                    var _0x53aff8 = _0x244b39['dS'](results[0x2]);
-                                                    _0x35ff76['inDevelopment']() && console['log']('[reader-layout]\x20enable\x20translate\x20=\x20', _getters['isTranslationEnabled']),
-                                                        _0x53aff8 = _0x140bdd['parse'](_0x53aff8, {
-                                                            'removeFontSizes': !0x0,
-                                                            'enableTranslate': _getters['isTranslationEnabled']
-                                                        });
-                                                    var _0x3b18e9 = results[0x0] + results[0x1] + results[0x3];
-                                                    _0x3b18e9 = _0x244b39['dH'](_0x3b18e9),
-                                                    _0x35ff76['inDevelopment']() && (console['log'](_0x136f('0x25'), _0x3b18e9),
-                                                        console['log']('[reader-layout]\x20styles\x20=\x20', _0x53aff8)),
-                                                    _0x136f('0x1b9') === _0x3b18e9 && (_0x3b18e9 = _getters['chapterTitleText']),
-                                                        _0x3b18e9 = _0x1bfe87['parse'](_0x3b18e9, _0x53aff8, _state[_0x136f('0x35e')]),
-                                                        _commit(_0x523bfb['UPDATE_READER_CONTENT_HTML'], _0x3b18e9),
-                                                        _commit(_0x523bfb['UPDATE_READER_CONTENT_STYLES'], _0x53aff8);
-                                                    var _0x3cc419 = _getters['getCurrentProgressSectionIdx'];
-                                                    payload && payload[_0x136f('0x141')] && (_0x3cc419 = _0x3b18e9[_0x136f('0x360')] - 0x1),
-                                                        _commit(_0x523bfb['UPDATE_READER_CURRENT_SECTION'], _0x3cc419),
-                                                        _commit(_0x523bfb['UPDATE_READER_CONTENT_STATE'], 'PRERENDER');
+                                                if ('string' == typeof results[0] && results[0].length > 0 && 'string' == typeof results[1] && results[1].length > 0 && 'string' == typeof results[3] && results[3].length > 0) {
+                                                    let styles = _0x244b39['dS'](results[2]);
+                                                    _0x35ff76.inDevelopment() && console.log('[reader-layout] enable translate = ', _getters.isTranslationEnabled)
+                                                    styles = _0x140bdd['parse'](styles, {
+                                                        'removeFontSizes': true,
+                                                        'enableTranslate': _getters.isTranslationEnabled
+                                                    });
+
+                                                    let html = results[0] + results[1] + results[3];
+                                                    html = _0x244b39['dH'](html)
+                                                    if (_0x35ff76.inDevelopment()) {
+                                                        console.log('[reader-layout] html = ', html)
+                                                        console.log('[reader-layout] styles = ', styles)
+                                                    }
+                                                    '...' === html && (html = _getters.chapterTitleText)
+                                                    html = _0x1bfe87['parse'](html, styles, _state.sectionStep)
+                                                    _commit(_0x523bfb['UPDATE_READER_CONTENT_HTML'], html)
+                                                    _commit(_0x523bfb['UPDATE_READER_CONTENT_STYLES'], styles)
+
+                                                    let currentProgressSectionIdx = _getters.getCurrentProgressSectionIdx
+                                                    payload && payload.prevChapter && (currentProgressSectionIdx = html.length - 1)
+                                                    _commit(_0x523bfb['UPDATE_READER_CURRENT_SECTION'], currentProgressSectionIdx)
+                                                    _commit(_0x523bfb['UPDATE_READER_CONTENT_STATE'], 'PRERENDER')
                                                     try {
                                                         _dispatch(_0x112cb5['MARK_FETCH_END']);
                                                     } catch (_0x157282) {
@@ -8807,44 +8825,47 @@ window.webpackJsonp.push(
                                             _0x25579e['next'] = 0x1b;
                                             break;
                                         case 0x18:
+                                            // 非 epub 格式
                                             try {
                                                 _dispatch(_0x112cb5['MARK_FETCH_START']);
                                             } catch (_0x3c84ac) {
                                                 _0x35ff76['inDevelopment']() && console['log'](_0x3c84ac);
                                             }
-                                            payload['sc'] && _0x24f6f0.default(_0x244b39.cs('255e4h4e254e565652254f4k4d575b4h59255b4b26'), _0x16644f(payload), function (_0x458dcc) {
-                                                var _0xdc6583 = _0x458dcc[_0x136f('0x285')];
-                                                return _0xdc6583 && 'string' == typeof _0xdc6583 ? _0x244b39[_0x136f('0xa9')](_0xdc6583) : '';
+                                            payload['sc'] && _0x24f6f0.default('/web/book/chapter/t_0', getRequestPayload(payload), function (resp) {
+                                                var respData = resp.data;
+                                                return respData && 'string' == typeof respData ? _0x244b39.chk(respData) : '';
                                             }, function (_0x2d5aea) {
                                                 return _0x11c122('Error\x20in\x20fetchContent', _0x2d5aea),
                                                     _0x2d5aea;
                                             })
-                                            _0x11f27a = _0x104d45.default.all([(0x0,
-                                                _0x24f6f0['default'])(_0x244b39['cs'](_0x136f('0x386')), _0x16644f(payload), function (_0x28b37d) {
-                                                var _0x423d54 = _0x28b37d['data'];
-                                                return _0x423d54 && 'string' == typeof _0x423d54 ? _0x244b39[_0x136f('0xa9')](_0x423d54) : '';
-                                            }, function (_0xf8d26f) {
-                                                return _0x11c122('Error\x20in\x20fetchContent', _0xf8d26f),
-                                                    _0xf8d26f;
-                                            }), (0x0,
-                                                _0x24f6f0[_0x136f('0x18f')])(_0x244b39['cs']('255e4h4e254e565652254f4k4d575b4h59255b4b27'), _0x16644f(payload), function (_0xb6737d) {
-                                                var _0x4bd014 = _0xb6737d['data'];
-                                                return _0x4bd014 && 'string' == typeof _0x4bd014 ? _0x244b39['chk'](_0x4bd014) : '';
-                                            }, function (_0x1a48f8) {
-                                                return _0x11c122('Error\x20in\x20fetchContent', _0x1a48f8),
-                                                    _0x1a48f8;
-                                            })]).then(function (_0xef94f5) {
-                                                var _0x228c49 = _0xef94f5[0x0]
-                                                    , _0x32ace3 = _0xef94f5[0x1];
-                                                if (_0x136f('0x8b') == typeof _0x228c49 && _0x228c49['length'] > 0x0 && 'string' == typeof _0x32ace3 && _0x32ace3[_0x136f('0x360')] > 0x0) {
-                                                    var _0x513de9 = _0x228c49 + _0x32ace3;
-                                                    _0x513de9 = _0x244b39['dT'](_0x513de9);
-                                                    var _0x20c5aa = _0x1bfe87['parseTxt'](_0x513de9, _state['sectionStep']);
-                                                    _commit(_0x523bfb[_0x136f('0x4ac')], _0x20c5aa);
+                                            promise = _0x104d45.default.all([
+                                                _0x24f6f0.default('/web/book/chapter/t_0', getRequestPayload(payload), function (_0x28b37d) {
+                                                    var _0x423d54 = _0x28b37d['data'];
+                                                    return _0x423d54 && 'string' == typeof _0x423d54 ? _0x244b39[_0x136f('0xa9')](_0x423d54) : '';
+                                                }, function (_0xf8d26f) {
+                                                    return _0x11c122('Error\x20in\x20fetchContent', _0xf8d26f),
+                                                        _0xf8d26f;
+                                                }),
+                                                _0x24f6f0.default('/web/book/chapter/t_1', getRequestPayload(payload), function (_0xb6737d) {
+                                                    var _0x4bd014 = _0xb6737d['data'];
+                                                    return _0x4bd014 && 'string' == typeof _0x4bd014 ? _0x244b39['chk'](_0x4bd014) : '';
+                                                }, function (_0x1a48f8) {
+                                                    return _0x11c122('Error\x20in\x20fetchContent', _0x1a48f8),
+                                                        _0x1a48f8;
+                                                })
+                                            ]).then((results) => {
+                                                var result0 = results[0]
+                                                    , result1 = results[1];
+                                                if ('string' === typeof result0 && result0.length > 0 && 'string' == typeof result1 && result1.length > 0) {
+                                                    var html = result0 + result1;
+                                                    html = _0x244b39['dT'](html);
+                                                    html = _0x1bfe87['parseTxt'](html, _state['sectionStep']);
+                                                    _commit(_0x523bfb['UPDATE_READER_CONTENT_HTML'], html);
+
                                                     var _0xb478f8 = _getters['getCurrentProgressSectionIdx'];
-                                                    payload && payload['prevChapter'] && (_0xb478f8 = _0x20c5aa[_0x136f('0x360')] - 0x1),
-                                                        _commit(_0x523bfb['UPDATE_READER_CURRENT_SECTION'], _0xb478f8),
-                                                        _commit(_0x523bfb['UPDATE_READER_CONTENT_STATE'], 'PRERENDER');
+                                                    payload && payload['prevChapter'] && (_0xb478f8 = html[_0x136f('0x360')] - 0x1)
+                                                    _commit(_0x523bfb['UPDATE_READER_CURRENT_SECTION'], _0xb478f8)
+                                                    _commit(_0x523bfb['UPDATE_READER_CONTENT_STATE'], 'PRERENDER')
                                                     try {
                                                         _dispatch(_0x112cb5[_0x136f('0x4d')]);
                                                     } catch (_0x5f5c85) {
@@ -8852,9 +8873,9 @@ window.webpackJsonp.push(
                                                     }
                                                 } else {
                                                     var _0x1d701a = null;
-                                                    if ('object' === (void 0x0 === _0x228c49 ? 'undefined' : (0x0,
-                                                        _0x498a8a['default'])(_0x228c49)) ? _0x1d701a = _0x228c49 : 'object' === (void 0x0 === _0x32ace3 ? 'undefined' : (0x0,
-                                                        _0x498a8a['default'])(_0x32ace3)) && (_0x1d701a = _0x32ace3),
+                                                    if ('object' === (void 0x0 === result0 ? 'undefined' : (0x0,
+                                                        _0x498a8a['default'])(result0)) ? _0x1d701a = result0 : 'object' === (void 0x0 === result1 ? 'undefined' : (0x0,
+                                                        _0x498a8a['default'])(result1)) && (_0x1d701a = result1),
                                                         _0x1d701a) {
                                                         var _0x1e4050 = _0x1d701a['errCode'];
                                                         if (-0x7dc === _0x1e4050 || -0x7da === _0x1e4050)
@@ -8892,14 +8913,14 @@ window.webpackJsonp.push(
                                             })
                                         case 0x1b:
                                             isNeedPay = _getters['isNeedPay']
-                                            _0x135e2d = _0x2482e4.default.isMemberShipValid(_state.memberCardSummary)
-                                            _0x1257fa = _0x2482e4.default.canBookFreeReading({
+                                            membershipValid = _0x2482e4.default.isMemberShipValid(_state.memberCardSummary)
+                                            canFreeReading = _0x2482e4.default.canBookFreeReading({
                                                 'bookInfo': _state['bookInfo'],
                                                 'memberCardSummary': _state['memberCardSummary']
                                             })
-                                            return _0x25579e['abrupt']('return', _0x11f27a.then(function () {
+                                            return _0x25579e['abrupt']('return', promise.then(() => {
                                                 _commit(_0x523bfb['UPDATE_READER_CONTENT_IS_DIRTY'], false)
-                                                if (isNeedPay && _0x135e2d && !_0x1257fa) {
+                                                if (isNeedPay && membershipValid && !canFreeReading) {
                                                     return _dispatch(_0x112cb5['FETCH_READER_MEMBER_CARD_SUMMARY'], {})
                                                 }
                                             }))
@@ -9089,14 +9110,14 @@ window.webpackJsonp.push(
                             };
                             if (_0x1071cb['isDynamicTypeBook'] && _0x1071cb['isDynamicPDF'] && (_0x4cdf08['dy'] = _0x1071cb['isDynamicTypeBook'] ? 0x1 : 0x0,
                                 _0x4cdf08['fm'] = _0x1071cb['actualTreatBookAs']),
-                                _0x18ae4b[_0x136f('0x18f')]['isSupportReaderProgress'](_0x361df0['bookInfo'])) {
+                                m278[_0x136f('0x18f')]['isSupportReaderProgress'](_0x361df0['bookInfo'])) {
                                 var _0x4e006f = _0x361df0[_0x136f('0x77')];
                                 _0x58e77e['get'](_0x4e006f, 'book.chapterUid', 0x0) === _0x28fd8e['chapterUid'] ? (_0x4cdf08['co'] = _0x58e77e['get'](_0x4e006f, _0x136f('0x5d'), _0x4cdf08['co']),
                                     _0x4cdf08['sm'] = _0x58e77e['get'](_0x4e006f, _0x136f('0x179'), _0x4cdf08['sm'])) : (_0x4cdf08['co'] = _0x51da53,
                                     _0x4cdf08['sm'] = _0x545347),
                                     _0x4cdf08['pr'] = _0x58e77e['get'](_0x4e006f, _0x136f('0x4d3'), _0x4cdf08['pr']);
                             }
-                            return _0x4cdf08['s'] = _0x316938(_0x19c1bd(_0x4cdf08)),
+                            return _0x4cdf08['s'] = sign(stringify(_0x4cdf08)),
                                 _0x231702(_0x523bfb['UPDATE_READER_LOCAL_PROGRESS'], {
                                     'appId': _0x4cdf08[_0x136f('0x78')],
                                     'chapterUid': _0x28fd8e['chapterUid'],
@@ -9164,7 +9185,7 @@ window.webpackJsonp.push(
                             };
                             if (_0x437013['isDynamicTypeBook'] && _0x437013['isDynamicPDF'] && (_0xd3dfd8['dy'] = _0x437013['isDynamicTypeBook'] ? 0x1 : 0x0,
                                 _0xd3dfd8['fm'] = _0x437013['actualTreatBookAs']),
-                                _0x18ae4b['default']['isSupportReaderProgress'](_0x3ae7e9[_0x136f('0xa8')])) {
+                                m278['default']['isSupportReaderProgress'](_0x3ae7e9[_0x136f('0xa8')])) {
                                 var _0x14f8c3 = _0x58e77e['get'](_0x59d631, 'progressData', null);
                                 null !== _0x14f8c3 && 'object' === (void 0x0 === _0x14f8c3 ? 'undefined' : (0x0,
                                     _0x498a8a['default'])(_0x14f8c3)) && (_0x19860b(_0x523bfb['UPDATE_READER_LAST_PROGRESS_PAYLOAD'], _0x14f8c3),
@@ -9172,7 +9193,7 @@ window.webpackJsonp.push(
                                     _0xd3dfd8['sm'] = _0x14f8c3['content']['substr'](0x0, 0x14) + (_0x243a1a ? '​' : ''),
                                     _0xd3dfd8['pr'] = _0x14f8c3['progress']);
                             }
-                            return _0xd3dfd8['s'] = _0x316938(_0x19c1bd(_0xd3dfd8)),
+                            return _0xd3dfd8['s'] = sign(stringify(_0xd3dfd8)),
                                 _0x19860b(_0x523bfb[_0x136f('0x28a')], {
                                     'appId': _0xd3dfd8['appId'],
                                     'chapterUid': _0x15187f['chapterUid'],
@@ -9195,7 +9216,7 @@ window.webpackJsonp.push(
                                         'sessionTimeout': 0x1
                                     } : _0x19538b > 0x0 && -0x806 === _0x342db0 ? _0x4c9847(_0x112cb5['FETCH_READER_GET_CONFIG'])['then'](function () {
                                         return _0x4c9847(_0x112cb5['FETCH_READER_BOOK_READ'], (0x0,
-                                            _0x35291d['default'])(_0x59d631, {
+                                            m201['default'])(_0x59d631, {
                                             'retryCount': _0x19538b - 0x1
                                         }));
                                     }) : _0x57e484;
@@ -9248,7 +9269,7 @@ window.webpackJsonp.push(
                     })
                     _0x46aa10.default(actions, _0x112cb5['UPDATE_READER_LOCAL_LAST_CHAPTER'], function (_0x44f768) {
                         var _0x3204ec = _0x44f768[_0x136f('0x3fd')];
-                        if (_0x3204ec['bookId'] && _0x3204ec['bookInfo'] && 0x0 !== _0x3204ec['chapterInfos']['length'] && _0x3204ec['isInShelf'] && _0x18ae4b['default']['isBuyUnitChapter'](_0x3204ec['bookInfo'])) {
+                        if (_0x3204ec['bookId'] && _0x3204ec['bookInfo'] && 0x0 !== _0x3204ec['chapterInfos']['length'] && _0x3204ec['isInShelf'] && m278['default']['isBuyUnitChapter'](_0x3204ec['bookInfo'])) {
                             var _0x42a8ea = _0x3204ec['bookId']
                                 , _0x5f3230 = _0x3204ec['chapterInfos'];
                             if (_0x42a8ea && _0x5f3230['length'] > 0x0) {
@@ -9298,7 +9319,7 @@ window.webpackJsonp.push(
                             'ps': _0x53ff42['psvts'],
                             'pc': _0x53ff42['pclts']
                         };
-                        return _0x1f5a07['s'] = _0x316938(_0x19c1bd(_0x1f5a07)),
+                        return _0x1f5a07['s'] = sign(stringify(_0x1f5a07)),
                             (0x0,
                                 _0x24f6f0[_0x136f('0x18f')])('/web/pay/buyBook', _0x1f5a07, function (_0x40a60e) {
                                 return _0x40a60e['data'];
@@ -9326,7 +9347,7 @@ window.webpackJsonp.push(
                             'ps': _0xb5022e['psvts'],
                             'pc': _0xb5022e['pclts']
                         };
-                        return _0x19b3c5['s'] = _0x316938(_0x19c1bd(_0x19b3c5)),
+                        return _0x19b3c5['s'] = sign(stringify(_0x19b3c5)),
                             (0x0,
                                 _0x24f6f0['default'])('/web/pay/buyChapters', _0x19b3c5, function (_0x251e08) {
                                 return _0x251e08['data'];
@@ -9356,7 +9377,7 @@ window.webpackJsonp.push(
                             'ps': _0x5f20f3['psvts'],
                             'pc': _0x5f20f3['pclts']
                         };
-                        return _0x396f4e['s'] = _0x316938(_0x19c1bd(_0x396f4e)),
+                        return _0x396f4e['s'] = sign(stringify(_0x396f4e)),
                             (0x0,
                                 _0x24f6f0['default'])('/web/pay/directPayBook/create', _0x396f4e, function (_0x28676b) {
                                 return _0x28676b['data'];
@@ -9568,9 +9589,9 @@ window.webpackJsonp.push(
                         'state': {
                             'infoId': '',
                             'bookId': '',
-                            'isBookInfoError': !0x1,
+                            'isBookInfoError': false,
                             'bookInfo': {},
-                            'isInShelf': !0x1,
+                            'isInShelf': false,
                             'memberCardSummary': {},
                             'infiniteInfo': {},
                             'activeInfiniteInfo': {},
@@ -9578,52 +9599,52 @@ window.webpackJsonp.push(
                             'chapterInfos': [],
                             'progress': {},
                             'lastProgressPayload': {},
-                            'sameProgressPayloadCount': 0x0,
+                            'sameProgressPayloadCount': 0,
                             'currentChapter': {},
-                            'currentSectionIdx': 0x0,
-                            'sectionStep': 0x2710,
+                            'currentSectionIdx': 0,
+                            'sectionStep': 10_000,
                             'chapterContentHtml': [],
                             'chapterContentStyles': '',
                             'chapterContentState': 'LOADING',
                             'chapterContentTargetHtml': {},
                             'chapterContentTargetCanvasHtml': '',
-                            'isChapterContentDirty': !0x1,
-                            'isSearchLoading': !0x1,
-                            'isInSearchMode': !0x1,
-                            'isShowAutoSearchHint': !0x1,
+                            'isChapterContentDirty': false,
+                            'isSearchLoading': false,
+                            'isInSearchMode': false,
+                            'isShowAutoSearchHint': false,
                             'initialSearchResult': null,
                             'searchResult': {
                                 'keyword': '',
                                 'resultList': [],
-                                'hasMore': !0x1,
-                                'totalCount': 0x0,
-                                'isNeedAutoSearchWhenShow': !0x1
+                                'hasMore': false,
+                                'totalCount': 0,
+                                'isNeedAutoSearchWhenShow': false
                             },
-                            'startReadingTime': 0x0,
-                            'pauseTime': 0x0,
-                            'activeTime': 0x0,
+                            'startReadingTime': 0,
+                            'pauseTime': 0,
+                            'activeTime': 0,
                             'token': '',
                             'balance': {
-                                'hasFetched': !0x1,
-                                'iOS': 0x0,
-                                'iOSPaid': 0x0,
-                                'iOSGift': 0x0,
-                                'Android': 0x0,
-                                'AndroidPaid': 0x0,
-                                'AndroidGift': 0x0
+                                'hasFetched': false,
+                                'iOS': 0,
+                                'iOSPaid': 0,
+                                'iOSGift': 0,
+                                'Android': 0,
+                                'AndroidPaid': 0,
+                                'AndroidGift': 0
                             },
-                            'psvts': 0x0,
-                            'pclts': 0x0,
-                            'dangerMode': !0x1,
-                            'isBookForbidden': !0x1,
+                            'psvts': 0,
+                            'pclts': 0,
+                            'dangerMode': false,
+                            'isBookForbidden': false,
                             'pdfUrl': '',
-                            'isPdfError': !0x1,
-                            'shouldShowPdfOutline': !0x1,
+                            'isPdfError': false,
+                            'shouldShowPdfOutline': false,
                             'topStories': {
-                                'hasFetched': !0x1,
-                                'amount': 0x0,
-                                'checked': !0x1,
-                                'showBubble': !0x1
+                                'hasFetched': false,
+                                'amount': 0,
+                                'checked': false,
+                                'showBubble': false,
                             }
                         },
                         'getters': {
@@ -9690,7 +9711,7 @@ window.webpackJsonp.push(
                                 return /^CB_/['test'](_0x50ea58[_0x136f('0x85')]);
                             },
                             'chapterTitleText': function (_0x48524d, _0x336627) {
-                                if (!_0x18ae4b['default']['isSupportedBookType'](_0x48524d[_0x136f('0xa8')]['type']))
+                                if (!m278['default']['isSupportedBookType'](_0x48524d[_0x136f('0xa8')]['type']))
                                     return '';
                                 var _0x57d20b = _0x48524d['currentChapter'];
                                 if (!_0x57d20b)
@@ -9701,44 +9722,44 @@ window.webpackJsonp.push(
                             'isBlackUser': function (_0x507d78) {
                                 return 'black' === _0x58e77e['get'](_0x507d78['activeInfiniteInfo'], 'userType');
                             },
-                            'isEPub': function (_0x241b9a) {
-                                return _0x18ae4b['default']['isEPub'](_0x241b9a['bookInfo']);
+                            'isEPub': function (state) {
+                                return m278.default.isEPub(state.bookInfo)
                             },
                             'isDynamicTypeBook': function (_0x400212) {
-                                return _0x18ae4b[_0x136f('0x18f')]['hasOtherType'](_0x400212[_0x136f('0xa8')]);
+                                return m278[_0x136f('0x18f')]['hasOtherType'](_0x400212[_0x136f('0xa8')]);
                             },
                             'isDynamicPDF': function (_0x36af1c) {
-                                return _0x18ae4b['default']['hasOtherType'](_0x36af1c['bookInfo']) && _0x18ae4b[_0x136f('0x18f')]['isPDFBookType'](_0x36af1c['bookInfo'][_0x136f('0x93')]);
+                                return m278['default']['hasOtherType'](_0x36af1c['bookInfo']) && m278[_0x136f('0x18f')]['isPDFBookType'](_0x36af1c['bookInfo'][_0x136f('0x93')]);
                             },
                             'isTreatAsOtherTypeBook': function (_0x1f965c) {
-                                return _0x18ae4b['default']['showOtherType'](_0x1f965c['bookInfo']);
+                                return m278['default']['showOtherType'](_0x1f965c['bookInfo']);
                             },
                             'actualTreatBookAs': function (_0x258cfe) {
-                                return _0x18ae4b[_0x136f('0x18f')][_0x136f('0x3ec')](_0x258cfe['bookInfo']);
+                                return m278[_0x136f('0x18f')][_0x136f('0x3ec')](_0x258cfe['bookInfo']);
                             },
                             'isHasTranslate': function (_0x59cf02) {
-                                return _0x18ae4b[_0x136f('0x18f')]['isHasTranslate'](_0x59cf02['bookInfo']);
+                                return m278[_0x136f('0x18f')]['isHasTranslate'](_0x59cf02['bookInfo']);
                             },
                             'isTranslationEnabled': function (_0x200c35) {
-                                return _0x18ae4b['default'][_0x136f('0xdd')](_0x200c35['bookInfo']) && _0x18ae4b['default']['isTranslationEnabled'](_0x200c35[_0x136f('0xa8')]);
+                                return m278['default'][_0x136f('0xdd')](_0x200c35['bookInfo']) && m278['default']['isTranslationEnabled'](_0x200c35[_0x136f('0xa8')]);
                             },
                             'treatAsEpub': function (_0x1debd1, _0x421c3a) {
-                                return _0x421c3a['isEPub'] || _0x18ae4b['default']['actualTreatBookAsEpub'](_0x1debd1['bookInfo']);
+                                return _0x421c3a['isEPub'] || m278['default']['actualTreatBookAsEpub'](_0x1debd1['bookInfo']);
                             },
                             'isSoldOut': function (_0x51544a) {
-                                return _0x51544a && _0x18ae4b['default']['isSoldOut'](_0x51544a['bookInfo']);
+                                return _0x51544a && m278['default']['isSoldOut'](_0x51544a['bookInfo']);
                             },
                             'isPaperBook': function (_0x25027e) {
-                                return !(!_0x25027e || !_0x25027e['bookInfo']) && _0x18ae4b['default'][_0x136f('0x8e')](_0x25027e['bookInfo']);
+                                return !(!_0x25027e || !_0x25027e['bookInfo']) && m278['default'][_0x136f('0x8e')](_0x25027e['bookInfo']);
                             },
                             'isTrialReadBook': function (_0x10ee2d) {
-                                return _0x10ee2d && _0x18ae4b['default']['isTrialReadBook'](_0x10ee2d['bookInfo']);
+                                return _0x10ee2d && m278['default']['isTrialReadBook'](_0x10ee2d['bookInfo']);
                             },
                             'isTrialChapter': function (_0x367746) {
                                 return _0x325532['default'][_0x136f('0x404')](_0x367746[_0x136f('0xa8')], _0x367746['currentChapter']);
                             },
                             'isCopyRightForbiddenRead': function (_0x212195) {
-                                return _0x18ae4b['default']['isCopyRightForbiddenRead'](_0x212195['bookInfo']);
+                                return m278['default']['isCopyRightForbiddenRead'](_0x212195['bookInfo']);
                             },
                             'isNeedPay': function (_0x3523f8) {
                                 return _0x3523f8 && _0x325532['default'][_0x136f('0x4ba')]({
@@ -9763,7 +9784,7 @@ window.webpackJsonp.push(
                                 if (_0x2e6b4a['isSoldOut']) {
                                     if (_0x2e6b4a[_0x136f('0x245')])
                                         return !_0x2e6b4a['isTrialChapter'];
-                                    if (_0x18ae4b['default'][_0x136f('0x4af')](_0x5405fd['bookInfo']))
+                                    if (m278['default'][_0x136f('0x4af')](_0x5405fd['bookInfo']))
                                         return !(0x1 === _0x5405fd['bookInfo']['paid']);
                                     for (var _0xc58830 = !0x1, _0x560869 = 0x0, _0x4e5908 = _0x5405fd['chapterInfos'][_0x136f('0x360')]; _0x560869 < _0x4e5908; _0x560869++) {
                                         if (0x1 === _0x5405fd['chapterInfos'][_0x560869]['paid']) {
@@ -9779,8 +9800,8 @@ window.webpackJsonp.push(
                                 return _0x4e3d68['relatedAlbum'] || '';
                             },
                             'needReportTransformPdf': function (_0x2ae63b) {
-                                var _0x401536 = _0x18ae4b['default']['isPDFBookType'](_0x2ae63b['bookInfo']['type'])
-                                    , _0x478350 = _0x18ae4b['default'][_0x136f('0xdd')](_0x2ae63b['bookInfo']);
+                                var _0x401536 = m278['default']['isPDFBookType'](_0x2ae63b['bookInfo']['type'])
+                                    , _0x478350 = m278['default'][_0x136f('0xdd')](_0x2ae63b['bookInfo']);
                                 return _0x401536 && !_0x478350;
                             }
                         },
@@ -10830,7 +10851,6 @@ window.webpackJsonp.push(
                         }
                     },
                     'created': function () {
-                        debugger
                         if (m9.isEnvClient) {
                             let __this = this;
                             this.$store.registerModule('reader', m1023.default(), {
