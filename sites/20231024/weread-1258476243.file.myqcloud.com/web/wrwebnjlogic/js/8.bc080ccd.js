@@ -10616,243 +10616,278 @@ window.webpackJsonp.push(
 
             // reader
             1127: function (module, exports, require) {
-                Object['defineProperty'](exports, '__esModule', {
-                    'value': !0x0
-                });
+                Object['defineProperty'](exports, '__esModule', {value: true})
 
-                var _0x378107 = _0x159525(require(0x4f))
-                    , _0x1fb78c = _0x159525(require(0x117))
-                    , _0x4239f7 = _0x159525(require(0x182))
-                    , _0x3e79f9 = _0x159525(require(0x29))
-                    , _0x2c0a19 = _0x159525(require(0x3fe))
-                    , _0xb940f8 = _0x159525(require(0x177))
-                    , _0x54a158 = _0x159525(require(0x4c))
-                    , _0x5e75d1 = _0x159525(require(0x178))
-                    , _0x16e253 = _0x159525(require(0x36))
-                    , _0x558d25 = _0x159525(require(0x176))
-                    , _0x42e3b2 = _0x159525(require(0x60))
-                    , _0xc2df23 = _0x159525(require(0x3ff))
-                    , _0x81f9da = _0x159525(require(0x2e1))
-                    , _0x1ba0b0 = _0x159525(require(0x30b))
-                    , _0xa7c1f5 = _0x159525(require(0x481))
-                    , _0x2c28de = _0x159525(require(0x4e))
-                    , _0x5d7148 = _0x2d2ca9(require(0x37))
-                    , _0x202079 = _0x2d2ca9(require(0x4b))
-                    , _0x52e976 = require(0x39)
-                    , _0x3113c2 = _0x159525(require(0x116))
-                    , _0x4fb3f7 = _0x159525(require(0x2e3))
-                    , _0x443c72 = _0x159525(require(0x4d))
-                    , _0x3cffc1 = _0x159525(require(0x305))
-                    , _0x1c6ccf = _0x159525(require(0x407))
-                    , _0x5ea548 = _0x159525(require(0x482))
-                    , _0x1349f9 = _0x159525(require(0x63a))
-                    , _0x1cc69f = _0x159525(require(0x490))
-                    , _0x374b7a = _0x159525(require(0x63d))
-                    , _0xdb26fc = _0x159525(require(0x49a))
-                    , _0x376c4b = _0x159525(require(0x648))
-                    , _0x33cffe = _0x159525(require(0x64a))
-                    , _0xf8f606 = _0x159525(require(0x409))
-                    , _0x4ab5cc = require(0x63)
-                    , _0x1c81d2 = _0x159525(_0x4ab5cc)
-                    , _0x4328cc = _0x159525(require(0x62))
-                    , _0x3c3ddd = _0x159525(require(0x4ac))
-                    , _0x1183c2 = _0x159525(require(0x4af))
-                    , _0x4572a0 = _0x159525(require(0x4b1))
-                    , _0x5185e4 = _0x159525(require(0x179))
-                    , _0x393c9a = _0x159525(require(0x4b3))
-                    , _0xb3e373 = _0x159525(require(0x4b6))
-                    , _0x3360e5 = _0x159525(require(0x40b))
-                    , _0x1e43ab = _0x159525(require(0x4b9))
-                    , _0x35abcf = _0x159525(require(0x4bc))
-                    , _0x33628d = _0x159525(require(0x4bf))
-                    , _0x146881 = _0x159525(require(0x4c2))
-                    , _0x7467ae = _0x159525(require(0x3b))
-                    , _0x1d2faf = _0x159525(require(0x3c))
-                    , _0x1c0f0f = _0x159525(require(0x3d))
-                    , _0x19744d = _0x159525(require(0x3e))
-                    , _0x2df089 = _0x159525(require(0x3fb))
-                    , _0x39e478 = _0x159525(require(0x38))
-                    , _0x25be6b = _0x159525(require(0x61))
-                    , _0x2a329e = _0x159525(require(0x11b))
-                    , _0x45a720 = require(0x484)
-                    , _0x58110a = _0x2d2ca9(require(0x4c4))
-                    , _0x32417e = _0x159525(require(0x4c5))
-                    , _0x5af92e = _0x159525(require(0x652))
-                    , _0x139df6 = require(0x315)
-                    , _0x5e2bfc = _0x159525(require(0x480))
-                    , _0x181f74 = _0x159525(require(0x31c))
-                    , _0x36a4c5 = _0x2d2ca9(require(0x314))
-                    , _0x3b2372 = _0x2d2ca9(require(0x30c))
-                    , _0x2c611f = _0x159525(require(0xc8))
-                    , _0x19e0c0 = _0x159525(require(0x416))
-                    , _0x10316b = _0x159525(require(0x4ad))
-                    , _0x484a6b = _0x159525(require(0x4cc))
-                    , _0x55441a = require(0x18b)
-                    , _0x4bb425 = _0x159525(require(0x18))
-                    , _0x15c190 = _0x159525(require(0x4d0))
-                    , _0x54b827 = _0x159525(require(0x31))
-                    , _0x4dbbc7 = _0x159525(require(0x665))
-                    , _0x3b8128 = (_0x159525(require(0x198)),
-                    _0x159525(require(0x667)))
-                    , _0x21e508 = require(0x312)
-                    , _0x58b43d = require(0x403)
-                    , _0x4589e0 = _0x159525(require(0x669));
+                var m79 = convertEsModule(require(79)),
+                    m279 = convertEsModule(require(279)),
+                    m386 = convertEsModule(require(386)),
+                    m41 = convertEsModule(require(41)),
+                    m1022 = convertEsModule(require(1022)),
+                    m375 = convertEsModule(require(375)),
+                    m76 = convertEsModule(require(76)),
+                    m376 = convertEsModule(require(376)),
+                    m54 = convertEsModule(require(54)),
+                    m374 = convertEsModule(require(374)),
+                    m96 = convertEsModule(require(96)),
+                    m1023 = convertEsModule(require(1023)),
+                    m737 = convertEsModule(require(737)),
+                    m779 = convertEsModule(require(779)),
+                    m1153 = convertEsModule(require(1153)),
+                    m78 = convertEsModule(require(78)),
+                    m55 = convertAndCopyEsModule(require(55)),
+                    m75 = convertAndCopyEsModule(require(75)),
+                    m57 = require(57),
+                    m278 = convertEsModule(require(278)),
+                    m739 = convertEsModule(require(739)),
+                    m77 = convertEsModule(require(77)),
+                    m773 = convertEsModule(require(773)),
+                    CustomStyleComp = convertEsModule(require(1031)),
+                    ReaderPdfViewerComp = convertEsModule(require(1154)),
+                    ReaderControlsComp = convertEsModule(require(1594)),
+                    ReaderCatalogComp = convertEsModule(require(1168)),
+                    ReaderTopBarComp = convertEsModule(require(1597)),
+                    ReaderRenderContentComp = convertEsModule(require(1178)),
+                    ReaderBottomBarComp = convertEsModule(require(1608)),
+                    ReaderBottomSettingPanelComp = convertEsModule(require(1610)),
+                    ReaderForbiddenComp = convertEsModule(require(1033)),
+                    _m99 = require(99),
+                    m99 = convertEsModule(_m99),
+                    LoadingComp = convertEsModule(require(98)),
+                    PayWholeBookDialogComp = convertEsModule(require(1196)),
+                    PayChapterDialogComp = convertEsModule(require(1199)),
+                    ReaderLoginGuideComp = convertEsModule(require(1201)),
+                    m377 = convertEsModule(require(377)),
+                    m1203 = convertEsModule(require(1203)),
+                    m1206 = convertEsModule(require(1206)),
+                    m1035 = convertEsModule(require(1035)),
+                    m1209 = convertEsModule(require(1209)),
+                    m1212 = convertEsModule(require(1212)),
+                    m1215 = convertEsModule(require(1215)),
+                    ReaderMemberCardTipsComp = convertEsModule(require(1218)),
+                    m59 = convertEsModule(require(59)),
+                    m60 = convertEsModule(require(60)),
+                    m61 = convertEsModule(require(61)),
+                    m62 = convertEsModule(require(62)),
+                    m1019 = convertEsModule(require(1019)),
+                    m56 = convertEsModule(require(56)),
+                    m97 = convertEsModule(require(97)),
+                    m283 = convertEsModule(require(283)),
+                    m1156 = require(1156),
+                    m1220 = convertAndCopyEsModule(require(1220)),
+                    ReaderTopReviewsComp = convertEsModule(require(1221)),
+                    ReaderNotePanelComp = convertEsModule(require(1618)),
+                    m789 = require(789),
+                    m1152 = convertEsModule(require(1152)),
+                    m796 = convertEsModule(require(796)),
+                    m788 = convertAndCopyEsModule(require(788)),
+                    m780 = convertAndCopyEsModule(require(780)),
+                    m200 = convertEsModule(require(200)),
+                    BookRatingsComp = convertEsModule(require(1046)),
+                    m1197 = convertEsModule(require(1197)),
+                    ReaderTopStoriesBookInfoComp = convertEsModule(require(1228)),
+                    m395 = require(395),
+                    m24 = convertEsModule(require(24)),
+                    m1232 = convertEsModule(require(1232)),
+                    m49 = convertEsModule(require(49)),
+                    ReaderCommonDialogComp = convertEsModule(require(1637)),
+                    ReaderUnderLineComp = (convertEsModule(require(408)),
+                        convertEsModule(require(1639))),
+                    m786 = require(786),
+                    m1027 = require(1027),
+                    ReaderGiftCardTipsComp = convertEsModule(require(1641));
 
-                function _0x2d2ca9(_0x17e860) {
-                    if (_0x17e860 && _0x17e860['__esModule'])
-                        return _0x17e860;
-                    var _0x29dab0 = {};
-                    if (null != _0x17e860)
-                        for (var _0x56cc72 in _0x17e860)
-                            Object['prototype']['hasOwnProperty']['call'](_0x17e860, _0x56cc72) && (_0x29dab0[_0x56cc72] = _0x17e860[_0x56cc72]);
-                    return _0x29dab0['default'] = _0x17e860,
-                        _0x29dab0;
+                function convertAndCopyEsModule(module) {
+                    if (module && module['__esModule']) {
+                        return module
+                    }
+
+                    const esModule = {}
+                    if (null != module) {
+                        for (const moduleKey in module) {
+                            Object.prototype.hasOwnProperty.call(module, moduleKey) && (esModule[moduleKey] = module[moduleKey])
+                        }
+                    }
+                    esModule.default = module
+                    return esModule
                 }
 
-                function _0x159525(_0x409256) {
-                    return _0x409256 && _0x409256['__esModule'] ? _0x409256 : {
-                        'default': _0x409256
-                    };
+                function convertEsModule(module) {
+                    return module && module['__esModule'] ? module : {
+                        default: module
+                    }
                 }
 
-                var _0x5b1daf, _0xcd1751, _0x52d82d, _0x156bd2, _0x230d34, _0xf9e7c7, _0x54204d = require(0xcb),
-                    _0xa10d94 = require(0x66b), _0x1f1044 = require(0x9), _0x593f6c = require(0x21),
-                    _0x168e38 = require(0x3a), _0x48c38 = require(0x30d), _0x1ddd30 = require(0x405),
-                    _0x27bdc3 = require(0x403)['decryption'], _0x286f36 = require(0x404),
-                    _0x46cd45 = new _0x4bb425['default'](), _0x1d1d4d = 'reader', _0x184069 = 'book',
-                    _0x12bfda = 'bookReview', _0x5b88ba = 0x0, _0xdfb3db = 0x0, _0x4a5c08 = [], _0x3f16ee = [],
-                    _0x3533e9 = [], _0x45bb1b = !0x1, _0xbb6346 = null, _0x5eeb02 = [], _0x5b4ea8 = 0x1f4,
-                    _0x5d08cd = 0x0, _0x4d9af9 = null, _0x22059d = !0x1, _0x191b82 = [], _0x14aa3b = [],
-                    _0x3f2a81 = !0x1, _0x1b7074 = !0x1, _0x5b7eed = 0x0, _0x10054b = {
-                        'performance': !0x1,
-                        'timing': !0x1,
-                        'mark': !0x1,
-                        'mutationObserver': !0x1
+                var _0x5b1daf,
+                    _0xcd1751,
+                    _0x52d82d,
+                    _0x156bd2,
+                    _0x230d34,
+                    _0xf9e7c7,
+                    m203 = require(203),
+                    m1643 = require(1643),
+                    m9 = require(9),
+                    m33 = require(33),
+                    m58 = require(58),
+                    m781 = require(781),
+                    m1029 = require(1029),
+                    _0x27bdc3 = require(1027)['decryption'],
+                    m1028 = require(1028),
+                    _0x46cd45 = new m24.default(),
+                    _0x1d1d4d = 'reader',
+                    _0x184069 = 'book',
+                    _0x12bfda = 'bookReview',
+                    _0x5b88ba = 0,
+                    _0xdfb3db = 0,
+                    _0x4a5c08 = [],
+                    _0x3f16ee = [],
+                    anchors = [],
+                    _0x45bb1b = false,
+                    reportReadingProgressTimer = null,
+                    _0x5eeb02 = [],
+                    _0x5b4ea8 = 500,
+                    _0x5d08cd = 0,
+                    _0x4d9af9 = null,
+                    _0x22059d = false,
+                    _0x191b82 = [],
+                    _0x14aa3b = [],
+                    _0x3f2a81 = false,
+                    _0x1b7074 = false,
+                    _0x5b7eed = 0,
+                    _0x10054b = {
+                        'performance': false,
+                        'timing': false,
+                        'mark': false,
+                        'mutationObserver': false,
                     };
 
                 exports.default = {
                     'name': 'reader',
                     'components': {
-                        'ReaderGiftCardTips': _0x4589e0['default'],
-                        'ReaderCommonDialog': _0x4dbbc7['default'],
-                        'ReaderUnderLine': _0x3b8128[_0x136f('0x18f')],
-                        'ReaderTopStoriesBookInfo': _0x484a6b['default'],
-                        'ReaderPdfViewer': _0x5ea548['default'],
-                        'ReaderNotePanel': _0x5af92e[_0x136f('0x18f')],
-                        'ReaderLoginGuide': _0x4572a0['default'],
-                        'ReaderBottomSettingPanel': _0x33cffe['default'],
-                        'ReaderBottomBar': _0x376c4b['default'],
-                        'ReaderRenderContent': _0xdb26fc['default'],
-                        'ReaderMemberCardTips': _0x146881['default'],
-                        'PayChapterDialog': _0x1183c2['default'],
-                        'ReaderTopReviews': _0x32417e['default'],
-                        'BookRatings': _0x19e0c0['default'],
-                        'ReaderForbidden': _0xf8f606[_0x136f('0x18f')],
-                        'PayWholeBookDialog': _0x3c3ddd[_0x136f('0x18f')],
-                        'Loading': _0x4328cc['default'],
-                        'ReaderTopBar': _0x374b7a['default'],
-                        'ReaderCatalog': _0x1cc69f[_0x136f('0x18f')],
-                        'ReaderControls': _0x1349f9['default'],
-                        'CustomStyle': _0x1c6ccf['default']
+                        'ReaderGiftCardTips': ReaderGiftCardTipsComp['default'],
+                        'ReaderCommonDialog': ReaderCommonDialogComp['default'],
+                        'ReaderUnderLine': ReaderUnderLineComp['default'],
+                        'ReaderTopStoriesBookInfo': ReaderTopStoriesBookInfoComp['default'],
+                        'ReaderPdfViewer': ReaderPdfViewerComp['default'],
+                        'ReaderNotePanel': ReaderNotePanelComp['default'],
+                        'ReaderLoginGuide': ReaderLoginGuideComp['default'],
+                        'ReaderBottomSettingPanel': ReaderBottomSettingPanelComp['default'],
+                        'ReaderBottomBar': ReaderBottomBarComp['default'],
+                        'ReaderRenderContent': ReaderRenderContentComp['default'],
+                        'ReaderMemberCardTips': ReaderMemberCardTipsComp['default'],
+                        'PayChapterDialog': PayChapterDialogComp['default'],
+                        'ReaderTopReviews': ReaderTopReviewsComp['default'],
+                        'BookRatings': BookRatingsComp['default'],
+                        'ReaderForbidden': ReaderForbiddenComp['default'],
+                        'PayWholeBookDialog': PayWholeBookDialogComp['default'],
+                        'Loading': LoadingComp['default'],
+                        'ReaderTopBar': ReaderTopBarComp['default'],
+                        'ReaderCatalog': ReaderCatalogComp['default'],
+                        'ReaderControls': ReaderControlsComp['default'],
+                        'CustomStyle': CustomStyleComp['default'],
                     },
-                    'asyncData': function (_0x3f3cdc) {
-                        var _0x1b04d4 = _0x3f3cdc['route']
-                            , _0x19d204 = _0x3f3cdc[_0x136f('0x3b8')]
-                            , _0x1e4a81 = _0x3f3cdc['user']
-                            , _0x1aab28 = _0x3f3cdc[_0x136f('0x14f')];
-                        if (!_0x1f1044[_0x136f('0x37e')]) {
-                            _0x19d204['registerModule'](_0x1d1d4d, (0x0,
-                                _0xc2df23['default'])()),
-                                _0x19d204[_0x136f('0x15c')](_0x184069, (0x0,
-                                    _0x81f9da['default'])()),
-                                _0x19d204['registerModule'](_0x12bfda, (0x0,
-                                    _0x1ba0b0['default'])());
-                            var _0xf2c719 = _0x19d204['state'][_0x136f('0x2c4')][_0x136f('0x2eb')]['infoId'];
-                            _0x19d204['commit'](_0x202079['UPDATE_READER_INFO_ID'], _0xf2c719);
-                            var _0x13bcff = _0x168e38[_0x136f('0x293')](_0xf2c719)
-                                , _0x3be11a = _0x13bcff['bookId'];
-                            _0x19d204['commit'](_0x202079['UPDATE_INIT_BOOK_ID'], _0x3be11a);
-                            var _0x210063 = _0x13bcff['chapterUid']
-                                , _0x1e72f3 = _0x210063 ? parseInt(_0x210063) : 0x0;
-                            console['log']('initChapterUid', _0x1e72f3);
-                            var _0xa1d699 = _0x1f1044[_0x136f('0x441')](_0x1e4a81)
-                                , _0x56ce41 = 'sys' === _0x593f6c['get'](_0x1b04d4, 'query.wfrom', '')
-                                , _0x3faa84 = _0x593f6c['get'](_0x1b04d4, _0x136f('0x269'), '')
-                                , _0x40fff9 = _0x593f6c['get'](_0x1b04d4, 'query.st', '');
-                            return _0x19d204['dispatch'](_0x5d7148['FETCH_READER_INIT_DATA'], {
-                                'initChapterUid': _0x1e72f3,
-                                'initialSearchToken': _0x40fff9,
-                                'envConfig': _0x1aab28,
-                                'isLogin': _0xa1d699,
-                                'needFilterCopyright': _0x56ce41,
-                                'jumpType': _0x3faa84
-                            })['then'](function () {
-                                var _0x6b0db4 = _0x19d204['state'][_0x136f('0x29f')] && _0x19d204['state']['reader']['bookInfo'] ? _0x19d204['state']['reader']['bookInfo'] : {};
-                                (0x0,
-                                    _0x42e3b2['default'])(_0x6b0db4)['length'] > 0x0 && (_0x19d204[_0x136f('0x3e8')](_0x202079['UPDATE_PAGE_TITLE'], _0x6b0db4[_0x136f('0x3ad')] + '-' + _0x6b0db4[_0x136f('0x30')] + '-微信读书'),
-                                    0x2 === _0x6b0db4['ispub'] ? _0x19d204['commit'](_0x202079['UPDATE_PAGE_KEYWORDS'], [_0x6b0db4['title'], _0x6b0db4['author'], _0x6b0db4['category'], _0x6b0db4['title'] + '免费小说', _0x6b0db4['title'] + '更新', '免费小说', '小说下载']['join'](',')) : _0x19d204[_0x136f('0x3e8')](_0x202079['UPDATE_PAGE_KEYWORDS'], [_0x6b0db4['title'], _0x6b0db4[_0x136f('0x30')], _0x6b0db4['category'], '免费小说', _0x6b0db4['publisher']]['join'](',')),
-                                    _0x19d204['commit'](_0x202079['UPDATE_PAGE_DESCRIPTION'], _0x6b0db4['intro'])),
-                                    _0x19d204['commit'](_0x202079['UPDATE_READER_PAGE_SERVER_TIMESTAMP'], parseInt(new Date()['getTime']() / 0x3e8));
-                            });
+                    'asyncData': function (context) {
+                        let route = context['route'],
+                            store = context['store'],
+                            user = context['user'],
+                            envConfig = context['envConfig'];
+
+                        if (!m9.isEnvClient) {
+                            store.registerModule('reader', m1023.default())
+                            store.registerModule('book', m737.default())
+                            store.registerModule('bookReview', m779.default())
+
+                            let infoId = store.state.route.params.infoId
+                            store.commit(m75['UPDATE_READER_INFO_ID'], infoId)
+                            let parsedInfoId = m58.parseReaderInfoId(infoId),
+                                bookId = parsedInfoId['bookId']
+                            store.commit(m75['UPDATE_INIT_BOOK_ID'], bookId)
+                            let _chapterUid = parsedInfoId['chapterUid'],
+                                chapterUid = _chapterUid ? parseInt(_chapterUid) : 0
+                            console.log('initChapterUid', chapterUid)
+
+                            let isLogin = m9.hasLogin(user),
+                                needFilterCopyright = 'sys' === m33.get(route, 'query.wfrom', ''),
+                                jumpType = m33.get(route, 'query.jumpType', ''),
+                                searchToken = m33.get(route, 'query.st', '');
+                            return store.dispatch(m55['FETCH_READER_INIT_DATA'], {
+                                'initChapterUid': chapterUid,
+                                'initialSearchToken': searchToken,
+                                'envConfig': envConfig,
+                                'isLogin': isLogin,
+                                'needFilterCopyright': needFilterCopyright,
+                                'jumpType': jumpType,
+                            }).then(() => {
+                                let bookInfo = store.state.reader && store.state.reader.bookInfo ? store.state.reader.bookInfo : {};
+                                if (m96.default(bookInfo).length > 0) {
+                                    store.commit(m75['UPDATE_PAGE_TITLE'], bookInfo.title + '-' + bookInfo.author + '-微信读书')
+                                    2 === bookInfo.ispub
+                                        ? store.commit(m75['UPDATE_PAGE_KEYWORDS'], [bookInfo.title, bookInfo.author, bookInfo.category, bookInfo.title + '免费小说', bookInfo.title + '更新', '免费小说', '小说下载'].join(','))
+                                        : store.commit(m75['UPDATE_PAGE_KEYWORDS'], [bookInfo.title, bookInfo.author, bookInfo.category, '免费小说', bookInfo.publisher].join(','))
+                                    store.commit(m75['UPDATE_PAGE_DESCRIPTION'], bookInfo.intro)
+                                }
+                                store.commit(m75['UPDATE_READER_PAGE_SERVER_TIMESTAMP'], Math.floor(new Date().getTime() / 1000))
+                            })
                         }
                     },
                     'created': function () {
-                        debugger
-
-                        if (_0x1f1044.isEnvClient) {
-                            var __this = this;
-                            this.$store.registerModule('reader', _0xc2df23.default(), {
+                        if (m9.isEnvClient) {
+                            let __this = this;
+                            this.$store.registerModule('reader', m1023.default(), {
                                 'preserveState': true
                             })
-                            this.$store.registerModule('book', _0x81f9da.default(), {
+                            this.$store.registerModule('book', m737.default(), {
                                 'preserveState': true
                             })
-                            this.$store.registerModule('bookReview', _0x1ba0b0.default(), {
+                            this.$store.registerModule('bookReview', m779.default(), {
                                 'preserveState': true
                             })
-                            this.$store.registerModule('performance', _0xa7c1f5.default())
-                            this.$store.commit(_0x202079['UPDATE_READER_PAGE_CLIENT_TIMESTAMP'], Math.floor(new Date().getTime() / 1000))
+                            this.$store.registerModule('performance', m1153.default())
+                            this.$store.commit(m75['UPDATE_READER_PAGE_CLIENT_TIMESTAMP'], Math.floor(new Date().getTime() / 1000))
                             this.restoreFontSizeLevel()
-                            _0x5185e4.default()
-                            _0x393c9a.default()
-                            _0xb3e373.default()
-                            _0x3360e5.default()
-                            _0x1e43ab.default()
-                            _0x35abcf.default()
-                            _0x33628d.default();
-                            ['contextmenu', 'dragstart', 'selectstart', 'select', 'copy', 'beforecopy'].forEach(function (_0x485be3) {
-                                document['addEventListener'](_0x485be3, function (_0xe5a19) {
-                                    var _0x4aae5c = (_0xe5a19 = _0xe5a19 || window[_0x136f('0x2f8')])['target'][_0x136f('0x4c3')][_0x136f('0xcc')]()
-                                        , _0x33a041 = _0xe5a19['path'] || [];
-                                    _0x1f1044['inDevelopment']() && console['log']('event:\x20' + _0x485be3 + ',\x20nodeName:\x20' + _0x4aae5c);
-                                    var _0x690a59 = !0x0
-                                        , _0xb3e92 = !0x1
-                                        , _0x2a6600 = void 0x0;
+                            m377.default()
+                            m1203.default()
+                            m1206.default()
+                            m1035.default()
+                            m1209.default()
+                            m1212.default()
+                            m1215.default();
+
+                            ['contextmenu', 'dragstart', 'selectstart', 'select', 'copy', 'beforecopy'].forEach((eventName) => {
+                                document.addEventListener(eventName, function (event) {
+                                    let nodeName = (event = event || window.event).target.nodeName.toLowerCase(),
+                                        eventPath = event.path || [];
+
+                                    m9.inDevelopment() && console.log('event: ' + eventName + ', nodeName: ' + nodeName)
+
+                                    var _0x690a59 = true,
+                                        hasError = false,
+                                        errObj = undefined
                                     try {
-                                        for (var _0x66d65, _0x37fb9b = (0x0,
-                                            _0x558d25['default'])(_0x33a041); !(_0x690a59 = (_0x66d65 = _0x37fb9b[_0x136f('0xe')]())['done']); _0x690a59 = !0x0) {
-                                            var _0x171fcd = _0x66d65[_0x136f('0x370')];
-                                            if (_0x171fcd[_0x136f('0x14c')] && _0x171fcd['classList']['contains']('readerReviewDetailPanel'))
-                                                return;
+                                        for (var _0x66d65, _0x37fb9b = m374.default(eventPath); !(_0x690a59 = (_0x66d65 = _0x37fb9b.next()).done); _0x690a59 = true) {
+                                            var _0x171fcd = _0x66d65.value
+                                            if (_0x171fcd.classList && _0x171fcd.classList.contains('readerReviewDetailPanel')) {
+                                                return
+                                            }
                                         }
-                                    } catch (_0x28b95e) {
-                                        _0xb3e92 = !0x0,
-                                            _0x2a6600 = _0x28b95e;
+                                    } catch (err) {
+                                        hasError = true
+                                        errObj = err
                                     } finally {
                                         try {
                                             !_0x690a59 && _0x37fb9b['return'] && _0x37fb9b['return']();
                                         } finally {
-                                            if (_0xb3e92)
-                                                throw _0x2a6600;
+                                            if (hasError) {
+                                                throw errObj
+                                            }
                                         }
                                     }
-                                    return !(!_0x3f2a81 && 'textarea' !== _0x4aae5c && 'input' !== _0x4aae5c) || (_0xe5a19['preventDefault'] ? _0xe5a19['preventDefault']() : _0xe5a19['returnValue'] = !0x1,
-                                        !0x1);
-                                }, !0x1);
-                            });
+                                    return (!!_0x3f2a81 || 'textarea' === nodeName || 'input' === nodeName) || (event.preventDefault ? event.preventDefault() : event.returnValue = false,
+                                        false)
+                                }, false)
+                            })
 
-                            var _0x350ae8 = _0x593f6c.throttle(this.handleClickPrevChapterIndex, 500),
-                                _0x110712 = _0x593f6c.throttle(this.handleClickNextChapterIndex, 500),
+                            var _0x350ae8 = m33.throttle(this.handleClickPrevChapterIndex, 500),
+                                _0x110712 = m33.throttle(this.handleClickNextChapterIndex, 500),
                                 keycode = {
                                     'C': 0x43,
                                     'U': 0x55,
@@ -10869,56 +10904,59 @@ window.webpackJsonp.push(
                                 };
                             __this.performanceMethodsCheck()
                             __this.updatePerformanceMethodsCompatibility(_0x10054b)
-                            document.addEventListener('keydown', function (_0x2dae07) {
-                                var _0xb8324c = (_0x2dae07 = _0x2dae07 || window[_0x136f('0x2f8')])['target']['nodeName']['toLowerCase']();
-                                if ('textarea' !== _0xb8324c && _0x136f('0x253') !== _0xb8324c) {
-                                    var _0x5732d4 = _0x2dae07['ctrlKey'] || _0x2dae07[_0x136f('0x38')];
-                                    switch (_0x2dae07['keyCode']) {
+
+                            document.addEventListener('keydown', function (event) {
+                                let nodeName = (event = event || window.event).target.nodeName.toLowerCase()
+                                if ('textarea' !== nodeName && 'input' !== nodeName) {
+                                    let _0x5732d4 = event.ctrlKey || event.metaKey
+                                    switch (event.keyCode) {
                                         case keycode['C']:
                                             if (_0x5732d4) {
-                                                _0x1f1044.inDevelopment() && _0x1b7074 && console.log(_0x136f('0x34'))
+                                                m9.inDevelopment() && _0x1b7074 && console.log('插件自动复制已拦截')
                                                 !__this.canCopy(_0x191b82) || _0x1b7074 || _0x22059d || (__this.copyObjsText(_0x191b82),
                                                     __this.clearSelection())
                                             }
-                                            break;
+                                            break
                                         case keycode['U']:
                                             if (_0x5732d4 && __this.hasLogin && __this.hasSelection()) {
                                                 __this.underlineObjs(_0x191b82)
                                                 __this.clearSelection()
                                             }
-                                            break;
+                                            break
                                         case keycode['left']:
-                                            _0x350ae8(_0x2dae07);
-                                            break;
+                                            _0x350ae8(event)
+                                            break
                                         case keycode['right']:
-                                            _0x110712(_0x2dae07);
-                                            break;
+                                            _0x110712(event)
+                                            break
                                         case keycode['minusNum']:
                                         case keycode['minusTop']:
                                         case keycode['equals']:
                                         case keycode['plusNum']:
-                                            if (__this['isWeiXin'] && _0x5732d4) {
-                                                _0x2dae07['preventDefault']()
-                                                return void (document['body']['style']['zoom'] = '0');
+                                            if (__this.isWeiXin && _0x5732d4) {
+                                                event.preventDefault()
+                                                return void (document.body.style.zoom = '0')
                                             }
-                                            break;
+                                            break
                                         case keycode['pageUp']:
-                                            _0x2dae07['preventDefault']()
-                                            __this['pageUp']()
-                                            break;
+                                            event.preventDefault()
+                                            __this.pageUp()
+                                            break
                                         case keycode['pageDown']:
-                                            _0x2dae07['preventDefault']()
-                                            __this['pageDown']()
+                                            event.preventDefault()
+                                            __this.pageDown()
+                                            break
                                     }
                                 }
                             })
+
                             __this.$store && __this.$store.state && __this.$store.state.reader && __this.$store.state.reader.currentChapter && __this.$route && __this.$route.fullPath && history.replaceState({
                                 'curr': __this.$store.state.reader.currentChapter
                             }, '', __this.$route.fullPath)
                             window.addEventListener('popstate', function () {
                                 if (history && history.state && history.state.curr) {
                                     var _0x335705 = history.state.curr;
-                                    _0x335705 && __this.changeChapter(_0x16e253.default({}, _0x335705, {
+                                    _0x335705 && __this.changeChapter(m54.default({}, _0x335705, {
                                         'pushStack': true
                                     }))
                                 }
@@ -10928,123 +10966,148 @@ window.webpackJsonp.push(
                     'mounted': function () {
                         debugger
 
-                        var _this = this;
-                        if (_0x1f1044.isEnvClient) {
+                        const _this = this
+                        if (m9.isEnvClient) {
                             this.botDetect()
-                            _0x15c190.default()
-                            // this['bookId']
-                            // this['user'] ? this['user']['vid'] : '';
+                            m1232.default()
+
                             const query = this.$router.currentRoute.query;
-                            query && query.packetId && this.$store.dispatch(_0x5d7148['FETCH_ENCOURAGE_MONEY'], {
+                            query && query.packetId && this.$store.dispatch(m55['FETCH_ENCOURAGE_MONEY'], {
                                 'packetId': query['packetId']
                             })
-                            query && query.inviteCode && this.hasLogin && this.$store.dispatch(_0x5d7148['FETCH_INVITE_CODE'], {
+                            query && query.inviteCode && this.hasLogin && this.$store.dispatch(m55['FETCH_INVITE_CODE'], {
                                 'inviteCode': query['inviteCode']
                             })
+
                             this.logOnClientMounted()
-                            var _0x20191f = _0x593f6c.get(query, 'jumpType', ''),
-                                _0x3ffd65 = _0x593f6c.get(query, 'offset', 0);
+                            let jumpType = m33.get(query, 'jumpType', ''),
+                                offset = m33.get(query, 'offset', 0);
 
                             delete query.jumpType
                             delete query.offset
-                            window.history.replaceState(null, null, window.location.pathname + '?' + _0x593f6c.map(query, function (_0x569786, _0x2514b0) {
-                                return _0x2514b0 + '=' + _0x569786;
-                            }).join('&'))
-                            this.$store.dispatch(_0x5d7148['REPORT_TRANSFORM_PDF'])
-                            if (_0x3113c2.default.actualTreatBookAsPdf(this.bookInfo)) {
-                                return void this.$store.dispatch(_0x5d7148['FETCH_READER_PDF_URL'])
+                            window.history.replaceState(null, null, window.location.pathname + '?' + m33.map(query, (val, key) => key + '=' + val).join('&'))
+
+                            this.$store.dispatch(m55['REPORT_TRANSFORM_PDF'])
+                            if (m278.default.actualTreatBookAsPdf(this.bookInfo)) {
+                                this.$store.dispatch(m55['FETCH_READER_PDF_URL'])
+                                return
                             }
-                            if (!_0x3113c2.default.isLegacyReaderSupportBook(this.bookInfo)) {
-                                return void (this.unsupported = true)
+                            if (!m278.default.isLegacyReaderSupportBook(this.bookInfo)) {
+                                this.unsupported = true
+                                return
                             }
-                            var _this = this;
-                            _0x443c72.default.handleElementScrollEvent(window, null, function (_0x45b57b) {
-                                var _0x1bff07 = _0x45b57b['clientHeight']
-                                    , _0x4436c1 = _0x45b57b[_0x136f('0xce')]
-                                    , _0x2a6782 = _0x45b57b['scrollHeight'];
-                                if (_this && !_this['clientHeight'] && (_this['clientHeight'] = _0x1bff07),
-                                    _this[_0x136f('0xce')] = _0x4436c1,
-                                _this['$footerNote'] && _this['$footerNote']['hide'](),
-                                    _this['tryToHideMenu'](),
-                                _this[_0x136f('0x36e')]['readerCatalog'] && _this['$refs'][_0x136f('0x202')][_0x136f('0x1')]() || _this['tryUpdateBottomBarClassList']({
-                                    'clientHeight': _0x1bff07,
-                                    'scrollTop': _0x4436c1,
-                                    'scrollHeight': _0x2a6782
-                                }),
-                                _this['isShowBottomSettingPanel'] && (_this['isShowBottomSettingPanel'] = !0x1),
-                                _0x3533e9['length'] > 0x0) {
-                                    for (var _0x5037d3 = null, _0x4f2701 = 0x0, _0x26ec26 = _0x3533e9['length']; _0x4f2701 < _0x26ec26; _0x4f2701++) {
-                                        var _0x509832 = _0x3533e9[_0x4f2701];
-                                        if (!(_0x509832['offsetTop'] < _0x4436c1))
-                                            break;
-                                        _0x5037d3 = _0x509832;
+
+                            m77.default.handleElementScrollEvent(window, null, function (event) {
+                                let clientHeight = event['clientHeight'],
+                                    scrollTop = event['scrollTop'],
+                                    scrollHeight = event['scrollHeight'];
+
+                                if (_this && !_this.clientHeight) {
+                                    _this.clientHeight = clientHeight
+                                }
+                                _this.scrollTop = scrollTop
+                                _this.$footerNote && _this.$footerNote.hide()
+                                _this.tryToHideMenu()
+                                _this.$refs.readerCatalog && _this.$refs.readerCatalog.isShowing() || _this.tryUpdateBottomBarClassList({
+                                    'clientHeight': clientHeight,
+                                    'scrollTop': scrollTop,
+                                    'scrollHeight': scrollHeight
+                                })
+                                if (_this.isShowBottomSettingPanel) {
+                                    _this.isShowBottomSettingPanel = false
+                                }
+
+                                if (anchors.length > 0) {
+                                    let largestAnchor = null
+                                    for (let i = 0; i < anchors.length; i++) {
+                                        let anchor = anchors[i]
+                                        if (anchor.offsetTop >= scrollTop)
+                                            break
+                                        largestAnchor = anchor
                                     }
-                                    _this[_0x136f('0x19e')] = _0x5037d3 ? _0x5037d3['anchor'] : '';
+                                    _this.currentChapterAnchor = largestAnchor ? largestAnchor.anchor : ''
                                 }
                             })
+
                             const htmlElement = document.documentElement;
                             if (htmlElement) {
-                                htmlElement.addEventListener('mousedown', this['onContentMouseDown'])
-                                htmlElement.addEventListener('mousemove', this['onContentMouseMove'])
-                                htmlElement.addEventListener('mouseup', this['onContentMouseUp'])
-                                htmlElement.addEventListener('click', function (_0x53e054) {
-                                    var _0xe5ccd3 = (_0x53e054 = _0x53e054 || window['event'])['target']
-                                        , _0x5e34e8 = _0xe5ccd3['nodeName']['toLowerCase']()
-                                        , _0x32bdde = _0x53e054['target']['classList']
-                                        , _0x380c83 = !0x0;
-                                    ('a' === _0x5e34e8 || '1' === _0xe5ccd3['getAttribute'](_0x136f('0xd2')) || _0x32bdde[_0x136f('0x12a')]('reader_footer_note')) && (_0x380c83 = !0x1),
-                                    _0x380c83 && (_this[_0x136f('0x448')](),
-                                        _this['tryUpdateBottomBarClassList'](),
-                                    _this['isShowBottomSettingPanel'] && (_this['isShowBottomSettingPanel'] = !0x1));
-                                    var _0x4dfa0c = _this['$refs'][_0x136f('0x406')];
-                                    if (_0x4dfa0c && _0x4dfa0c['isFontSizePanelShowing']()) {
-                                        for (var _0x5b67e1 = document[_0x136f('0x3bb')]('.readerControls_fontSize'), _0x1d35bb = !0x0, _0x4f3b75 = _0xe5ccd3; _0x5b67e1 && _0x4f3b75 && _0x4f3b75 !== document[_0x136f('0x2c5')];) {
-                                            if (_0x5b67e1 && _0x5b67e1 === _0x4f3b75) {
-                                                _0x1d35bb = !0x1;
-                                                break;
-                                            }
-                                            _0x4f3b75 = _0x4f3b75['parentNode'];
-                                        }
-                                        _0x1d35bb && _0x4dfa0c['hideFontSizePanel']();
+                                htmlElement.addEventListener('mousedown', this.onContentMouseDown)
+                                htmlElement.addEventListener('mousemove', this.onContentMouseMove)
+                                htmlElement.addEventListener('mouseup', this.onContentMouseUp)
+                                htmlElement.addEventListener('click', function (event) {
+                                    let eventTarget = (event = event || window.event).target,
+                                        nodeName = eventTarget.nodeName.toLowerCase(),
+                                        classList = event.target.classList,
+                                        _0x380c83 = true;
+                                    if ('a' === nodeName || '1' === eventTarget.getAttribute('data-ignore-toolbar-update-hidden') || classList.contains('reader_footer_note')) {
+                                        _0x380c83 = false
                                     }
-                                    if (_this['$isReviewDetailPanelShowing'] && _this['$isReviewDetailPanelShowing']()) {
-                                        for (var _0x159540 = document['getElementById']('readerReviewDetailPanel'), _0x4d3d18 = !0x0, _0x48384a = _0xe5ccd3; _0x159540 && _0x48384a && _0x48384a !== document['body'];) {
-                                            if (_0x159540 && _0x159540 === _0x48384a) {
-                                                _0x4d3d18 = !0x1;
-                                                break;
-                                            }
-                                            _0x48384a = _0x48384a['parentNode'];
+                                    if (_0x380c83) {
+                                        _this.tryToHideMenu()
+                                        _this.tryUpdateBottomBarClassList()
+                                        if (_this.isShowBottomSettingPanel) {
+                                            _this.isShowBottomSettingPanel = false
                                         }
-                                        _0x4d3d18 && _this['hideReviewDetailPanel']();
                                     }
-                                    if (_this['$isDictQueryPanelShowing'] && _this['$isDictQueryPanelShowing']()) {
-                                        for (var _0x4a78c1 = document['getElementById']('readerDictQueryPanel'), _0xb2a246 = !0x0, _0x172ba9 = _0xe5ccd3; _0x4a78c1 && _0x172ba9 && _0x172ba9 !== document['body'];) {
-                                            if (_0x4a78c1 && _0x4a78c1 === _0x172ba9) {
-                                                _0xb2a246 = !0x1;
-                                                break;
+                                    let readerControlsRef = _this.$refs.readerControls
+                                    if (readerControlsRef && readerControlsRef.isFontSizePanelShowing()) {
+                                        let fontSizeNode = document.querySelector('.readerControls_fontSize')
+                                        let targetNode = eventTarget
+                                        let _0x1d35bb = true
+                                        for (; fontSizeNode && targetNode && targetNode !== document.body;) {
+                                            if (fontSizeNode && fontSizeNode === targetNode) {
+                                                _0x1d35bb = false
+                                                break
                                             }
-                                            _0x172ba9 = _0x172ba9['parentNode'];
+                                            targetNode = targetNode.parentNode
                                         }
-                                        _0xb2a246 && _this['$hideDictQueryPanel']();
+                                        _0x1d35bb && readerControlsRef.hideFontSizePanel()
                                     }
-                                    var _0x2c1155 = new Date()['getTime']() - _0x5d08cd < 0x1f4;
+                                    if (_this.$isReviewDetailPanelShowing && _this.$isReviewDetailPanelShowing()) {
+                                        let _0x159540 = document.getElementById('readerReviewDetailPanel'),
+                                            _0x4d3d18 = true,
+                                            targetNode = eventTarget
+                                        for (; _0x159540 && targetNode && targetNode !== document.body;) {
+                                            if (_0x159540 && _0x159540 === targetNode) {
+                                                _0x4d3d18 = false
+                                                break
+                                            }
+                                            targetNode = targetNode.parentNode
+                                        }
+                                        _0x4d3d18 && _this.hideReviewDetailPanel()
+                                    }
+                                    if (_this.$isDictQueryPanelShowing && _this.$isDictQueryPanelShowing()) {
+                                        let _0x4a78c1 = document.getElementById('readerDictQueryPanel'),
+                                            _0xb2a246 = true,
+                                            targetNode = eventTarget
+                                        for (; _0x4a78c1 && targetNode && targetNode !== document.body;) {
+                                            if (_0x4a78c1 && _0x4a78c1 === targetNode) {
+                                                _0xb2a246 = false
+                                                break
+                                            }
+                                            targetNode = targetNode.parentNode
+                                        }
+                                        _0xb2a246 && _this.$hideDictQueryPanel()
+                                    }
+                                    let _0x2c1155 = new Date().getTime() - _0x5d08cd < 500
                                     if (_0x2c1155) {
-                                        var _0x492a9a = _this['clientXY2RenderAreaXY']({
-                                            'x': _0x53e054['clientX'],
-                                            'y': _0x53e054[_0x136f('0xc2')]
-                                        });
-                                        if (_0x492a9a && _0x4d9af9)
-                                            _0x2c1155 = Math['pow'](Math['pow'](Math['abs'](_0x492a9a['x'] - _0x4d9af9['x']), 0x2) + Math['pow'](Math['abs'](_0x492a9a['y'] - _0x4d9af9['y']), 0x2), 0.5) < 0xa;
+                                        let areaXY = _this.clientXY2RenderAreaXY({
+                                            'x': event.clientX,
+                                            'y': event.clientY
+                                        })
+                                        if (areaXY && _0x4d9af9)
+                                            _0x2c1155 = Math.pow(Math.pow(Math.abs(areaXY.x - _0x4d9af9.x), 2) + Math.pow(Math.abs(areaXY.y - _0x4d9af9.y), 2), 0.5) < 10
                                     }
-                                    _0x2c1155 && _this['clearSelection']();
+                                    _0x2c1155 && _this.clearSelection()
                                 })
                             }
-                            var _0x50e069 = _0x593f6c.throttle(_this.resizeToReCollect, 1000);
-                            window.onresize = _0x593f6c.debounce(function () {
-                                var _0x190924 = _this[_0x136f('0x36e')]['renderTargetContainerSibling'];
+
+                            let resizeToReCollect = m33.throttle(_this.resizeToReCollect, 1000)
+                            window.onresize = m33.debounce(function () {
+                                let _0x190924 = _this.$refs.renderTargetContainerSibling
                                 if (_0x190924) {
-                                    var _0x388555 = _0x190924['offsetWidth'];
-                                    _0x5b88ba !== _0x388555 && _0x50e069(_0x388555);
+                                    let offsetWidth = _0x190924.offsetWidth
+                                    _0x5b88ba !== offsetWidth && resizeToReCollect(offsetWidth)
                                 }
                             }, 200)
                             this.loadTopReviews()
@@ -11052,17 +11115,17 @@ window.webpackJsonp.push(
                                 'mark': 'sync',
                                 'bookmark': 'sync',
                                 'review': 'sync'
-                            });
+                            })
 
-                            var _0x92bd6e = query && '1' === query.autoscroll && 'topStories' !== query.wtype,
-                                _0xefdfc = !!_0x593f6c.get(this, '$route.query.st', null),
+                            let _0x92bd6e = query && '1' === query.autoscroll && 'topStories' !== query.wtype,
+                                st = !!m33.get(this, '$route.query.st', null),
                                 _0x32a8f4 = this.checkHasValidRange(),
-                                _0x23500a = !!_0x593f6c.get(this, '$store.state.reader.initialSearchResult', null);
+                                searchResult = !!m33.get(this, '$store.state.reader.initialSearchResult', null);
 
-                            _0x1f1044.inDevelopment() && console.log('this.checkHasValidRange(): ' + this.checkHasValidRange())
+                            console.log('this.checkHasValidRange(): ' + this.checkHasValidRange())
 
-                            this.$store.dispatch(_0x5d7148['FETCH_READER_CHAPTER_CONTENT'], {
-                                'sc': this.checkHasValidRange() || _0xefdfc ? 1 : 0
+                            this.$store.dispatch(m55['FETCH_READER_CHAPTER_CONTENT'], {
+                                'sc': this.checkHasValidRange() || st ? 1 : 0
                             })
                                 .then(this.layout)
                                 .then((resp) => {
@@ -11076,16 +11139,16 @@ window.webpackJsonp.push(
                                                 console.log(err)
                                             }
                                         }
-                                        if ('switchFormat' === _0x20191f) {
+                                        if ('switchFormat' === jumpType) {
                                             _this.scrollTo({
-                                                'chapterOffset': Number(_0x3ffd65)
+                                                'chapterOffset': Number(offset)
                                             })
-                                        } else if ('topStories' !== _this.$route.query.wtype && !_0x32a8f4 && !_0x23500a) {
-                                            var currentChapter = _this.currentChapter,
+                                        } else if ('topStories' !== _this.$route.query.wtype && !_0x32a8f4 && !searchResult) {
+                                            let currentChapter = _this.currentChapter,
                                                 progress = _this.progress,
-                                                chapterUid = _0x593f6c.get(progress, 'book.chapterUid', 0)
+                                                chapterUid = m33.get(progress, 'book.chapterUid', 0)
                                             if (currentChapter && currentChapter.chapterUid === chapterUid && !_this.isFromWeReadApp) {
-                                                var chapterOffset = _0x593f6c.get(progress, 'book.chapterOffset', 0)
+                                                let chapterOffset = m33.get(progress, 'book.chapterOffset', 0)
                                                 _this.scrollTo({
                                                     'chapterOffset': chapterOffset,
                                                     'ignoreWhenScrollToTop': !_0x92bd6e
@@ -11094,7 +11157,7 @@ window.webpackJsonp.push(
                                                 _0x92bd6e && _this.handleClickStartReading()
                                             }
                                         }
-                                        _this.hasLogin && _this.$store.dispatch(_0x5d7148['UPDATE_READER_LOCAL_LAST_CHAPTER'])
+                                        _this.hasLogin && _this.$store.dispatch(m55['UPDATE_READER_LOCAL_LAST_CHAPTER'])
                                         _this.setupProgressReportOnDomReady()
                                         _this.requestMemberCardPriceIfNeeded()
                                         _this.checkIfShowMemberCardFreeReadingTips()
@@ -11112,80 +11175,80 @@ window.webpackJsonp.push(
                         }
                     },
                     'beforeDestroy': function () {
-                        _0xbb6346 && clearTimeout(_0xbb6346);
+                        reportReadingProgressTimer && clearTimeout(reportReadingProgressTimer);
                     },
                     'destroyed': function () {
-                        this['$store']['unregisterModule'](_0x1d1d4d),
-                            this['$store']['unregisterModule'](_0x184069),
-                            this['$store'][_0x136f('0x2f')](_0x12bfda);
+                        this.$store.unregisterModule(_0x1d1d4d)
+                        this.$store.unregisterModule(_0x184069)
+                        this.$store.unregisterModule(_0x12bfda)
                     },
                     'data': function () {
                         return {
-                            'unsupported': !0x1,
+                            'unsupported': false,
                             'tempContent': '',
-                            'clientHeight': 0x0,
-                            'scrollTop': 0x0,
-                            'extLock': !0x1,
-                            'fontSizeLevel': 0x2,
-                            'fontSizeLevelCount': 0x7,
-                            'isShowPayWholeDialog': !0x1,
-                            'isShowPayChapterDialog': !0x1,
-                            'isShowBottomSettingPanel': !0x1,
-                            'isPhoneBottomBarActive': !0x0,
+                            'clientHeight': 0,
+                            'scrollTop': 0,
+                            'extLock': false,
+                            'fontSizeLevel': 2,
+                            'fontSizeLevelCount': 7,
+                            'isShowPayWholeDialog': false,
+                            'isShowPayChapterDialog': false,
+                            'isShowBottomSettingPanel': false,
+                            'isPhoneBottomBarActive': true,
                             'chapterContentHighLightBgHtml': '',
                             'chapterContentSelectionHtml': '',
                             'currentChapterAnchor': '',
-                            'renderTargetOffsetTop': 0x0,
-                            'renderContentsVersion': -0x1,
-                            'hasFetchMemberCardPrice': !0x1,
-                            'buyMemberCardButtonLine1': '会员卡\x2019元/月\x20·\x20开通后即可阅读',
+                            'renderTargetOffsetTop': 0,
+                            'renderContentsVersion': -1,
+                            'hasFetchMemberCardPrice': false,
+                            'buyMemberCardButtonLine1': '会员卡 19元/月 · 开通后即可阅读',
                             'buyMemberCardButtonLine2': '',
                             'loginGuideQRCodeImg': '',
-                            'isLoginGetUidError': !0x1,
-                            'isLoginGetInfoError': !0x1,
-                            'isLoginQRCodeLoading': !0x1,
-                            'autoLoadLoginQRCodeCount': 0x1,
-                            'isBalanceNeedAuth': !0x1,
+                            'isLoginGetUidError': false,
+                            'isLoginGetInfoError': false,
+                            'isLoginQRCodeLoading': false,
+                            'autoLoadLoginQRCodeCount': 1,
+                            'isBalanceNeedAuth': false,
                             'directPayStatusDefault': {
                                 'pollingTimer': null,
-                                'succeed': !0x1,
-                                'errored': !0x1,
+                                'succeed': false,
+                                'errored': false,
                                 'error': null,
                                 'orderId': null
                             },
                             'directPayStatus': {
                                 'pollingTimer': null,
-                                'succeed': !0x1,
-                                'errored': !0x1,
+                                'succeed': false,
+                                'errored': false,
                                 'error': null,
                                 'orderId': null
                             },
-                            'directPaySucceed': !0x1,
-                            'dangerMode': !0x1,
+                            'directPaySucceed': false,
+                            'dangerMode': false,
                             'debug': {
-                                'offset': 0x0
+                                'offset': 0
                             }
                         };
                     },
-                    'methods': _0x16e253.default({
-                        'getRandomNumber': _0x58b43d.getRandomNumber,
-                        'shiftString': _0x58b43d.shiftString,
-                    }, _0x52e976.mapMutations({
-                        'updatePerformanceMethodsCompatibility': _0x202079['UPDATE_PERFORMANCE_METHODS_COMPATIBILITY']
-                    }), _0x52e976.mapActions({
-                        'markCanvasPaintStart': _0x5d7148['MARK_CANVAS_PAINT_START'],
-                        'markCanvasPaintEnd': _0x5d7148['MARK_CANVAS_PAINT_END'],
-                        'markFirstPagePrerenderStart': _0x5d7148['MARK_FIRST_PAGE_PRERENDER_START'],
-                        'markFirstPagePrerenderEnd': _0x5d7148['MARK_FIRST_PAGE_PRERENDER_END'],
-                        'markFirstPageRenderStart': _0x5d7148['MARK_FIRST_PAGE_RENDER_START'],
-                        'markFirstPageRenderEnd': _0x5d7148['MARK_FIRST_PAGE_RENDER_END']
+                    'methods': m54.default({
+                        'getRandomNumber': m1027.getRandomNumber,
+                        'shiftString': m1027.shiftString,
+                    }, m57.mapMutations({
+                        'updatePerformanceMethodsCompatibility': m75['UPDATE_PERFORMANCE_METHODS_COMPATIBILITY']
+                    }), m57.mapActions({
+                        'markCanvasPaintStart': m55['MARK_CANVAS_PAINT_START'],
+                        'markCanvasPaintEnd': m55['MARK_CANVAS_PAINT_END'],
+                        'markFirstPagePrerenderStart': m55['MARK_FIRST_PAGE_PRERENDER_START'],
+                        'markFirstPagePrerenderEnd': m55['MARK_FIRST_PAGE_PRERENDER_END'],
+                        'markFirstPageRenderStart': m55['MARK_FIRST_PAGE_RENDER_START'],
+                        'markFirstPageRenderEnd': m55['MARK_FIRST_PAGE_RENDER_END']
                     }), {
                         'tryToHideMenu': function () {
-                            var _0x35bc1c = this['$refs'] && this['$refs']['reader_top_bar'];
-                            _0x35bc1c && _0x35bc1c['isMenuShowing'] && _0x35bc1c['handleHideMenu']();
+                            var _0x35bc1c = this.$refs && this.$refs.reader_top_bar;
+                            _0x35bc1c && _0x35bc1c.isMenuShowing && _0x35bc1c.handleHideMenu();
                         },
                         'tryUpdateBottomBarClassList': function (_0x38018b) {
-                            if (_0x1f1044[_0x136f('0x37e')]) {
+                            if (m9[_0x136f('0x37e')]) {
                                 if (this['isFromWeReadApp'])
                                     return;
                                 if (document['querySelector']('.readerBottomBar')) {
@@ -11203,7 +11266,7 @@ window.webpackJsonp.push(
                             var _0x2fb4a4 = this
                                 , _0x2dbb28 = _0x552abc['grade'];
                             if (this['hasLogin']) {
-                                var _0x234ba3 = _0x593f6c['get'](this, 'bookInfo.version', 0x0);
+                                var _0x234ba3 = m33['get'](this, 'bookInfo.version', 0x0);
                                 this['reportClientBusiness']({
                                     'itemName': _0x136f('0x31c')
                                 }),
@@ -11222,7 +11285,7 @@ window.webpackJsonp.push(
                                             , _0x33d465 = _0x3194e6['friendship'];
                                         _0x2fb4a4[_0x136f('0x49f')]['getIsSending']() || (_0x2fb4a4['$writeReviewDialog']['setIsSending'](!0x0),
                                             _0x2fb4a4['$writeReviewDialog']['setIsSendedSucc'](!0x0),
-                                            _0x2fb4a4['$store']['dispatch'](_0x5d7148['FETCH_BOOK_REVIEW_ADD'], {
+                                            _0x2fb4a4['$store']['dispatch'](m55['FETCH_BOOK_REVIEW_ADD'], {
                                                 'bookId': _0x84b0b,
                                                 'content': _0xd6d123,
                                                 'newRatingLevel': _0x18984f,
@@ -11230,7 +11293,7 @@ window.webpackJsonp.push(
                                                 'friendship': _0x33d465,
                                                 'bookVersion': _0x234ba3
                                             })['then'](function (_0x798c04) {
-                                                var _0x112c15 = _0x593f6c[_0x136f('0x48c')](_0x798c04, 'data.reviewId', '');
+                                                var _0x112c15 = m33[_0x136f('0x48c')](_0x798c04, 'data.reviewId', '');
                                                 _0x112c15 && _0x112c15['length'] > 0x0 ? (_0x2fb4a4['$hideToast'](),
                                                     _0x2fb4a4['$toast']('发表成功'),
                                                     _0x2fb4a4['$writeReviewDialog'][_0x136f('0x1ea')](),
@@ -11262,10 +11325,10 @@ window.webpackJsonp.push(
                         'handleBookRatingsOpenBookReviews': function (_0x2d8086) {
                             var _0x58aa1a = _0x2d8086['bookId'];
                             this['displayTopTotalReviewList'] && this['displayTopTotalReviewList']['length'] > 0x0 ? (0x0,
-                                _0x2c28de['default'])(this[_0x136f('0x3da')](_0x58aa1a)) : this['$toast']('暂无精彩点评');
+                                m78['default'])(this[_0x136f('0x3da')](_0x58aa1a)) : this['$toast']('暂无精彩点评');
                         },
                         'onClickLogout': function () {
-                            return this['$store'][_0x136f('0x478')](_0x5d7148['FETCH_LOGOUT'])['then'](function (_0x4cb7a9) {
+                            return this['$store'][_0x136f('0x478')](m55['FETCH_LOGOUT'])['then'](function (_0x4cb7a9) {
                                 !_0x4cb7a9 || 0x1 !== _0x4cb7a9['success'] && -0x7da !== _0x4cb7a9['errCode'] && -0x7dc !== _0x4cb7a9[_0x136f('0x436')] && -0x7dd !== _0x4cb7a9['errCode'] || window['location']['reload']();
                             });
                         },
@@ -11294,21 +11357,21 @@ window.webpackJsonp.push(
                                 'itemName': 'Web_Reader_SwitchFormat'
                             });
                             var _0x57e419 = this[_0x136f('0x323')]();
-                            this['$store']['dispatch'](_0x5d7148['SWITCH_DYNAMIC_BOOK_FORMAT'], {
+                            this['$store']['dispatch'](m55['SWITCH_DYNAMIC_BOOK_FORMAT'], {
                                 'progressData': _0x57e419
                             })['then'](function (_0x307dac) {
                                 var _0x21eef9 = _0x307dac['data'];
                                 console['log'](_0x21eef9);
-                                var _0x19ad8a = _0x593f6c['get'](_0x21eef9, 'chapterUid', -0x1)
-                                    , _0x24397a = _0x593f6c['get'](_0x21eef9, _0x136f('0x6d'), 0x0);
+                                var _0x19ad8a = m33['get'](_0x21eef9, 'chapterUid', -0x1)
+                                    , _0x24397a = m33['get'](_0x21eef9, _0x136f('0x6d'), 0x0);
                                 if (!(_0x19ad8a < 0x0)) {
-                                    var _0x298451 = _0x168e38['readerURL'](_0x344d6c['bookId'], {
+                                    var _0x298451 = m58['readerURL'](_0x344d6c['bookId'], {
                                         'chapterUid': _0x19ad8a,
                                         'jumpType': 'switchFormat',
                                         'offset': _0x24397a
                                     });
                                     (0x0,
-                                        _0x2c28de[_0x136f('0x18f')])(_0x298451);
+                                        m78[_0x136f('0x18f')])(_0x298451);
                                 }
                             })['catch'](function (_0x39b41b) {
                                 console[_0x136f('0x395')](_0x39b41b),
@@ -11318,18 +11381,18 @@ window.webpackJsonp.push(
                         'onClickShelf': function () {
                             this['saveReportInfo']('Nav_Shelf'),
                                 (0x0,
-                                    _0x2c28de['default'])('/web/shelf');
+                                    m78['default'])('/web/shelf');
                         },
                         'checkHasValidRange': function () {
                             var _0x534a62 = this['$route'][_0x136f('0x25f')]
-                                , _0x2fb468 = _0x593f6c['get'](_0x534a62, 'range', '');
+                                , _0x2fb468 = m33['get'](_0x534a62, 'range', '');
                             return /(\d+)-(\d+)/['test'](String(_0x2fb468));
                         },
                         'parseAndClearQueryRange': function () {
                             try {
                                 var _0x26d115 = /(\d+)-(\d+)/
                                     , _0x20740e = this['$route']['query']
-                                    , _0x3fe1b3 = _0x593f6c[_0x136f('0x48c')](_0x20740e, 'range', '');
+                                    , _0x3fe1b3 = m33[_0x136f('0x48c')](_0x20740e, 'range', '');
                                 if (_0x26d115['test'](String(_0x3fe1b3))) {
                                     var _0x54605f = _0x3fe1b3['match'](_0x26d115)
                                         , _0x373401 = parseInt(_0x54605f[0x1])
@@ -11337,7 +11400,7 @@ window.webpackJsonp.push(
                                     if (_0x373401 >= 0x0 && _0x1495a0 >= 0x0)
                                         return this['$router']['replace']({
                                             'query': (0x0,
-                                                _0x16e253[_0x136f('0x18f')])({}, _0x20740e, {
+                                                m54[_0x136f('0x18f')])({}, _0x20740e, {
                                                 'range': ''
                                             })
                                         }),
@@ -11352,26 +11415,26 @@ window.webpackJsonp.push(
                                     null;
                             }
                         },
-                        'layout': (_0xf9e7c7 = _0x5e75d1.default(_0xb940f8.default.mark(function _0x555647() {
+                        'layout': (_0xf9e7c7 = m376.default(m375.default.mark(function _0x555647() {
                                 var _this = this;
-                                return _0xb940f8.default.wrap(function (_0x47b4ad) {
+                                return m375.default.wrap(function (_0x47b4ad) {
                                     for (; ;) {
                                         debugger
 
                                         switch (_0x47b4ad['prev'] = _0x47b4ad['next']) {
                                             case 0x0:
                                                 _0x47b4ad['next'] = 0x2
-                                                return this.$store.dispatch(_0x5d7148['FETCH_DANGER_MODE'], {
+                                                return this.$store.dispatch(m55['FETCH_DANGER_MODE'], {
                                                     'vid': this.user.vid
                                                 });
                                             case 0x2:
                                                 this.dangerMode = _0x47b4ad.sent
-                                                _0x1f1044.inDevelopment() && console.log('dangerMode', this.dangerMode)
+                                                m9.inDevelopment() && console.log('dangerMode', this.dangerMode)
                                                 if ('PRERENDER' === this.chapterContentState) {
                                                     _0x47b4ad['next'] = 0x6;
                                                     break;
                                                 }
-                                                return _0x47b4ad.abrupt('return', _0x54a158.default.reject({
+                                                return _0x47b4ad.abrupt('return', m76.default.reject({
                                                     'isCustomError': true,
                                                     'reason': 'ignoreLayoutWithWrongState'
                                                 }));
@@ -11379,18 +11442,18 @@ window.webpackJsonp.push(
                                                 return _0x47b4ad.abrupt('return',
                                                     this.waitForPreRender()
                                                         .then(this.collectPreRenderInfos)
-                                                        .then(_0x5e75d1.default(_0xb940f8.default.mark(function _0x33bcc5() {
+                                                        .then(m376.default(m375.default.mark(function _0x33bcc5() {
                                                             var _0x151f12, _0x26c9e6;
-                                                            return _0xb940f8.default.wrap(function (_0x471bee) {
+                                                            return m375.default.wrap(function (_0x471bee) {
                                                                 for (; ;)
                                                                     switch (_0x471bee['prev'] = _0x471bee['next']) {
                                                                         case 0x0:
                                                                             _this.needSerialProcess && _this.addWaterMask()
-                                                                            _0x151f12 = _0x593f6c.get(_this, '$store.state.reader.initialSearchResult', null)
+                                                                            _0x151f12 = m33.get(_this, '$store.state.reader.initialSearchResult', null)
                                                                             _0x26c9e6 = _this.parseAndClearQueryRange()
                                                                             if (_0x151f12) {
                                                                                 try {
-                                                                                    _this.$store.commit(_0x202079['UPDATE_INITIAL_SEARCH_RESULT'], null)
+                                                                                    _this.$store.commit(m75['UPDATE_INITIAL_SEARCH_RESULT'], null)
                                                                                     _this.highLightDomsAndScrollTo(_0x151f12)
                                                                                 } catch (err) {
                                                                                     console.log(err)
@@ -11424,7 +11487,7 @@ window.webpackJsonp.push(
                         ),
                         'eventProtect': function (_0xcec549, _0x151938) {
                             try {
-                                _0x286f36['e'](_0xcec549, function () {
+                                m1028['e'](_0xcec549, function () {
                                     _0x151938 && _0x151938();
                                 });
                             } catch (_0x16c39f) {
@@ -11432,13 +11495,15 @@ window.webpackJsonp.push(
                             }
                         },
                         'waitForPreRender': function () {
+                            debugger
+
                             var _0x555e2b = this
                                 , _0x2c398b = this;
-                            return new _0x54a158['default'](function (_0xb96d0b) {
+                            return new m76['default'](function (_0xb96d0b) {
                                     try {
                                         _0x555e2b['markFirstPagePrerenderStart']();
                                     } catch (_0xd22076) {
-                                        _0x1f1044['inDevelopment']() && console[_0x136f('0x395')](_0xd22076);
+                                        m9['inDevelopment']() && console[_0x136f('0x395')](_0xd22076);
                                     }
                                     var _0x46ea4b = function () {
                                         var _0x362135 = _0x2c398b['$refs']['renderTargetContainerSibling']
@@ -11490,10 +11555,10 @@ window.webpackJsonp.push(
                                                             _0x3bf594['style']['height'] = _0x3c0e5e + 'px';
                                                     } else
                                                         _0x2c398b['logInfo'](_0x136f('0x92') + _0x3c0e5e + '\x20ratio\x20=\x20' + _0xd90357),
-                                                        _0x1f1044['inDevelopment']() && alert(_0x136f('0x1b4'));
+                                                        m9['inDevelopment']() && alert(_0x136f('0x1b4'));
                                                 } else
                                                     _0x2c398b['logInfo']('[img-style]\x20img\x20no\x20height\x20or\x20ratio'),
-                                                    _0x1f1044['inDevelopment']() && alert(_0x136f('0x1b4'));
+                                                    m9['inDevelopment']() && alert(_0x136f('0x1b4'));
                                             }
                                             _0xb96d0b();
                                         } else
@@ -11529,23 +11594,25 @@ window.webpackJsonp.push(
                             );
                         },
                         'collectPreRenderInfos': function () {
+                            debugger
+
                             var _0x417e88 = this
                                 , _0x5b50cc = this;
-                            return new _0x54a158['default'](function (_0xff0ebb) {
+                            return new m76['default'](function (_0xff0ebb) {
                                     var _0x4d4df9 = window['devicePixelRatio']
                                         , _0x401b76 = _0x5b50cc['$refs']['preRenderContainer'];
                                     if (!_0x401b76)
-                                        return _0x54a158['default']['reject'](new Error('can\x20not\x20found\x20preRenderContainer\x20reference'));
+                                        return m76['default']['reject'](new Error('can\x20not\x20found\x20preRenderContainer\x20reference'));
                                     var _0x46fb4b = [];
                                     _0x5b50cc['currentChapter'] && _0x5b50cc['currentChapter']['anchors'] && (_0x46fb4b = _0x5b50cc['currentChapter']['anchors']['map'](function (_0x3f2a24) {
                                         return _0x3f2a24[_0x136f('0xb')];
                                     }));
-                                    var _0x1791cc = _0x2df089['default']['collect'](_0x401b76, {
+                                    var _0x1791cc = m1019['default']['collect'](_0x401b76, {
                                         'canvasMaxHeight': 0xfa0 / _0x4d4df9,
                                         'canvasMaxCount': 0x2
                                     }, _0x46fb4b, _0xdfb3db);
-                                    _0x3533e9 = _0x1791cc['anchorsTop'];
-                                    for (var _0x537b39 = _0x1791cc['customStyle']['join']('\x20'), _0x17555d = _0x1791cc['decoration'], _0x565fb9 = _0x1791cc['splitHtml'] || {}, _0x3c177c = _0x593f6c['compact'](_0x1791cc['canvasPositions']) || [], _0x5dda3d = {
+                                    anchors = _0x1791cc['anchorsTop'];
+                                    for (var _0x537b39 = _0x1791cc['customStyle']['join']('\x20'), _0x17555d = _0x1791cc['decoration'], _0x565fb9 = _0x1791cc['splitHtml'] || {}, _0x3c177c = m33['compact'](_0x1791cc['canvasPositions']) || [], _0x5dda3d = {
                                         'canvasPositions': _0x3c177c,
                                         'customStyleText': _0x537b39,
                                         'content': _0x565fb9,
@@ -11561,18 +11628,18 @@ window.webpackJsonp.push(
                                                 _0x5a7172 += _0x136f('0x20c') + _0x203c59['top'] + 'px;width:' + _0x568538 + _0x136f('0x2cc') + _0x3d0c25 + 'px;\x22\x20width=' + _0x568538 * _0x4d4df9 * _0x3332e7 + '\x20height=' + _0x3d0c25 * _0x4d4df9 * _0x3332e7 + '\x20data-random=\x22' + Math['random']()['toString'](0x24)['slice'](0x2) + '\x22></canvas>';
                                         }
                                     }
-                                    _0x5b50cc['$store']['commit'](_0x202079['UPDATE_READER_CHAPTER_CANVAS_TARGET_HTML'], _0x5a7172),
+                                    _0x5b50cc['$store']['commit'](m75['UPDATE_READER_CHAPTER_CANVAS_TARGET_HTML'], _0x5a7172),
                                         _0x3f16ee = _0x1791cc['content'] || [],
                                         _0x4a5c08 = _0x52d854,
                                         _0x5b50cc['renderContentsVersion']++,
-                                        _0x5b50cc['$store'][_0x136f('0x3e8')](_0x202079[_0x136f('0x399')], _0x5dda3d);
+                                        _0x5b50cc['$store'][_0x136f('0x3e8')](m75[_0x136f('0x399')], _0x5dda3d);
                                     try {
                                         _0x5b50cc['markFirstPagePrerenderEnd'](),
                                             _0x5b50cc['markFirstPageRenderStart']();
                                     } catch (_0x14493e) {
-                                        _0x1f1044[_0x136f('0x4a6')]() && console['log'](_0x14493e);
+                                        m9[_0x136f('0x4a6')]() && console['log'](_0x14493e);
                                     }
-                                    _0x5b50cc['$store']['commit'](_0x202079['UPDATE_READER_CONTENT_STATE'], _0x136f('0x4b6')),
+                                    _0x5b50cc['$store']['commit'](m75['UPDATE_READER_CONTENT_STATE'], _0x136f('0x4b6')),
                                         _0x5b50cc['$nextTick'](function () {
                                             var _0x29b078 = _0x1791cc['rootHeight'];
                                             _0x29b078 <= 0x0 && _0x5b50cc['logInfo']('render\x20rootHeight\x20error\x20!!!');
@@ -11608,7 +11675,7 @@ window.webpackJsonp.push(
                             try {
                                 this[_0x136f('0x3e3')]();
                             } catch (_0x58e2e2) {
-                                _0x1f1044['inDevelopment']() && console['log'](_0x58e2e2);
+                                m9['inDevelopment']() && console['log'](_0x58e2e2);
                             }
                             var _0x27b6ec = this['$refs']['renderTargetCanvasContainer'];
                             if (_0x27b6ec) {
@@ -11629,7 +11696,7 @@ window.webpackJsonp.push(
                                         , _0x52f011 = _0x5d5fc3['rect'];
                                     if (_0x52f011 && _0x52f011['y'] > _0x108f65)
                                         break;
-                                    if (_0x5d5fc3['type'] === _0x45a720['ObjType'][_0x136f('0x0')]) {
+                                    if (_0x5d5fc3['type'] === m1156['ObjType'][_0x136f('0x0')]) {
                                         _0x52f011 && _0x3870e4[_0x20035f] && _0x52f011['y'] > _0x3870e4[_0x20035f]['bottom'] && _0x20035f + 0x1 < _0x3870e4['length'] ? _0x20035f++ : _0x52f011 && _0x3870e4[_0x20035f] && _0x52f011['bottom'] < _0x3870e4[_0x20035f]['top'] && _0x20035f - 0x1 >= 0x0 && _0x20035f--;
                                         var _0x4c7b65 = _0x30ff5c[_0x20035f];
                                         _0x4c7b65 ? (_0x131202 === _0x20035f && _0x459f9f && _0x459f9f['font'] === _0x5d5fc3['font'] || (_0x4c7b65['font'] = _0x5d5fc3[_0x136f('0x10f')]),
@@ -11655,7 +11722,7 @@ window.webpackJsonp.push(
                                 , _0x22e7d0 = this;
                             _0x136f('0x4b6') === this[_0x136f('0x407')] && (this[_0x136f('0x44f')](),
                                 this['clearHighLightDom'](),
-                                this[_0x136f('0x83')][_0x136f('0x3e8')](_0x202079['UPDATE_READER_CONTENT_STATE'], 'PRERENDER'),
+                                this[_0x136f('0x83')][_0x136f('0x3e8')](m75['UPDATE_READER_CONTENT_STATE'], 'PRERENDER'),
                                 this[_0x136f('0x420')](function () {
                                     setTimeout(function () {
                                         return _0x5b88ba = _0x16d04d,
@@ -11685,7 +11752,7 @@ window.webpackJsonp.push(
                                     _0x4851e4(_0x5064c4);
                         },
                         'handleClickStartReading': function () {
-                            'DONE' === this['chapterContentState'] && _0x48c38['scrollTo'] && _0x48c38['scrollTo']('.readerChapterContent', 0x12c, {
+                            'DONE' === this['chapterContentState'] && m781['scrollTo'] && m781['scrollTo']('.readerChapterContent', 0x12c, {
                                 'container': document['body'],
                                 'x': !0x1,
                                 'y': !0x0,
@@ -11695,7 +11762,7 @@ window.webpackJsonp.push(
                         'handleClickAuthor': function () {
                             if (this[_0x136f('0x52')] || this['isFromWechatStatus']) {
                                 var _0x2f9597 = 'wrweb_reader_' + (this['isFromWechatStatus'] ? 'status' : 'topStories') + _0x136f('0x38d');
-                                _0x55441a['wrReport']['newCHReport']({
+                                m395['wrReport']['newCHReport']({
                                     'itemName': _0x2f9597,
                                     'vid': this['user']['vid'],
                                     'extra': {
@@ -11714,12 +11781,12 @@ window.webpackJsonp.push(
                         'handleClickRatingButton': function () {
                             this[_0x136f('0x3e9')](_0x136f('0x462')),
                                 (0x0,
-                                    _0x2c28de[_0x136f('0x18f')])(this['bookReviewURL'](this['bookId']));
+                                    m78[_0x136f('0x18f')])(this['bookReviewURL'](this['bookId']));
                         },
                         'handleClickShelfButton': function () {
                             if (this['hasLogin']) {
                                 if (!this['isInShelf'])
-                                    return this['$store']['dispatch'](_0x5d7148['FETCH_READER_ADD_SHELF']);
+                                    return this['$store']['dispatch'](m55['FETCH_READER_ADD_SHELF']);
                             } else
                                 this['$showLoginDialog']({
                                     'scheme': 'weread://bDetail?bId=' + this['bookId'],
@@ -11732,7 +11799,7 @@ window.webpackJsonp.push(
                         },
                         'handleClickNextChapterIndex': function (_0x35f837) {
                             var _0xb7ce3 = this;
-                            return this['hasNextSection'] ? this['handleNextSection']() : new _0x54a158['default'](function (_0x4ef778) {
+                            return this['hasNextSection'] ? this['handleNextSection']() : new m76['default'](function (_0x4ef778) {
                                     var _0x3485ff = !0x1;
                                     if (_0xb7ce3[_0x136f('0x44d')] && _0xb7ce3['currentChapter']['anchors'] && _0xb7ce3['currentChapter']['anchors'][_0x136f('0x360')] > 0x0) {
                                         var _0x2a1071 = _0xb7ce3[_0x136f('0x44d')]['anchors']
@@ -11766,11 +11833,11 @@ window.webpackJsonp.push(
                         'handleClickPrevChapterIndex': function (_0x3a915d) {
                             var _0x32ab92 = this;
                             return this['eventProtect'](_0x3a915d, function () {
-                                _0x32ab92['$store']['dispatch'](_0x5d7148['ENTER_DANGER_MODE'], {
+                                _0x32ab92['$store']['dispatch'](m55['ENTER_DANGER_MODE'], {
                                     'vid': _0x32ab92['user']['vid']
                                 });
                             }),
-                                this[_0x136f('0x233')] ? this[_0x136f('0x24f')]() : new _0x54a158['default'](function (_0x57e13b) {
+                                this[_0x136f('0x233')] ? this[_0x136f('0x24f')]() : new m76['default'](function (_0x57e13b) {
                                         var _0x44634a = !0x1;
                                         if (_0x32ab92['currentChapter'] && _0x32ab92[_0x136f('0x44d')]['anchors'] && _0x32ab92[_0x136f('0x44d')]['anchors']['length'] > 0x0) {
                                             var _0x1aaa2e = _0x32ab92['currentChapter']['anchors']
@@ -11810,8 +11877,8 @@ window.webpackJsonp.push(
                         'handleNextChapter': function (_0x330828) {
                             var _0x2f0f64 = this;
                             this['eventProtect'](_0x330828, function () {
-                                _0x1f1044['inDevelopment']() && alert('danger\x20mode'),
-                                    _0x2f0f64['$store']['dispatch'](_0x5d7148['ENTER_DANGER_MODE'], {
+                                m9['inDevelopment']() && alert('danger\x20mode'),
+                                    _0x2f0f64['$store']['dispatch'](m55['ENTER_DANGER_MODE'], {
                                         'vid': _0x2f0f64['user']['vid']
                                     });
                             });
@@ -11826,7 +11893,7 @@ window.webpackJsonp.push(
                             if (_0x2d4f2d >= 0x0)
                                 return this['changeSection']({
                                     'sectionIdx': _0x2d4f2d,
-                                    'offsetTop': _0x2c0a19['default']
+                                    'offsetTop': m1022['default']
                                 });
                         },
                         'handleNextSection': function () {
@@ -11851,7 +11918,7 @@ window.webpackJsonp.push(
                         'handlePrevChapter': function (_0x591500) {
                             var _0x4c8d40 = this;
                             this[_0x136f('0x4ad')](_0x591500, function () {
-                                _0x4c8d40['$store']['dispatch'](_0x5d7148['ENTER_DANGER_MODE'], {
+                                _0x4c8d40['$store']['dispatch'](m55['ENTER_DANGER_MODE'], {
                                     'vid': _0x4c8d40['user'][_0x136f('0x2c2')]
                                 });
                             });
@@ -11875,7 +11942,7 @@ window.webpackJsonp.push(
                                 return window['location']['reload']();
                             }
                             (0x0,
-                                _0x2c28de['default'])(this['bookDetailURL'](this['bookId']));
+                                m78['default'])(this['bookDetailURL'](this['bookId']));
                         },
                         'handleClickChapter': function (_0x25c758) {
                             if (_0x25c758 && _0x25c758['chapterUid']) {
@@ -11902,7 +11969,7 @@ window.webpackJsonp.push(
                                         _0x4be974['reportClientBusiness']({
                                             'itemName': _0x136f('0x1f4')
                                         }),
-                                        _0x2885a9['noteType'] === _0x139df6['NoteTypeReview'] && setTimeout(function () {
+                                        _0x2885a9['noteType'] === m789['NoteTypeReview'] && setTimeout(function () {
                                             _0x4be974['showReviewDetailPanel']([_0x2885a9]);
                                         });
                                     });
@@ -11917,7 +11984,7 @@ window.webpackJsonp.push(
                                 , _0x4333bf = []
                                 , _0x2bf2d3 = null;
                             _0x254992['forEach'](function (_0x610c5) {
-                                _0x610c5['noteType'] === _0x139df6['NoteTypeBookmark'] ? _0x2bf2d3 = _0x610c5 : _0x4333bf[_0x136f('0xda')](_0x610c5);
+                                _0x610c5['noteType'] === m789['NoteTypeBookmark'] ? _0x2bf2d3 = _0x610c5 : _0x4333bf[_0x136f('0xda')](_0x610c5);
                             }),
                                 this['showSelectionToolBar']({
                                     'objs': _0x5c9370,
@@ -11939,7 +12006,7 @@ window.webpackJsonp.push(
                                         if (_0x5a33e7 > _0x240f14) {
                                             var _0x15d1dd = _0x5a33e7 - _0x240f14 + 0x30
                                                 , _0x3ffb07 = _0xc9faf1['getScrollTop']();
-                                            _0x48c38['scrollTo'](document['body'], 0x12c, {
+                                            m781['scrollTo'](document['body'], 0x12c, {
                                                 'container': document['body'],
                                                 'x': !0x1,
                                                 'y': !0x0,
@@ -11951,7 +12018,7 @@ window.webpackJsonp.push(
                             });
                         },
                         'handleClickIsLooking': function () {
-                            _0x55441a['wrReport']['newCHReport']({
+                            m395['wrReport']['newCHReport']({
                                 'itemName': 'wrweb_reader_topStories_isLooking_clk',
                                 'vid': this['user']['vid'],
                                 'extra': {
@@ -11960,15 +12027,15 @@ window.webpackJsonp.push(
                                 }
                             });
                         },
-                        'changeChapter': (_0x230d34 = _0x5e75d1.default(_0xb940f8.default.mark(function _0x2d4203(_0x577117) {
+                        'changeChapter': (_0x230d34 = m376.default(m375.default.mark(function _0x2d4203(_0x577117) {
                                 var _0x5c19c2, _0x7b5677, _0x1ec405, _0x51b180, _0x50b8c4, _0x326db3, _0x141e34,
                                     _0xf9db89 = this;
-                                return _0xb940f8['default']['wrap'](function (_0x5c0a1b) {
+                                return m375['default']['wrap'](function (_0x5c0a1b) {
                                     for (; ;)
                                         switch (_0x5c0a1b['prev'] = _0x5c0a1b[_0x136f('0xe')]) {
                                             case 0x0:
                                                 return _0x5c0a1b[_0x136f('0xe')] = 0x2,
-                                                    _0x1ddd30['get']()[_0x136f('0x26e')](function (_0x2e333e) {
+                                                    m1029['get']()[_0x136f('0x26e')](function (_0x2e333e) {
                                                         return _0x2e333e['map'](function (_0x7f2013) {
                                                             return _0x7f2013['fileName'];
                                                         });
@@ -11982,14 +12049,14 @@ window.webpackJsonp.push(
                                                     _0x51b180 = void 0x0,
                                                     _0x5c0a1b['prev'] = 0x6,
                                                     _0x50b8c4 = (0x0,
-                                                        _0x558d25['default'])(_0x5c19c2);
+                                                        m374['default'])(_0x5c19c2);
                                             case 0x8:
                                                 if (_0x7b5677 = (_0x326db3 = _0x50b8c4['next']())['done']) {
                                                     _0x5c0a1b['next'] = 0x12;
                                                     break;
                                                 }
                                                 if (_0x141e34 = _0x326db3['value'],
-                                                _0x1f1044['inDevelopment']() && console['log'](_0x141e34),
+                                                m9['inDevelopment']() && console['log'](_0x141e34),
                                                     !(_0x141e34[_0x136f('0x2d5')]('puppeteer') > -0x1 || _0x141e34['indexOf']('Puppeteer') > -0x1 || _0x141e34[_0x136f('0x2d5')]('pptr') > -0x1)) {
                                                     _0x5c0a1b['next'] = 0xf;
                                                     break;
@@ -12026,15 +12093,15 @@ window.webpackJsonp.push(
                                             case 0x1f:
                                                 return _0x5c0a1b[_0x136f('0x1e4')](0x18);
                                             case 0x20:
-                                                if (_0x3113c2['default']['isLegacyReaderSupportBook'](this['bookInfo'])) {
+                                                if (m278['default']['isLegacyReaderSupportBook'](this['bookInfo'])) {
                                                     _0x5c0a1b['next'] = 0x23;
                                                     break;
                                                 }
                                                 return this[_0x136f('0x2b9')] = !0x0,
-                                                    _0x5c0a1b['abrupt']('return', _0x54a158['default']['resolve']());
+                                                    _0x5c0a1b['abrupt']('return', m76['default']['resolve']());
                                             case 0x23:
                                                 return this['loadTopReviews'](),
-                                                    _0x5c0a1b['abrupt']('return', this['$store']['dispatch'](_0x5d7148['CHANGE_READER_CHAPTER'], {
+                                                    _0x5c0a1b['abrupt']('return', this['$store']['dispatch'](m55['CHANGE_READER_CHAPTER'], {
                                                         'pushStack': _0x577117[_0x136f('0x3c3')],
                                                         'chapterUid': _0x577117['chapterUid'],
                                                         'sectionId': _0x577117['sectionId'],
@@ -12073,10 +12140,10 @@ window.webpackJsonp.push(
                                                             _0xf9db89['scrollToOffsetTop'](0x0)),
                                                             _0xf9db89[_0x136f('0x128')](),
                                                             _0xf9db89['checkIfNeedRequestLoginQRCode'](),
-                                                            _0xf9db89['$store']['dispatch'](_0x5d7148['RELOAD_READER_BOOK_INFO'], {
+                                                            _0xf9db89['$store']['dispatch'](m55['RELOAD_READER_BOOK_INFO'], {
                                                                 'isLogin': _0xf9db89['hasLogin']
                                                             }),
-                                                            _0xf9db89['$store'][_0x136f('0x478')](_0x5d7148['RELOAD_READER_CHAPTER_INFOS'], {
+                                                            _0xf9db89['$store'][_0x136f('0x478')](m55['RELOAD_READER_CHAPTER_INFOS'], {
                                                                 'isLogin': _0xf9db89['hasLogin']
                                                             }),
                                                             _0xf9db89['reportReadingProgress']({
@@ -12097,9 +12164,9 @@ window.webpackJsonp.push(
                         ),
                         'changeSection': function (_0x3bbfa5) {
                             var _0x1d69f2 = this;
-                            if (_0x3113c2[_0x136f('0x18f')]['isLegacyReaderSupportBook'](this[_0x136f('0xa8')]))
+                            if (m278[_0x136f('0x18f')]['isLegacyReaderSupportBook'](this[_0x136f('0xa8')]))
                                 return this['loadTopReviews'](),
-                                    this['$store']['dispatch'](_0x5d7148[_0x136f('0x33e')], {
+                                    this['$store']['dispatch'](m55[_0x136f('0x33e')], {
                                         'sectionIdx': _0x3bbfa5['sectionIdx']
                                     })['then'](function () {
                                         return _0x1d69f2['clearSelection'](),
@@ -12136,7 +12203,7 @@ window.webpackJsonp.push(
                         },
                         'reloadCurrentChapter': function () {
                             var _0x364a07 = this;
-                            return this['$store']['dispatch'](_0x5d7148[_0x136f('0x169')])[_0x136f('0x26e')](this['layout'])['catch'](function (_0x11cca6) {
+                            return this['$store']['dispatch'](m55[_0x136f('0x169')])[_0x136f('0x26e')](this['layout'])['catch'](function (_0x11cca6) {
                                 if (_0x11cca6 && _0x11cca6['isCustomError'])
                                     switch (_0x11cca6['reason']) {
                                         case 'forceReload':
@@ -12155,15 +12222,15 @@ window.webpackJsonp.push(
                         },
                         'onAfterLoginToGetMemberCard': function () {
                             this[_0x136f('0x3e9')]('Login_Has_Login'),
-                                _0x1c81d2['default']['setSessionStorage'](_0x4ab5cc['KEY_READER_LOGIN_PENDING_ACTION'], (0x0,
-                                    _0x3e79f9['default'])({
+                                m99['default']['setSessionStorage'](_m99['KEY_READER_LOGIN_PENDING_ACTION'], (0x0,
+                                    m41['default'])({
                                     'toFreeRead': 0x1
                                 })),
                                 window['location']['reload']();
                         },
                         'showCatalog': function () {
                             this['$refs']['readerCatalog'] && this[_0x136f('0x36e')]['readerCatalog']['show'](),
-                            this['isShowAutoSearchHint'] && this['$store'][_0x136f('0x3e8')](_0x202079['UPDATE_READER_IS_SHOW_AUTO_SEARCH_HINT'], !0x1);
+                            this['isShowAutoSearchHint'] && this['$store'][_0x136f('0x3e8')](m75['UPDATE_READER_IS_SHOW_AUTO_SEARCH_HINT'], !0x1);
                         },
                         'hideCatalog': function () {
                             this['$refs']['readerCatalog'] && this['$refs']['readerCatalog'][_0x136f('0x1a6')]();
@@ -12178,10 +12245,10 @@ window.webpackJsonp.push(
                                     return this[_0x136f('0x470')]({
                                         'itemName': 'Web_Reader_TranslateClk'
                                     }),
-                                        this['$store']['dispatch'](_0x5d7148[_0x136f('0x463')])['then'](function () {
-                                            return _0x54a158['default']['all']([_0x81a7d8['$store']['dispatch'](_0x5d7148['RELOAD_READER_BOOK_INFO'], {
+                                        this['$store']['dispatch'](m55[_0x136f('0x463')])['then'](function () {
+                                            return m76['default']['all']([_0x81a7d8['$store']['dispatch'](m55['RELOAD_READER_BOOK_INFO'], {
                                                 'isLogin': _0x81a7d8['hasLogin']
-                                            }), _0x81a7d8['$store']['dispatch'](_0x5d7148['RELOAD_READER_CHAPTER_INFOS'], {
+                                            }), _0x81a7d8['$store']['dispatch'](m55['RELOAD_READER_CHAPTER_INFOS'], {
                                                 'isLogin': _0x81a7d8['hasLogin']
                                             })]);
                                         })['then'](function () {
@@ -12206,12 +12273,12 @@ window.webpackJsonp.push(
                                             'bottomSubTitle': '查看我的笔记'
                                         });
                                 case 'theme':
-                                    return this['isWhiteTheme'] ? this['$store']['dispatch'](_0x5d7148['TOGGLE_THEME'], {
+                                    return this['isWhiteTheme'] ? this['$store']['dispatch'](m55['TOGGLE_THEME'], {
                                         'isWhite': !0x1
                                     }) : (this['reportClientBusiness']({
                                         'itemName': 'Web_Reader_LightClk'
                                     }),
-                                        this['$store']['dispatch'](_0x5d7148['TOGGLE_THEME'], {
+                                        this['$store']['dispatch'](m55['TOGGLE_THEME'], {
                                             'isWhite': !0x0
                                         }));
                                 case 'download':
@@ -12221,7 +12288,7 @@ window.webpackJsonp.push(
                             }
                         },
                         'handleToAlbum': function () {
-                            location && (_0x55441a[_0x136f('0x24d')]['newCHReport']({
+                            location && (m395[_0x136f('0x24d')]['newCHReport']({
                                 'itemName': 'Web_Lecture_ButtonClk',
                                 'vid': this['user'][_0x136f('0x2c2')],
                                 'extra': {
@@ -12261,22 +12328,22 @@ window.webpackJsonp.push(
                                     return this[_0x136f('0x470')]({
                                         'itemName': 'Web_Reader_LightClk'
                                     }),
-                                        this[_0x136f('0x83')]['dispatch'](_0x5d7148[_0x136f('0x229')], {
+                                        this[_0x136f('0x83')]['dispatch'](m55[_0x136f('0x229')], {
                                             'isWhite': !0x0
                                         });
                                 case 'dark':
-                                    return this[_0x136f('0x83')][_0x136f('0x478')](_0x5d7148['TOGGLE_THEME'], {
+                                    return this[_0x136f('0x83')][_0x136f('0x478')](m55['TOGGLE_THEME'], {
                                         'isWhite': !0x1
                                     });
                                 case 'download':
                                     (0x0,
-                                        _0x7467ae['default'])(function (_0x31d45d) {
+                                        m59['default'])(function (_0x31d45d) {
                                         _0x31d45d ? (0x0,
-                                            _0x1c0f0f['default'])({
+                                            m61['default'])({
                                             'openUrl': (0x0,
-                                                _0x19744d['default'])('', {})
+                                                m62['default'])('', {})
                                         }) : (0x0,
-                                            _0x1d2faf[_0x136f('0x18f')])();
+                                            m60[_0x136f('0x18f')])();
                                     });
                             }
                         },
@@ -12284,14 +12351,14 @@ window.webpackJsonp.push(
                             return _0x493797['isLoadMore'] || this['reportClientBusiness']({
                                 'itemName': 'Web_Reader_Search'
                             }),
-                                this['$store']['dispatch'](_0x5d7148[_0x136f('0xa6')], _0x493797);
+                                this['$store']['dispatch'](m55[_0x136f('0xa6')], _0x493797);
                         },
                         'enterSearch': function () {
-                            return this[_0x136f('0x83')]['commit'](_0x202079['UPDATE_READER_IS_IN_SEARCH'], !0x0);
+                            return this[_0x136f('0x83')]['commit'](m75['UPDATE_READER_IS_IN_SEARCH'], !0x0);
                         },
                         'exitSearch': function () {
-                            this['$store']['commit'](_0x202079['CLEAR_READER_SEARCH_RESULT']),
-                                this['$store'][_0x136f('0x3e8')](_0x202079['UPDATE_READER_IS_IN_SEARCH'], !0x1);
+                            this['$store']['commit'](m75['CLEAR_READER_SEARCH_RESULT']),
+                                this['$store'][_0x136f('0x3e8')](m75['UPDATE_READER_IS_IN_SEARCH'], !0x1);
                         },
                         'handleClickSearchItem': function (_0x3c5866) {
                             return this['hideCatalog'](),
@@ -12320,7 +12387,7 @@ window.webpackJsonp.push(
                         'clearHighLightDom': function () {
                             this['clearHighLight'](),
                                 (0x0,
-                                    _0x4239f7['default'])(document['querySelectorAll'](_0x136f('0x21e')))['forEach'](function (_0x563736) {
+                                    m386['default'])(document['querySelectorAll'](_0x136f('0x21e')))['forEach'](function (_0x563736) {
                                     _0x563736['classList']['remove']('wr_highlight_char');
                                 });
                         },
@@ -12365,7 +12432,7 @@ window.webpackJsonp.push(
                                                             }
                                                         }
                                                     _0x187291 && _0x187291[_0x136f('0x360')] > 0x0 && _0x187291[_0x136f('0x360')] === _0x2b65fc && (_0x66b8b9['push']['apply'](_0x66b8b9, (0x0,
-                                                        _0x1fb78c['default'])(_0x296ed9)),
+                                                        m279['default'])(_0x296ed9)),
                                                         _0x296ed9 = []),
                                                         _0x29d002++;
                                                 } else
@@ -12374,7 +12441,7 @@ window.webpackJsonp.push(
                                         }
                                     this['highLightObjs'](_0x2a0dc8),
                                         (0x0,
-                                            _0x4239f7['default'])(document['querySelectorAll']('.wr_highlight_char'))['forEach'](function (_0x5a52c4) {
+                                            m386['default'])(document['querySelectorAll']('.wr_highlight_char'))['forEach'](function (_0x5a52c4) {
                                             _0x5a52c4['classList']['remove'](_0x136f('0x3f3'));
                                         });
                                     for (var _0x47ec0d = _0x5eeb02, _0x414723 = 0x0, _0x2b4a0d = _0x47ec0d['length']; _0x414723 < _0x2b4a0d; _0x414723++)
@@ -12383,7 +12450,7 @@ window.webpackJsonp.push(
                                     for (var _0xf2dae0 = 0x0, _0x5d5c1a = _0x66b8b9['length']; _0xf2dae0 < _0x5d5c1a; _0xf2dae0++) {
                                         var _0x17330e = _0x66b8b9[_0xf2dae0];
                                         if (_0x17330e[_0x136f('0x36c')](!0x0),
-                                        _0x17330e['type'] === _0x45a720['ObjType']['txt']) {
+                                        _0x17330e['type'] === m1156['ObjType']['txt']) {
                                             var _0x3adf50 = document['querySelector']('[data-wr-id=' + _0x17330e['id'] + ']');
                                             _0x3adf50 && _0x3adf50['classList'][_0x136f('0x3e2')]('wr_highlight_char');
                                         }
@@ -12450,7 +12517,7 @@ window.webpackJsonp.push(
                                         _0x38270b['highlight'] && this[_0x136f('0x2a8')](_0x21eaf1);
                                     else {
                                         var _0x150390 = this['findNearestObjByOffset'](_0x20ac74);
-                                        _0x150390 ? this['scrollToObj'](_0x150390) : _0x1f1044['inDevelopment']() && console['warn']('[chinoLog]\x20Reader-scrollTo:\x20找不到\x20chapterOffset=' + _0x20ac74 + _0x136f('0x1c7'));
+                                        _0x150390 ? this['scrollToObj'](_0x150390) : m9['inDevelopment']() && console['warn']('[chinoLog]\x20Reader-scrollTo:\x20找不到\x20chapterOffset=' + _0x20ac74 + _0x136f('0x1c7'));
                                     }
                                 } else if (_0x136f('0x8b') == typeof _0x38270b['anchor'] && _0x38270b['anchor'][_0x136f('0x360')] > 0x0) {
                                     var _0x3c63e5 = this[_0x136f('0x48b')](_0x38270b['anchor']);
@@ -12463,8 +12530,8 @@ window.webpackJsonp.push(
                                                 'anchor': _0x38270b[_0x136f('0xb')]
                                             }
                                         });
-                                    for (var _0x2f956a = 0x0, _0xc0e1fe = _0x3533e9['length']; _0x2f956a < _0xc0e1fe; _0x2f956a++) {
-                                        var _0x2146c0 = _0x3533e9[_0x2f956a];
+                                    for (var _0x2f956a = 0x0, _0xc0e1fe = anchors['length']; _0x2f956a < _0xc0e1fe; _0x2f956a++) {
+                                        var _0x2146c0 = anchors[_0x2f956a];
                                         if (_0x2146c0['anchor'] === _0x38270b['anchor']) {
                                             var _0x272005 = _0x2146c0['offsetTop'];
                                             _0x272005 >= 0x0 && this['scrollToOffsetTop'](_0x272005);
@@ -12553,9 +12620,9 @@ window.webpackJsonp.push(
                                 , _0x3babdf = this['binaryFindObjIndex'](_0x1142bd, function (_0x4eeb77) {
                                 return _0x4eeb77['getOffset']() < _0x4fd038;
                             }, !0x1);
-                            return _0x1e52e9 > -0x1 ? (_0x1f1044[_0x136f('0x4a6')]() && console['log']('firstIndex', _0x1e52e9, _0x1142bd[_0x1e52e9]),
-                                _0x1142bd[_0x1e52e9]) : _0x3babdf > -0x1 ? (_0x1f1044['inDevelopment']() && console['log']('lastIndex', _0x3babdf, _0x1142bd[_0x3babdf]),
-                                _0x1142bd[_0x3babdf]) : (_0x1f1044['inDevelopment']() && console[_0x136f('0x395')]('not\x20found'),
+                            return _0x1e52e9 > -0x1 ? (m9[_0x136f('0x4a6')]() && console['log']('firstIndex', _0x1e52e9, _0x1142bd[_0x1e52e9]),
+                                _0x1142bd[_0x1e52e9]) : _0x3babdf > -0x1 ? (m9['inDevelopment']() && console['log']('lastIndex', _0x3babdf, _0x1142bd[_0x3babdf]),
+                                _0x1142bd[_0x3babdf]) : (m9['inDevelopment']() && console[_0x136f('0x395')]('not\x20found'),
                                 null);
                         },
                         'debugSearchOffset': function (_0x52a06a) {
@@ -12571,8 +12638,8 @@ window.webpackJsonp.push(
                                     _0x1158ec = _0x2b1a0e['clone'](),
                                         _0x2a8726['push'](_0x1158ec);
                                 else if (_0x2b1a0e)
-                                    if ((_0x181f74[_0x136f('0x18f')]['isVerticalContain'](_0x1158ec, _0x2b1a0e) || _0x181f74[_0x136f('0x18f')]['isVerticalOverLap'](_0x1158ec, _0x2b1a0e)) && _0x1158ec[_0x136f('0x2ed')](_0x2b1a0e)) {
-                                        var _0x43fb7d = _0x181f74[_0x136f('0x18f')]['union'](_0x1158ec, _0x2b1a0e);
+                                    if ((m796[_0x136f('0x18f')]['isVerticalContain'](_0x1158ec, _0x2b1a0e) || m796[_0x136f('0x18f')]['isVerticalOverLap'](_0x1158ec, _0x2b1a0e)) && _0x1158ec[_0x136f('0x2ed')](_0x2b1a0e)) {
+                                        var _0x43fb7d = m796[_0x136f('0x18f')]['union'](_0x1158ec, _0x2b1a0e);
                                         _0x1158ec['set'](_0x43fb7d);
                                     } else
                                         _0x1158ec = _0x2b1a0e['clone'](),
@@ -12589,7 +12656,7 @@ window.webpackJsonp.push(
                                     , _0x174e28 = this['findFirstObjIndexContainingText'](_0x4632b5);
                                 return -0x1 !== _0x174e28 && (_0x49849b = _0x4632b5[_0x174e28][_0x136f('0x4bb')](),
                                     _0x1453c2 = this['getContentStringFromObjIdx'](_0x4632b5, _0x174e28, 0x14)),
-                                    this['$store']['dispatch'](_0x5d7148['FETCH_READER_ENTER_BOOK_READ'], {
+                                    this['$store']['dispatch'](m55['FETCH_READER_ENTER_BOOK_READ'], {
                                         'firstDomOffset': _0x49849b,
                                         'firstDomSummaryText': _0x1453c2
                                     })['then'](function (_0x4d3612) {
@@ -12600,8 +12667,8 @@ window.webpackJsonp.push(
                         'reportReadingProgress': function (_0x29359e) {
                             var _0x4fffc9 = this;
                             if (this['needReportReadingProgress'])
-                                return this['$store'][_0x136f('0x478')](_0x5d7148['FETCH_READER_BOOK_READ'], {
-                                    'vid': _0x593f6c['get'](this, 'user.vid', 0x0),
+                                return this['$store'][_0x136f('0x478')](m55['FETCH_READER_BOOK_READ'], {
+                                    'vid': m33['get'](this, 'user.vid', 0x0),
                                     'retryCount': 0x1,
                                     'progressData': this['computeProgressData'](_0x29359e)
                                 })[_0x136f('0x26e')](function (_0x1272eb) {
@@ -12612,11 +12679,11 @@ window.webpackJsonp.push(
                                 });
                         },
                         'clearReportTimer': function () {
-                            _0xbb6346 && clearTimeout(_0xbb6346);
+                            reportReadingProgressTimer && clearTimeout(reportReadingProgressTimer)
                         },
                         'startReportTimer': function () {
-                            this['clearReportTimer'](),
-                                _0xbb6346 = setTimeout(this['reportReadingProgress'], 0x7530);
+                            this.clearReportTimer()
+                            reportReadingProgressTimer = setTimeout(this.reportReadingProgress, 30_000)
                         },
                         'computeProgressData': function () {
                             var _0x5bb096 = arguments[_0x136f('0x360')] > 0x0 && void 0x0 !== arguments[0x0] ? arguments[0x0] : {
@@ -12645,7 +12712,7 @@ window.webpackJsonp.push(
                                 ,
                                 _0xf1869e = _0x5bb096['computeSummary'] ? this['getContentStringFromObjIdx'](_0x107e65, _0x5386b4, 0x14) : ''
                                 , _0x126bff = (this['isDynamicTypeBook'],
-                                    _0x593f6c['get'](this['progress'], 'book.progress', 0x0));
+                                    m33['get'](this['progress'], 'book.progress', 0x0));
                             if (_0x5bb096['computeProgress'] && !this['isNeedPay']) {
                                 var _0x2574bf = this['bookInfo']['totalWords'] || 0x0;
                                 if (_0x2574bf > 0x0) {
@@ -12678,19 +12745,19 @@ window.webpackJsonp.push(
                                 'requireVid': this[_0x136f('0x152')][_0x136f('0x2c2')]
                             }, function () {
                                 _0x560e25['isBalanceNeedAuth'] = !0x1,
-                                    _0x560e25['$store'][_0x136f('0x478')](_0x5d7148['FETCH_READER_BALANCE']);
+                                    _0x560e25['$store'][_0x136f('0x478')](m55['FETCH_READER_BALANCE']);
                             });
                         },
                         'showPayDialog': function () {
                             var _0x5adb16 = this;
-                            this['hasLogin'] ? (this['$store'][_0x136f('0x478')](_0x5d7148['FETCH_READER_BALANCE'])['then'](function (_0x11c86f) {
+                            this['hasLogin'] ? (this['$store'][_0x136f('0x478')](m55['FETCH_READER_BALANCE'])['then'](function (_0x11c86f) {
                                 var _0x5e18b3 = (0x0,
-                                    _0x2a329e['default'])(_0x11c86f);
+                                    m283['default'])(_0x11c86f);
                                 return _0x5e18b3 && -0x2eed === _0x5e18b3['errCode'] && (_0x5adb16['isBalanceNeedAuth'] = !0x0,
                                     _0x5adb16[_0x136f('0x1e')]()),
                                     _0x11c86f;
                             }),
-                                _0x3113c2['default']['isBuyUnitWholeBook'](this['bookInfo']) ? (this['isShowPayWholeDialog'] = !0x0,
+                                m278['default']['isBuyUnitWholeBook'](this['bookInfo']) ? (this['isShowPayWholeDialog'] = !0x0,
                                     this['$nextTick'](function () {
                                         _0x5adb16[_0x136f('0x36e')]['payWholeBookDialog']['showDialog']();
                                         var _0x2c618b = _0x5adb16['$refs']['payWholeBookDialog']['payInfos'];
@@ -12701,17 +12768,17 @@ window.webpackJsonp.push(
                                     }))) : this[_0x136f('0x3b5')] && this['downloadAppToRead']();
                         },
                         'hidePayDialog': function () {
-                            _0x3113c2['default']['isBuyUnitWholeBook'](this['bookInfo']) ? this['$refs']['payWholeBookDialog']['closeDialog']() : this['$refs']['payChapterDialog']['closeDialog']();
+                            m278['default']['isBuyUnitWholeBook'](this['bookInfo']) ? this['$refs']['payWholeBookDialog']['closeDialog']() : this['$refs']['payChapterDialog']['closeDialog']();
                         },
                         'payWholeBook': function () {
                             var _0x2ceab5 = this;
-                            if (_0x3113c2[_0x136f('0x18f')]['isBuyUnitWholeBook'](this['bookInfo'])) {
+                            if (m278[_0x136f('0x18f')]['isBuyUnitWholeBook'](this['bookInfo'])) {
                                 if (this['isBalanceNeedAuth'])
                                     return void this['showConfirmAuthDialog']();
                                 var _0x498c63 = this[_0x136f('0x39e')]['iOS'] > this['balance']['Android'] ? 'ios' : 'android'
-                                    , _0x78f377 = _0x593f6c['get'](this['bookInfo'], _0x136f('0x23f'), 0x0);
+                                    , _0x78f377 = m33['get'](this['bookInfo'], _0x136f('0x23f'), 0x0);
                                 if (this['hasMemberCardDiscount'])
-                                    _0x78f377 = _0x78f377 * (0x64 - _0x593f6c['get'](this['bookInfo'], 'mcardDiscount', 0x0)) / 0x64;
+                                    _0x78f377 = _0x78f377 * (0x64 - m33['get'](this['bookInfo'], 'mcardDiscount', 0x0)) / 0x64;
                                 var _0xa06a72 = this['balance'][_0x136f('0x38b')] > this['balance']['Android'] ? this[_0x136f('0x39e')][_0x136f('0x38b')] : this[_0x136f('0x39e')]['Android']
                                     , _0x4e9e25 = _0x136f('0x499') === _0x498c63 ? {
                                         'giftMoney': this['balance']['iOSGift'],
@@ -12721,25 +12788,25 @@ window.webpackJsonp.push(
                                         'paidMoney': this['balance'][_0x136f('0x29d')]
                                     }
                                     ,
-                                    _0x2232e9 = _0x10316b['default']['priceCalculation'](_0x4e9e25[_0x136f('0x17b')], _0x4e9e25['paidMoney'], _0x78f377);
-                                if (_0x1f1044['inDevelopment']() && console['log']('[chinoLog]\x20Reader-payWholeBook', 'price=', _0x78f377, _0x136f('0x209'), _0xa06a72, _0x136f('0x183'), _0x4e9e25, 'payPlan=', _0x2232e9),
+                                    _0x2232e9 = m1197['default']['priceCalculation'](_0x4e9e25[_0x136f('0x17b')], _0x4e9e25['paidMoney'], _0x78f377);
+                                if (m9['inDevelopment']() && console['log']('[chinoLog]\x20Reader-payWholeBook', 'price=', _0x78f377, _0x136f('0x209'), _0xa06a72, _0x136f('0x183'), _0x4e9e25, 'payPlan=', _0x2232e9),
                                     !_0x2232e9[_0x136f('0x3c7')])
-                                    return this['$store']['dispatch'](_0x5d7148[_0x136f('0x30f')], {
+                                    return this['$store']['dispatch'](m55[_0x136f('0x30f')], {
                                         'pf': _0x498c63,
                                         'price': _0x78f377,
                                         'isMCard': this['hasMemberCard']
                                     })[_0x136f('0x26e')](function (_0x56d15b) {
-                                        var _0x4f55d8 = _0x593f6c['get'](_0x56d15b, 'errCode', 0x0);
-                                        -0x2eed === _0x4f55d8 ? _0x2ceab5[_0x136f('0x1e')]() : -0x7da === _0x4f55d8 || -0x7dc === _0x4f55d8 || -0x7dd === _0x4f55d8 ? _0x2ceab5['handleSessionTimeout']() : -0x8e9 === _0x4f55d8 ? (void 0x0 !== _0x593f6c['get'](_0x56d15b, 'info.price') && _0x2ceab5['$store']['commit'](_0x202079['UPDATE_READER_BOOK_INFO_PRICE'], _0x593f6c['get'](_0x56d15b, 'info.price')),
-                                        void 0x0 !== _0x593f6c[_0x136f('0x48c')](_0x56d15b, 'info.payType') && _0x2ceab5[_0x136f('0x83')][_0x136f('0x3e8')](_0x202079['UPDATE_READER_BOOK_INFO_PAY_TYPE'], _0x593f6c['get'](_0x56d15b, 'info.payType')),
-                                            _0x2ceab5['$toast']('书籍价格已更新，请重新购买')) : 0x1 === _0x593f6c['get'](_0x56d15b, _0x136f('0x1b8'), 0x0) ? (_0x2ceab5['$toast']('购买成功'),
+                                        var _0x4f55d8 = m33['get'](_0x56d15b, 'errCode', 0x0);
+                                        -0x2eed === _0x4f55d8 ? _0x2ceab5[_0x136f('0x1e')]() : -0x7da === _0x4f55d8 || -0x7dc === _0x4f55d8 || -0x7dd === _0x4f55d8 ? _0x2ceab5['handleSessionTimeout']() : -0x8e9 === _0x4f55d8 ? (void 0x0 !== m33['get'](_0x56d15b, 'info.price') && _0x2ceab5['$store']['commit'](m75['UPDATE_READER_BOOK_INFO_PRICE'], m33['get'](_0x56d15b, 'info.price')),
+                                        void 0x0 !== m33[_0x136f('0x48c')](_0x56d15b, 'info.payType') && _0x2ceab5[_0x136f('0x83')][_0x136f('0x3e8')](m75['UPDATE_READER_BOOK_INFO_PAY_TYPE'], m33['get'](_0x56d15b, 'info.payType')),
+                                            _0x2ceab5['$toast']('书籍价格已更新，请重新购买')) : 0x1 === m33['get'](_0x56d15b, _0x136f('0x1b8'), 0x0) ? (_0x2ceab5['$toast']('购买成功'),
                                             _0x2ceab5[_0x136f('0x4a0')](),
-                                            _0x2ceab5['$store']['dispatch'](_0x5d7148['FETCH_ADD_SHELF_FORCE']),
-                                            _0x2ceab5['$store']['dispatch'](_0x5d7148['FETCH_READER_BOOK_INFO'], {
+                                            _0x2ceab5['$store']['dispatch'](m55['FETCH_ADD_SHELF_FORCE']),
+                                            _0x2ceab5['$store']['dispatch'](m55['FETCH_READER_BOOK_INFO'], {
                                                 'envConfig': {},
                                                 'isLogin': !0x0
                                             }),
-                                            _0x2ceab5[_0x136f('0x83')]['dispatch'](_0x5d7148['RELOAD_READER_CHAPTER_INFOS'], {
+                                            _0x2ceab5[_0x136f('0x83')]['dispatch'](m55['RELOAD_READER_CHAPTER_INFOS'], {
                                                 'isLogin': !0x0
                                             }),
                                             _0x2ceab5['reloadCurrentChapter']()) : _0x2ceab5['$toast']('购买失败，请重试');
@@ -12751,26 +12818,26 @@ window.webpackJsonp.push(
                                     this['setDirectPayProtoLog']('book_purchase', 'purchase_popup', 'click_scan_purchase');
                             }
                         },
-                        'setDirectPayProtoLog': (_0x156bd2 = _0x5e75d1.default(_0xb940f8.default.mark(function _0x5b89a3(_0x4892c8, _0x56d099, _0x36cf64) {
+                        'setDirectPayProtoLog': (_0x156bd2 = m376.default(m375.default.mark(function _0x5b89a3(_0x4892c8, _0x56d099, _0x36cf64) {
                                 var _0xd57987, _0x471541;
-                                return _0xb940f8['default']['wrap'](function (_0x4f1fc1) {
+                                return m375['default']['wrap'](function (_0x4f1fc1) {
                                     for (; ;)
                                         switch (_0x4f1fc1['prev'] = _0x4f1fc1[_0x136f('0xe')]) {
                                             case 0x0:
-                                                _0x1f1044['inDevelopment']() && console[_0x136f('0x395')]('[chinoLog]\x20Reader-setDirectPayProtoLog', _0x4892c8, _0x56d099, _0x36cf64),
-                                                    _0xd57987 = _0x593f6c['get'](this[_0x136f('0x152')], 'vid'),
+                                                m9['inDevelopment']() && console[_0x136f('0x395')]('[chinoLog]\x20Reader-setDirectPayProtoLog', _0x4892c8, _0x56d099, _0x36cf64),
+                                                    _0xd57987 = m33['get'](this[_0x136f('0x152')], 'vid'),
                                                     _0x471541 = (0x0,
-                                                        _0x21e508[_0x136f('0x291')])(_0xd57987, {
+                                                        m786[_0x136f('0x291')])(_0xd57987, {
                                                         'scene': _0x4892c8,
                                                         'module': _0x56d099,
                                                         'action': _0x36cf64,
                                                         'itemid': this['bookId']
                                                     }),
                                                     (0x0,
-                                                        _0x21e508['setProtoLog'])('wr_common_report', _0x471541)['then'](function (_0x330e74) {
-                                                        _0x1f1044['inDevelopment']() && console['log']('[chinoLog]\x20Reader-setDirectPayProtoLog', _0x136f('0x4c9'), _0x330e74['data']);
+                                                        m786['setProtoLog'])('wr_common_report', _0x471541)['then'](function (_0x330e74) {
+                                                        m9['inDevelopment']() && console['log']('[chinoLog]\x20Reader-setDirectPayProtoLog', _0x136f('0x4c9'), _0x330e74['data']);
                                                     })['catch'](function (_0x307196) {
-                                                        _0x1f1044['inDevelopment']() && console['log'](_0x136f('0x28d'), 'wr_common_report', _0x307196);
+                                                        m9['inDevelopment']() && console['log'](_0x136f('0x28d'), 'wr_common_report', _0x307196);
                                                     });
                                             case 0x4:
                                             case 'end':
@@ -12782,10 +12849,10 @@ window.webpackJsonp.push(
                                     return _0x156bd2['apply'](this, arguments);
                                 }
                         ),
-                        'directPayWholeBook': (_0x52d82d = _0x5e75d1.default(_0xb940f8.default.mark(function _0x5f3856(_0x3cefb8, _0x27e5b8) {
+                        'directPayWholeBook': (_0x52d82d = m376.default(m375.default.mark(function _0x5f3856(_0x3cefb8, _0x27e5b8) {
                                 var _0xdf4c12, _0x41a88a, _0x5b9094, _0x4f0aa7, _0x260bde, _0x274ad9, _0x4da51,
                                     _0x4ac2c4 = this;
-                                return _0xb940f8['default']['wrap'](function (_0x6cfeba) {
+                                return m375['default']['wrap'](function (_0x6cfeba) {
                                     for (; ;)
                                         switch (_0x6cfeba['prev'] = _0x6cfeba['next']) {
                                             case 0x0:
@@ -12797,11 +12864,11 @@ window.webpackJsonp.push(
                                             case 0x2:
                                                 return this['payWholeBookResetStatus'](),
                                                     _0x6cfeba['next'] = 0x5,
-                                                    this['$store']['dispatch'](_0x5d7148['CREATE_DIRECT_PAY_ORDER'], (0x0,
-                                                        _0x16e253['default'])({}, _0x3cefb8, {
+                                                    this['$store']['dispatch'](m55['CREATE_DIRECT_PAY_ORDER'], (0x0,
+                                                        m54['default'])({}, _0x3cefb8, {
                                                         'pf': _0x27e5b8
                                                     }))['catch'](function (_0x11b2cb) {
-                                                        return _0x1f1044['inDevelopment']() && console[_0x136f('0x395')]('[chinoLog]\x20Reader-directPayWholeBook', 'err=', _0x11b2cb),
+                                                        return m9['inDevelopment']() && console[_0x136f('0x395')]('[chinoLog]\x20Reader-directPayWholeBook', 'err=', _0x11b2cb),
                                                             null;
                                                     });
                                             case 0x5:
@@ -12812,11 +12879,11 @@ window.webpackJsonp.push(
                                                 return this['$toast']('购买失败，请重试'),
                                                     _0x6cfeba['abrupt']('return');
                                             case 0x9:
-                                                if (_0x41a88a = _0x593f6c['get'](_0xdf4c12, 'errCode', 0x0),
-                                                    _0x5b9094 = _0x593f6c['get'](_0xdf4c12, _0x136f('0x289'), ''),
-                                                    _0x4f0aa7 = _0x593f6c['get'](_0xdf4c12, 'openkey', ''),
-                                                    _0x260bde = _0x593f6c[_0x136f('0x48c')](_0xdf4c12, 'url_params', ''),
-                                                    _0x274ad9 = _0x593f6c['get'](_0xdf4c12, 'orderId', ''),
+                                                if (_0x41a88a = m33['get'](_0xdf4c12, 'errCode', 0x0),
+                                                    _0x5b9094 = m33['get'](_0xdf4c12, _0x136f('0x289'), ''),
+                                                    _0x4f0aa7 = m33['get'](_0xdf4c12, 'openkey', ''),
+                                                    _0x260bde = m33[_0x136f('0x48c')](_0xdf4c12, 'url_params', ''),
+                                                    _0x274ad9 = m33['get'](_0xdf4c12, 'orderId', ''),
                                                 -0x7dc !== _0x41a88a) {
                                                     _0x6cfeba['next'] = 0x10;
                                                     break;
@@ -12832,14 +12899,14 @@ window.webpackJsonp.push(
                                             case 0x13:
                                                 return this['directPayStatus']['orderId'] = _0x274ad9,
                                                     _0x4da51 = this,
-                                                    _0x6cfeba['abrupt'](_0x136f('0x5e'), _0x10316b['default']['pullMidasPay']({
+                                                    _0x6cfeba['abrupt'](_0x136f('0x5e'), m1197['default']['pullMidasPay']({
                                                         'openId': _0x5b9094,
                                                         'openKey': _0x4f0aa7,
                                                         'urlParams': _0x260bde,
                                                         'onSuccess': function () {
                                                         },
                                                         'onError': function (_0x2b459d) {
-                                                            throw _0x10316b['default']['killMidasPay'](),
+                                                            throw m1197['default']['killMidasPay'](),
                                                                 clearInterval(_0x4da51['directPayStatus']['pollingTimer']),
                                                                 _0x4da51['$toast'](_0x136f('0x2f1')),
                                                                 _0x2b459d;
@@ -12852,10 +12919,10 @@ window.webpackJsonp.push(
                                                         }
                                                     })['then'](function () {
                                                         _0x4ac2c4[_0x136f('0x3ef')][_0x136f('0x21c')] = setInterval(function () {
-                                                            _0x4ac2c4['$store']['dispatch'](_0x5d7148[_0x136f('0x230')], {
+                                                            _0x4ac2c4['$store']['dispatch'](m55[_0x136f('0x230')], {
                                                                 'orderId': _0x274ad9
                                                             })['then'](function (_0x417a0f) {
-                                                                _0x1f1044[_0x136f('0x4a6')]() && console['log']('[chinoLog]\x20Reader-payWholeBook', 'fetchDirectPayOrderStatus', _0x417a0f);
+                                                                m9[_0x136f('0x4a6')]() && console['log']('[chinoLog]\x20Reader-payWholeBook', 'fetchDirectPayOrderStatus', _0x417a0f);
                                                                 var _0x246642 = _0x417a0f['isPaid']
                                                                     , _0x4969ac = _0x417a0f['errCode'];
                                                                 if (_0x246642) {
@@ -12863,12 +12930,12 @@ window.webpackJsonp.push(
                                                                         return _0x4ac2c4['directPayStatus'][_0x136f('0x35a')] = !0x0,
                                                                             _0x4ac2c4['directPayStatus']['error'] = '购买失败，请重试',
                                                                             clearInterval(_0x4ac2c4['directPayStatus']['pollingTimer']),
-                                                                            void _0x10316b['default']['killMidasPay']();
+                                                                            void m1197['default']['killMidasPay']();
                                                                     _0x4ac2c4['directPayStatus']['succeed'] = !0x0,
-                                                                        _0x10316b[_0x136f('0x18f')][_0x136f('0x41c')](),
+                                                                        m1197[_0x136f('0x18f')][_0x136f('0x41c')](),
                                                                         clearInterval(_0x4ac2c4['directPayStatus']['pollingTimer']),
                                                                         _0x4ac2c4['$toast']('购买成功'),
-                                                                        _0x4ac2c4['$store']['dispatch'](_0x5d7148['FETCH_ADD_SHELF_FORCE']),
+                                                                        _0x4ac2c4['$store']['dispatch'](m55['FETCH_ADD_SHELF_FORCE']),
                                                                         _0x4ac2c4['hidePayDialog'](),
                                                                         setTimeout(function () {
                                                                             window['location']['reload']();
@@ -12876,17 +12943,17 @@ window.webpackJsonp.push(
                                                                 }
                                                                 _0x4969ac && (_0x4ac2c4['directPayStatus']['errored'] = !0x0,
                                                                     _0x4ac2c4['directPayStatus']['error'] = _0x136f('0x3b4'),
-                                                                    _0x10316b['default']['killMidasPay'](),
+                                                                    m1197['default']['killMidasPay'](),
                                                                     clearInterval(_0x4ac2c4[_0x136f('0x3ef')]['pollingTimer']));
                                                             })['catch'](function (_0x28c67c) {
                                                                 console['log'](_0x136f('0x205'), 'fetchDirectPayOrderStatus', _0x28c67c),
-                                                                    _0x10316b['default']['killMidasPay'](),
+                                                                    m1197['default']['killMidasPay'](),
                                                                     _0x4ac2c4['$toast']('购买失败，请重试'),
                                                                     clearInterval(_0x4ac2c4['directPayStatus']['pollingTimer']);
                                                             });
                                                         }, 0x3e8);
                                                     })[_0x136f('0x221')](function (_0x4986db) {
-                                                        _0x1f1044['inDevelopment']() && console[_0x136f('0x395')](_0x136f('0x187'), 'err=', _0x4986db),
+                                                        m9['inDevelopment']() && console[_0x136f('0x395')](_0x136f('0x187'), 'err=', _0x4986db),
                                                             _0x4ac2c4['$toast']('购买失败，请重试');
                                                     }));
                                             case 0x16:
@@ -12905,8 +12972,8 @@ window.webpackJsonp.push(
                                 this['directPayStatus'][_0x15783d] = this['directPayStatusDefault'][_0x15783d];
                         },
                         'payWholeBookMidasCloseCheck': function () {
-                            if (_0x1f1044['inDevelopment']() && console['log']('[chinoLog]\x20Reader-payWholeBookMidasCloseCheck', 'this.directPayStatus=', (0x0,
-                                _0x3e79f9['default'])(this['directPayStatus'])),
+                            if (m9['inDevelopment']() && console['log']('[chinoLog]\x20Reader-payWholeBookMidasCloseCheck', 'this.directPayStatus=', (0x0,
+                                m41['default'])(this['directPayStatus'])),
                                 this['directPayStatus']['succeed'])
                                 this['payWholeBookResetStatus']();
                             else {
@@ -12918,7 +12985,7 @@ window.webpackJsonp.push(
                                         }),
                                         void this['payWholeBookResetStatus']();
                                 this['setDirectPayProtoLog'](_0x136f('0x2ec'), _0x136f('0x258'), 'exposure');
-                                _0x593f6c['get'](this['user'], 'vid');
+                                m33['get'](this['user'], 'vid');
                                 this['$refs']['readerCommonDialog']['showDialog']({
                                     'title': '已取消本次支付',
                                     'buttonText': _0x136f('0x13f')
@@ -12931,8 +12998,8 @@ window.webpackJsonp.push(
                                 , _0x713b31 = _0x47e9ec['chapterIds']
                                 , _0x3f5c3e = _0x47e9ec['totalPrice']
                                 , _0x552c5c = _0x47e9ec['isAutoPay'];
-                            if (!_0x3113c2['default']['isBuyUnitWholeBook'](this['bookInfo'])) {
-                                var _0x57dc2c = _0x3cffc1['default']['formatChapterUids'](_0x713b31);
+                            if (!m278['default']['isBuyUnitWholeBook'](this['bookInfo'])) {
+                                var _0x57dc2c = m773['default']['formatChapterUids'](_0x713b31);
                                 if (0x0 === _0x57dc2c['length'])
                                     return;
                                 if (this[_0x136f('0x10d')])
@@ -12943,24 +13010,24 @@ window.webpackJsonp.push(
                                     _0x569d7f = this['balance']['iOSPaid'] > this['balance']['AndroidPaid'] ? 'ios' : _0x136f('0x48e')) : (_0x4e8ce2 = this[_0x136f('0x39e')]['iOS'] > this['balance']['Android'] ? this['balance']['iOS'] : this['balance']['Android'],
                                     _0x569d7f = this['balance']['iOS'] > this['balance'][_0x136f('0xc8')] ? 'ios' : 'android'),
                                 _0x3f5c3e <= _0x4e8ce2)
-                                    return this['$store'][_0x136f('0x478')](_0x5d7148['FETCH_READER_BUY_CHAPTERS'], {
+                                    return this['$store'][_0x136f('0x478')](m55['FETCH_READER_BUY_CHAPTERS'], {
                                         'pf': _0x569d7f,
                                         'chapterIds': _0x57dc2c,
                                         'totalPrice': _0x3f5c3e,
                                         'isAutoPay': _0x552c5c,
                                         'isMCard': this['hasMemberCard']
                                     })['then'](function (_0x1ba782) {
-                                        var _0x1e0f66 = _0x593f6c['get'](_0x1ba782, 'errCode', 0x0);
-                                        -0x2eed === _0x1e0f66 ? _0x154500['showConfirmAuthDialog']() : -0x7da === _0x1e0f66 || -0x7dc === _0x1e0f66 || -0x7dd === _0x1e0f66 ? _0x154500['handleSessionTimeout']() : -0x8e9 === _0x1e0f66 ? _0x154500['$toast']('书籍价格已更新，请刷新后重试') : 0x1 === _0x593f6c['get'](_0x1ba782, 'succ', 0x0) ? (_0x154500[_0x136f('0x371')]('购买成功'),
+                                        var _0x1e0f66 = m33['get'](_0x1ba782, 'errCode', 0x0);
+                                        -0x2eed === _0x1e0f66 ? _0x154500['showConfirmAuthDialog']() : -0x7da === _0x1e0f66 || -0x7dc === _0x1e0f66 || -0x7dd === _0x1e0f66 ? _0x154500['handleSessionTimeout']() : -0x8e9 === _0x1e0f66 ? _0x154500['$toast']('书籍价格已更新，请刷新后重试') : 0x1 === m33['get'](_0x1ba782, 'succ', 0x0) ? (_0x154500[_0x136f('0x371')]('购买成功'),
                                             _0x154500[_0x136f('0x4a0')](),
-                                            _0x154500['$store']['dispatch'](_0x5d7148['FETCH_READER_BOOK_INFO'], {
+                                            _0x154500['$store']['dispatch'](m55['FETCH_READER_BOOK_INFO'], {
                                                 'isLogin': !0x0
                                             }),
-                                            _0x154500['$store']['dispatch'](_0x5d7148['FETCH_READER_ADD_SHELF']),
-                                            _0x154500['$store']['dispatch'](_0x5d7148[_0x136f('0x211')], {
+                                            _0x154500['$store']['dispatch'](m55['FETCH_READER_ADD_SHELF']),
+                                            _0x154500['$store']['dispatch'](m55[_0x136f('0x211')], {
                                                 'isLogin': !0x0
                                             })['then'](function () {
-                                                if (-0x1 !== _0x713b31['indexOf'](_0x593f6c['get'](_0x154500['currentChapter'], 'chapterUid')))
+                                                if (-0x1 !== _0x713b31['indexOf'](m33['get'](_0x154500['currentChapter'], 'chapterUid')))
                                                     return _0x154500['reloadCurrentChapter']();
                                             })) : _0x154500['$toast']('购买失败，请重试');
                                     });
@@ -12973,13 +13040,13 @@ window.webpackJsonp.push(
                         },
                         'checkIfShowMemberCardFreeReadingTips': function () {
                             var _0x1ec478 = arguments['length'] > 0x0 && void 0x0 !== arguments[0x0] && arguments[0x0];
-                            if (_0x1f1044['isEnvClient']) {
+                            if (m9['isEnvClient']) {
                                 var _0x155b12 = this['hasLogin']
                                     , _0x379a5b = _0x155b12 && !this['isNeedPay'] && this[_0x136f('0xdf')];
                                 if (_0x379a5b) {
-                                    var _0x576be8 = _0x593f6c['get'](this['user'], 'vid')
+                                    var _0x576be8 = m33['get'](this['user'], 'vid')
                                         ,
-                                        _0x43eae5 = _0x1c81d2[_0x136f('0x18f')]['getReaderMemberCardTipsBookIdsOperator'](_0x576be8)
+                                        _0x43eae5 = m99[_0x136f('0x18f')]['getReaderMemberCardTipsBookIdsOperator'](_0x576be8)
                                         , _0x171be7 = _0x43eae5['isBookExist'](this['bookId']);
                                     _0x171be7 && !_0x1ec478 || (this['showMemberCardTips'](_0x136f('0x1bf') + (this['hasPaidMemberCard'] ? '会员' : '体验') + '卡阅读付费部分'),
                                         _0x43eae5['addBook'](this['bookId']),
@@ -12989,7 +13056,7 @@ window.webpackJsonp.push(
                         },
                         'checkIfSyncReadingProgress': function () {
                             var _0x90b118 = this;
-                            return this['$store']['dispatch'](_0x5d7148['FETCH_READER_PROGRESS'], {
+                            return this['$store']['dispatch'](m55['FETCH_READER_PROGRESS'], {
                                 'compareWithLocal': !0x0
                             })['then'](function (_0x273626) {
                                 if (_0x273626 && _0x273626['book']) {
@@ -13015,7 +13082,7 @@ window.webpackJsonp.push(
                             var _0x50d73f = this;
                             this['isLoginQRCodeLoading'] = !0x0,
                                 (0x0,
-                                    _0x39e478['default'])('/web/login/getuid', {}, function (_0x475fd5) {
+                                    m56['default'])('/web/login/getuid', {}, function (_0x475fd5) {
                                     _0x475fd5 && _0x475fd5['data'] && _0x475fd5['data'][_0x136f('0x1c1')] ? (_0x50d73f[_0x136f('0x431')] = !0x1,
                                         _0x50d73f['isLoginGetUidError'] = !0x1,
                                         _0x50d73f['isLoginGetInfoError'] = !0x1,
@@ -13043,7 +13110,7 @@ window.webpackJsonp.push(
                         'requestLoginInfo': function (_0x5db119) {
                             var _0x598610 = this;
                             (0x0,
-                                _0x39e478['default'])('/web/login/getinfo', {
+                                m56['default'])('/web/login/getinfo', {
                                 'uid': _0x5db119
                             }, function (_0x45e779) {
                                 _0x45e779 && _0x45e779['data'] && _0x45e779['data']['vid'] && _0x45e779['data']['skey'] && _0x45e779['data']['code'] ? _0x598610['requestLogin'](_0x45e779['data']) : (_0x598610['isLoginGetInfoError'] = !0x0,
@@ -13059,9 +13126,9 @@ window.webpackJsonp.push(
                         'requestLogin': function (_0x1d8bed) {
                             var _0x37e809 = this
                                 , _0x46822b = _0x1d8bed['pf']
-                                , _0x1ada8c = _0x54204d['generateFingerprint']();
+                                , _0x1ada8c = m203['generateFingerprint']();
                             (0x0,
-                                _0x39e478['default'])('/web/login/weblogin', {
+                                m56['default'])('/web/login/weblogin', {
                                 'vid': _0x1d8bed['vid'],
                                 'skey': _0x1d8bed['skey'],
                                 'code': _0x1d8bed['code'],
@@ -13078,7 +13145,7 @@ window.webpackJsonp.push(
                             var _0x593c78 = this;
                             console['log']('session3', _0x798dbc),
                                 (0x0,
-                                    _0x39e478['default'])('/web/login/session/init', {
+                                    m56['default'])('/web/login/session/init', {
                                     'vid': _0x798dbc['vid'],
                                     'skey': _0x798dbc['accessToken'],
                                     'rt': _0x798dbc['refreshToken'],
@@ -13109,14 +13176,14 @@ window.webpackJsonp.push(
                                 var _0x315c48 = this['$route']['query']
                                     ,
                                     _0x54e69a = 'https://weread.qq.com/wrpage/promo/giveonegetone/newyear?isAnimateNavBarBackground=1&senderVid=' + _0x315c48['senderVid'] + '&vol=' + _0x315c48[_0x136f('0x480')] + '&designId=' + _0x315c48['designId'];
-                                return _0x1f1044['inDevelopment']() && console['log'](_0x54e69a),
+                                return m9['inDevelopment']() && console['log'](_0x54e69a),
                                     (0x0,
-                                        _0x7467ae['default'])(function (_0x27f9e9) {
+                                        m59['default'])(function (_0x27f9e9) {
                                         _0x27f9e9 ? (0x0,
-                                            _0x1c0f0f['default'])({
+                                            m61['default'])({
                                             'openUrl': 'weread://browse?url=' + encodeURIComponent(_0x54e69a) + '&style=1&userinfo=1'
                                         }) : (0x0,
-                                            _0x1d2faf[_0x136f('0x18f')])();
+                                            m60[_0x136f('0x18f')])();
                                     });
                             }
                         },
@@ -13127,25 +13194,25 @@ window.webpackJsonp.push(
                                 }),
                                 this['$showDownloadAppDialog']();
                             var _0x42aa01 = void 0x0;
-                            _0x42aa01 = _0x3113c2['default']['isSoldOut'](this['bookInfo']) || _0x3113c2['default']['isMPBookType'](this['bookInfo']['type']) ? {
+                            _0x42aa01 = m278['default']['isSoldOut'](this['bookInfo']) || m278['default']['isMPBookType'](this['bookInfo']['type']) ? {
                                 'schemeName': 'book',
                                 'bId': this['bookId'],
                                 'type': this['bookInfo'][_0x136f('0x93')]
-                            } : _0x3113c2['default'][_0x136f('0x4')](this['bookInfo']['type']) ? {
+                            } : m278['default'][_0x136f('0x4')](this['bookInfo']['type']) ? {
                                 'schemeName': 'comicReader',
                                 'bId': this['bookId']
                             } : {
                                 'schemeName': 'reading',
                                 'bId': this['bookId'],
                                 'type': this['bookInfo']['type'],
-                                'chapterUid': _0x593f6c[_0x136f('0x48c')](this['currentChapter'], 'chapterUid', 0x0)
+                                'chapterUid': m33[_0x136f('0x48c')](this['currentChapter'], 'chapterUid', 0x0)
                             },
-                                _0x42aa01 = _0x593f6c['merge'](_0x42aa01, {
+                                _0x42aa01 = m33['merge'](_0x42aa01, {
                                     'subTitle': '在手机上继续阅读本书',
                                     'from': 'ReaderControl'
                                 }),
                                 this['logDebug']('SchemeConfig:\x20' + (0x0,
-                                    _0x3e79f9['default'])(_0x42aa01)),
+                                    m41['default'])(_0x42aa01)),
                                 this['$downloadAppComponent']['beginToLoadQrCode'](_0x42aa01);
                         },
                         'downloadAppToMemberCard': function () {
@@ -13175,9 +13242,9 @@ window.webpackJsonp.push(
                         },
                         'logOnClientMounted': function () {
                             var _0x469870 = this;
-                            if (_0x1f1044['isEnvClient']) {
+                            if (m9['isEnvClient']) {
                                 this['hasLogin'] || _0x136f('0x3b2') === _0x46cd45['getPlatform']() || this['reportClientGuestReaderUV'](),
-                                this['relatedAlbum'] && _0x55441a['wrReport']['newCHReport']({
+                                this['relatedAlbum'] && m395['wrReport']['newCHReport']({
                                     'itemName': 'Web_Lecture_ButtonExposure',
                                     'vid': this['user']['vid'],
                                     'extra': {
@@ -13220,7 +13287,7 @@ window.webpackJsonp.push(
                                 _0x586d26['categoryId'] && this['reportClientBusiness']({
                                     'itemName': 'Web_Ranking_Type_BookClk',
                                     'value': (0x0,
-                                        _0x3e79f9['default'])({
+                                        m41['default'])({
                                         'type': _0x586d26['categoryId']
                                     })
                                 })),
@@ -13278,12 +13345,12 @@ window.webpackJsonp.push(
                                             this['reportClientAppSharePage']({
                                                 'itemName': 'page|Web_ShareOneGetOne_Enter_Reader_' + _0x28c48b + _0x136f('0x459')
                                             })),
-                                            _0x2c611f['default'][_0x136f('0x440')]('https://weread.qq.com/share-one-get-one/redeem', {
+                                            m200['default'][_0x136f('0x440')]('https://weread.qq.com/share-one-get-one/redeem', {
                                                 'bookId': this['bookId'],
                                                 'campaignId': _0x2009eb,
                                                 'senderVid': _0x5c1971
                                             })['then'](function (_0xd2d7c4) {
-                                                var _0x37413e = _0x593f6c['get'](_0xd2d7c4, _0x136f('0x445'), 0x0);
+                                                var _0x37413e = m33['get'](_0xd2d7c4, _0x136f('0x445'), 0x0);
                                                 console['log']('[shareOneGetOne]\x20succ\x20=\x20' + _0x37413e);
                                             })[_0x136f('0x221')](function (_0x40a489) {
                                                 console['log'](_0x136f('0x196') + _0x40a489);
@@ -13319,7 +13386,7 @@ window.webpackJsonp.push(
                                             'sn': _0x4d6cd1
                                         };
                                         if (_0x526c8e['reportExp']((0x0,
-                                            _0x16e253[_0x136f('0x18f')])({
+                                            m54[_0x136f('0x18f')])({
                                             'source': _0x138a41
                                         }, _0x1218cf)),
                                             this['logInfo']('FETCH_SHARE_ONE_GET_ONE_2\x20query\x20=', _0x436b98),
@@ -13354,7 +13421,7 @@ window.webpackJsonp.push(
                                             'bookId': this[_0x136f('0x85')]
                                         };
                                         _0x3b9f2d && (_0x5a084b['authorVid'] = _0x3b9f2d),
-                                            this['$store']['dispatch'](_0x5d7148['FETCH_SHARE_ONE_GET_ONE_2'], _0x5a084b)['then'](function (_0x580f45) {
+                                            this['$store']['dispatch'](m55['FETCH_SHARE_ONE_GET_ONE_2'], _0x5a084b)['then'](function (_0x580f45) {
                                                 _0x469870['logInfo']('FETCH_SHARE_ONE_GET_ONE_2\x20res\x20=', _0x580f45),
                                                     _0x580f45['errCode'] ? -0xa5d === parseInt(_0x580f45['errCode']) ? (_0x469870['$toast'](_0x136f('0x415')),
                                                         _0x526c8e['reportInfo']({
@@ -13449,18 +13516,18 @@ window.webpackJsonp.push(
                                         var _0x3b3d4f = _0x436b98['senderVid'];
                                         if (parseInt(_0x3b3d4f) === parseInt(this['user'][_0x136f('0x2c2')]))
                                             return void this[_0x136f('0x28e')]('FETCH_FLIP_CARD_GAME\x20same\x20vid\x20=', _0x3b3d4f);
-                                        this['$store']['dispatch'](_0x5d7148[_0x136f('0x367')], {
+                                        this['$store']['dispatch'](m55[_0x136f('0x367')], {
                                             'senderVid': _0x3b3d4f
                                         });
                                     } else
-                                        _0x31382e ? _0x55441a[_0x136f('0x24d')]['baseCHReport']({
+                                        _0x31382e ? m395[_0x136f('0x24d')]['baseCHReport']({
                                             'itemName': 'wrweb_reader_status_show',
                                             'vid': this['user']['vid'],
                                             'extra': {
                                                 'vid': this['user']['vid'] || 0x0,
                                                 'bookId': this['bookId']
                                             }
-                                        }) : _0x5d2077 ? _0x55441a['wrReport']['baseCHReport']({
+                                        }) : _0x5d2077 ? m395['wrReport']['baseCHReport']({
                                             'itemName': 'wrweb_reader_topStories_show',
                                             'vid': this['user']['vid'],
                                             'extra': {
@@ -13468,7 +13535,7 @@ window.webpackJsonp.push(
                                                 'bookId': this['bookId']
                                             }
                                         }) : _0x1ee965 && (console['log']('isFromWeChatSearch'),
-                                            _0x55441a['wrReport']['baseCHReport']({
+                                            m395['wrReport']['baseCHReport']({
                                                 'itemName': _0x136f('0x17a'),
                                                 'vid': this[_0x136f('0x152')]['vid'],
                                                 'extra': {
@@ -13476,7 +13543,7 @@ window.webpackJsonp.push(
                                                     'bookId': this['bookId']
                                                 }
                                             }),
-                                            _0x55441a['wrReport']['baseCHReport']({
+                                            m395['wrReport']['baseCHReport']({
                                                 'itemName': 'wrweb_reader_WeChatSearch',
                                                 'vid': this['user'][_0x136f('0x2c2')],
                                                 'extra': {
@@ -13484,7 +13551,7 @@ window.webpackJsonp.push(
                                                     'bookId': this[_0x136f('0x85')]
                                                 }
                                             }),
-                                            _0x55441a[_0x136f('0x24d')]['baseCHReport']({
+                                            m395[_0x136f('0x24d')]['baseCHReport']({
                                                 'itemName': 'wrweb_reader_WeChatSearch_gray_' + ((this['user']['vid'] || 0x0) % 0x2 == 0x1),
                                                 'vid': this[_0x136f('0x152')]['vid'],
                                                 'extra': {
@@ -13530,14 +13597,14 @@ window.webpackJsonp.push(
                             };
                         },
                         'autoSearchOnClientMounted': function () {
-                            var _0x4ceceb = _0x1c81d2['default'][_0x136f('0x2f9')](_0x4ab5cc[_0x136f('0x48f')]);
+                            var _0x4ceceb = m99['default'][_0x136f('0x2f9')](_m99[_0x136f('0x48f')]);
                             if (_0x4ceceb) {
                                 var _0x196b98 = JSON['parse'](_0x4ceceb);
-                                _0x196b98[_0x136f('0x325')] && (this['$store']['dispatch'](_0x5d7148['FETCH_READER_SEARCH_AUTO'], {
+                                _0x196b98[_0x136f('0x325')] && (this['$store']['dispatch'](m55['FETCH_READER_SEARCH_AUTO'], {
                                     'keyword': _0x196b98[_0x136f('0x325')]
                                 }),
                                 this['$refs']['readerCatalog'] && this['$refs']['readerCatalog']['setSearchKeyword'](_0x196b98['keyword'])),
-                                    _0x1c81d2['default']['setSessionStorage'](_0x4ab5cc['KEY_READER_AUTO_SEARCH']);
+                                    m99['default']['setSessionStorage'](_m99['KEY_READER_AUTO_SEARCH']);
                             }
                         },
                         'setupProgressReportOnDomReady': function () {
@@ -13545,41 +13612,41 @@ window.webpackJsonp.push(
                                 _0x45bb1b = !0x0;
                                 var _0x518481 = this;
                                 this['reportEnterReading'](),
-                                    this[_0x136f('0x83')]['commit'](_0x202079['UPDATE_READER_START_READING_TIME']),
+                                    this[_0x136f('0x83')]['commit'](m75['UPDATE_READER_START_READING_TIME']),
                                     this['startReportTimer']();
                                 var _0x547646 = require(0x5a8)['ifvisible']
                                     , _0x1afdf8 = this[_0x136f('0x13c')]['query']['debugIdleTime'] || 0x78
-                                    , _0x10713d = _0x1f1044['inDevelopment']() ? _0x1afdf8 : 0x78;
+                                    , _0x10713d = m9['inDevelopment']() ? _0x1afdf8 : 0x78;
                                 _0x547646[_0x136f('0x2e5')](_0x10713d),
                                     _0x547646['on']('statusChanged', function (_0x4e975a) {
                                         switch (_0x4e975a['status']) {
                                             case 'hidden':
-                                                _0x518481['$store'][_0x136f('0x478')](_0x5d7148['READER_MARK_PAUSE']),
+                                                _0x518481['$store'][_0x136f('0x478')](m55['READER_MARK_PAUSE']),
                                                     _0x518481['clearReportTimer']();
                                                 break;
                                             case 'idle':
-                                                _0x1f1044['inDevelopment']() && (_0x518481['$toast']('DEBUG:\x20page\x20idle'),
+                                                m9['inDevelopment']() && (_0x518481['$toast']('DEBUG:\x20page\x20idle'),
                                                 _0x518481[_0x136f('0x13c')]['query']['debugIdleClearCookie'] && (_0x518481['$toast'](_0x136f('0x1a3')),
-                                                    _0x54b827['default']['set']('wr_skey', null, {
+                                                    m49['default']['set']('wr_skey', null, {
                                                         'expires': -0x1
                                                     }))),
-                                                    _0x518481['$store']['dispatch'](_0x5d7148['READER_MARK_PAUSE']),
+                                                    _0x518481['$store']['dispatch'](m55['READER_MARK_PAUSE']),
                                                     _0x518481[_0x136f('0x1ba')]();
                                                 break;
                                             case _0x136f('0x357'):
-                                                _0x1f1044[_0x136f('0x4a6')]() && _0x518481['$toast']('DEBUG:\x20page\x20active'),
-                                                    _0x54a158['default']['all']([_0x518481['$store']['dispatch'](_0x5d7148['READER_MARK_ACTIVE']), _0x518481['checkIfSyncReadingProgress']()])['then'](function (_0x4044aa) {
+                                                m9[_0x136f('0x4a6')]() && _0x518481['$toast']('DEBUG:\x20page\x20active'),
+                                                    m76['default']['all']([_0x518481['$store']['dispatch'](m55['READER_MARK_ACTIVE']), _0x518481['checkIfSyncReadingProgress']()])['then'](function (_0x4044aa) {
                                                         var _0x3f0d50 = _0x4044aa[0x0]
                                                             , _0x5e5da8 = _0x4044aa[0x1];
-                                                        if (_0x5e5da8 || (_0x518481['$store']['dispatch'](_0x5d7148['RELOAD_READER_CHAPTER_INFOS'], {
+                                                        if (_0x5e5da8 || (_0x518481['$store']['dispatch'](m55['RELOAD_READER_CHAPTER_INFOS'], {
                                                             'isLogin': _0x518481['hasLogin']
                                                         }),
-                                                            _0x518481['$store']['dispatch'](_0x5d7148['RELOAD_READER_BOOK_INFO'], {
+                                                            _0x518481['$store']['dispatch'](m55['RELOAD_READER_BOOK_INFO'], {
                                                                 'isLogin': _0x518481['hasLogin']
                                                             })),
                                                         _0x3f0d50 && !_0x5e5da8)
-                                                            return _0x518481[_0x136f('0x83')]['dispatch'](_0x5d7148['FETCH_READER_BOOK_READ'], {
-                                                                'vid': _0x593f6c['get'](_0x518481, _0x136f('0x1c'), 0x0),
+                                                            return _0x518481[_0x136f('0x83')]['dispatch'](m55['FETCH_READER_BOOK_READ'], {
+                                                                'vid': m33['get'](_0x518481, _0x136f('0x1c'), 0x0),
                                                                 'retryCount': 0x1,
                                                                 'progressData': _0x518481[_0x136f('0x323')]()
                                                             });
@@ -13590,19 +13657,19 @@ window.webpackJsonp.push(
                             }
                         },
                         'handleLoginPendingActions': function () {
-                            if (_0x1f1044['isEnvClient']) {
-                                var _0x4eda50 = _0x1c81d2['default']['getSessionStorage'](_0x4ab5cc['KEY_READER_LOGIN_PENDING_ACTION']);
+                            if (m9['isEnvClient']) {
+                                var _0x4eda50 = m99['default']['getSessionStorage'](_m99['KEY_READER_LOGIN_PENDING_ACTION']);
                                 if (_0x4eda50)
-                                    if (_0x1c81d2['default']['setSessionStorage'](_0x4ab5cc['KEY_READER_LOGIN_PENDING_ACTION']),
+                                    if (m99['default']['setSessionStorage'](_m99['KEY_READER_LOGIN_PENDING_ACTION']),
                                         this[_0x136f('0x441')])
-                                        if (0x1 === _0x593f6c[_0x136f('0x48c')](JSON['parse'](_0x4eda50), 'toFreeRead', 0x0))
+                                        if (0x1 === m33[_0x136f('0x48c')](JSON['parse'](_0x4eda50), 'toFreeRead', 0x0))
                                             if (this['isNeedPayWithoutMemberCard'])
                                                 if (!this['isNeedPay'] && this[_0x136f('0xdf')])
                                                     ;
                                                 else if (this['hasMemberCard'])
                                                     ;
                                                 else {
-                                                    if (this[_0x136f('0x302')] && 0x2 === _0x593f6c['get'](this['bookInfo'], 'ispub'))
+                                                    if (this[_0x136f('0x302')] && 0x2 === m33['get'](this['bookInfo'], 'ispub'))
                                                         ;
                                                     else {
                                                         if (this['canReceiveMemberCard'])
@@ -13617,18 +13684,18 @@ window.webpackJsonp.push(
                         'requestMemberCardPriceIfNeeded': function () {
                             var _0x5ea0c1 = this;
                             this['isShowBuyMemberCardButton'] && !this[_0x136f('0x359')] && (0x0,
-                                _0x25be6b['default'])('/web/pay/memberprice', {
-                                'vid': _0x593f6c[_0x136f('0x48c')](this['user'], 'vid'),
-                                'pf': _0x593f6c['get'](this['user'], 'pf', 0x0)
+                                m97['default'])('/web/pay/memberprice', {
+                                'vid': m33[_0x136f('0x48c')](this['user'], 'vid'),
+                                'pf': m33['get'](this['user'], 'pf', 0x0)
                             }, function (_0x54ed4d) {
                                 _0x5ea0c1['hasFetchMemberCardPrice'] = !0x0;
                                 var _0xe266a0 = _0x54ed4d['data']
-                                    , _0x46a148 = _0x593f6c['get'](_0xe266a0, 'promoPrice', 0x0)
-                                    , _0x2f1eaf = _0x593f6c[_0x136f('0x48c')](_0xe266a0, 'promoLabel', '');
+                                    , _0x46a148 = m33['get'](_0xe266a0, 'promoPrice', 0x0)
+                                    , _0x2f1eaf = m33[_0x136f('0x48c')](_0xe266a0, 'promoLabel', '');
                                 if (_0x46a148 > 0x0 && _0x2f1eaf['length'] > 0x0)
                                     _0x5ea0c1['buyMemberCardButtonLine1'] = '会员卡\x20' + _0x2f1eaf + Math['round'](_0x46a148) / 0x64 + '元\x20·\x20开通后即可阅读';
-                                else if (_0x593f6c['get'](_0xe266a0, _0x136f('0x23f'), 0x0) > 0x0) {
-                                    var _0x98807b = _0x593f6c[_0x136f('0x48c')](_0xe266a0, 'price', 0x0);
+                                else if (m33['get'](_0xe266a0, _0x136f('0x23f'), 0x0) > 0x0) {
+                                    var _0x98807b = m33[_0x136f('0x48c')](_0xe266a0, 'price', 0x0);
                                     _0x5ea0c1['buyMemberCardButtonLine1'] = '会员卡\x20' + Math['round'](_0x98807b) / 0x64 + '元/月\x20·\x20开通后即可阅读';
                                 } else
                                     _0x5ea0c1['buyMemberCardButtonLine1'] = '会员卡\x2019元/月\x20·\x20开通后即可阅读';
@@ -13690,7 +13757,7 @@ window.webpackJsonp.push(
                                 _0x2a8f23;
                         },
                         'getRangeFromObjs': function (_0x1bf8d9) {
-                            for (var _0x4fb3a6 = new _0x5e2bfc['default'](_0x1bf8d9[0x0]['getOffset'](), _0x1bf8d9[0x0][_0x136f('0x4bb')]() + _0x1bf8d9[0x0]['getTextLength']()), _0x328ff8 = 0x1, _0x4f5bc6 = _0x1bf8d9['length']; _0x328ff8 < _0x4f5bc6; _0x328ff8++) {
+                            for (var _0x4fb3a6 = new m1152['default'](_0x1bf8d9[0x0]['getOffset'](), _0x1bf8d9[0x0][_0x136f('0x4bb')]() + _0x1bf8d9[0x0]['getTextLength']()), _0x328ff8 = 0x1, _0x4f5bc6 = _0x1bf8d9['length']; _0x328ff8 < _0x4f5bc6; _0x328ff8++) {
                                 var _0x30123c = _0x1bf8d9[_0x328ff8]
                                     , _0x1acb86 = _0x30123c['getOffset']()
                                     , _0xf54d60 = _0x30123c['getTextLength']();
@@ -13712,7 +13779,7 @@ window.webpackJsonp.push(
                             if ('DONE' === this['chapterContentState']) {
                                 var _0x5d2f06 = (_0x2f3c26 = _0x2f3c26 || window[_0x136f('0x2f8')])['target']
                                     , _0x2993ae = _0x5d2f06['parentNode'];
-                                _0x1f1044['inDevelopment']() && console['log'](_0x136f('0x272'), 'target=', _0x5d2f06, 'parent=', _0x2993ae);
+                                m9['inDevelopment']() && console['log'](_0x136f('0x272'), 'target=', _0x5d2f06, 'parent=', _0x2993ae);
                                 var _0x399414 = !0x1;
                                 if (_0x5d2f06 === this[_0x136f('0x36e')]['appContent'] || _0x5d2f06 === document['documentElement'] || _0x5d2f06 === document['getElementById'](_0x136f('0x30e')))
                                     _0x399414 = !0x0;
@@ -13776,7 +13843,7 @@ window.webpackJsonp.push(
                             _0x14aa3b['length'] > 0x0)) {
                                 for (var _0x191510 = this['getRangeFromObjs'](_0x191b82), _0x3a9643 = null, _0x431406 = this['notesListInCurrentChapter'], _0x4bb0f8 = 0x0, _0x1c8bd2 = _0x431406['length']; _0x4bb0f8 < _0x1c8bd2; _0x4bb0f8++) {
                                     var _0x2bcfe8 = _0x431406[_0x4bb0f8];
-                                    if (_0x2bcfe8['noteType'] === _0x139df6['NoteTypeBookmark'] && _0x5e2bfc['default']['isContain'](_0x2bcfe8['range'], _0x191510)) {
+                                    if (_0x2bcfe8['noteType'] === m789['NoteTypeBookmark'] && m1152['default']['isContain'](_0x2bcfe8['range'], _0x191510)) {
                                         _0x3a9643 = _0x2bcfe8;
                                         break;
                                     }
@@ -13799,10 +13866,10 @@ window.webpackJsonp.push(
                                 _0x137dca = window['innerHeight'] || (document && document['documentElement'] && document[_0x136f('0x2c5')] ? Math['min'](document[_0x136f('0x1af')]['clientHeight'], document[_0x136f('0x2c5')][_0x136f('0x2cd')]) : 0x0)
                                 , _0x13933a = this['getScrollTop']()
                                 , _0x63bf5c = _0x8f8505['offsetTop']
-                                , _0x3fab3d = _0x443c72['default']['getDomsRelativeOffset'](_0x8f8505, _0x43dd46)
+                                , _0x3fab3d = m77['default']['getDomsRelativeOffset'](_0x8f8505, _0x43dd46)
                                 , _0x27b962 = this['hasTextObjs'](_0x4457df);
                             this[_0x136f('0x3cf')]({
-                                'vid': _0x593f6c[_0x136f('0x48c')](this, 'user.vid', 0x0),
+                                'vid': m33[_0x136f('0x48c')](this, 'user.vid', 0x0),
                                 'parentNode': _0x8f8505,
                                 'toolbarBoundsLimit': {
                                     'left': -_0x3fab3d[_0x136f('0x3d8')],
@@ -13872,14 +13939,14 @@ window.webpackJsonp.push(
                         'underlineObjs': function (_0x522a3c, _0x349107) {
                             for (var _0x3ecb50 = arguments['length'] > 0x2 && void 0x0 !== arguments[0x2] ? arguments[0x2] : 0x0, _0x892f52 = this['getRangeFromObjs'](_0x522a3c), _0xd6a251 = this['notesListInCurrentChapter'], _0x381048 = [], _0x30143d = 0x0, _0x1fad15 = _0xd6a251['length']; _0x30143d < _0x1fad15; _0x30143d++) {
                                 var _0x3ba830 = _0xd6a251[_0x30143d];
-                                _0x3ba830['noteType'] === _0x139df6['NoteTypeBookmark'] && _0x5e2bfc[_0x136f('0x18f')][_0x136f('0x1c8')](_0x892f52, _0x3ba830['range']) && (_0x381048['push'](_0x3ba830['bookmarkId']),
-                                    _0x892f52 = _0x5e2bfc[_0x136f('0x18f')]['union'](_0x892f52, _0x3ba830['range']));
+                                _0x3ba830['noteType'] === m789['NoteTypeBookmark'] && m1152[_0x136f('0x18f')][_0x136f('0x1c8')](_0x892f52, _0x3ba830['range']) && (_0x381048['push'](_0x3ba830['bookmarkId']),
+                                    _0x892f52 = m1152[_0x136f('0x18f')]['union'](_0x892f52, _0x3ba830['range']));
                             }
                             if (this['removeBookmark'](_0x381048),
                             void 0x0 === _0x349107) {
-                                var _0x56d267 = _0x1c81d2['default'][_0x136f('0x30a')]()
+                                var _0x56d267 = m99['default'][_0x136f('0x30a')]()
                                     ,
-                                    _0x4f9ef1 = _0x56d267['getValueWithType'](_0x4ab5cc['LOCAL_SETTING_OBJ_KEYS'][_0x136f('0x86')], 'number');
+                                    _0x4f9ef1 = _0x56d267['getValueWithType'](_m99['LOCAL_SETTING_OBJ_KEYS'][_0x136f('0x86')], 'number');
                                 _0x349107 = null === _0x4f9ef1 ? 0x1 : _0x4f9ef1;
                             }
                             this['addBookmark'](_0x892f52, _0x349107, _0x3ecb50);
@@ -13887,7 +13954,7 @@ window.webpackJsonp.push(
                         'removeBookmark': function (_0x592bd9) {
                             var _0x4a173d = this;
                             _0x592bd9[_0x136f('0x43e')](function (_0x516f35) {
-                                _0x4a173d[_0x136f('0x83')]['dispatch'](_0x5d7148['REMOVE_BOOKMARK'], {
+                                _0x4a173d[_0x136f('0x83')]['dispatch'](m55['REMOVE_BOOKMARK'], {
                                     'bookmarkId': _0x516f35
                                 });
                             });
@@ -13896,7 +13963,7 @@ window.webpackJsonp.push(
                             var _0x342373 = this
                                 ,
                                 _0x1fe73f = arguments['length'] > 0x2 && void 0x0 !== arguments[0x2] ? arguments[0x2] : 0x0;
-                            return this['$store']['dispatch'](_0x5d7148['UPDATE_BOOKMARK'], {
+                            return this['$store']['dispatch'](m55['UPDATE_BOOKMARK'], {
                                 'bookmarkId': _0x3172b1['bookmarkId'],
                                 'style': _0x2772d6,
                                 'colorStyle': _0x1fe73f
@@ -13919,7 +13986,7 @@ window.webpackJsonp.push(
                             var _0x242c58 = this
                                 ,
                                 _0x3d1282 = this['findObjsInOffsetRange'](_0x3f16ee, _0x22a1ec['start'], _0x22a1ec['end']);
-                            return this['$store']['dispatch'](_0x5d7148['ADD_BOOKMARK'], {
+                            return this['$store']['dispatch'](m55['ADD_BOOKMARK'], {
                                 'bookId': this['bookId'],
                                 'chapterUid': this['currentChapter']['chapterUid'],
                                 'chapterIdx': this['currentChapter']['chapterIdx'],
@@ -13948,8 +14015,8 @@ window.webpackJsonp.push(
                             });
                         },
                         'saveLastBookmarkStyle': function (_0x1d4474) {
-                            var _0x40519d = _0x1c81d2['default']['getLocalSettingOperator']();
-                            _0x40519d['value'][_0x4ab5cc['LOCAL_SETTING_OBJ_KEYS']['UNDERLINE_STYLE']] = _0x1d4474,
+                            var _0x40519d = m99['default']['getLocalSettingOperator']();
+                            _0x40519d['value'][_m99['LOCAL_SETTING_OBJ_KEYS']['UNDERLINE_STYLE']] = _0x1d4474,
                                 _0x40519d[_0x136f('0x27d')]();
                         },
                         'hasTextObjs': function (_0x2f600f) {
@@ -13965,9 +14032,9 @@ window.webpackJsonp.push(
                         'canQuery': function (_0x5d6727) {
                             return this['hasTextObjs'](_0x5d6727);
                         },
-                        'copyObjsText': (_0xcd1751 = _0x5e75d1.default(_0xb940f8.default.mark(function _0xa44e0d(_0x59856e) {
+                        'copyObjsText': (_0xcd1751 = m376.default(m375.default.mark(function _0xa44e0d(_0x59856e) {
                                 var _0x1f133d, _0x5eb7e0;
-                                return _0xb940f8['default']['wrap'](function (_0x399678) {
+                                return m375['default']['wrap'](function (_0x399678) {
                                     for (; ;)
                                         switch (_0x399678['prev'] = _0x399678['next']) {
                                             case 0x0:
@@ -13990,12 +14057,12 @@ window.webpackJsonp.push(
                                                     break;
                                                 }
                                                 return _0x399678['next'] = 0x8,
-                                                    this[_0x136f('0x83')]['dispatch'](_0x5d7148['FETCH_READER_SERIAL_RESTRICTION'], {
+                                                    this[_0x136f('0x83')]['dispatch'](m55['FETCH_READER_SERIAL_RESTRICTION'], {
                                                         'vid': this[_0x136f('0x152')][_0x136f('0x2c2')]
                                                     });
                                             case 0x8:
                                                 if (_0x5eb7e0 = _0x399678['sent'],
-                                                    !(_0x593f6c['get'](_0x5eb7e0, 'copyTimes', 0x0) >= 0x3)) {
+                                                    !(m33['get'](_0x5eb7e0, 'copyTimes', 0x0) >= 0x3)) {
                                                     _0x399678['next'] = 0xd;
                                                     break;
                                                 }
@@ -14010,7 +14077,7 @@ window.webpackJsonp.push(
                                                     _0x399678['abrupt'](_0x136f('0x5e'));
                                             case 0x10:
                                                 this['copyText'](_0x1f133d) && (this['$toast']('已复制到剪贴板'),
-                                                this['needSerialProcess'] && this['$store']['dispatch'](_0x5d7148['STORE_READER_SERIAL_RESTRICTION'], {
+                                                this['needSerialProcess'] && this['$store']['dispatch'](m55['STORE_READER_SERIAL_RESTRICTION'], {
                                                     'vid': this['user'][_0x136f('0x2c2')]
                                                 }));
                                             case 0x11:
@@ -14057,7 +14124,7 @@ window.webpackJsonp.push(
                                     _0xcf5049 || (_0x764676['$toast'](_0x136f('0x308'), -0x1),
                                         _0x2f6a9b = !0x0);
                                 }, 0x3e8),
-                                    this['$store'][_0x136f('0x478')](_0x5d7148[_0x136f('0x1ed')], {
+                                    this['$store'][_0x136f('0x478')](m55[_0x136f('0x1ed')], {
                                         'word': _0xe6e6fa
                                     })['then'](function (_0x25972b) {
                                         _0xcf5049 = !0x0,
@@ -14072,51 +14139,51 @@ window.webpackJsonp.push(
                             }
                         },
                         'loadTopReviews': function () {
-                            this[_0x136f('0xf8')] || this['topReviewList'] && this['topReviewList'][_0x136f('0x360')] > 0x0 || (this['$store']['dispatch'](_0x5d7148['FETCH_BOOK_REVIEW_LIST'], {
+                            this[_0x136f('0xf8')] || this['topReviewList'] && this['topReviewList'][_0x136f('0x360')] > 0x0 || (this['$store']['dispatch'](m55['FETCH_BOOK_REVIEW_LIST'], {
                                 'bookId': this[_0x136f('0x85')],
                                 'count': 0x3,
-                                'listType': _0x36a4c5['ReviewListTypeBookTop']
+                                'listType': m788['ReviewListTypeBookTop']
                             }),
-                            this['hasLogin'] && this[_0x136f('0x83')]['dispatch'](_0x5d7148['FETCH_BOOK_REVIEW_LIST'], {
+                            this['hasLogin'] && this[_0x136f('0x83')]['dispatch'](m55['FETCH_BOOK_REVIEW_LIST'], {
                                 'bookId': this['bookId'],
                                 'count': 0x3,
-                                'listType': _0x36a4c5['ReviewListTypeBookFriendTop']
+                                'listType': m788['ReviewListTypeBookFriendTop']
                             }));
                         },
                         'syncMyNote': function (_0x15d145) {
-                            if (this['isNeedShowMyNote'] && (_0x136f('0x2c1') === _0x15d145['bookmark'] && this['$store']['dispatch'](_0x5d7148['FETCH_BOOK_BOOKMARK_LIST'], {
+                            if (this['isNeedShowMyNote'] && (_0x136f('0x2c1') === _0x15d145['bookmark'] && this['$store']['dispatch'](m55['FETCH_BOOK_BOOKMARK_LIST'], {
                                 'bookId': this['bookId']
                             }),
                             _0x136f('0x2c1') === _0x15d145['review'] || 'append' === _0x15d145['review'])) {
                                 var _0x106a24 = {
                                     'bookId': this['bookId'],
-                                    'listType': _0x36a4c5['ReviewListTypeNote'],
+                                    'listType': m788['ReviewListTypeNote'],
                                     'userVid': this['user']['vid'],
                                     'mine': 0x1,
                                     'count': 0x0
                                 };
-                                _0x136f('0x113') === _0x15d145['review'] && (_0x106a24 = _0x593f6c['merge'](_0x106a24, {
+                                _0x136f('0x113') === _0x15d145['review'] && (_0x106a24 = m33['merge'](_0x106a24, {
                                     'synckey': this['notes'][_0x136f('0x4d1')],
                                     'append': !0x0
                                 })),
-                                    this['$store']['dispatch'](_0x5d7148['FETCH_BOOK_REVIEW_LIST'], _0x106a24);
+                                    this['$store']['dispatch'](m55['FETCH_BOOK_REVIEW_LIST'], _0x106a24);
                             }
                         },
                         'changeFontSize': function (_0x39333e, _0x59a169) {
                             var _0x2dd3cd = this;
                             if (_0x39333e < 0x1 || _0x39333e > 0x7)
-                                return _0x54a158['default']['reject'](new Error('wrong\x20font\x20size\x20level'));
+                                return m76['default']['reject'](new Error('wrong\x20font\x20size\x20level'));
                             if ('DONE' !== this['chapterContentState'])
-                                return _0x54a158['default']['resolve']('chapter\x20content\x20state\x20is\x20not\x20DONE');
+                                return m76['default']['resolve']('chapter\x20content\x20state\x20is\x20not\x20DONE');
                             this[_0x136f('0x44f')](),
                                 this['clearHighLightDom']();
                             var _0xb1072 = this[_0x136f('0x323')]({
                                 'computeSummary': !0x1,
                                 'computeProgress': !0x1
                             });
-                            return this['$store']['commit'](_0x202079['UPDATE_READER_CONTENT_STATE'], 'PRERENDER'),
+                            return this['$store']['commit'](m75['UPDATE_READER_CONTENT_STATE'], 'PRERENDER'),
                                 this['fontSizeLevel'] = _0x39333e,
-                                new _0x54a158[(_0x136f('0x18f'))](function (_0x391bbd) {
+                                new m76[(_0x136f('0x18f'))](function (_0x391bbd) {
                                         setTimeout(_0x391bbd, 0x0);
                                     }
                                 )['then'](this['layout'])['then'](function (_0x7c05c5) {
@@ -14133,19 +14200,19 @@ window.webpackJsonp.push(
                                 });
                         },
                         'saveLocalFontSizeLevel': function (_0x46dcdf) {
-                            var _0x397ac1 = _0x1c81d2['default'][_0x136f('0x30a')]();
-                            _0x397ac1[_0x136f('0x370')][_0x4ab5cc['LOCAL_SETTING_OBJ_KEYS'][_0x136f('0x207')]] = _0x46dcdf,
+                            var _0x397ac1 = m99['default'][_0x136f('0x30a')]();
+                            _0x397ac1[_0x136f('0x370')][_m99['LOCAL_SETTING_OBJ_KEYS'][_0x136f('0x207')]] = _0x46dcdf,
                                 _0x397ac1['save']();
                         },
                         'restoreFontSizeLevel': function () {
-                            var _0x4e7d24 = _0x1c81d2[_0x136f('0x18f')]['getLocalSettingOperator']()['getValueWithType'](_0x4ab5cc['LOCAL_SETTING_OBJ_KEYS']['FONT_SIZE_LEVEL'], 'number');
+                            var _0x4e7d24 = m99[_0x136f('0x18f')]['getLocalSettingOperator']()['getValueWithType'](_m99['LOCAL_SETTING_OBJ_KEYS']['FONT_SIZE_LEVEL'], 'number');
                             null != _0x4e7d24 && _0x4e7d24 >= 0x1 && _0x4e7d24 <= 0x7 && (this[_0x136f('0x3db')] = _0x4e7d24);
                         },
                         'showReviewDetailPanel': function (_0x13c8fb) {
                             var _0x546084 = this
                                 ,
-                                _0x223e13 = _0x5e2bfc['default'][_0x136f('0x2a2')][_0x136f('0x115')](_0x5e2bfc['default'], (0x0,
-                                    _0x1fb78c['default'])(_0x13c8fb['map'](function (_0x2a4e7b) {
+                                _0x223e13 = m1152['default'][_0x136f('0x2a2')][_0x136f('0x115')](m1152['default'], (0x0,
+                                    m279['default'])(_0x13c8fb['map'](function (_0x2a4e7b) {
                                     return _0x2a4e7b['range'];
                                 })))
                                 ,
@@ -14160,7 +14227,7 @@ window.webpackJsonp.push(
                                     'onClickItem': function (_0x1ea080, _0xcb0bcd, _0x2b5c9c) {
                                         switch (_0x1ea080) {
                                             case 'delete':
-                                                return _0x546084['$store'][_0x136f('0x478')](_0x5d7148['FETCH_BOOK_REVIEW_DELETE'], {
+                                                return _0x546084['$store'][_0x136f('0x478')](m55['FETCH_BOOK_REVIEW_DELETE'], {
                                                     'reviewId': _0xcb0bcd[_0x136f('0x1f3')]
                                                 })['then'](function (_0x8a60fa) {
                                                     if (_0x8a60fa && _0x8a60fa['data'] && 0x1 === _0x8a60fa['data']['succ']) {
@@ -14189,7 +14256,7 @@ window.webpackJsonp.push(
                         'showWriteReviewPanel': function (_0x11021f) {
                             var _0x17ae63 = this;
                             if (this[_0x136f('0x441')]) {
-                                var _0x555dfa = _0x593f6c[_0x136f('0x48c')](this, 'bookInfo.version', 0x0);
+                                var _0x555dfa = m33[_0x136f('0x48c')](this, 'bookInfo.version', 0x0);
                                 this['highLightObjs'](_0x11021f),
                                     this['$showReaderWriteReviewPanel']({
                                         'parentNode': this['$refs'][_0x136f('0x384')],
@@ -14204,8 +14271,8 @@ window.webpackJsonp.push(
                                                 , _0x39fcb6 = _0x52f72a['isPrivate'];
                                             _0x17ae63['$readerWriteReviewPanel']['getIsSending']() || (_0x17ae63['$readerWriteReviewPanel']['setIsSending'](!0x0),
                                                 _0x17ae63['$readerWriteReviewPanel']['setIsSendedSucc'](!0x0),
-                                                _0x17ae63['$store']['dispatch'](_0x5d7148['FETCH_BOOK_REVIEW_ADD'], {
-                                                    'type': _0x3b2372[_0x136f('0x244')],
+                                                _0x17ae63['$store']['dispatch'](m55['FETCH_BOOK_REVIEW_ADD'], {
+                                                    'type': m780[_0x136f('0x244')],
                                                     'bookId': _0x17ae63['bookId'],
                                                     'chapterUid': _0x17ae63[_0x136f('0x44d')]['chapterUid'],
                                                     'range': _0x17ae63[_0x136f('0x26a')](_0x11021f)['toString'](),
@@ -14214,7 +14281,7 @@ window.webpackJsonp.push(
                                                     'isPrivate': _0x39fcb6,
                                                     'bookVersion': _0x555dfa
                                                 })['then'](function (_0x2145ec) {
-                                                    var _0x456ad0 = _0x593f6c['get'](_0x2145ec, 'data.reviewId', '');
+                                                    var _0x456ad0 = m33['get'](_0x2145ec, 'data.reviewId', '');
                                                     _0x456ad0 && _0x456ad0['length'] > 0x0 ? (_0x17ae63['$hideToast'](),
                                                         _0x17ae63[_0x136f('0x371')](_0x136f('0x28b')),
                                                         _0x17ae63['$readerWriteReviewPanel']['hide'](),
@@ -14254,7 +14321,7 @@ window.webpackJsonp.push(
                             var _0x4f7488 = String(this['user'][_0x136f('0x2c2')]) || 0x0;
                             require['e'](0x1f)[_0x136f('0x26e')](require['t'][_0x136f('0x130')](null, 0x6e7, 0x7))['then'](function () {
                                 _0x136f('0x41e') === (0x0,
-                                    _0x378107['default'])(window['YWQD']) && 'function' == typeof window['YWQD']['config'] ? window['YWQD']['config']({
+                                    m79['default'])(window['YWQD']) && 'function' == typeof window['YWQD']['config'] ? window['YWQD']['config']({
                                     'guid': _0x4f7488,
                                     'domain': 'qq.com',
                                     'water': '',
@@ -14269,17 +14336,17 @@ window.webpackJsonp.push(
                         },
                         'addWaterMask': function () {
                             'object' === (0x0,
-                                _0x378107['default'])(window['YWQD']) && _0x136f('0x1f5') == typeof window['YWQD']['add'] ? this['$refs'][_0x136f('0x2e6')] ? window['YWQD']['add'](this['$refs']['renderTargetWatermark'], '<p></p>') : console['log'](_0x136f('0x46d')) : console['log']('YWQD\x20is\x20not\x20defined');
+                                m79['default'])(window['YWQD']) && _0x136f('0x1f5') == typeof window['YWQD']['add'] ? this['$refs'][_0x136f('0x2e6')] ? window['YWQD']['add'](this['$refs']['renderTargetWatermark'], '<p></p>') : console['log'](_0x136f('0x46d')) : console['log']('YWQD\x20is\x20not\x20defined');
                         },
                         'logOnReadPublishBook': function () {
                             try {
                                 var _0x585ad3 = this['reportVid']()
                                     , _0x5acb7a = this[_0x136f('0x85')]
                                     , _0x3a806b = 0x1 === this['bookInfo'][_0x136f('0x461')]
-                                    , _0x4ff373 = new _0x4bb425['default']()['getDeviceInfo']()
+                                    , _0x4ff373 = new m24['default']()['getDeviceInfo']()
                                     ,
                                     _0x1ce8a9 = _0x136f('0x38b') === this['OS'] ? 0x1 : 'Android' === this['OS'] ? 0x2 : 0x0;
-                                _0x55441a['wrReport']['baseCHReport']({
+                                m395['wrReport']['baseCHReport']({
                                     'itemName': 'Web_Reader_Enter_PublishBook',
                                     'vid': _0x585ad3,
                                     'pf': _0x1ce8a9,
@@ -14294,36 +14361,36 @@ window.webpackJsonp.push(
                             }
                         },
                         'devExportRender': function () {
-                            _0x1f1044['inDevelopment']() && console['log'](_0x3f16ee);
+                            m9['inDevelopment']() && console['log'](_0x3f16ee);
                         },
-                        'botDetect': (_0x5b1daf = _0x5e75d1.default(_0xb940f8.default.mark(function _0x553ae4(_0x1ef662, _0x1f0a73) {
+                        'botDetect': (_0x5b1daf = m376.default(m375.default.mark(function _0x553ae4(_0x1ef662, _0x1f0a73) {
                                 var _0x5c5d1f, _0x40b66d, _0x5b47db, _0x4e8cbb, _0x593c94, _0x5a4a78, _0x2be0e9;
-                                return _0xb940f8['default']['wrap'](function (_0x264821) {
+                                return m375['default']['wrap'](function (_0x264821) {
                                     for (; ;)
                                         switch (_0x264821['prev'] = _0x264821[_0x136f('0xe')]) {
                                             case 0x0:
                                                 return _0x264821[_0x136f('0x1a7')] = 0x0,
                                                     _0x264821['next'] = 0x3,
-                                                    _0xa10d94['testAll']();
+                                                    m1643['testAll']();
                                             case 0x3:
                                                 if (!(_0x5c5d1f = _0x264821['sent'])[_0x136f('0x360')] && !_0x1ef662) {
                                                     _0x264821[_0x136f('0xe')] = 0x11;
                                                     break;
                                                 }
-                                                return _0x1f1044[_0x136f('0x4a6')]() && console['log'](_0x136f('0x49b')),
+                                                return m9[_0x136f('0x4a6')]() && console['log'](_0x136f('0x49b')),
                                                     _0x264821['next'] = 0x8,
-                                                    _0xa10d94['scanFullFingerPrint']();
+                                                    m1643['scanFullFingerPrint']();
                                             case 0x8:
                                                 _0x40b66d = _0x264821['sent'],
-                                                _0x1f1044['inDevelopment']() && (console['log'](_0x5c5d1f),
+                                                m9['inDevelopment']() && (console['log'](_0x5c5d1f),
                                                     console['log'](_0x40b66d)),
                                                 _0x1f0a73 && _0x5c5d1f['push'](_0x1f0a73),
                                                     _0x5b47db = this['reportVid'](),
                                                     _0x4e8cbb = this['bookId'],
                                                     _0x593c94 = 0x1 === this['bookInfo'][_0x136f('0x461')],
-                                                    _0x5a4a78 = new _0x4bb425['default']()['getDeviceInfo'](),
+                                                    _0x5a4a78 = new m24['default']()['getDeviceInfo'](),
                                                     _0x2be0e9 = _0x136f('0x38b') === this['OS'] ? 0x1 : _0x136f('0xc8') === this['OS'] ? 0x2 : 0x0,
-                                                    _0x55441a['wrReport']['baseCHReport']({
+                                                    m395['wrReport']['baseCHReport']({
                                                         'itemName': _0x136f('0x10a'),
                                                         'vid': _0x5b47db,
                                                         'pf': _0x2be0e9,
@@ -14355,20 +14422,20 @@ window.webpackJsonp.push(
                     }),
                     'watch': {
                         'isInShelf': function (_0x46e5ee) {
-                            this['hasLogin'] && _0x46e5ee && this[_0x136f('0x83')]['dispatch'](_0x5d7148[_0x136f('0x40a')]);
+                            this['hasLogin'] && _0x46e5ee && this[_0x136f('0x83')]['dispatch'](m55[_0x136f('0x40a')]);
                         },
                         'currentChapter': function () {
-                            _0x1f1044['isEnvClient'] && this['requestMemberCardPriceIfNeeded']();
+                            m9['isEnvClient'] && this['requestMemberCardPriceIfNeeded']();
                         },
                         'isShowAutoSearchHint': function (_0x6434b7) {
-                            _0x1f1044[_0x136f('0x37e')] && (_0x6434b7 ? this['reportClientBusiness']({
+                            m9[_0x136f('0x37e')] && (_0x6434b7 ? this['reportClientBusiness']({
                                 'itemName': 'Web_Search_ReaderContentExp'
                             }) : this['reportClientBusiness']({
                                 'itemName': 'Web_Search_ReaderContentClk'
                             }));
                         },
                         'memberCardSummary': function () {
-                            _0x1f1044[_0x136f('0x37e')] && this['checkIfShowMemberCardFreeReadingTips']();
+                            m9[_0x136f('0x37e')] && this['checkIfShowMemberCardFreeReadingTips']();
                         },
                         'isWhiteTheme': function () {
                             this['clearDrawTexts'](),
@@ -14378,14 +14445,14 @@ window.webpackJsonp.push(
                             this[_0x136f('0x268')] ? this['tempContent'] = _0x27bdc3(this['getCurrentSection']['value'], this[_0x136f('0x85')], this['currentChapter']['chapterUid'], this['getCurrentSectionIdx']) : this['tempContent'] = '';
                         }
                     },
-                    'computed': _0x16e253.default({
+                    'computed': m54.default({
                         'displayTopTotalReviewList': function () {
-                            var _0x5cb39f = _0x593f6c[_0x136f('0x2e3')](this['topFriendReviewList']['concat'](this['topReviewList']), function (_0x355b8d, _0x56ccac) {
+                            var _0x5cb39f = m33[_0x136f('0x2e3')](this['topFriendReviewList']['concat'](this['topReviewList']), function (_0x355b8d, _0x56ccac) {
                                 return _0x355b8d[_0x136f('0x34b')]['reviewId'] === _0x56ccac[_0x136f('0x34b')][_0x136f('0x1f3')];
                             });
                             return _0x5cb39f && _0x5cb39f[_0x136f('0x360')] > 0x3 ? _0x5cb39f['slice'](0x0, 0x3) : _0x5cb39f;
                         }
-                    }, _0x52e976.mapState({
+                    }, m57.mapState({
                         'isFooterShown': function (_0x4965dc) {
                             return _0x4965dc['isFooterShown'];
                         },
@@ -14479,7 +14546,7 @@ window.webpackJsonp.push(
                         'relatedAlbum': function (_0x45622f) {
                             return _0x45622f['reader'] && _0x45622f['reader'][_0x136f('0xea')] || '';
                         }
-                    }), _0x52e976.mapGetters([
+                    }), m57.mapGetters([
                         'getChapterWithIdxOffset',
                         'getCurrentSectionIdx',
                         'getCurrentSection',
@@ -14503,13 +14570,13 @@ window.webpackJsonp.push(
                         'isDynamicPDF'
                     ]), {
                         'isImportedBook': function () {
-                            return _0x3113c2['default']['isImportedBook'](this['bookId']);
+                            return m278['default']['isImportedBook'](this['bookId']);
                         },
                         'isPDFBookType': function () {
-                            return _0x3113c2[_0x136f('0x18f')]['actualTreatBookAsPdf'](this['bookInfo']);
+                            return m278[_0x136f('0x18f')]['actualTreatBookAsPdf'](this['bookInfo']);
                         },
                         'isPaidCoinPurchaseOnly': function () {
-                            return _0x3113c2[_0x136f('0x18f')]['isPaidCoinPurchaseOnly'](this[_0x136f('0xa8')]);
+                            return m278[_0x136f('0x18f')]['isPaidCoinPurchaseOnly'](this[_0x136f('0xa8')]);
                         },
                         'isShowCatalogButton': function () {
                             return !this['isPDFBookType'] || this['isPDFBookType'] && this['shouldShowPdfOutline'];
@@ -14518,7 +14585,7 @@ window.webpackJsonp.push(
                             return !!this['relatedAlbum'];
                         },
                         'isShowBuyMemberCardButton': function () {
-                            return !this['hasPaidMemberCard'] && ((!this[_0x136f('0x33c')] || !_0x3113c2['default']['isSupportFreeMemberShip'](this['bookInfo'])) && (this['hasLogin'] && this['isNeedPay'] && !this['isPhone'] && !this['canReceiveMemberCard'] && !this['isBlackUser'] && !this['isSoldOut'] && !_0x3113c2['default']['isSinglePurchaseBook'](this['bookInfo'])));
+                            return !this['hasPaidMemberCard'] && ((!this[_0x136f('0x33c')] || !m278['default']['isSupportFreeMemberShip'](this['bookInfo'])) && (this['hasLogin'] && this['isNeedPay'] && !this['isPhone'] && !this['canReceiveMemberCard'] && !this['isBlackUser'] && !this['isSoldOut'] && !m278['default']['isSinglePurchaseBook'](this['bookInfo'])));
                         },
                         'isShowLoading': function () {
                             var _0x21c5d8 = this[_0x136f('0x407')];
@@ -14534,7 +14601,7 @@ window.webpackJsonp.push(
                             return 'ERROR' === this[_0x136f('0x407')];
                         },
                         'isPayByChapter': function () {
-                            return _0x3113c2['default']['isBuyUnitChapter'](this['bookInfo']);
+                            return m278['default']['isBuyUnitChapter'](this['bookInfo']);
                         },
                         'isPrivateUploadBook': function () {
                             return /^CB_/[_0x136f('0x234')](this['bookId']);
@@ -14556,49 +14623,49 @@ window.webpackJsonp.push(
                         },
                         'hasCurrentChapter': function () {
                             return !this['isPDFBookType'] && this['currentChapter'] && (0x0,
-                                _0x42e3b2['default'])(this['currentChapter'])['length'] > 0x0;
+                                m96['default'])(this['currentChapter'])['length'] > 0x0;
                         },
                         'needReportReadingProgress': function () {
-                            return _0x1f1044['isEnvClient'] && this['hasLogin'];
+                            return m9['isEnvClient'] && this['hasLogin'];
                         },
                         'hasMemberCard': function () {
-                            return _0x4fb3f7['default']['isMemberShipValid'](this['memberCardSummary']);
+                            return m739['default']['isMemberShipValid'](this['memberCardSummary']);
                         },
                         'hasPaidMemberCard': function () {
-                            return _0x4fb3f7['default'][_0x136f('0x2a4')](this[_0x136f('0x492')]);
+                            return m739['default'][_0x136f('0x2a4')](this[_0x136f('0x492')]);
                         },
                         'hasMemberCardDiscount': function () {
-                            return this['hasMemberCard'] && !!_0x593f6c['get'](this['memberCardSummary'], 'isPaying', 0x0) && _0x593f6c['get'](this['bookInfo'], _0x136f('0x413'), 0x0) > 0x0;
+                            return this['hasMemberCard'] && !!m33['get'](this['memberCardSummary'], 'isPaying', 0x0) && m33['get'](this['bookInfo'], _0x136f('0x413'), 0x0) > 0x0;
                         },
                         'canReceiveMemberCard': function () {
-                            return _0x4fb3f7['default']['canReceiveMemberCard'](this['infiniteInfo']);
+                            return m739['default']['canReceiveMemberCard'](this['infiniteInfo']);
                         },
                         'payButtonDisplayInfos': function () {
                             var _0x439e32 = !0x1
                                 , _0x1959e5 = [];
-                            if (_0x3113c2['default']['isBuyUnitWholeBook'](this['bookInfo']))
-                                if (_0x3113c2['default']['isLimitFree'](this['bookInfo'])) {
-                                    var _0x52d617 = _0x593f6c['get'](this['bookInfo'], 'price', 0x0);
+                            if (m278['default']['isBuyUnitWholeBook'](this['bookInfo']))
+                                if (m278['default']['isLimitFree'](this['bookInfo'])) {
+                                    var _0x52d617 = m33['get'](this['bookInfo'], 'price', 0x0);
                                     _0x1959e5['push']('限时免费\x20<span\x20class=\x22lineThrough\x22>' + _0x52d617['toFixed'](0x2) + '</span>');
-                                } else if (_0x3113c2[_0x136f('0x18f')]['isFree'](this['bookInfo']))
+                                } else if (m278[_0x136f('0x18f')]['isFree'](this['bookInfo']))
                                     _0x1959e5['push']('免费获取');
                                 else if (this['hasMemberCardDiscount']) {
-                                    var _0x2a4e4c = _0x593f6c['get'](this[_0x136f('0xa8')], 'price', 0x0) * (0x64 - _0x593f6c[_0x136f('0x48c')](this['bookInfo'], 'mcardDiscount', 0x0)) / 0x64;
+                                    var _0x2a4e4c = m33['get'](this[_0x136f('0xa8')], 'price', 0x0) * (0x64 - m33[_0x136f('0x48c')](this['bookInfo'], 'mcardDiscount', 0x0)) / 0x64;
                                     _0x1959e5[_0x136f('0xda')]('购买本书\x20' + _0x2a4e4c['toFixed'](0x2)),
                                         _0x439e32 = !0x0;
                                 } else {
-                                    var _0x56b5d5 = _0x593f6c['get'](this[_0x136f('0xa8')], 'price', 0x0);
+                                    var _0x56b5d5 = m33['get'](this[_0x136f('0xa8')], 'price', 0x0);
                                     _0x1959e5['push']('购买本书\x20' + _0x56b5d5['toFixed'](0x2));
                                 }
-                            else if (_0x3113c2['default']['isSinglePurchaseBook'](this[_0x136f('0xa8')])) {
-                                var _0x355278 = _0x593f6c['get'](this['bookInfo'], 'centPrice', 0x0) / 0x64;
+                            else if (m278['default']['isSinglePurchaseBook'](this[_0x136f('0xa8')])) {
+                                var _0x355278 = m33['get'](this['bookInfo'], 'centPrice', 0x0) / 0x64;
                                 _0x1959e5['push'](_0x136f('0x180') + _0x355278['toFixed'](0x2));
                             } else if (this['hasMemberCardDiscount']) {
-                                var _0x441ece = _0x593f6c['get'](this['currentChapter'], 'price', 0x0) * (0x64 - _0x593f6c['get'](this['bookInfo'], 'mcardDiscount', 0x0)) / 0x64;
+                                var _0x441ece = m33['get'](this['currentChapter'], 'price', 0x0) * (0x64 - m33['get'](this['bookInfo'], 'mcardDiscount', 0x0)) / 0x64;
                                 _0x1959e5[_0x136f('0xda')]('购买本章\x20' + _0x441ece[_0x136f('0x458')](0x2)),
                                     _0x439e32 = !0x0;
                             } else {
-                                var _0x187692 = _0x593f6c['get'](this[_0x136f('0x44d')], _0x136f('0x23f'), 0x0);
+                                var _0x187692 = m33['get'](this[_0x136f('0x44d')], _0x136f('0x23f'), 0x0);
                                 _0x1959e5['push']('购买本章\x20' + _0x187692[_0x136f('0x458')](0x2));
                             }
                             return {
@@ -14614,11 +14681,11 @@ window.webpackJsonp.push(
                             if (0x1 === _0x4f06a1['finished'])
                                 return ['全书完'];
                             var _0x498745 = ['未完待续'];
-                            if (_0x3113c2['default'][_0x136f('0x38c')](_0x4f06a1)) {
+                            if (m278['default'][_0x136f('0x38c')](_0x4f06a1)) {
                                 var _0x5c80c7 = _0x4f06a1['updateTime'];
                                 if (_0x5c80c7) {
                                     var _0x1e1788 = new Date(0x3e8 * _0x5c80c7)
-                                        , _0x412889 = _0x443c72['default']['formatTime'](_0x1e1788);
+                                        , _0x412889 = m77['default']['formatTime'](_0x1e1788);
                                     _0x498745['push']('已阅读至最新章节\x20·\x20最近更新于\x20' + _0x412889);
                                 }
                             }
@@ -14666,8 +14733,8 @@ window.webpackJsonp.push(
                                 , _0x1c36e7 = []
                                 , _0x2e5faf = [];
                             _0x1c1419['forEach'](function (_0x425549) {
-                                if (_0x425549['noteType'] !== _0x139df6[_0x136f('0x468')]) {
-                                    if (_0x425549['noteType'] === _0x139df6['NoteTypeBookmark'] && _0x425549[_0x136f('0x93')] === _0x58110a['BookMarkTypeUnderline']) {
+                                if (_0x425549['noteType'] !== m789[_0x136f('0x468')]) {
+                                    if (_0x425549['noteType'] === m789['NoteTypeBookmark'] && _0x425549[_0x136f('0x93')] === m1220['BookMarkTypeUnderline']) {
                                         _0x2e5faf['push'](_0x425549);
                                         var _0x40ca93 = _0x56da88['findObjsInOffsetRange'](_0x3f16ee, _0x425549['range']['start'], _0x425549['range']['end']);
                                         _0x56da88[_0x136f('0x3e6')](_0x40ca93)['forEach'](function (_0x2f0049, _0x5415b2) {
@@ -14689,12 +14756,12 @@ window.webpackJsonp.push(
                             return _0x1c36e7['forEach'](function (_0x5da4f2) {
                                 for (var _0xe81339 = _0x5da4f2['range'], _0x113e3b = null, _0x3fe39a = 0x0, _0x13d4b7 = _0x1f6d6c['length']; _0x3fe39a < _0x13d4b7; _0x3fe39a++) {
                                     var _0x1a645b = _0x1f6d6c[_0x3fe39a];
-                                    if (_0x5e2bfc[_0x136f('0x18f')]['isIntersection'](_0x1a645b['mergedRange'], _0xe81339)) {
+                                    if (m1152[_0x136f('0x18f')]['isIntersection'](_0x1a645b['mergedRange'], _0xe81339)) {
                                         _0x113e3b = _0x1a645b;
                                         break;
                                     }
                                 }
-                                _0x113e3b ? (_0x113e3b['mergedRange'] = _0x5e2bfc['default']['union'](_0x113e3b['mergedRange'], _0xe81339),
+                                _0x113e3b ? (_0x113e3b['mergedRange'] = m1152['default']['union'](_0x113e3b['mergedRange'], _0xe81339),
                                     _0x113e3b['notes']['push'](_0x5da4f2)) : _0x1f6d6c[_0x136f('0xda')]({
                                     'mergedRange': _0xe81339,
                                     'notes': [_0x5da4f2]
@@ -14740,10 +14807,10 @@ window.webpackJsonp.push(
                                 _0x5514fa;
                         },
                         'showDevPanel': function () {
-                            return _0x1f1044[_0x136f('0x37e')] ? _0x1f1044[_0x136f('0x4a6')]() || window[_0x136f('0x184')] : _0x1f1044['inDevelopment']();
+                            return m9[_0x136f('0x37e')] ? m9[_0x136f('0x4a6')]() || window[_0x136f('0x184')] : m9['inDevelopment']();
                         },
                         'needSerialProcess': function () {
-                            var _0x16a057 = _0x593f6c['get'](this['bookInfo'], 'cpid', 0x26);
+                            var _0x16a057 = m33['get'](this['bookInfo'], 'cpid', 0x26);
                             return this['isPayByChapter'] && !this['isBookFinished'] && this['currentChapter']['chapterIdx'] >= Math[_0x136f('0x466')](this['bookInfo']['lastChapterIdx'] - 0x14, 0x0) && !this['isNeedPay'] && _0x16a057 <= 0x25;
                         },
                         'showPrevButton': function () {
