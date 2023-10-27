@@ -5,3 +5,4 @@ local overrides for common website
 
 - https://weread.qq.com/
 - https://xinghuo.xfyun.cn/
+- https://m-tob.jd.com/
