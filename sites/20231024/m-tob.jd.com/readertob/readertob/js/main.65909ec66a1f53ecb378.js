@@ -50,6 +50,8 @@
                             }
                     }
                 },
+
+                // and here
                 6273: function (module, exports, require) {
                     require.d(exports, {
                         ap: function () {
@@ -79,25 +81,25 @@
                         vn: function () {
                             return pp
                         }
-                    });
-                    var r = require(9669)
-                        , o = require.n(r)
-                        , m82835 = require(82835)
-                        , a = require(31018);
+                    })
 
-                    console.log(m82835)
+                    var _m9669 = require(9669),
+                        m9669 = require.n(_m9669),
+                        m82835 = require(82835),
+                        m31018 = require(31018);
 
-                    o().defaults.withCredentials = !0
-                    o().defaults.timeout = 6e4
-                    o().defaults.headers.post["Content-Type"] = "application/json; charset=utf-8"
-                    o().defaults.withCredentials = !0
-                    o().interceptors.request.use(function (config) {
+                    m9669().defaults.withCredentials = true
+                    m9669().defaults.timeout = 60_000
+                    m9669().defaults.headers.post["Content-Type"] = "application/json; charset=utf-8"
+                    m9669().defaults.withCredentials = true
+
+                    // 在请求拦截器中对参数加密
+                    m9669().interceptors.request.use(config => {
                         if (config.url.startsWith("https://beta-api.m.jd.com/api") || config.url.startsWith("https://api.m.jd.com/api")) {
                             return config
                         }
-                        var enc,
-                            now = new Date().getTime();
 
+                        let enc
                         if ("post" === config.method) {
                             enc = config.data.enc || 0
                         } else if ("get" === config.method) {
@@ -106,34 +108,46 @@
                                 delete config.params.enc
                             }
                         }
-                        config.url = m82835.En.init(config.url, now, enc)
+
+                        debugger
+                        let timestamp = new Date().getTime()
+                        config.url = m82835.En.init(config.url, timestamp, enc)
+
                         return config
-                    }, function (t) {
-                        return Promise.reject(t)
-                    })
-                    o().interceptors.response.use(function (t) {
-                        var e = a.pf(t.config.url);
-                        if (e.enc && 1 === Number(e.enc)) {
-                            var n = e.tm;
-                            return m82835.En.decrypt(t.data, m82835.En.getKey(n), n)
-                        }
-                        if (8 === t.data.result_code) {
-                            window.Reader.$store.dispatch("setException", 1)
-                            document.querySelector(".loading-comp-box").style.display = "none"
-                        } else if (3 === t.data.result_code) {
-                            var r = a.Zd();
-                            r ? window.location.href = r : window.Reader.$store.dispatch("setException", 2)
-                        } else {
-                            2 === window.Reader.$store.getters.exception && 3 === t.data.result_code || window.Reader.$store.dispatch("setException", 0);
-                        }
-                        return t.data
-                    }, function (t) {
-                        return "Network Error" === t.message && (window.Reader.$store.dispatch("setException", 1),
-                            document.querySelector(".loading-comp-box").style.display = "none"),
-                            Promise.reject(t)
+                    }, err => {
+                        return Promise.reject(err)
                     })
 
-                    var c = o(),
+                    // 在响应拦截器中对数据解密
+                    m9669().interceptors.response.use(resp => {
+                        let e = m31018.pf(resp.config.url)
+                        if (e.enc && 1 === Number(e.enc)) {
+                            let timestamp = e.tm
+                            return m82835.En.decrypt(resp.data, m82835.En.getKey(timestamp), timestamp)
+                        }
+                        if (8 === resp.data.result_code) {
+                            window.Reader.$store.dispatch("setException", 1)
+                            document.querySelector(".loading-comp-box").style.display = "none"
+                        } else if (3 === resp.data.result_code) {
+                            let url = m31018.Zd()
+                            if (url) {
+                                window.location.href = url
+                            } else {
+                                window.Reader.$store.dispatch("setException", 2)
+                            }
+                        } else {
+                            2 === window.Reader.$store.getters.exception && 3 === resp.data.result_code || window.Reader.$store.dispatch("setException", 0)
+                        }
+                        return resp.data
+                    }, err => {
+                        if ("Network Error" === err.message) {
+                            window.Reader.$store.dispatch("setException", 1)
+                            document.querySelector(".loading-comp-box").style.display = "none"
+                        }
+                        return Promise.reject(err)
+                    })
+
+                    var c = m9669(),
                         u = require(90507),
                         s = "undefined" != typeof globalThis ? globalThis : "undefined" != typeof window ? window : void 0 !== require.g ? require.g : "undefined" != typeof self ? self : {};
                     var f = {
@@ -13706,7 +13720,7 @@
                     }
 
                     var ip = (0,
-                        a.pf)(window.location.href)
+                        m31018.pf)(window.location.href)
                         , ap = "https://api.m.jd.com/api?functionId="
                         , cp = "jdread-m"
                         , up = new Hd({
@@ -21382,7 +21396,7 @@
                     }
                 },
 
-                // here
+                // look here (加解密工具类)
                 82835: function (module, exports, require) {
                     let m81354 = require(81354),
                         _m81354 = require.n(m81354),
@@ -21590,6 +21604,7 @@
                         }
                     })
                 },
+
                 58515: function (t, e, n) {
                     "use strict";
 

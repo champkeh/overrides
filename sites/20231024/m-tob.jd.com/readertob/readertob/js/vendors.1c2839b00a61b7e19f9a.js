@@ -953,55 +953,69 @@ self.webpackChunkreader.push(
                     return !(!t || !t.__CANCEL__)
                 }
             },
-            30321: function (t, e, n) {
-                "use strict";
-                var r = n(64867)
-                    , i = n(15327)
-                    , o = n(80782)
-                    , a = n(13572)
-                    , s = n(47185)
-                    , c = n(54875)
+            30321: function (module, exports, require) {
+                var r = require(64867)
+                    , i = require(15327)
+                    , o = require(80782)
+                    , a = require(13572)
+                    , s = require(47185)
+                    , c = require(54875)
                     , u = c.validators;
 
-                function f(t) {
-                    this.defaults = t,
-                        this.interceptors = {
-                            request: new o,
-                            response: new o
-                        }
+                function Axios(t) {
+                    this.defaults = t
+                    this.interceptors = {
+                        request: new o,
+                        response: new o
+                    }
                 }
 
-                f.prototype.request = function (t) {
-                    debugger
-                    "string" == typeof t ? (t = arguments[1] || {}).url = arguments[0] : t = t || {},
-                        (t = s(this.defaults, t)).method ? t.method = t.method.toLowerCase() : this.defaults.method ? t.method = this.defaults.method.toLowerCase() : t.method = "get";
-                    var e = t.transitional;
-                    void 0 !== e && c.assertOptions(e, {
-                        silentJSONParsing: u.transitional(u.boolean),
-                        forcedJSONParsing: u.transitional(u.boolean),
-                        clarifyTimeoutError: u.transitional(u.boolean)
-                    }, !1);
-                    var n = []
-                        , r = !0;
-                    this.interceptors.request.forEach((function (e) {
-                            "function" == typeof e.runWhen && !1 === e.runWhen(t) || (r = r && e.synchronous,
-                                n.unshift(e.fulfilled, e.rejected))
+                Axios.prototype.request = function (option) {
+                    if ("string" == typeof option) {
+                        (option = arguments[1] || {}).url = arguments[0]
+                    } else {
+                        option = option || {}
+                    }
+                    option = s(this.defaults, option)
+                    if (option.method) {
+                        option.method = option.method.toLowerCase()
+                    } else {
+                        if (this.defaults.method) {
+                            option.method = this.defaults.method.toLowerCase()
+                        } else {
+                            option.method = "get"
                         }
-                    ));
+                    }
+                    let e = option.transitional
+                    if (undefined !== e) {
+                        c.assertOptions(e, {
+                            silentJSONParsing: u.transitional(u.boolean),
+                            forcedJSONParsing: u.transitional(u.boolean),
+                            clarifyTimeoutError: u.transitional(u.boolean)
+                        }, false)
+                    }
+
+                    let n = [],
+                        r = true;
+                    this.interceptors.request.forEach((e) => {
+                        if (!("function" === typeof e.runWhen && false === e.runWhen(option))) {
+                            r = r && e.synchronous
+                            n.unshift(e.fulfilled, e.rejected)
+                        }
+                    })
                     var i, o = [];
-                    if (this.interceptors.response.forEach((function (t) {
-                            o.push(t.fulfilled, t.rejected)
-                        }
-                    )),
-                        !r) {
+                    this.interceptors.response.forEach((t) => {
+                        o.push(t.fulfilled, t.rejected)
+                    })
+                    if (!r) {
                         var f = [a, void 0];
                         for (Array.prototype.unshift.apply(f, n),
                                  f = f.concat(o),
-                                 i = Promise.resolve(t); f.length;)
+                                 i = Promise.resolve(option); f.length;)
                             i = i.then(f.shift(), f.shift());
                         return i
                     }
-                    for (var l = t; n.length;) {
+                    for (var l = option; n.length;) {
                         var p = n.shift()
                             , h = n.shift();
                         try {
@@ -1020,33 +1034,30 @@ self.webpackChunkreader.push(
                         i = i.then(o.shift(), o.shift());
                     return i
                 }
-                    ,
-                    f.prototype.getUri = function (t) {
-                        return t = s(this.defaults, t),
-                            i(t.url, t.params, t.paramsSerializer).replace(/^\?/, "")
+                Axios.prototype.getUri = function (option) {
+                    option = s(this.defaults, option)
+                    return i(option.url, option.params, option.paramsSerializer).replace(/^\?/, "")
+                }
+                r.forEach(["delete", "get", "head", "options"], (method) => {
+                    Axios.prototype[method] = function (url, option) {
+                        return this.request(s(option || {}, {
+                            method: method,
+                            url: url,
+                            data: (option || {}).data
+                        }))
                     }
-                    ,
-                    r.forEach(["delete", "get", "head", "options"], (function (t) {
-                            f.prototype[t] = function (e, n) {
-                                return this.request(s(n || {}, {
-                                    method: t,
-                                    url: e,
-                                    data: (n || {}).data
-                                }))
-                            }
-                        }
-                    )),
-                    r.forEach(["post", "put", "patch"], (function (t) {
-                            f.prototype[t] = function (e, n, r) {
-                                return this.request(s(r || {}, {
-                                    method: t,
-                                    url: e,
-                                    data: n
-                                }))
-                            }
-                        }
-                    )),
-                    t.exports = f
+                })
+                r.forEach(["post", "put", "patch"], (method) => {
+                    Axios.prototype[method] = function (url, data, option) {
+                        return this.request(s(option || {}, {
+                            method: method,
+                            url: url,
+                            data: data
+                        }))
+                    }
+                })
+
+                module.exports = Axios
             },
             80782: function (t, e, n) {
                 "use strict";
