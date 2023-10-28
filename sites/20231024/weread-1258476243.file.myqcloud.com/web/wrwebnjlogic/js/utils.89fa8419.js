@@ -332,13 +332,24 @@ window.webpackJsonp.push(
 
                 _0x18ff8a['default'] = {
                     'isChapterNeedPay': function (_0x365ffd) {
-                        var _0x4b9502 = _0x365ffd['bookInfo']
-                            , _0x3994cc = _0x365ffd['memberCardSummary']
-                            , _0xc93be0 = _0x365ffd['chapter'];
-                        return (!_0x3994cc || !_0x249b90['default']['canBookFreeReading']({
-                            'bookInfo': _0x4b9502,
-                            'memberCardSummary': _0x3994cc
-                        })) && (!_0x4dab75['default']['isFree'](_0x4b9502) && (!_0x4dab75['default']['isLimitFree'](_0x4b9502) && (0x0 === _0x4b9502['paid'] && (!(_0x4b9502['maxFreeChapter'] >= _0xc93be0['chapterIdx']) && (!_0x4dab75['default'][_0x2180('0x28')](_0x4b9502) || _0xc93be0['price'] > 0x0 && 0x0 === _0xc93be0['paid'])))));
+                        let bookInfo = _0x365ffd['bookInfo'],
+                            memberCardSummary = _0x365ffd['memberCardSummary'],
+                            chapter = _0x365ffd['chapter'];
+                        if (!memberCardSummary || !_0x249b90.default.canBookFreeReading({
+                            'bookInfo': bookInfo,
+                            'memberCardSummary': memberCardSummary
+                        })) {
+                            if (!_0x4dab75.default.isFree(bookInfo)) {
+                                if (!_0x4dab75.default.isLimitFree(bookInfo)) {
+                                    if (0 === bookInfo.paid) {
+                                        if (!(bookInfo.maxFreeChapter >= chapter.chapterIdx)) {
+                                            return !_0x4dab75.default.isBuyUnitChapter(bookInfo) || chapter.price > 0 && 0 === chapter.paid
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        return true
                     },
                     'formatChapterUids': function (_0x16a6e6) {
                         if (0x0 === _0x16a6e6['length'])
@@ -581,14 +592,16 @@ window.webpackJsonp.push(
                     'WrBookUploadErrorType': _0x265747
                 };
             },
-            788: function (_0xda0ef9, _0x45bafa, _0x41c96d) {
-                'use strict';
-                Object['defineProperty'](_0x45bafa, _0x2180('0x56'), {
+
+            // ReviewListType
+            788: function (module, exports, require) {
+                Object.defineProperty(exports, _0x2180('0x56'), {
                     'value': !0x0
-                });
-                _0x45bafa['ReviewListTypeBookTop'] = 0x3,
-                    _0x45bafa['ReviewListTypeBookFriendTop'] = 0x4,
-                    _0x45bafa[_0x2180('0x40')] = 0xb;
+                })
+
+                exports.ReviewListTypeBookTop = 3
+                exports.ReviewListTypeBookFriendTop = 4
+                exports.ReviewListTypeNote = 11
             },
             789: function (_0x38cf3a, _0x122f76, _0x386ac0) {
                 'use strict';

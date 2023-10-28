@@ -8015,7 +8015,6 @@ window.webpackJsonp.push(
                     })
 
                     _0x46aa10.default(mutations, _0x523bfb['UPDATE_READER_CONTENT_HTML'], function (state, _0x328636) {
-                        debugger
                         state.chapterContentHtml = _0x328636.map(function (_0x43a0e2, _0x14feeb) {
                             var _0x50de70 = function (_0x19cd92, _0xf8668a) {
                                 if (!_0x19cd92 || _0x19cd92['length'] <= 0x0)
@@ -8039,7 +8038,6 @@ window.webpackJsonp.push(
                         })
                     })
                     _0x46aa10.default(mutations, _0x523bfb['UPDATE_READER_CONTENT_STYLES'], function (state, _0x3f73c1) {
-                        debugger
                         state.chapterContentStyles = function (_0x217fc7, _0x31aac3) {
                             if (!_0x217fc7 || _0x217fc7['length'] <= 0x0)
                                 return '';
@@ -8056,11 +8054,9 @@ window.webpackJsonp.push(
                         }(_0x3f73c1 || '', state[_0x136f('0x85')]);
                     })
                     _0x46aa10.default(mutations, _0x523bfb['UPDATE_READER_CHAPTER_CONTENT_TARGET_HTML'], function (state, payload) {
-                        debugger
                         state.chapterContentTargetHtml = payload || {};
                     })
                     _0x46aa10.default(mutations, _0x523bfb['UPDATE_READER_CHAPTER_CANVAS_TARGET_HTML'], function (_0x3000f0, _0x17c518) {
-                        debugger
                         _0x3000f0.chapterContentTargetCanvasHtml = _0x17c518 || '';
                     })
                     _0x46aa10.default(mutations, _0x523bfb['UPDATE_READER_CONTENT_STATE'], function (state, payload) {
@@ -8645,8 +8641,8 @@ window.webpackJsonp.push(
                                 _getters = context['getters'];
 
                             return _0x4506c3.default.wrap(function (_0x25579e) {
+                                debugger
                                 for (; ;) {
-                                    debugger
                                     switch (_0x25579e['prev'] = _0x25579e['next']) {
                                         case 0x0:
                                             _0x58e77e.get(this.user, 'vid', 0)
@@ -8687,6 +8683,7 @@ window.webpackJsonp.push(
                                                 _0x25579e['next'] = 0x10;
                                                 break;
                                             }
+                                            // 书已下架
                                             promise = new _0x104d45.default((resolve) => {
                                                 _commit(_0x523bfb['UPDATE_READER_CONTENT_HTML'], [])
                                                 _commit(_0x523bfb['UPDATE_READER_CONTENT_STYLES'], '')
@@ -8721,37 +8718,39 @@ window.webpackJsonp.push(
                                             })
                                         case 0x15:
                                             promise = _0x104d45.default.all([
-                                                _0x24f6f0.default('/web/book/chapter/e_0', getRequestPayload(payload), function (_0xdcaf7b) {
-                                                    var _0x5a79fa = _0xdcaf7b['data'];
-                                                    return _0x5a79fa && 'string' == typeof _0x5a79fa ? _0x244b39['chk'](_0x5a79fa) : '';
+                                                _0x24f6f0.default('/web/book/chapter/e_0', getRequestPayload(payload), (resp) => {
+                                                    let respData = resp['data'];
+                                                    return respData && 'string' == typeof respData ? _0x244b39['chk'](respData) : '';
                                                 }, function (_0x41046b) {
                                                     return _0x11c122('Error\x20in\x20fetchContent', _0x41046b),
                                                         _0x41046b;
                                                 }),
-                                                _0x24f6f0.default('/web/book/chapter/e_1', getRequestPayload(payload), function (_0x4272cf) {
-                                                    var _0x56ed2e = _0x4272cf[_0x136f('0x285')];
-                                                    return _0x56ed2e && 'string' == typeof _0x56ed2e ? _0x244b39['chk'](_0x56ed2e) : '';
+                                                _0x24f6f0.default('/web/book/chapter/e_1', getRequestPayload(payload), (resp) => {
+                                                    let respData = resp.data;
+                                                    return respData && 'string' == typeof respData ? _0x244b39['chk'](respData) : '';
                                                 }, function (_0x2972f3) {
                                                     return _0x11c122('Error\x20in\x20fetchContent', _0x2972f3),
                                                         _0x2972f3;
                                                 }),
                                                 _0x24f6f0.default('/web/book/chapter/e_2', getRequestPayload(_0x12ee2c.default({}, payload, {
-                                                    'st': 0x1
-                                                })), function (_0x350422) {
-                                                    var _0x28f3a1 = _0x350422['data'];
-                                                    return _0x28f3a1 && 'string' == typeof _0x28f3a1 ? _0x244b39['chk'](_0x28f3a1) : '';
+                                                    'st': 1
+                                                })), (resp) => {
+                                                    let respData = resp['data'];
+                                                    return respData && 'string' == typeof respData ? _0x244b39['chk'](respData) : '';
                                                 }, function (_0x58a9a0) {
                                                     return _0x11c122('Error\x20in\x20fetchContent', _0x58a9a0),
                                                         _0x58a9a0;
                                                 }),
-                                                _0x24f6f0.default('/web/book/chapter/e_3', getRequestPayload(payload), function (_0x28be28) {
-                                                    var _0x585288 = _0x28be28['data'];
-                                                    return _0x585288 && 'string' == typeof _0x585288 ? _0x244b39['chk'](_0x585288) : '';
+                                                _0x24f6f0.default('/web/book/chapter/e_3', getRequestPayload(payload), (resp) => {
+                                                    let respData = resp['data'];
+                                                    return respData && 'string' == typeof respData ? _0x244b39['chk'](respData) : '';
                                                 }, function (_0x18a294) {
                                                     return _0x11c122(_0x136f('0x286'), _0x18a294),
                                                         _0x18a294;
                                                 })
                                             ]).then((results) => {
+                                                debugger
+
                                                 if ('string' == typeof results[0] && results[0].length > 0 && 'string' == typeof results[1] && results[1].length > 0 && 'string' == typeof results[3] && results[3].length > 0) {
                                                     let styles = _0x244b39['dS'](results[2]);
                                                     _0x35ff76.inDevelopment() && console.log('[reader-layout] enable translate = ', _getters.isTranslationEnabled)
@@ -8782,33 +8781,28 @@ window.webpackJsonp.push(
                                                     }
                                                 } else {
                                                     var _0x5be741 = null;
-                                                    if ('object' === (0x0,
-                                                        _0x498a8a['default'])(results[0x0]) ? _0x5be741 = results[0x0] : 'object' === (0x0,
-                                                        _0x498a8a['default'])(results[0x1]) ? _0x5be741 = results[0x1] : 'object' === (0x0,
-                                                        _0x498a8a['default'])(results[0x2]) ? _0x5be741 = results[0x2] : 'object' === (0x0,
-                                                        _0x498a8a['default'])(results[0x3]) && (_0x5be741 = results[0x3]),
-                                                        _0x5be741) {
-                                                        var _0xbef5de = _0x5be741[_0x136f('0x436')];
-                                                        if (-0x7dc === _0xbef5de || -0x7da === _0xbef5de)
-                                                            return _0x104d45['default']['reject']({
-                                                                'isCustomError': !0x0,
-                                                                'reason': _0x136f('0x110')
-                                                            });
-                                                        if (-0x7dd === _0xbef5de)
-                                                            return _0x104d45['default']['reject']({
-                                                                'isCustomError': !0x0,
-                                                                'reason': _0x136f('0x394')
-                                                            });
+                                                    'object' === _0x498a8a.default(results[0]) ? _0x5be741 = results[0] : 'object' === _0x498a8a.default(results[1]) ? _0x5be741 = results[1] : 'object' === _0x498a8a.default(results[2]) ? _0x5be741 = results[2] : 'object' === _0x498a8a.default(results[3]) && (_0x5be741 = results[3])
+                                                    if (_0x5be741) {
+                                                        let errCode = _0x5be741.errCode
+                                                        if (-2012 === errCode || -2010 === errCode)
+                                                            return _0x104d45.default.reject({
+                                                                'isCustomError': true,
+                                                                'reason': 'forceReload'
+                                                            })
+                                                        if (-2013 === errCode)
+                                                            return _0x104d45.default.reject({
+                                                                'isCustomError': true,
+                                                                'reason': 'sessionTimeout'
+                                                            })
                                                         var _0x468aa0 = '';
                                                         try {
-                                                            _0x468aa0 = (0x0,
-                                                                _0x36578f['default'])(_0x5be741);
+                                                            _0x468aa0 = _0x36578f.default(_0x5be741)
                                                         } catch (_0x2eec95) {
                                                             console['log'](_0x2eec95);
                                                         }
                                                         _0x5cc6aa({
-                                                            'code': _0xbef5de,
-                                                            'message': _0x5be741['errMsg'],
+                                                            'code': errCode,
+                                                            'message': _0x5be741.errMsg,
                                                             'comm1': _0x468aa0
                                                         });
                                                     }
@@ -8935,60 +8929,73 @@ window.webpackJsonp.push(
                                 return _0x8f774c['apply'](this, arguments);
                             }
                     ))
-                    _0x46aa10.default(actions, _0x112cb5['CHANGE_READER_CHAPTER'], function (_0x2384da, _0x4e2f30) {
-                        var _0x329c9a = _0x2384da['dispatch']
-                            , _0x263ec9 = _0x2384da['commit']
-                            , _0x50d415 = _0x2384da['state']
-                            , _0x1886fe = _0x2384da['getters']
-                            , _0x344489 = _0x4e2f30['chapterUid']
-                            , _0x19b7a2 = _0x4e2f30['sectionId']
-                            , _0x409a80 = _0x4e2f30['pushStack'];
-                        _0x4e2f30['isLogin'];
-                        if (!_0x50d415)
-                            return _0x104d45[_0x136f('0x18f')]['reject']({
-                                'isCustomError': !0x0,
+                    _0x46aa10.default(actions, _0x112cb5['CHANGE_READER_CHAPTER'], function (context, payload) {
+                        debugger
+
+                        let _dispatch = context['dispatch'],
+                            _commit = context['commit'],
+                            _state = context['state'],
+                            _getters = context['getters'],
+                            chapterUid = payload['chapterUid'],
+                            sectionId = payload['sectionId'],
+                            pushStack = payload['pushStack'];
+                        // payload['isLogin'];
+                        if (!_state) {
+                            return _0x104d45.default.reject({
+                                'isCustomError': true,
                                 'reason': 'stateIsNull'
-                            });
-                        if ('LOADING' === _0x50d415[_0x136f('0x407')] || 'PRERENDER' === _0x50d415['chapterContentState'])
-                            return _0x104d45['default'][_0x136f('0x493')]({
-                                'isCustomError': !0x0,
-                                'reason': _0x50d415[_0x136f('0x407')]
-                            });
-                        if (_0x58e77e[_0x136f('0x48c')](_0x50d415['currentChapter'], 'chapterUid', 0x0) === _0x344489)
-                            return _0x104d45['default'][_0x136f('0x493')]({
-                                'isCustomError': !0x0,
+                            })
+                        }
+                        if ('LOADING' === _state.chapterContentState || 'PRERENDER' === _state.chapterContentState) {
+                            return _0x104d45.default.reject({
+                                'isCustomError': true,
+                                'reason': _state.chapterContentState
+                            })
+                        }
+                        if (_0x58e77e.get(_state.currentChapter, 'chapterUid', 0) === chapterUid) {
+                            return _0x104d45.default.reject({
+                                'isCustomError': true,
                                 'reason': 'currentChapter'
-                            });
-                        var _0x5be0bd = void 0x0
-                            , _0x5d7e75 = _0x1886fe['getChapterWithIdxOffset'](0x1);
-                        if (_0x5d7e75 && _0x5d7e75['chapterUid'] === _0x344489 && (_0x5be0bd = _0x5d7e75),
-                        _0x5be0bd || (_0x5be0bd = _0x1886fe[_0x136f('0x33d')](_0x344489)),
-                            !_0x5be0bd)
-                            return _0x104d45[_0x136f('0x18f')]['reject']({
-                                'isCustomError': !0x0,
-                                'reason': _0x136f('0x2c')
-                            });
-                        if (_0x5be0bd) {
-                            var _0x1e3dd9 = _0x50d415[_0x136f('0x44d')];
-                            _0x263ec9(_0x523bfb[_0x136f('0x17e')], _0x5be0bd),
-                                _0x263ec9(_0x523bfb['UPDATE_READER_CONTENT_IS_DIRTY'], !0x0),
-                            window && !_0x409a80 && null == _0x19b7a2 && window['history'][_0x136f('0xc')]({
-                                'prev': _0x1e3dd9,
-                                'curr': _0x5be0bd
-                            }, null, _0x33fd99['readerURL'](_0x50d415['bookId'], {
-                                'chapterUid': _0x344489
-                            }));
-                            var _0x2b5772 = _0x325532['default']['isChapterNeedPay']({
-                                'bookInfo': _0x50d415['bookInfo'],
-                                'memberCardSummary': _0x50d415['memberCardSummary'],
-                                'chapter': _0x5be0bd
-                            });
-                            return _0x329c9a(_0x112cb5[_0x136f('0xc1')], {
-                                'prevChapter': -0x1 === _0x19b7a2
-                            })[_0x136f('0x26e')](function () {
-                                if (_0x2b5772)
-                                    return _0x329c9a(_0x112cb5[_0x136f('0x261')]);
-                            });
+                            })
+                        }
+
+                        let chapter = undefined,
+                            nextChapter = _getters.getChapterWithIdxOffset(1);
+                        if (nextChapter && nextChapter.chapterUid === chapterUid) {
+                            chapter = nextChapter
+                        }
+                        chapter || (chapter = _getters.getChapterWithChapterUid(chapterUid))
+                        if (!chapter) {
+                            return _0x104d45.default.reject({
+                                'isCustomError': true,
+                                'reason': 'chapterNotExist'
+                            })
+                        }
+                        if (chapter) {
+                            let currentChapter = _state.currentChapter
+                            _commit(_0x523bfb['UPDATE_READER_CURRENT_CHAPTER'], chapter)
+                            _commit(_0x523bfb['UPDATE_READER_CONTENT_IS_DIRTY'], true)
+
+                            if (window && !pushStack && null == sectionId) {
+                                window.history.pushState({
+                                    'prev': currentChapter,
+                                    'curr': chapter
+                                }, null, _0x33fd99.readerURL(_state.bookId, {
+                                    'chapterUid': chapterUid
+                                }))
+                            }
+                            let chapterNeedPay = _0x325532.default.isChapterNeedPay({
+                                'bookInfo': _state.bookInfo,
+                                'memberCardSummary': _state.memberCardSummary,
+                                'chapter': chapter
+                            })
+                            return _dispatch(_0x112cb5['FETCH_READER_CHAPTER_CONTENT'], {
+                                'prevChapter': -1 === sectionId
+                            }).then(() => {
+                                if (chapterNeedPay) {
+                                    return _dispatch(_0x112cb5['FETCH_READER_MEMBER_CARD_SUMMARY'])
+                                }
+                            })
                         }
                     })
                     _0x46aa10.default(actions, _0x112cb5['CHANGE_READER_SECTION'], function (_0x2d2e60, _0x1dbc35) {
@@ -9570,17 +9577,17 @@ window.webpackJsonp.push(
                         var vid = payload['vid'];
                         return !!vid && !!_0x31aeec.default.getReaderDangerModeOperator(vid).get()
                     })
-                    _0x46aa10.default(actions, _0x112cb5['ENTER_DANGER_MODE'], function (_0xeb6f80, _0x83d7a7) {
-                        _0xeb6f80[_0x136f('0x3fd')],
-                            _0xeb6f80['commit'];
-                        var _0x2264eb = _0x83d7a7[_0x136f('0x2c2')];
-                        if (_0x2264eb) {
-                            var _0x52f424 = _0x31aeec['default']['getReaderDangerModeOperator'](_0x2264eb);
-                            return _0x52f424['set']({
-                                'value': window['btoa']('' + Math['random']())
-                            }),
-                                _0x52f424[_0x136f('0x27d')](),
-                                !0x0;
+                    _0x46aa10.default(actions, _0x112cb5['ENTER_DANGER_MODE'], function (context, payload) {
+                        // context['state']
+                        // context['commit']
+                        let vid = payload.vid
+                        if (vid) {
+                            let operator = _0x31aeec.default.getReaderDangerModeOperator(vid)
+                            operator.set({
+                                'value': window.btoa(Math.random().toString())
+                            })
+                            operator.save()
+                            return true
                         }
                     })
 
@@ -9648,28 +9655,28 @@ window.webpackJsonp.push(
                             }
                         },
                         'getters': {
-                            'getChapterWithIdxOffset': function (_0x53f93a) {
-                                return function (_0x519bb8) {
-                                    var _0x3143ac = _0x58e77e['get'](_0x53f93a['currentChapter'], 'chapterIdx', 0x0);
-                                    if (_0x3143ac && _0x53f93a['chapterInfos']['length'] > 0x0) {
-                                        var _0xd868e1 = _0x3143ac - _0x53f93a['chapterInfos'][0x0]['chapterIdx'] + _0x519bb8;
-                                        if (_0xd868e1 > -0x1 && _0xd868e1 < _0x53f93a['chapterInfos'][_0x136f('0x360')])
-                                            return _0x53f93a['chapterInfos'][_0xd868e1];
+                            'getChapterWithIdxOffset': function (state) {
+                                return function (idxOffset) {
+                                    let currentChapterIdx = _0x58e77e.get(state.currentChapter, 'chapterIdx', 0);
+                                    if (currentChapterIdx && state.chapterInfos.length > 0) {
+                                        let newChapterIdx = currentChapterIdx + idxOffset - state.chapterInfos[0].chapterIdx
+                                        if (newChapterIdx > -1 && newChapterIdx < state.chapterInfos.length) {
+                                            return state.chapterInfos[newChapterIdx]
+                                        }
                                     }
-                                    return null;
+                                    return null
                                 }
-                                    ;
                             },
-                            'getChapterWithChapterUid': function (_0xef0b05) {
-                                return function (_0xb039e0) {
-                                    for (var _0x14feac = 0x0, _0x4d0de8 = _0xef0b05['chapterInfos']['length']; _0x14feac < _0x4d0de8; _0x14feac++) {
-                                        var _0x5b7ad9 = _0xef0b05['chapterInfos'][_0x14feac];
-                                        if (_0x5b7ad9 && _0x5b7ad9['chapterUid'] === Number(_0xb039e0))
-                                            return _0x5b7ad9;
+                            'getChapterWithChapterUid': function (state) {
+                                return function (chapterUid) {
+                                    for (let i = 0; i < state.chapterInfos.length; i++) {
+                                        let chapter = state.chapterInfos[i]
+                                        if (chapter && chapter.chapterUid === Number(chapterUid)) {
+                                            return chapter
+                                        }
                                     }
-                                    return null;
+                                    return null
                                 }
-                                    ;
                             },
                             'hasPrevChapter': function (_0x5549c8, _0x21018b) {
                                 return null !== _0x21018b['getChapterWithIdxOffset'](-0x1);
@@ -10637,7 +10644,7 @@ window.webpackJsonp.push(
 
             // reader
             1127: function (module, exports, require) {
-                Object['defineProperty'](exports, '__esModule', {value: true})
+                Object.defineProperty(exports, '__esModule', {value: true})
 
                 var m79 = convertEsModule(require(79)),
                     m279 = convertEsModule(require(279)),
@@ -10852,7 +10859,7 @@ window.webpackJsonp.push(
                     },
                     'created': function () {
                         if (m9.isEnvClient) {
-                            let __this = this;
+                            let __this = this
                             this.$store.registerModule('reader', m1023.default(), {
                                 'preserveState': true
                             })
@@ -10985,8 +10992,6 @@ window.webpackJsonp.push(
                         }
                     },
                     'mounted': function () {
-                        debugger
-
                         const _this = this
                         if (m9.isEnvClient) {
                             this.botDetect()
@@ -11150,8 +11155,6 @@ window.webpackJsonp.push(
                             })
                                 .then(this.layout)
                                 .then((resp) => {
-                                    debugger
-
                                     if (resp && resp.success) {
                                         if (_this.$refs.readerGiftCardTips) {
                                             try {
@@ -11455,8 +11458,6 @@ window.webpackJsonp.push(
                                 let layoutResult
                                 return m375.default.wrap(function (_0x47b4ad) {
                                     for (; ;) {
-                                        debugger
-
                                         switch (_0x47b4ad['prev'] = _0x47b4ad['next']) {
                                             case 0x0:
                                                 _0x47b4ad['next'] = 0x2
@@ -11528,6 +11529,7 @@ window.webpackJsonp.push(
                         ),
                         'eventProtect': function (event, cb) {
                             try {
+                                // 检测 event 是否为受信事件，如果为非受信事件，则调用回调
                                 m1028.e(event, function () {
                                     cb && cb()
                                 })
@@ -11536,8 +11538,6 @@ window.webpackJsonp.push(
                             }
                         },
                         'waitForPreRender': function () {
-                            debugger
-
                             let _0x555e2b = this,
                                 _this = this;
                             return new m76.default((resolve) => {
@@ -11652,8 +11652,6 @@ window.webpackJsonp.push(
                             })
                         },
                         'collectPreRenderInfos': function () {
-                            debugger
-
                             let _0x417e88 = this,
                                 _this = this;
                             return new m76.default((resolve) => {
@@ -11944,48 +11942,56 @@ window.webpackJsonp.push(
                                 })
                         },
                         'handleClickPrevChapterIndex': function (_0x3a915d) {
-                            var _0x32ab92 = this;
-                            return this['eventProtect'](_0x3a915d, function () {
-                                _0x32ab92['$store']['dispatch'](m55['ENTER_DANGER_MODE'], {
-                                    'vid': _0x32ab92['user']['vid']
-                                });
-                            }),
-                                this[_0x136f('0x233')] ? this[_0x136f('0x24f')]() : new m76['default'](function (_0x57e13b) {
-                                        var _0x44634a = !0x1;
-                                        if (_0x32ab92['currentChapter'] && _0x32ab92[_0x136f('0x44d')]['anchors'] && _0x32ab92[_0x136f('0x44d')]['anchors']['length'] > 0x0) {
-                                            var _0x1aaa2e = _0x32ab92['currentChapter']['anchors']
-                                                , _0x94e194 = null
-                                                , _0x120e72 = _0x32ab92[_0x136f('0x19e')];
-                                            if (_0x120e72) {
-                                                for (var _0x4b2989 = 0x0, _0x17090c = _0x1aaa2e['length']; _0x4b2989 < _0x17090c; _0x4b2989++) {
-                                                    if (_0x1aaa2e[_0x4b2989]['anchor'] === _0x120e72 && _0x4b2989 > 0x0) {
-                                                        _0x94e194 = _0x1aaa2e[_0x4b2989 - 0x1];
-                                                        break;
-                                                    }
+                            let _this = this
+                            this.eventProtect(_0x3a915d, function () {
+                                _this.$store.dispatch(m55['ENTER_DANGER_MODE'], {
+                                    'vid': _this.user.vid
+                                })
+                            })
+                            return this.hasPrevSection
+                                ? this.handlePrevSection()
+                                : new m76.default((resolve) => {
+                                    let hasScrolled = false
+                                    if (_this.currentChapter && _this.currentChapter.anchors && _this.currentChapter.anchors.length > 0) {
+                                        let currentChapterAnchors = _this.currentChapter.anchors,
+                                            targetAnchor = null,
+                                            currentChapterAnchor = _this.currentChapterAnchor;
+                                        if (currentChapterAnchor) {
+                                            for (let i = 0; i < currentChapterAnchors.length; i++) {
+                                                if (currentChapterAnchors[i].anchor === currentChapterAnchor && i > 0) {
+                                                    targetAnchor = currentChapterAnchors[i - 1]
+                                                    break
                                                 }
-                                                _0x94e194 || _0x3f16ee[_0x136f('0x360')] > 0x0 && (_0x32ab92['scrollTo']({
-                                                    'chapterOffset': _0x3f16ee[0x0]['getOffset']()
-                                                }),
-                                                    _0x44634a = !0x0);
                                             }
-                                            _0x94e194 && (_0x32ab92['scrollTo']({
-                                                'anchor': _0x94e194['anchor']
-                                            }),
-                                                _0x44634a = !0x0);
+                                            if (!targetAnchor) {
+                                                if (_0x3f16ee.length > 0) {
+                                                    _this.scrollTo({
+                                                        'chapterOffset': _0x3f16ee[0].getOffset()
+                                                    })
+                                                    hasScrolled = true
+                                                }
+                                            }
                                         }
-                                        _0x57e13b(_0x44634a);
+                                        if (targetAnchor) {
+                                            _this.scrollTo({
+                                                'anchor': targetAnchor.anchor
+                                            })
+                                            hasScrolled = true
+                                        }
                                     }
-                                )['then'](function (_0x582d15) {
-                                    if (!_0x582d15)
-                                        return _0x32ab92['handlePrevChapter']();
-                                })[_0x136f('0x26e')](function (_0x30a5de) {
-                                    if (_0x30a5de && _0x30a5de['success']) {
-                                        var _0x5f4c9e = _0x32ab92[_0x136f('0x44d')][_0x136f('0x313')];
-                                        _0x5f4c9e[_0x136f('0x360')] > 0x0 && _0x32ab92['scrollTo']({
-                                            'anchor': _0x5f4c9e[_0x5f4c9e[_0x136f('0x360')] - 0x1]['anchor']
-                                        });
+                                    resolve(hasScrolled)
+                                }).then((hasScrolled) => {
+                                    if (!hasScrolled) {
+                                        return _this.handlePrevChapter()
                                     }
-                                });
+                                }).then((_0x30a5de) => {
+                                    if (_0x30a5de && _0x30a5de.success) {
+                                        let anchors = _this.currentChapter.anchors
+                                        anchors.length > 0 && _this.scrollTo({
+                                            'anchor': anchors[anchors.length - 1].anchor
+                                        })
+                                    }
+                                })
                         },
                         'handleNextChapter': function (event) {
                             let _this = this
@@ -11995,10 +12001,10 @@ window.webpackJsonp.push(
                                     'vid': _this.user.vid
                                 })
                             })
-                            let _0x168b62 = this.getChapterWithIdxOffset(1)
-                            if (_0x168b62) {
+                            let chapter = this.getChapterWithIdxOffset(1)
+                            if (chapter) {
                                 return this.changeChapter({
-                                    'chapterUid': _0x168b62.chapterUid
+                                    'chapterUid': chapter.chapterUid
                                 })
                             }
                         },
@@ -12030,19 +12036,21 @@ window.webpackJsonp.push(
                         'handleClickNextSectionButton': function (event) {
                             (event = event || window.event).clientX && event.clientY && this.handleNextSection()
                         },
-                        'handlePrevChapter': function (_0x591500) {
-                            var _0x4c8d40 = this;
-                            this[_0x136f('0x4ad')](_0x591500, function () {
-                                _0x4c8d40['$store']['dispatch'](m55['ENTER_DANGER_MODE'], {
-                                    'vid': _0x4c8d40['user'][_0x136f('0x2c2')]
-                                });
-                            });
-                            var _0x2c4c1c = this['getChapterWithIdxOffset'](-0x1);
-                            if (_0x2c4c1c)
-                                return this['changeChapter']({
-                                    'chapterUid': _0x2c4c1c['chapterUid'],
-                                    'sectionId': -0x1
-                                });
+                        'handlePrevChapter': function (event) {
+                            let _this = this
+                            this.eventProtect(event, function () {
+                                _this.$store.dispatch(m55['ENTER_DANGER_MODE'], {
+                                    'vid': _this.user.vid
+                                })
+                            })
+
+                            let chapter = this.getChapterWithIdxOffset(-1)
+                            if (chapter) {
+                                return this.changeChapter({
+                                    'chapterUid': chapter.chapterUid,
+                                    'sectionId': -1,
+                                })
+                            }
                         },
                         'handleClickFirstChapter': function () {
                             if (this.isPrivateUploadBook) {
@@ -12058,36 +12066,37 @@ window.webpackJsonp.push(
                             }
                             m78.default(this.bookDetailURL(this.bookId))
                         },
-                        'handleClickChapter': function (_0x25c758) {
-                            if (_0x25c758 && _0x25c758.chapterUid) {
-                                let _0x2957fd = {
-                                    'chapterUid': _0x25c758.chapterUid
+                        'handleClickChapter': function (chapter) {
+                            // 点击目录中的章节
+                            if (chapter && chapter.chapterUid) {
+                                let chapterInfo = {
+                                    'chapterUid': chapter.chapterUid
                                 }
-                                if (_0x25c758.anchor) {
-                                    _0x2957fd.scrollTo = {
-                                        'anchor': _0x25c758.anchor
+                                if (chapter.anchor) {
+                                    chapterInfo.scrollTo = {
+                                        'anchor': chapter.anchor
                                     }
                                 }
                                 this.hideCatalog()
-                                return this.changeChapter(_0x2957fd)
+                                return this.changeChapter(chapterInfo)
                             }
                         },
-                        'handleClickNoteItem': function (_0x2885a9) {
-                            var _this = this;
-                            if (_0x2885a9.chapterUid) {
+                        'handleClickNoteItem': function (chapter) {
+                            let _this = this
+                            if (chapter.chapterUid) {
                                 this.hideNotePanel()
                             }
                             return this.changeChapter({
-                                'chapterUid': _0x2885a9.chapterUid,
+                                'chapterUid': chapter.chapterUid,
                                 'scrollTo': {
-                                    'chapterOffset': _0x2885a9.range.start
+                                    'chapterOffset': chapter.range.start
                                 }
                             }).then(function () {
                                 _this.reportClientBusiness({
                                     'itemName': 'Web_Reader_Note_ItemClk'
                                 })
-                                _0x2885a9.noteType === m789.NoteTypeReview && setTimeout(function () {
-                                    _this.showReviewDetailPanel([_0x2885a9])
+                                chapter.noteType === m789.NoteTypeReview && setTimeout(function () {
+                                    _this.showReviewDetailPanel([chapter])
                                 })
                             })
                         },
@@ -12144,9 +12153,9 @@ window.webpackJsonp.push(
                                 }
                             })
                         },
-                        'changeChapter': (_0x230d34 = m376.default(m375.default.mark(function _0x2d4203(_0x577117) {
-                                var _0x5c19c2, _0x7b5677, _0x1ec405, _0x51b180, _0x50b8c4, _0x326db3, _0x141e34,
-                                    _0xf9db89 = this;
+                        'changeChapter': (_0x230d34 = m376.default(m375.default.mark(function _0x2d4203(chapterInfo) {
+                                let fileNames, isDone, _0x1ec405, _0x51b180, _0x50b8c4, _0x326db3, fileName,
+                                    _this = this;
                                 return m375.default.wrap(function (_0x5c0a1b) {
                                     for (; ;) {
                                         switch (_0x5c0a1b['prev'] = _0x5c0a1b['next']) {
@@ -12156,22 +12165,22 @@ window.webpackJsonp.push(
                                                     return resp.map((_) => _.fileName)
                                                 }).catch((err) => {
                                                     console.log(err)
-                                                });
+                                                })
                                             case 0x2:
-                                                _0x5c19c2 = _0x5c0a1b['sent']
-                                                _0x7b5677 = true
+                                                fileNames = _0x5c0a1b['sent']
+                                                isDone = true
                                                 _0x1ec405 = false
                                                 _0x51b180 = undefined
                                                 _0x5c0a1b['prev'] = 0x6
-                                                _0x50b8c4 = m374.default(_0x5c19c2)
+                                                _0x50b8c4 = m374.default(fileNames)
                                             case 0x8:
-                                                if (_0x7b5677 = (_0x326db3 = _0x50b8c4.next()).done) {
+                                                if (isDone = (_0x326db3 = _0x50b8c4.next()).done) {
                                                     _0x5c0a1b['next'] = 0x12
                                                     break
                                                 }
-                                                _0x141e34 = _0x326db3['value']
-                                                m9.inDevelopment() && console.log(_0x141e34)
-                                                if (_0x141e34.indexOf('puppeteer') === -1 && _0x141e34.indexOf('Puppeteer') === -1 && _0x141e34.indexOf('pptr') === -1) {
+                                                fileName = _0x326db3['value']
+                                                m9.inDevelopment() && console.log(fileName)
+                                                if (fileName.indexOf('puppeteer') === -1 && fileName.indexOf('Puppeteer') === -1 && fileName.indexOf('pptr') === -1) {
                                                     _0x5c0a1b['next'] = 0xf
                                                     break
                                                 }
@@ -12181,7 +12190,7 @@ window.webpackJsonp.push(
                                                 // 检测到程序操作
                                                 return _0x5c0a1b['abrupt']('break', 0x12);
                                             case 0xf:
-                                                _0x7b5677 = true
+                                                isDone = true
                                                 _0x5c0a1b['next'] = 0x8
                                                 break
                                             case 0x12:
@@ -12195,7 +12204,7 @@ window.webpackJsonp.push(
                                             case 0x18:
                                                 _0x5c0a1b['prev'] = 0x18
                                                 _0x5c0a1b['prev'] = 0x19
-                                                !_0x7b5677 && _0x50b8c4['return'] && _0x50b8c4['return']()
+                                                !isDone && _0x50b8c4['return'] && _0x50b8c4['return']()
                                             case 0x1b:
                                                 _0x5c0a1b['prev'] = 0x1b
                                                 if (!_0x1ec405) {
@@ -12215,23 +12224,24 @@ window.webpackJsonp.push(
                                                 this.unsupported = true
                                                 return _0x5c0a1b['abrupt']('return', m76.default.resolve())
                                             case 0x23:
+                                                debugger
                                                 this.loadTopReviews()
-                                                return _0x5c0a1b['abrupt']('return', this.$store.dispatch(m55['CHANGE_READER_CHAPTER'], {
-                                                    'pushStack': _0x577117['pushStack'],
-                                                    'chapterUid': _0x577117['chapterUid'],
-                                                    'sectionId': _0x577117['sectionId'],
-                                                    'isLogin': this.hasLogin
+                                                const result = this.$store.dispatch(m55['CHANGE_READER_CHAPTER'], {
+                                                    'pushStack': chapterInfo.pushStack,
+                                                    'chapterUid': chapterInfo.chapterUid,
+                                                    'sectionId': chapterInfo.sectionId,
+                                                    'isLogin': this.hasLogin,
                                                 }).then(() => {
-                                                    _0xf9db89.clearSelection()
-                                                    _0xf9db89.clearHighLightDom()
-                                                    return _0xf9db89.layout()
+                                                    _this.clearSelection()
+                                                    _this.clearHighLightDom()
+                                                    return _this.layout()
                                                 }).catch((err) => {
                                                     if (err && err.isCustomError) {
                                                         switch (err[_0x136f('0x120')]) {
                                                             case 'currentChapter':
-                                                                _0xf9db89[_0x136f('0x44f')](),
-                                                                    _0xf9db89['clearHighLightDom'](),
-                                                                    _0x577117['searchItem'] ? _0xf9db89['highLightDomsAndScrollTo'](_0x577117['searchItem']) : _0x577117['scrollTo'] ? _0xf9db89['scrollTo'](_0x577117['scrollTo']) : _0x577117['sectionId'] || _0xf9db89['changeSection']({
+                                                                _this[_0x136f('0x44f')](),
+                                                                    _this['clearHighLightDom'](),
+                                                                    chapterInfo['searchItem'] ? _this['highLightDomsAndScrollTo'](chapterInfo['searchItem']) : chapterInfo['scrollTo'] ? _this['scrollTo'](chapterInfo['scrollTo']) : chapterInfo['sectionId'] || _this['changeSection']({
                                                                         'sectionIdx': 0x0,
                                                                         'offsetTop': 0x0
                                                                     });
@@ -12240,39 +12250,40 @@ window.webpackJsonp.push(
                                                                 window['location']['reload']();
                                                                 break;
                                                             case 'sessionTimeout':
-                                                                _0xf9db89['handleSessionTimeout']();
+                                                                _this['handleSessionTimeout']();
                                                         }
                                                         return err;
                                                     }
-                                                    _0xf9db89.logError('changeChapter-UnexpectedError0:', err)
+                                                    _this.logError('changeChapter-UnexpectedError0:', err)
                                                 }).then((resp) => {
                                                     if (resp && resp.success) {
-                                                        _0x577117.searchItem
-                                                            ? _0xf9db89.highLightDomsAndScrollTo(_0x577117.searchItem)
-                                                            : _0x577117.scrollTo
-                                                                ? _0xf9db89.scrollTo(_0x577117.scrollTo)
-                                                                : (_0x577117.sectionId || _0xf9db89.changeSection({
+                                                        chapterInfo.searchItem
+                                                            ? _this.highLightDomsAndScrollTo(chapterInfo.searchItem)
+                                                            : chapterInfo.scrollTo
+                                                                ? _this.scrollTo(chapterInfo.scrollTo)
+                                                                : (chapterInfo.sectionId || _this.changeSection({
                                                                     'sectionIdx': 0x0,
                                                                     'scrollTo': {
                                                                         'chapterOffset': 0x0
                                                                     }
                                                                 }),
-                                                                    _0xf9db89.scrollToOffsetTop(0x0))
-                                                        _0xf9db89.checkIfShowMemberCardFreeReadingTips()
-                                                        _0xf9db89.checkIfNeedRequestLoginQRCode()
-                                                        _0xf9db89.$store.dispatch(m55['RELOAD_READER_BOOK_INFO'], {
-                                                            'isLogin': _0xf9db89['hasLogin']
+                                                                    _this.scrollToOffsetTop(0x0))
+                                                        _this.checkIfShowMemberCardFreeReadingTips()
+                                                        _this.checkIfNeedRequestLoginQRCode()
+                                                        _this.$store.dispatch(m55['RELOAD_READER_BOOK_INFO'], {
+                                                            'isLogin': _this['hasLogin']
                                                         })
-                                                        _0xf9db89.$store.dispatch(m55['RELOAD_READER_CHAPTER_INFOS'], {
-                                                            'isLogin': _0xf9db89['hasLogin']
+                                                        _this.$store.dispatch(m55['RELOAD_READER_CHAPTER_INFOS'], {
+                                                            'isLogin': _this['hasLogin']
                                                         })
-                                                        _0xf9db89.reportReadingProgress({
+                                                        _this.reportReadingProgress({
                                                             'computeSummary': !0x0,
                                                             'computeProgress': !0x1
                                                         })
                                                     }
                                                     return resp
-                                                }))
+                                                })
+                                                return _0x5c0a1b['abrupt']('return', result)
                                             case 0x25:
                                             case _0x136f('0x19a'):
                                                 return _0x5c0a1b['stop']();
@@ -12280,8 +12291,8 @@ window.webpackJsonp.push(
                                     }
                                 }, _0x2d4203, this, [[0x6, 0x14, 0x18, 0x20], [0x19, , 0x1b, 0x1f]])
                             })),
-                                function (_0x1623a5) {
-                                    return _0x230d34['apply'](this, arguments);
+                                function (chapterInfo) {
+                                    return _0x230d34.apply(this, arguments)
                                 }
                         ),
                         'changeSection': function (_0x3bbfa5) {
@@ -14261,16 +14272,20 @@ window.webpackJsonp.push(
                             }
                         },
                         'loadTopReviews': function () {
-                            this[_0x136f('0xf8')] || this['topReviewList'] && this['topReviewList'][_0x136f('0x360')] > 0x0 || (this['$store']['dispatch'](m55['FETCH_BOOK_REVIEW_LIST'], {
-                                'bookId': this[_0x136f('0x85')],
-                                'count': 0x3,
-                                'listType': m788['ReviewListTypeBookTop']
-                            }),
-                            this['hasLogin'] && this[_0x136f('0x83')]['dispatch'](m55['FETCH_BOOK_REVIEW_LIST'], {
-                                'bookId': this['bookId'],
-                                'count': 0x3,
-                                'listType': m788['ReviewListTypeBookFriendTop']
-                            }));
+                            if (!this.isPrivateUploadBook && (!this.topReviewList || this.topReviewList.length <= 0)) {
+                                this.$store.dispatch(m55['FETCH_BOOK_REVIEW_LIST'], {
+                                    'bookId': this.bookId,
+                                    'count': 3,
+                                    'listType': m788.ReviewListTypeBookTop
+                                })
+                                if (this.hasLogin) {
+                                    this.$store.dispatch(m55['FETCH_BOOK_REVIEW_LIST'], {
+                                        'bookId': this.bookId,
+                                        'count': 3,
+                                        'listType': m788.ReviewListTypeBookFriendTop
+                                    })
+                                }
+                            }
                         },
                         'syncMyNote': function (_0x15d145) {
                             if (this['isNeedShowMyNote'] && (_0x136f('0x2c1') === _0x15d145['bookmark'] && this['$store']['dispatch'](m55['FETCH_BOOK_BOOKMARK_LIST'], {
