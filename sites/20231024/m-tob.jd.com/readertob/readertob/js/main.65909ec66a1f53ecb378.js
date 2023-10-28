@@ -109,7 +109,6 @@
                             }
                         }
 
-                        debugger
                         let timestamp = new Date().getTime()
                         config.url = m82835.En.init(config.url, timestamp, enc)
 
@@ -120,6 +119,8 @@
 
                     // 在响应拦截器中对数据解密
                     m9669().interceptors.response.use(resp => {
+                        debugger
+
                         let e = m31018.pf(resp.config.url)
                         if (e.enc && 1 === Number(e.enc)) {
                             let timestamp = e.tm
@@ -21461,27 +21462,39 @@
 
                                 return d.uid || t() + t() + t() + t() + t() + t() + t() + t()
                             },
-                            sortString: function (t) {
-                                for (var e = Object.keys(t).sort(), n = e[0] + "=" + t[e[0]], r = 1; r < e.length; r++)
-                                    n = n + "&" + e[r] + "=" + t[e[r]];
+                            sortString: function (data) {
+                                for (var e = Object.keys(data).sort(), n = e[0] + "=" + data[e[0]], r = 1; r < e.length; r++)
+                                    n = n + "&" + e[r] + "=" + data[e[r]];
                                 return n
                             },
                             getUuid: function (t) {
-                                var e = ""
-                                    , n = _m36808().get("u") || "";
-                                return t.uuid ? e = t.uuid : (n ? localStorage.setItem("_u", n) : (n = localStorage.getItem("_u")) || (n = "h5" + this.guid(),
-                                    localStorage.setItem("_u", n)),
-                                    e = n),
-                                d.uid || e
+                                let result = ""
+                                let n = _m36808().get("u") || ""
+                                if (t.uuid) {
+                                    result = t.uuid
+                                } else {
+                                    if (n) {
+                                        localStorage.setItem("_u", n)
+                                    } else {
+                                        n = localStorage.getItem("_u")
+                                        if (!n) {
+                                            n = "h5" + this.guid()
+                                            localStorage.setItem("_u", n)
+                                        }
+                                    }
+                                    result = n
+                                }
+                                return d.uid || result
                             },
-                            addSign: function (t, e, n) {
-                                for (var r = Object.keys(e), o = t.split("?")[0] + "?" + r[0] + "=" + e[r[0]], i = 1; i < r.length; i++)
-                                    o = o + "&" + r[i] + "=" + e[r[i]];
-                                return o = o + "&sign=" + n
+                            addSign: function (url, payload, sign) {
+                                for (var r = Object.keys(payload), o = url.split("?")[0] + "?" + r[0] + "=" + payload[r[0]], i = 1; i < r.length; i++)
+                                    o = o + "&" + r[i] + "=" + payload[r[i]];
+                                return o = o + "&sign=" + sign
                             },
-                            AESEncrypt: function (t, e) {
-                                var n = _m81354().enc.Utf8.parse(t)
-                                    , r = _m81354().MD5(_m81354().enc.Utf8.parse(e));
+                            AESEncrypt: function (data, key) {
+                                var n = _m81354().enc.Utf8.parse(data),
+                                    r = _m81354().MD5(_m81354().enc.Utf8.parse(key));
+
                                 return _m81354().AES.encrypt(n, r, {
                                     mode: _m81354().mode.ECB,
                                     padding: _m81354().pad.Pkcs7
@@ -21495,9 +21508,9 @@
                                 });
                                 return _m81354().enc.Utf8.stringify(r).toString()
                             },
-                            DESEncrypt: function (t, e) {
-                                var n = _m81354().enc.Utf8.parse(t)
-                                    , r = _m81354().MD5(_m81354().enc.Utf8.parse(e));
+                            DESEncrypt: function (data, key) {
+                                var n = _m81354().enc.Utf8.parse(data),
+                                    r = _m81354().MD5(_m81354().enc.Utf8.parse(key));
                                 return _m81354().DES.encrypt(n, r, {
                                     mode: _m81354().mode.ECB,
                                     padding: _m81354().pad.Pkcs7
@@ -21511,20 +21524,21 @@
                                 });
                                 return _m81354().enc.Utf8.stringify(r).toString()
                             },
-                            encrypt: function (t, e, n) {
-                                return n % 2 == 0 ? this.AESEncrypt(t, e) : this.DESEncrypt(t, e)
+                            encrypt: function (data, key, time) {
+                                return time % 2 == 0 ? this.AESEncrypt(data, key) : this.DESEncrypt(data, key)
                             },
                             decrypt: function (t, e, n) {
                                 return n % 2 == 0 ? this.AESDecrypt(t, e) : this.DESDecrypt(t, e)
                             },
-                            getKey: function (t) {
-                                return t.toString() + this.app
+                            getKey: function (timestamp) {
+                                return timestamp.toString() + this.app
                             },
-                            enData: function (t) {
-                                var e = this.getKey(this.time)
-                                    , n = this.encrypt(t.split("?")[1], e, this.time);
-                                return n = (n = n.replace(/\+/g, "-")).replace(/\//g, "_"),
-                                    t = t.split("?")[0] + "?enc=1&app=" + this.app + "&tm=" + this.time + "&params=" + encodeURIComponent(n)
+                            enData: function (url) {
+                                let key = this.getKey(this.time),
+                                    n = this.encrypt(url.split("?")[1], key, this.time);
+                                n = n.replace(/\+/g, "-").replace(/\//g, "_")
+                                url = url.split("?")[0] + "?enc=1&app=" + this.app + "&tm=" + this.time + "&params=" + encodeURIComponent(n)
+                                return url
                             },
                             enJsonData: function (t, e) {
                                 var n = this.getKey(e);
@@ -21535,6 +21549,8 @@
                                 return JSON.parse(this.decrypt(t, n, e))
                             },
                             init: function (url, timestamp, enc) {
+                                debugger
+
                                 this.requestUrl = url
                                 this.time = timestamp
                                 this.uri = this.requestUrl.split("?")[0].replace("", "")
