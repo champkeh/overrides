@@ -7733,8 +7733,8 @@ window.webpackJsonp.push(
                             };
                         });
                     })
-                    _0x539407.default(mutations, _0x20a954['UPDATE_READER_CONTENT_STYLES'], function (_0x33ff7f, _0x4f0efb) {
-                        _0x33ff7f[_0x3e32('0x1a9')] = function (_0x5ef02e, _0x5b61f3) {
+                    _0x539407.default(mutations, _0x20a954['UPDATE_READER_CONTENT_STYLES'], function (state, styles) {
+                        state[_0x3e32('0x1a9')] = function (_0x5ef02e, _0x5b61f3) {
                             if (!_0x5ef02e || _0x5ef02e['length'] <= 0x0)
                                 return '';
                             _0x5ef02e = _0x5ef02e['trim']()['replace'](/\/\*.*?\*\//gi, '');
@@ -7747,7 +7747,7 @@ window.webpackJsonp.push(
                                     return -0x1 === (_0x54f4a5 = _0x54f4a5['trim']())[_0x3e32('0x3fa')]('{') && -0x1 === _0x54f4a5[_0x3e32('0x3fa')]('}') && -0x1 === _0x54f4a5['indexOf'](';') ? _0x54f4a5 + ';' : _0x54f4a5;
                                 })[_0x3e32('0x48e')]('');
                             })['join']('')['trim']()['replace'](/\.\.\/images\/(.*?\.(png|jpg|jpeg|gif))/gi, 'https://res.weread.qq.com/wrepub/web/' + _0x5b61f3 + '/$1');
-                        }(_0x4f0efb || '', _0x33ff7f['bookId']);
+                        }(styles || '', state['bookId']);
                     })
                     _0x539407.default(mutations, _0x20a954['UPDATE_READER_CHAPTER_CONTENT_TARGET_HTML'], function (_0x38b31d, _0x3eb5a9) {
                         _0x38b31d[_0x3e32('0x2ac')] = _0x3eb5a9 || {};

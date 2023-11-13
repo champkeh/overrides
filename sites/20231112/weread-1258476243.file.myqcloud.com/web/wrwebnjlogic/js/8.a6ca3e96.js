@@ -7667,28 +7667,1825 @@ window.webpackJsonp.push(
                     _0x29eab8 = Object(_0x43bb0c['a'])(_0x5037b0['default'], _0xca6b95['a'], _0xca6b95['b'], !0x1, null, null, null);
                 _0x565d8c['default'] = _0x29eab8['exports'];
             },
-            1023: function (_0x2f7a74, _0x32aab2, _0x5402c0) {
+
+            // store
+            1023: function (module, exports, require) {
                 'use strict';
-                Object[_0x447a('0x427')](_0x32aab2, '__esModule', {
-                    'value': !0x0
-                });
-                var _0x40eeac = _0x140bd4(_0x5402c0(0x309))
-                    , _0x641fcd = _0x140bd4(_0x5402c0(0x50))
-                    , _0x4b8e62 = _0x140bd4(_0x5402c0(0xcb))
-                    , _0x5b1552 = _0x140bd4(_0x5402c0(0x178))
-                    , _0x1c3421 = _0x140bd4(_0x5402c0(0x119))
-                    , _0x529902 = _0x140bd4(_0x5402c0(0xc8))
-                    , _0x26fa07 = _0x140bd4(_0x5402c0(0xc9))
-                    , _0x2c2836 = _0x140bd4(_0x5402c0(0x4c))
-                    , _0x24c4f0 = _0x140bd4(_0x5402c0(0x4e))
-                    , _0x104c56 = _0x140bd4(_0x5402c0(0x29))
-                    , _0xa25f25 = _0x140bd4(_0x5402c0(0x61))
-                    , _0x4f1bb5 = _0x140bd4(_0x5402c0(0x30))
-                    , _0x992cb4 = _0x140bd4(_0x5402c0(0x400));
-                _0x32aab2[_0x447a('0x3d')] = function () {
-                    var _0x962999, _0x34b828;
+                Object.defineProperty(exports, '__esModule', {value: true});
+
+                var _0x40eeac = _0x140bd4(require(0x309))
+                    , _0x641fcd = _0x140bd4(require(0x50))
+                    , _0x4b8e62 = _0x140bd4(require(0xcb))
+                    , _0x5b1552 = _0x140bd4(require(0x178))
+                    , _0x1c3421 = _0x140bd4(require(0x119))
+                    , _0x529902 = _0x140bd4(require(0xc8))
+                    , _0x26fa07 = _0x140bd4(require(0xc9))
+                    , _0x2c2836 = _0x140bd4(require(0x4c))
+                    , _0x24c4f0 = _0x140bd4(require(0x4e))
+                    , _0x104c56 = _0x140bd4(require(0x29))
+                    , _0xa25f25 = _0x140bd4(require(0x61))
+                    , _0x4f1bb5 = _0x140bd4(require(0x30))
+                    , _0x992cb4 = _0x140bd4(require(0x400));
+
+                var _0x3e0f43 = _0x140bd4(require(0x312))
+                    , _0x1f8217 = require(0x42b)
+                    , m1027 = require(1027)
+                    , _0x8e5106 = require(0x471)
+                    , _0x424400 = _0x140bd4(require(0x62))
+                    , _0x4a522e = _0x140bd4(require(0x38))
+                    , _0x46b089 = _0x5ce721(require(0x37))
+                    , _0x48c454 = _0x5ce721(require(0x4b))
+                    , _0x272433 = _0x140bd4(require(0x4d))
+                    , _0x19f93b = _0x140bd4(require(0x118))
+                    , _0x3723b6 = _0x140bd4(require(0x305))
+                    , _0x300bed = _0x140bd4(require(0x2e3))
+                    , _0x15114e = _0x140bd4(require(0x64))
+                    , _0x23a0c6 = _0x140bd4(require(0xca));
+
+                function _0x5ce721(_0x1eacd4) {
+                    if (_0x1eacd4 && _0x1eacd4[_0x447a('0x1d9')])
+                        return _0x1eacd4;
+                    var _0x477efd = {};
+                    if (null != _0x1eacd4)
+                        for (var _0x2bfeeb in _0x1eacd4)
+                            Object['prototype']['hasOwnProperty'][_0x447a('0x46e')](_0x1eacd4, _0x2bfeeb) && (_0x477efd[_0x2bfeeb] = _0x1eacd4[_0x2bfeeb]);
+                    return _0x477efd[_0x447a('0x3d')] = _0x1eacd4,
+                        _0x477efd;
+                }
+
+                function _0x140bd4(_0x351cc0) {
+                    return _0x351cc0 && _0x351cc0['__esModule'] ? _0x351cc0 : {
+                        'default': _0x351cc0
+                    };
+                }
+
+                var _0x9fa9fd = require(0x21)
+                    , _0x482c11 = require(0x404)
+                    , _0x490649 = require(0x405)
+                    , _0x495bc0 = require(0x3a)
+                    , m101 = require(101)
+                    , m1139 = require(1139)
+                    , m1140 = require(1140)
+                    , m1069 = require(1069)
+                    , _0x178a19 = require(0x9)
+                    , _0x4f8d1f = require(0x47f);
+
+                function _0x317083() {
+                    _0x178a19[_0x447a('0x458')];
+                    var _0x39ee4b, _0xb3dbd9 = _0x178a19['inDevelopment']();
+                    _0xb3dbd9 && (_0x39ee4b = console)['log']['apply'](_0x39ee4b, ['[readerLog]']['concat'](Array['prototype']['slice']['call'](arguments)));
+                }
+
+                function _0x3a8483(_0x3597c1, _0x32919d) {
+                    if (!_0x3597c1 || !_0x32919d)
+                        return [];
+                    var _0x4abc40 = _0x32919d['map'](function (_0x4b0811) {
+                        var _0x59e873 = {
+                            'chapterUid': _0x4b0811['chapterUid'],
+                            'chapterIdx': _0x4b0811['chapterIdx'],
+                            'title': _0x272433['default']['replaceBlankToSpace'](_0x4b0811['title'])['trim'](),
+                            'paid': _0x4b0811['paid'] || 0x0,
+                            'price': _0x4b0811['price'] || 0x0,
+                            'level': _0x4b0811['level'] || 0x1,
+                            'updateTime': _0x4b0811[_0x447a('0xfb')],
+                            'wordCount': _0x4b0811['wordCount'] || 0x0,
+                            'anchors': _0x4b0811['anchors'] || []
+                        };
+                        return _0x59e873['anchors']['length'] > 0x0 && (_0x59e873['anchors'] = _0x59e873['anchors']['filter'](function (_0x5df4fa) {
+                            return _0x5df4fa['title'] !== _0x59e873['title'];
+                        })),
+                            _0x59e873;
+                    });
+                    return (_0x19f93b['default']['isBuyUnitWholeBook'](_0x3597c1) || _0x19f93b['default']['isEPub'](_0x3597c1)) && (_0x4abc40 = _0x4abc40['filter'](function (_0xfade0c) {
+                        return '封面' !== _0xfade0c['title'];
+                    })),
+                        _0x4abc40;
+                }
+
+                function _0x452853(_0x584a49, _0x33ea03) {
+                    if (0x0 === _0x33ea03['length'])
+                        return _0x33ea03;
+                    var _0x51c17e = []
+                        ,
+                        _0x25999a = (_0x584a49 = _0x584a49 || [])['length'] > 0x0 ? _0x584a49[_0x584a49['length'] - 0x1][_0x447a('0x3a')] : -0x1;
+                    return _0x33ea03[_0x447a('0x466')](function (_0x1dce21) {
+                        var _0x2bec16 = (0x0,
+                            _0x4f1bb5['default'])({}, _0x1dce21, {
+                            'firstInChapter': !0x1
+                        });
+                        _0x25999a !== _0x1dce21['chapterUid'] && (_0x25999a = _0x1dce21[_0x447a('0x3a')],
+                            _0x2bec16['firstInChapter'] = !0x0),
+                            _0x51c17e['push'](_0x2bec16);
+                    }),
+                        _0x51c17e;
+                }
+
+                function _sign(_0x1a075e) {
+                    for (var _0x2c3f70 = 0x15051505, _0x4b385f = _0x2c3f70, _0x44c530 = _0x1a075e['length'], _0x6e0ce4 = _0x44c530 - 0x1; _0x6e0ce4 > 0x0; _0x6e0ce4 -= 0x2)
+                        _0x2c3f70 = 0x7fffffff & (_0x2c3f70 ^ _0x1a075e['charCodeAt'](_0x6e0ce4) << (_0x44c530 - _0x6e0ce4) % 0x1e),
+                            _0x4b385f = 0x7fffffff & (_0x4b385f ^ _0x1a075e['charCodeAt'](_0x6e0ce4 - 0x1) << _0x6e0ce4 % 0x1e);
+                    return (_0x2c3f70 + _0x4b385f)['toString'](0x10)['toLowerCase']();
+                }
+
+                function _stringify(_0x3f9f94) {
+                    for (var _0x41fb7d = arguments[_0x447a('0xa3')] > 0x1 && void 0x0 !== arguments[0x1] ? arguments[0x1] : [], _0x2ec48e = '', _0x57d0a7 = 0x0 === _0x41fb7d['length'], _0x4c9add = (0x0,
+                        _0xa25f25['default'])(_0x3f9f94)['sort'](), _0xeffcfd = 0x0; _0xeffcfd < _0x4c9add['length']; _0xeffcfd++) {
+                        var _0x1059a3 = _0x4c9add[_0xeffcfd];
+                        if (_0x57d0a7 || -0x1 !== _0x41fb7d['indexOf'](_0x1059a3)) {
+                            var _0x1cfb8d = _0x3f9f94[_0x1059a3];
+                            _0x2ec48e += _0x1059a3 + '=' + encodeURIComponent(_0x1cfb8d),
+                                _0x2ec48e += '&';
+                        }
+                    }
+                    return _0x2ec48e['length'] > 0x0 && '&' === _0x2ec48e['charAt'](_0x2ec48e[_0x447a('0xa3')] - 0x1) && (_0x2ec48e = _0x2ec48e['slice'](0x0, _0x2ec48e['length'] - 0x1)),
+                        _0x2ec48e;
+                }
+
+                function _0x1f3a4f(_0x16cae4) {
+                    for (var _0x6cced2 = '', _0x3c0420 = _0x16cae4[_0x447a('0x67')]('\x20'), _0x2b93f7 = 0x0, _0x245a63 = Math[_0x447a('0x192')](_0x3c0420[_0x447a('0xa3')], 0xc); _0x2b93f7 < _0x245a63; _0x2b93f7++)
+                        _0x6cced2 += _0x3c0420[_0x2b93f7]['length'] % 0xa;
+                    var _0x1b944a = function (_0x1a0b73) {
+                        for (var _0x17d55f = 0x0, _0x24d640 = 0x0, _0x40d1b1 = _0x1a0b73['length']; _0x24d640 < _0x40d1b1; _0x24d640++)
+                            _0x17d55f = 0x83 * _0x17d55f + _0x1a0b73['charCodeAt'](_0x24d640) & 0x7fffffff;
+                        return _0x17d55f;
+                    }(_0x16cae4);
+                    return _0x1b944a['length'] > 0x10 && (_0x1b944a = _0x1b944a['slice'](0x0, 0x10)),
+                    'wb' + _0x6cced2 + 'h' + _0x1b944a;
+                }
+
+                function _0x4a2f92(_0x297cd3) {
+                    var _0x3ea03b = _0x297cd3[_0x447a('0x3a7')]
+                        , _0x4d00cb = _0x297cd3['message']
+                        , _0x23cbe5 = _0x297cd3['comm1']
+                        , _0x1eb5da = _0x297cd3['comm2']
+                        , _0x54c6fb = _0x3e0f43[_0x447a('0x3d')]['createWrCommonFatalReport'](0x0, {
+                        'service': 'wrwebnjlogic',
+                        'functionName': 'reader_render',
+                        'code': _0x3ea03b,
+                        'message': _0x4d00cb,
+                        'comm1': _0x23cbe5,
+                        'comm2': _0x1eb5da
+                    });
+                    _0x3e0f43['default']['setProtoLog'](_0x447a('0x32f'), _0x54c6fb)[_0x447a('0x19c')](function (_0x3e7d55) {
+                    })['catch'](function (_0x1168d9) {
+                    });
+                }
+
+                exports.default = function () {
+                    var _0x4fe0de;
+
+                    const mutations = {}
+                    _0x24c4f0.default(mutations, _0x48c454['UPDATE_INIT_BOOK_ID'], function (_0x3cf442, _0x49566f) {
+                        _0x3cf442[_0x447a('0x1b2')] = _0x49566f || '';
+                    })
+                    _0x24c4f0.default(mutations, _0x48c454['UPDATE_READER_BOOK_INFO_ERROR'], function (_0x494763) {
+                        _0x494763['isBookInfoError'] = !0x0;
+                    })
+                    _0x24c4f0.default(mutations, _0x48c454['UPDATE_READER_BOOK_INFO_PRICE'], function (_0x3ebb47, _0x91b0d) {
+                        _0x3ebb47['bookInfo']['price'] = _0x91b0d || 0x0;
+                    })
+                    _0x24c4f0.default(mutations, _0x48c454['UPDATE_READER_BOOK_INFO_PAY_TYPE'], function (_0x51fc7f, _0x36e670) {
+                        _0x51fc7f[_0x447a('0x32c')][_0x447a('0x244')] = _0x36e670 || 0x0;
+                    })
+                    _0x24c4f0.default(mutations, _0x48c454['UPDATE_READER_BOOK_INFO'], function (_0x40073a, _0x5c1bba) {
+                        _0x40073a['bookInfo'] = _0x5c1bba || {};
+                    })
+                    _0x24c4f0.default(mutations, _0x48c454['UPDATE_READER_READING_STAT'], function (_0x4de601, _0x30b06d) {
+                        _0x4de601['readingStat'] = _0x30b06d || {};
+                    })
+                    _0x24c4f0.default(mutations, _0x48c454['UPDATE_READER_LAST_PROGRESS_PAYLOAD'], function (_0xbeb1b9, _0x2e2b05) {
+                        if (_0x9fa9fd[_0x447a('0x31b')](_0xbeb1b9['lastProgressPayload'], _0x2e2b05))
+                            return _0xbeb1b9['sameProgressPayloadCount']++,
+                                void _0x317083('[chinozhou\x20log]:\x20lastProgressPayload\x20is\x20equal,\x20count:\x20' + _0xbeb1b9[_0x447a('0x0')] + ',\x20payload:\x20' + (0x0,
+                                    _0x104c56['default'])(_0x2e2b05));
+                        _0xbeb1b9['sameProgressPayloadCount'] = 0x0,
+                            _0xbeb1b9['lastProgressPayload'] = (0x0,
+                                _0x4f1bb5['default'])({}, _0x2e2b05) || {};
+                    })
+                    _0x24c4f0.default(mutations, _0x48c454['UPDATE_BOOK_IN_SHELF'], function (_0x1804b8, _0xf7f455) {
+                        _0x1804b8['isInShelf'] = _0xf7f455 || !0x1;
+                    })
+                    _0x24c4f0.default(mutations, _0x48c454['UPDATE_READER_MEMBER_CARD_SUMMARY'], function (_0x185b96, _0x566933) {
+                        _0x185b96['memberCardSummary'] = _0x566933 || {};
+                    })
+                    _0x24c4f0.default(mutations, _0x48c454['UPDATE_READER_INFINITE_INFO'], function (_0x5082c0, _0x267aeb) {
+                        _0x5082c0['infiniteInfo'] = _0x267aeb || {};
+                    })
+                    _0x24c4f0.default(mutations, _0x48c454['UPDATE_READER_ACTIVE_INFINITE_INFO'], function (_0x1f6851, _0xf18c90) {
+                        _0x1f6851['activeInfiniteInfo'] = _0xf18c90 || {};
+                    })
+                    _0x24c4f0.default(mutations, _0x48c454['UPDATE_READER_CHAPTER_INFOS'], function (_0x6c5f61, _0x225d2c) {
+                        _0x6c5f61['chapterInfos'] = _0x225d2c || [];
+                    })
+                    _0x24c4f0.default(mutations, _0x48c454['UPDATE_READER_PROGRESS'], function (_0x8b266e, _0x368cc1) {
+                        _0x8b266e['progress'] = _0x368cc1 || {};
+                    })
+                    _0x24c4f0.default(mutations, _0x48c454['UPDATE_READER_ALBUM_RELATED'], function (_0x254505, _0x4882bf) {
+                        _0x254505['relatedAlbum'] = _0x4882bf || '';
+                    })
+                    _0x24c4f0.default(mutations, _0x48c454['UPDATE_READER_LOCAL_PROGRESS'], function (_0x29408b, _0x1380af) {
+                        var _0xbcaafb = _0x1380af['appId']
+                            , _0x1496ee = _0x1380af['chapterUid']
+                            , _0x8931f2 = _0x1380af['chapterOffset']
+                            , _0x436bc3 = _0x1380af['updateTime']
+                            , _0x3a3fc5 = _0x1380af['summary']
+                            , _0x54f1a2 = _0x1380af['progress']
+                            , _0xe770d = (0x0,
+                            _0x4f1bb5['default'])({}, _0x29408b[_0x447a('0x393')]['book'], {
+                            'appId': _0xbcaafb,
+                            'chapterUid': _0x1496ee,
+                            'chapterOffset': _0x8931f2,
+                            'updateTime': _0x436bc3,
+                            'summary': _0x3a3fc5,
+                            'progress': _0x54f1a2
+                        });
+                        _0x29408b[_0x447a('0x393')] = (0x0,
+                            _0x4f1bb5['default'])({}, _0x29408b['progress'], {
+                            'book': _0xe770d
+                        });
+                    })
+                    _0x24c4f0.default(mutations, _0x48c454['UPDATE_READER_CURRENT_CHAPTER'], function (_0x53f51f, _0x26d3d5) {
+                        _0x53f51f['currentChapter'] = _0x26d3d5 || {};
+                    })
+                    _0x24c4f0.default(mutations, _0x48c454['UPDATE_READER_CURRENT_SECTION'], function (_0x299e90, _0x176f6a) {
+                        _0x299e90['currentSectionIdx'] = _0x176f6a;
+                    })
+                    _0x24c4f0.default(mutations, _0x48c454['UPDATE_READER_CONTENT_HTML'], function (state, htmls) {
+                        state.chapterContentHtml = htmls.map(function (sections, index) {
+                            let html = function (sections, bookId) {
+                                if (!sections || sections.length <= 0) {
+                                    return ''
+                                }
+
+                                let re1 = new RegExp('<img[^>]+?data-wr-co="([^"]+?)"[^>]+?alt="([^"]+?)"[^>]+?qqreader-footnote[^>]+?>', 'gi');
+                                sections = sections.replace(re1, '<span class="reader_footer_note js_readerFooterNote" data-wr-co="$1" data-wr-footernote="$2"></span>');
+
+                                let re2 = new RegExp('<img[^>]+?data-wr-co="([^"]+?)"[^>]+?qqreader-footnote[^>]+?alt="([^"]+?)"[^>]*?>', 'gi');
+
+                                sections = sections.replace(re2, '<span class="reader_footer_note js_readerFooterNote" data-wr-co="$1" data-wr-footernote="$2"></span>')
+                                sections = sections.replace(/\.\.\/video\/(.*?\.(mp4|wmv|3gp|rm|rmvb|mov|m4v|avi))/gi, 'https://res.weread.qq.com/wrepub/web/' + bookId + '/$1')
+                                sections = sections.replace(/\.\.\/images\/(.*?\.(png|jpg|jpeg|gif))/gi, 'https://res.weread.qq.com/wrepub/web/' + bookId + '/$1')
+                                return sections.trim();
+                            }(sections || '', state.bookId)
+
+                            let bookId = state['bookId']
+                            let chapterUid = state['currentChapter']['chapterUid'];
+                            _0x9fa9fd.get(state, 'user.vid', 0);
+                            return {
+                                'value': m1027.encryption(html, bookId, chapterUid, index),
+                                'valueHasStr': function (_0x3560e1) {
+                                    return html.indexOf(_0x3560e1) > -1;
+                                }
+                            };
+                        });
+                    })
+                    _0x24c4f0.default(mutations, _0x48c454['UPDATE_READER_CONTENT_STYLES'], function (state, styles) {
+                        state.chapterContentStyles = function (styles, bookId) {
+                            if (!styles || styles.length <= 0) {
+                                return ''
+                            }
+
+                            // 去掉 /* */ 注释
+                            styles = styles.trim().replace(/\/\*.*?\*\//gi, '');
+                            let re = new RegExp('[^{}]*?{[\x5cs\x5cS]+?}', 'gi'),
+                                matchArray = styles.match(re);
+                            if (!matchArray || 0 === matchArray.length) {
+                                return ''
+                            }
+
+                            // 把 epub 内联图片地址替换成绝对地址，方便 html 进行访问
+                            return matchArray.map(function (_0x2edcf7) {
+                                return '.readerChapterContent ' +
+                                    (_0x2edcf7 = _0x2edcf7.trim()).split('\n').map(function (_0x5e55cf) {
+                                        return -1 === (_0x5e55cf = _0x5e55cf.trim()).indexOf('{') &&
+                                        -1 === _0x5e55cf.indexOf('}') && -1 === _0x5e55cf.indexOf(';')
+                                            ? _0x5e55cf + ';'
+                                            : _0x5e55cf;
+                                    }).join('');
+                            }).join('').trim().replace(
+                                /\.\.\/images\/(.*?\.(png|jpg|jpeg|gif))/gi,
+                                'https://res.weread.qq.com/wrepub/web/' + bookId + '/$1'
+                            );
+                        }(styles || '', state.bookId);
+                    })
+                    _0x24c4f0.default(mutations, _0x48c454['UPDATE_READER_CHAPTER_CONTENT_TARGET_HTML'], function (_0x104c02, _0x12bbc6) {
+                        _0x104c02[_0x447a('0x139')] = _0x12bbc6 || {};
+                    })
+                    _0x24c4f0.default(mutations, _0x48c454['UPDATE_READER_CHAPTER_CANVAS_TARGET_HTML'], function (_0x4abba4, _0x3fff04) {
+                        _0x4abba4['chapterContentTargetCanvasHtml'] = _0x3fff04 || '';
+                    })
+                    _0x24c4f0.default(mutations, _0x48c454['UPDATE_READER_HIGHLIGHT_OBJS'], function (_0x528371, _0x28efff) {
+                        _0x528371['highlightObjs'] = _0x28efff || [];
+                    })
+                    _0x24c4f0.default(mutations, _0x48c454['CLEAR_READER_HIGHLIGHT_OBJS'], function (_0x3b1b38) {
+                        _0x3b1b38['highlightObjs'] = [];
+                    })
+                    _0x24c4f0.default(mutations, _0x48c454['UPDATE_READER_CONTENT_STATE'], function (_0x3f2d72, _0x5bd313) {
+                        _0x3f2d72['chapterContentState'] = _0x5bd313;
+                    })
+                    _0x24c4f0.default(mutations, _0x48c454['UPDATE_READER_CONTENT_IS_DIRTY'], function (_0x5e049b, _0x1f68dd) {
+                        _0x5e049b['isChapterContentDirty'] = _0x1f68dd || !0x1;
+                    })
+                    _0x24c4f0.default(mutations, _0x48c454['UPDATE_READER_SEARCH_RESULT'], function (_0x2ba4ac, _0x3dd144) {
+                        _0x3dd144['isLoadMore'] ? _0x2ba4ac['searchResult']['resultList'] = _0x2ba4ac['searchResult']['resultList']['concat'](_0x3dd144['resultList']) : _0x2ba4ac['searchResult']['resultList'] = _0x3dd144['resultList'],
+                            _0x2ba4ac['searchResult']['hasMore'] = _0x3dd144['hasMore'],
+                            _0x2ba4ac['searchResult']['totalCount'] = _0x3dd144['totalCount'],
+                            _0x2ba4ac['searchResult'][_0x447a('0x105')] = _0x3dd144['isNeedAutoSearchWhenShow'];
+                    })
+                    _0x24c4f0.default(mutations, _0x48c454['UPDATE_INITIAL_SEARCH_RESULT'], function (_0x47f1b0, _0x3d6bb7) {
+                        _0x47f1b0['initialSearchResult'] = (0x0,
+                            _0x4f1bb5['default'])({}, _0x3d6bb7);
+                    })
+                    _0x24c4f0.default(mutations, _0x48c454['CLEAR_READER_SEARCH_RESULT'], function (_0x5a700e) {
+                        _0x5a700e['searchResult']['keyword'] = '',
+                            _0x5a700e[_0x447a('0x320')]['resultList'] = [],
+                            _0x5a700e['searchResult'][_0x447a('0x2e6')] = !0x1,
+                            _0x5a700e[_0x447a('0x320')]['totalCount'] = 0x0,
+                            _0x5a700e['isSearchLoading'] = !0x1;
+                    })
+                    _0x24c4f0.default(mutations, _0x48c454['UPDATE_READER_SEARCH_RESULT_KEYWORD'], function (_0xb22bce, _0x5bf5bd) {
+                        _0xb22bce['searchResult']['keyword'] = _0x5bf5bd || '';
+                    })
+                    _0x24c4f0.default(mutations, _0x48c454['UPDATE_READER_IS_IN_SEARCH'], function (_0x745ae5, _0x40447a) {
+                        _0x745ae5[_0x447a('0x1be')] = _0x40447a || !0x1;
+                    })
+                    _0x24c4f0.default(mutations, _0x48c454['UPDATE_READER_IS_SHOW_AUTO_SEARCH_HINT'], function (_0x8093e, _0x2c0aea) {
+                        _0x8093e['isShowAutoSearchHint'] = _0x2c0aea || !0x1;
+                    })
+                    _0x24c4f0.default(mutations, _0x48c454['UPDATE_READER_SEARCH_LOADING'], function (_0x23c7c1, _0x126421) {
+                        _0x23c7c1['isSearchLoading'] = _0x126421 || !0x1;
+                    })
+                    _0x24c4f0.default(mutations, _0x48c454['UPDATE_READER_START_READING_TIME'], function (_0x1c5347, _0x5aee80) {
+                        _0x1c5347['startReadingTime'] = _0x5aee80 || new Date()['getTime']();
+                    })
+                    _0x24c4f0.default(mutations, _0x48c454['UPDATE_READER_TOKEN'], function (_0x579236, _0x390b38) {
+                        _0x579236['token'] = _0x390b38 || '';
+                    })
+                    _0x24c4f0.default(mutations, _0x48c454['UPDATE_READER_PAUSE_TIME'], function (_0x5d8fb7) {
+                        _0x5d8fb7['pauseTime'] = new Date()['getTime']();
+                    })
+                    _0x24c4f0.default(mutations, _0x48c454['UPDATE_READER_ACTIVE_TIME'], function (_0x1cfe0b) {
+                        _0x1cfe0b['activeTime'] = new Date()[_0x447a('0x132')]();
+                    })
+                    _0x24c4f0.default(mutations, _0x48c454['UPDATE_READER_BALANCE'], function (_0xb9ac33, _0x189458) {
+                        var _0x49d375 = _0x9fa9fd['get'](_0x189458, 'ios.balance', 0x0)
+                            , _0x2d7590 = _0x9fa9fd['get'](_0x189458, _0x447a('0x283'), 0x0)
+                            , _0x54d3d9 = (0x64 * _0x49d375 - 0x64 * _0x2d7590) / 0x64
+                            , _0x30e8fa = _0x9fa9fd['get'](_0x189458, 'android.balance', 0x0)
+                            , _0x27cf74 = _0x9fa9fd['get'](_0x189458, 'android.giftBalance', 0x0)
+                            , _0x4516da = _0x30e8fa - _0x27cf74;
+                        _0xb9ac33['balance'] = {
+                            'hasFetched': !0x0,
+                            'iOS': _0x49d375,
+                            'iOSGift': _0x2d7590,
+                            'iOSPaid': _0x54d3d9,
+                            'Android': _0x30e8fa,
+                            'AndroidGift': _0x27cf74,
+                            'AndroidPaid': _0x4516da
+                        };
+                    })
+                    _0x24c4f0.default(mutations, _0x48c454['UPDATE_READER_PAGE_SERVER_TIMESTAMP'], function (_0x5e67e2, _0x1686e3) {
+                        _0x5e67e2['psvts'] = m101['e'](_0x1686e3) || '';
+                    })
+                    _0x24c4f0.default(mutations, _0x48c454['UPDATE_READER_PAGE_CLIENT_TIMESTAMP'], function (_0x17f6a8, _0x35d84d) {
+                        _0x17f6a8 && _0x35d84d && (_0x17f6a8['pclts'] = m101['e'](_0x35d84d) || '');
+                    })
+                    _0x24c4f0.default(mutations, _0x48c454['UPDATE_READER_FORBIDDEN_STATE'], function (_0x41669f, _0x28f92b) {
+                        _0x41669f[_0x447a('0x44b')] = _0x28f92b;
+                    })
+                    _0x24c4f0.default(mutations, _0x48c454['UPDATE_READER_PDF_URL'], function (_0x492bad, _0x589dca) {
+                        _0x492bad['pdfUrl'] = _0x589dca;
+                    })
+                    _0x24c4f0.default(mutations, _0x48c454['UPDATE_READER_PDF_ERROR'], function (_0x3dd89a) {
+                        _0x3dd89a['isPdfError'] = !0x0;
+                    })
+                    _0x24c4f0.default(mutations, _0x48c454['UPDATE_SHOULD_SHOW_PDF_OUTLINE'], function (_0x1f8d16, _0x1a3ce5) {
+                        _0x1f8d16['shouldShowPdfOutline'] = _0x1a3ce5;
+                    })
+                    _0x24c4f0.default(mutations, _0x48c454['UPDATE_READER_INFO_ID'], function (_0x51930b, _0x59c800) {
+                        _0x51930b['infoId'] = _0x59c800 || '';
+                    })
+                    _0x24c4f0.default(mutations, _0x48c454['UPDATE_TOP_STORIES_AMOUNT'], function (_0x1d7515, _0x4e8a2c) {
+                        _0x1d7515[_0x447a('0x127')]['amount'] = _0x4e8a2c || 0x0;
+                    })
+                    _0x24c4f0.default(mutations, _0x48c454['UPDATE_TOP_STORIES_STATUS'], function (_0x471a46, _0xfd7da9) {
+                        _0x471a46['topStories']['checked'] = _0xfd7da9['like'],
+                            _0x471a46['topStories']['showBubble'] = _0xfd7da9['showBubble'],
+                            _0x471a46['topStories']['hasFetched'] = !0x0;
+                    })
+
+                    const actions = {}
+                    _0x24c4f0.default(actions, _0x46b089['FETCH_READER_INIT_DATA'], function (_0x30bb37, _0x222ba0) {
+                        var _0x455c54, _0x3dba66 = this, _0x4a082c = _0x30bb37[_0x447a('0x1bc')],
+                            _0x229a71 = _0x30bb37['dispatch'], _0x1ac256 = _0x30bb37['state'],
+                            _0xe9b350 = (_0x30bb37[_0x447a('0x35c')],
+                                _0x222ba0['initChapterUid']), _0x4bafa7 = _0x222ba0['envConfig'],
+                            _0x1f4f1d = _0x222ba0['isLogin'], _0x46803f = _0x222ba0['needFilterCopyright'],
+                            _0x355e61 = _0x222ba0[_0x447a('0x37f')],
+                            _0x1333c9 = _0x222ba0['initialSearchToken'];
+                        return _0x2c2836['default']['all']([_0x2c2836['default'][_0x447a('0x418')]([_0x229a71(_0x46b089['FETCH_READER_BOOK_INFO'], {
+                            'envConfig': _0x4bafa7,
+                            'isLogin': _0x1f4f1d
+                        }), _0x229a71(_0x46b089[_0x447a('0x17d')], {
+                            'envConfig': _0x4bafa7,
+                            'isLogin': _0x1f4f1d,
+                            'needFilterCopyright': _0x46803f
+                        }), _0x229a71(_0x46b089[_0x447a('0x307')], {
+                            'envConfig': _0x4bafa7,
+                            'isLogin': _0x1f4f1d
+                        }), _0x229a71(_0x46b089['FETCH_INITIAL_SEARCH_RESULT'], {
+                            'token': _0x1333c9,
+                            'envConfig': _0x4bafa7
+                        })])[_0x447a('0x19c')]((_0x455c54 = (0x0,
+                                _0x26fa07[_0x447a('0x3d')])(_0x529902['default']['mark'](function _0x56e7f6(_0x2ffdca) {
+                                var _0x439692, _0x499efd, _0x29d9ce;
+                                return _0x529902['default']['wrap'](function (_0x55d4af) {
+                                    for (; ;)
+                                        switch (_0x55d4af['prev'] = _0x55d4af['next']) {
+                                            case 0x0:
+                                                if (_0x439692 = _0x2ffdca[0x0] || {},
+                                                    _0x499efd = _0x2ffdca[0x1] || [],
+                                                    _0x29d9ce = _0x2ffdca[0x2] || '',
+                                                    _0x4a082c(_0x48c454['UPDATE_READER_ALBUM_RELATED'], _0x29d9ce),
+                                                    _0x4a082c(_0x48c454['UPDATE_READER_CHAPTER_INFOS'], _0x3a8483(_0x439692, _0x499efd)),
+                                                !_0x1f4f1d || _0x1ac256['initialSearchResult']) {
+                                                    _0x55d4af['next'] = 0x8;
+                                                    break;
+                                                }
+                                                return _0x55d4af['next'] = 0x8,
+                                                    _0x229a71(_0x46b089['FETCH_READER_PROGRESS'], {
+                                                        'envConfig': _0x4bafa7,
+                                                        'compareWithLocal': !0x1
+                                                    });
+                                            case 0x8:
+                                            case 'end':
+                                                return _0x55d4af['stop']();
+                                        }
+                                }, _0x56e7f6, _0x3dba66);
+                            })),
+                                function (_0x523bec) {
+                                    return _0x455c54[_0x447a('0x37e')](this, arguments);
+                                }
+                        ))['then'](function () {
+                            var _0x424073 = _0x9fa9fd['get'](_0x1ac256, _0x447a('0xd9'), 0x0)
+                                , _0x27f0bb = function (_0x923c87) {
+                                var _0x553174 = _0x923c87[_0x447a('0x32c')]
+                                    , _0x44f4fa = _0x923c87[_0x447a('0x485')]
+                                    , _0x4bf932 = _0x923c87[_0x447a('0xdc')]
+                                    , _0xfa3223 = _0x923c87['progress']
+                                    , _0x2c7b1b = _0x923c87[_0x447a('0x37f')]
+                                    , _0x3cc7c2 = null;
+                                if (_0x19f93b['default']['isLegacyReaderSupportBook'](_0x553174)) {
+                                    var _0x128d44 = _0x4bf932;
+                                    if (!_0x4bf932 || !(0x0,
+                                        _0x992cb4['default'])(_0x4bf932)) {
+                                        var _0x2b4037 = _0x9fa9fd['get'](_0xfa3223, 'book.chapterUid', 0x0);
+                                        _0x2b4037 > 0x0 && (_0x128d44 = _0x2b4037);
+                                    }
+                                    for (var _0x351fdc = 0x0, _0x56e253 = _0x44f4fa['length']; _0x351fdc < _0x56e253; _0x351fdc++) {
+                                        var _0x1e8938 = _0x44f4fa[_0x351fdc];
+                                        if (_0x1e8938 && _0x1e8938['chapterUid'] === _0x128d44) {
+                                            _0x3cc7c2 = _0x1e8938;
+                                            break;
+                                        }
+                                    }
+                                }
+                                _0x3cc7c2 && _0x3cc7c2['chapterUid'] || (_0x3cc7c2 = _0x44f4fa[0x0]);
+                                if (_0x19f93b['default']['actualTreatBookAsPdf'](_0x553174)) {
+                                    _0x3cc7c2 = {
+                                        'chapterUid': ('switchFormat' === _0x2c7b1b ? _0x4bf932 : _0x9fa9fd['get'](_0xfa3223, 'book.chapterUid', 0x0)) || 0x0,
+                                        'chapterOffset': 0x0
+                                    };
+                                }
+                                _0x317083('chapterToShow', 'initChapterUid=' + _0x4bf932, 'progressChapterUid=' + _0x9fa9fd['get'](_0xfa3223, _0x447a('0x12b'), 0x0), 'result=' + (_0x3cc7c2 ? _0x3cc7c2['chapterUid'] : -0x1)),
+                                _0x3cc7c2 || _0x317083('Error\x20in\x20chapterToShow.\x20Can\x20not\x20find\x20target\x20Chapter');
+                                return _0x3cc7c2 || {};
+                            }({
+                                'bookInfo': _0x1ac256['bookInfo'],
+                                'chapterInfos': _0x1ac256['chapterInfos'],
+                                'initChapterUid': _0x424073 || _0xe9b350,
+                                'progress': _0x1ac256['progress'],
+                                'jumpType': _0x355e61
+                            });
+                            _0x4a082c(_0x48c454['UPDATE_READER_CURRENT_CHAPTER'], _0x27f0bb),
+                                _0x4a082c(_0x48c454['UPDATE_SHOW_NAV_BAR'], _0x1ac256['isBookForbidden']),
+                                _0x4a082c(_0x48c454['UPDATE_READER_CONTENT_IS_DIRTY'], !0x0),
+                                _0x19f93b['default']['isSupportedBookType'](_0x1ac256['bookInfo'][_0x447a('0x14c')]) ? _0x4a082c(_0x48c454['UPDATE_READER_CONTENT_STATE'], 'LOADING') : _0x4a082c(_0x48c454['UPDATE_READER_CONTENT_STATE'], _0x447a('0x38d'));
+                        }), _0x2c2836['default']['all']([]['concat']((0x0,
+                            _0x1c3421['default'])(_0x1f4f1d ? [_0x229a71(_0x46b089['FETCH_READER_BOOK_IN_SHELF'], _0x4bafa7), _0x229a71(_0x46b089['FETCH_READER_MEMBER_CARD_SUMMARY'], _0x4bafa7), _0x229a71(_0x46b089[_0x447a('0xd4')], _0x4bafa7), _0x229a71(_0x46b089['FETCH_READER_ACTIVE_INFINITE'], _0x4bafa7), _0x229a71(_0x46b089['FETCH_READER_GET_CONFIG'], _0x4bafa7)] : []), [_0x229a71(_0x46b089['FETCH_READER_BOOK_READING_STAT'], {
+                            'envConfig': _0x4bafa7,
+                            'isLogin': _0x1f4f1d
+                        })]))['catch'](function (_0x1dfbe6) {
+                            _0x317083('Error\x20in\x20initData\x20side\x20data', _0x1dfbe6);
+                        })])['then'](function () {
+                            return _0x229a71(_0x46b089['FETCH_READER_SILENT_INFINITE'], {
+                                'envConfig': _0x4bafa7,
+                                'isLogin': _0x1f4f1d
+                            })['then'](function (_0x1cf4d4) {
+                                return _0x1cf4d4['data'] && _0x1cf4d4['data']['received'] ? _0x229a71(_0x46b089['FETCH_READER_MEMBER_CARD_SUMMARY'], _0x4bafa7) : 0x0;
+                            });
+                        })['catch'](function (_0x2b158d) {
+                            _0x317083('Error\x20in\x20initData', _0x2b158d);
+                        });
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['FETCH_INITIAL_SEARCH_RESULT'], function (_0x5ea093, _0x5b4b43) {
+                        var _0x21f218 = _0x5ea093['commit']
+                            , _0x1d05ef = _0x5b4b43['token']
+                            , _0xe67c1f = _0x5b4b43['envConfig'];
+                        return _0x1d05ef ? new _0x2c2836['default'](function (_0x3dc3b8) {
+                                (0x0,
+                                    _0x424400[_0x447a('0x3d')])('/web/book/search', (0x0,
+                                    _0x4f1bb5['default'])({
+                                    'token': _0x1d05ef
+                                }, _0xe67c1f), function (_0x1168ed) {
+                                    _0x178a19['inDevelopment']();
+                                    var _0x1ec1aa = _0x9fa9fd[_0x447a('0x299')](_0x1168ed, 'data.result', []);
+                                    if (!Array['isArray'](_0x1ec1aa) || !_0x1ec1aa[_0x447a('0xa3')])
+                                        return _0x3dc3b8(null);
+                                    _0x21f218(_0x48c454['UPDATE_INITIAL_SEARCH_RESULT'], _0x1ec1aa[0x0]),
+                                        _0x3dc3b8(_0x1ec1aa[0x0]);
+                                }, function (_0x4aa40c) {
+                                    _0x3dc3b8(null);
+                                });
+                            }
+                        )['catch'](function (_0x5103bf) {
+                            return _0x317083(_0x447a('0x1c1'), _0x5103bf),
+                                null;
+                        }) : null;
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['FETCH_READER_BOOK_INFO'], function (_0x5d7b57, _0x300b22) {
+                        var _0x212b99 = _0x5d7b57[_0x447a('0x1bc')]
+                            , _0xef711 = _0x5d7b57['state']
+                            , _0x4112d2 = _0x5d7b57['dispatch']
+                            , _0x21179b = _0x300b22['envConfig']
+                            , _0xc8c8cf = _0x300b22['isLogin']
+                            , _0x22431b = _0xef711['bookId'];
+                        if (_0x22431b)
+                            return _0x4112d2(_0x46b089['FETCH_BOOK_INFO'], {
+                                'envConfig': _0x21179b,
+                                'bookId': _0x22431b,
+                                'isLogin': _0xc8c8cf
+                            })['then'](function (_0x580643) {
+                                var _0x1d59fa = _0x580643 || {};
+                                return _0x1d59fa['bookId'] ? (_0x212b99(_0x48c454['UPDATE_READER_BOOK_INFO'], _0x1d59fa),
+                                _0x1d59fa['title'] && _0x212b99(_0x48c454['UPDATE_PAGE_TITLE'], _0x1d59fa['title']),
+                                    _0x212b99(_0x48c454['UPDATE_READER_FORBIDDEN_STATE'], !0x1),
+                                    _0x1d59fa) : (_0x212b99(_0x48c454['UPDATE_READER_FORBIDDEN_STATE'], !0x0),
+                                    _0x1d59fa);
+                            })['catch'](function (_0x14f75a) {
+                                _0x212b99(_0x48c454[_0x447a('0x4be')]),
+                                    _0x212b99(_0x48c454[_0x447a('0x1b8')], !0x0),
+                                    _0x317083('Error\x20in\x20loadBookInfo(bookId=' + _0x22431b, _0x14f75a);
+                            });
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['FETCH_LECTURE_ALBUM_RELATED'], function (_0x1b15ad, _0x185ad2) {
+                        var _0x146a4c = _0x1b15ad['state']
+                            , _0x5c82a7 = _0x185ad2['envConfig']
+                            , _0x326b86 = _0x146a4c['bookId'];
+                        if (_0x326b86)
+                            return (0x0,
+                                _0x424400['default'])('/web/book/albumRelated', (0x0,
+                                _0x4f1bb5['default'])({
+                                'bookId': _0x326b86
+                            }, _0x5c82a7))['then'](function (_0x1e1164) {
+                                if (_0x1e1164 && _0x1e1164['data'] && _0x1e1164['data']['albumList'] && _0x1e1164['data']['albumList'][_0x447a('0xa3')]) {
+                                    var _0x59afe4 = _0x1e1164['data']['albumList'][0x0];
+                                    if (_0x59afe4 && _0x59afe4[_0x447a('0x236')])
+                                        return _0x59afe4['albumId'];
+                                }
+                                return '';
+                            })['catch'](function (_0x328368) {
+                                _0x317083(_0x447a('0x19f'), _0x328368);
+                            });
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['FETCH_READER_CHAPTER_INFOS'], function (_0x45955a, _0x50877d) {
+                        var _0x454560 = _0x45955a['state']
+                            , _0x5a169e = _0x50877d['envConfig']
+                            , _0x2b3fff = _0x50877d['isLogin']
+                            , _0x29f198 = _0x50877d['needFilterCopyright']
+                            , _0x4742cc = _0x454560['bookId'];
+                        if (_0x4742cc)
+                            return _0x2b3fff ? (0x0,
+                                _0x4a522e['default'])('/web/book/chapterInfos', (0x0,
+                                _0x4f1bb5['default'])({
+                                'bookIds': [_0x4742cc]
+                            }, _0x5a169e))['then'](function (_0x5c69ad) {
+                                for (var _0x305b6b = (_0x5c69ad['data'] || {})['data'] || [], _0x38289a = {}, _0x55a0f6 = 0x0, _0x47100a = _0x305b6b['length']; _0x55a0f6 < _0x47100a; _0x55a0f6++) {
+                                    var _0x1b5063 = _0x305b6b[_0x55a0f6];
+                                    if (_0x1b5063) {
+                                        _0x38289a = _0x1b5063;
+                                        break;
+                                    }
+                                }
+                                if (_0x29f198) {
+                                    var _0x2f15ad = []
+                                        , _0x438d2d = _0x38289a[_0x447a('0x2d3')] || []
+                                        , _0x1baf77 = !0x0
+                                        , _0xae48ee = !0x1
+                                        , _0x20d5ce = void 0x0;
+                                    try {
+                                        for (var _0x35fd1a, _0x23df1b = (0x0,
+                                            _0x5b1552['default'])(_0x438d2d); !(_0x1baf77 = (_0x35fd1a = _0x23df1b[_0x447a('0x2e4')]())['done']); _0x1baf77 = !0x0) {
+                                            var _0x1f53fb = _0x35fd1a['value'];
+                                            ('封面' === _0x1f53fb['title'] || '版权信息' === _0x1f53fb['title'] || '版权页' === _0x1f53fb['title']) && _0x1f53fb['chapterIdx'] < 0x5 || _0x2f15ad['push'](_0x1f53fb);
+                                        }
+                                    } catch (_0x486e77) {
+                                        _0xae48ee = !0x0,
+                                            _0x20d5ce = _0x486e77;
+                                    } finally {
+                                        try {
+                                            !_0x1baf77 && _0x23df1b['return'] && _0x23df1b['return']();
+                                        } finally {
+                                            if (_0xae48ee)
+                                                throw _0x20d5ce;
+                                        }
+                                    }
+                                    return _0x2f15ad;
+                                }
+                                return _0x38289a['updated'] || [];
+                            })[_0x447a('0x4b1')](function (_0x40963a) {
+                                _0x317083('Error\x20in\x20chapterInfos', _0x40963a);
+                            }) : (0x0,
+                                _0x4a522e['default'])('/web/book/publicchapterInfos', (0x0,
+                                _0x4f1bb5[_0x447a('0x3d')])({
+                                'bookIds': [_0x4742cc]
+                            }, _0x5a169e))['then'](function (_0x4effab) {
+                                for (var _0x2f9acf = (_0x4effab['data'] || {})['data'] || [], _0x14f4da = {}, _0x2ad860 = 0x0, _0x59e5e0 = _0x2f9acf[_0x447a('0xa3')]; _0x2ad860 < _0x59e5e0; _0x2ad860++) {
+                                    var _0x2f713d = _0x2f9acf[_0x2ad860];
+                                    if (_0x2f713d) {
+                                        _0x14f4da = _0x2f713d;
+                                        break;
+                                    }
+                                }
+                                return _0x14f4da['updated'] || [];
+                            })[_0x447a('0x4b1')](function (_0x5f3802) {
+                                _0x317083('Error\x20in\x20publicchapterInfos', _0x5f3802);
+                            });
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['RELOAD_READER_CHAPTER_INFOS'], function (_0x385375, _0x40a3bd) {
+                        var _0x52c780 = _0x385375['dispatch']
+                            , _0x5866e7 = _0x385375['commit']
+                            , _0x58bdb8 = _0x385375['state']
+                            , _0x6fdf87 = _0x385375['getters']
+                            , _0x156d38 = _0x40a3bd['isLogin'];
+                        return _0x52c780(_0x46b089['FETCH_READER_CHAPTER_INFOS'], {
+                            'envConfig': {},
+                            'isLogin': _0x156d38
+                        })['then'](function (_0x8c3e9d) {
+                            _0x5866e7(_0x48c454['UPDATE_READER_CHAPTER_INFOS'], _0x3a8483(_0x58bdb8['bookInfo'], _0x8c3e9d));
+                            var _0x39a3cb = _0x58bdb8['currentChapter'][_0x447a('0x3a')]
+                                , _0x2e9896 = _0x6fdf87['getChapterWithChapterUid'](_0x39a3cb);
+                            _0x5866e7(_0x48c454[_0x447a('0x380')], _0x2e9896);
+                        });
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['RELOAD_READER_BOOK_INFO'], function (_0x55ef83, _0x47990a) {
+                        var _0x2bac28 = _0x55ef83['dispatch']
+                            , _0x4795b7 = _0x55ef83['commit']
+                            , _0x3c4c6f = _0x47990a[_0x447a('0x163')];
+                        return _0x2bac28(_0x46b089['FETCH_READER_BOOK_INFO'], {
+                            'envConfig': {},
+                            'isLogin': _0x3c4c6f
+                        })[_0x447a('0x19c')](function (_0x2f8a59) {
+                            _0x4795b7(_0x48c454['UPDATE_READER_BOOK_INFO'], _0x2f8a59);
+                        });
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['CANCEL_AUTO_PAY'], function (_0x2e5d36) {
+                        var _0x23f1c3 = _0x2e5d36['state']
+                            , _0x493134 = _0x2e5d36['dispatch']
+                            , _0x1d0231 = {
+                            'b': m101['e'](_0x23f1c3['bookId'])
+                        };
+                        return (0x0,
+                            _0x4a522e[_0x447a('0x3d')])('/web/pay/cancelAutoBuyChapter', _0x1d0231)['then'](function (_0xf61ff0) {
+                            return _0x493134(_0x46b089['RELOAD_READER_BOOK_INFO'], {
+                                'isLogin': !0x0
+                            }),
+                                _0xf61ff0['data'];
+                        }, function (_0x11b303) {
+                            return _0x317083('Error\x20in\x20fetchReaderBuyChapters', _0x11b303),
+                                _0x11b303;
+                        });
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['FETCH_READER_PROGRESS'], function (_0x4ab588, _0x2ff591) {
+                        var _0x32fc71 = _0x4ab588['commit']
+                            , _0x26052e = _0x4ab588['state']
+                            , _0x1a97db = _0x4ab588[_0x447a('0x35c')]
+                            , _0x467cf4 = _0x2ff591['envConfig']
+                            , _0x5c7238 = _0x2ff591[_0x447a('0x323')]
+                            , _0x4afcf3 = _0x26052e['bookId'];
+                        return _0x317083(_0x1a97db['isTreatAsOtherTypeBook']),
+                            _0x4afcf3 ? (0x0,
+                                _0x424400['default'])(_0x447a('0x34'), (0x0,
+                                _0x4f1bb5['default'])({
+                                'bookId': _0x4afcf3
+                            }, _0x467cf4), function (_0x2d4b31) {
+                                if (_0x5c7238) {
+                                    var _0x3953b0 = void 0x0;
+                                    if (_0x1a97db['isDynamicPDF'] && _0x1a97db['isTreatAsOtherTypeBook'])
+                                        _0x3953b0 = {
+                                            'bookId': _0x9fa9fd['get'](_0x2d4b31, 'data.bookId', ''),
+                                            'book': _0x9fa9fd[_0x447a('0x299')](_0x2d4b31, 'data.book.otherType', {}),
+                                            'canFreeRead': _0x9fa9fd['get'](_0x2d4b31, 'data.canFreeRead', !0x1)
+                                        };
+                                    var _0x51733c = _0x1a97db['isDynamicPDF'] && _0x1a97db[_0x447a('0x166')] ? _0x3953b0 : _0x2d4b31['data']
+                                        , _0xd98e1e = _0x26052e['progress'];
+                                    if (!_0x51733c || !_0xd98e1e)
+                                        return null;
+                                    if (_0x9fa9fd['get'](_0x51733c, 'book.updateTime', 0x0) <= _0x9fa9fd['get'](_0xd98e1e, _0x447a('0x115'), 0x0))
+                                        return null;
+                                    if (_0x9fa9fd['get'](_0x51733c, 'book.appId', '') === _0x9fa9fd['get'](_0xd98e1e, _0x447a('0x7d'), ''))
+                                        return null;
+                                    for (var _0x569041 = _0x9fa9fd['get'](_0x51733c, 'book.chapterUid', 0x0), _0x3f464a = _0x26052e[_0x447a('0x485')] || [], _0x1fc5db = !0x1, _0x1e1d8d = 0x0, _0x49811e = _0x3f464a['length']; _0x1e1d8d < _0x49811e; _0x1e1d8d++) {
+                                        var _0x265ce1 = _0x3f464a[_0x1e1d8d];
+                                        if (_0x265ce1 && _0x265ce1['chapterUid'] === _0x569041) {
+                                            _0x1fc5db = !0x0;
+                                            break;
+                                        }
+                                    }
+                                    return _0x1fc5db ? (_0x32fc71(_0x48c454['UPDATE_READER_PROGRESS'], _0x51733c),
+                                        _0x51733c) : null;
+                                }
+                                if (_0x1a97db[_0x447a('0x499')] && _0x1a97db[_0x447a('0x166')]) {
+                                    var _0x18c5f0 = _0x9fa9fd[_0x447a('0x299')](_0x2d4b31, _0x447a('0x1e7'), '')
+                                        , _0x2098e1 = _0x9fa9fd['get'](_0x2d4b31, 'data.book.otherType', {})
+                                        , _0xa4fc5d = _0x9fa9fd['get'](_0x2d4b31, 'data.canFreeRead', !0x1);
+                                    _0x32fc71(_0x48c454['UPDATE_READER_PROGRESS'], {
+                                        'bookId': _0x18c5f0,
+                                        'book': _0x2098e1,
+                                        'canFreeRead': _0xa4fc5d
+                                    });
+                                } else
+                                    _0x32fc71(_0x48c454['UPDATE_READER_PROGRESS'], _0x2d4b31['data']);
+                            }, function (_0x231bdc) {
+                                _0x317083('Error\x20in\x20fetchBookProgress', _0x231bdc);
+                            }) : _0x2c2836[_0x447a('0x3d')]['reject'](new Error(_0x447a('0x369')));
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['FETCH_READER_BOOK_READING_STAT'], function (_0x13b4d3, _0x4e2097) {
+                        var _0xc3c2df = _0x13b4d3['commit']
+                            , _0x1efaee = _0x13b4d3['state']
+                            , _0x4f21a8 = _0x4e2097['envConfig']
+                            , _0x39121f = _0x4e2097['isLogin']
+                            , _0x513a0a = _0x1efaee['bookId'];
+                        if (_0x513a0a)
+                            return _0x39121f ? (0x0,
+                                _0x424400['default'])('/web/book/readingStat', (0x0,
+                                _0x4f1bb5[_0x447a('0x3d')])({
+                                'bookId': _0x513a0a,
+                                'showUserNum': 0x2
+                            }, _0x4f21a8), function (_0x50812c) {
+                                _0xc3c2df(_0x48c454['UPDATE_READER_READING_STAT'], _0x50812c[_0x447a('0x101')]);
+                            }, function (_0x2c7c4c) {
+                                _0x317083(_0x447a('0xaa'), _0x2c7c4c);
+                            }) : (0x0,
+                                _0x424400['default'])('/web/readingStat', (0x0,
+                                _0x4f1bb5[_0x447a('0x3d')])({
+                                'bookId': _0x513a0a
+                            }, _0x4f21a8), function (_0x3e0635) {
+                                _0xc3c2df(_0x48c454['UPDATE_READER_READING_STAT'], _0x3e0635[_0x447a('0x101')]);
+                            }, function (_0x32455d) {
+                                _0x317083('Error\x20in\x20fetchReadingStatNoSession', _0x32455d);
+                            });
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['FETCH_READER_BOOK_IN_SHELF'], function (_0xc59c68, _0x3d3d8e) {
+                        var _0x475f12 = _0xc59c68['commit']
+                            , _0x222194 = _0xc59c68['dispatch']
+                            , _0x1ba42e = _0xc59c68['state']
+                            , _0x2b7dfa = _0x1ba42e['bookId'];
+                        if (_0x2b7dfa)
+                            return _0x222194(_0x46b089['FETCH_IN_SHELF'], {
+                                'envConfig': _0x3d3d8e,
+                                'bookIds': _0x2b7dfa
+                            })[_0x447a('0x19c')](function (_0x1f96b1) {
+                                for (var _0x50671d = {}, _0x8c7c71 = 0x0, _0x11c11d = _0x1f96b1['length']; _0x8c7c71 < _0x11c11d; _0x8c7c71++) {
+                                    var _0x4fcbb5 = _0x1f96b1[_0x8c7c71];
+                                    if (_0x4fcbb5[_0x447a('0x1b2')] === _0x1ba42e['bookId']) {
+                                        _0x50671d = _0x4fcbb5;
+                                        break;
+                                    }
+                                }
+                                var _0x308299 = 0x1 === _0x50671d['onShelf'];
+                                _0x475f12(_0x48c454['UPDATE_BOOK_IN_SHELF'], _0x308299);
+                            })['catch'](function (_0x172e30) {
+                                _0x317083(_0x447a('0x375'), _0x172e30);
+                            });
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['FETCH_READER_ADD_SHELF'], function (_0x1dcfef) {
+                        var _0x289310 = _0x1dcfef['commit']
+                            , _0x3fa7fc = _0x1dcfef['dispatch']
+                            , _0x141da5 = _0x1dcfef['state'];
+                        if (_0x141da5) {
+                            var _0x33fdfe = _0x141da5['bookId'];
+                            if (_0x33fdfe)
+                                return _0x3fa7fc(_0x46b089[_0x447a('0x2d8')], {
+                                    'bookIds': [_0x33fdfe]
+                                })['then'](function (_0x5d8b07) {
+                                    return _0x5d8b07 && _0x289310(_0x48c454['UPDATE_BOOK_IN_SHELF'], !0x0),
+                                        _0x5d8b07;
+                                });
+                        }
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['FETCH_READER_ACTIVE_INFINITE'], function (_0x36b566, _0x4099be) {
+                        var _0x58820d = _0x36b566[_0x447a('0x1bc')];
+                        return (0x0,
+                            _0x424400['default'])('/web/act/activeinfinite', (0x0,
+                            _0x4f1bb5['default'])({}, _0x4099be), function (_0x2f9a9b) {
+                            _0x58820d(_0x48c454[_0x447a('0xa2')], _0x2f9a9b['data']);
+                        }, function (_0x5e2efe) {
+                            _0x317083('Error\x20in\x20fetchReaderActiveInfinite', _0x5e2efe);
+                        });
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['FETCH_READER_SILENT_INFINITE'], function (_0x42d402, _0x261dad) {
+                        var _0x2b937f = _0x42d402['state']
+                            , _0x278b8c = _0x261dad['envConfig']
+                            , _0x3dfb8d = _0x261dad['isLogin']
+                            , _0x565048 = _0x2b937f['bookId'];
+                        return _0x565048 && _0x3dfb8d ? (0x0,
+                            _0x424400['default'])('/web/silentinfinite', (0x0,
+                            _0x4f1bb5['default'])({
+                            'bookId': _0x565048
+                        }, _0x278b8c)) : _0x2c2836['default']['resolve'](0x0);
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['FETCH_READER_MEMBER_CARD_SUMMARY'], function (_0x26f0e6, _0x43e360) {
+                        var _0x21ec85 = _0x26f0e6['commit'];
+                        return (0x0,
+                            _0x424400['default'])('/web/pay/memberCardSummary', (0x0,
+                            _0x4f1bb5['default'])({}, _0x43e360, {
+                            'pf': 'ios'
+                        }), function (_0x1e6b59) {
+                            _0x21ec85(_0x48c454['UPDATE_READER_MEMBER_CARD_SUMMARY'], _0x1e6b59['data']);
+                        }, function (_0x2d78be) {
+                            _0x317083('Error\x20in\x20fetchMemberCardSummary', _0x2d78be);
+                        });
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['FETCH_READER_INFINITE_INFO'], function (_0x12bbe6, _0x31e875) {
+                        var _0x346da6 = _0x12bbe6['commit'];
+                        return (0x0,
+                            _0x424400['default'])('/web/act/sendinfinite', (0x0,
+                            _0x4f1bb5[_0x447a('0x3d')])({}, _0x31e875), function (_0x15a98e) {
+                            _0x346da6(_0x48c454['UPDATE_READER_INFINITE_INFO'], _0x15a98e['data']);
+                        }, function (_0x18a270) {
+                            _0x317083('Error\x20in\x20fetchReaderInfiniteInfo', _0x18a270);
+                        });
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['FETCH_READER_RECEIVE_MEMBERCARD'], function () {
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['FETCH_READER_PDF_URL'], function (_0x2ef40b) {
+                        var _0x5b45c6 = _0x2ef40b['commit']
+                            , _0xb74284 = _0x2ef40b['state']['bookId'];
+                        if (_0xb74284)
+                            return (0x0,
+                                _0x424400['default'])('https://res.weread.qq.com/cos/download?getUrl=1', {
+                                'bookId': _0xb74284
+                            }, function (_0x11943f) {
+                                _0x11943f && _0x11943f['data'] && _0x11943f['data']['url'] && _0x5b45c6(_0x48c454['UPDATE_READER_PDF_URL'], _0x11943f['data']['url']);
+                            }, function (_0x324385) {
+                                return _0x317083('Error\x20in\x20fetchReaderPdfUrl', _0x324385),
+                                    _0x5b45c6(_0x48c454['UPDATE_READER_PDF_ERROR']),
+                                    _0x324385;
+                            }, !0x0);
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['FETCH_READER_CHAPTER_CONTENT'], (_0x4fe0de = _0x26fa07.default(_0x529902.default.mark(function _0x497f6e(context, payload) {
+                            var bookId, currentChapter, chapterUid, getRequestPayload, promise, isNeedPay,
+                                isMemberShipValid,
+                                canBookFreeReading,
+                                _dispatch = context['dispatch'],
+                                _commit = context['commit'],
+                                _state = context['state'],
+                                _getters = context['getters'];
+
+                            return _0x529902.default.wrap(function (_0x4d4882) {
+                                for (; ;)
+                                    switch (_0x4d4882['prev'] = _0x4d4882[_0x447a('0x2e4')]) {
+                                        case 0x0:
+                                            _0x9fa9fd.get(this.user, 'vid', 0)
+                                            if (_state.isChapterContentDirty) {
+                                                _0x4d4882['next'] = 0x3;
+                                                break;
+                                            }
+                                            return _0x4d4882['abrupt']('return');
+                                        case 0x3:
+                                            bookId = _state.bookId
+                                            currentChapter = _state.currentChapter
+                                            chapterUid = _0x9fa9fd.get(currentChapter, 'chapterUid')
+
+                                            if (!bookId || !chapterUid) {
+                                                _0x4d4882['next'] = 0x1f;
+                                                break;
+                                            }
+                                            _commit(_0x48c454['UPDATE_READER_CONTENT_STATE'], 'LOADING')
+                                            _commit(_0x48c454['UPDATE_READER_CHAPTER_CONTENT_TARGET_HTML'], {})
+                                            getRequestPayload = function (custom = {}) {
+                                                const requestPayload = {
+                                                    'b': m101['e'](bookId),
+                                                    'c': m101['e'](chapterUid),
+                                                    'r': Math.pow(parseInt(0x2710 * Math.random()), 2),
+                                                    'st': 0x0,
+                                                    'ct': parseInt(new Date().getTime() / 0x3e8),
+                                                    'ps': _state[_0x447a('0x2d5')],
+                                                    'pc': _state['pclts'],
+                                                    'sc': 0x0
+                                                };
+                                                _0x4b8e62.default(requestPayload, custom);
+                                                requestPayload['s'] = _sign(_stringify(requestPayload))
+                                                return requestPayload;
+                                            }
+                                            promise = void 0x0
+                                            if (!_getters.isSoldOutForbiddenRead && !_getters.isCopyRightForbiddenRead) {
+                                                _0x4d4882['next'] = 0x10;
+                                                break;
+                                            }
+                                            promise = new _0x2c2836.default((resolve) => {
+                                                _commit(_0x48c454['UPDATE_READER_CONTENT_HTML'], [])
+                                                _commit(_0x48c454['UPDATE_READER_CONTENT_STYLES'], '')
+                                                _commit(_0x48c454['UPDATE_READER_CONTENT_STATE'], 'DONE')
+                                                resolve()
+                                            })
+                                            _0x4d4882['next'] = 0x1b;
+                                            break;
+                                        case 0x10:
+                                            if (!_getters.isEPub) {
+                                                _0x4d4882['next'] = 0x18;
+                                                break;
+                                            }
+                                            try {
+                                                _dispatch(_0x46b089['MARK_FETCH_START']);
+                                            } catch (_0x39c767) {
+                                                _0x178a19['inDevelopment']();
+                                            }
+                                            if (!getRequestPayload(payload)['sc']) {
+                                                _0x4d4882['next'] = 0x15;
+                                                break;
+                                            }
+                                            _0x4d4882['next'] = 0x15
+                                            return _0x4a522e.default('/web/book/chapter/e_0', getRequestPayload(payload), (resp) => {
+                                                var _0x205bd6 = resp['data'];
+                                                return _0x205bd6 && 'string' == typeof _0x205bd6 ? m1139['chk'](_0x205bd6) : '';
+                                            }, (err) => {
+                                                return _0x317083('Error\x20in\x20fetchContent', err),
+                                                    err;
+                                            });
+                                        case 0x15:
+                                            // epub
+                                            promise = _0x2c2836.default.all(
+                                                [
+                                                    _0x4a522e.default('/web/book/chapter/e_0', getRequestPayload(payload), (resp) => {
+                                                        let respData = resp['data'];
+                                                        return respData && 'string' === typeof respData ? m1139['chk'](respData) : '';
+                                                    }, (err) => {
+                                                        _0x317083('Error in fetchContent', err)
+                                                        return err;
+                                                    }),
+                                                    _0x4a522e.default('/web/book/chapter/e_1', getRequestPayload(payload), (resp) => {
+                                                        let respData = resp['data'];
+                                                        return respData && 'string' === typeof respData ? m1139['chk'](respData) : '';
+                                                    }, (err) => {
+                                                        _0x317083('Error in fetchContent', err)
+                                                        return err;
+                                                    }),
+                                                    _0x4a522e.default('/web/book/chapter/e_2', getRequestPayload(_0x4f1bb5.default({}, payload, {
+                                                        'st': 0x1
+                                                    })), (resp) => {
+                                                        let respData = resp['data'];
+                                                        return respData && 'string' === typeof respData ? m1139['chk'](respData) : '';
+                                                    }, (err) => {
+                                                        _0x317083('Error in fetchContent', err)
+                                                        return err;
+                                                    }),
+                                                    _0x4a522e.default('/web/book/chapter/e_3', getRequestPayload(payload), (resp) => {
+                                                        let respData = resp['data'];
+                                                        return respData && 'string' === typeof respData ? m1139['chk'](respData) : '';
+                                                    }, (err) => {
+                                                        _0x317083('Error in fetchContent', err)
+                                                        return err;
+                                                    })]).then((results) => {
+                                                if ('string' === typeof results[0] && results[0].length > 0 && 'string' === typeof results[1] && results[1].length > 0 && 'string' === typeof results[3] && results[3].length > 0) {
+                                                    let style = m1139['dS'](results[2]);
+                                                    _0x178a19.inDevelopment()
+                                                    style = m1069.parse(style, {
+                                                        'removeFontSizes': true,
+                                                        'enableTranslate': _getters.isTranslationEnabled
+                                                    });
+
+
+                                                    let html = results[0] + results[1] + results[3];
+                                                    html = m1139['dH'](html)
+                                                    _0x178a19.inDevelopment()
+                                                    '...' === html && (html = _getters.chapterTitleText)
+                                                    html = m1140.parse(html, style, _state.sectionStep)
+
+                                                    _commit(_0x48c454['UPDATE_READER_CONTENT_HTML'], html)
+                                                    _commit(_0x48c454['UPDATE_READER_CONTENT_STYLES'], style)
+
+                                                    let currentProgressSectionIdx = _getters.getCurrentProgressSectionIdx
+                                                    payload && payload.prevChapter && (currentProgressSectionIdx = html.length - 1)
+                                                    _commit(_0x48c454['UPDATE_READER_CURRENT_SECTION'], currentProgressSectionIdx)
+                                                    _commit(_0x48c454['UPDATE_READER_CONTENT_STATE'], 'PRERENDER')
+                                                    try {
+                                                        _dispatch(_0x46b089['MARK_FETCH_END'])
+                                                    } catch (_0x548788) {
+                                                        _0x178a19.inDevelopment()
+                                                    }
+                                                } else {
+                                                    let errObj = null;
+                                                    'object' === _0x641fcd.default(results[0])
+                                                        ? errObj = results[0]
+                                                        : 'object' === _0x641fcd.default(results[1])
+                                                            ? errObj = results[1]
+                                                            : 'object' === _0x641fcd.default(results[2])
+                                                                ? errObj = results[2]
+                                                                : 'object' === _0x641fcd.default(results[3]) && (errObj = results[3])
+                                                    if (errObj) {
+                                                        let errCode = errObj['errCode'];
+                                                        if (-2012 === errCode || -2010 === errCode) {
+                                                            return _0x2c2836.default.reject({
+                                                                'isCustomError': true,
+                                                                'reason': 'forceReload'
+                                                            })
+                                                        }
+                                                        if (-2013 === errCode) {
+                                                            return _0x2c2836.default.reject({
+                                                                'isCustomError': true,
+                                                                'reason': 'sessionTimeout'
+                                                            })
+                                                        }
+                                                        var _0x1cfa58 = '';
+                                                        try {
+                                                            _0x1cfa58 = _0x104c56.default(errObj)
+                                                        } catch (err) {
+                                                        }
+                                                        _0x4a2f92({
+                                                            'code': errCode,
+                                                            'message': errObj.errMsg,
+                                                            'comm1': _0x1cfa58
+                                                        });
+                                                    }
+                                                    _commit(_0x48c454['UPDATE_READER_CONTENT_STATE'], 'ERROR')
+                                                }
+                                            }, (err) => {
+                                                _0x4a2f92({
+                                                    'code': err['code'],
+                                                    'message': err['message']
+                                                })
+                                                _commit(_0x48c454['UPDATE_READER_CONTENT_STATE'], 'ERROR')
+                                                _0x317083('Error in fetchContent', err)
+                                            })
+                                            _0x4d4882['next'] = 0x1b;
+                                            break;
+                                        case 0x18:
+                                            // txt
+                                            try {
+                                                _dispatch(_0x46b089['MARK_FETCH_START']);
+                                            } catch (err) {
+                                                _0x178a19.inDevelopment();
+                                            }
+                                            payload['sc'] && _0x4a522e.default('/web/book/chapter/t_0', getRequestPayload(payload), (resp) => {
+                                                let respData = resp['data'];
+                                                return respData && 'string' === typeof respData ? m1139['chk'](respData) : '';
+                                            }, (err) => {
+                                                _0x317083('Error in fetchContent', err)
+                                                return err;
+                                            })
+                                            promise = _0x2c2836.default.all(
+                                                [
+                                                    _0x4a522e.default('/web/book/chapter/t_0', getRequestPayload(payload), (resp) => {
+                                                        let respData = resp['data'];
+                                                        return respData && 'string' == typeof respData ? m1139['chk'](respData) : '';
+                                                    }, (err) => {
+                                                        _0x317083('Error in fetchContent', err)
+                                                        return err;
+                                                    }),
+                                                    _0x4a522e.default('/web/book/chapter/t_1', getRequestPayload(payload), (resp) => {
+                                                        let respData = resp['data'];
+                                                        return respData && 'string' == typeof respData ? m1139['chk'](respData) : '';
+                                                    }, (err) => {
+                                                        _0x317083('Error in fetchContent', err)
+                                                        return err;
+                                                    })
+                                                ]).then((results) => {
+                                                let result0 = results[0]
+                                                    , result1 = results[1];
+                                                if ('string' === typeof result0 && result0.length > 0 && 'string' == typeof result1 && result1.length > 0) {
+                                                    let html = result0 + result1;
+                                                    html = m1139['dT'](html);
+
+                                                    let htmls = m1140.parseTxt(html, _state.sectionStep);
+                                                    _commit(_0x48c454['UPDATE_READER_CONTENT_HTML'], htmls);
+
+                                                    let currentProgressSectionIdx = _getters.getCurrentProgressSectionIdx
+                                                    payload && payload['prevChapter'] && (currentProgressSectionIdx = htmls.length - 1)
+                                                    _commit(_0x48c454['UPDATE_READER_CURRENT_SECTION'], currentProgressSectionIdx)
+                                                    _commit(_0x48c454['UPDATE_READER_CONTENT_STATE'], 'PRERENDER')
+                                                    try {
+                                                        _dispatch(_0x46b089['MARK_FETCH_END']);
+                                                    } catch (_0x511838) {
+                                                        _0x178a19['inDevelopment']();
+                                                    }
+                                                } else {
+                                                    var _0x6681a6 = null;
+                                                    if (_0x447a('0x10f') === (void 0x0 === result0 ? _0x447a('0x8a') : (0x0,
+                                                        _0x641fcd[_0x447a('0x3d')])(result0)) ? _0x6681a6 = result0 : 'object' === (void 0x0 === result1 ? _0x447a('0x8a') : (0x0,
+                                                        _0x641fcd['default'])(result1)) && (_0x6681a6 = result1),
+                                                        _0x6681a6) {
+                                                        var _0x429dac = _0x6681a6['errCode'];
+                                                        if (-0x7dc === _0x429dac || -0x7da === _0x429dac)
+                                                            return _0x2c2836['default'][_0x447a('0x3f0')]({
+                                                                'isCustomError': !0x0,
+                                                                'reason': _0x447a('0x4c8')
+                                                            });
+                                                        if (-0x7dd === _0x429dac)
+                                                            return _0x2c2836[_0x447a('0x3d')]['reject']({
+                                                                'isCustomError': !0x0,
+                                                                'reason': 'sessionTimeout'
+                                                            });
+                                                        var _0xa509cf = '';
+                                                        try {
+                                                            _0xa509cf = (0x0,
+                                                                _0x104c56['default'])(_0x6681a6);
+                                                        } catch (_0x3c6d7a) {
+                                                        }
+                                                        _0x4a2f92({
+                                                            'code': _0x429dac,
+                                                            'message': _0x6681a6['errMsg'],
+                                                            'comm1': _0xa509cf
+                                                        });
+                                                    }
+                                                    _commit(_0x48c454[_0x447a('0x79')], 'ERROR');
+                                                }
+                                            }, function (_0x3f8aab) {
+                                                _0x4a2f92({
+                                                    'code': _0x3f8aab['code'],
+                                                    'message': _0x3f8aab['message']
+                                                }),
+                                                    _commit(_0x48c454[_0x447a('0x79')], _0x447a('0x338')),
+                                                    _0x317083(_0x447a('0x2ac'), _0x3f8aab);
+                                            });
+                                        case 0x1b:
+                                            isNeedPay = _getters.isNeedPay
+                                            isMemberShipValid = _0x300bed.default.isMemberShipValid(_state.memberCardSummary)
+                                            canBookFreeReading = _0x300bed.default.canBookFreeReading({
+                                                'bookInfo': _state.bookInfo,
+                                                'memberCardSummary': _state.memberCardSummary
+                                            })
+                                            return _0x4d4882.abrupt('return', promise.then(() => {
+                                                _commit(_0x48c454['UPDATE_READER_CONTENT_IS_DIRTY'], false)
+                                                if (isNeedPay && isMemberShipValid && !canBookFreeReading) {
+                                                    return _dispatch(_0x46b089['FETCH_READER_MEMBER_CARD_SUMMARY'], {})
+                                                }
+                                            }));
+                                        case 0x1f:
+                                        case 'end':
+                                            return _0x4d4882['stop']();
+                                    }
+                            }, _0x497f6e, this);
+                        })),
+                            function (context, payload) {
+                                return _0x4fe0de.apply(this, arguments);
+                            }
+                    ))
+                    _0x24c4f0.default(actions, _0x46b089['CHANGE_READER_CHAPTER'], function (_0x438b5f, _0x253d0d) {
+                        var _0x1f2dfa = _0x438b5f['dispatch']
+                            , _0x39eee1 = _0x438b5f['commit']
+                            , _0x190cef = _0x438b5f['state']
+                            , _0x196149 = _0x438b5f[_0x447a('0x35c')]
+                            , _0x112e47 = _0x253d0d['chapterUid']
+                            , _0x445d2a = _0x253d0d['sectionId']
+                            , _0x31d8e3 = _0x253d0d['pushStack'];
+                        _0x253d0d[_0x447a('0x163')];
+                        if (!_0x190cef)
+                            return _0x2c2836['default']['reject']({
+                                'isCustomError': !0x0,
+                                'reason': 'stateIsNull'
+                            });
+                        if (_0x447a('0x240') === _0x190cef[_0x447a('0x18e')] || 'PRERENDER' === _0x190cef['chapterContentState'])
+                            return _0x2c2836['default']['reject']({
+                                'isCustomError': !0x0,
+                                'reason': _0x190cef['chapterContentState']
+                            });
+                        if (_0x9fa9fd['get'](_0x190cef['currentChapter'], 'chapterUid', 0x0) === _0x112e47)
+                            return _0x2c2836['default']['reject']({
+                                'isCustomError': !0x0,
+                                'reason': 'currentChapter'
+                            });
+                        var _0x46d08b = void 0x0
+                            , _0xc93134 = _0x196149['getChapterWithIdxOffset'](0x1);
+                        if (_0xc93134 && _0xc93134['chapterUid'] === _0x112e47 && (_0x46d08b = _0xc93134),
+                        _0x46d08b || (_0x46d08b = _0x196149['getChapterWithChapterUid'](_0x112e47)),
+                            !_0x46d08b)
+                            return _0x2c2836['default']['reject']({
+                                'isCustomError': !0x0,
+                                'reason': _0x447a('0x12e')
+                            });
+                        if (_0x46d08b) {
+                            var _0x3e805c = _0x190cef['currentChapter'];
+                            _0x39eee1(_0x48c454['UPDATE_READER_CURRENT_CHAPTER'], _0x46d08b),
+                                _0x39eee1(_0x48c454['UPDATE_READER_CONTENT_IS_DIRTY'], !0x0),
+                            window && !_0x31d8e3 && null == _0x445d2a && window['history']['pushState']({
+                                'prev': _0x3e805c,
+                                'curr': _0x46d08b
+                            }, null, _0x495bc0['readerURL'](_0x190cef['bookId'], {
+                                'chapterUid': _0x112e47
+                            }));
+                            var _0x2fa0ce = _0x3723b6['default']['isChapterNeedPay']({
+                                'bookInfo': _0x190cef[_0x447a('0x32c')],
+                                'memberCardSummary': _0x190cef['memberCardSummary'],
+                                'chapter': _0x46d08b
+                            });
+                            return _0x1f2dfa(_0x46b089[_0x447a('0x480')], {
+                                'prevChapter': -0x1 === _0x445d2a
+                            })['then'](function () {
+                                if (_0x2fa0ce)
+                                    return _0x1f2dfa(_0x46b089['FETCH_READER_MEMBER_CARD_SUMMARY']);
+                            });
+                        }
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['CHANGE_READER_SECTION'], function (_0x2e1b1b, _0x479270) {
+                        _0x2e1b1b['dispatch'];
+                        var _0x4bcc4c = _0x2e1b1b['commit']
+                            , _0x28633b = _0x2e1b1b['state']
+                            , _0x3e4266 = _0x2e1b1b[_0x447a('0x35c')]
+                            , _0x2e9f37 = _0x479270['sectionIdx'];
+                        if (_0x28633b && (_0x447a('0x240') === _0x28633b['chapterContentState'] || _0x447a('0x256') === _0x28633b['chapterContentState']))
+                            return _0x2c2836['default']['reject']({
+                                'isCustomError': !0x0,
+                                'reason': _0x28633b['chapterContentState']
+                            });
+                        if (_0x3e4266['getCurrentSectionIdx'] === _0x2e9f37)
+                            return _0x2c2836['default']['reject']({
+                                'isCustomError': !0x0,
+                                'reason': 'currentSection'
+                            });
+                        var _0x5a72ff = void 0x0
+                            , _0x86bfd4 = _0x3e4266[_0x447a('0xff')] + 0x1
+                            , _0x4c3897 = _0x3e4266['getSectionWithIdx'](_0x86bfd4);
+                        if (_0x4c3897 && _0x86bfd4 === _0x2e9f37 && (_0x5a72ff = _0x4c3897),
+                        _0x5a72ff || (_0x5a72ff = _0x3e4266['getSectionWithIdx'](_0x2e9f37)),
+                            !_0x5a72ff)
+                            return _0x2c2836['default']['reject']({
+                                'isCustomError': !0x0,
+                                'reason': _0x447a('0x1')
+                            });
+                        _0x5a72ff && (_0x4bcc4c(_0x48c454['UPDATE_READER_CURRENT_SECTION'], _0x2e9f37),
+                            _0x4bcc4c(_0x48c454[_0x447a('0x79')], 'PRERENDER'));
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['RELOAD_READER_CURRENT_CHAPTER'], function (_0x4a7388) {
+                        var _0x4a959f = _0x4a7388['dispatch']
+                            , _0x57a452 = _0x4a7388['commit']
+                            , _0x1ec618 = _0x4a7388['state']
+                            , _0x3ce117 = _0x4a7388['getters'];
+                        if (_0x1ec618[_0x447a('0x2d4')]) {
+                            _0x57a452(_0x48c454['UPDATE_READER_CONTENT_IS_DIRTY'], !0x0);
+                            var _0x43fed5 = _0x1ec618['currentChapter']['chapterUid']
+                                , _0x3ba8e0 = _0x3ce117['getChapterWithChapterUid'](_0x43fed5);
+                            return _0x57a452(_0x48c454[_0x447a('0x380')], _0x3ba8e0),
+                                _0x4a959f(_0x46b089['FETCH_READER_CHAPTER_CONTENT']);
+                        }
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['FETCH_READER_SEARCH_AUTO'], function (_0x5ba021, _0x1ac76b) {
+                        var _0x1305bb = _0x5ba021['dispatch']
+                            , _0x73a528 = _0x5ba021['commit']
+                            , _0x9cfab9 = _0x1ac76b['keyword'];
+                        return _0x73a528(_0x48c454['UPDATE_READER_IS_SHOW_AUTO_SEARCH_HINT'], !0x0),
+                            _0x73a528(_0x48c454['UPDATE_READER_IS_IN_SEARCH'], !0x0),
+                            _0x1305bb(_0x46b089['FETCH_READER_SEARCH'], {
+                                'keyword': _0x9cfab9,
+                                'isOnlyCount': !0x0
+                            });
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['FETCH_READER_SEARCH'], function (_0x42cb6f, _0x49d85d) {
+                        var _0x31cdb7 = _0x42cb6f[_0x447a('0x1bc')]
+                            , _0x394a56 = _0x42cb6f['state'];
+                        _0x49d85d['isLoadMore'] || (_0x31cdb7(_0x48c454['CLEAR_READER_SEARCH_RESULT']),
+                            _0x31cdb7(_0x48c454['UPDATE_READER_SEARCH_RESULT_KEYWORD'], _0x49d85d['keyword'])),
+                            _0x31cdb7(_0x48c454[_0x447a('0xdb')], !0x0);
+                        var _0x59bf9d = _0x9fa9fd['get'](_0x49d85d, 'isOnlyCount', !0x1);
+                        return (0x0,
+                            _0x424400['default'])(_0x447a('0x2d'), {
+                            'bookId': _0x394a56['bookId'],
+                            'keyword': _0x49d85d['keyword'] || '',
+                            'maxIdx': _0x49d85d['maxIdx'] || 0x0,
+                            'count': 0xa,
+                            'fragmentSize': _0x49d85d['fragmentSize'] || 0x96,
+                            'onlyCount': _0x59bf9d ? 0x1 : 0x0
+                        }, function (_0x472a46) {
+                            _0x31cdb7(_0x48c454['UPDATE_READER_SEARCH_LOADING'], !0x1);
+                            var _0x439320 = _0x472a46['data']
+                                , _0x4a09c9 = _0x9fa9fd['get'](_0x439320, 'result', [])
+                                , _0x3aac7d = 0x1 === _0x9fa9fd['get'](_0x439320, 'hasMore', 0x0)
+                                , _0x1e3d1f = _0x9fa9fd[_0x447a('0x299')](_0x439320, 'totalCount', 0x0);
+                            _0x31cdb7(_0x48c454['UPDATE_READER_SEARCH_RESULT'], {
+                                'resultList': _0x452853(_0x394a56[_0x447a('0x320')][_0x447a('0x59')], _0x4a09c9),
+                                'isLoadMore': _0x49d85d['isLoadMore'],
+                                'totalCount': _0x1e3d1f,
+                                'hasMore': _0x3aac7d,
+                                'isNeedAutoSearchWhenShow': _0x59bf9d
+                            });
+                        }, function (_0x1ef3f9) {
+                            _0x31cdb7(_0x48c454['UPDATE_READER_SEARCH_LOADING'], !0x1),
+                                _0x317083('Error\x20in\x20readerSearch', _0x1ef3f9);
+                        });
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['FETCH_READER_GET_CONFIG'], function (_0x2854c5, _0x182d05) {
+                        var _0x495a3e = _0x2854c5['commit'];
+                        return (0x0,
+                            _0x424400['default'])('/web/getConfig', (0x0,
+                            _0x4f1bb5['default'])({}, _0x182d05), function (_0x4de8c8) {
+                            var _0x2a2904 = _0x9fa9fd['get'](_0x4de8c8['data'], 'token', '');
+                            _0x495a3e(_0x48c454[_0x447a('0xf8')], _0x2a2904);
+                        }, function (_0x2382b9) {
+                            _0x317083('Error\x20in\x20getConfig', _0x2382b9);
+                        });
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['FETCH_READER_ENTER_BOOK_READ'], function (_0x42a1ac, _0x10ac25) {
+                        var _0x2b72c0 = _0x42a1ac['state']
+                            , _0x81a3c0 = _0x42a1ac['commit']
+                            , _0x2e4c59 = _0x42a1ac['getters']
+                            , _0x1c61f7 = _0x10ac25['firstDomOffset']
+                            , _0x5d8957 = _0x10ac25['firstDomSummaryText'];
+                        if (!_0x2b72c0['isBookInfoError']) {
+                            var _0x4607c8 = _0x2b72c0['currentChapter']
+                                , _0x363417 = {
+                                'appId': _0x1f3a4f(navigator['userAgent']),
+                                'b': m101['e'](_0x2b72c0['bookId']),
+                                'c': m101['e'](_0x4607c8['chapterUid'] ? _0x4607c8['chapterUid'] : 0x0),
+                                'ci': _0x4607c8['chapterIdx'] ? _0x4607c8['chapterIdx'] : 0x0,
+                                'co': 0x0,
+                                'sm': '',
+                                'pr': 0x0,
+                                'ct': parseInt(new Date()['getTime']() / 0x3e8),
+                                'ps': _0x2b72c0['psvts'],
+                                'pc': _0x2b72c0['pclts']
+                            };
+                            if (_0x2e4c59['isDynamicTypeBook'] && _0x2e4c59['isDynamicPDF'] && (_0x363417['dy'] = _0x2e4c59['isDynamicTypeBook'] ? 0x1 : 0x0,
+                                _0x363417['fm'] = _0x2e4c59['actualTreatBookAs']),
+                                _0x19f93b['default'][_0x447a('0x42e')](_0x2b72c0['bookInfo'])) {
+                                var _0x27df52 = _0x2b72c0['progress'];
+                                _0x9fa9fd['get'](_0x27df52, 'book.chapterUid', 0x0) === _0x4607c8['chapterUid'] ? (_0x363417['co'] = _0x9fa9fd[_0x447a('0x299')](_0x27df52, 'book.chapterOffset', _0x363417['co']),
+                                    _0x363417['sm'] = _0x9fa9fd['get'](_0x27df52, 'book.summary', _0x363417['sm'])) : (_0x363417['co'] = _0x1c61f7,
+                                    _0x363417['sm'] = _0x5d8957),
+                                    _0x363417['pr'] = _0x9fa9fd['get'](_0x27df52, 'book.progress', _0x363417['pr']);
+                            }
+                            return _0x363417['s'] = _sign(_stringify(_0x363417)),
+                                _0x81a3c0(_0x48c454['UPDATE_READER_LOCAL_PROGRESS'], {
+                                    'appId': _0x363417['appId'],
+                                    'chapterUid': _0x4607c8[_0x447a('0x3a')],
+                                    'chapterOffset': _0x363417['co'],
+                                    'updateTime': parseInt(new Date()['getTime']() / 0x3e8),
+                                    'summary': _0x363417['sm'],
+                                    'progress': _0x363417['pr']
+                                }),
+                                _0x317083('enterBookRead', new Date(), 'params=' + (0x0,
+                                    _0x104c56['default'])(_0x363417)),
+                                (0x0,
+                                    _0x4a522e['default'])('/web/book/read', _0x363417, function (_0x58f2ec) {
+                                    return _0x58f2ec;
+                                }, function (_0x33be7d) {
+                                    _0x317083(_0x447a('0x225'), _0x33be7d);
+                                    var _0x199b51 = _0x9fa9fd['get'](_0x33be7d, 'errCode', 0x0);
+                                    return -0x7da === _0x199b51 || -0x7dc === _0x199b51 || -0x7dd === _0x199b51 ? {
+                                        'sessionTimeout': 0x1
+                                    } : _0x33be7d;
+                                });
+                        }
+                        _0x317083(_0x447a('0x4b'), 'return\x20bcs\x20of\x20bookInfoError');
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['FETCH_READER_BOOK_READ'], function (_0x1b94a3, _0x1134cd) {
+                        var _0x32b6e7 = _0x1b94a3['dispatch']
+                            , _0x17241f = _0x1b94a3['commit']
+                            , _0x575ebc = _0x1b94a3['state']
+                            , _0x5944bd = _0x1b94a3['getters'];
+                        if (!_0x575ebc['isBookInfoError']) {
+                            var _0x40c95f = _0x9fa9fd['get'](_0x1134cd, 'retryCount', 0x0)
+                                , _0x5b4e87 = _0x575ebc[_0x447a('0x2d4')]
+                                , _0x52d8d0 = _0x575ebc['token']
+                                , _0x129231 = new Date()['getTime']()
+                                , _0x47b622 = _0x575ebc[_0x447a('0x15f')]
+                                ,
+                                _0x48bb93 = 0x0 === _0x47b622 ? 0x0 : Math['max'](0x0, parseInt((_0x129231 - _0x47b622) / 0x3e8))
+                                , _0xc9ff5f = parseInt(0x3e8 * Math['random']())
+                                , _0x247f3a = _0x482c11['c'](_0x490649);
+                            if (_0x317083('Hidden\x20prototype\x20check\x20result:\x20' + _0x247f3a),
+                                _0x247f3a) {
+                                var _0x490cd5 = _0x1f8217['Base64']['encode'](_0x247f3a);
+                                _0x23a0c6['default']['post']('https://oss.weread.qq.com/hera/chlog', {
+                                    'extra': _0x490cd5,
+                                    'itemname': 'stprec',
+                                    'vid': _0x1134cd['vid'] || 0x0
+                                })['catch'](function () {
+                                });
+                            }
+                            var _0x3c8050 = {
+                                'appId': _0x1f3a4f(navigator[_0x447a('0x2dc')]),
+                                'b': m101['e'](_0x575ebc['bookId']),
+                                'c': m101['e'](_0x5b4e87['chapterUid'] ? _0x5b4e87[_0x447a('0x3a')] : 0x0),
+                                'ci': _0x5b4e87['chapterIdx'] ? _0x5b4e87['chapterIdx'] : 0x0,
+                                'co': _0x5b4e87['chapterOffset'] ? _0x5b4e87['chapterOffset'] : 0x0,
+                                'sm': '',
+                                'pr': 0x0,
+                                'rt': _0x48bb93,
+                                'ts': _0x129231,
+                                'rn': _0xc9ff5f,
+                                'sg': (0x0,
+                                    _0x8e5106[_0x447a('0x11c')])('' + _0x129231 + _0xc9ff5f + _0x52d8d0),
+                                'ct': parseInt(new Date()['getTime']() / 0x3e8),
+                                'ps': _0x575ebc['psvts'],
+                                'pc': _0x575ebc['pclts']
+                            };
+                            if (_0x5944bd[_0x447a('0x25d')] && _0x5944bd['isDynamicPDF'] && (_0x3c8050['dy'] = _0x5944bd['isDynamicTypeBook'] ? 0x1 : 0x0,
+                                _0x3c8050['fm'] = _0x5944bd['actualTreatBookAs']),
+                                _0x19f93b['default']['isSupportReaderProgress'](_0x575ebc['bookInfo'])) {
+                                var _0x389710 = _0x9fa9fd[_0x447a('0x299')](_0x1134cd, _0x447a('0x118'), null);
+                                null !== _0x389710 && _0x447a('0x10f') === (void 0x0 === _0x389710 ? 'undefined' : (0x0,
+                                    _0x641fcd['default'])(_0x389710)) && (_0x17241f(_0x48c454['UPDATE_READER_LAST_PROGRESS_PAYLOAD'], _0x389710),
+                                    _0x3c8050['co'] = _0x389710[_0x447a('0x2a4')],
+                                    _0x3c8050['sm'] = _0x389710['content']['substr'](0x0, 0x14) + (_0x247f3a ? '​' : ''),
+                                    _0x3c8050['pr'] = _0x389710['progress']);
+                            }
+                            return _0x3c8050['s'] = _sign(_stringify(_0x3c8050)),
+                                _0x17241f(_0x48c454['UPDATE_READER_LOCAL_PROGRESS'], {
+                                    'appId': _0x3c8050['appId'],
+                                    'chapterUid': _0x5b4e87[_0x447a('0x3a')],
+                                    'chapterOffset': _0x3c8050['co'],
+                                    'updateTime': parseInt(_0x129231 / 0x3e8),
+                                    'summary': _0x3c8050['sm'],
+                                    'progress': _0x3c8050['pr']
+                                }),
+                                _0x317083('reportTime', 'reportTime\x20at', new Date(), 'duration=' + _0x48bb93 + 's', 'params=' + (0x0,
+                                    _0x104c56['default'])(_0x3c8050)),
+                                _0x575ebc['sameProgressPayloadCount'] > 0x4 ? (_0x317083('ignore\x20this\x20report,\x20sameProgressPayloadCount=' + _0x575ebc['sameProgressPayloadCount']),
+                                    _0x2c2836[_0x447a('0x3d')]['resolve']({})) : (0x0,
+                                    _0x4a522e[_0x447a('0x3d')])('/web/book/read', _0x3c8050, function (_0x210a26) {
+                                    return _0x17241f(_0x48c454['UPDATE_READER_START_READING_TIME']),
+                                        _0x210a26['data'];
+                                }, function (_0x45d0c5) {
+                                    _0x317083('Error\x20in\x20bookRead', _0x45d0c5);
+                                    var _0x2e6509 = _0x9fa9fd['get'](_0x45d0c5, 'errCode', 0x0);
+                                    return -0x7da === _0x2e6509 || -0x7dc === _0x2e6509 || -0x7dd === _0x2e6509 ? {
+                                        'sessionTimeout': 0x1
+                                    } : _0x40c95f > 0x0 && -0x806 === _0x2e6509 ? _0x32b6e7(_0x46b089[_0x447a('0x5e')])['then'](function () {
+                                        return _0x32b6e7(_0x46b089['FETCH_READER_BOOK_READ'], (0x0,
+                                            _0x4b8e62['default'])(_0x1134cd, {
+                                            'retryCount': _0x40c95f - 0x1
+                                        }));
+                                    }) : _0x45d0c5;
+                                });
+                        }
+                        _0x317083('bookRead', _0x447a('0x25'));
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['FETCH_READER_SERIAL_RESTRICTION'], function (_0x1be10d, _0x2222d7) {
+                        var _0x45e361 = _0x1be10d['state']
+                            , _0x23caa5 = _0x2222d7['vid']
+                            , _0x3612f4 = _0x45e361['bookId'] || 0x0
+                            , _0xbd3c52 = _0x9fa9fd[_0x447a('0x299')](_0x45e361, _0x447a('0xbd'), 0x0);
+                        if (!_0x3612f4 || !_0xbd3c52 || !_0x23caa5)
+                            return 0x0;
+                        var _0x550bcd = _0x15114e[_0x447a('0x3d')]['getReaderSerialRestrictionsOperator'](_0x23caa5)['get'](_0x3612f4, _0xbd3c52);
+                        return _0x317083('FETCH_READER_SERIAL_RESTRICTION', _0x447a('0x2e9') + _0x23caa5 + ',\x20bookId=' + _0x3612f4 + ',\x20chapterIdx=' + _0xbd3c52 + ',\x20copyTimes=' + _0x550bcd),
+                            {
+                                'copyTimes': _0x550bcd
+                            };
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['STORE_READER_SERIAL_RESTRICTION'], function (_0x69c69, _0x2654b0) {
+                        var _0x5f245c = _0x69c69[_0x447a('0xe9')]
+                            , _0xff2b36 = _0x2654b0[_0x447a('0x359')]
+                            , _0x2131a3 = _0x5f245c['bookId'] || 0x0
+                            , _0x242316 = _0x9fa9fd['get'](_0x5f245c, _0x447a('0xbd'), 0x0);
+                        if (!_0x2131a3 || !_0x242316 || !_0xff2b36)
+                            return _0x317083('[chinozhou\x20log]\x20updateReaderSerialRestriction,\x20bookId=' + _0x2131a3 + _0x447a('0x158') + _0x242316 + ',\x20vid=' + _0xff2b36 + ',\x20skiped\x20because\x20of\x20missing\x20params'),
+                                !0x1;
+                        var _0x2e4b41 = _0x15114e['default']['getReaderSerialRestrictionsOperator'](_0xff2b36)
+                            , _0x4e982f = _0x2e4b41['get'](_0x2131a3, _0x242316);
+                        return _0x2e4b41['set'](_0x2131a3, _0x242316, _0x4e982f + 0x1),
+                            _0x2e4b41[_0x447a('0x50')](),
+                            !0x0;
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['READER_MARK_PAUSE'], function (_0x31692f) {
+                        (0x0,
+                            _0x31692f['commit'])(_0x48c454['UPDATE_READER_PAUSE_TIME']),
+                            _0x317083(_0x447a('0x471'), new Date());
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['READER_MARK_ACTIVE'], function (_0x26becd) {
+                        var _0x203ef0 = _0x26becd['commit']
+                            , _0xaa1e64 = _0x26becd['state'];
+                        _0x203ef0(_0x48c454['UPDATE_READER_ACTIVE_TIME']);
+                        var _0x3c24cd = 0x0;
+                        _0xaa1e64[_0x447a('0x387')] > _0xaa1e64['pauseTime'] && _0xaa1e64['pauseTime'] > 0x0 && _0xaa1e64['startReadingTime'] > 0x0 && (_0x3c24cd = _0xaa1e64['activeTime'] - _0xaa1e64['pauseTime'],
+                            _0x203ef0(_0x48c454['UPDATE_READER_START_READING_TIME'], _0xaa1e64['startReadingTime'] + _0x3c24cd));
+                        var _0x2d3300 = new Date()['getTime']() - _0xaa1e64[_0x447a('0x15f')] > 0x7530;
+                        return _0x317083(_0x447a('0x87'), new Date(_0xaa1e64[_0x447a('0x387')]), _0x447a('0x34a') + parseInt(_0x3c24cd / 0x3e8) + 's', _0x447a('0x28c') + _0x2d3300),
+                            _0x2d3300;
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['UPDATE_READER_LOCAL_LAST_CHAPTER'], function (_0x5514a9) {
+                        var _0x363ab1 = _0x5514a9['state'];
+                        if (_0x363ab1['bookId'] && _0x363ab1['bookInfo'] && 0x0 !== _0x363ab1[_0x447a('0x485')][_0x447a('0xa3')] && _0x363ab1['isInShelf'] && _0x19f93b['default']['isBuyUnitChapter'](_0x363ab1[_0x447a('0x32c')])) {
+                            var _0x5ccce5 = _0x363ab1['bookId']
+                                , _0x1cd775 = _0x363ab1['chapterInfos'];
+                            if (_0x5ccce5 && _0x1cd775['length'] > 0x0) {
+                                var _0x308f39 = _0x15114e['default']['getBookLastChaptersOperator'](_0x9fa9fd['get'](this[_0x447a('0x155')], _0x447a('0x359')))
+                                    ,
+                                    _0x3d4846 = _0x9fa9fd['get'](_0x1cd775[_0x1cd775[_0x447a('0xa3')] - 0x1], 'chapterIdx', 0x0);
+                                _0x308f39['set'](_0x5ccce5, _0x3d4846),
+                                    _0x308f39['save']();
+                            }
+                        }
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['FETCH_READER_BALANCE'], function (_0x32cf62) {
+                        var _0x5b763f = _0x32cf62['commit']
+                            , _0xf5b5d0 = (0x0,
+                            _0x4a522e['default'])(_0x447a('0x46c'), {
+                            'pf': _0x447a('0x494')
+                        })
+                            , _0x2d5bbc = (0x0,
+                            _0x4a522e['default'])('/web/pay/balance', {
+                            'pf': 'android_html'
+                        });
+                        _0x2c2836['default']['all']([_0xf5b5d0, _0x2d5bbc])[_0x447a('0x19c')](function (_0x5e37ae) {
+                            var _0x5636bf = _0x5e37ae[0x0][_0x447a('0x101')]
+                                , _0x4ca6a8 = _0x5e37ae[0x1]['data'];
+                            return _0x5b763f(_0x48c454['UPDATE_READER_BALANCE'], {
+                                'ios': _0x5636bf,
+                                'android': _0x4ca6a8
+                            }),
+                                _0x5e37ae;
+                        })[_0x447a('0x4b1')](function (_0x57f44c) {
+                            return _0x317083('Error\x20in\x20fetchReaderBalance', _0x57f44c),
+                                _0x57f44c;
+                        });
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['FETCH_READER_BUY_BOOK'], function (_0x24a264, _0x181b1b) {
+                        var _0x2b076c = _0x24a264[_0x447a('0xe9')]
+                            , _0x44a60d = _0x181b1b['pf']
+                            , _0x1efae1 = _0x181b1b['price']
+                            , _0x9d5a5d = _0x181b1b['isMCard']
+                            , _0x5af6d3 = {
+                            'b': m101['e'](_0x2b076c['bookId']),
+                            'pt': _0x2b076c['bookInfo']['payType'],
+                            'pf': _0x44a60d,
+                            'pr': _0x1efae1,
+                            'mm': _0x9d5a5d ? 0x1 : 0x0,
+                            'ct': parseInt(new Date()[_0x447a('0x132')]() / 0x3e8),
+                            'ps': _0x2b076c['psvts'],
+                            'pc': _0x2b076c['pclts']
+                        };
+                        return _0x5af6d3['s'] = _sign(_stringify(_0x5af6d3)),
+                            (0x0,
+                                _0x4a522e['default'])(_0x447a('0x391'), _0x5af6d3, function (_0x341061) {
+                                return _0x341061['data'];
+                            }, function (_0x3f7c9c) {
+                                return _0x317083('Error\x20in\x20fetchReaderBuyBook', _0x3f7c9c),
+                                    _0x3f7c9c;
+                            });
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['FETCH_READER_BUY_CHAPTERS'], function (_0x3d7786, _0x191f30) {
+                        var _0x2c35b4 = _0x3d7786['state']
+                            , _0x4a83fc = _0x191f30['pf']
+                            , _0x1ab35a = _0x191f30['chapterIds']
+                            , _0x270cbc = _0x191f30['totalPrice']
+                            , _0x224afe = _0x191f30['isMCard']
+                            , _0x441195 = _0x191f30[_0x447a('0x498')]
+                            , _0x585afb = {
+                            'b': m101['e'](_0x2c35b4[_0x447a('0x1b2')]),
+                            'pt': _0x2c35b4['bookInfo']['payType'],
+                            'pf': _0x4a83fc,
+                            'ci': _0x1ab35a,
+                            'tp': _0x270cbc,
+                            'mm': _0x224afe ? 0x1 : 0x0,
+                            'ap': _0x441195 ? '1' : '0',
+                            'ct': parseInt(new Date()[_0x447a('0x132')]() / 0x3e8),
+                            'ps': _0x2c35b4['psvts'],
+                            'pc': _0x2c35b4['pclts']
+                        };
+                        return _0x585afb['s'] = _sign(_stringify(_0x585afb)),
+                            (0x0,
+                                _0x4a522e['default'])(_0x447a('0x276'), _0x585afb, function (_0x13422a) {
+                                return _0x13422a['data'];
+                            }, function (_0x41105c) {
+                                return _0x317083('Error\x20in\x20fetchReaderBuyChapters', _0x41105c),
+                                    _0x41105c;
+                            });
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['CREATE_DIRECT_PAY_ORDER'], function (_0x241470, _0x4ccecc) {
+                        var _0xa79ebc = _0x241470[_0x447a('0xe9')]
+                            , _0x19edb5 = _0x4ccecc['pf']
+                            , _0x2f9fd8 = _0x4ccecc[_0x447a('0x1c0')]
+                            , _0x129b41 = _0x4ccecc[_0x447a('0x18d')]
+                            , _0x23afac = _0x4ccecc['bookPrice']
+                            , _0x36957d = _0x4ccecc[_0x447a('0x1f')]
+                            , _0x5c28f6 = _0x4ccecc['debug']
+                            , _0x4a9f36 = {
+                            'b': m101['e'](_0xa79ebc['bookId']),
+                            'pt': _0xa79ebc['bookInfo']['payType'],
+                            'pf': _0x19edb5 + '_html',
+                            'gm': _0x2f9fd8,
+                            'mm': _0x129b41,
+                            'bp': _0x23afac,
+                            'nm': _0x5c28f6 || _0x36957d,
+                            't': Boolean(_0x5c28f6),
+                            'ct': parseInt(new Date()['getTime']() / 0x3e8),
+                            'ps': _0xa79ebc['psvts'],
+                            'pc': _0xa79ebc['pclts']
+                        };
+                        return _0x4a9f36['s'] = _sign(_stringify(_0x4a9f36)),
+                            (0x0,
+                                _0x4a522e['default'])('/web/pay/directPayBook/create', _0x4a9f36, function (_0x357b83) {
+                                return _0x357b83[_0x447a('0x101')];
+                            }, function (_0x27c11d) {
+                                return _0x317083('Error\x20in\x20createDirectPayOrder', _0x27c11d),
+                                    _0x27c11d;
+                            });
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['FETCH_DIRECT_PAY_ORDER_STATUS'], function (_0x3085cc, _0x5a7186) {
+                        _0x3085cc[_0x447a('0xe9')];
+                        var _0x476124 = _0x5a7186['orderId'];
+                        return (0x0,
+                            _0x424400[_0x447a('0x3d')])('/web/pay/directPayBook/query', {
+                            'orderId': _0x476124
+                        }, function (_0x351604) {
+                            return _0x351604[_0x447a('0x101')];
+                        }, function (_0x1c5b71) {
+                            return _0x317083(_0x447a('0x294'), _0x1c5b71),
+                                _0x1c5b71;
+                        });
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['FETCH_ENCOURAGE_MONEY'], function (_0xbc2240, _0x5714ac) {
+                        (0x0,
+                            _0x40eeac['default'])(_0xbc2240);
+                        var _0x406b3c = _0x5714ac['packetId'] || '';
+                        return (0x0,
+                            _0x424400[_0x447a('0x3d')])('/web/pay/memberCardCouponPacket', {
+                            'packetId': _0x406b3c
+                        }, function () {
+                        }, function () {
+                        });
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['FETCH_INVITE_CODE'], function (_0x314f55, _0x385cbd) {
+                        var _0x28974b = _0x385cbd['inviteCode'];
+                        return (0x0,
+                            _0x40eeac['default'])(_0x314f55),
+                            (0x0,
+                                _0x424400['default'])('/web/reader/invitecode', {
+                                'cmd': 'clicode',
+                                'inviteCode': _0x28974b
+                            }, function () {
+                            }, function () {
+                            });
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['FETCH_DICT_QUERY'], function (_0x2e1e43, _0x3b8439) {
+                        return (0x0,
+                            _0x424400['default'])('/web/dict/query', _0x3b8439)['then'](function (_0x22cd21) {
+                            return _0x22cd21[_0x447a('0x101')];
+                        })['catch'](function () {
+                            return {
+                                'succ': 0x0
+                            };
+                        });
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['FETCH_SHARE_ONE_GET_ONE_2'], function (_0x46b00d, _0x5b4b82) {
+                        var _0x4795c9 = this;
+                        return (0x0,
+                            _0x40eeac['default'])(_0x46b00d),
+                            (0x0,
+                                _0x4a522e['default'])(_0x447a('0x136'), _0x5b4b82)['then'](function (_0x56eb45) {
+                                return _0x4795c9['logInfo']('FETCH_SHARE_ONE_GET_ONE_2\x20res\x20=', _0x56eb45),
+                                    _0x56eb45;
+                            })['catch'](function (_0x36ac15) {
+                                return _0x4795c9['logInfo']('FETCH_SHARE_ONE_GET_ONE_2\x20err\x20=', _0x36ac15),
+                                    _0x36ac15;
+                            });
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['FETCH_FLIP_CARD_GAME'], function (_0x2a5d0b, _0x426568) {
+                        return (0x0,
+                            _0x40eeac['default'])(_0x2a5d0b),
+                            (0x0,
+                                _0x4a522e['default'])('/web/flipcard', _0x426568)['then'](function (_0x53812b) {
+                                _0x53812b && _0x53812b['data'] && _0x53812b[_0x447a('0x101')]['succ'],
+                                _0x53812b && _0x53812b[_0x447a('0x101')] && _0x53812b['data']['errCode'];
+                            })['catch'](function (_0x4a399a) {
+                            });
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['UPDATE_TOP_STORIES_STATUS'], function (_0x166f7d, _0x29c029) {
+                        var _0x471a51 = _0x166f7d['state']
+                            , _0x39fbd8 = _0x166f7d['commit'];
+                        (0x0,
+                            _0x4a522e['default'])(_0x447a('0x426'), {
+                            'status': !_0x471a51[_0x447a('0x127')][_0x447a('0x3aa')],
+                            'bookId': _0x471a51[_0x447a('0x1b2')]
+                        })['then'](function (_0x5d2f25) {
+                            0x1 === _0x5d2f25['data']['succ'] && (_0x39fbd8(_0x48c454['UPDATE_TOP_STORIES_STATUS'], {
+                                'like': !_0x471a51['topStories']['checked'],
+                                'showBubble': !_0x471a51[_0x447a('0x127')][_0x447a('0x3aa')]
+                            }),
+                                _0x39fbd8(_0x48c454['UPDATE_TOP_STORIES_AMOUNT'], _0x471a51['topStories']['checked'] ? _0x471a51[_0x447a('0x127')]['amount'] + 0x1 : _0x471a51['topStories'][_0x447a('0x12')] - 0x1),
+                                _0x4f8d1f[_0x447a('0x3d')](_0x29c029));
+                        });
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['FETCH_TOP_STORIES'], function (_0x5edb9a, _0x162d74) {
+                        var _0x487ace = _0x5edb9a[_0x447a('0xe9')]
+                            , _0x2ac763 = _0x5edb9a[_0x447a('0x1bc')];
+                        return (0x0,
+                            _0x424400[_0x447a('0x3d')])('/web/book/wxlook?bookId=' + _0x487ace['bookId'])['then'](function (_0x2722c1) {
+                            _0x2722c1 && _0x2722c1['data'] && (_0x2ac763(_0x48c454['UPDATE_TOP_STORIES_AMOUNT'], _0x2722c1[_0x447a('0x101')]['readingCount']),
+                                _0x2ac763(_0x48c454['UPDATE_TOP_STORIES_STATUS'], {
+                                    'like': _0x2722c1['data']['colike'],
+                                    'showBubble': _0x162d74
+                                }));
+                        })['catch'](function (_0x36db3b) {
+                        });
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['WRITE_TOP_STORIES_THOUGHTS'], function (_0x2c0326, _0x5dd632) {
+                        var _0x2aa4c8 = _0x2c0326['state']
+                            , _0x32c245 = _0x2c0326['commit'];
+                        (0x0,
+                            _0x4a522e[_0x447a('0x3d')])('/web/book/writeThoughts', {
+                            'bookId': _0x2aa4c8['bookId'],
+                            'comment': _0x5dd632
+                        })['then'](function (_0x2985a8) {
+                            _0x32c245(_0x48c454['UPDATE_TOP_STORIES_STATUS'], {
+                                'like': _0x2aa4c8[_0x447a('0x127')][_0x447a('0x3aa')],
+                                'showBubble': !0x1
+                            });
+                        });
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['SWITCH_DYNAMIC_BOOK_FORMAT'], function (_0x338611, _0x228509) {
+                        var _0x38c46e = _0x338611['state']
+                            , _0x404f22 = _0x338611['getters']
+                            , _0x94a4f9 = (_0x338611[_0x447a('0x1bc')],
+                            _0x228509['progressData'])
+                            , _0x54d211 = (_0x228509['vid'],
+                            'pdf' === _0x404f22['actualTreatBookAs'] ? 'epub' : 'pdf')
+                            , _0xc3cb21 = _0x9fa9fd['get'](_0x38c46e, 'currentChapter.chapterUid')
+                            , _0x470f77 = _0x9fa9fd['get'](_0x94a4f9, 'offset', 0x0)
+                            , _0x249d4c = {
+                            'cbid': _0x38c46e['bookId'],
+                            'transFormat': _0x54d211,
+                            'uid': _0xc3cb21,
+                            'offset': _0x470f77
+                        };
+                        return new _0x2c2836['default'](function (_0x4a0fa6, _0x56996d) {
+                                (0x0,
+                                    _0x424400['default'])(_0x447a('0x6'), _0x249d4c, function (_0x2a8d41) {
+                                    return _0x4a0fa6(_0x2a8d41);
+                                }, function (_0x8b0cb2) {
+                                    return _0x56996d(_0x8b0cb2);
+                                });
+                            }
+                        );
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['REPORT_TRANSFORM_PDF'], function (_0xadd89f) {
+                        var _0x521b2c = _0xadd89f['state'];
+                        if (_0xadd89f['getters']['needReportTransformPdf']) {
+                            var _0x2983d5 = _0x521b2c['bookId'];
+                            return new _0x2c2836['default'](function (_0x33df93, _0x1a4abc) {
+                                    (0x0,
+                                        _0x424400['default'])('/web/pdf2epub/notify', {
+                                        'cbid': _0x2983d5
+                                    }, function (_0x4d3893) {
+                                        return _0x33df93(_0x4d3893);
+                                    }, function (_0x2acbe3) {
+                                        return _0x1a4abc(_0x2acbe3);
+                                    });
+                                }
+                            );
+                        }
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['TOGGLE_TRANSLATION_STATUS'], function (_0xdb760b) {
+                        var _0x23848d = _0xdb760b[_0x447a('0xe9')]
+                            , _0x14b74f = _0xdb760b['getters'];
+                        return new _0x2c2836[(_0x447a('0x3d'))](function (_0x565d7a, _0x586f9c) {
+                                var _0x1448ff = _0x23848d['bookId'];
+                                (0x0,
+                                    _0x4a522e['default'])(_0x447a('0x1b'), {
+                                    'bookId': _0x1448ff,
+                                    'enabled': !_0x14b74f['isTranslationEnabled']
+                                }, function (_0x4e56fa) {
+                                    return _0x565d7a(_0x4e56fa);
+                                }, function (_0x5889ac) {
+                                    return _0x586f9c(_0x5889ac);
+                                });
+                            }
+                        );
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['FETCH_DANGER_MODE'], function (_0x63c365, _0x52fc12) {
+                        _0x63c365['state'],
+                            _0x63c365['commit'];
+                        var _0x4eda34 = _0x52fc12['vid'];
+                        return !!_0x4eda34 && !!_0x15114e[_0x447a('0x3d')]['getReaderDangerModeOperator'](_0x4eda34)['get']();
+                    })
+                    _0x24c4f0.default(actions, _0x46b089['ENTER_DANGER_MODE'], function (_0x260177, _0x40d64c) {
+                        _0x260177[_0x447a('0xe9')],
+                            _0x260177['commit'];
+                        var _0x5c96cc = _0x40d64c['vid'];
+                        if (_0x5c96cc) {
+                            var _0xa9e901 = _0x15114e[_0x447a('0x3d')]['getReaderDangerModeOperator'](_0x5c96cc);
+                            return _0xa9e901['set']({
+                                'value': window['btoa']('' + Math['random']())
+                            }),
+                                _0xa9e901['save'](),
+                                !0x0;
+                        }
+                    })
+
                     return {
-                        'state': {
+                        state: {
                             'infoId': '',
                             'bookId': '',
                             'isBookInfoError': !0x1,
@@ -7750,7 +9547,7 @@ window.webpackJsonp.push(
                                 'showBubble': !0x1
                             }
                         },
-                        'getters': {
+                        getters: {
                             'getChapterWithIdxOffset': function (_0x4febed) {
                                 return function (_0x18edb5) {
                                     var _0xe9550e = _0x9fa9fd['get'](_0x4febed['currentChapter'], 'chapterIdx', 0x0);
@@ -7908,1869 +9705,12 @@ window.webpackJsonp.push(
                                 return _0x3bdd91 && !_0x1cd035;
                             }
                         },
-                        'mutations': (_0x962999 = {},
-                            (0x0,
-                                _0x24c4f0['default'])(_0x962999, _0x48c454[_0x447a('0x297')], function (_0x3cf442, _0x49566f) {
-                                _0x3cf442[_0x447a('0x1b2')] = _0x49566f || '';
-                            }),
-                            (0x0,
-                                _0x24c4f0[_0x447a('0x3d')])(_0x962999, _0x48c454['UPDATE_READER_BOOK_INFO_ERROR'], function (_0x494763) {
-                                _0x494763['isBookInfoError'] = !0x0;
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x962999, _0x48c454['UPDATE_READER_BOOK_INFO_PRICE'], function (_0x3ebb47, _0x91b0d) {
-                                _0x3ebb47['bookInfo']['price'] = _0x91b0d || 0x0;
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x962999, _0x48c454[_0x447a('0x1a1')], function (_0x51fc7f, _0x36e670) {
-                                _0x51fc7f[_0x447a('0x32c')][_0x447a('0x244')] = _0x36e670 || 0x0;
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x962999, _0x48c454['UPDATE_READER_BOOK_INFO'], function (_0x40073a, _0x5c1bba) {
-                                _0x40073a['bookInfo'] = _0x5c1bba || {};
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x962999, _0x48c454['UPDATE_READER_READING_STAT'], function (_0x4de601, _0x30b06d) {
-                                _0x4de601['readingStat'] = _0x30b06d || {};
-                            }),
-                            (0x0,
-                                _0x24c4f0[_0x447a('0x3d')])(_0x962999, _0x48c454['UPDATE_READER_LAST_PROGRESS_PAYLOAD'], function (_0xbeb1b9, _0x2e2b05) {
-                                if (_0x9fa9fd[_0x447a('0x31b')](_0xbeb1b9['lastProgressPayload'], _0x2e2b05))
-                                    return _0xbeb1b9['sameProgressPayloadCount']++,
-                                        void _0x317083('[chinozhou\x20log]:\x20lastProgressPayload\x20is\x20equal,\x20count:\x20' + _0xbeb1b9[_0x447a('0x0')] + ',\x20payload:\x20' + (0x0,
-                                            _0x104c56['default'])(_0x2e2b05));
-                                _0xbeb1b9['sameProgressPayloadCount'] = 0x0,
-                                    _0xbeb1b9['lastProgressPayload'] = (0x0,
-                                        _0x4f1bb5['default'])({}, _0x2e2b05) || {};
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x962999, _0x48c454['UPDATE_BOOK_IN_SHELF'], function (_0x1804b8, _0xf7f455) {
-                                _0x1804b8['isInShelf'] = _0xf7f455 || !0x1;
-                            }),
-                            (0x0,
-                                _0x24c4f0[_0x447a('0x3d')])(_0x962999, _0x48c454[_0x447a('0xb4')], function (_0x185b96, _0x566933) {
-                                _0x185b96['memberCardSummary'] = _0x566933 || {};
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x962999, _0x48c454[_0x447a('0x32a')], function (_0x5082c0, _0x267aeb) {
-                                _0x5082c0['infiniteInfo'] = _0x267aeb || {};
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x962999, _0x48c454['UPDATE_READER_ACTIVE_INFINITE_INFO'], function (_0x1f6851, _0xf18c90) {
-                                _0x1f6851['activeInfiniteInfo'] = _0xf18c90 || {};
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x962999, _0x48c454['UPDATE_READER_CHAPTER_INFOS'], function (_0x6c5f61, _0x225d2c) {
-                                _0x6c5f61['chapterInfos'] = _0x225d2c || [];
-                            }),
-                            (0x0,
-                                _0x24c4f0[_0x447a('0x3d')])(_0x962999, _0x48c454['UPDATE_READER_PROGRESS'], function (_0x8b266e, _0x368cc1) {
-                                _0x8b266e['progress'] = _0x368cc1 || {};
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x962999, _0x48c454['UPDATE_READER_ALBUM_RELATED'], function (_0x254505, _0x4882bf) {
-                                _0x254505['relatedAlbum'] = _0x4882bf || '';
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x962999, _0x48c454['UPDATE_READER_LOCAL_PROGRESS'], function (_0x29408b, _0x1380af) {
-                                var _0xbcaafb = _0x1380af['appId']
-                                    , _0x1496ee = _0x1380af['chapterUid']
-                                    , _0x8931f2 = _0x1380af['chapterOffset']
-                                    , _0x436bc3 = _0x1380af['updateTime']
-                                    , _0x3a3fc5 = _0x1380af['summary']
-                                    , _0x54f1a2 = _0x1380af['progress']
-                                    , _0xe770d = (0x0,
-                                    _0x4f1bb5['default'])({}, _0x29408b[_0x447a('0x393')]['book'], {
-                                    'appId': _0xbcaafb,
-                                    'chapterUid': _0x1496ee,
-                                    'chapterOffset': _0x8931f2,
-                                    'updateTime': _0x436bc3,
-                                    'summary': _0x3a3fc5,
-                                    'progress': _0x54f1a2
-                                });
-                                _0x29408b[_0x447a('0x393')] = (0x0,
-                                    _0x4f1bb5['default'])({}, _0x29408b['progress'], {
-                                    'book': _0xe770d
-                                });
-                            }),
-                            (0x0,
-                                _0x24c4f0[_0x447a('0x3d')])(_0x962999, _0x48c454['UPDATE_READER_CURRENT_CHAPTER'], function (_0x53f51f, _0x26d3d5) {
-                                _0x53f51f['currentChapter'] = _0x26d3d5 || {};
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x962999, _0x48c454['UPDATE_READER_CURRENT_SECTION'], function (_0x299e90, _0x176f6a) {
-                                _0x299e90['currentSectionIdx'] = _0x176f6a;
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x962999, _0x48c454['UPDATE_READER_CONTENT_HTML'], function (_0x3de9e3, _0x3e2d5e) {
-                                _0x3de9e3['chapterContentHtml'] = _0x3e2d5e[_0x447a('0x48c')](function (_0x4d41e5, _0xd44a3b) {
-                                    var _0x1b782a = function (_0x53c212, _0x381b62) {
-                                        if (!_0x53c212 || _0x53c212['length'] <= 0x0)
-                                            return '';
-                                        var _0x109392 = new RegExp('<img[^>]+?data-wr-co=\x22([^\x22]+?)\x22[^>]+?alt=\x22([^\x22]+?)\x22[^>]+?qqreader-footnote[^>]+?>', 'gi');
-                                        _0x53c212 = _0x53c212['replace'](_0x109392, '<span\x20class=\x22reader_footer_note\x20js_readerFooterNote\x22\x20data-wr-co=\x22$1\x22\x20data-wr-footernote=\x22$2\x22></span>');
-                                        var _0x44e7ce = new RegExp('<img[^>]+?data-wr-co=\x22([^\x22]+?)\x22[^>]+?qqreader-footnote[^>]+?alt=\x22([^\x22]+?)\x22[^>]*?>', 'gi');
-                                        return (_0x53c212 = (_0x53c212 = (_0x53c212 = _0x53c212['replace'](_0x44e7ce, '<span\x20class=\x22reader_footer_note\x20js_readerFooterNote\x22\x20data-wr-co=\x22$1\x22\x20data-wr-footernote=\x22$2\x22></span>'))[_0x447a('0x410')](/\.\.\/video\/(.*?\.(mp4|wmv|3gp|rm|rmvb|mov|m4v|avi))/gi, 'https://res.weread.qq.com/wrepub/web/' + _0x381b62 + '/$1'))['replace'](/\.\.\/images\/(.*?\.(png|jpg|jpeg|gif))/gi, 'https://res.weread.qq.com/wrepub/web/' + _0x381b62 + '/$1'))['trim']();
-                                    }(_0x4d41e5 || '', _0x3de9e3['bookId'])
-                                        , _0x16b20e = _0x3de9e3['bookId']
-                                        , _0x2259d0 = _0x3de9e3['currentChapter']['chapterUid']
-                                        , _0x180608 = _0xd44a3b;
-                                    _0x9fa9fd[_0x447a('0x299')](_0x3de9e3, 'user.vid', 0x0);
-                                    return {
-                                        'value': (0x0,
-                                            _0x509b51['encryption'])(_0x1b782a, _0x16b20e, _0x2259d0, _0x180608),
-                                        'valueHasStr': function (_0x3560e1) {
-                                            return _0x1b782a['indexOf'](_0x3560e1) > -0x1;
-                                        }
-                                    };
-                                });
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x962999, _0x48c454[_0x447a('0x42')], function (_0x576acf, _0x8dcec4) {
-                                _0x576acf['chapterContentStyles'] = function (_0x1b0bb5, _0xcdf5d8) {
-                                    if (!_0x1b0bb5 || _0x1b0bb5['length'] <= 0x0)
-                                        return '';
-                                    _0x1b0bb5 = _0x1b0bb5['trim']()[_0x447a('0x410')](/\/\*.*?\*\//gi, '');
-                                    var _0x10e796 = new RegExp('[^{}]*?{[\x5cs\x5cS]+?}', 'gi')
-                                        , _0x3b74ee = _0x1b0bb5[_0x447a('0x2cb')](_0x10e796);
-                                    if (!_0x3b74ee || 0x0 === _0x3b74ee[_0x447a('0xa3')])
-                                        return '';
-                                    return _0x3b74ee['map'](function (_0x2edcf7) {
-                                        return '.readerChapterContent\x20' + (_0x2edcf7 = _0x2edcf7[_0x447a('0x3b')]())[_0x447a('0x67')]('\x0a')['map'](function (_0x5e55cf) {
-                                            return -0x1 === (_0x5e55cf = _0x5e55cf['trim']())[_0x447a('0x291')]('{') && -0x1 === _0x5e55cf['indexOf']('}') && -0x1 === _0x5e55cf[_0x447a('0x291')](';') ? _0x5e55cf + ';' : _0x5e55cf;
-                                        })['join']('');
-                                    })['join']('')[_0x447a('0x3b')]()['replace'](/\.\.\/images\/(.*?\.(png|jpg|jpeg|gif))/gi, 'https://res.weread.qq.com/wrepub/web/' + _0xcdf5d8 + '/$1');
-                                }(_0x8dcec4 || '', _0x576acf['bookId']);
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x962999, _0x48c454['UPDATE_READER_CHAPTER_CONTENT_TARGET_HTML'], function (_0x104c02, _0x12bbc6) {
-                                _0x104c02[_0x447a('0x139')] = _0x12bbc6 || {};
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x962999, _0x48c454['UPDATE_READER_CHAPTER_CANVAS_TARGET_HTML'], function (_0x4abba4, _0x3fff04) {
-                                _0x4abba4['chapterContentTargetCanvasHtml'] = _0x3fff04 || '';
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x962999, _0x48c454['UPDATE_READER_HIGHLIGHT_OBJS'], function (_0x528371, _0x28efff) {
-                                _0x528371['highlightObjs'] = _0x28efff || [];
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x962999, _0x48c454['CLEAR_READER_HIGHLIGHT_OBJS'], function (_0x3b1b38) {
-                                _0x3b1b38['highlightObjs'] = [];
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x962999, _0x48c454['UPDATE_READER_CONTENT_STATE'], function (_0x3f2d72, _0x5bd313) {
-                                _0x3f2d72['chapterContentState'] = _0x5bd313;
-                            }),
-                            (0x0,
-                                _0x24c4f0[_0x447a('0x3d')])(_0x962999, _0x48c454['UPDATE_READER_CONTENT_IS_DIRTY'], function (_0x5e049b, _0x1f68dd) {
-                                _0x5e049b['isChapterContentDirty'] = _0x1f68dd || !0x1;
-                            }),
-                            (0x0,
-                                _0x24c4f0[_0x447a('0x3d')])(_0x962999, _0x48c454['UPDATE_READER_SEARCH_RESULT'], function (_0x2ba4ac, _0x3dd144) {
-                                _0x3dd144['isLoadMore'] ? _0x2ba4ac['searchResult']['resultList'] = _0x2ba4ac['searchResult']['resultList']['concat'](_0x3dd144['resultList']) : _0x2ba4ac['searchResult']['resultList'] = _0x3dd144['resultList'],
-                                    _0x2ba4ac['searchResult']['hasMore'] = _0x3dd144['hasMore'],
-                                    _0x2ba4ac['searchResult']['totalCount'] = _0x3dd144['totalCount'],
-                                    _0x2ba4ac['searchResult'][_0x447a('0x105')] = _0x3dd144['isNeedAutoSearchWhenShow'];
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x962999, _0x48c454['UPDATE_INITIAL_SEARCH_RESULT'], function (_0x47f1b0, _0x3d6bb7) {
-                                _0x47f1b0['initialSearchResult'] = (0x0,
-                                    _0x4f1bb5['default'])({}, _0x3d6bb7);
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x962999, _0x48c454['CLEAR_READER_SEARCH_RESULT'], function (_0x5a700e) {
-                                _0x5a700e['searchResult']['keyword'] = '',
-                                    _0x5a700e[_0x447a('0x320')]['resultList'] = [],
-                                    _0x5a700e['searchResult'][_0x447a('0x2e6')] = !0x1,
-                                    _0x5a700e[_0x447a('0x320')]['totalCount'] = 0x0,
-                                    _0x5a700e['isSearchLoading'] = !0x1;
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x962999, _0x48c454['UPDATE_READER_SEARCH_RESULT_KEYWORD'], function (_0xb22bce, _0x5bf5bd) {
-                                _0xb22bce['searchResult']['keyword'] = _0x5bf5bd || '';
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x962999, _0x48c454[_0x447a('0x1b1')], function (_0x745ae5, _0x40447a) {
-                                _0x745ae5[_0x447a('0x1be')] = _0x40447a || !0x1;
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x962999, _0x48c454['UPDATE_READER_IS_SHOW_AUTO_SEARCH_HINT'], function (_0x8093e, _0x2c0aea) {
-                                _0x8093e['isShowAutoSearchHint'] = _0x2c0aea || !0x1;
-                            }),
-                            (0x0,
-                                _0x24c4f0[_0x447a('0x3d')])(_0x962999, _0x48c454['UPDATE_READER_SEARCH_LOADING'], function (_0x23c7c1, _0x126421) {
-                                _0x23c7c1['isSearchLoading'] = _0x126421 || !0x1;
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x962999, _0x48c454['UPDATE_READER_START_READING_TIME'], function (_0x1c5347, _0x5aee80) {
-                                _0x1c5347['startReadingTime'] = _0x5aee80 || new Date()['getTime']();
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x962999, _0x48c454['UPDATE_READER_TOKEN'], function (_0x579236, _0x390b38) {
-                                _0x579236['token'] = _0x390b38 || '';
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x962999, _0x48c454[_0x447a('0x1f5')], function (_0x5d8fb7) {
-                                _0x5d8fb7['pauseTime'] = new Date()['getTime']();
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x962999, _0x48c454[_0x447a('0x49')], function (_0x1cfe0b) {
-                                _0x1cfe0b['activeTime'] = new Date()[_0x447a('0x132')]();
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x962999, _0x48c454['UPDATE_READER_BALANCE'], function (_0xb9ac33, _0x189458) {
-                                var _0x49d375 = _0x9fa9fd['get'](_0x189458, 'ios.balance', 0x0)
-                                    , _0x2d7590 = _0x9fa9fd['get'](_0x189458, _0x447a('0x283'), 0x0)
-                                    , _0x54d3d9 = (0x64 * _0x49d375 - 0x64 * _0x2d7590) / 0x64
-                                    , _0x30e8fa = _0x9fa9fd['get'](_0x189458, 'android.balance', 0x0)
-                                    , _0x27cf74 = _0x9fa9fd['get'](_0x189458, 'android.giftBalance', 0x0)
-                                    , _0x4516da = _0x30e8fa - _0x27cf74;
-                                _0xb9ac33['balance'] = {
-                                    'hasFetched': !0x0,
-                                    'iOS': _0x49d375,
-                                    'iOSGift': _0x2d7590,
-                                    'iOSPaid': _0x54d3d9,
-                                    'Android': _0x30e8fa,
-                                    'AndroidGift': _0x27cf74,
-                                    'AndroidPaid': _0x4516da
-                                };
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x962999, _0x48c454['UPDATE_READER_PAGE_SERVER_TIMESTAMP'], function (_0x5e67e2, _0x1686e3) {
-                                _0x5e67e2['psvts'] = _0xfd3a96['e'](_0x1686e3) || '';
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x962999, _0x48c454['UPDATE_READER_PAGE_CLIENT_TIMESTAMP'], function (_0x17f6a8, _0x35d84d) {
-                                _0x17f6a8 && _0x35d84d && (_0x17f6a8['pclts'] = _0xfd3a96['e'](_0x35d84d) || '');
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x962999, _0x48c454['UPDATE_READER_FORBIDDEN_STATE'], function (_0x41669f, _0x28f92b) {
-                                _0x41669f[_0x447a('0x44b')] = _0x28f92b;
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x962999, _0x48c454['UPDATE_READER_PDF_URL'], function (_0x492bad, _0x589dca) {
-                                _0x492bad['pdfUrl'] = _0x589dca;
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x962999, _0x48c454['UPDATE_READER_PDF_ERROR'], function (_0x3dd89a) {
-                                _0x3dd89a['isPdfError'] = !0x0;
-                            }),
-                            (0x0,
-                                _0x24c4f0[_0x447a('0x3d')])(_0x962999, _0x48c454['UPDATE_SHOULD_SHOW_PDF_OUTLINE'], function (_0x1f8d16, _0x1a3ce5) {
-                                _0x1f8d16['shouldShowPdfOutline'] = _0x1a3ce5;
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x962999, _0x48c454['UPDATE_READER_INFO_ID'], function (_0x51930b, _0x59c800) {
-                                _0x51930b['infoId'] = _0x59c800 || '';
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x962999, _0x48c454['UPDATE_TOP_STORIES_AMOUNT'], function (_0x1d7515, _0x4e8a2c) {
-                                _0x1d7515[_0x447a('0x127')]['amount'] = _0x4e8a2c || 0x0;
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x962999, _0x48c454['UPDATE_TOP_STORIES_STATUS'], function (_0x471a46, _0xfd7da9) {
-                                _0x471a46['topStories']['checked'] = _0xfd7da9['like'],
-                                    _0x471a46['topStories']['showBubble'] = _0xfd7da9['showBubble'],
-                                    _0x471a46['topStories']['hasFetched'] = !0x0;
-                            }),
-                            _0x962999),
-                        'actions': (_0x34b828 = {},
-                            (0x0,
-                                _0x24c4f0['default'])(_0x34b828, _0x46b089['FETCH_READER_INIT_DATA'], function (_0x30bb37, _0x222ba0) {
-                                var _0x455c54, _0x3dba66 = this, _0x4a082c = _0x30bb37[_0x447a('0x1bc')],
-                                    _0x229a71 = _0x30bb37['dispatch'], _0x1ac256 = _0x30bb37['state'],
-                                    _0xe9b350 = (_0x30bb37[_0x447a('0x35c')],
-                                        _0x222ba0['initChapterUid']), _0x4bafa7 = _0x222ba0['envConfig'],
-                                    _0x1f4f1d = _0x222ba0['isLogin'], _0x46803f = _0x222ba0['needFilterCopyright'],
-                                    _0x355e61 = _0x222ba0[_0x447a('0x37f')],
-                                    _0x1333c9 = _0x222ba0['initialSearchToken'];
-                                return _0x2c2836['default']['all']([_0x2c2836['default'][_0x447a('0x418')]([_0x229a71(_0x46b089['FETCH_READER_BOOK_INFO'], {
-                                    'envConfig': _0x4bafa7,
-                                    'isLogin': _0x1f4f1d
-                                }), _0x229a71(_0x46b089[_0x447a('0x17d')], {
-                                    'envConfig': _0x4bafa7,
-                                    'isLogin': _0x1f4f1d,
-                                    'needFilterCopyright': _0x46803f
-                                }), _0x229a71(_0x46b089[_0x447a('0x307')], {
-                                    'envConfig': _0x4bafa7,
-                                    'isLogin': _0x1f4f1d
-                                }), _0x229a71(_0x46b089['FETCH_INITIAL_SEARCH_RESULT'], {
-                                    'token': _0x1333c9,
-                                    'envConfig': _0x4bafa7
-                                })])[_0x447a('0x19c')]((_0x455c54 = (0x0,
-                                        _0x26fa07[_0x447a('0x3d')])(_0x529902['default']['mark'](function _0x56e7f6(_0x2ffdca) {
-                                        var _0x439692, _0x499efd, _0x29d9ce;
-                                        return _0x529902['default']['wrap'](function (_0x55d4af) {
-                                            for (; ;)
-                                                switch (_0x55d4af['prev'] = _0x55d4af['next']) {
-                                                    case 0x0:
-                                                        if (_0x439692 = _0x2ffdca[0x0] || {},
-                                                            _0x499efd = _0x2ffdca[0x1] || [],
-                                                            _0x29d9ce = _0x2ffdca[0x2] || '',
-                                                            _0x4a082c(_0x48c454['UPDATE_READER_ALBUM_RELATED'], _0x29d9ce),
-                                                            _0x4a082c(_0x48c454['UPDATE_READER_CHAPTER_INFOS'], _0x3a8483(_0x439692, _0x499efd)),
-                                                        !_0x1f4f1d || _0x1ac256['initialSearchResult']) {
-                                                            _0x55d4af['next'] = 0x8;
-                                                            break;
-                                                        }
-                                                        return _0x55d4af['next'] = 0x8,
-                                                            _0x229a71(_0x46b089['FETCH_READER_PROGRESS'], {
-                                                                'envConfig': _0x4bafa7,
-                                                                'compareWithLocal': !0x1
-                                                            });
-                                                    case 0x8:
-                                                    case 'end':
-                                                        return _0x55d4af['stop']();
-                                                }
-                                        }, _0x56e7f6, _0x3dba66);
-                                    })),
-                                        function (_0x523bec) {
-                                            return _0x455c54[_0x447a('0x37e')](this, arguments);
-                                        }
-                                ))['then'](function () {
-                                    var _0x424073 = _0x9fa9fd['get'](_0x1ac256, _0x447a('0xd9'), 0x0)
-                                        , _0x27f0bb = function (_0x923c87) {
-                                        var _0x553174 = _0x923c87[_0x447a('0x32c')]
-                                            , _0x44f4fa = _0x923c87[_0x447a('0x485')]
-                                            , _0x4bf932 = _0x923c87[_0x447a('0xdc')]
-                                            , _0xfa3223 = _0x923c87['progress']
-                                            , _0x2c7b1b = _0x923c87[_0x447a('0x37f')]
-                                            , _0x3cc7c2 = null;
-                                        if (_0x19f93b['default']['isLegacyReaderSupportBook'](_0x553174)) {
-                                            var _0x128d44 = _0x4bf932;
-                                            if (!_0x4bf932 || !(0x0,
-                                                _0x992cb4['default'])(_0x4bf932)) {
-                                                var _0x2b4037 = _0x9fa9fd['get'](_0xfa3223, 'book.chapterUid', 0x0);
-                                                _0x2b4037 > 0x0 && (_0x128d44 = _0x2b4037);
-                                            }
-                                            for (var _0x351fdc = 0x0, _0x56e253 = _0x44f4fa['length']; _0x351fdc < _0x56e253; _0x351fdc++) {
-                                                var _0x1e8938 = _0x44f4fa[_0x351fdc];
-                                                if (_0x1e8938 && _0x1e8938['chapterUid'] === _0x128d44) {
-                                                    _0x3cc7c2 = _0x1e8938;
-                                                    break;
-                                                }
-                                            }
-                                        }
-                                        _0x3cc7c2 && _0x3cc7c2['chapterUid'] || (_0x3cc7c2 = _0x44f4fa[0x0]);
-                                        if (_0x19f93b['default']['actualTreatBookAsPdf'](_0x553174)) {
-                                            _0x3cc7c2 = {
-                                                'chapterUid': ('switchFormat' === _0x2c7b1b ? _0x4bf932 : _0x9fa9fd['get'](_0xfa3223, 'book.chapterUid', 0x0)) || 0x0,
-                                                'chapterOffset': 0x0
-                                            };
-                                        }
-                                        _0x317083('chapterToShow', 'initChapterUid=' + _0x4bf932, 'progressChapterUid=' + _0x9fa9fd['get'](_0xfa3223, _0x447a('0x12b'), 0x0), 'result=' + (_0x3cc7c2 ? _0x3cc7c2['chapterUid'] : -0x1)),
-                                        _0x3cc7c2 || _0x317083('Error\x20in\x20chapterToShow.\x20Can\x20not\x20find\x20target\x20Chapter');
-                                        return _0x3cc7c2 || {};
-                                    }({
-                                        'bookInfo': _0x1ac256['bookInfo'],
-                                        'chapterInfos': _0x1ac256['chapterInfos'],
-                                        'initChapterUid': _0x424073 || _0xe9b350,
-                                        'progress': _0x1ac256['progress'],
-                                        'jumpType': _0x355e61
-                                    });
-                                    _0x4a082c(_0x48c454['UPDATE_READER_CURRENT_CHAPTER'], _0x27f0bb),
-                                        _0x4a082c(_0x48c454['UPDATE_SHOW_NAV_BAR'], _0x1ac256['isBookForbidden']),
-                                        _0x4a082c(_0x48c454['UPDATE_READER_CONTENT_IS_DIRTY'], !0x0),
-                                        _0x19f93b['default']['isSupportedBookType'](_0x1ac256['bookInfo'][_0x447a('0x14c')]) ? _0x4a082c(_0x48c454['UPDATE_READER_CONTENT_STATE'], 'LOADING') : _0x4a082c(_0x48c454['UPDATE_READER_CONTENT_STATE'], _0x447a('0x38d'));
-                                }), _0x2c2836['default']['all']([]['concat']((0x0,
-                                    _0x1c3421['default'])(_0x1f4f1d ? [_0x229a71(_0x46b089['FETCH_READER_BOOK_IN_SHELF'], _0x4bafa7), _0x229a71(_0x46b089['FETCH_READER_MEMBER_CARD_SUMMARY'], _0x4bafa7), _0x229a71(_0x46b089[_0x447a('0xd4')], _0x4bafa7), _0x229a71(_0x46b089['FETCH_READER_ACTIVE_INFINITE'], _0x4bafa7), _0x229a71(_0x46b089['FETCH_READER_GET_CONFIG'], _0x4bafa7)] : []), [_0x229a71(_0x46b089['FETCH_READER_BOOK_READING_STAT'], {
-                                    'envConfig': _0x4bafa7,
-                                    'isLogin': _0x1f4f1d
-                                })]))['catch'](function (_0x1dfbe6) {
-                                    _0x317083('Error\x20in\x20initData\x20side\x20data', _0x1dfbe6);
-                                })])['then'](function () {
-                                    return _0x229a71(_0x46b089['FETCH_READER_SILENT_INFINITE'], {
-                                        'envConfig': _0x4bafa7,
-                                        'isLogin': _0x1f4f1d
-                                    })['then'](function (_0x1cf4d4) {
-                                        return _0x1cf4d4['data'] && _0x1cf4d4['data']['received'] ? _0x229a71(_0x46b089['FETCH_READER_MEMBER_CARD_SUMMARY'], _0x4bafa7) : 0x0;
-                                    });
-                                })['catch'](function (_0x2b158d) {
-                                    _0x317083('Error\x20in\x20initData', _0x2b158d);
-                                });
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x34b828, _0x46b089[_0x447a('0x26b')], function (_0x5ea093, _0x5b4b43) {
-                                var _0x21f218 = _0x5ea093['commit']
-                                    , _0x1d05ef = _0x5b4b43['token']
-                                    , _0xe67c1f = _0x5b4b43['envConfig'];
-                                return _0x1d05ef ? new _0x2c2836['default'](function (_0x3dc3b8) {
-                                        (0x0,
-                                            _0x424400[_0x447a('0x3d')])('/web/book/search', (0x0,
-                                            _0x4f1bb5['default'])({
-                                            'token': _0x1d05ef
-                                        }, _0xe67c1f), function (_0x1168ed) {
-                                            _0x178a19['inDevelopment']();
-                                            var _0x1ec1aa = _0x9fa9fd[_0x447a('0x299')](_0x1168ed, 'data.result', []);
-                                            if (!Array['isArray'](_0x1ec1aa) || !_0x1ec1aa[_0x447a('0xa3')])
-                                                return _0x3dc3b8(null);
-                                            _0x21f218(_0x48c454['UPDATE_INITIAL_SEARCH_RESULT'], _0x1ec1aa[0x0]),
-                                                _0x3dc3b8(_0x1ec1aa[0x0]);
-                                        }, function (_0x4aa40c) {
-                                            _0x3dc3b8(null);
-                                        });
-                                    }
-                                )['catch'](function (_0x5103bf) {
-                                    return _0x317083(_0x447a('0x1c1'), _0x5103bf),
-                                        null;
-                                }) : null;
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x34b828, _0x46b089['FETCH_READER_BOOK_INFO'], function (_0x5d7b57, _0x300b22) {
-                                var _0x212b99 = _0x5d7b57[_0x447a('0x1bc')]
-                                    , _0xef711 = _0x5d7b57['state']
-                                    , _0x4112d2 = _0x5d7b57['dispatch']
-                                    , _0x21179b = _0x300b22['envConfig']
-                                    , _0xc8c8cf = _0x300b22['isLogin']
-                                    , _0x22431b = _0xef711['bookId'];
-                                if (_0x22431b)
-                                    return _0x4112d2(_0x46b089['FETCH_BOOK_INFO'], {
-                                        'envConfig': _0x21179b,
-                                        'bookId': _0x22431b,
-                                        'isLogin': _0xc8c8cf
-                                    })['then'](function (_0x580643) {
-                                        var _0x1d59fa = _0x580643 || {};
-                                        return _0x1d59fa['bookId'] ? (_0x212b99(_0x48c454['UPDATE_READER_BOOK_INFO'], _0x1d59fa),
-                                        _0x1d59fa['title'] && _0x212b99(_0x48c454['UPDATE_PAGE_TITLE'], _0x1d59fa['title']),
-                                            _0x212b99(_0x48c454['UPDATE_READER_FORBIDDEN_STATE'], !0x1),
-                                            _0x1d59fa) : (_0x212b99(_0x48c454['UPDATE_READER_FORBIDDEN_STATE'], !0x0),
-                                            _0x1d59fa);
-                                    })['catch'](function (_0x14f75a) {
-                                        _0x212b99(_0x48c454[_0x447a('0x4be')]),
-                                            _0x212b99(_0x48c454[_0x447a('0x1b8')], !0x0),
-                                            _0x317083('Error\x20in\x20loadBookInfo(bookId=' + _0x22431b, _0x14f75a);
-                                    });
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x34b828, _0x46b089[_0x447a('0x307')], function (_0x1b15ad, _0x185ad2) {
-                                var _0x146a4c = _0x1b15ad['state']
-                                    , _0x5c82a7 = _0x185ad2['envConfig']
-                                    , _0x326b86 = _0x146a4c['bookId'];
-                                if (_0x326b86)
-                                    return (0x0,
-                                        _0x424400['default'])('/web/book/albumRelated', (0x0,
-                                        _0x4f1bb5['default'])({
-                                        'bookId': _0x326b86
-                                    }, _0x5c82a7))['then'](function (_0x1e1164) {
-                                        if (_0x1e1164 && _0x1e1164['data'] && _0x1e1164['data']['albumList'] && _0x1e1164['data']['albumList'][_0x447a('0xa3')]) {
-                                            var _0x59afe4 = _0x1e1164['data']['albumList'][0x0];
-                                            if (_0x59afe4 && _0x59afe4[_0x447a('0x236')])
-                                                return _0x59afe4['albumId'];
-                                        }
-                                        return '';
-                                    })['catch'](function (_0x328368) {
-                                        _0x317083(_0x447a('0x19f'), _0x328368);
-                                    });
-                            }),
-                            (0x0,
-                                _0x24c4f0[_0x447a('0x3d')])(_0x34b828, _0x46b089[_0x447a('0x17d')], function (_0x45955a, _0x50877d) {
-                                var _0x454560 = _0x45955a['state']
-                                    , _0x5a169e = _0x50877d['envConfig']
-                                    , _0x2b3fff = _0x50877d['isLogin']
-                                    , _0x29f198 = _0x50877d['needFilterCopyright']
-                                    , _0x4742cc = _0x454560['bookId'];
-                                if (_0x4742cc)
-                                    return _0x2b3fff ? (0x0,
-                                        _0x4a522e['default'])('/web/book/chapterInfos', (0x0,
-                                        _0x4f1bb5['default'])({
-                                        'bookIds': [_0x4742cc]
-                                    }, _0x5a169e))['then'](function (_0x5c69ad) {
-                                        for (var _0x305b6b = (_0x5c69ad['data'] || {})['data'] || [], _0x38289a = {}, _0x55a0f6 = 0x0, _0x47100a = _0x305b6b['length']; _0x55a0f6 < _0x47100a; _0x55a0f6++) {
-                                            var _0x1b5063 = _0x305b6b[_0x55a0f6];
-                                            if (_0x1b5063) {
-                                                _0x38289a = _0x1b5063;
-                                                break;
-                                            }
-                                        }
-                                        if (_0x29f198) {
-                                            var _0x2f15ad = []
-                                                , _0x438d2d = _0x38289a[_0x447a('0x2d3')] || []
-                                                , _0x1baf77 = !0x0
-                                                , _0xae48ee = !0x1
-                                                , _0x20d5ce = void 0x0;
-                                            try {
-                                                for (var _0x35fd1a, _0x23df1b = (0x0,
-                                                    _0x5b1552['default'])(_0x438d2d); !(_0x1baf77 = (_0x35fd1a = _0x23df1b[_0x447a('0x2e4')]())['done']); _0x1baf77 = !0x0) {
-                                                    var _0x1f53fb = _0x35fd1a['value'];
-                                                    ('封面' === _0x1f53fb['title'] || '版权信息' === _0x1f53fb['title'] || '版权页' === _0x1f53fb['title']) && _0x1f53fb['chapterIdx'] < 0x5 || _0x2f15ad['push'](_0x1f53fb);
-                                                }
-                                            } catch (_0x486e77) {
-                                                _0xae48ee = !0x0,
-                                                    _0x20d5ce = _0x486e77;
-                                            } finally {
-                                                try {
-                                                    !_0x1baf77 && _0x23df1b['return'] && _0x23df1b['return']();
-                                                } finally {
-                                                    if (_0xae48ee)
-                                                        throw _0x20d5ce;
-                                                }
-                                            }
-                                            return _0x2f15ad;
-                                        }
-                                        return _0x38289a['updated'] || [];
-                                    })[_0x447a('0x4b1')](function (_0x40963a) {
-                                        _0x317083('Error\x20in\x20chapterInfos', _0x40963a);
-                                    }) : (0x0,
-                                        _0x4a522e['default'])('/web/book/publicchapterInfos', (0x0,
-                                        _0x4f1bb5[_0x447a('0x3d')])({
-                                        'bookIds': [_0x4742cc]
-                                    }, _0x5a169e))['then'](function (_0x4effab) {
-                                        for (var _0x2f9acf = (_0x4effab['data'] || {})['data'] || [], _0x14f4da = {}, _0x2ad860 = 0x0, _0x59e5e0 = _0x2f9acf[_0x447a('0xa3')]; _0x2ad860 < _0x59e5e0; _0x2ad860++) {
-                                            var _0x2f713d = _0x2f9acf[_0x2ad860];
-                                            if (_0x2f713d) {
-                                                _0x14f4da = _0x2f713d;
-                                                break;
-                                            }
-                                        }
-                                        return _0x14f4da['updated'] || [];
-                                    })[_0x447a('0x4b1')](function (_0x5f3802) {
-                                        _0x317083('Error\x20in\x20publicchapterInfos', _0x5f3802);
-                                    });
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x34b828, _0x46b089['RELOAD_READER_CHAPTER_INFOS'], function (_0x385375, _0x40a3bd) {
-                                var _0x52c780 = _0x385375['dispatch']
-                                    , _0x5866e7 = _0x385375['commit']
-                                    , _0x58bdb8 = _0x385375['state']
-                                    , _0x6fdf87 = _0x385375['getters']
-                                    , _0x156d38 = _0x40a3bd['isLogin'];
-                                return _0x52c780(_0x46b089['FETCH_READER_CHAPTER_INFOS'], {
-                                    'envConfig': {},
-                                    'isLogin': _0x156d38
-                                })['then'](function (_0x8c3e9d) {
-                                    _0x5866e7(_0x48c454['UPDATE_READER_CHAPTER_INFOS'], _0x3a8483(_0x58bdb8['bookInfo'], _0x8c3e9d));
-                                    var _0x39a3cb = _0x58bdb8['currentChapter'][_0x447a('0x3a')]
-                                        , _0x2e9896 = _0x6fdf87['getChapterWithChapterUid'](_0x39a3cb);
-                                    _0x5866e7(_0x48c454[_0x447a('0x380')], _0x2e9896);
-                                });
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x34b828, _0x46b089[_0x447a('0xe7')], function (_0x55ef83, _0x47990a) {
-                                var _0x2bac28 = _0x55ef83['dispatch']
-                                    , _0x4795b7 = _0x55ef83['commit']
-                                    , _0x3c4c6f = _0x47990a[_0x447a('0x163')];
-                                return _0x2bac28(_0x46b089['FETCH_READER_BOOK_INFO'], {
-                                    'envConfig': {},
-                                    'isLogin': _0x3c4c6f
-                                })[_0x447a('0x19c')](function (_0x2f8a59) {
-                                    _0x4795b7(_0x48c454['UPDATE_READER_BOOK_INFO'], _0x2f8a59);
-                                });
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x34b828, _0x46b089['CANCEL_AUTO_PAY'], function (_0x2e5d36) {
-                                var _0x23f1c3 = _0x2e5d36['state']
-                                    , _0x493134 = _0x2e5d36['dispatch']
-                                    , _0x1d0231 = {
-                                    'b': _0xfd3a96['e'](_0x23f1c3['bookId'])
-                                };
-                                return (0x0,
-                                    _0x4a522e[_0x447a('0x3d')])('/web/pay/cancelAutoBuyChapter', _0x1d0231)['then'](function (_0xf61ff0) {
-                                    return _0x493134(_0x46b089['RELOAD_READER_BOOK_INFO'], {
-                                        'isLogin': !0x0
-                                    }),
-                                        _0xf61ff0['data'];
-                                }, function (_0x11b303) {
-                                    return _0x317083('Error\x20in\x20fetchReaderBuyChapters', _0x11b303),
-                                        _0x11b303;
-                                });
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x34b828, _0x46b089['FETCH_READER_PROGRESS'], function (_0x4ab588, _0x2ff591) {
-                                var _0x32fc71 = _0x4ab588['commit']
-                                    , _0x26052e = _0x4ab588['state']
-                                    , _0x1a97db = _0x4ab588[_0x447a('0x35c')]
-                                    , _0x467cf4 = _0x2ff591['envConfig']
-                                    , _0x5c7238 = _0x2ff591[_0x447a('0x323')]
-                                    , _0x4afcf3 = _0x26052e['bookId'];
-                                return _0x317083(_0x1a97db['isTreatAsOtherTypeBook']),
-                                    _0x4afcf3 ? (0x0,
-                                        _0x424400['default'])(_0x447a('0x34'), (0x0,
-                                        _0x4f1bb5['default'])({
-                                        'bookId': _0x4afcf3
-                                    }, _0x467cf4), function (_0x2d4b31) {
-                                        if (_0x5c7238) {
-                                            var _0x3953b0 = void 0x0;
-                                            if (_0x1a97db['isDynamicPDF'] && _0x1a97db['isTreatAsOtherTypeBook'])
-                                                _0x3953b0 = {
-                                                    'bookId': _0x9fa9fd['get'](_0x2d4b31, 'data.bookId', ''),
-                                                    'book': _0x9fa9fd[_0x447a('0x299')](_0x2d4b31, 'data.book.otherType', {}),
-                                                    'canFreeRead': _0x9fa9fd['get'](_0x2d4b31, 'data.canFreeRead', !0x1)
-                                                };
-                                            var _0x51733c = _0x1a97db['isDynamicPDF'] && _0x1a97db[_0x447a('0x166')] ? _0x3953b0 : _0x2d4b31['data']
-                                                , _0xd98e1e = _0x26052e['progress'];
-                                            if (!_0x51733c || !_0xd98e1e)
-                                                return null;
-                                            if (_0x9fa9fd['get'](_0x51733c, 'book.updateTime', 0x0) <= _0x9fa9fd['get'](_0xd98e1e, _0x447a('0x115'), 0x0))
-                                                return null;
-                                            if (_0x9fa9fd['get'](_0x51733c, 'book.appId', '') === _0x9fa9fd['get'](_0xd98e1e, _0x447a('0x7d'), ''))
-                                                return null;
-                                            for (var _0x569041 = _0x9fa9fd['get'](_0x51733c, 'book.chapterUid', 0x0), _0x3f464a = _0x26052e[_0x447a('0x485')] || [], _0x1fc5db = !0x1, _0x1e1d8d = 0x0, _0x49811e = _0x3f464a['length']; _0x1e1d8d < _0x49811e; _0x1e1d8d++) {
-                                                var _0x265ce1 = _0x3f464a[_0x1e1d8d];
-                                                if (_0x265ce1 && _0x265ce1['chapterUid'] === _0x569041) {
-                                                    _0x1fc5db = !0x0;
-                                                    break;
-                                                }
-                                            }
-                                            return _0x1fc5db ? (_0x32fc71(_0x48c454['UPDATE_READER_PROGRESS'], _0x51733c),
-                                                _0x51733c) : null;
-                                        }
-                                        if (_0x1a97db[_0x447a('0x499')] && _0x1a97db[_0x447a('0x166')]) {
-                                            var _0x18c5f0 = _0x9fa9fd[_0x447a('0x299')](_0x2d4b31, _0x447a('0x1e7'), '')
-                                                , _0x2098e1 = _0x9fa9fd['get'](_0x2d4b31, 'data.book.otherType', {})
-                                                , _0xa4fc5d = _0x9fa9fd['get'](_0x2d4b31, 'data.canFreeRead', !0x1);
-                                            _0x32fc71(_0x48c454['UPDATE_READER_PROGRESS'], {
-                                                'bookId': _0x18c5f0,
-                                                'book': _0x2098e1,
-                                                'canFreeRead': _0xa4fc5d
-                                            });
-                                        } else
-                                            _0x32fc71(_0x48c454['UPDATE_READER_PROGRESS'], _0x2d4b31['data']);
-                                    }, function (_0x231bdc) {
-                                        _0x317083('Error\x20in\x20fetchBookProgress', _0x231bdc);
-                                    }) : _0x2c2836[_0x447a('0x3d')]['reject'](new Error(_0x447a('0x369')));
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x34b828, _0x46b089['FETCH_READER_BOOK_READING_STAT'], function (_0x13b4d3, _0x4e2097) {
-                                var _0xc3c2df = _0x13b4d3['commit']
-                                    , _0x1efaee = _0x13b4d3['state']
-                                    , _0x4f21a8 = _0x4e2097['envConfig']
-                                    , _0x39121f = _0x4e2097['isLogin']
-                                    , _0x513a0a = _0x1efaee['bookId'];
-                                if (_0x513a0a)
-                                    return _0x39121f ? (0x0,
-                                        _0x424400['default'])('/web/book/readingStat', (0x0,
-                                        _0x4f1bb5[_0x447a('0x3d')])({
-                                        'bookId': _0x513a0a,
-                                        'showUserNum': 0x2
-                                    }, _0x4f21a8), function (_0x50812c) {
-                                        _0xc3c2df(_0x48c454['UPDATE_READER_READING_STAT'], _0x50812c[_0x447a('0x101')]);
-                                    }, function (_0x2c7c4c) {
-                                        _0x317083(_0x447a('0xaa'), _0x2c7c4c);
-                                    }) : (0x0,
-                                        _0x424400['default'])('/web/readingStat', (0x0,
-                                        _0x4f1bb5[_0x447a('0x3d')])({
-                                        'bookId': _0x513a0a
-                                    }, _0x4f21a8), function (_0x3e0635) {
-                                        _0xc3c2df(_0x48c454['UPDATE_READER_READING_STAT'], _0x3e0635[_0x447a('0x101')]);
-                                    }, function (_0x32455d) {
-                                        _0x317083('Error\x20in\x20fetchReadingStatNoSession', _0x32455d);
-                                    });
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x34b828, _0x46b089['FETCH_READER_BOOK_IN_SHELF'], function (_0xc59c68, _0x3d3d8e) {
-                                var _0x475f12 = _0xc59c68['commit']
-                                    , _0x222194 = _0xc59c68['dispatch']
-                                    , _0x1ba42e = _0xc59c68['state']
-                                    , _0x2b7dfa = _0x1ba42e['bookId'];
-                                if (_0x2b7dfa)
-                                    return _0x222194(_0x46b089['FETCH_IN_SHELF'], {
-                                        'envConfig': _0x3d3d8e,
-                                        'bookIds': _0x2b7dfa
-                                    })[_0x447a('0x19c')](function (_0x1f96b1) {
-                                        for (var _0x50671d = {}, _0x8c7c71 = 0x0, _0x11c11d = _0x1f96b1['length']; _0x8c7c71 < _0x11c11d; _0x8c7c71++) {
-                                            var _0x4fcbb5 = _0x1f96b1[_0x8c7c71];
-                                            if (_0x4fcbb5[_0x447a('0x1b2')] === _0x1ba42e['bookId']) {
-                                                _0x50671d = _0x4fcbb5;
-                                                break;
-                                            }
-                                        }
-                                        var _0x308299 = 0x1 === _0x50671d['onShelf'];
-                                        _0x475f12(_0x48c454['UPDATE_BOOK_IN_SHELF'], _0x308299);
-                                    })['catch'](function (_0x172e30) {
-                                        _0x317083(_0x447a('0x375'), _0x172e30);
-                                    });
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x34b828, _0x46b089['FETCH_READER_ADD_SHELF'], function (_0x1dcfef) {
-                                var _0x289310 = _0x1dcfef['commit']
-                                    , _0x3fa7fc = _0x1dcfef['dispatch']
-                                    , _0x141da5 = _0x1dcfef['state'];
-                                if (_0x141da5) {
-                                    var _0x33fdfe = _0x141da5['bookId'];
-                                    if (_0x33fdfe)
-                                        return _0x3fa7fc(_0x46b089[_0x447a('0x2d8')], {
-                                            'bookIds': [_0x33fdfe]
-                                        })['then'](function (_0x5d8b07) {
-                                            return _0x5d8b07 && _0x289310(_0x48c454['UPDATE_BOOK_IN_SHELF'], !0x0),
-                                                _0x5d8b07;
-                                        });
-                                }
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x34b828, _0x46b089['FETCH_READER_ACTIVE_INFINITE'], function (_0x36b566, _0x4099be) {
-                                var _0x58820d = _0x36b566[_0x447a('0x1bc')];
-                                return (0x0,
-                                    _0x424400['default'])('/web/act/activeinfinite', (0x0,
-                                    _0x4f1bb5['default'])({}, _0x4099be), function (_0x2f9a9b) {
-                                    _0x58820d(_0x48c454[_0x447a('0xa2')], _0x2f9a9b['data']);
-                                }, function (_0x5e2efe) {
-                                    _0x317083('Error\x20in\x20fetchReaderActiveInfinite', _0x5e2efe);
-                                });
-                            }),
-                            (0x0,
-                                _0x24c4f0[_0x447a('0x3d')])(_0x34b828, _0x46b089['FETCH_READER_SILENT_INFINITE'], function (_0x42d402, _0x261dad) {
-                                var _0x2b937f = _0x42d402['state']
-                                    , _0x278b8c = _0x261dad['envConfig']
-                                    , _0x3dfb8d = _0x261dad['isLogin']
-                                    , _0x565048 = _0x2b937f['bookId'];
-                                return _0x565048 && _0x3dfb8d ? (0x0,
-                                    _0x424400['default'])('/web/silentinfinite', (0x0,
-                                    _0x4f1bb5['default'])({
-                                    'bookId': _0x565048
-                                }, _0x278b8c)) : _0x2c2836['default']['resolve'](0x0);
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x34b828, _0x46b089[_0x447a('0xa')], function (_0x26f0e6, _0x43e360) {
-                                var _0x21ec85 = _0x26f0e6['commit'];
-                                return (0x0,
-                                    _0x424400['default'])('/web/pay/memberCardSummary', (0x0,
-                                    _0x4f1bb5['default'])({}, _0x43e360, {
-                                    'pf': 'ios'
-                                }), function (_0x1e6b59) {
-                                    _0x21ec85(_0x48c454['UPDATE_READER_MEMBER_CARD_SUMMARY'], _0x1e6b59['data']);
-                                }, function (_0x2d78be) {
-                                    _0x317083('Error\x20in\x20fetchMemberCardSummary', _0x2d78be);
-                                });
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x34b828, _0x46b089[_0x447a('0xd4')], function (_0x12bbe6, _0x31e875) {
-                                var _0x346da6 = _0x12bbe6['commit'];
-                                return (0x0,
-                                    _0x424400['default'])('/web/act/sendinfinite', (0x0,
-                                    _0x4f1bb5[_0x447a('0x3d')])({}, _0x31e875), function (_0x15a98e) {
-                                    _0x346da6(_0x48c454['UPDATE_READER_INFINITE_INFO'], _0x15a98e['data']);
-                                }, function (_0x18a270) {
-                                    _0x317083('Error\x20in\x20fetchReaderInfiniteInfo', _0x18a270);
-                                });
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x34b828, _0x46b089['FETCH_READER_RECEIVE_MEMBERCARD'], function () {
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x34b828, _0x46b089['FETCH_READER_PDF_URL'], function (_0x2ef40b) {
-                                var _0x5b45c6 = _0x2ef40b['commit']
-                                    , _0xb74284 = _0x2ef40b['state']['bookId'];
-                                if (_0xb74284)
-                                    return (0x0,
-                                        _0x424400['default'])('https://res.weread.qq.com/cos/download?getUrl=1', {
-                                        'bookId': _0xb74284
-                                    }, function (_0x11943f) {
-                                        _0x11943f && _0x11943f['data'] && _0x11943f['data']['url'] && _0x5b45c6(_0x48c454['UPDATE_READER_PDF_URL'], _0x11943f['data']['url']);
-                                    }, function (_0x324385) {
-                                        return _0x317083('Error\x20in\x20fetchReaderPdfUrl', _0x324385),
-                                            _0x5b45c6(_0x48c454['UPDATE_READER_PDF_ERROR']),
-                                            _0x324385;
-                                    }, !0x0);
-                            }),
-                            (0x0,
-                                _0x24c4f0[_0x447a('0x3d')])(_0x34b828, _0x46b089[_0x447a('0x480')], (_0x4fe0de = (0x0,
-                                    _0x26fa07['default'])(_0x529902['default']['mark'](function _0x497f6e(_0x1c6c12, _0x3ca80e) {
-                                    var _0x977cbe, _0x137a05, _0x2d2b8e, _0x3c4501, _0x2347da, _0x2356fe, _0x322c8f,
-                                        _0x22624a, _0x17cbb = _0x1c6c12['dispatch'], _0x46f5d0 = _0x1c6c12['commit'],
-                                        _0x12a575 = _0x1c6c12[_0x447a('0xe9')], _0x119cfa = _0x1c6c12['getters'];
-                                    return _0x529902['default']['wrap'](function (_0x4d4882) {
-                                        for (; ;)
-                                            switch (_0x4d4882['prev'] = _0x4d4882[_0x447a('0x2e4')]) {
-                                                case 0x0:
-                                                    if (_0x9fa9fd['get'](this['user'], _0x447a('0x359'), 0x0),
-                                                        _0x12a575['isChapterContentDirty']) {
-                                                        _0x4d4882['next'] = 0x3;
-                                                        break;
-                                                    }
-                                                    return _0x4d4882['abrupt']('return');
-                                                case 0x3:
-                                                    if (_0x977cbe = _0x12a575['bookId'],
-                                                        _0x137a05 = _0x12a575['currentChapter'],
-                                                        _0x2d2b8e = _0x9fa9fd['get'](_0x137a05, 'chapterUid'),
-                                                    !_0x977cbe || !_0x2d2b8e) {
-                                                        _0x4d4882['next'] = 0x1f;
-                                                        break;
-                                                    }
-                                                    if (_0x46f5d0(_0x48c454['UPDATE_READER_CONTENT_STATE'], 'LOADING'),
-                                                        _0x46f5d0(_0x48c454['UPDATE_READER_CHAPTER_CONTENT_TARGET_HTML'], {}),
-                                                        _0x3c4501 = function () {
-                                                            var _0x2a549e = arguments[_0x447a('0xa3')] > 0x0 && void 0x0 !== arguments[0x0] ? arguments[0x0] : {}
-                                                                , _0x466527 = {
-                                                                'b': _0xfd3a96['e'](_0x977cbe),
-                                                                'c': _0xfd3a96['e'](_0x2d2b8e),
-                                                                'r': Math['pow'](parseInt(0x2710 * Math['random']()), 0x2),
-                                                                'st': 0x0,
-                                                                'ct': parseInt(new Date()['getTime']() / 0x3e8),
-                                                                'ps': _0x12a575[_0x447a('0x2d5')],
-                                                                'pc': _0x12a575['pclts'],
-                                                                'sc': 0x0
-                                                            };
-                                                            (0x0,
-                                                                _0x4b8e62['default'])(_0x466527, _0x2a549e);
-                                                            var _0x405c75 = _0x64c065(_0x466527);
-                                                            return _0x466527['s'] = _0x545769(_0x405c75),
-                                                                _0x466527;
-                                                        }
-                                                        ,
-                                                        _0x2347da = void 0x0,
-                                                    !_0x119cfa[_0x447a('0x39a')] && !_0x119cfa['isCopyRightForbiddenRead']) {
-                                                        _0x4d4882['next'] = 0x10;
-                                                        break;
-                                                    }
-                                                    _0x2347da = new _0x2c2836[(_0x447a('0x3d'))](function (_0xd88acf) {
-                                                            _0x46f5d0(_0x48c454['UPDATE_READER_CONTENT_HTML'], []),
-                                                                _0x46f5d0(_0x48c454[_0x447a('0x42')], ''),
-                                                                _0x46f5d0(_0x48c454[_0x447a('0x79')], 'DONE'),
-                                                                _0xd88acf();
-                                                        }
-                                                    ),
-                                                        _0x4d4882['next'] = 0x1b;
-                                                    break;
-                                                case 0x10:
-                                                    if (!_0x119cfa['isEPub']) {
-                                                        _0x4d4882['next'] = 0x18;
-                                                        break;
-                                                    }
-                                                    try {
-                                                        _0x17cbb(_0x46b089[_0x447a('0x183')]);
-                                                    } catch (_0x39c767) {
-                                                        _0x178a19['inDevelopment']();
-                                                    }
-                                                    if (!_0x3c4501(_0x3ca80e)['sc']) {
-                                                        _0x4d4882['next'] = 0x15;
-                                                        break;
-                                                    }
-                                                    return _0x4d4882['next'] = 0x15,
-                                                        (0x0,
-                                                            _0x4a522e[_0x447a('0x3d')])(_0x129259['cs']('255e4h4e254e565652254f4k4d575b4h59254h4b26'), _0x3c4501(_0x3ca80e), function (_0x430f19) {
-                                                            var _0x205bd6 = _0x430f19['data'];
-                                                            return _0x205bd6 && 'string' == typeof _0x205bd6 ? _0x129259['chk'](_0x205bd6) : '';
-                                                        }, function (_0x59de3f) {
-                                                            return _0x317083('Error\x20in\x20fetchContent', _0x59de3f),
-                                                                _0x59de3f;
-                                                        });
-                                                case 0x15:
-                                                    _0x2347da = _0x2c2836['default']['all']([(0x0,
-                                                        _0x4a522e['default'])(_0x129259['cs']('255e4h4e254e565652254f4k4d575b4h59254h4b26'), _0x3c4501(_0x3ca80e), function (_0x504752) {
-                                                        var _0x5422ca = _0x504752['data'];
-                                                        return _0x5422ca && _0x447a('0x2f1') == typeof _0x5422ca ? _0x129259['chk'](_0x5422ca) : '';
-                                                    }, function (_0x4714df) {
-                                                        return _0x317083('Error\x20in\x20fetchContent', _0x4714df),
-                                                            _0x4714df;
-                                                    }), (0x0,
-                                                        _0x4a522e['default'])(_0x129259['cs']('255e4h4e254e565652254f4k4d575b4h59254h4b27'), _0x3c4501(_0x3ca80e), function (_0x3e7f8c) {
-                                                        var _0x41575f = _0x3e7f8c[_0x447a('0x101')];
-                                                        return _0x41575f && 'string' == typeof _0x41575f ? _0x129259['chk'](_0x41575f) : '';
-                                                    }, function (_0xf727af) {
-                                                        return _0x317083(_0x447a('0x2ac'), _0xf727af),
-                                                            _0xf727af;
-                                                    }), (0x0,
-                                                        _0x4a522e['default'])(_0x129259['cs']('255e4h4e254e565652254f4k4d575b4h59254h4b28'), _0x3c4501((0x0,
-                                                        _0x4f1bb5['default'])({}, _0x3ca80e, {
-                                                        'st': 0x1
-                                                    })), function (_0x5183b7) {
-                                                        var _0x1ecee1 = _0x5183b7['data'];
-                                                        return _0x1ecee1 && 'string' == typeof _0x1ecee1 ? _0x129259['chk'](_0x1ecee1) : '';
-                                                    }, function (_0x262e59) {
-                                                        return _0x317083('Error\x20in\x20fetchContent', _0x262e59),
-                                                            _0x262e59;
-                                                    }), (0x0,
-                                                        _0x4a522e['default'])(_0x129259['cs']('255e4h4e254e565652254f4k4d575b4h59254h4b29'), _0x3c4501(_0x3ca80e), function (_0x4e04f9) {
-                                                        var _0x4ee1b3 = _0x4e04f9['data'];
-                                                        return _0x4ee1b3 && 'string' == typeof _0x4ee1b3 ? _0x129259[_0x447a('0x2af')](_0x4ee1b3) : '';
-                                                    }, function (_0x1fe9c8) {
-                                                        return _0x317083('Error\x20in\x20fetchContent', _0x1fe9c8),
-                                                            _0x1fe9c8;
-                                                    })])['then'](function (_0x2a2d4d) {
-                                                        if ('string' == typeof _0x2a2d4d[0x0] && _0x2a2d4d[0x0]['length'] > 0x0 && 'string' == typeof _0x2a2d4d[0x1] && _0x2a2d4d[0x1]['length'] > 0x0 && _0x447a('0x2f1') == typeof _0x2a2d4d[0x3] && _0x2a2d4d[0x3]['length'] > 0x0) {
-                                                            var _0x32845a = _0x129259['dS'](_0x2a2d4d[0x2]);
-                                                            _0x178a19['inDevelopment'](),
-                                                                _0x32845a = _0x382d1d['parse'](_0x32845a, {
-                                                                    'removeFontSizes': !0x0,
-                                                                    'enableTranslate': _0x119cfa['isTranslationEnabled']
-                                                                });
-                                                            var _0x173913 = _0x2a2d4d[0x0] + _0x2a2d4d[0x1] + _0x2a2d4d[0x3];
-                                                            _0x173913 = _0x129259['dH'](_0x173913),
-                                                                _0x178a19[_0x447a('0x77')](),
-                                                            '...' === _0x173913 && (_0x173913 = _0x119cfa[_0x447a('0x3bf')]),
-                                                                _0x173913 = _0x32dccb['parse'](_0x173913, _0x32845a, _0x12a575[_0x447a('0x29e')]),
-                                                                _0x46f5d0(_0x48c454[_0x447a('0x175')], _0x173913),
-                                                                _0x46f5d0(_0x48c454['UPDATE_READER_CONTENT_STYLES'], _0x32845a);
-                                                            var _0x487b95 = _0x119cfa['getCurrentProgressSectionIdx'];
-                                                            _0x3ca80e && _0x3ca80e['prevChapter'] && (_0x487b95 = _0x173913['length'] - 0x1),
-                                                                _0x46f5d0(_0x48c454['UPDATE_READER_CURRENT_SECTION'], _0x487b95),
-                                                                _0x46f5d0(_0x48c454['UPDATE_READER_CONTENT_STATE'], _0x447a('0x256'));
-                                                            try {
-                                                                _0x17cbb(_0x46b089[_0x447a('0x496')]);
-                                                            } catch (_0x548788) {
-                                                                _0x178a19['inDevelopment']();
-                                                            }
-                                                        } else {
-                                                            var _0x21be5f = null;
-                                                            if ('object' === (0x0,
-                                                                _0x641fcd['default'])(_0x2a2d4d[0x0]) ? _0x21be5f = _0x2a2d4d[0x0] : 'object' === (0x0,
-                                                                _0x641fcd[_0x447a('0x3d')])(_0x2a2d4d[0x1]) ? _0x21be5f = _0x2a2d4d[0x1] : 'object' === (0x0,
-                                                                _0x641fcd['default'])(_0x2a2d4d[0x2]) ? _0x21be5f = _0x2a2d4d[0x2] : 'object' === (0x0,
-                                                                _0x641fcd['default'])(_0x2a2d4d[0x3]) && (_0x21be5f = _0x2a2d4d[0x3]),
-                                                                _0x21be5f) {
-                                                                var _0x1dc7f7 = _0x21be5f['errCode'];
-                                                                if (-0x7dc === _0x1dc7f7 || -0x7da === _0x1dc7f7)
-                                                                    return _0x2c2836[_0x447a('0x3d')]['reject']({
-                                                                        'isCustomError': !0x0,
-                                                                        'reason': 'forceReload'
-                                                                    });
-                                                                if (-0x7dd === _0x1dc7f7)
-                                                                    return _0x2c2836['default']['reject']({
-                                                                        'isCustomError': !0x0,
-                                                                        'reason': 'sessionTimeout'
-                                                                    });
-                                                                var _0x1cfa58 = '';
-                                                                try {
-                                                                    _0x1cfa58 = (0x0,
-                                                                        _0x104c56['default'])(_0x21be5f);
-                                                                } catch (_0x7f98bf) {
-                                                                }
-                                                                _0x4a2f92({
-                                                                    'code': _0x1dc7f7,
-                                                                    'message': _0x21be5f['errMsg'],
-                                                                    'comm1': _0x1cfa58
-                                                                });
-                                                            }
-                                                            _0x46f5d0(_0x48c454['UPDATE_READER_CONTENT_STATE'], _0x447a('0x338'));
-                                                        }
-                                                    }, function (_0x1cb35d) {
-                                                        _0x4a2f92({
-                                                            'code': _0x1cb35d['code'],
-                                                            'message': _0x1cb35d['message']
-                                                        }),
-                                                            _0x46f5d0(_0x48c454['UPDATE_READER_CONTENT_STATE'], 'ERROR'),
-                                                            _0x317083('Error\x20in\x20fetchContent', _0x1cb35d);
-                                                    }),
-                                                        _0x4d4882['next'] = 0x1b;
-                                                    break;
-                                                case 0x18:
-                                                    try {
-                                                        _0x17cbb(_0x46b089[_0x447a('0x183')]);
-                                                    } catch (_0x5ed24b) {
-                                                        _0x178a19[_0x447a('0x77')]();
-                                                    }
-                                                    _0x3ca80e['sc'] && (0x0,
-                                                        _0x4a522e['default'])(_0x129259['cs']('255e4h4e254e565652254f4k4d575b4h59255b4b26'), _0x3c4501(_0x3ca80e), function (_0x47a6c2) {
-                                                        var _0xcfec64 = _0x47a6c2[_0x447a('0x101')];
-                                                        return _0xcfec64 && 'string' == typeof _0xcfec64 ? _0x129259['chk'](_0xcfec64) : '';
-                                                    }, function (_0x4aef43) {
-                                                        return _0x317083('Error\x20in\x20fetchContent', _0x4aef43),
-                                                            _0x4aef43;
-                                                    }),
-                                                        _0x2347da = _0x2c2836['default']['all']([(0x0,
-                                                            _0x4a522e['default'])(_0x129259['cs']('255e4h4e254e565652254f4k4d575b4h59255b4b26'), _0x3c4501(_0x3ca80e), function (_0x324cd0) {
-                                                            var _0x390516 = _0x324cd0['data'];
-                                                            return _0x390516 && 'string' == typeof _0x390516 ? _0x129259['chk'](_0x390516) : '';
-                                                        }, function (_0x23b189) {
-                                                            return _0x317083('Error\x20in\x20fetchContent', _0x23b189),
-                                                                _0x23b189;
-                                                        }), (0x0,
-                                                            _0x4a522e['default'])(_0x129259['cs']('255e4h4e254e565652254f4k4d575b4h59255b4b27'), _0x3c4501(_0x3ca80e), function (_0x3559c1) {
-                                                            var _0x307da1 = _0x3559c1['data'];
-                                                            return _0x307da1 && 'string' == typeof _0x307da1 ? _0x129259['chk'](_0x307da1) : '';
-                                                        }, function (_0x25ec57) {
-                                                            return _0x317083('Error\x20in\x20fetchContent', _0x25ec57),
-                                                                _0x25ec57;
-                                                        })])['then'](function (_0x4bf3c1) {
-                                                            var _0x3993e4 = _0x4bf3c1[0x0]
-                                                                , _0x346726 = _0x4bf3c1[0x1];
-                                                            if ('string' == typeof _0x3993e4 && _0x3993e4['length'] > 0x0 && 'string' == typeof _0x346726 && _0x346726[_0x447a('0xa3')] > 0x0) {
-                                                                var _0x2fdb0d = _0x3993e4 + _0x346726;
-                                                                _0x2fdb0d = _0x129259['dT'](_0x2fdb0d);
-                                                                var _0x1002c9 = _0x32dccb['parseTxt'](_0x2fdb0d, _0x12a575['sectionStep']);
-                                                                _0x46f5d0(_0x48c454['UPDATE_READER_CONTENT_HTML'], _0x1002c9);
-                                                                var _0x2ab7b0 = _0x119cfa[_0x447a('0x2dd')];
-                                                                _0x3ca80e && _0x3ca80e['prevChapter'] && (_0x2ab7b0 = _0x1002c9['length'] - 0x1),
-                                                                    _0x46f5d0(_0x48c454['UPDATE_READER_CURRENT_SECTION'], _0x2ab7b0),
-                                                                    _0x46f5d0(_0x48c454[_0x447a('0x79')], _0x447a('0x256'));
-                                                                try {
-                                                                    _0x17cbb(_0x46b089['MARK_FETCH_END']);
-                                                                } catch (_0x511838) {
-                                                                    _0x178a19['inDevelopment']();
-                                                                }
-                                                            } else {
-                                                                var _0x6681a6 = null;
-                                                                if (_0x447a('0x10f') === (void 0x0 === _0x3993e4 ? _0x447a('0x8a') : (0x0,
-                                                                    _0x641fcd[_0x447a('0x3d')])(_0x3993e4)) ? _0x6681a6 = _0x3993e4 : 'object' === (void 0x0 === _0x346726 ? _0x447a('0x8a') : (0x0,
-                                                                    _0x641fcd['default'])(_0x346726)) && (_0x6681a6 = _0x346726),
-                                                                    _0x6681a6) {
-                                                                    var _0x429dac = _0x6681a6['errCode'];
-                                                                    if (-0x7dc === _0x429dac || -0x7da === _0x429dac)
-                                                                        return _0x2c2836['default'][_0x447a('0x3f0')]({
-                                                                            'isCustomError': !0x0,
-                                                                            'reason': _0x447a('0x4c8')
-                                                                        });
-                                                                    if (-0x7dd === _0x429dac)
-                                                                        return _0x2c2836[_0x447a('0x3d')]['reject']({
-                                                                            'isCustomError': !0x0,
-                                                                            'reason': 'sessionTimeout'
-                                                                        });
-                                                                    var _0xa509cf = '';
-                                                                    try {
-                                                                        _0xa509cf = (0x0,
-                                                                            _0x104c56['default'])(_0x6681a6);
-                                                                    } catch (_0x3c6d7a) {
-                                                                    }
-                                                                    _0x4a2f92({
-                                                                        'code': _0x429dac,
-                                                                        'message': _0x6681a6['errMsg'],
-                                                                        'comm1': _0xa509cf
-                                                                    });
-                                                                }
-                                                                _0x46f5d0(_0x48c454[_0x447a('0x79')], 'ERROR');
-                                                            }
-                                                        }, function (_0x3f8aab) {
-                                                            _0x4a2f92({
-                                                                'code': _0x3f8aab['code'],
-                                                                'message': _0x3f8aab['message']
-                                                            }),
-                                                                _0x46f5d0(_0x48c454[_0x447a('0x79')], _0x447a('0x338')),
-                                                                _0x317083(_0x447a('0x2ac'), _0x3f8aab);
-                                                        });
-                                                case 0x1b:
-                                                    return _0x2356fe = _0x119cfa['isNeedPay'],
-                                                        _0x322c8f = _0x300bed['default']['isMemberShipValid'](_0x12a575['memberCardSummary']),
-                                                        _0x22624a = _0x300bed['default']['canBookFreeReading']({
-                                                            'bookInfo': _0x12a575['bookInfo'],
-                                                            'memberCardSummary': _0x12a575['memberCardSummary']
-                                                        }),
-                                                        _0x4d4882[_0x447a('0x2b6')]('return', _0x2347da[_0x447a('0x19c')](function () {
-                                                            if (_0x46f5d0(_0x48c454['UPDATE_READER_CONTENT_IS_DIRTY'], !0x1),
-                                                            _0x2356fe && _0x322c8f && !_0x22624a)
-                                                                return _0x17cbb(_0x46b089['FETCH_READER_MEMBER_CARD_SUMMARY'], {});
-                                                        }));
-                                                case 0x1f:
-                                                case 'end':
-                                                    return _0x4d4882['stop']();
-                                            }
-                                    }, _0x497f6e, this);
-                                })),
-                                    function (_0x35c763, _0x44cb99) {
-                                        return _0x4fe0de['apply'](this, arguments);
-                                    }
-                            )),
-                            (0x0,
-                                _0x24c4f0[_0x447a('0x3d')])(_0x34b828, _0x46b089['CHANGE_READER_CHAPTER'], function (_0x438b5f, _0x253d0d) {
-                                var _0x1f2dfa = _0x438b5f['dispatch']
-                                    , _0x39eee1 = _0x438b5f['commit']
-                                    , _0x190cef = _0x438b5f['state']
-                                    , _0x196149 = _0x438b5f[_0x447a('0x35c')]
-                                    , _0x112e47 = _0x253d0d['chapterUid']
-                                    , _0x445d2a = _0x253d0d['sectionId']
-                                    , _0x31d8e3 = _0x253d0d['pushStack'];
-                                _0x253d0d[_0x447a('0x163')];
-                                if (!_0x190cef)
-                                    return _0x2c2836['default']['reject']({
-                                        'isCustomError': !0x0,
-                                        'reason': 'stateIsNull'
-                                    });
-                                if (_0x447a('0x240') === _0x190cef[_0x447a('0x18e')] || 'PRERENDER' === _0x190cef['chapterContentState'])
-                                    return _0x2c2836['default']['reject']({
-                                        'isCustomError': !0x0,
-                                        'reason': _0x190cef['chapterContentState']
-                                    });
-                                if (_0x9fa9fd['get'](_0x190cef['currentChapter'], 'chapterUid', 0x0) === _0x112e47)
-                                    return _0x2c2836['default']['reject']({
-                                        'isCustomError': !0x0,
-                                        'reason': 'currentChapter'
-                                    });
-                                var _0x46d08b = void 0x0
-                                    , _0xc93134 = _0x196149['getChapterWithIdxOffset'](0x1);
-                                if (_0xc93134 && _0xc93134['chapterUid'] === _0x112e47 && (_0x46d08b = _0xc93134),
-                                _0x46d08b || (_0x46d08b = _0x196149['getChapterWithChapterUid'](_0x112e47)),
-                                    !_0x46d08b)
-                                    return _0x2c2836['default']['reject']({
-                                        'isCustomError': !0x0,
-                                        'reason': _0x447a('0x12e')
-                                    });
-                                if (_0x46d08b) {
-                                    var _0x3e805c = _0x190cef['currentChapter'];
-                                    _0x39eee1(_0x48c454['UPDATE_READER_CURRENT_CHAPTER'], _0x46d08b),
-                                        _0x39eee1(_0x48c454['UPDATE_READER_CONTENT_IS_DIRTY'], !0x0),
-                                    window && !_0x31d8e3 && null == _0x445d2a && window['history']['pushState']({
-                                        'prev': _0x3e805c,
-                                        'curr': _0x46d08b
-                                    }, null, _0x495bc0['readerURL'](_0x190cef['bookId'], {
-                                        'chapterUid': _0x112e47
-                                    }));
-                                    var _0x2fa0ce = _0x3723b6['default']['isChapterNeedPay']({
-                                        'bookInfo': _0x190cef[_0x447a('0x32c')],
-                                        'memberCardSummary': _0x190cef['memberCardSummary'],
-                                        'chapter': _0x46d08b
-                                    });
-                                    return _0x1f2dfa(_0x46b089[_0x447a('0x480')], {
-                                        'prevChapter': -0x1 === _0x445d2a
-                                    })['then'](function () {
-                                        if (_0x2fa0ce)
-                                            return _0x1f2dfa(_0x46b089['FETCH_READER_MEMBER_CARD_SUMMARY']);
-                                    });
-                                }
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x34b828, _0x46b089['CHANGE_READER_SECTION'], function (_0x2e1b1b, _0x479270) {
-                                _0x2e1b1b['dispatch'];
-                                var _0x4bcc4c = _0x2e1b1b['commit']
-                                    , _0x28633b = _0x2e1b1b['state']
-                                    , _0x3e4266 = _0x2e1b1b[_0x447a('0x35c')]
-                                    , _0x2e9f37 = _0x479270['sectionIdx'];
-                                if (_0x28633b && (_0x447a('0x240') === _0x28633b['chapterContentState'] || _0x447a('0x256') === _0x28633b['chapterContentState']))
-                                    return _0x2c2836['default']['reject']({
-                                        'isCustomError': !0x0,
-                                        'reason': _0x28633b['chapterContentState']
-                                    });
-                                if (_0x3e4266['getCurrentSectionIdx'] === _0x2e9f37)
-                                    return _0x2c2836['default']['reject']({
-                                        'isCustomError': !0x0,
-                                        'reason': 'currentSection'
-                                    });
-                                var _0x5a72ff = void 0x0
-                                    , _0x86bfd4 = _0x3e4266[_0x447a('0xff')] + 0x1
-                                    , _0x4c3897 = _0x3e4266['getSectionWithIdx'](_0x86bfd4);
-                                if (_0x4c3897 && _0x86bfd4 === _0x2e9f37 && (_0x5a72ff = _0x4c3897),
-                                _0x5a72ff || (_0x5a72ff = _0x3e4266['getSectionWithIdx'](_0x2e9f37)),
-                                    !_0x5a72ff)
-                                    return _0x2c2836['default']['reject']({
-                                        'isCustomError': !0x0,
-                                        'reason': _0x447a('0x1')
-                                    });
-                                _0x5a72ff && (_0x4bcc4c(_0x48c454['UPDATE_READER_CURRENT_SECTION'], _0x2e9f37),
-                                    _0x4bcc4c(_0x48c454[_0x447a('0x79')], 'PRERENDER'));
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x34b828, _0x46b089[_0x447a('0x340')], function (_0x4a7388) {
-                                var _0x4a959f = _0x4a7388['dispatch']
-                                    , _0x57a452 = _0x4a7388['commit']
-                                    , _0x1ec618 = _0x4a7388['state']
-                                    , _0x3ce117 = _0x4a7388['getters'];
-                                if (_0x1ec618[_0x447a('0x2d4')]) {
-                                    _0x57a452(_0x48c454['UPDATE_READER_CONTENT_IS_DIRTY'], !0x0);
-                                    var _0x43fed5 = _0x1ec618['currentChapter']['chapterUid']
-                                        , _0x3ba8e0 = _0x3ce117['getChapterWithChapterUid'](_0x43fed5);
-                                    return _0x57a452(_0x48c454[_0x447a('0x380')], _0x3ba8e0),
-                                        _0x4a959f(_0x46b089['FETCH_READER_CHAPTER_CONTENT']);
-                                }
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x34b828, _0x46b089['FETCH_READER_SEARCH_AUTO'], function (_0x5ba021, _0x1ac76b) {
-                                var _0x1305bb = _0x5ba021['dispatch']
-                                    , _0x73a528 = _0x5ba021['commit']
-                                    , _0x9cfab9 = _0x1ac76b['keyword'];
-                                return _0x73a528(_0x48c454['UPDATE_READER_IS_SHOW_AUTO_SEARCH_HINT'], !0x0),
-                                    _0x73a528(_0x48c454['UPDATE_READER_IS_IN_SEARCH'], !0x0),
-                                    _0x1305bb(_0x46b089['FETCH_READER_SEARCH'], {
-                                        'keyword': _0x9cfab9,
-                                        'isOnlyCount': !0x0
-                                    });
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x34b828, _0x46b089['FETCH_READER_SEARCH'], function (_0x42cb6f, _0x49d85d) {
-                                var _0x31cdb7 = _0x42cb6f[_0x447a('0x1bc')]
-                                    , _0x394a56 = _0x42cb6f['state'];
-                                _0x49d85d['isLoadMore'] || (_0x31cdb7(_0x48c454['CLEAR_READER_SEARCH_RESULT']),
-                                    _0x31cdb7(_0x48c454['UPDATE_READER_SEARCH_RESULT_KEYWORD'], _0x49d85d['keyword'])),
-                                    _0x31cdb7(_0x48c454[_0x447a('0xdb')], !0x0);
-                                var _0x59bf9d = _0x9fa9fd['get'](_0x49d85d, 'isOnlyCount', !0x1);
-                                return (0x0,
-                                    _0x424400['default'])(_0x447a('0x2d'), {
-                                    'bookId': _0x394a56['bookId'],
-                                    'keyword': _0x49d85d['keyword'] || '',
-                                    'maxIdx': _0x49d85d['maxIdx'] || 0x0,
-                                    'count': 0xa,
-                                    'fragmentSize': _0x49d85d['fragmentSize'] || 0x96,
-                                    'onlyCount': _0x59bf9d ? 0x1 : 0x0
-                                }, function (_0x472a46) {
-                                    _0x31cdb7(_0x48c454['UPDATE_READER_SEARCH_LOADING'], !0x1);
-                                    var _0x439320 = _0x472a46['data']
-                                        , _0x4a09c9 = _0x9fa9fd['get'](_0x439320, 'result', [])
-                                        , _0x3aac7d = 0x1 === _0x9fa9fd['get'](_0x439320, 'hasMore', 0x0)
-                                        , _0x1e3d1f = _0x9fa9fd[_0x447a('0x299')](_0x439320, 'totalCount', 0x0);
-                                    _0x31cdb7(_0x48c454['UPDATE_READER_SEARCH_RESULT'], {
-                                        'resultList': _0x452853(_0x394a56[_0x447a('0x320')][_0x447a('0x59')], _0x4a09c9),
-                                        'isLoadMore': _0x49d85d['isLoadMore'],
-                                        'totalCount': _0x1e3d1f,
-                                        'hasMore': _0x3aac7d,
-                                        'isNeedAutoSearchWhenShow': _0x59bf9d
-                                    });
-                                }, function (_0x1ef3f9) {
-                                    _0x31cdb7(_0x48c454['UPDATE_READER_SEARCH_LOADING'], !0x1),
-                                        _0x317083('Error\x20in\x20readerSearch', _0x1ef3f9);
-                                });
-                            }),
-                            (0x0,
-                                _0x24c4f0[_0x447a('0x3d')])(_0x34b828, _0x46b089['FETCH_READER_GET_CONFIG'], function (_0x2854c5, _0x182d05) {
-                                var _0x495a3e = _0x2854c5['commit'];
-                                return (0x0,
-                                    _0x424400['default'])('/web/getConfig', (0x0,
-                                    _0x4f1bb5['default'])({}, _0x182d05), function (_0x4de8c8) {
-                                    var _0x2a2904 = _0x9fa9fd['get'](_0x4de8c8['data'], 'token', '');
-                                    _0x495a3e(_0x48c454[_0x447a('0xf8')], _0x2a2904);
-                                }, function (_0x2382b9) {
-                                    _0x317083('Error\x20in\x20getConfig', _0x2382b9);
-                                });
-                            }),
-                            (0x0,
-                                _0x24c4f0[_0x447a('0x3d')])(_0x34b828, _0x46b089['FETCH_READER_ENTER_BOOK_READ'], function (_0x42a1ac, _0x10ac25) {
-                                var _0x2b72c0 = _0x42a1ac['state']
-                                    , _0x81a3c0 = _0x42a1ac['commit']
-                                    , _0x2e4c59 = _0x42a1ac['getters']
-                                    , _0x1c61f7 = _0x10ac25['firstDomOffset']
-                                    , _0x5d8957 = _0x10ac25['firstDomSummaryText'];
-                                if (!_0x2b72c0['isBookInfoError']) {
-                                    var _0x4607c8 = _0x2b72c0['currentChapter']
-                                        , _0x363417 = {
-                                        'appId': _0x1f3a4f(navigator['userAgent']),
-                                        'b': _0xfd3a96['e'](_0x2b72c0['bookId']),
-                                        'c': _0xfd3a96['e'](_0x4607c8['chapterUid'] ? _0x4607c8['chapterUid'] : 0x0),
-                                        'ci': _0x4607c8['chapterIdx'] ? _0x4607c8['chapterIdx'] : 0x0,
-                                        'co': 0x0,
-                                        'sm': '',
-                                        'pr': 0x0,
-                                        'ct': parseInt(new Date()['getTime']() / 0x3e8),
-                                        'ps': _0x2b72c0['psvts'],
-                                        'pc': _0x2b72c0['pclts']
-                                    };
-                                    if (_0x2e4c59['isDynamicTypeBook'] && _0x2e4c59['isDynamicPDF'] && (_0x363417['dy'] = _0x2e4c59['isDynamicTypeBook'] ? 0x1 : 0x0,
-                                        _0x363417['fm'] = _0x2e4c59['actualTreatBookAs']),
-                                        _0x19f93b['default'][_0x447a('0x42e')](_0x2b72c0['bookInfo'])) {
-                                        var _0x27df52 = _0x2b72c0['progress'];
-                                        _0x9fa9fd['get'](_0x27df52, 'book.chapterUid', 0x0) === _0x4607c8['chapterUid'] ? (_0x363417['co'] = _0x9fa9fd[_0x447a('0x299')](_0x27df52, 'book.chapterOffset', _0x363417['co']),
-                                            _0x363417['sm'] = _0x9fa9fd['get'](_0x27df52, 'book.summary', _0x363417['sm'])) : (_0x363417['co'] = _0x1c61f7,
-                                            _0x363417['sm'] = _0x5d8957),
-                                            _0x363417['pr'] = _0x9fa9fd['get'](_0x27df52, 'book.progress', _0x363417['pr']);
-                                    }
-                                    return _0x363417['s'] = _0x545769(_0x64c065(_0x363417)),
-                                        _0x81a3c0(_0x48c454['UPDATE_READER_LOCAL_PROGRESS'], {
-                                            'appId': _0x363417['appId'],
-                                            'chapterUid': _0x4607c8[_0x447a('0x3a')],
-                                            'chapterOffset': _0x363417['co'],
-                                            'updateTime': parseInt(new Date()['getTime']() / 0x3e8),
-                                            'summary': _0x363417['sm'],
-                                            'progress': _0x363417['pr']
-                                        }),
-                                        _0x317083('enterBookRead', new Date(), 'params=' + (0x0,
-                                            _0x104c56['default'])(_0x363417)),
-                                        (0x0,
-                                            _0x4a522e['default'])('/web/book/read', _0x363417, function (_0x58f2ec) {
-                                            return _0x58f2ec;
-                                        }, function (_0x33be7d) {
-                                            _0x317083(_0x447a('0x225'), _0x33be7d);
-                                            var _0x199b51 = _0x9fa9fd['get'](_0x33be7d, 'errCode', 0x0);
-                                            return -0x7da === _0x199b51 || -0x7dc === _0x199b51 || -0x7dd === _0x199b51 ? {
-                                                'sessionTimeout': 0x1
-                                            } : _0x33be7d;
-                                        });
-                                }
-                                _0x317083(_0x447a('0x4b'), 'return\x20bcs\x20of\x20bookInfoError');
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x34b828, _0x46b089['FETCH_READER_BOOK_READ'], function (_0x1b94a3, _0x1134cd) {
-                                var _0x32b6e7 = _0x1b94a3['dispatch']
-                                    , _0x17241f = _0x1b94a3['commit']
-                                    , _0x575ebc = _0x1b94a3['state']
-                                    , _0x5944bd = _0x1b94a3['getters'];
-                                if (!_0x575ebc['isBookInfoError']) {
-                                    var _0x40c95f = _0x9fa9fd['get'](_0x1134cd, 'retryCount', 0x0)
-                                        , _0x5b4e87 = _0x575ebc[_0x447a('0x2d4')]
-                                        , _0x52d8d0 = _0x575ebc['token']
-                                        , _0x129231 = new Date()['getTime']()
-                                        , _0x47b622 = _0x575ebc[_0x447a('0x15f')]
-                                        ,
-                                        _0x48bb93 = 0x0 === _0x47b622 ? 0x0 : Math['max'](0x0, parseInt((_0x129231 - _0x47b622) / 0x3e8))
-                                        , _0xc9ff5f = parseInt(0x3e8 * Math['random']())
-                                        , _0x247f3a = _0x482c11['c'](_0x490649);
-                                    if (_0x317083('Hidden\x20prototype\x20check\x20result:\x20' + _0x247f3a),
-                                        _0x247f3a) {
-                                        var _0x490cd5 = _0x1f8217['Base64']['encode'](_0x247f3a);
-                                        _0x23a0c6['default']['post']('https://oss.weread.qq.com/hera/chlog', {
-                                            'extra': _0x490cd5,
-                                            'itemname': 'stprec',
-                                            'vid': _0x1134cd['vid'] || 0x0
-                                        })['catch'](function () {
-                                        });
-                                    }
-                                    var _0x3c8050 = {
-                                        'appId': _0x1f3a4f(navigator[_0x447a('0x2dc')]),
-                                        'b': _0xfd3a96['e'](_0x575ebc['bookId']),
-                                        'c': _0xfd3a96['e'](_0x5b4e87['chapterUid'] ? _0x5b4e87[_0x447a('0x3a')] : 0x0),
-                                        'ci': _0x5b4e87['chapterIdx'] ? _0x5b4e87['chapterIdx'] : 0x0,
-                                        'co': _0x5b4e87['chapterOffset'] ? _0x5b4e87['chapterOffset'] : 0x0,
-                                        'sm': '',
-                                        'pr': 0x0,
-                                        'rt': _0x48bb93,
-                                        'ts': _0x129231,
-                                        'rn': _0xc9ff5f,
-                                        'sg': (0x0,
-                                            _0x8e5106[_0x447a('0x11c')])('' + _0x129231 + _0xc9ff5f + _0x52d8d0),
-                                        'ct': parseInt(new Date()['getTime']() / 0x3e8),
-                                        'ps': _0x575ebc['psvts'],
-                                        'pc': _0x575ebc['pclts']
-                                    };
-                                    if (_0x5944bd[_0x447a('0x25d')] && _0x5944bd['isDynamicPDF'] && (_0x3c8050['dy'] = _0x5944bd['isDynamicTypeBook'] ? 0x1 : 0x0,
-                                        _0x3c8050['fm'] = _0x5944bd['actualTreatBookAs']),
-                                        _0x19f93b['default']['isSupportReaderProgress'](_0x575ebc['bookInfo'])) {
-                                        var _0x389710 = _0x9fa9fd[_0x447a('0x299')](_0x1134cd, _0x447a('0x118'), null);
-                                        null !== _0x389710 && _0x447a('0x10f') === (void 0x0 === _0x389710 ? 'undefined' : (0x0,
-                                            _0x641fcd['default'])(_0x389710)) && (_0x17241f(_0x48c454['UPDATE_READER_LAST_PROGRESS_PAYLOAD'], _0x389710),
-                                            _0x3c8050['co'] = _0x389710[_0x447a('0x2a4')],
-                                            _0x3c8050['sm'] = _0x389710['content']['substr'](0x0, 0x14) + (_0x247f3a ? '​' : ''),
-                                            _0x3c8050['pr'] = _0x389710['progress']);
-                                    }
-                                    return _0x3c8050['s'] = _0x545769(_0x64c065(_0x3c8050)),
-                                        _0x17241f(_0x48c454['UPDATE_READER_LOCAL_PROGRESS'], {
-                                            'appId': _0x3c8050['appId'],
-                                            'chapterUid': _0x5b4e87[_0x447a('0x3a')],
-                                            'chapterOffset': _0x3c8050['co'],
-                                            'updateTime': parseInt(_0x129231 / 0x3e8),
-                                            'summary': _0x3c8050['sm'],
-                                            'progress': _0x3c8050['pr']
-                                        }),
-                                        _0x317083('reportTime', 'reportTime\x20at', new Date(), 'duration=' + _0x48bb93 + 's', 'params=' + (0x0,
-                                            _0x104c56['default'])(_0x3c8050)),
-                                        _0x575ebc['sameProgressPayloadCount'] > 0x4 ? (_0x317083('ignore\x20this\x20report,\x20sameProgressPayloadCount=' + _0x575ebc['sameProgressPayloadCount']),
-                                            _0x2c2836[_0x447a('0x3d')]['resolve']({})) : (0x0,
-                                            _0x4a522e[_0x447a('0x3d')])('/web/book/read', _0x3c8050, function (_0x210a26) {
-                                            return _0x17241f(_0x48c454['UPDATE_READER_START_READING_TIME']),
-                                                _0x210a26['data'];
-                                        }, function (_0x45d0c5) {
-                                            _0x317083('Error\x20in\x20bookRead', _0x45d0c5);
-                                            var _0x2e6509 = _0x9fa9fd['get'](_0x45d0c5, 'errCode', 0x0);
-                                            return -0x7da === _0x2e6509 || -0x7dc === _0x2e6509 || -0x7dd === _0x2e6509 ? {
-                                                'sessionTimeout': 0x1
-                                            } : _0x40c95f > 0x0 && -0x806 === _0x2e6509 ? _0x32b6e7(_0x46b089[_0x447a('0x5e')])['then'](function () {
-                                                return _0x32b6e7(_0x46b089['FETCH_READER_BOOK_READ'], (0x0,
-                                                    _0x4b8e62['default'])(_0x1134cd, {
-                                                    'retryCount': _0x40c95f - 0x1
-                                                }));
-                                            }) : _0x45d0c5;
-                                        });
-                                }
-                                _0x317083('bookRead', _0x447a('0x25'));
-                            }),
-                            (0x0,
-                                _0x24c4f0[_0x447a('0x3d')])(_0x34b828, _0x46b089['FETCH_READER_SERIAL_RESTRICTION'], function (_0x1be10d, _0x2222d7) {
-                                var _0x45e361 = _0x1be10d['state']
-                                    , _0x23caa5 = _0x2222d7['vid']
-                                    , _0x3612f4 = _0x45e361['bookId'] || 0x0
-                                    , _0xbd3c52 = _0x9fa9fd[_0x447a('0x299')](_0x45e361, _0x447a('0xbd'), 0x0);
-                                if (!_0x3612f4 || !_0xbd3c52 || !_0x23caa5)
-                                    return 0x0;
-                                var _0x550bcd = _0x15114e[_0x447a('0x3d')]['getReaderSerialRestrictionsOperator'](_0x23caa5)['get'](_0x3612f4, _0xbd3c52);
-                                return _0x317083('FETCH_READER_SERIAL_RESTRICTION', _0x447a('0x2e9') + _0x23caa5 + ',\x20bookId=' + _0x3612f4 + ',\x20chapterIdx=' + _0xbd3c52 + ',\x20copyTimes=' + _0x550bcd),
-                                    {
-                                        'copyTimes': _0x550bcd
-                                    };
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x34b828, _0x46b089['STORE_READER_SERIAL_RESTRICTION'], function (_0x69c69, _0x2654b0) {
-                                var _0x5f245c = _0x69c69[_0x447a('0xe9')]
-                                    , _0xff2b36 = _0x2654b0[_0x447a('0x359')]
-                                    , _0x2131a3 = _0x5f245c['bookId'] || 0x0
-                                    , _0x242316 = _0x9fa9fd['get'](_0x5f245c, _0x447a('0xbd'), 0x0);
-                                if (!_0x2131a3 || !_0x242316 || !_0xff2b36)
-                                    return _0x317083('[chinozhou\x20log]\x20updateReaderSerialRestriction,\x20bookId=' + _0x2131a3 + _0x447a('0x158') + _0x242316 + ',\x20vid=' + _0xff2b36 + ',\x20skiped\x20because\x20of\x20missing\x20params'),
-                                        !0x1;
-                                var _0x2e4b41 = _0x15114e['default']['getReaderSerialRestrictionsOperator'](_0xff2b36)
-                                    , _0x4e982f = _0x2e4b41['get'](_0x2131a3, _0x242316);
-                                return _0x2e4b41['set'](_0x2131a3, _0x242316, _0x4e982f + 0x1),
-                                    _0x2e4b41[_0x447a('0x50')](),
-                                    !0x0;
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x34b828, _0x46b089[_0x447a('0xbb')], function (_0x31692f) {
-                                (0x0,
-                                    _0x31692f['commit'])(_0x48c454['UPDATE_READER_PAUSE_TIME']),
-                                    _0x317083(_0x447a('0x471'), new Date());
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x34b828, _0x46b089['READER_MARK_ACTIVE'], function (_0x26becd) {
-                                var _0x203ef0 = _0x26becd['commit']
-                                    , _0xaa1e64 = _0x26becd['state'];
-                                _0x203ef0(_0x48c454['UPDATE_READER_ACTIVE_TIME']);
-                                var _0x3c24cd = 0x0;
-                                _0xaa1e64[_0x447a('0x387')] > _0xaa1e64['pauseTime'] && _0xaa1e64['pauseTime'] > 0x0 && _0xaa1e64['startReadingTime'] > 0x0 && (_0x3c24cd = _0xaa1e64['activeTime'] - _0xaa1e64['pauseTime'],
-                                    _0x203ef0(_0x48c454['UPDATE_READER_START_READING_TIME'], _0xaa1e64['startReadingTime'] + _0x3c24cd));
-                                var _0x2d3300 = new Date()['getTime']() - _0xaa1e64[_0x447a('0x15f')] > 0x7530;
-                                return _0x317083(_0x447a('0x87'), new Date(_0xaa1e64[_0x447a('0x387')]), _0x447a('0x34a') + parseInt(_0x3c24cd / 0x3e8) + 's', _0x447a('0x28c') + _0x2d3300),
-                                    _0x2d3300;
-                            }),
-                            (0x0,
-                                _0x24c4f0[_0x447a('0x3d')])(_0x34b828, _0x46b089[_0x447a('0x490')], function (_0x5514a9) {
-                                var _0x363ab1 = _0x5514a9['state'];
-                                if (_0x363ab1['bookId'] && _0x363ab1['bookInfo'] && 0x0 !== _0x363ab1[_0x447a('0x485')][_0x447a('0xa3')] && _0x363ab1['isInShelf'] && _0x19f93b['default']['isBuyUnitChapter'](_0x363ab1[_0x447a('0x32c')])) {
-                                    var _0x5ccce5 = _0x363ab1['bookId']
-                                        , _0x1cd775 = _0x363ab1['chapterInfos'];
-                                    if (_0x5ccce5 && _0x1cd775['length'] > 0x0) {
-                                        var _0x308f39 = _0x15114e['default']['getBookLastChaptersOperator'](_0x9fa9fd['get'](this[_0x447a('0x155')], _0x447a('0x359')))
-                                            ,
-                                            _0x3d4846 = _0x9fa9fd['get'](_0x1cd775[_0x1cd775[_0x447a('0xa3')] - 0x1], 'chapterIdx', 0x0);
-                                        _0x308f39['set'](_0x5ccce5, _0x3d4846),
-                                            _0x308f39['save']();
-                                    }
-                                }
-                            }),
-                            (0x0,
-                                _0x24c4f0[_0x447a('0x3d')])(_0x34b828, _0x46b089[_0x447a('0x46a')], function (_0x32cf62) {
-                                var _0x5b763f = _0x32cf62['commit']
-                                    , _0xf5b5d0 = (0x0,
-                                    _0x4a522e['default'])(_0x447a('0x46c'), {
-                                    'pf': _0x447a('0x494')
-                                })
-                                    , _0x2d5bbc = (0x0,
-                                    _0x4a522e['default'])('/web/pay/balance', {
-                                    'pf': 'android_html'
-                                });
-                                _0x2c2836['default']['all']([_0xf5b5d0, _0x2d5bbc])[_0x447a('0x19c')](function (_0x5e37ae) {
-                                    var _0x5636bf = _0x5e37ae[0x0][_0x447a('0x101')]
-                                        , _0x4ca6a8 = _0x5e37ae[0x1]['data'];
-                                    return _0x5b763f(_0x48c454['UPDATE_READER_BALANCE'], {
-                                        'ios': _0x5636bf,
-                                        'android': _0x4ca6a8
-                                    }),
-                                        _0x5e37ae;
-                                })[_0x447a('0x4b1')](function (_0x57f44c) {
-                                    return _0x317083('Error\x20in\x20fetchReaderBalance', _0x57f44c),
-                                        _0x57f44c;
-                                });
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x34b828, _0x46b089['FETCH_READER_BUY_BOOK'], function (_0x24a264, _0x181b1b) {
-                                var _0x2b076c = _0x24a264[_0x447a('0xe9')]
-                                    , _0x44a60d = _0x181b1b['pf']
-                                    , _0x1efae1 = _0x181b1b['price']
-                                    , _0x9d5a5d = _0x181b1b['isMCard']
-                                    , _0x5af6d3 = {
-                                    'b': _0xfd3a96['e'](_0x2b076c['bookId']),
-                                    'pt': _0x2b076c['bookInfo']['payType'],
-                                    'pf': _0x44a60d,
-                                    'pr': _0x1efae1,
-                                    'mm': _0x9d5a5d ? 0x1 : 0x0,
-                                    'ct': parseInt(new Date()[_0x447a('0x132')]() / 0x3e8),
-                                    'ps': _0x2b076c['psvts'],
-                                    'pc': _0x2b076c['pclts']
-                                };
-                                return _0x5af6d3['s'] = _0x545769(_0x64c065(_0x5af6d3)),
-                                    (0x0,
-                                        _0x4a522e['default'])(_0x447a('0x391'), _0x5af6d3, function (_0x341061) {
-                                        return _0x341061['data'];
-                                    }, function (_0x3f7c9c) {
-                                        return _0x317083('Error\x20in\x20fetchReaderBuyBook', _0x3f7c9c),
-                                            _0x3f7c9c;
-                                    });
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x34b828, _0x46b089['FETCH_READER_BUY_CHAPTERS'], function (_0x3d7786, _0x191f30) {
-                                var _0x2c35b4 = _0x3d7786['state']
-                                    , _0x4a83fc = _0x191f30['pf']
-                                    , _0x1ab35a = _0x191f30['chapterIds']
-                                    , _0x270cbc = _0x191f30['totalPrice']
-                                    , _0x224afe = _0x191f30['isMCard']
-                                    , _0x441195 = _0x191f30[_0x447a('0x498')]
-                                    , _0x585afb = {
-                                    'b': _0xfd3a96['e'](_0x2c35b4[_0x447a('0x1b2')]),
-                                    'pt': _0x2c35b4['bookInfo']['payType'],
-                                    'pf': _0x4a83fc,
-                                    'ci': _0x1ab35a,
-                                    'tp': _0x270cbc,
-                                    'mm': _0x224afe ? 0x1 : 0x0,
-                                    'ap': _0x441195 ? '1' : '0',
-                                    'ct': parseInt(new Date()[_0x447a('0x132')]() / 0x3e8),
-                                    'ps': _0x2c35b4['psvts'],
-                                    'pc': _0x2c35b4['pclts']
-                                };
-                                return _0x585afb['s'] = _0x545769(_0x64c065(_0x585afb)),
-                                    (0x0,
-                                        _0x4a522e['default'])(_0x447a('0x276'), _0x585afb, function (_0x13422a) {
-                                        return _0x13422a['data'];
-                                    }, function (_0x41105c) {
-                                        return _0x317083('Error\x20in\x20fetchReaderBuyChapters', _0x41105c),
-                                            _0x41105c;
-                                    });
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x34b828, _0x46b089[_0x447a('0xeb')], function (_0x241470, _0x4ccecc) {
-                                var _0xa79ebc = _0x241470[_0x447a('0xe9')]
-                                    , _0x19edb5 = _0x4ccecc['pf']
-                                    , _0x2f9fd8 = _0x4ccecc[_0x447a('0x1c0')]
-                                    , _0x129b41 = _0x4ccecc[_0x447a('0x18d')]
-                                    , _0x23afac = _0x4ccecc['bookPrice']
-                                    , _0x36957d = _0x4ccecc[_0x447a('0x1f')]
-                                    , _0x5c28f6 = _0x4ccecc['debug']
-                                    , _0x4a9f36 = {
-                                    'b': _0xfd3a96['e'](_0xa79ebc['bookId']),
-                                    'pt': _0xa79ebc['bookInfo']['payType'],
-                                    'pf': _0x19edb5 + '_html',
-                                    'gm': _0x2f9fd8,
-                                    'mm': _0x129b41,
-                                    'bp': _0x23afac,
-                                    'nm': _0x5c28f6 || _0x36957d,
-                                    't': Boolean(_0x5c28f6),
-                                    'ct': parseInt(new Date()['getTime']() / 0x3e8),
-                                    'ps': _0xa79ebc['psvts'],
-                                    'pc': _0xa79ebc['pclts']
-                                };
-                                return _0x4a9f36['s'] = _0x545769(_0x64c065(_0x4a9f36)),
-                                    (0x0,
-                                        _0x4a522e['default'])('/web/pay/directPayBook/create', _0x4a9f36, function (_0x357b83) {
-                                        return _0x357b83[_0x447a('0x101')];
-                                    }, function (_0x27c11d) {
-                                        return _0x317083('Error\x20in\x20createDirectPayOrder', _0x27c11d),
-                                            _0x27c11d;
-                                    });
-                            }),
-                            (0x0,
-                                _0x24c4f0[_0x447a('0x3d')])(_0x34b828, _0x46b089[_0x447a('0x89')], function (_0x3085cc, _0x5a7186) {
-                                _0x3085cc[_0x447a('0xe9')];
-                                var _0x476124 = _0x5a7186['orderId'];
-                                return (0x0,
-                                    _0x424400[_0x447a('0x3d')])('/web/pay/directPayBook/query', {
-                                    'orderId': _0x476124
-                                }, function (_0x351604) {
-                                    return _0x351604[_0x447a('0x101')];
-                                }, function (_0x1c5b71) {
-                                    return _0x317083(_0x447a('0x294'), _0x1c5b71),
-                                        _0x1c5b71;
-                                });
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x34b828, _0x46b089['FETCH_ENCOURAGE_MONEY'], function (_0xbc2240, _0x5714ac) {
-                                (0x0,
-                                    _0x40eeac['default'])(_0xbc2240);
-                                var _0x406b3c = _0x5714ac['packetId'] || '';
-                                return (0x0,
-                                    _0x424400[_0x447a('0x3d')])('/web/pay/memberCardCouponPacket', {
-                                    'packetId': _0x406b3c
-                                }, function () {
-                                }, function () {
-                                });
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x34b828, _0x46b089['FETCH_INVITE_CODE'], function (_0x314f55, _0x385cbd) {
-                                var _0x28974b = _0x385cbd['inviteCode'];
-                                return (0x0,
-                                    _0x40eeac['default'])(_0x314f55),
-                                    (0x0,
-                                        _0x424400['default'])('/web/reader/invitecode', {
-                                        'cmd': 'clicode',
-                                        'inviteCode': _0x28974b
-                                    }, function () {
-                                    }, function () {
-                                    });
-                            }),
-                            (0x0,
-                                _0x24c4f0[_0x447a('0x3d')])(_0x34b828, _0x46b089['FETCH_DICT_QUERY'], function (_0x2e1e43, _0x3b8439) {
-                                return (0x0,
-                                    _0x424400['default'])('/web/dict/query', _0x3b8439)['then'](function (_0x22cd21) {
-                                    return _0x22cd21[_0x447a('0x101')];
-                                })['catch'](function () {
-                                    return {
-                                        'succ': 0x0
-                                    };
-                                });
-                            }),
-                            (0x0,
-                                _0x24c4f0[_0x447a('0x3d')])(_0x34b828, _0x46b089[_0x447a('0x43')], function (_0x46b00d, _0x5b4b82) {
-                                var _0x4795c9 = this;
-                                return (0x0,
-                                    _0x40eeac['default'])(_0x46b00d),
-                                    (0x0,
-                                        _0x4a522e['default'])(_0x447a('0x136'), _0x5b4b82)['then'](function (_0x56eb45) {
-                                        return _0x4795c9['logInfo']('FETCH_SHARE_ONE_GET_ONE_2\x20res\x20=', _0x56eb45),
-                                            _0x56eb45;
-                                    })['catch'](function (_0x36ac15) {
-                                        return _0x4795c9['logInfo']('FETCH_SHARE_ONE_GET_ONE_2\x20err\x20=', _0x36ac15),
-                                            _0x36ac15;
-                                    });
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x34b828, _0x46b089[_0x447a('0xf1')], function (_0x2a5d0b, _0x426568) {
-                                return (0x0,
-                                    _0x40eeac['default'])(_0x2a5d0b),
-                                    (0x0,
-                                        _0x4a522e['default'])('/web/flipcard', _0x426568)['then'](function (_0x53812b) {
-                                        _0x53812b && _0x53812b['data'] && _0x53812b[_0x447a('0x101')]['succ'],
-                                        _0x53812b && _0x53812b[_0x447a('0x101')] && _0x53812b['data']['errCode'];
-                                    })['catch'](function (_0x4a399a) {
-                                    });
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x34b828, _0x46b089['UPDATE_TOP_STORIES_STATUS'], function (_0x166f7d, _0x29c029) {
-                                var _0x471a51 = _0x166f7d['state']
-                                    , _0x39fbd8 = _0x166f7d['commit'];
-                                (0x0,
-                                    _0x4a522e['default'])(_0x447a('0x426'), {
-                                    'status': !_0x471a51[_0x447a('0x127')][_0x447a('0x3aa')],
-                                    'bookId': _0x471a51[_0x447a('0x1b2')]
-                                })['then'](function (_0x5d2f25) {
-                                    0x1 === _0x5d2f25['data']['succ'] && (_0x39fbd8(_0x48c454['UPDATE_TOP_STORIES_STATUS'], {
-                                        'like': !_0x471a51['topStories']['checked'],
-                                        'showBubble': !_0x471a51[_0x447a('0x127')][_0x447a('0x3aa')]
-                                    }),
-                                        _0x39fbd8(_0x48c454['UPDATE_TOP_STORIES_AMOUNT'], _0x471a51['topStories']['checked'] ? _0x471a51[_0x447a('0x127')]['amount'] + 0x1 : _0x471a51['topStories'][_0x447a('0x12')] - 0x1),
-                                        _0x4f8d1f[_0x447a('0x3d')](_0x29c029));
-                                });
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x34b828, _0x46b089['FETCH_TOP_STORIES'], function (_0x5edb9a, _0x162d74) {
-                                var _0x487ace = _0x5edb9a[_0x447a('0xe9')]
-                                    , _0x2ac763 = _0x5edb9a[_0x447a('0x1bc')];
-                                return (0x0,
-                                    _0x424400[_0x447a('0x3d')])('/web/book/wxlook?bookId=' + _0x487ace['bookId'])['then'](function (_0x2722c1) {
-                                    _0x2722c1 && _0x2722c1['data'] && (_0x2ac763(_0x48c454['UPDATE_TOP_STORIES_AMOUNT'], _0x2722c1[_0x447a('0x101')]['readingCount']),
-                                        _0x2ac763(_0x48c454['UPDATE_TOP_STORIES_STATUS'], {
-                                            'like': _0x2722c1['data']['colike'],
-                                            'showBubble': _0x162d74
-                                        }));
-                                })['catch'](function (_0x36db3b) {
-                                });
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x34b828, _0x46b089['WRITE_TOP_STORIES_THOUGHTS'], function (_0x2c0326, _0x5dd632) {
-                                var _0x2aa4c8 = _0x2c0326['state']
-                                    , _0x32c245 = _0x2c0326['commit'];
-                                (0x0,
-                                    _0x4a522e[_0x447a('0x3d')])('/web/book/writeThoughts', {
-                                    'bookId': _0x2aa4c8['bookId'],
-                                    'comment': _0x5dd632
-                                })['then'](function (_0x2985a8) {
-                                    _0x32c245(_0x48c454['UPDATE_TOP_STORIES_STATUS'], {
-                                        'like': _0x2aa4c8[_0x447a('0x127')][_0x447a('0x3aa')],
-                                        'showBubble': !0x1
-                                    });
-                                });
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x34b828, _0x46b089['SWITCH_DYNAMIC_BOOK_FORMAT'], function (_0x338611, _0x228509) {
-                                var _0x38c46e = _0x338611['state']
-                                    , _0x404f22 = _0x338611['getters']
-                                    , _0x94a4f9 = (_0x338611[_0x447a('0x1bc')],
-                                    _0x228509['progressData'])
-                                    , _0x54d211 = (_0x228509['vid'],
-                                    'pdf' === _0x404f22['actualTreatBookAs'] ? 'epub' : 'pdf')
-                                    , _0xc3cb21 = _0x9fa9fd['get'](_0x38c46e, 'currentChapter.chapterUid')
-                                    , _0x470f77 = _0x9fa9fd['get'](_0x94a4f9, 'offset', 0x0)
-                                    , _0x249d4c = {
-                                    'cbid': _0x38c46e['bookId'],
-                                    'transFormat': _0x54d211,
-                                    'uid': _0xc3cb21,
-                                    'offset': _0x470f77
-                                };
-                                return new _0x2c2836['default'](function (_0x4a0fa6, _0x56996d) {
-                                        (0x0,
-                                            _0x424400['default'])(_0x447a('0x6'), _0x249d4c, function (_0x2a8d41) {
-                                            return _0x4a0fa6(_0x2a8d41);
-                                        }, function (_0x8b0cb2) {
-                                            return _0x56996d(_0x8b0cb2);
-                                        });
-                                    }
-                                );
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x34b828, _0x46b089[_0x447a('0x25b')], function (_0xadd89f) {
-                                var _0x521b2c = _0xadd89f['state'];
-                                if (_0xadd89f['getters']['needReportTransformPdf']) {
-                                    var _0x2983d5 = _0x521b2c['bookId'];
-                                    return new _0x2c2836['default'](function (_0x33df93, _0x1a4abc) {
-                                            (0x0,
-                                                _0x424400['default'])('/web/pdf2epub/notify', {
-                                                'cbid': _0x2983d5
-                                            }, function (_0x4d3893) {
-                                                return _0x33df93(_0x4d3893);
-                                            }, function (_0x2acbe3) {
-                                                return _0x1a4abc(_0x2acbe3);
-                                            });
-                                        }
-                                    );
-                                }
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x34b828, _0x46b089['TOGGLE_TRANSLATION_STATUS'], function (_0xdb760b) {
-                                var _0x23848d = _0xdb760b[_0x447a('0xe9')]
-                                    , _0x14b74f = _0xdb760b['getters'];
-                                return new _0x2c2836[(_0x447a('0x3d'))](function (_0x565d7a, _0x586f9c) {
-                                        var _0x1448ff = _0x23848d['bookId'];
-                                        (0x0,
-                                            _0x4a522e['default'])(_0x447a('0x1b'), {
-                                            'bookId': _0x1448ff,
-                                            'enabled': !_0x14b74f['isTranslationEnabled']
-                                        }, function (_0x4e56fa) {
-                                            return _0x565d7a(_0x4e56fa);
-                                        }, function (_0x5889ac) {
-                                            return _0x586f9c(_0x5889ac);
-                                        });
-                                    }
-                                );
-                            }),
-                            (0x0,
-                                _0x24c4f0[_0x447a('0x3d')])(_0x34b828, _0x46b089['FETCH_DANGER_MODE'], function (_0x63c365, _0x52fc12) {
-                                _0x63c365['state'],
-                                    _0x63c365['commit'];
-                                var _0x4eda34 = _0x52fc12['vid'];
-                                return !!_0x4eda34 && !!_0x15114e[_0x447a('0x3d')]['getReaderDangerModeOperator'](_0x4eda34)['get']();
-                            }),
-                            (0x0,
-                                _0x24c4f0['default'])(_0x34b828, _0x46b089['ENTER_DANGER_MODE'], function (_0x260177, _0x40d64c) {
-                                _0x260177[_0x447a('0xe9')],
-                                    _0x260177['commit'];
-                                var _0x5c96cc = _0x40d64c['vid'];
-                                if (_0x5c96cc) {
-                                    var _0xa9e901 = _0x15114e[_0x447a('0x3d')]['getReaderDangerModeOperator'](_0x5c96cc);
-                                    return _0xa9e901['set']({
-                                        'value': window['btoa']('' + Math['random']())
-                                    }),
-                                        _0xa9e901['save'](),
-                                        !0x0;
-                                }
-                            }),
-                            _0x34b828)
+                        mutations: mutations,
+                        actions: actions,
                     };
-                    var _0x4fe0de;
-                }
-                ;
-                var _0x3e0f43 = _0x140bd4(_0x5402c0(0x312))
-                    , _0x1f8217 = _0x5402c0(0x42b)
-                    , _0x509b51 = _0x5402c0(0x403)
-                    , _0x8e5106 = _0x5402c0(0x471)
-                    , _0x424400 = _0x140bd4(_0x5402c0(0x62))
-                    , _0x4a522e = _0x140bd4(_0x5402c0(0x38))
-                    , _0x46b089 = _0x5ce721(_0x5402c0(0x37))
-                    , _0x48c454 = _0x5ce721(_0x5402c0(0x4b))
-                    , _0x272433 = _0x140bd4(_0x5402c0(0x4d))
-                    , _0x19f93b = _0x140bd4(_0x5402c0(0x118))
-                    , _0x3723b6 = _0x140bd4(_0x5402c0(0x305))
-                    , _0x300bed = _0x140bd4(_0x5402c0(0x2e3))
-                    , _0x15114e = _0x140bd4(_0x5402c0(0x64))
-                    , _0x23a0c6 = _0x140bd4(_0x5402c0(0xca));
-
-                function _0x5ce721(_0x1eacd4) {
-                    if (_0x1eacd4 && _0x1eacd4[_0x447a('0x1d9')])
-                        return _0x1eacd4;
-                    var _0x477efd = {};
-                    if (null != _0x1eacd4)
-                        for (var _0x2bfeeb in _0x1eacd4)
-                            Object['prototype']['hasOwnProperty'][_0x447a('0x46e')](_0x1eacd4, _0x2bfeeb) && (_0x477efd[_0x2bfeeb] = _0x1eacd4[_0x2bfeeb]);
-                    return _0x477efd[_0x447a('0x3d')] = _0x1eacd4,
-                        _0x477efd;
-                }
-
-                function _0x140bd4(_0x351cc0) {
-                    return _0x351cc0 && _0x351cc0['__esModule'] ? _0x351cc0 : {
-                        'default': _0x351cc0
-                    };
-                }
-
-                var _0x9fa9fd = _0x5402c0(0x21)
-                    , _0x482c11 = _0x5402c0(0x404)
-                    , _0x490649 = _0x5402c0(0x405)
-                    , _0x495bc0 = _0x5402c0(0x3a)
-                    , _0xfd3a96 = _0x5402c0(0x65)
-                    , _0x129259 = _0x5402c0(0x473)
-                    , _0x32dccb = _0x5402c0(0x474)
-                    , _0x382d1d = _0x5402c0(0x42d)
-                    , _0x178a19 = _0x5402c0(0x9)
-                    , _0x4f8d1f = _0x5402c0(0x47f);
-
-                function _0x317083() {
-                    _0x178a19[_0x447a('0x458')];
-                    var _0x39ee4b, _0xb3dbd9 = _0x178a19['inDevelopment']();
-                    _0xb3dbd9 && (_0x39ee4b = console)['log']['apply'](_0x39ee4b, ['[readerLog]']['concat'](Array['prototype']['slice']['call'](arguments)));
-                }
-
-                function _0x3a8483(_0x3597c1, _0x32919d) {
-                    if (!_0x3597c1 || !_0x32919d)
-                        return [];
-                    var _0x4abc40 = _0x32919d['map'](function (_0x4b0811) {
-                        var _0x59e873 = {
-                            'chapterUid': _0x4b0811['chapterUid'],
-                            'chapterIdx': _0x4b0811['chapterIdx'],
-                            'title': _0x272433['default']['replaceBlankToSpace'](_0x4b0811['title'])['trim'](),
-                            'paid': _0x4b0811['paid'] || 0x0,
-                            'price': _0x4b0811['price'] || 0x0,
-                            'level': _0x4b0811['level'] || 0x1,
-                            'updateTime': _0x4b0811[_0x447a('0xfb')],
-                            'wordCount': _0x4b0811['wordCount'] || 0x0,
-                            'anchors': _0x4b0811['anchors'] || []
-                        };
-                        return _0x59e873['anchors']['length'] > 0x0 && (_0x59e873['anchors'] = _0x59e873['anchors']['filter'](function (_0x5df4fa) {
-                            return _0x5df4fa['title'] !== _0x59e873['title'];
-                        })),
-                            _0x59e873;
-                    });
-                    return (_0x19f93b['default']['isBuyUnitWholeBook'](_0x3597c1) || _0x19f93b['default']['isEPub'](_0x3597c1)) && (_0x4abc40 = _0x4abc40['filter'](function (_0xfade0c) {
-                        return '封面' !== _0xfade0c['title'];
-                    })),
-                        _0x4abc40;
-                }
-
-                function _0x452853(_0x584a49, _0x33ea03) {
-                    if (0x0 === _0x33ea03['length'])
-                        return _0x33ea03;
-                    var _0x51c17e = []
-                        ,
-                        _0x25999a = (_0x584a49 = _0x584a49 || [])['length'] > 0x0 ? _0x584a49[_0x584a49['length'] - 0x1][_0x447a('0x3a')] : -0x1;
-                    return _0x33ea03[_0x447a('0x466')](function (_0x1dce21) {
-                        var _0x2bec16 = (0x0,
-                            _0x4f1bb5['default'])({}, _0x1dce21, {
-                            'firstInChapter': !0x1
-                        });
-                        _0x25999a !== _0x1dce21['chapterUid'] && (_0x25999a = _0x1dce21[_0x447a('0x3a')],
-                            _0x2bec16['firstInChapter'] = !0x0),
-                            _0x51c17e['push'](_0x2bec16);
-                    }),
-                        _0x51c17e;
-                }
-
-                function _0x545769(_0x1a075e) {
-                    for (var _0x2c3f70 = 0x15051505, _0x4b385f = _0x2c3f70, _0x44c530 = _0x1a075e['length'], _0x6e0ce4 = _0x44c530 - 0x1; _0x6e0ce4 > 0x0; _0x6e0ce4 -= 0x2)
-                        _0x2c3f70 = 0x7fffffff & (_0x2c3f70 ^ _0x1a075e['charCodeAt'](_0x6e0ce4) << (_0x44c530 - _0x6e0ce4) % 0x1e),
-                            _0x4b385f = 0x7fffffff & (_0x4b385f ^ _0x1a075e['charCodeAt'](_0x6e0ce4 - 0x1) << _0x6e0ce4 % 0x1e);
-                    return (_0x2c3f70 + _0x4b385f)['toString'](0x10)['toLowerCase']();
-                }
-
-                function _0x64c065(_0x3f9f94) {
-                    for (var _0x41fb7d = arguments[_0x447a('0xa3')] > 0x1 && void 0x0 !== arguments[0x1] ? arguments[0x1] : [], _0x2ec48e = '', _0x57d0a7 = 0x0 === _0x41fb7d['length'], _0x4c9add = (0x0,
-                        _0xa25f25['default'])(_0x3f9f94)['sort'](), _0xeffcfd = 0x0; _0xeffcfd < _0x4c9add['length']; _0xeffcfd++) {
-                        var _0x1059a3 = _0x4c9add[_0xeffcfd];
-                        if (_0x57d0a7 || -0x1 !== _0x41fb7d['indexOf'](_0x1059a3)) {
-                            var _0x1cfb8d = _0x3f9f94[_0x1059a3];
-                            _0x2ec48e += _0x1059a3 + '=' + encodeURIComponent(_0x1cfb8d),
-                                _0x2ec48e += '&';
-                        }
-                    }
-                    return _0x2ec48e['length'] > 0x0 && '&' === _0x2ec48e['charAt'](_0x2ec48e[_0x447a('0xa3')] - 0x1) && (_0x2ec48e = _0x2ec48e['slice'](0x0, _0x2ec48e['length'] - 0x1)),
-                        _0x2ec48e;
-                }
-
-                function _0x1f3a4f(_0x16cae4) {
-                    for (var _0x6cced2 = '', _0x3c0420 = _0x16cae4[_0x447a('0x67')]('\x20'), _0x2b93f7 = 0x0, _0x245a63 = Math[_0x447a('0x192')](_0x3c0420[_0x447a('0xa3')], 0xc); _0x2b93f7 < _0x245a63; _0x2b93f7++)
-                        _0x6cced2 += _0x3c0420[_0x2b93f7]['length'] % 0xa;
-                    var _0x1b944a = function (_0x1a0b73) {
-                        for (var _0x17d55f = 0x0, _0x24d640 = 0x0, _0x40d1b1 = _0x1a0b73['length']; _0x24d640 < _0x40d1b1; _0x24d640++)
-                            _0x17d55f = 0x83 * _0x17d55f + _0x1a0b73['charCodeAt'](_0x24d640) & 0x7fffffff;
-                        return _0x17d55f;
-                    }(_0x16cae4);
-                    return _0x1b944a['length'] > 0x10 && (_0x1b944a = _0x1b944a['slice'](0x0, 0x10)),
-                    'wb' + _0x6cced2 + 'h' + _0x1b944a;
-                }
-
-                function _0x4a2f92(_0x297cd3) {
-                    var _0x3ea03b = _0x297cd3[_0x447a('0x3a7')]
-                        , _0x4d00cb = _0x297cd3['message']
-                        , _0x23cbe5 = _0x297cd3['comm1']
-                        , _0x1eb5da = _0x297cd3['comm2']
-                        , _0x54c6fb = _0x3e0f43[_0x447a('0x3d')]['createWrCommonFatalReport'](0x0, {
-                        'service': 'wrwebnjlogic',
-                        'functionName': 'reader_render',
-                        'code': _0x3ea03b,
-                        'message': _0x4d00cb,
-                        'comm1': _0x23cbe5,
-                        'comm2': _0x1eb5da
-                    });
-                    _0x3e0f43['default']['setProtoLog'](_0x447a('0x32f'), _0x54c6fb)[_0x447a('0x19c')](function (_0x3e7d55) {
-                    })['catch'](function (_0x1168d9) {
-                    });
                 }
             },
+
             1031: function (_0x276049, _0x454802, _0x3cefe1) {
                 'use strict';
                 _0x3cefe1['r'](_0x454802);
@@ -10591,89 +10531,91 @@ window.webpackJsonp.push(
                     }(_0x3a2d5e);
                 _0x32f21c['default'] = _0xb2773b['a'];
             },
-            1127: function (_0x3a6ab6, _0x2ba19b, _0x40b945) {
+
+            // reader
+            1127: function (module, exports, require) {
                 'use strict';
-                Object['defineProperty'](_0x2ba19b, '__esModule', {
+                Object['defineProperty'](exports, '__esModule', {
                     'value': !0x0
                 });
-                var _0xbf0052 = _0x545856(_0x40b945(0x50))
-                    , _0x372aa6 = _0x545856(_0x40b945(0x119))
-                    , _0x287cce = _0x545856(_0x40b945(0x182))
-                    , _0x435cd2 = _0x545856(_0x40b945(0x29))
-                    , _0x670f1b = _0x545856(_0x40b945(0x3fe))
-                    , _0x56970d = _0x545856(_0x40b945(0xc8))
-                    , _0x297886 = _0x545856(_0x40b945(0x4c))
-                    , _0x1e6c03 = _0x545856(_0x40b945(0xc9))
-                    , _0x576686 = _0x545856(_0x40b945(0x30))
-                    , _0xa928ac = _0x545856(_0x40b945(0x178))
-                    , _0x485e42 = _0x545856(_0x40b945(0x61))
-                    , _0x5607df = _0x545856(_0x40b945(0x3ff))
-                    , _0x5bd9f7 = _0x545856(_0x40b945(0x2e1))
-                    , _0x1d7cc3 = _0x545856(_0x40b945(0x30b))
-                    , _0x2ce7c8 = _0x545856(_0x40b945(0x481))
-                    , _0x321733 = _0x545856(_0x40b945(0x4f))
-                    , _0x4ff5cd = _0x5c7f30(_0x40b945(0x37))
-                    , _0x14034f = _0x5c7f30(_0x40b945(0x4b))
-                    , _0x16cfec = _0x40b945(0x39)
-                    , _0x59389e = _0x545856(_0x40b945(0x118))
-                    , _0x590e00 = _0x545856(_0x40b945(0x2e3))
-                    , _0x141a3f = _0x545856(_0x40b945(0x4d))
-                    , _0x227531 = _0x545856(_0x40b945(0x305))
-                    , _0x4c8cde = _0x545856(_0x40b945(0x407))
-                    , _0x33d047 = _0x545856(_0x40b945(0x482))
-                    , _0x1596b1 = _0x545856(_0x40b945(0x63b))
-                    , _0x35299a = _0x545856(_0x40b945(0x490))
-                    , _0x2a42f4 = _0x545856(_0x40b945(0x63e))
-                    , _0x4ba180 = _0x545856(_0x40b945(0x49a))
-                    , _0x3c3b9d = _0x545856(_0x40b945(0x649))
-                    , _0x31c346 = _0x545856(_0x40b945(0x64b))
-                    , _0x2e3b85 = _0x545856(_0x40b945(0x409))
-                    , _0x467f27 = _0x40b945(0x64)
+                var _0xbf0052 = _0x545856(require(0x50))
+                    , _0x372aa6 = _0x545856(require(0x119))
+                    , _0x287cce = _0x545856(require(0x182))
+                    , _0x435cd2 = _0x545856(require(0x29))
+                    , _0x670f1b = _0x545856(require(0x3fe))
+                    , _0x56970d = _0x545856(require(0xc8))
+                    , _0x297886 = _0x545856(require(0x4c))
+                    , _0x1e6c03 = _0x545856(require(0xc9))
+                    , _0x576686 = _0x545856(require(0x30))
+                    , _0xa928ac = _0x545856(require(0x178))
+                    , _0x485e42 = _0x545856(require(0x61))
+                    , _0x5607df = _0x545856(require(0x3ff))
+                    , _0x5bd9f7 = _0x545856(require(0x2e1))
+                    , _0x1d7cc3 = _0x545856(require(0x30b))
+                    , _0x2ce7c8 = _0x545856(require(0x481))
+                    , _0x321733 = _0x545856(require(0x4f))
+                    , _0x4ff5cd = _0x5c7f30(require(0x37))
+                    , _0x14034f = _0x5c7f30(require(0x4b))
+                    , _0x16cfec = require(0x39)
+                    , _0x59389e = _0x545856(require(0x118))
+                    , _0x590e00 = _0x545856(require(0x2e3))
+                    , _0x141a3f = _0x545856(require(0x4d))
+                    , _0x227531 = _0x545856(require(0x305))
+                    , _0x4c8cde = _0x545856(require(0x407))
+                    , _0x33d047 = _0x545856(require(0x482))
+                    , _0x1596b1 = _0x545856(require(0x63b))
+                    , _0x35299a = _0x545856(require(0x490))
+                    , _0x2a42f4 = _0x545856(require(0x63e))
+                    , _0x4ba180 = _0x545856(require(0x49a))
+                    , _0x3c3b9d = _0x545856(require(0x649))
+                    , _0x31c346 = _0x545856(require(0x64b))
+                    , _0x2e3b85 = _0x545856(require(0x409))
+                    , _0x467f27 = require(0x64)
                     , _0x450cb1 = _0x545856(_0x467f27)
-                    , _0x44499e = _0x545856(_0x40b945(0x63))
-                    , _0x260cbe = _0x545856(_0x40b945(0x4ac))
-                    , _0x767eff = _0x545856(_0x40b945(0x4af))
-                    , _0xbe02b8 = _0x545856(_0x40b945(0x4b1))
-                    , _0x4715f5 = _0x545856(_0x40b945(0x179))
-                    , _0x29f54c = _0x545856(_0x40b945(0x4b3))
-                    , _0x2e75e5 = _0x545856(_0x40b945(0x4b6))
-                    , _0x59a88f = _0x545856(_0x40b945(0x40b))
-                    , _0x48a387 = _0x545856(_0x40b945(0x4b9))
-                    , _0x2c4f5a = _0x545856(_0x40b945(0x4bc))
-                    , _0x3c22ef = _0x545856(_0x40b945(0x4bf))
-                    , _0x81d39e = _0x545856(_0x40b945(0x4c2))
-                    , _0x156cac = _0x545856(_0x40b945(0x3b))
-                    , _0x7d71d1 = _0x545856(_0x40b945(0x3c))
-                    , _0x4a3ae4 = _0x545856(_0x40b945(0x3d))
-                    , _0x76ce46 = _0x545856(_0x40b945(0x3e))
-                    , _0x277ede = _0x545856(_0x40b945(0x3fb))
-                    , _0x4ead2a = _0x545856(_0x40b945(0x38))
-                    , _0x5db08a = _0x545856(_0x40b945(0x62))
-                    , _0x310775 = _0x545856(_0x40b945(0x11d))
-                    , _0x5263eb = _0x40b945(0x484)
-                    , _0x483279 = _0x5c7f30(_0x40b945(0x4c4))
-                    , _0x328531 = _0x545856(_0x40b945(0x4c5))
-                    , _0x11cf4b = _0x545856(_0x40b945(0x653))
-                    , _0x521164 = _0x40b945(0x315)
-                    , _0x448a89 = _0x545856(_0x40b945(0x480))
-                    , _0xad2707 = _0x545856(_0x40b945(0x31c))
-                    , _0xa3468 = _0x5c7f30(_0x40b945(0x314))
-                    , _0x50d51d = _0x5c7f30(_0x40b945(0x30c))
-                    , _0x122068 = _0x545856(_0x40b945(0xca))
-                    , _0x461747 = _0x545856(_0x40b945(0x416))
-                    , _0x4b62f9 = _0x545856(_0x40b945(0x4ad))
-                    , _0xb1061f = _0x545856(_0x40b945(0x4cc))
-                    , _0x4b4738 = _0x40b945(0x18b)
-                    , _0x56a824 = _0x545856(_0x40b945(0x18))
-                    , _0x350208 = _0x545856(_0x40b945(0x4d0))
-                    , _0x2b005c = _0x545856(_0x40b945(0x32))
-                    , _0x1e424c = _0x545856(_0x40b945(0x666))
-                    , _0xc5984 = (_0x545856(_0x40b945(0x198)),
-                    _0x545856(_0x40b945(0x668)))
-                    , _0x28c5d3 = _0x40b945(0x312)
-                    , _0x23f4ce = _0x40b945(0x403)
-                    , _0x28992b = _0x545856(_0x40b945(0x66a))
-                    , _0x50c8f3 = _0x545856(_0x40b945(0x5a8));
+                    , _0x44499e = _0x545856(require(0x63))
+                    , _0x260cbe = _0x545856(require(0x4ac))
+                    , _0x767eff = _0x545856(require(0x4af))
+                    , _0xbe02b8 = _0x545856(require(0x4b1))
+                    , _0x4715f5 = _0x545856(require(0x179))
+                    , _0x29f54c = _0x545856(require(0x4b3))
+                    , _0x2e75e5 = _0x545856(require(0x4b6))
+                    , _0x59a88f = _0x545856(require(0x40b))
+                    , _0x48a387 = _0x545856(require(0x4b9))
+                    , _0x2c4f5a = _0x545856(require(0x4bc))
+                    , _0x3c22ef = _0x545856(require(0x4bf))
+                    , _0x81d39e = _0x545856(require(0x4c2))
+                    , _0x156cac = _0x545856(require(0x3b))
+                    , _0x7d71d1 = _0x545856(require(0x3c))
+                    , _0x4a3ae4 = _0x545856(require(0x3d))
+                    , _0x76ce46 = _0x545856(require(0x3e))
+                    , _0x277ede = _0x545856(require(0x3fb))
+                    , _0x4ead2a = _0x545856(require(0x38))
+                    , _0x5db08a = _0x545856(require(0x62))
+                    , _0x310775 = _0x545856(require(0x11d))
+                    , _0x5263eb = require(0x484)
+                    , _0x483279 = _0x5c7f30(require(0x4c4))
+                    , _0x328531 = _0x545856(require(0x4c5))
+                    , _0x11cf4b = _0x545856(require(0x653))
+                    , _0x521164 = require(0x315)
+                    , _0x448a89 = _0x545856(require(0x480))
+                    , _0xad2707 = _0x545856(require(0x31c))
+                    , _0xa3468 = _0x5c7f30(require(0x314))
+                    , _0x50d51d = _0x5c7f30(require(0x30c))
+                    , _0x122068 = _0x545856(require(0xca))
+                    , _0x461747 = _0x545856(require(0x416))
+                    , _0x4b62f9 = _0x545856(require(0x4ad))
+                    , _0xb1061f = _0x545856(require(0x4cc))
+                    , _0x4b4738 = require(0x18b)
+                    , _0x56a824 = _0x545856(require(0x18))
+                    , _0x350208 = _0x545856(require(0x4d0))
+                    , _0x2b005c = _0x545856(require(0x32))
+                    , _0x1e424c = _0x545856(require(0x666))
+                    , _0xc5984 = (_0x545856(require(0x198)),
+                    _0x545856(require(0x668)))
+                    , _0x28c5d3 = require(0x312)
+                    , _0x23f4ce = require(0x403)
+                    , _0x28992b = _0x545856(require(0x66a))
+                    , _0x50c8f3 = _0x545856(require(0x5a8));
 
                 function _0x5c7f30(_0x4ceb0f) {
                     if (_0x4ceb0f && _0x4ceb0f['__esModule'])
@@ -10692,10 +10634,10 @@ window.webpackJsonp.push(
                     };
                 }
 
-                var _0x136c5a, _0x467adc, _0x2eddd2, _0x541b33, _0x190f94, _0x58c8db, _0x30f0ed = _0x40b945(0xcd),
-                    _0x53706b = _0x40b945(0x66e), _0x4c403f = _0x40b945(0x9), _0x19cc67 = _0x40b945(0x21),
-                    _0x5cf357 = _0x40b945(0x3a), _0x1215a9 = _0x40b945(0x30d), _0x2d2915 = _0x40b945(0x405),
-                    _0xc8939e = _0x40b945(0x403)['decryption'], _0x459047 = _0x40b945(0x404),
+                var _0x136c5a, _0x467adc, _0x2eddd2, _0x541b33, _0x190f94, _0x58c8db, _0x30f0ed = require(0xcd),
+                    _0x53706b = require(0x66e), _0x4c403f = require(0x9), _0x19cc67 = require(0x21),
+                    _0x5cf357 = require(0x3a), _0x1215a9 = require(0x30d), _0x2d2915 = require(0x405),
+                    _0xc8939e = require(0x403)['decryption'], _0x459047 = require(0x404),
                     _0x41f866 = new _0x56a824['default'](), _0x4884ae = 'reader', _0x211dd1 = 'book',
                     _0x19cf1e = 'bookReview', _0xe04498 = 0x0, _0x291e31 = 0x0, _0x5baef7 = [], _0x7ad21a = [],
                     _0x4c1513 = [], _0x276b6f = !0x1, _0x386261 = null, _0x1c43b8 = [], _0x3e7b14 = 0x1f4,
@@ -10706,8 +10648,8 @@ window.webpackJsonp.push(
                         'mark': !0x1,
                         'mutationObserver': !0x1
                     };
-                _0x2ba19b[_0x447a('0x3d')] = {
-                    'name': _0x4884ae,
+                exports.default = {
+                    'name': 'reader',
                     'components': {
                         'ReaderGiftCardTips': _0x28992b['default'],
                         'ReaderCommonDialog': _0x1e424c['default'],
@@ -11133,15 +11075,12 @@ window.webpackJsonp.push(
                             }
                         };
                     },
-                    'methods': (0x0,
-                        _0x576686['default'])({
+                    'methods': _0x576686.default({
                         'getRandomNumber': _0x23f4ce['getRandomNumber'],
                         'shiftString': _0x23f4ce['shiftString']
-                    }, (0x0,
-                        _0x16cfec['mapMutations'])({
+                    }, _0x16cfec.mapMutations({
                         'updatePerformanceMethodsCompatibility': _0x14034f['UPDATE_PERFORMANCE_METHODS_COMPATIBILITY']
-                    }), (0x0,
-                        _0x16cfec['mapActions'])({
+                    }), _0x16cfec.mapActions({
                         'markCanvasPaintStart': _0x4ff5cd['MARK_CANVAS_PAINT_START'],
                         'markCanvasPaintEnd': _0x4ff5cd['MARK_CANVAS_PAINT_END'],
                         'markFirstPagePrerenderStart': _0x4ff5cd['MARK_FIRST_PAGE_PRERENDER_START'],
@@ -11382,12 +11321,14 @@ window.webpackJsonp.push(
                                     return _0x58c8db[_0x447a('0x37e')](this, arguments);
                                 }
                         ),
-                        'eventProtect': function (_0x950b25, _0x4e48af) {
+                        'eventProtect': function (event, cb) {
+                            debugger
                             try {
-                                _0x459047['e'](_0x950b25, function () {
-                                    _0x4e48af && _0x4e48af();
-                                });
-                            } catch (_0x5a6dd1) {
+                                // 检测 event 是否为受信事件，如果为非受信事件，则调用回调
+                                // _0x459047.e(event, function () {
+                                //     cb && cb();
+                                // });
+                            } catch (err) {
                             }
                         },
                         'waitForPreRender': function () {
@@ -11772,14 +11713,14 @@ window.webpackJsonp.push(
                             });
                             var _0x409b80 = this['getChapterWithIdxOffset'](0x1);
                             if (_0x409b80)
-                                return this['changeChapter']({
+                                return this.changeChapter({
                                     'chapterUid': _0x409b80['chapterUid']
                                 });
                         },
                         'handlePrevSection': function () {
                             var _0x2cde5e = this['getCurrentSectionIdx'] - 0x1;
                             if (_0x2cde5e >= 0x0)
-                                return this['changeSection']({
+                                return this.changeSection({
                                     'sectionIdx': _0x2cde5e,
                                     'offsetTop': _0x670f1b['default']
                                 });
@@ -11787,32 +11728,33 @@ window.webpackJsonp.push(
                         'handleNextSection': function () {
                             var _0x370aa6 = this['getCurrentSectionIdx'] + 0x1;
                             if (_0x370aa6)
-                                return this['changeSection']({
+                                return this.changeSection({
                                     'sectionIdx': _0x370aa6
                                 });
                         },
-                        'handleClickNextChapterButton': function (_0x293b24) {
-                            (_0x293b24 = _0x293b24 || window[_0x447a('0x493')])[_0x447a('0xf9')] && _0x293b24['clientY'] && this['handleNextChapter'](_0x293b24);
+                        'handleClickNextChapterButton': function (event) {
+                            this.handleNextChapter(event);
                         },
-                        'handleClickPrevChapterButton': function (_0x1bd75e) {
-                            (_0x1bd75e = _0x1bd75e || window['event'])['clientX'] && _0x1bd75e['clientY'] && this['handlePrevChapter'](_0x1bd75e);
+                        'handleClickPrevChapterButton': function (event) {
+                            this.handlePrevChapter(event);
                         },
-                        'handleClickPrevSectionButton': function (_0x54b661) {
-                            (_0x54b661 = _0x54b661 || window['event'])['clientX'] && _0x54b661['clientY'] && this['handlePrevSection'](_0x54b661);
+                        'handleClickPrevSectionButton': function (event) {
+                            this.handlePrevSection(event);
                         },
-                        'handleClickNextSectionButton': function (_0x3e9cec) {
-                            (_0x3e9cec = _0x3e9cec || window[_0x447a('0x493')])['clientX'] && _0x3e9cec[_0x447a('0xea')] && this['handleNextSection']();
+                        'handleClickNextSectionButton': function (event) {
+                            this.handleNextSection();
                         },
-                        'handlePrevChapter': function (_0x341af1) {
+                        'handlePrevChapter': function (event) {
                             var _0x2b8119 = this;
-                            this[_0x447a('0x259')](_0x341af1, function () {
+                            this.eventProtect(event, function () {
+                                debugger
                                 _0x2b8119['$store']['dispatch'](_0x4ff5cd[_0x447a('0x24f')], {
                                     'vid': _0x2b8119['user']['vid']
                                 });
                             });
                             var _0x3e6809 = this['getChapterWithIdxOffset'](-0x1);
                             if (_0x3e6809)
-                                return this['changeChapter']({
+                                return this.changeChapter({
                                     'chapterUid': _0x3e6809['chapterUid'],
                                     'sectionId': -0x1
                                 });
@@ -11917,44 +11859,45 @@ window.webpackJsonp.push(
                         },
                         'changeChapter': (_0x190f94 = (0x0,
                                 _0x1e6c03['default'])(_0x56970d['default']['mark'](function _0x2fb5f2(_0x3001e8) {
-                                var _0x81523, _0x26cecc, _0x1fb2b4, _0x103806, _0x1e8dfd, _0x5ca076, _0x238a66,
+                                var fileNames, isDone, _0x1fb2b4, _0x103806, _0x1e8dfd, _0x5ca076, fileName,
                                     _0x138c3c = this;
                                 return _0x56970d['default']['wrap'](function (_0x2b8f34) {
+                                    debugger
                                     for (; ;)
                                         switch (_0x2b8f34['prev'] = _0x2b8f34[_0x447a('0x2e4')]) {
                                             case 0x0:
-                                                return _0x2b8f34['next'] = 0x2,
-                                                    _0x2d2915[_0x447a('0x299')]()['then'](function (_0x4b076b) {
-                                                        return _0x4b076b['map'](function (_0x8b07e8) {
-                                                            return _0x8b07e8['fileName'];
-                                                        });
-                                                    })[_0x447a('0x4b1')](function (_0x2ef338) {
+                                                _0x2b8f34['next'] = 0x2
+                                                return _0x2d2915.get().then((resp) => {
+                                                        return resp.map((_) => _.fileName)
+                                                    }).catch((err) => {
                                                     });
                                             case 0x2:
-                                                _0x81523 = _0x2b8f34['sent'],
-                                                    _0x26cecc = !0x0,
-                                                    _0x1fb2b4 = !0x1,
-                                                    _0x103806 = void 0x0,
-                                                    _0x2b8f34['prev'] = 0x6,
-                                                    _0x1e8dfd = (0x0,
-                                                        _0xa928ac['default'])(_0x81523);
+                                                fileNames = _0x2b8f34['sent']
+                                                isDone = !0x0
+                                                _0x1fb2b4 = !0x1
+                                                _0x103806 = void 0x0
+                                                _0x2b8f34['prev'] = 0x6
+                                                _0x1e8dfd = _0xa928ac.default(fileNames);
                                             case 0x8:
-                                                if (_0x26cecc = (_0x5ca076 = _0x1e8dfd[_0x447a('0x2e4')]())['done']) {
+                                                if (isDone = (_0x5ca076 = _0x1e8dfd.next()).done) {
                                                     _0x2b8f34['next'] = 0x12;
                                                     break;
                                                 }
-                                                if (_0x238a66 = _0x5ca076['value'],
-                                                    _0x4c403f['inDevelopment'](),
-                                                    !(_0x238a66['indexOf']('puppeteer') > -0x1 || _0x238a66['indexOf']('Puppeteer') > -0x1 || _0x238a66['indexOf']('pptr') > -0x1)) {
-                                                    _0x2b8f34['next'] = 0xf;
-                                                    break;
-                                                }
-                                                return _0x2b8f34['next'] = 0xe,
-                                                    this['botDetect'](!0x0, _0x447a('0x1c3'));
+                                                fileName = _0x5ca076['value']
+                                                _0x4c403f.inDevelopment()
+                                                // if (fileName.indexOf('puppeteer') === -1 && fileName.indexOf('Puppeteer') === -1 && fileName.indexOf('pptr') === -1) {
+                                                //     _0x2b8f34['next'] = 0xf;
+                                                //     break;
+                                                // }
+                                                _0x2b8f34['next'] = 0xf;
+                                                break;
+
+                                                _0x2b8f34['next'] = 0xe
+                                                return this['botDetect'](!0x0, _0x447a('0x1c3'));
                                             case 0xe:
                                                 return _0x2b8f34[_0x447a('0x2b6')]('break', 0x12);
                                             case 0xf:
-                                                _0x26cecc = !0x0,
+                                                isDone = !0x0,
                                                     _0x2b8f34['next'] = 0x8;
                                                 break;
                                             case 0x12:
@@ -11968,7 +11911,7 @@ window.webpackJsonp.push(
                                             case 0x18:
                                                 _0x2b8f34['prev'] = 0x18,
                                                     _0x2b8f34['prev'] = 0x19,
-                                                !_0x26cecc && _0x1e8dfd['return'] && _0x1e8dfd[_0x447a('0x4a2')]();
+                                                !isDone && _0x1e8dfd['return'] && _0x1e8dfd[_0x447a('0x4a2')]();
                                             case 0x1b:
                                                 if (_0x2b8f34['prev'] = 0x1b,
                                                     !_0x1fb2b4) {
@@ -12051,42 +11994,46 @@ window.webpackJsonp.push(
                                 }
                         ),
                         'changeSection': function (_0x378797) {
-                            var _0x42c7b0 = this;
-                            if (_0x59389e['default']['isLegacyReaderSupportBook'](this['bookInfo']))
-                                return this['loadTopReviews'](),
-                                    this['$store']['dispatch'](_0x4ff5cd['CHANGE_READER_SECTION'], {
-                                        'sectionIdx': _0x378797[_0x447a('0x179')]
-                                    })['then'](function () {
-                                        return _0x42c7b0['clearSelection'](),
-                                            _0x42c7b0[_0x447a('0x2ab')](),
-                                            _0x42c7b0[_0x447a('0x3ea')]();
-                                    })['catch'](function (_0x1996fb) {
-                                        if (_0x1996fb && _0x1996fb['isCustomError']) {
-                                            switch (_0x1996fb['reason']) {
+                            let _this = this;
+                            if (_0x59389e.default.isLegacyReaderSupportBook(this.bookInfo)) {
+                                this.loadTopReviews()
+                                return this.$store.dispatch(_0x4ff5cd['CHANGE_READER_SECTION'], {
+                                        'sectionIdx': _0x378797.sectionIdx
+                                    }).then(function () {
+                                        debugger
+                                        _this.clearSelection()
+                                        _this.clearHighLightDom()
+                                        return _this.layout();
+                                    }).catch((err) => {
+                                        debugger
+                                        if (err && err['isCustomError']) {
+                                            switch (err['reason']) {
                                                 case _0x447a('0xd0'):
-                                                    _0x42c7b0['clearSelection'](),
-                                                        _0x42c7b0['clearHighLightDom'](),
-                                                        _0x378797[_0x447a('0x1f6')] ? _0x42c7b0['highLightDomsAndScrollTo'](_0x378797['searchItem']) : _0x378797['scrollTo'] && _0x42c7b0['scrollTo'](_0x378797['scrollTo']);
+                                                    _this['clearSelection'](),
+                                                        _this['clearHighLightDom'](),
+                                                        _0x378797[_0x447a('0x1f6')] ? _this['highLightDomsAndScrollTo'](_0x378797['searchItem']) : _0x378797['scrollTo'] && _this['scrollTo'](_0x378797['scrollTo']);
                                                     break;
                                                 case _0x447a('0x4c8'):
                                                     window['location']['reload']();
                                                     break;
                                                 case 'sessionTimeout':
-                                                    _0x42c7b0['handleSessionTimeout']();
+                                                    _this['handleSessionTimeout']();
                                             }
-                                            return _0x1996fb;
+                                            return err;
                                         }
-                                        _0x42c7b0['logError']('changeChapter-UnexpectedError0:', _0x1996fb);
-                                    })['then'](function (_0x16ecfd) {
-                                        return _0x16ecfd && _0x16ecfd['success'] && (_0x378797['searchItem'] ? _0x42c7b0['highLightDomsAndScrollTo'](_0x378797['searchItem']) : _0x378797[_0x447a('0x4a8')] ? _0x42c7b0['scrollToOffsetTop'](_0x378797['offsetTop']) : _0x378797['scrollTo'] ? _0x42c7b0['scrollTo'](_0x378797[_0x447a('0x34f')]) : _0x42c7b0['scrollToOffsetTop'](0x0),
-                                            _0x42c7b0['checkIfShowMemberCardFreeReadingTips'](),
-                                            _0x42c7b0['checkIfNeedRequestLoginQRCode'](),
-                                            _0x42c7b0['reportReadingProgress']({
+                                        _this['logError']('changeChapter-UnexpectedError0:', err);
+                                    }).then(function (_0x16ecfd) {
+                                        debugger
+                                        return _0x16ecfd && _0x16ecfd['success'] && (_0x378797['searchItem'] ? _this['highLightDomsAndScrollTo'](_0x378797['searchItem']) : _0x378797[_0x447a('0x4a8')] ? _this['scrollToOffsetTop'](_0x378797['offsetTop']) : _0x378797['scrollTo'] ? _this['scrollTo'](_0x378797[_0x447a('0x34f')]) : _this['scrollToOffsetTop'](0x0),
+                                            _this['checkIfShowMemberCardFreeReadingTips'](),
+                                            _this['checkIfNeedRequestLoginQRCode'](),
+                                            _this['reportReadingProgress']({
                                                 'computeSummary': !0x0,
                                                 'computeProgress': !0x1
                                             })),
                                             _0x16ecfd;
                                     });
+                            }
                             this['unsupported'] = !0x0;
                         },
                         'reloadCurrentChapter': function () {
@@ -13017,7 +12964,7 @@ window.webpackJsonp.push(
                                 });
                         },
                         'generateLoginGuideQRCode': function (_0x4dfe70) {
-                            this['loginGuideQRCodeImg'] = _0x40b945(0x51)['getQrBase64']('https://weread.qq.com/web/confirm?uid=' + _0x4dfe70, {
+                            this['loginGuideQRCodeImg'] = require(0x51)['getQrBase64']('https://weread.qq.com/web/confirm?uid=' + _0x4dfe70, {
                                 'padding': 0x6,
                                 'width': 0x90,
                                 'height': 0x90,
@@ -13529,7 +13476,7 @@ window.webpackJsonp.push(
                                 this['reportEnterReading'](),
                                     this['$store']['commit'](_0x14034f['UPDATE_READER_START_READING_TIME']),
                                     this['startReportTimer']();
-                                var _0x3b6abf = _0x40b945(0x5ab)['ifvisible']
+                                var _0x3b6abf = require(0x5ab)['ifvisible']
                                     , _0x3f5b0a = this['$route']['query']['debugIdleTime'] || 0x78
                                     , _0x57c0bd = _0x4c403f['inDevelopment']() ? _0x3f5b0a : 0x78;
                                 _0x3b6abf[_0x447a('0xf')](_0x57c0bd),
@@ -14234,7 +14181,7 @@ window.webpackJsonp.push(
                         },
                         'initWaterMask': function () {
                             var _0x688038 = String(this['user'][_0x447a('0x359')]) || 0x0;
-                            _0x40b945['e'](0x1f)['then'](_0x40b945['t']['bind'](null, 0x6e7, 0x7))[_0x447a('0x19c')](function () {
+                            require['e'](0x1f)['then'](require['t']['bind'](null, 0x6e7, 0x7))[_0x447a('0x19c')](function () {
                                 'object' === (0x0,
                                     _0xbf0052['default'])(window['YWQD']) && 'function' == typeof window[_0x447a('0x23')]['config'] && window[_0x447a('0x23')]['config']({
                                     'guid': _0x688038,
@@ -14738,6 +14685,7 @@ window.webpackJsonp.push(
                     })
                 };
             },
+
             1136: function (_0x180657, _0x59db52, _0x680a3c) {
                 var _0x3840de = {
                     './af': 0x373,

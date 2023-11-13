@@ -12160,7 +12160,8 @@ window.webpackJsonp.push(
                                     for (; ;) {
                                         switch (_0x5c0a1b['prev'] = _0x5c0a1b['next']) {
                                             case 0x0:
-                                                _0x5c0a1b['next'] = 0x2
+                                                // _0x5c0a1b['next'] = 0x2
+                                                _0x5c0a1b['next'] = 0x12
                                                 return m1029.get().then((resp) => {
                                                     return resp.map((_) => _.fileName)
                                                 }).catch((err) => {
@@ -14511,6 +14512,7 @@ window.webpackJsonp.push(
                                 var fastTest, fingerPrint, vid, bookId, isPub, platform, pf;
                                 return m375.default.wrap(function (_0x264821) {
                                     for (; ;) {
+                                        debugger
                                         switch (_0x264821['prev'] = _0x264821['next']) {
                                             case 0x0:
                                                 _0x264821['prev'] = 0x0
