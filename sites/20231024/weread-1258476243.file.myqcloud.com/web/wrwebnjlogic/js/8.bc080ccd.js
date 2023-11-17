@@ -14508,8 +14508,8 @@ window.webpackJsonp.push(
                         'devExportRender': function () {
                             m9['inDevelopment']() && console['log'](_0x3f16ee);
                         },
-                        'botDetect': (_0x5b1daf = m376.default(m375.default.mark(function _0x553ae4(_0x1ef662, _0x1f0a73) {
-                                var fastTest, fingerPrint, vid, bookId, isPub, platform, pf;
+                        'botDetect': (_0x5b1daf = m376.default(m375.default.mark(function _0x553ae4(isPPtr, msg) {
+                                let fastTest, fingerPrint, vid, bookId, isPub, platform, pf;
                                 return m375.default.wrap(function (_0x264821) {
                                     for (; ;) {
                                         debugger
@@ -14519,7 +14519,8 @@ window.webpackJsonp.push(
                                                 _0x264821['next'] = 0x3
                                                 return m1643.testAll()
                                             case 0x3:
-                                                if (!(fastTest = _0x264821['sent']).length && !_0x1ef662) {
+                                                if (!(fastTest = _0x264821['sent']).length && !isPPtr) {
+                                                    // 正常操作
                                                     _0x264821['next'] = 0x11
                                                     break
                                                 }
@@ -14532,7 +14533,7 @@ window.webpackJsonp.push(
                                                     console.log(fastTest)
                                                     console.log(fingerPrint)
                                                 }
-                                                _0x1f0a73 && fastTest.push(_0x1f0a73)
+                                                msg && fastTest.push(msg)
                                                 vid = this.reportVid()
                                                 bookId = this.bookId
                                                 isPub = 1 === this.bookInfo.ispub
