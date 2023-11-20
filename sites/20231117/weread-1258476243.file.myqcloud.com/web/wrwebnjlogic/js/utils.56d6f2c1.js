@@ -261,23 +261,21 @@ window.webpackJsonp.push(
     [
         [0x0],
         {
-            739: function (_0x105695, _0x417bad, _0x5c2dce) {
-                'use strict';
-                Object['defineProperty'](_0x417bad, '__esModule', {
-                    'value': !0x0
-                });
-                var _0x41ff7f = _0xa2e8b6(_0x5c2dce(0x61))
-                    , _0x28d28f = _0xa2e8b6(_0x5c2dce(0x118));
+            739: function (module, exports, require) {
+                Object.defineProperty(exports, '__esModule', {value: true})
 
-                function _0xa2e8b6(_0x18eff3) {
-                    return _0x18eff3 && _0x18eff3['__esModule'] ? _0x18eff3 : {
-                        'default': _0x18eff3
+                let _0x41ff7f = _0xa2e8b6(require(0x61)),
+                    _0x28d28f = _0xa2e8b6(require(0x118));
+                let _0x27f158 = require(0x21),
+                    _0x494d66 = require(0x9);
+
+                function _0xa2e8b6(module) {
+                    return module && module['__esModule'] ? module : {
+                        'default': module
                     };
                 }
 
-                var _0x27f158 = _0x5c2dce(0x21)
-                    , _0x494d66 = _0x5c2dce(0x9);
-                _0x417bad['default'] = {
+                exports.default = {
                     'isMemberShipValid': function (_0x1b7359) {
                         return 0x0 !== (0x0,
                             _0x41ff7f['default'])(_0x1b7359)['length'] && (0x0 === _0x27f158['get'](_0x1b7359, 'expired', 0x1) && _0x27f158['get'](_0x1b7359, 'expiredTime', 0x0) > 0x0 && new Date()['getTime']() < 0x3e8 * _0x27f158['get'](_0x1b7359, 'expiredTime', 0x0));
@@ -302,15 +300,13 @@ window.webpackJsonp.push(
                             , _0x340509 = 0x64 - _0x3a4304;
                         return _0x340509 <= 0x0 ? '' : _0x340509 < 0xa ? _0x5edc94[0x0] + _0x5edc94[_0x340509] + '折' : _0x340509 < 0x64 ? _0x340509 % 0xa == 0x0 ? _0x5edc94[_0x340509 / 0xa] + '折' : _0x5edc94[_0x340509 / 0xa] + _0x5edc94[_0x340509 % 0xa] + '折' : '';
                     }
-                };
+                }
             },
-            773: function (_0x12f830, _0x2335a5, _0x5c307a) {
-                'use strict';
-                Object['defineProperty'](_0x2335a5, '__esModule', {
-                    'value': !0x0
-                });
-                var _0x35301d = _0x4c770f(_0x5c307a(0x118))
-                    , _0x51a44c = _0x4c770f(_0x5c307a(0x2e3));
+            773: function (module, exports, require) {
+                Object.defineProperty(exports, '__esModule', {value: true})
+
+                var _0x35301d = _0x4c770f(require(0x118)),
+                    _0x51a44c = _0x4c770f(require(0x2e3));
 
                 function _0x4c770f(_0x427566) {
                     return _0x427566 && _0x427566['__esModule'] ? _0x427566 : {
@@ -318,7 +314,7 @@ window.webpackJsonp.push(
                     };
                 }
 
-                _0x2335a5[_0x550b('0xa0')] = {
+                exports.default = {
                     'isChapterNeedPay': function (_0x3c041f) {
                         var _0x2b0218 = _0x3c041f['bookInfo']
                             , _0x17eb01 = _0x3c041f[_0x550b('0x59')]
@@ -357,76 +353,71 @@ window.webpackJsonp.push(
                         }
                         return !0x1;
                     }
-                };
+                }
             },
-            780: function (_0x36c1d0, _0x302b66, _0x466eef) {
-                'use strict';
-                Object['defineProperty'](_0x302b66, _0x550b('0xd1'), {
-                    'value': !0x0
-                });
-                _0x302b66['ReviewTypeDiscuss'] = 0x1,
-                    _0x302b66['ReviewTypeRecommend'] = 0x4;
+            780: function (module, exports, require) {
+                Object.defineProperty(exports, '__esModule', {value: true})
+
+                exports['ReviewTypeDiscuss'] = 1
+                exports['ReviewTypeRecommend'] = 4
             },
-            784: function (_0x18ba65, _0x1a8be5, _0x59a758) {
-                'use strict';
-                Object['defineProperty'](_0x1a8be5, '__esModule', {
-                    'value': !0x0
-                }),
-                    _0x1a8be5['default'] = {
-                        'unSupportCategoryIds': function () {
-                            return ['comic', 'audio', 'mp', 'audio_rising', _0x550b('0x85'), _0x550b('0x6d'), '6100', _0x550b('0x54'), '10000000', '2400000'];
-                        },
-                        'matchSupportCategory': function (_0x590684) {
-                            var _0x1001ab = arguments[_0x550b('0xda')] > 0x1 && void 0x0 !== arguments[0x1] ? arguments[0x1] : []
-                                , _0x28ad93 = _0x1001ab[_0x550b('0xb1')](function (_0x46b251) {
-                                return _0x46b251['CategoryId'];
-                            })
-                                , _0x1b75bb = this['unSupportCategoryIds']()['concat'](_0x28ad93);
-                            return -0x1 === _0x1b75bb['indexOf'](_0x590684);
-                        },
-                        'supportCategories': function (_0x32fcb0, _0x1ce7cd) {
-                            var _0x57397c = this;
-                            return _0x32fcb0['filter'](function (_0xf2953f) {
-                                return _0x57397c[_0x550b('0x96')](_0xf2953f['CategoryId'], _0x1ce7cd);
+            784: function (module, exports, require) {
+                Object.defineProperty(exports, '__esModule', {value: true})
+
+                exports.default = {
+                    'unSupportCategoryIds': function () {
+                        return ['comic', 'audio', 'mp', 'audio_rising', _0x550b('0x85'), _0x550b('0x6d'), '6100', _0x550b('0x54'), '10000000', '2400000'];
+                    },
+                    'matchSupportCategory': function (_0x590684) {
+                        var _0x1001ab = arguments[_0x550b('0xda')] > 0x1 && void 0x0 !== arguments[0x1] ? arguments[0x1] : []
+                            , _0x28ad93 = _0x1001ab[_0x550b('0xb1')](function (_0x46b251) {
+                            return _0x46b251['CategoryId'];
+                        })
+                            , _0x1b75bb = this['unSupportCategoryIds']()['concat'](_0x28ad93);
+                        return -0x1 === _0x1b75bb['indexOf'](_0x590684);
+                    },
+                    'supportCategories': function (_0x32fcb0, _0x1ce7cd) {
+                        var _0x57397c = this;
+                        return _0x32fcb0['filter'](function (_0xf2953f) {
+                            return _0x57397c[_0x550b('0x96')](_0xf2953f['CategoryId'], _0x1ce7cd);
+                        });
+                    },
+                    'unSupportCategories': function (_0x423e9b, _0x54a1f4) {
+                        var _0x1af48f = this;
+                        return _0x423e9b['filter'](function (_0x38461f) {
+                            return !_0x1af48f['matchSupportCategory'](_0x38461f['CategoryId'], _0x54a1f4);
+                        });
+                    },
+                    'sortTopCategories': function (_0x41c52b) {
+                        var _0x43431d = [_0x550b('0x1b')];
+                        return _0x41c52b['filter'](function (_0x438d73) {
+                            return -0x1 === _0x43431d['findIndex'](function (_0x35a6d3) {
+                                return _0x35a6d3 === _0x438d73['CategoryId'];
                             });
-                        },
-                        'unSupportCategories': function (_0x423e9b, _0x54a1f4) {
-                            var _0x1af48f = this;
-                            return _0x423e9b['filter'](function (_0x38461f) {
-                                return !_0x1af48f['matchSupportCategory'](_0x38461f['CategoryId'], _0x54a1f4);
-                            });
-                        },
-                        'sortTopCategories': function (_0x41c52b) {
-                            var _0x43431d = [_0x550b('0x1b')];
-                            return _0x41c52b['filter'](function (_0x438d73) {
-                                return -0x1 === _0x43431d['findIndex'](function (_0x35a6d3) {
-                                    return _0x35a6d3 === _0x438d73['CategoryId'];
-                                });
-                            });
-                        },
-                        'sortCategories': function (_0x29510b) {
-                            return _0x29510b;
-                        },
-                        'topCategoriesType': function (_0x128e63) {
-                            return -0x1 !== ['novel_male_series', 'novel_female_series']['indexOf'](_0x128e63) ? 'series' : -0x1 !== [_0x550b('0x62'), 'novel_male', 'novel_female']['indexOf'](_0x128e63) ? 'all' : -0x1 !== ['newbook', 'newbook_novel_male', 'newbook_novel_female']['indexOf'](_0x128e63) ? 'newbook' : -0x1 !== ['rising', 'novel_male_rising', 'novel_female_rising']['indexOf'](_0x128e63) ? 'rising' : -0x1 !== [_0x550b('0x84')]['indexOf'](_0x128e63) ? _0x550b('0x84') : -0x1 !== ['newrating_potential_publish']['indexOf'](_0x128e63) ? 'newrating_potential_publish' : -0x1 !== ['general_novel_rising']['indexOf'](_0x128e63) ? 'general_novel_rising' : -0x1 !== ['hot_search']['indexOf'](_0x128e63) ? 'hot_search' : '';
-                        },
-                        'isTopCategoriesType': function (_0x596ab7) {
-                            var _0x22fa57 = this['topCategoriesType'](_0x596ab7);
-                            return _0x550b('0x62') === _0x22fa57 || 'series' === _0x22fa57 || 'rising' === _0x22fa57 || 'newbook' === _0x22fa57 || 'newrating_publish' === _0x22fa57 || 'newrating_potential_publish' === _0x22fa57;
-                        },
-                        'filterHomePageCategories': function (_0x12f102) {
-                            var _0x1c8cc5 = this;
-                            return _0x12f102[_0x550b('0x86')](function (_0x3960a7) {
-                                var _0x162d5a = _0x1c8cc5[_0x550b('0x8')](_0x3960a7['CategoryId']);
-                                return 'general_novel_rising' !== _0x162d5a && 'hot_search' !== _0x162d5a;
-                            });
-                        }
-                    };
+                        });
+                    },
+                    'sortCategories': function (_0x29510b) {
+                        return _0x29510b;
+                    },
+                    'topCategoriesType': function (_0x128e63) {
+                        return -0x1 !== ['novel_male_series', 'novel_female_series']['indexOf'](_0x128e63) ? 'series' : -0x1 !== [_0x550b('0x62'), 'novel_male', 'novel_female']['indexOf'](_0x128e63) ? 'all' : -0x1 !== ['newbook', 'newbook_novel_male', 'newbook_novel_female']['indexOf'](_0x128e63) ? 'newbook' : -0x1 !== ['rising', 'novel_male_rising', 'novel_female_rising']['indexOf'](_0x128e63) ? 'rising' : -0x1 !== [_0x550b('0x84')]['indexOf'](_0x128e63) ? _0x550b('0x84') : -0x1 !== ['newrating_potential_publish']['indexOf'](_0x128e63) ? 'newrating_potential_publish' : -0x1 !== ['general_novel_rising']['indexOf'](_0x128e63) ? 'general_novel_rising' : -0x1 !== ['hot_search']['indexOf'](_0x128e63) ? 'hot_search' : '';
+                    },
+                    'isTopCategoriesType': function (_0x596ab7) {
+                        var _0x22fa57 = this['topCategoriesType'](_0x596ab7);
+                        return _0x550b('0x62') === _0x22fa57 || 'series' === _0x22fa57 || 'rising' === _0x22fa57 || 'newbook' === _0x22fa57 || 'newrating_publish' === _0x22fa57 || 'newrating_potential_publish' === _0x22fa57;
+                    },
+                    'filterHomePageCategories': function (_0x12f102) {
+                        var _0x1c8cc5 = this;
+                        return _0x12f102[_0x550b('0x86')](function (_0x3960a7) {
+                            var _0x162d5a = _0x1c8cc5[_0x550b('0x8')](_0x3960a7['CategoryId']);
+                            return 'general_novel_rising' !== _0x162d5a && 'hot_search' !== _0x162d5a;
+                        });
+                    }
+                }
             },
-            786: function (_0x24b413, _0x3b5040, _0x4765cc) {
-                'use strict';
-                var _0x1b482e = _0x1b0f7d(_0x4765cc(0x29))
-                    , _0x204a5d = _0x1b0f7d(_0x4765cc(0x50));
+            786: function (module, exports, require) {
+                let _0x1b482e = _0x1b0f7d(require(0x29)),
+                    _0x204a5d = _0x1b0f7d(require(0x50));
 
                 function _0x1b0f7d(_0x592d98) {
                     return _0x592d98 && _0x592d98[_0x550b('0xd1')] ? _0x592d98 : {
@@ -434,14 +425,14 @@ window.webpackJsonp.push(
                     };
                 }
 
-                var _0x4592cc = _0x4765cc(0xca)
-                    , _0x44d797 = _0x4765cc(0x5d3)
+                let _0x4592cc = require(0xca)
+                    , _0x44d797 = require(0x5d3)
                     , _0x3f1e2f = {
-                    'com': _0x4765cc(0x5dd)['com']
+                    'com': require(0x5dd)['com']
                 }
-                    , _0x14784b = _0x4765cc(0x5de)
-                    , _0x284cc3 = _0x4765cc(0x5df)['com']
-                    , _0x3283c0 = _0x4765cc(0x5e0)['util']
+                    , _0x14784b = require(0x5de)
+                    , _0x284cc3 = require(0x5df)['com']
+                    , _0x3283c0 = require(0x5e0)['util']
                     , _0x763013 = {
                     'unknown': _0x44d797[_0x550b('0x64')]['tencent'][_0x550b('0x74')]['pb']['WrBookUploadErrorType']['err_unknown_unknown'],
                     'err_get_credentials': _0x44d797['com']['tencent'][_0x550b('0x74')]['pb']['WrBookUploadErrorType']['err_get_credentials'],
@@ -457,7 +448,8 @@ window.webpackJsonp.push(
                     'err_parse_bad_network': _0x44d797[_0x550b('0x64')]['tencent']['wrbus']['pb'][_0x550b('0xf4')]['err_parse_bad_network'],
                     'err_parse_actively_timeout': _0x44d797['com']['tencent']['wrbus']['pb']['WrBookUploadErrorType']['err_parse_actively_timeout']
                 };
-                _0x24b413['exports'] = {
+
+                module.exports = {
                     'setProtoLog': function (_0x55282c, _0x48f11e) {
                         return _0x4592cc['post']('https://oss.weread.qq.com/river/single', {
                             'content': _0x55282c + ',\x20' + _0x48f11e
@@ -566,28 +558,25 @@ window.webpackJsonp.push(
                     'WrBookUploadErrorType': _0x763013
                 };
             },
-            788: function (_0x4b5a47, _0x349247, _0x3372bd) {
-                'use strict';
-                Object['defineProperty'](_0x349247, '__esModule', {
-                    'value': !0x0
-                });
-                _0x349247[_0x550b('0x7a')] = 0x3,
-                    _0x349247['ReviewListTypeBookFriendTop'] = 0x4,
-                    _0x349247['ReviewListTypeNote'] = 0xb;
+            788: function (module, exports, require) {
+                Object.defineProperty(exports, '__esModule', {value: true})
+
+                exports['ReviewListTypeBookTop'] = 3
+                exports['ReviewListTypeBookFriendTop'] = 4
+                exports['ReviewListTypeNote'] = 11
             },
-            789: function (_0x1081ec, _0x58e43f, _0x53bdad) {
-                'use strict';
-                Object['defineProperty'](_0x58e43f, '__esModule', {
-                    'value': !0x0
-                }),
-                    _0x58e43f['ChapterIdxRecommend'] = _0x58e43f['NoteTypeReview'] = _0x58e43f['NoteTypeBookmark'] = _0x58e43f['ReviewNote'] = _0x58e43f['BookmarkNote'] = _0x58e43f['Note'] = void 0x0;
-                var _0x539e51 = _0x363081(_0x53bdad(0x181))
-                    , _0x19a7bc = _0x363081(_0x53bdad(0x185))
-                    , _0xaa21ae = _0x363081(_0x53bdad(0x187))
-                    , _0x3ab073 = _0x363081(_0x53bdad(0x11b))
-                    , _0x458c08 = _0x363081(_0x53bdad(0x11c))
-                    , _0x576518 = _0x363081(_0x53bdad(0x480))
-                    , _0x2fcec3 = _0x363081(_0x53bdad(0x118))
+            789: function (module, exports, require) {
+                Object.defineProperty(exports, '__esModule', {value: true})
+
+                exports['ChapterIdxRecommend'] = exports['NoteTypeReview'] = exports['NoteTypeBookmark'] = exports['ReviewNote'] = exports['BookmarkNote'] = exports['Note'] = undefined;
+
+                let _0x539e51 = _0x363081(require(0x181))
+                    , _0x19a7bc = _0x363081(require(0x185))
+                    , _0xaa21ae = _0x363081(require(0x187))
+                    , _0x3ab073 = _0x363081(require(0x11b))
+                    , _0x458c08 = _0x363081(require(0x11c))
+                    , _0x576518 = _0x363081(require(0x480))
+                    , _0x2fcec3 = _0x363081(require(0x118))
                     , _0x1493eb = function (_0x15af9a) {
                     if (_0x15af9a && _0x15af9a[_0x550b('0xd1')])
                         return _0x15af9a;
@@ -597,7 +586,7 @@ window.webpackJsonp.push(
                             Object['prototype'][_0x550b('0xf2')]['call'](_0x15af9a, _0x15a968) && (_0x11c6bc[_0x15a968] = _0x15af9a[_0x15a968]);
                     return _0x11c6bc['default'] = _0x15af9a,
                         _0x11c6bc;
-                }(_0x53bdad(0x30c));
+                }(require(0x30c));
 
                 function _0x363081(_0x496afe) {
                     return _0x496afe && _0x496afe['__esModule'] ? _0x496afe : {
@@ -605,7 +594,7 @@ window.webpackJsonp.push(
                     };
                 }
 
-                var _0x58cc3f = Number['MAX_VALUE']
+                let _0x58cc3f = Number.MAX_VALUE
                     , _0x46859a = function () {
                     function _0x35b950(_0x90f74a) {
                         (0x0,
@@ -741,12 +730,13 @@ window.webpackJsonp.push(
                         _0xaa21ae['default'])(_0x57f3ea, _0x5a4cbe),
                         _0x57f3ea;
                 }(_0x46859a);
-                _0x58e43f['Note'] = _0x46859a,
-                    _0x58e43f['BookmarkNote'] = _0xcc7b97,
-                    _0x58e43f['ReviewNote'] = _0xe549c9,
-                    _0x58e43f['NoteTypeBookmark'] = 0x0,
-                    _0x58e43f['NoteTypeReview'] = 0x1,
-                    _0x58e43f['ChapterIdxRecommend'] = _0x58cc3f;
+
+                exports['Note'] = _0x46859a
+                exports['BookmarkNote'] = _0xcc7b97
+                exports['ReviewNote'] = _0xe549c9
+                exports['NoteTypeBookmark'] = 0
+                exports['NoteTypeReview'] = 1
+                exports['ChapterIdxRecommend'] = _0x58cc3f
             },
             796: function (_0x3da687, _0x11e8f0, _0x3f7fdf) {
                 'use strict';
