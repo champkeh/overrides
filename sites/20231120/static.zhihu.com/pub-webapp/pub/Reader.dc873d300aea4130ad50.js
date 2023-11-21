@@ -6999,44 +6999,55 @@ window.webpackJsonp.push(
                     ,
                     t.exports = c
             },
-            850: function (t, e, r) {
-                "use strict";
-                var n = r(773)
-                    , i = r(1132)
-                    , o = r(780)
-                    , a = r(774).Buffer
-                    , s = r(851)
-                    , c = r(824)
-                    , f = r(825)
-                    , u = a.alloc(128);
 
-                function h(t, e) {
-                    o.call(this, "digest"),
-                    "string" == typeof e && (e = a.from(e));
-                    var r = "sha512" === t || "sha384" === t ? 128 : 64;
-                    (this._alg = t,
-                        this._key = e,
-                    e.length > r) ? e = ("rmd160" === t ? new c : f(t)).update(e).digest() : e.length < r && (e = a.concat([e, u], r));
-                    for (var n = this._ipad = a.allocUnsafe(r), i = this._opad = a.allocUnsafe(r), s = 0; s < r; s++)
-                        n[s] = 54 ^ e[s],
-                            i[s] = 92 ^ e[s];
-                    this._hash = "rmd160" === t ? new c : f(t),
-                        this._hash.update(n)
+            // Hmac
+            850: function (module, exports, require) {
+                let n = require(773)
+                    , i = require(1132)
+                    , o = require(780)
+                    , Buffer = require(774).Buffer
+                    , s = require(851)
+                    , c = require(824)
+                    , f = require(825)
+                    , u = Buffer.alloc(128);
+
+                function h(alg, key) {
+                    o.call(this, "digest")
+                    "string" == typeof key && (key = Buffer.from(key));
+                    let r = "sha512" === alg || "sha384" === alg ? 128 : 64;
+                    this._alg = alg
+                    this._key = key
+                    if (key.length > r) {
+                        key = ("rmd160" === alg ? new c : f(alg)).update(key).digest()
+                    } else {
+                        key.length < r && (key = Buffer.concat([key, u], r))
+                    }
+
+                    for (var n = this._ipad = Buffer.allocUnsafe(r), i = this._opad = Buffer.allocUnsafe(r), s = 0; s < r; s++) {
+                        n[s] = 54 ^ key[s]
+                        i[s] = 92 ^ key[s]
+                    }
+                    this._hash = "rmd160" === alg ? new c : f(alg)
+                    this._hash.update(n)
                 }
 
-                n(h, o),
-                    h.prototype._update = function (t) {
-                        this._hash.update(t)
-                    }
-                    ,
-                    h.prototype._final = function () {
-                        var t = this._hash.digest();
-                        return ("rmd160" === this._alg ? new c : f(this._alg)).update(this._opad).update(t).digest()
-                    }
-                    ,
-                    t.exports = function (t, e) {
-                        return "rmd160" === (t = t.toLowerCase()) || "ripemd160" === t ? new h("rmd160", e) : "md5" === t ? new i(s, e) : new h(t, e)
-                    }
+                n(h, o)
+                h.prototype._update = function (t) {
+                    this._hash.update(t)
+                }
+                h.prototype._final = function () {
+                    var t = this._hash.digest();
+                    return ("rmd160" === this._alg ? new c : f(this._alg)).update(this._opad).update(t).digest()
+                }
+
+                module.exports = function (alg, key) {
+                    alg = alg.toLowerCase()
+                    return "rmd160" === alg || "ripemd160" === alg
+                        ? new h("rmd160", key)
+                        : "md5" === alg
+                            ? new i(s, key)
+                            : new h(alg, key)
+                }
             },
             851: function (t, e, r) {
                 var n = r(818);
@@ -12347,21 +12358,23 @@ window.webpackJsonp.push(
 
                     var clientId = "5774b305d2ae4469a2c9258956ea48";
 
-                    function l(isBinary, buffer, encoding) {
-                        let i, o;
+                    function l(transKey, buffer, encoding) {
+                        debugger
+
+                        let iv, data;
                         if ("string" == typeof buffer) {
                             let s = Buffer.from(buffer, "base64");
-                            i = Buffer.alloc(16)
-                            o = Buffer.alloc(s.length - 16)
-                            s.copy(i, 0, 0, 16)
-                            s.copy(o, 0, 16)
+                            iv = Buffer.alloc(16)
+                            data = Buffer.alloc(s.length - 16)
+                            s.copy(iv, 0, 0, 16)
+                            s.copy(data, 0, 16)
                         } else {
                             if (!(buffer instanceof Buffer))
                                 return "";
-                            i = buffer.slice(0, 16)
-                            o = buffer.slice(16)
+                            iv = buffer.slice(0, 16)
+                            data = buffer.slice(16)
                         }
-                        return Object(m1115.createDecipheriv)("aes-128-cfb8", isBinary, i).update(o, null, encoding)
+                        return Object(m1115.createDecipheriv)("aes-128-cfb8", transKey, iv).update(data, null, encoding)
                     }
 
                     function d(bookId, chapterUid) {
@@ -12383,14 +12396,14 @@ window.webpackJsonp.push(
                             let key = u.key,
                                 keyHash = u.keyHash,
                                 timestamp = Number(new Date),
-                                transKey = Object(m239.a)(16),
-                                m = function (key, transKey) {
+                                _transKey = Object(m239.a)(16),
+                                transKey = function (key, transKey) {
                                     let body = Buffer.alloc(128 - transKey.length);
                                     return Object(m1115.publicEncrypt)({
                                         key: key,
                                         padding: m1115.constants && m1115.constants.RSA_NO_PADDING || 3
                                     }, Buffer.concat([body, Buffer.from(transKey)])).toString("base64")
-                                }(key, transKey),
+                                }(key, _transKey),
                                 sign = function (arr) {
                                     let e = Object(m1115.createHmac)("sha1", "key"),
                                         r = true,
@@ -12414,13 +12427,13 @@ window.webpackJsonp.push(
                                         }
                                     }
                                     return e.digest("hex")
-                                }([chapterUid, m, clientId, timestamp, keyHash]),
+                                }([chapterUid, transKey, clientId, timestamp, keyHash]),
                                 y = {
                                     client_id: clientId,
                                     key_hash: keyHash,
                                     signature: sign,
                                     timestamp: timestamp,
-                                    trans_key: m
+                                    trans_key: transKey
                                 };
                             n = {
                                 body: o.a.stringify(y),
@@ -12429,7 +12442,7 @@ window.webpackJsonp.push(
                                 }
                             }
                             i = {
-                                transKey: transKey,
+                                transKey: _transKey,
                             }
                         }
 
@@ -12444,20 +12457,22 @@ window.webpackJsonp.push(
                         }, i)
                     }
 
-                    function b(bookId, chapterUid, url, isBinary) {
+                    function b(bookId, chapterUid, url, key) {
                         if (!(url = url.replace(/^http:/, "https:"))) {
                             throw new Error("A valid url must be set to fetch the chapter's HTML")
                         }
                         return m26.fetch(url).then((resp) => {
-                            return isBinary ? resp.blob() : resp.text()
+                            return key ? resp.blob() : resp.text()
                         }).then((content) => {
-                            return isBinary
+                            return key
                                 ? new Promise((resolve) => {
                                         let reader = new window.FileReader;
                                         reader.readAsArrayBuffer(content)
                                         reader.onload = function () {
+                                            debugger
+
                                             let buffer = Buffer.from(reader.result),
-                                                text = l(isBinary, buffer, "utf8");
+                                                text = l(key, buffer, "utf8");
                                             resolve({
                                                 type: m99.a.GET_HTML.success,
                                                 payload: text,
@@ -24115,27 +24130,23 @@ window.webpackJsonp.push(
                     }, {
                         key: "replaceAll",
                         value: function () {
-                            var t = this
-                                , e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : [];
-                            if (null === e && (e = []),
-                                Array.isArray(e)) {
-                                var r = Array.from(this.resourceMap.keys())
-                                    , n = Object(zt.difference)(r, e)
-                                    , i = Object(zt.difference)(e, r);
-                                n.forEach(function (e) {
-                                    return t.remove(e)
-                                });
-                                var o = i.map(function (e) {
-                                    return t.add(e)
-                                }).map(function (t) {
+                            let _this = this,
+                                e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : [];
+                            null === e && (e = [])
+                            if (Array.isArray(e)) {
+                                let r = Array.from(this.resourceMap.keys()),
+                                    n = Object(zt.difference)(r, e),
+                                    i = Object(zt.difference)(e, r);
+                                n.forEach((e) => {
+                                    return _this.remove(e)
+                                })
+                                let o = i.map((e) => _this.add(e)).map((t) => {
                                     return t.catch(function (t) {
                                         return t
                                     })
-                                });
-                                return Promise.all(o).then(function (t) {
-                                    var e = t.filter(function (t) {
-                                        return t && !t.loaded
-                                    });
+                                })
+                                return Promise.all(o).then((t) => {
+                                    let e = t.filter((t) => t && !t.loaded)
                                     return e.length > 0 ? Promise.reject(e) : Promise.resolve()
                                 })
                             }
@@ -24262,8 +24273,6 @@ window.webpackJsonp.push(
                         o = $t(e).call(this, t, r)
                         n = !o || "object" !== Yt(o) && "function" != typeof o ? Zt(_this) : o
                         Qt(Zt(Zt(n)), "loadContent", function (t) {
-                            debugger
-
                             let chapter = n.getChapter()
                                 , props = n.props
                                 , _bookInfo = props.book.bookInfo
@@ -24274,8 +24283,6 @@ window.webpackJsonp.push(
                                 , price = n.getCurrentPrice()
                                 , own = chapter.isOwn
                             let h = function () {
-                                debugger
-
                                 n.chapterUid || (n.chapterUid = chapter.chapterUid)
                                 if (!chapter.html) {
                                     let chapterUid = n.chapterUid;
@@ -24285,8 +24292,7 @@ window.webpackJsonp.push(
                                         })
                                         // 获取密钥
                                         : dispatch(Object(Dt.c)(token, chapterUid)).then((resp) => {
-                                            debugger
-
+debugger
                                             let payload = resp.payload
                                                 , key = payload.key
                                                 , keyHash = payload.keyHash;
@@ -24295,31 +24301,31 @@ window.webpackJsonp.push(
                                                 key: key,
                                                 keyHash: keyHash
                                             })).then((resp) => {
-                                                debugger
-
+debugger
                                                 let transKey = resp.transKey
-                                                    , n = resp.payload
-                                                    , htmlPath = n.htmlPath
-                                                    , o = n.key
-                                                    , cssPath = n.cssPath
-                                                    , accessReader = n.isAccessReader
-                                                    , u = void 0 !== accessReader && accessReader
-                                                    , message = n.message;
-                                                if (u) {
-                                                    var l = Ft.replaceAll(cssPath).catch((t) => {
-                                                            t.forEach(function (t) {
-                                                                b.a.captureException(t, {
-                                                                    logger: "pubReader",
-                                                                    level: "warning"
-                                                                }),
-                                                                    Ft.remove(t.href)
+                                                    , respData = resp.payload
+                                                    , htmlPath = respData.htmlPath
+                                                    , respKey = respData.key
+                                                    , cssPath = respData.cssPath
+                                                    , accessReader = respData.isAccessReader
+                                                    , isAccessReader = void 0 !== accessReader && accessReader
+                                                    , message = respData.message;
+                                                if (isAccessReader) {
+                                                    let l = Ft.replaceAll(cssPath).catch((t) => {
+                                                        t.forEach((t) => {
+                                                            b.a.captureException(t, {
+                                                                logger: "pubReader",
+                                                                level: "warning"
                                                             })
-                                                        }),
-                                                        d = Object(Dt.a)(transKey, o, "utf8"),
-                                                        p = Object(Dt.d)(token, chapterUid, htmlPath, d);
-                                                    Promise.all([p, l]).then((t) => {
-                                                        debugger
+                                                            Ft.remove(t.href)
+                                                        })
+                                                    })
 
+                                                    debugger
+
+                                                    let d = Object(Dt.a)(transKey, respKey, "utf8")
+                                                    let p = Object(Dt.d)(token, chapterUid, htmlPath, d);
+                                                    Promise.all([p, l]).then((t) => {
                                                         let e = Vt(t, 1)[0];
                                                         dispatch(e)
                                                     })
@@ -24340,8 +24346,6 @@ window.webpackJsonp.push(
                                 }
                             }
                             let l = function () {
-                                debugger
-
                                 let t = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {};
                                 t.lastUpdated
                                     ? dispatch(Object(Dt.f)(token, chapter, bookInfo.bookVersion, t.lastUpdated))
